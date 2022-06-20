@@ -2,19 +2,44 @@
 
 Fontbakery version: 0.8.9
 
-<details><summary><b>[17] NotoSansTest-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure the manufacturer is a known Noto manufacturer and the URL is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Noto Fonts>.html#com.google.fonts/check/name/noto_manufacturer">com.google.fonts/check/name/noto_manufacturer</a>)</summary><div>
+<details><summary><b>[16] NotoSansTest-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** The font contained no manufacturer name [code: no-manufacturer]
-* ⚠ **WARN** The font contained no designer URL [code: no-designer-urls]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure the designer is a known Noto designer. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Noto Fonts>.html#com.google.fonts/check/name/noto_designer">com.google.fonts/check/name/noto_designer</a>)</summary><div>
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x0030 (DIGIT ZERO)
 
 
-* 🔥 **FAIL** The font contained no designer name [code: no-designer]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check OS/2 achVendID is set to GOOG. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Noto Fonts>.html#com.google.fonts/check/os2/noto_vendor">com.google.fonts/check/os2/noto_vendor</a>)</summary><div>
+	- 0x0031 (DIGIT ONE)
 
 
-* 🔥 **FAIL** OS/2 VendorID is 'NONE', but should be 'GOOG'. [code: bad-vendor-id]
+	- 0x0032 (DIGIT TWO)
+
+
+	- 0x0033 (DIGIT THREE)
+
+
+	- 0x0034 (DIGIT FOUR)
+
+
+	- 0x0035 (DIGIT FIVE)
+
+
+	- 0x0036 (DIGIT SIX)
+
+
+	- 0x0037 (DIGIT SEVEN)
+
+
+	- 0x0038 (DIGIT EIGHT)
+
+
+	- 0x0039 (DIGIT NINE)
+ 
+
+	- And 321 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check license file has good copyright string. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_copyright">com.google.fonts/check/license/OFL_copyright</a>)</summary><div>
 
 
@@ -42,7 +67,11 @@ But instead we have got:
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansTest/hinted/ttf/NotoSansTest-Regular.ttf']. [code: missing-os2-fsselection-bit7]
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansTest/googlefonts/ttf/NotoSansTest-Regular.ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Sans Test [code: render-own-name]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
@@ -97,8 +126,8 @@ But instead we have got:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 11 | 6 | 127 | 7 | 91 | 0 |
-| 0% | 5% | 2% | 52% | 3% | 38% | 0% |
+| 0 | 10 | 6 | 123 | 8 | 88 | 0 |
+| 0% | 4% | 3% | 52% | 3% | 37% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
