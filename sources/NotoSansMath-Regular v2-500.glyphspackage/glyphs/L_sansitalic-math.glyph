@@ -1,0 +1,45 @@
+{
+glyphname = "Lsansitalic-math";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (222,0);
+},
+{
+name = center;
+pos = (277,357);
+},
+{
+name = math.ta;
+pos = (252,764);
+},
+{
+name = top;
+pos = (252,714);
+},
+{
+name = topright;
+pos = (460,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(403,0,l),
+(420,80,l),
+(146,80,l),
+(281,714,l),
+(192,714,l),
+(41,0,l)
+);
+}
+);
+width = 478;
+}
+);
+unicode = 120339;
+}

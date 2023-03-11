@@ -1,0 +1,16 @@
+{
+glyphname = horizontalbelow.x;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (0,-828);
+ref = horizontalabove.x;
+}
+);
+width = 600;
+}
+);
+}

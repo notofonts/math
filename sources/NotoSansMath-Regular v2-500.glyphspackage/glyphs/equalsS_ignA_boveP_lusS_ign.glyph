@@ -1,0 +1,48 @@
+{
+glyphname = equalsSignAbovePlusSign;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(322,-26,l),
+(322,458,l),
+(250,458,l),
+(250,-26,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(521,180,l),
+(521,251,l),
+(51,251,l),
+(51,180,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(521,501,l),
+(521,572,l),
+(51,572,l),
+(51,501,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(521,661,l),
+(521,732,l),
+(51,732,l),
+(51,661,l)
+);
+}
+);
+width = 572;
+}
+);
+unicode = 10865;
+}

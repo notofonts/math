@@ -1,0 +1,37 @@
+{
+glyphname = leftTriangleBesideVerticalBar;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(752,543,l),
+(51,353,l),
+(752,166,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(296,353,l),
+(685,451,l),
+(685,255,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(905,166,l),
+(905,543,l),
+(834,543,l),
+(834,166,l)
+);
+}
+);
+width = 956;
+}
+);
+unicode = 10703;
+}

@@ -1,0 +1,34 @@
+{
+glyphname = Zeta;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (297,0);
+},
+{
+name = math.ta;
+pos = (290,764);
+},
+{
+name = top;
+pos = (290,714);
+},
+{
+name = topright;
+pos = (552,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = Z;
+}
+);
+width = 572;
+}
+);
+unicode = 918;
+}

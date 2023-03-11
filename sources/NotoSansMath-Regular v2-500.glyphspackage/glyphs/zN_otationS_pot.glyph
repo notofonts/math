@@ -1,0 +1,35 @@
+{
+glyphname = zNotationSpot;
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (203,353);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(288,201,o),
+(355,269,o),
+(355,353,cs),
+(355,437,o),
+(287,505,o),
+(203,505,cs),
+(121,505,o),
+(51,438,o),
+(51,353,cs),
+(51,269,o),
+(120,201,o),
+(203,201,cs)
+);
+}
+);
+width = 406;
+}
+);
+unicode = 10625;
+}

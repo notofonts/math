@@ -1,0 +1,17 @@
+{
+glyphname = leftarrowbelow.s3;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 3;
+};
+ref = _part.leftarrowbelowcomb;
+}
+);
+width = 1482;
+}
+);
+}

@@ -1,0 +1,28 @@
+{
+color = 4;
+glyphname = lightFivePointedBlackStar;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(399,222,l),
+(617,21,l),
+(486,286,l),
+(749,433,l),
+(453,390,l),
+(399,685,l),
+(344,390,l),
+(49,433,l),
+(310,286,l),
+(181,21,l)
+);
+}
+);
+width = 800;
+}
+);
+unicode = 128969;
+}

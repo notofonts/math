@@ -1,0 +1,26 @@
+{
+color = 4;
+glyphname = "Epsilonitalic-math";
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (654,250);
+},
+{
+name = math.ta;
+pos = (407,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "Eitalic-math";
+}
+);
+width = 623;
+}
+);
+unicode = 120550;
+}

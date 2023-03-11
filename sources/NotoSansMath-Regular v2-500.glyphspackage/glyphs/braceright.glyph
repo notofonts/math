@@ -1,0 +1,71 @@
+{
+glyphname = braceright;
+kernLeft = Paren.right;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = _part.braceright;
+}
+);
+width = 380;
+}
+);
+unicode = 125;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+rightcurlybracketlowerhook,
+0,
+0,
+1100
+),
+(
+curlybracketextension,
+1,
+1362,
+1362
+),
+(
+rightcurlybracketmiddlepiece,
+0,
+500,
+500
+),
+(
+curlybracketextension,
+1,
+1362,
+1362
+),
+(
+rightcurlybracketupperhook,
+0,
+1100,
+0
+)
+);
+vVariants = (
+braceright,
+braceright.s1,
+braceright.s2,
+braceright.s3,
+braceright.s4,
+braceright.s5,
+braceright.s6,
+braceright.s7,
+braceright.s8,
+braceright.s9,
+braceright.s10,
+braceright.s11,
+braceright.s12
+);
+};
+};
+}

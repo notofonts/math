@@ -1,0 +1,23 @@
+{
+glyphname = topLeftCorner;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(122,346,l),
+(122,643,l),
+(391,643,l),
+(391,714,l),
+(51,714,l),
+(51,346,l)
+);
+}
+);
+width = 442;
+}
+);
+unicode = 8988;
+}

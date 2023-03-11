@@ -1,0 +1,69 @@
+{
+export = 0;
+glyphname = _part.nAryWhiteVerticalBar;
+layers = (
+{
+layerId = master01;
+partSelection = {
+Size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(334,-123,l),
+(334,723,l),
+(51,723,l),
+(51,-123,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(102,672,l),
+(283,672,l),
+(283,-72,l),
+(102,-72,l)
+);
+}
+);
+width = 385;
+},
+{
+associatedMasterId = master01;
+layerId = "58ECB4C5-B379-47CF-94CD-8E910E20AA48";
+name = "Regular-Large";
+partSelection = {
+Size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(376,-335,l),
+(376,935,l),
+(51,935,l),
+(51,-335,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(105,881,l),
+(322,881,l),
+(322,-281,l),
+(105,-281,l)
+);
+}
+);
+width = 427;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = Size;
+topValue = 2;
+}
+);
+}

@@ -1,0 +1,15 @@
+{
+color = 4;
+glyphname = Lscript.ssty2;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "Lboldscript-math";
+}
+);
+width = 865;
+}
+);
+}

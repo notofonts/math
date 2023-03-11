@@ -1,0 +1,29 @@
+{
+glyphname = verticalBarDoubleLeftTurnstile;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(705,26,l),
+(705,680,l),
+(634,680,l),
+(634,505,l),
+(51,505,l),
+(51,434,l),
+(634,434,l),
+(634,272,l),
+(51,272,l),
+(51,201,l),
+(634,201,l),
+(634,26,l)
+);
+}
+);
+width = 756;
+}
+);
+unicode = 10980;
+}

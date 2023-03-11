@@ -1,0 +1,35 @@
+{
+glyphname = "Kappasansbold-math";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (370,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(222,0,l),
+(222,253,l),
+(299,329,l),
+(533,0,l),
+(714,0,l),
+(401,428,l),
+(688,719,l),
+(503,719,l),
+(222,424,l),
+(222,719,l),
+(74,719,l),
+(74,0,l)
+);
+}
+);
+width = 703;
+}
+);
+unicode = 120671;
+}

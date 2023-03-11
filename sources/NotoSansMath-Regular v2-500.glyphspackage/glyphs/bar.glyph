@@ -1,0 +1,44 @@
+{
+color = 4;
+glyphname = bar;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(253,-175,l),
+(253,825,l),
+(180,825,l),
+(180,-175,l)
+);
+}
+);
+userData = {
+com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = "=|";
+};
+width = 433;
+}
+);
+unicode = 124;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+bar,
+1,
+900,
+900
+),
+(
+bar,
+0,
+900,
+900
+)
+);
+};
+};
+}

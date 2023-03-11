@@ -1,0 +1,24 @@
+{
+glyphname = nArySquareIntersectionOperator.s1;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(122,-514,l),
+(122,1065,l),
+(1274,1065,l),
+(1274,-514,l),
+(1345,-514,l),
+(1345,1136,l),
+(51,1136,l),
+(51,-514,l)
+);
+}
+);
+width = 1396;
+}
+);
+}

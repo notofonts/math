@@ -1,0 +1,36 @@
+{
+glyphname = IdoubleStruck;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (163,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(250,0,l),
+(250,714,l),
+(77,714,l),
+(77,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(130,661,l),
+(197,661,l),
+(197,53,l),
+(130,53,l)
+);
+}
+);
+width = 327;
+}
+);
+unicode = 120128;
+}

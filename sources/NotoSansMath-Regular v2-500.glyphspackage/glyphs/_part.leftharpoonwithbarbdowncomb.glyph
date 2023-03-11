@@ -1,0 +1,48 @@
+{
+export = 0;
+glyphname = _part.leftharpoonwithbarbdowncomb;
+layers = (
+{
+layerId = master01;
+partSelection = {
+Size = 1;
+};
+shapes = (
+{
+alignment = -1;
+pos = (0,572);
+ref = _part.leftharpoonabovecomb;
+scale = (1,-1);
+}
+);
+width = 374;
+},
+{
+associatedMasterId = master01;
+layerId = "5B40D33F-D060-47E1-9485-0FAA0E668579";
+name = "Regular-Large";
+partSelection = {
+Size = 2;
+};
+shapes = (
+{
+alignment = -1;
+piece = {
+Size = 5;
+};
+pos = (0,572);
+ref = _part.leftharpoonabovecomb;
+scale = (1,-1);
+}
+);
+width = 2174;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = Size;
+topValue = 5;
+}
+);
+}

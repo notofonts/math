@@ -1,0 +1,46 @@
+{
+glyphname = "stretchedjeemArabic-math";
+layers = (
+{
+anchors = (
+{
+name = mark0;
+pos = (592,555);
+},
+{
+name = mark1;
+pos = (688,28);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(812,15,o),
+(846,53,o),
+(859,72,c),
+(837,92,o),
+(818,111,o),
+(793,138,c),
+(775,117,o),
+(748,88,o),
+(723,64,c),
+(744,41,o),
+(770,18,o),
+(795,-1,c)
+);
+},
+{
+ref = "stretchedhahArabic-math";
+}
+);
+userData = {
+com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = "stretcheddotlessbehArabic-math";
+com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = "stretchedhahArabic-math";
+};
+width = 1028;
+}
+);
+unicode = 126562;
+}

@@ -1,0 +1,22 @@
+{
+color = 4;
+glyphname = "omicronbold-math";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (306,586);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "obold-math";
+}
+);
+width = 613;
+}
+);
+unicode = 120528;
+}

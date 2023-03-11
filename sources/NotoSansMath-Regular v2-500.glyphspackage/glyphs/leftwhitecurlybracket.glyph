@@ -1,0 +1,70 @@
+{
+glyphname = leftwhitecurlybracket;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = _part.leftwhitecurlybracket;
+}
+);
+width = 541;
+}
+);
+unicode = 10627;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+leftwhitecurlybracket.b,
+0,
+0,
+600
+),
+(
+leftwhitecurlybracket.x,
+1,
+1680,
+1680
+),
+(
+leftwhitecurlybracket.m,
+0,
+600,
+600
+),
+(
+leftwhitecurlybracket.x,
+1,
+1680,
+1680
+),
+(
+leftwhitecurlybracket.t,
+0,
+600,
+0
+)
+);
+vVariants = (
+leftwhitecurlybracket,
+leftwhitecurlybracket.s1,
+leftwhitecurlybracket.s2,
+leftwhitecurlybracket.s3,
+leftwhitecurlybracket.s4,
+leftwhitecurlybracket.s5,
+leftwhitecurlybracket.s6,
+leftwhitecurlybracket.s7,
+leftwhitecurlybracket.s8,
+leftwhitecurlybracket.s9,
+leftwhitecurlybracket.s10,
+leftwhitecurlybracket.s11,
+leftwhitecurlybracket.s12
+);
+};
+};
+}

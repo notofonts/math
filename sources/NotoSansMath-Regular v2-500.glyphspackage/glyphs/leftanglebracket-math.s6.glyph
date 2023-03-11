@@ -1,0 +1,17 @@
+{
+glyphname = "leftanglebracket-math.s6";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 6;
+};
+ref = "_part.leftanglebracket-math";
+}
+);
+width = 638;
+}
+);
+}

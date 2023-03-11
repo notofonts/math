@@ -1,0 +1,39 @@
+{
+color = 4;
+glyphname = vdoubleStruck.ssty2;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (309,586);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(471,0,l),
+(731,536,l),
+(648,536,l),
+(435,97,l),
+(227,536,l),
+(5,536,l),
+(266,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(124,463,l),
+(180,463,l),
+(369,73,l),
+(312,73,l)
+);
+}
+);
+width = 736;
+}
+);
+}

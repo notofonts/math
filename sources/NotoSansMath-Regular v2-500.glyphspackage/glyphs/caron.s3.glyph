@@ -1,0 +1,27 @@
+{
+glyphname = caron.s3;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (878,536);
+},
+{
+name = math.ta;
+pos = (878,486);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (0,1366);
+ref = circumflex.s3;
+scale = (1,-1);
+}
+);
+width = 1751;
+}
+);
+}

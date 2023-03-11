@@ -1,0 +1,46 @@
+{
+color = 1;
+glyphname = brevebelowcomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (180,0);
+},
+{
+name = bottom;
+pos = (180,-187);
+},
+{
+name = math.ta;
+pos = (180,50);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(274,-187,o),
+(329,-133,o),
+(336,-53,c),
+(281,-53,l),
+(274,-105,o),
+(232,-116,o),
+(180,-116,cs),
+(119,-116,o),
+(85,-108,o),
+(79,-53,c),
+(25,-53,l),
+(30,-135,o),
+(79,-187,o),
+(178,-187,cs)
+);
+}
+);
+width = 361;
+}
+);
+unicode = 814;
+}

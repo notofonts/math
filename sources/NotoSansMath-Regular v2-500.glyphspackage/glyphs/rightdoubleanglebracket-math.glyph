@@ -1,0 +1,38 @@
+{
+glyphname = "rightdoubleanglebracket-math";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = "_part.rightdoubleanglebracket-math";
+}
+);
+width = 556;
+}
+);
+unicode = 10219;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+"rightdoubleanglebracket-math",
+"rightdoubleanglebracket-math.s1",
+"rightdoubleanglebracket-math.s2",
+"rightdoubleanglebracket-math.s3",
+"rightdoubleanglebracket-math.s4",
+"rightdoubleanglebracket-math.s5",
+"rightdoubleanglebracket-math.s6",
+"rightdoubleanglebracket-math.s7",
+"rightdoubleanglebracket-math.s8",
+"rightdoubleanglebracket-math.s9",
+"rightdoubleanglebracket-math.s10",
+"rightdoubleanglebracket-math.s11",
+"rightdoubleanglebracket-math.s12"
+);
+};
+};
+}

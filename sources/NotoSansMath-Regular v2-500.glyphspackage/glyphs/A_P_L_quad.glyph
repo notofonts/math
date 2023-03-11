@@ -1,0 +1,30 @@
+{
+glyphname = APLquad;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(649,-102,l),
+(649,816,l),
+(79,816,l),
+(79,-102,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,745,l),
+(578,745,l),
+(578,-31,l),
+(150,-31,l)
+);
+}
+);
+width = 728;
+}
+);
+unicode = 9109;
+}

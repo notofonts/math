@@ -1,0 +1,62 @@
+{
+glyphname = "Dsansitalic-math";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (277,0);
+},
+{
+name = center;
+pos = (372,357);
+},
+{
+name = math.ta;
+pos = (429,764);
+},
+{
+name = top;
+pos = (429,714);
+},
+{
+name = topright;
+pos = (742,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(217,0,ls),
+(487,0,o),
+(636,181,o),
+(636,429,cs),
+(636,622,o),
+(533,714,o),
+(361,714,cs),
+(192,714,l),
+(41,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(265,637,l),
+(350,637,ls),
+(466,637,o),
+(542,576,o),
+(542,430,cs),
+(542,231,o),
+(429,77,o),
+(222,77,cs),
+(146,77,l)
+);
+}
+);
+width = 667;
+}
+);
+unicode = 120331;
+}

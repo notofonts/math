@@ -1,0 +1,22 @@
+{
+color = 4;
+glyphname = Upsilon.ssty2;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (324,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = Y.ssty2;
+}
+);
+width = 650;
+}
+);
+}

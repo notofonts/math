@@ -1,0 +1,90 @@
+{
+export = 0;
+glyphname = _part.fourthroot;
+layers = (
+{
+layerId = master01;
+partSelection = {
+Size = 1;
+};
+shapes = (
+{
+ref = _part.radical;
+},
+{
+closed = 1;
+nodes = (
+(358,482,l),
+(358,562,l),
+(408,562,l),
+(408,615,l),
+(358,615,l),
+(358,843,l),
+(294,843,l),
+(129,607,l),
+(129,562,l),
+(292,562,l),
+(292,482,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(295,772,l),
+(295,615,l),
+(194,615,l)
+);
+}
+);
+width = 605;
+},
+{
+associatedMasterId = master01;
+layerId = "B5882333-6064-4315-BD39-FFE965BB9E9B";
+name = "Regular-Large";
+partSelection = {
+Size = 2;
+};
+shapes = (
+{
+piece = {
+Size = 3;
+};
+ref = _part.radical;
+},
+{
+closed = 1;
+nodes = (
+(458,872,l),
+(458,952,l),
+(508,952,l),
+(508,1005,l),
+(458,1005,l),
+(458,1233,l),
+(394,1233,l),
+(229,997,l),
+(229,952,l),
+(392,952,l),
+(392,872,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(395,1162,l),
+(395,1005,l),
+(294,1005,l)
+);
+}
+);
+width = 970;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = Size;
+topValue = 4;
+}
+);
+}

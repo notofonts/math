@@ -1,0 +1,30 @@
+{
+glyphname = toptortoiseshellbracket;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = _part.toptortoiseshellbracket;
+}
+);
+width = 1710;
+}
+);
+unicode = 9184;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hVariants = (
+toptortoiseshellbracket,
+toptortoiseshellbracket.s1,
+toptortoiseshellbracket.s2,
+toptortoiseshellbracket.s3,
+toptortoiseshellbracket.s4,
+toptortoiseshellbracket.s5
+);
+};
+};
+}

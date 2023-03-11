@@ -1,0 +1,25 @@
+{
+glyphname = coproduct.s1;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(51,-240,l),
+(1001,-240,l),
+(1001,1410,l),
+(901,1410,l),
+(901,-147,l),
+(151,-147,l),
+(151,1410,l),
+(51,1410,l)
+);
+}
+);
+width = 1052;
+}
+);
+metricRight = "=|";
+}

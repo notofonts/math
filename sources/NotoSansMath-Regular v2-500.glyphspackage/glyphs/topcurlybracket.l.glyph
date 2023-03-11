@@ -1,0 +1,16 @@
+{
+glyphname = topcurlybracket.l;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+pos = (0,530);
+ref = bottomcurlybracket.l;
+scale = (1,-1);
+}
+);
+width = 781;
+}
+);
+}

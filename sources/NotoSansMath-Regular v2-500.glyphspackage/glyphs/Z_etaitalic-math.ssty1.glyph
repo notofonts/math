@@ -1,0 +1,23 @@
+{
+color = 4;
+glyphname = "Zetaitalic-math.ssty1";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (492,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "Zitalic-math.ssty1";
+}
+);
+width = 757;
+}
+);
+metricLeft = "Zitalic-math.ssty";
+metricRight = "Zitalic-math.ssty";
+}

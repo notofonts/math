@@ -1,0 +1,54 @@
+{
+glyphname = lessThanAboveSlantedEqualAboveGreaterThanAboveSlantedEqual;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(521,554,l),
+(159,675,l),
+(521,797,l),
+(521,870,l),
+(51,700,l),
+(51,650,l),
+(521,481,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(521,-5,l),
+(521,67,l),
+(51,-102,l),
+(51,-174,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(521,164,l),
+(521,214,l),
+(51,384,l),
+(51,311,l),
+(413,189,l),
+(51,68,l),
+(51,-5,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(521,384,l),
+(51,553,l),
+(51,481,l),
+(521,312,l)
+);
+}
+);
+width = 572;
+}
+);
+unicode = 10899;
+}

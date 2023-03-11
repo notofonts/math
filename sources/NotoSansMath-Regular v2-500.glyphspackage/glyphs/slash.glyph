@@ -1,0 +1,30 @@
+{
+glyphname = slash;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = _part.slash;
+}
+);
+width = 372;
+}
+);
+unicode = 47;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+slash,
+slash.s1,
+slash.s2,
+slash.s3,
+slash.s4
+);
+};
+};
+}

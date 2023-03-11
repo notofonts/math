@@ -1,0 +1,23 @@
+{
+glyphname = obliqueAngleOpeningDown;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(296,343,l),
+(569,343,l),
+(569,414,l),
+(266,414,l),
+(51,200,l),
+(101,150,l)
+);
+}
+);
+width = 620;
+}
+);
+unicode = 10663;
+}

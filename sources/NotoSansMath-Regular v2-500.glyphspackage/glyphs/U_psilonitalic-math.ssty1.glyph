@@ -1,0 +1,21 @@
+{
+color = 4;
+glyphname = "Upsilonitalic-math.ssty1";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (440,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "Yitalic-math.ssty1";
+}
+);
+width = 703;
+}
+);
+}

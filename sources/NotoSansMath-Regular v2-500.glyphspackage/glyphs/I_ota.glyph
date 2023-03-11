@@ -1,0 +1,36 @@
+{
+glyphname = Iota;
+kernLeft = Iota;
+kernRight = Iota;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (170,0);
+},
+{
+name = math.ta;
+pos = (170,764);
+},
+{
+name = top;
+pos = (170,714);
+},
+{
+name = topright;
+pos = (319,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = I;
+}
+);
+width = 339;
+}
+);
+unicode = 921;
+}

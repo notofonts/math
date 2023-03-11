@@ -1,0 +1,21 @@
+{
+glyphname = "fallingDiagonal-math";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(809,-122,l),
+(151,536,l),
+(46,536,l),
+(704,-122,l)
+);
+}
+);
+width = 855;
+}
+);
+unicode = 10189;
+}

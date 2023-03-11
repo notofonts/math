@@ -1,0 +1,29 @@
+{
+glyphname = upDoubleArrow.x;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(263,0,l),
+(263,600,l),
+(209,600,l),
+(209,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(405,0,l),
+(405,600,l),
+(351,600,l),
+(351,0,l)
+);
+}
+);
+width = 614;
+}
+);
+}

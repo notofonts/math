@@ -1,0 +1,17 @@
+{
+glyphname = bracketright.s1;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 1;
+};
+ref = _part.bracketright;
+}
+);
+width = 343;
+}
+);
+}

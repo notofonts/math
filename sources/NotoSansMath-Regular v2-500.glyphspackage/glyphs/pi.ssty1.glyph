@@ -1,0 +1,51 @@
+{
+color = 4;
+glyphname = pi.ssty1;
+kernLeft = pi.ssty;
+kernRight = pi.ssty;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (316,586);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(623,-10,o),
+(661,1,o),
+(680,13,c),
+(680,108,l),
+(664,99,o),
+(644,93,o),
+(623,93,cs),
+(597,93,o),
+(577,109,o),
+(577,146,cs),
+(577,445,l),
+(689,445,l),
+(689,543,l),
+(21,543,l),
+(21,445,l),
+(133,445,l),
+(133,0,l),
+(263,0,l),
+(263,445,l),
+(447,445,l),
+(447,140,ls),
+(447,36,o),
+(499,-10,o),
+(585,-10,cs)
+);
+}
+);
+width = 728;
+}
+);
+metricLeft = tau.ssty;
+metricRight = tau.ssty;
+}

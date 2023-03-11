@@ -1,0 +1,17 @@
+{
+glyphname = topsquarebracket.s1;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 1;
+};
+ref = _part.topsquarebracket;
+}
+);
+width = 1202;
+}
+);
+}

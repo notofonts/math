@@ -1,0 +1,47 @@
+{
+glyphname = "Esansbold-math";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (303,0);
+},
+{
+name = math.ta;
+pos = (301,764);
+},
+{
+name = top;
+pos = (301,714);
+},
+{
+name = topright;
+pos = (540,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(501,0,l),
+(501,125,l),
+(241,125,l),
+(241,309,l),
+(483,309,l),
+(483,433,l),
+(241,433,l),
+(241,590,l),
+(501,590,l),
+(501,714,l),
+(90,714,l),
+(90,0,l)
+);
+}
+);
+width = 560;
+}
+);
+unicode = 120280;
+}

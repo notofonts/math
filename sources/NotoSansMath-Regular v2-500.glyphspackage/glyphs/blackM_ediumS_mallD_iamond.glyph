@@ -1,0 +1,28 @@
+{
+color = 4;
+glyphname = blackMediumSmallDiamond;
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (269,358);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(487,357,l),
+(269,576,l),
+(51,357,l),
+(269,140,l)
+);
+}
+);
+width = 538;
+}
+);
+unicode = 128921;
+}

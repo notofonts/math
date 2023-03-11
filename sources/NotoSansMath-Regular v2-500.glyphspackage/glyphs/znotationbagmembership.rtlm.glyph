@@ -1,0 +1,28 @@
+{
+glyphname = znotationbagmembership.rtlm;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(638,644,l),
+(51,644,l),
+(51,573,l),
+(564,573,l),
+(564,389,l),
+(51,389,l),
+(51,318,l),
+(564,318,l),
+(564,133,l),
+(51,133,l),
+(51,62,l),
+(638,62,l)
+);
+}
+);
+width = 689;
+}
+);
+}

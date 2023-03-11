@@ -1,0 +1,50 @@
+{
+glyphname = topparenthesis;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = _part.topparenthesis;
+}
+);
+width = 1140;
+}
+);
+unicode = 9180;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hAssembly = (
+(
+topparenthesis.l,
+0,
+0,
+250
+),
+(
+topparenthesis.x,
+1,
+800,
+800
+),
+(
+topparenthesis.r,
+0,
+250,
+0
+)
+);
+hVariants = (
+topparenthesis,
+topparenthesis.s1,
+topparenthesis.s2,
+topparenthesis.s3,
+topparenthesis.s4,
+topparenthesis.s5
+);
+};
+};
+}

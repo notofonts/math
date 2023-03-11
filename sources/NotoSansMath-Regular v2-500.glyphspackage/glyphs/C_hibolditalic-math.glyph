@@ -1,0 +1,26 @@
+{
+color = 4;
+glyphname = "Chibolditalic-math";
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (817,250);
+},
+{
+name = math.ta;
+pos = (461,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "Xbolditalic-math";
+}
+);
+width = 732;
+}
+);
+unicode = 120626;
+}

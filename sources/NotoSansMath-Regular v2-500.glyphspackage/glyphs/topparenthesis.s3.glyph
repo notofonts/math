@@ -1,0 +1,17 @@
+{
+glyphname = topparenthesis.s3;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 3;
+};
+ref = _part.topparenthesis;
+}
+);
+width = 2856;
+}
+);
+}

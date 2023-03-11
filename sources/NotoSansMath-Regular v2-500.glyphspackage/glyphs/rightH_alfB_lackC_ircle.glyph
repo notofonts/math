@@ -1,0 +1,25 @@
+{
+color = 4;
+glyphname = rightHalfBlackCircle;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(620,-10,o),
+(786,154,o),
+(786,357,cs),
+(786,560,o),
+(622,724,o),
+(419,724,c),
+(419,-10,l)
+);
+}
+);
+width = 838;
+}
+);
+unicode = 9687;
+}

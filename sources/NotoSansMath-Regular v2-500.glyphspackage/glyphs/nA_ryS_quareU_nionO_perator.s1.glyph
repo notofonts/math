@@ -1,0 +1,24 @@
+{
+glyphname = nArySquareUnionOperator.s1;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1345,-514,l),
+(1345,1136,l),
+(1274,1136,l),
+(1274,-443,l),
+(122,-443,l),
+(122,1136,l),
+(51,1136,l),
+(51,-514,l)
+);
+}
+);
+width = 1396;
+}
+);
+}

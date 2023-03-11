@@ -1,0 +1,16 @@
+{
+color = 4;
+glyphname = minus.ssty2;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = hyphen.ssty2;
+}
+);
+width = 326;
+}
+);
+}

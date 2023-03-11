@@ -1,0 +1,45 @@
+{
+glyphname = leftHarpoonWithBarbDownBelowLongDash;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(743,431,l),
+(743,485,l),
+(51,485,l),
+(51,431,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(262,84,l),
+(235,142,o),
+(208,186,o),
+(182,212,c),
+(182,259,l),
+(51,259,l),
+(51,221,l),
+(109,192,o),
+(165,146,o),
+(218,84,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(743,205,l),
+(743,259,l),
+(152,259,l),
+(152,205,l)
+);
+}
+);
+width = 794;
+}
+);
+unicode = 10603;
+}

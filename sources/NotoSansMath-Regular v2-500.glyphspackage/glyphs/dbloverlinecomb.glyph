@@ -1,0 +1,45 @@
+{
+color = 1;
+glyphname = dbloverlinecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (232,536);
+},
+{
+name = math.ta;
+pos = (232,486);
+},
+{
+name = top;
+pos = (233,808);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(440,744,l),
+(440,808,l),
+(25,808,l),
+(25,744,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(440,612,l),
+(440,676,l),
+(25,676,l),
+(25,612,l)
+);
+}
+);
+width = 465;
+}
+);
+unicode = 831;
+}

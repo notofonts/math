@@ -1,0 +1,27 @@
+{
+glyphname = reversedDoubleStrokeNotSign;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(122,181,l),
+(122,248,l),
+(521,248,l),
+(521,319,l),
+(122,319,l),
+(122,370,l),
+(521,370,l),
+(521,441,l),
+(51,441,l),
+(51,181,l)
+);
+}
+);
+width = 572;
+}
+);
+unicode = 10989;
+}

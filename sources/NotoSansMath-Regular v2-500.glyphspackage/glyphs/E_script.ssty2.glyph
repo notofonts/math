@@ -1,0 +1,21 @@
+{
+color = 4;
+glyphname = Escript.ssty2;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (510,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "Eboldscript-math";
+}
+);
+width = 655;
+}
+);
+}

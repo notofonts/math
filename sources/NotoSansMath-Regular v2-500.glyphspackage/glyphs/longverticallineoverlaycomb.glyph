@@ -1,0 +1,27 @@
+{
+glyphname = longverticallineoverlaycomb;
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (0,268);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(45,-178,l),
+(45,714,l),
+(-45,714,l),
+(-45,-178,l)
+);
+}
+);
+width = 0;
+}
+);
+unicode = 8402;
+}

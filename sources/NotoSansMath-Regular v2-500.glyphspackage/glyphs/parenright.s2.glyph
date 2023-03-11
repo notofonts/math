@@ -1,0 +1,17 @@
+{
+glyphname = parenright.s2;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 2;
+};
+ref = _part.parenright;
+}
+);
+width = 394;
+}
+);
+}

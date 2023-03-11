@@ -1,0 +1,45 @@
+{
+glyphname = "zsans-math";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (242,0);
+},
+{
+name = math.ta;
+pos = (235,586);
+},
+{
+name = top;
+pos = (235,536);
+},
+{
+name = topright;
+pos = (430,536);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(431,0,l),
+(431,68,l),
+(140,68,l),
+(424,470,l),
+(424,536,l),
+(56,536,l),
+(56,468,l),
+(327,468,l),
+(39,58,l),
+(39,0,l)
+);
+}
+);
+width = 470;
+}
+);
+unicode = 120275;
+}

@@ -1,0 +1,17 @@
+{
+glyphname = leftwhitecurlybracket.s4;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 4;
+};
+ref = _part.leftwhitecurlybracket;
+}
+);
+width = 571;
+}
+);
+}

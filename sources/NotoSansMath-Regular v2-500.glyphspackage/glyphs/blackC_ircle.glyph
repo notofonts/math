@@ -1,0 +1,36 @@
+{
+color = 4;
+glyphname = blackCircle;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (419,357);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(620,-10,o),
+(786,154,o),
+(786,357,cs),
+(786,560,o),
+(622,724,o),
+(419,724,cs),
+(216,724,o),
+(52,560,o),
+(52,357,cs),
+(52,154,o),
+(216,-10,o),
+(419,-10,cs)
+);
+}
+);
+width = 838;
+}
+);
+unicode = 9679;
+}

@@ -1,0 +1,22 @@
+{
+glyphname = orthogonal.rtlm;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(601,550,l),
+(530,550,l),
+(530,71,l),
+(51,71,l),
+(51,0,l),
+(601,0,l)
+);
+}
+);
+width = 652;
+}
+);
+}

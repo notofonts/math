@@ -1,0 +1,22 @@
+{
+color = 4;
+glyphname = Zeta.ssty2;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (346,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = Z.ssty2;
+}
+);
+width = 627;
+}
+);
+}

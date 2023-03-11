@@ -1,0 +1,42 @@
+{
+color = 4;
+glyphname = slashlongcomb;
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (214,357);
+},
+{
+name = math.ta;
+pos = (214,326);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = _part.slashlongcomb;
+}
+);
+width = 428;
+}
+);
+unicode = 824;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+slashlongcomb,
+slashlong.s1,
+slashlong.s2,
+slashlong.s3,
+slashlong.s4,
+slashlong.s5
+);
+};
+};
+}

@@ -1,0 +1,24 @@
+{
+color = 4;
+glyphname = "omicronitalic-math.ssty1";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (364,586);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = "oitalic-math.ssty1";
+}
+);
+width = 604;
+}
+);
+metricLeft = "oitalic-math.ssty";
+metricRight = "oitalic-math.ssty";
+}

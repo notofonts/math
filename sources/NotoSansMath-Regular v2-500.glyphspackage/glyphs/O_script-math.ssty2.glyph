@@ -1,0 +1,21 @@
+{
+color = 4;
+glyphname = "Oscript-math.ssty2";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (618,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "Oboldscript-math";
+}
+);
+width = 785;
+}
+);
+}

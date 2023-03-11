@@ -1,0 +1,32 @@
+{
+color = 0;
+export = 0;
+glyphname = enclosingsquarecomb;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1033,-134,l),
+(1033,848,l),
+(51,848,l),
+(51,-134,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(102,797,l),
+(982,797,l),
+(982,-83,l),
+(102,-83,l)
+);
+}
+);
+width = 1084;
+}
+);
+unicode = 8414;
+}

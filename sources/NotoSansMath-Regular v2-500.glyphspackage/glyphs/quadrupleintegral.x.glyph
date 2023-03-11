@@ -1,0 +1,31 @@
+{
+glyphname = quadrupleintegral.x;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = integralextension;
+},
+{
+alignment = -1;
+pos = (289,0);
+ref = integralextension;
+},
+{
+alignment = -1;
+pos = (578,0);
+ref = integralextension;
+},
+{
+alignment = -1;
+pos = (867,0);
+ref = integralextension;
+}
+);
+width = 1254;
+}
+);
+metricRight = "=|";
+}

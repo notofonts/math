@@ -1,0 +1,32 @@
+{
+glyphname = znotationleftbindingbracket;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(289,-102,l),
+(289,770,l),
+(195,770,l),
+(51,363,l),
+(51,299,l),
+(195,-102,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(121,318,l),
+(121,344,l),
+(224,658,l),
+(224,18,l)
+);
+}
+);
+width = 340;
+}
+);
+unicode = 10633;
+}

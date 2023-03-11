@@ -1,0 +1,23 @@
+{
+color = 4;
+glyphname = "Betabolditalic-math";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (431,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = "Bbolditalic-math";
+}
+);
+width = 672;
+}
+);
+unicode = 120605;
+}

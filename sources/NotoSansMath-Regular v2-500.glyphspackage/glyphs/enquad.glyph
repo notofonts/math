@@ -1,0 +1,12 @@
+{
+color = 4;
+glyphname = enquad;
+layers = (
+{
+layerId = master01;
+width = 500;
+}
+);
+metricWidth = "=500";
+unicode = 8192;
+}

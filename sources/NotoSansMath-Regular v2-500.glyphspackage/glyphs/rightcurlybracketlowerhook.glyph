@@ -1,0 +1,41 @@
+{
+glyphname = rightcurlybracketlowerhook;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+pos = (468,0);
+ref = leftcurlybracketlowerhook;
+scale = (-1,1);
+}
+);
+width = 468;
+},
+{
+associatedMasterId = master01;
+layerId = "1E1AA896-9897-46C3-92FA-EB335572BB53";
+name = "Mar 7, 23, 11:31";
+shapes = (
+{
+closed = 1;
+nodes = (
+(147,0,o),
+(204,57,o),
+(204,174,cs),
+(204,1362,l),
+(119,1362,l),
+(119,181,ls),
+(119,105,o),
+(96,73,o),
+(30,73,c),
+(30,0,l)
+);
+}
+);
+width = 314;
+}
+);
+unicode = 9133;
+}

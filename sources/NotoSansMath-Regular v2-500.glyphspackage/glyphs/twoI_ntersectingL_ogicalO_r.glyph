@@ -1,0 +1,36 @@
+{
+glyphname = twoIntersectingLogicalOr;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(485,0,l),
+(733,580,l),
+(657,580,l),
+(470,130,l),
+(283,580,l),
+(206,580,l),
+(455,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(329,0,l),
+(578,580,l),
+(501,580,l),
+(314,130,l),
+(127,580,l),
+(51,580,l),
+(299,0,l)
+);
+}
+);
+width = 784;
+}
+);
+unicode = 10838;
+}

@@ -1,0 +1,30 @@
+{
+color = 4;
+glyphname = doubleprimeReversed.ssty2;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(462,452,l),
+(320,714,l),
+(187,714,l),
+(363,452,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(239,452,l),
+(97,714,l),
+(-36,714,l),
+(140,452,l)
+);
+}
+);
+width = 492;
+}
+);
+}

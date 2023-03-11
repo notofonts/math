@@ -1,0 +1,36 @@
+{
+glyphname = "gammasansbolditalic-math";
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (546,250);
+},
+{
+name = math.ta;
+pos = (346,583);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(202,-214,l),
+(246,37,l),
+(526,533,l),
+(378,533,l),
+(206,193,l),
+(146,533,l),
+(8,533,l),
+(110,46,l),
+(64,-214,l)
+);
+}
+);
+width = 505;
+}
+);
+unicode = 120748;
+}

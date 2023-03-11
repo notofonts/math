@@ -1,0 +1,21 @@
+{
+color = 4;
+glyphname = "Cscript-math.ssty2";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (571,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "Cboldscript-math";
+}
+);
+width = 840;
+}
+);
+}

@@ -1,0 +1,25 @@
+{
+color = 4;
+glyphname = bracketright.ssty2;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(252,-158,l),
+(252,784,l),
+(15,784,l),
+(15,671,l),
+(128,671,l),
+(128,-45,l),
+(15,-45,l),
+(15,-158,l)
+);
+}
+);
+width = 322;
+}
+);
+}

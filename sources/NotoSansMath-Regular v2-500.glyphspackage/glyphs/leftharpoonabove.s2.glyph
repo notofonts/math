@@ -1,0 +1,17 @@
+{
+glyphname = leftharpoonabove.s2;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 2;
+};
+ref = _part.leftharpoonabovecomb;
+}
+);
+width = 1133;
+}
+);
+}

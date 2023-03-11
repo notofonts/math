@@ -1,0 +1,30 @@
+{
+color = 4;
+glyphname = rightHalfBlackDiamond;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(908,357,l),
+(469,796,l),
+(30,357,l),
+(469,-82,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(102,357,l),
+(469,724,l),
+(469,-10,l)
+);
+}
+);
+width = 938;
+}
+);
+unicode = 11031;
+}

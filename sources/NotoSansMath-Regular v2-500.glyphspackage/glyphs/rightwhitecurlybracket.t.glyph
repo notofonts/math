@@ -1,0 +1,17 @@
+{
+glyphname = rightwhitecurlybracket.t;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+pos = (631,0);
+ref = leftwhitecurlybracket.t;
+scale = (-1,1);
+}
+);
+width = 631;
+}
+);
+}

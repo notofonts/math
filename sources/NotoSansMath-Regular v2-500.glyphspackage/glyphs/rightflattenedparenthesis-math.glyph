@@ -1,0 +1,58 @@
+{
+glyphname = "rightflattenedparenthesis-math";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(201,-37,o),
+(259,15,o),
+(259,156,cs),
+(259,520,ls),
+(259,651,o),
+(201,703,o),
+(130,770,c),
+(51,770,l),
+(127,703,o),
+(190,650,o),
+(190,519,cs),
+(190,157,ls),
+(190,16,o),
+(127,-37,o),
+(51,-104,c),
+(130,-104,l)
+);
+}
+);
+width = 310;
+}
+);
+unicode = 10223;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+parenrightlowerhook,
+0,
+0,
+900
+),
+(
+parenrightextension,
+1,
+900,
+900
+),
+(
+parenrightupperhook,
+0,
+900,
+0
+)
+);
+};
+};
+}

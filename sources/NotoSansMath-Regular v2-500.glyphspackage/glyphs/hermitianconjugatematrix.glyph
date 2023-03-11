@@ -1,0 +1,48 @@
+{
+glyphname = hermitianconjugatematrix;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(320,441,l),
+(320,595,l),
+(249,595,l),
+(249,441,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(320,112,l),
+(320,266,l),
+(249,266,l),
+(249,112,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(205,317,l),
+(205,388,l),
+(51,388,l),
+(51,317,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(521,317,l),
+(521,388,l),
+(367,388,l),
+(367,317,l)
+);
+}
+);
+width = 572;
+}
+);
+unicode = 8889;
+}

@@ -1,0 +1,26 @@
+{
+color = 4;
+glyphname = fourPointedBlackStar;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(504,253,l),
+(750,357,l),
+(504,461,l),
+(400,707,l),
+(296,461,l),
+(50,357,l),
+(296,253,l),
+(400,7,l)
+);
+}
+);
+width = 800;
+}
+);
+unicode = 128966;
+}

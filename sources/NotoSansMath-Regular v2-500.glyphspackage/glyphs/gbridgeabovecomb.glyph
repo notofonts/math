@@ -1,0 +1,40 @@
+{
+color = 1;
+glyphname = gbridgeabovecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (243,536);
+},
+{
+name = math.ta;
+pos = (243,486);
+},
+{
+name = top;
+pos = (243,765);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(91,595,l),
+(91,705,l),
+(395,705,l),
+(395,595,l),
+(461,595,l),
+(461,765,l),
+(25,765,l),
+(25,595,l)
+);
+}
+);
+width = 486;
+}
+);
+unicode = 838;
+}

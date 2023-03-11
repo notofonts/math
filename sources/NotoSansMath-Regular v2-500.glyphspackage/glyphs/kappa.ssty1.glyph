@@ -1,0 +1,44 @@
+{
+color = 4;
+glyphname = kappa.ssty1;
+kernLeft = mu.ssty;
+kernRight = kappa.ssty;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (324,586);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(212,0,l),
+(212,171,l),
+(280,219,l),
+(441,0,l),
+(590,0,l),
+(365,297,l),
+(576,543,l),
+(434,543,l),
+(269,350,ls),
+(249,326,o),
+(229,301,o),
+(210,277,c),
+(208,277,l),
+(210,312,o),
+(212,358,o),
+(212,401,cs),
+(212,543,l),
+(80,543,l),
+(80,0,l)
+);
+}
+);
+width = 593;
+}
+);
+}

@@ -1,0 +1,55 @@
+{
+glyphname = "initiallamArabic-math";
+layers = (
+{
+anchors = (
+{
+name = mark0;
+pos = (158,800);
+},
+{
+name = mark1;
+pos = (199,90);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(144,135,o),
+(184,145,o),
+(197,169,cs),
+(215,202,o),
+(232,244,o),
+(232,270,cs),
+(230,440,o),
+(215,596,o),
+(205,806,c),
+(183,790,o),
+(163,775,o),
+(139,750,c),
+(159,578,o),
+(176,403,o),
+(189,237,c),
+(160,222,o),
+(121,211,o),
+(78,211,cs),
+(72,211,o),
+(69,207,o),
+(69,203,cs),
+(69,143,ls),
+(69,138,o),
+(72,135,o),
+(78,135,cs)
+);
+}
+);
+userData = {
+com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = "=|";
+};
+width = 301;
+}
+);
+unicode = 126507;
+}

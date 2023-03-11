@@ -1,0 +1,38 @@
+{
+glyphname = semidirectProductWithBottomClosed;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(521,111,l),
+(521,182,l),
+(507,182,l),
+(337,352,l),
+(507,523,l),
+(457,573,l),
+(286,403,l),
+(116,573,l),
+(66,523,l),
+(236,352,l),
+(66,182,l),
+(51,182,l),
+(51,111,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(286,302,l),
+(406,182,l),
+(166,182,l)
+);
+}
+);
+width = 572;
+}
+);
+unicode = 10802;
+}

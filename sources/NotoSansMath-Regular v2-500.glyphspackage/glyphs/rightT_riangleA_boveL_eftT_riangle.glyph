@@ -1,0 +1,44 @@
+{
+glyphname = rightTriangleAboveLeftTriangle;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(753,497,l),
+(51,684,l),
+(51,307,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(752,394,l),
+(51,204,l),
+(752,17,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(296,204,l),
+(685,302,l),
+(685,106,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(118,595,l),
+(508,497,l),
+(118,399,l)
+);
+}
+);
+width = 804;
+}
+);
+unicode = 10702;
+}

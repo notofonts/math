@@ -1,0 +1,28 @@
+{
+color = 4;
+glyphname = comma.ssty2;
+kernLeft = period.right;
+kernRight = period.left;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(215,128,l),
+(83,128,l),
+(72,53,o),
+(52,-46,o),
+(32,-132,c),
+(135,-132,l),
+(168,-60,o),
+(204,49,o),
+(221,117,c)
+);
+}
+);
+width = 286;
+}
+);
+}

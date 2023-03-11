@@ -1,0 +1,44 @@
+{
+color = 4;
+glyphname = tripleVerticalBarDelimiter;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(525,-175,l),
+(525,825,l),
+(454,825,l),
+(454,-175,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(251,-175,l),
+(251,825,l),
+(180,825,l),
+(180,-175,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(388,-175,l),
+(388,825,l),
+(317,825,l),
+(317,-175,l)
+);
+}
+);
+userData = {
+com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = "=bar";
+com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = "=bar";
+};
+width = 705;
+}
+);
+unicode = 10624;
+}

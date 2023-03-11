@@ -1,0 +1,38 @@
+{
+glyphname = normalsubgroupoforequalto;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(521,598,l),
+(51,426,l),
+(51,392,l),
+(521,221,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(521,102,l),
+(521,173,l),
+(51,173,l),
+(51,102,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(169,408,l),
+(454,506,l),
+(454,313,l)
+);
+}
+);
+width = 572;
+}
+);
+unicode = 8884;
+}

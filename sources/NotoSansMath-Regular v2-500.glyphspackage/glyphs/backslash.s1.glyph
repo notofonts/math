@@ -1,0 +1,17 @@
+{
+glyphname = backslash.s1;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 1;
+};
+ref = _part.backslash;
+}
+);
+width = 580;
+}
+);
+}

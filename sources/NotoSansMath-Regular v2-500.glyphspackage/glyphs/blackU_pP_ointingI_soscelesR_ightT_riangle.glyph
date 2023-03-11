@@ -1,0 +1,21 @@
+{
+color = 4;
+glyphname = blackUpPointingIsoscelesRightTriangle;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(650,57,l),
+(350,657,l),
+(50,57,l)
+);
+}
+);
+width = 700;
+}
+);
+unicode = 128897;
+}

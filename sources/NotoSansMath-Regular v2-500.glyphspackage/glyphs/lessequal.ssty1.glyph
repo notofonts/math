@@ -1,0 +1,33 @@
+{
+color = 4;
+glyphname = lessequal.ssty1;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(529,254,l),
+(169,412,l),
+(529,570,l),
+(529,665,l),
+(43,444,l),
+(43,380,l),
+(529,159,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(529,24,l),
+(529,110,l),
+(43,110,l),
+(43,24,l)
+);
+}
+);
+width = 572;
+}
+);
+}

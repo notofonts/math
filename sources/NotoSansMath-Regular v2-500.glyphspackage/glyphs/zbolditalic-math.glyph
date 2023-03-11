@@ -1,0 +1,58 @@
+{
+color = 4;
+glyphname = "zbolditalic-math";
+kernLeft = z;
+kernRight = z;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (222,0);
+},
+{
+name = math.ta;
+pos = (336,586);
+},
+{
+name = top;
+pos = (336,536);
+},
+{
+name = topright;
+pos = (595,536);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(460,0,l),
+(503,181,l),
+(445,181,l),
+(435,158,ls),
+(417,115,o),
+(395,68,o),
+(349,68,cs),
+(187,68,l),
+(522,484,l),
+(533,536,l),
+(104,536,l),
+(60,374,l),
+(121,374,l),
+(123,378,ls),
+(148,431,o),
+(165,468,o),
+(218,468,cs),
+(345,468,l),
+(11,51,l),
+(0,0,l)
+);
+}
+);
+width = 558;
+}
+);
+unicode = 119963;
+}

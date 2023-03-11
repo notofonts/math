@@ -1,0 +1,23 @@
+{
+glyphname = righthandInteriorProduct;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(521,128,l),
+(521,199,l),
+(122,199,l),
+(122,388,l),
+(51,388,l),
+(51,128,l)
+);
+}
+);
+width = 572;
+}
+);
+unicode = 10813;
+}

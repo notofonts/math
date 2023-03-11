@@ -1,0 +1,15 @@
+{
+color = 4;
+glyphname = escript.ssty2;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "eboldscript-math";
+}
+);
+width = 411;
+}
+);
+}

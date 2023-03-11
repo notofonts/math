@@ -1,0 +1,53 @@
+{
+glyphname = "Vsansbolditalic-math";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (234,0);
+},
+{
+name = math.ic;
+pos = (700,250);
+},
+{
+name = math.ta;
+pos = (383,764);
+},
+{
+name = top;
+pos = (383,714);
+},
+{
+name = topright;
+pos = (664,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(315,0,l),
+(680,714,l),
+(526,714,l),
+(316,284,ls),
+(294,238,o),
+(276,190,o),
+(262,146,c),
+(258,146,l),
+(261,184,o),
+(261,243,o),
+(259,284,cs),
+(234,714,l),
+(90,714,l),
+(152,0,l)
+);
+}
+);
+width = 590;
+}
+);
+unicode = 120401;
+}

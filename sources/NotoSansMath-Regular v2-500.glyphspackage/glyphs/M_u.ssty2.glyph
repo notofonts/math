@@ -1,0 +1,22 @@
+{
+color = 4;
+glyphname = Mu.ssty2;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (485,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = M.ssty2;
+}
+);
+width = 970;
+}
+);
+}

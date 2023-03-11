@@ -1,0 +1,31 @@
+{
+color = 4;
+glyphname = lightGreekCross;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(650,315,l),
+(650,400,l),
+(50,400,l),
+(50,315,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(393,57,l),
+(393,657,l),
+(308,657,l),
+(308,57,l)
+);
+}
+);
+width = 700;
+}
+);
+unicode = 128930;
+}

@@ -1,0 +1,39 @@
+{
+glyphname = "kappasansbolditalic-math";
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (569,250);
+},
+{
+name = math.ta;
+pos = (322,583);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(138,0,l),
+(166,175,l),
+(227,228,l),
+(312,0,l),
+(456,0,l),
+(337,329,l),
+(549,533,l),
+(375,533,l),
+(194,338,l),
+(231,533,l),
+(95,533,l),
+(2,0,l)
+);
+}
+);
+width = 523;
+}
+);
+unicode = 120755;
+}

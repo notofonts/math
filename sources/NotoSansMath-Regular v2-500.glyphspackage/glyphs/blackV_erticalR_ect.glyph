@@ -1,0 +1,22 @@
+{
+color = 4;
+glyphname = blackVerticalRect;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(598,714,l),
+(240,714,l),
+(240,0,l),
+(598,0,l)
+);
+}
+);
+width = 838;
+}
+);
+unicode = 9646;
+}

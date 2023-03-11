@@ -1,0 +1,35 @@
+{
+glyphname = Kappa;
+kernRight = Kappa;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (330,0);
+},
+{
+name = math.ta;
+pos = (340,764);
+},
+{
+name = top;
+pos = (340,714);
+},
+{
+name = topright;
+pos = (599,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = K;
+}
+);
+width = 619;
+}
+);
+unicode = 922;
+}

@@ -1,0 +1,34 @@
+{
+glyphname = leftsquarebracketunderbar;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(260,-102,l),
+(260,-43,l),
+(122,-43,l),
+(122,711,l),
+(260,711,l),
+(260,770,l),
+(51,770,l),
+(51,-102,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(260,-216,l),
+(260,-157,l),
+(51,-157,l),
+(51,-216,l)
+);
+}
+);
+width = 311;
+}
+);
+unicode = 10635;
+}

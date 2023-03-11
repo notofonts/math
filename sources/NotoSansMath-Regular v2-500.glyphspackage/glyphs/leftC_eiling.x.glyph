@@ -1,0 +1,20 @@
+{
+glyphname = leftCeiling.x;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(169,0,l),
+(169,600,l),
+(77,600,l),
+(77,0,l)
+);
+}
+);
+width = 246;
+}
+);
+}

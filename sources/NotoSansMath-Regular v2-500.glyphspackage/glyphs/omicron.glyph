@@ -1,0 +1,40 @@
+{
+glyphname = omicron;
+kernLeft = alpha;
+kernRight = omicron;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (301,0);
+},
+{
+name = center;
+pos = (303,268);
+},
+{
+name = math.ta;
+pos = (303,586);
+},
+{
+name = top;
+pos = (303,536);
+},
+{
+name = topright;
+pos = (575,536);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = o;
+}
+);
+width = 605;
+}
+);
+unicode = 959;
+}

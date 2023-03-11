@@ -1,0 +1,12 @@
+{
+color = 4;
+glyphname = hairspace;
+layers = (
+{
+layerId = master01;
+width = 70;
+}
+);
+metricWidth = "=70";
+unicode = 8202;
+}

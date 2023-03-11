@@ -1,0 +1,17 @@
+{
+glyphname = "rightanglebracket-math.s8";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 8;
+};
+ref = "_part.rightanglebracket-math";
+}
+);
+width = 715;
+}
+);
+}

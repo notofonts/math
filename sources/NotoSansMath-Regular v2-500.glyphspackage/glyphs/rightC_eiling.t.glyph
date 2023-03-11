@@ -1,0 +1,17 @@
+{
+glyphname = rightCeiling.t;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+pos = (594,0);
+ref = leftCeiling.t;
+scale = (-1,1);
+}
+);
+width = 594;
+}
+);
+}

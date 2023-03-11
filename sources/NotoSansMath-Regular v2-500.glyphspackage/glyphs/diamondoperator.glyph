@@ -1,0 +1,30 @@
+{
+glyphname = diamondoperator;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(538,353,l),
+(295,596,l),
+(51,353,l),
+(295,109,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,353,l),
+(295,498,l),
+(440,353,l),
+(295,208,l)
+);
+}
+);
+width = 589;
+}
+);
+unicode = 8900;
+}

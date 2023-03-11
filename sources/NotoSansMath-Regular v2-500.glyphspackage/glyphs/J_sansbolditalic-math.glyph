@@ -1,0 +1,55 @@
+{
+glyphname = "Jsansbolditalic-math";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (-66,-210);
+},
+{
+name = math.ic;
+pos = (357,250);
+},
+{
+name = math.ta;
+pos = (262,764);
+},
+{
+name = top;
+pos = (262,714);
+},
+{
+name = topright;
+pos = (405,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(75,-210,o),
+(154,-145,o),
+(189,19,cs),
+(337,714,l),
+(188,714,l),
+(45,40,ls),
+(27,-45,o),
+(-13,-83,o),
+(-77,-83,cs),
+(-109,-83,o),
+(-135,-78,o),
+(-157,-73,c),
+(-157,-197,l),
+(-133,-204,o),
+(-107,-210,o),
+(-66,-210,cs)
+);
+}
+);
+width = 331;
+}
+);
+unicode = 120389;
+}

@@ -1,0 +1,17 @@
+{
+glyphname = leftarrowabove.s2;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 2;
+};
+ref = _part.leftarrowabovecomb;
+}
+);
+width = 1142;
+}
+);
+}

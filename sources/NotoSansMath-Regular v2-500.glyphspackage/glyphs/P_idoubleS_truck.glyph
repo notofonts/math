@@ -1,0 +1,49 @@
+{
+glyphname = PidoubleStruck;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (388,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(270,0,l),
+(270,661,l),
+(507,661,l),
+(507,0,l),
+(680,0,l),
+(680,714,l),
+(97,714,l),
+(97,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,661,l),
+(217,661,l),
+(217,53,l),
+(150,53,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(560,661,l),
+(627,661,l),
+(627,53,l),
+(560,53,l)
+);
+}
+);
+width = 833;
+}
+);
+unicode = 8511;
+}

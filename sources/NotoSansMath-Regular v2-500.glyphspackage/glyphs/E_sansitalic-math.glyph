@@ -1,0 +1,51 @@
+{
+glyphname = "Esansitalic-math";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (236,0);
+},
+{
+name = math.ic;
+pos = (574,250);
+},
+{
+name = math.ta;
+pos = (370,764);
+},
+{
+name = top;
+pos = (370,714);
+},
+{
+name = topright;
+pos = (589,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(403,0,l),
+(420,79,l),
+(146,79,l),
+(201,334,l),
+(457,334,l),
+(472,412,l),
+(217,412,l),
+(264,635,l),
+(537,635,l),
+(554,714,l),
+(192,714,l),
+(41,0,l)
+);
+}
+);
+width = 514;
+}
+);
+unicode = 120332;
+}

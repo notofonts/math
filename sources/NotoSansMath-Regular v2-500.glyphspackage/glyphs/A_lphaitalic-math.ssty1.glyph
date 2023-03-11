@@ -1,0 +1,23 @@
+{
+color = 4;
+glyphname = "Alphaitalic-math.ssty1";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (430,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "Aitalic-math.ssty1";
+}
+);
+width = 752;
+}
+);
+metricLeft = "Aitalic-math.ssty";
+metricRight = "Aitalic-math.ssty";
+}

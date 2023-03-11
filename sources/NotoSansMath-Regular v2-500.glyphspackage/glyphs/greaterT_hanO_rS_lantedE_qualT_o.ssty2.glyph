@@ -1,0 +1,33 @@
+{
+color = 4;
+glyphname = greaterThanOrSlantedEqualTo.ssty2;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(521,355,l),
+(521,433,l),
+(51,654,l),
+(51,542,l),
+(365,394,l),
+(51,246,l),
+(51,134,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(521,147,l),
+(521,249,l),
+(51,28,l),
+(51,-74,l)
+);
+}
+);
+width = 572;
+}
+);
+}

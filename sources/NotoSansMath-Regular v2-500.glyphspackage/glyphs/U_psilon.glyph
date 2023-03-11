@@ -1,0 +1,40 @@
+{
+glyphname = Upsilon;
+kernLeft = Upsilon;
+kernRight = Upsilon;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (283,0);
+},
+{
+name = math.ta;
+pos = (283,764);
+},
+{
+name = top;
+pos = (283,714);
+},
+{
+name = topleft;
+pos = (20,714);
+},
+{
+name = topright;
+pos = (546,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = Y;
+}
+);
+width = 566;
+}
+);
+unicode = 933;
+}

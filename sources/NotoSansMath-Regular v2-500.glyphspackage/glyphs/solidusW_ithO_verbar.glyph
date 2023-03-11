@@ -1,0 +1,30 @@
+{
+glyphname = solidusWithOverbar;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(122,-121,l),
+(352,760,l),
+(281,760,l),
+(51,-121,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(352,810,l),
+(352,881,l),
+(51,881,l),
+(51,810,l)
+);
+}
+);
+width = 403;
+}
+);
+unicode = 10742;
+}

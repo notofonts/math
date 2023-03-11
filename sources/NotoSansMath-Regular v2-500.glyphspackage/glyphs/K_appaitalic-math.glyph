@@ -1,0 +1,26 @@
+{
+color = 4;
+glyphname = "Kappaitalic-math";
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (779,250);
+},
+{
+name = math.ta;
+pos = (445,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "Kitalic-math";
+}
+);
+width = 700;
+}
+);
+unicode = 120555;
+}

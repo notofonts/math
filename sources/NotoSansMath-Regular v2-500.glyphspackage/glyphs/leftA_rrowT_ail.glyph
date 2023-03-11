@@ -1,0 +1,32 @@
+{
+glyphname = leftArrowTail;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(751,197,l),
+(631,345,l),
+(751,493,l),
+(687,493,l),
+(566,345,l),
+(687,197,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(613,318,l),
+(613,372,l),
+(51,372,l),
+(51,318,l)
+);
+}
+);
+width = 802;
+}
+);
+unicode = 10521;
+}

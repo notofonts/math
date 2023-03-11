@@ -1,0 +1,20 @@
+{
+color = 4;
+glyphname = circledSquare;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = _part.circle;
+},
+{
+pos = (181,-13);
+ref = mediumWhiteSmallSquare;
+}
+);
+width = 928;
+}
+);
+unicode = 128983;
+}

@@ -1,0 +1,48 @@
+{
+glyphname = "Vsansbold-math";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (323,0);
+},
+{
+name = math.ta;
+pos = (326,764);
+},
+{
+name = top;
+pos = (326,714);
+},
+{
+name = topright;
+pos = (630,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(407,0,l),
+(650,714,l),
+(497,714,l),
+(362,289,ls),
+(355,266,o),
+(331,175,o),
+(325,132,c),
+(319,175,o),
+(294,267,o),
+(287,289,cs),
+(153,714,l),
+(0,714,l),
+(242,0,l)
+);
+}
+);
+width = 650;
+}
+);
+unicode = 120297;
+}

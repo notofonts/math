@@ -1,0 +1,14 @@
+{
+glyphname = topparenthesis.x;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = topsquarebracket.x;
+}
+);
+width = 800;
+}
+);
+}

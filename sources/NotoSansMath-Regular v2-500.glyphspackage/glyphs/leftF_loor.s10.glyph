@@ -1,0 +1,17 @@
+{
+glyphname = leftFloor.s10;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 10;
+};
+ref = _part.leftFloor;
+}
+);
+width = 559;
+}
+);
+}

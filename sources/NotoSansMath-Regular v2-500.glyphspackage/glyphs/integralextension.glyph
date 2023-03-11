@@ -1,0 +1,21 @@
+{
+glyphname = integralextension;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(236,0,l),
+(236,1362,l),
+(151,1362,l),
+(151,0,l)
+);
+}
+);
+width = 387;
+}
+);
+unicode = 9134;
+}

@@ -1,0 +1,38 @@
+{
+color = 4;
+glyphname = Lambda.ssty1;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (324,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(141,0,l),
+(290,480,ls),
+(297,502,o),
+(315,571,o),
+(325,612,c),
+(334,576,o),
+(353,508,o),
+(362,480,cs),
+(509,0,l),
+(651,0,l),
+(401,717,l),
+(249,717,l),
+(0,0,l)
+);
+}
+);
+width = 651;
+}
+);
+metricLeft = "=A.ssty";
+metricRight = "=A.ssty";
+}

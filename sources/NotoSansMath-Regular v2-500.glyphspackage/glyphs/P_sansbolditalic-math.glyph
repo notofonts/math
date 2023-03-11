@@ -1,0 +1,64 @@
+{
+glyphname = "Psansbolditalic-math";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (247,0);
+},
+{
+name = math.ic;
+pos = (635,250);
+},
+{
+name = math.ta;
+pos = (385,764);
+},
+{
+name = top;
+pos = (385,714);
+},
+{
+name = topright;
+pos = (684,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(175,0,l),
+(228,254,l),
+(304,254,ls),
+(481,254,o),
+(615,336,o),
+(615,506,cs),
+(615,630,o),
+(550,714,o),
+(376,714,cs),
+(177,714,l),
+(26,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(300,590,l),
+(370,590,ls),
+(433,590,o),
+(465,562,o),
+(465,502,cs),
+(465,424,o),
+(405,378,o),
+(316,378,cs),
+(255,378,l)
+);
+}
+);
+width = 610;
+}
+);
+unicode = 120395;
+}

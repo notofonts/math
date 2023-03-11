@@ -1,0 +1,21 @@
+{
+color = 4;
+glyphname = "Muitalic-math.ssty1";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (619,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "Mitalic-math.ssty1";
+}
+);
+width = 1091;
+}
+);
+}

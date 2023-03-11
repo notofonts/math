@@ -1,0 +1,25 @@
+{
+glyphname = shortUpTack;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(705,162,l),
+(705,233,l),
+(413,233,l),
+(413,543,l),
+(342,543,l),
+(342,233,l),
+(51,233,l),
+(51,162,l)
+);
+}
+);
+width = 756;
+}
+);
+unicode = 10976;
+}

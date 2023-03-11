@@ -1,0 +1,36 @@
+{
+glyphname = "Musansbold-math";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (435,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(213,0,l),
+(213,580,l),
+(361,0,l),
+(512,0,l),
+(658,580,l),
+(658,0,l),
+(797,0,l),
+(797,719,l),
+(577,719,l),
+(436,172,l),
+(293,719,l),
+(74,719,l),
+(74,0,l)
+);
+}
+);
+width = 872;
+}
+);
+unicode = 120673;
+}

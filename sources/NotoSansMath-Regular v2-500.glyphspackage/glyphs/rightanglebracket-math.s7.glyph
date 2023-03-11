@@ -1,0 +1,17 @@
+{
+glyphname = "rightanglebracket-math.s7";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 7;
+};
+ref = "_part.rightanglebracket-math";
+}
+);
+width = 677;
+}
+);
+}

@@ -1,0 +1,50 @@
+{
+glyphname = radical;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = _part.radical;
+}
+);
+width = 679;
+}
+);
+unicode = 8730;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+radicalsymbolbottom,
+0,
+0,
+900
+),
+(
+radical.x,
+1,
+1000,
+1000
+),
+(
+radical.t,
+0,
+800,
+0
+)
+);
+vVariants = (
+radical,
+radical.s1,
+radical.s2,
+radical.s3,
+radical.s4
+);
+};
+};
+}

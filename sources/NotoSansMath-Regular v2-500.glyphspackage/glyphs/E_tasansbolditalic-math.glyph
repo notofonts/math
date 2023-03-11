@@ -1,0 +1,35 @@
+{
+glyphname = "Etasansbolditalic-math";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (436,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(161,0,l),
+(217,316,l),
+(495,316,l),
+(440,0,l),
+(589,0,l),
+(717,719,l),
+(569,719,l),
+(519,443,l),
+(241,443,l),
+(290,719,l),
+(139,719,l),
+(11,0,l)
+);
+}
+);
+width = 728;
+}
+);
+unicode = 120726;
+}

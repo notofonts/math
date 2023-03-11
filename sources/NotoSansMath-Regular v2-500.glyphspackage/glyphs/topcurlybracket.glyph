@@ -1,0 +1,62 @@
+{
+glyphname = topcurlybracket;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = _part.topcurlybracket;
+}
+);
+width = 880;
+}
+);
+unicode = 9182;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hAssembly = (
+(
+topcurlybracket.l,
+0,
+0,
+550
+),
+(
+topcurlybracket.x,
+1,
+800,
+800
+),
+(
+topcurlybracket.m,
+0,
+550,
+550
+),
+(
+topcurlybracket.x,
+1,
+800,
+800
+),
+(
+topcurlybracket.r,
+0,
+550,
+0
+)
+);
+hVariants = (
+topcurlybracket,
+topcurlybracket.s1,
+topcurlybracket.s2,
+topcurlybracket.s3,
+topcurlybracket.s4,
+topcurlybracket.s5
+);
+};
+};
+}

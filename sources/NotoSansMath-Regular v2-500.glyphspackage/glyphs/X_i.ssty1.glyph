@@ -1,0 +1,46 @@
+{
+color = 4;
+glyphname = Xi.ssty1;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (309,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(563,0,l),
+(563,112,l),
+(56,112,l),
+(56,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(503,316,l),
+(503,428,l),
+(116,428,l),
+(116,316,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(543,602,l),
+(543,714,l),
+(76,714,l),
+(76,602,l)
+);
+}
+);
+width = 619;
+}
+);
+metricRight = "=E.ssty";
+}

@@ -1,0 +1,45 @@
+{
+glyphname = F;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (260,0);
+},
+{
+name = math.ta;
+pos = (298,764);
+},
+{
+name = top;
+pos = (298,714);
+},
+{
+name = topright;
+pos = (499,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(187,0,l),
+(187,303,l),
+(477,303,l),
+(477,382,l),
+(187,382,l),
+(187,635,l),
+(496,635,l),
+(496,714,l),
+(97,714,l),
+(97,0,l)
+);
+}
+);
+width = 519;
+}
+);
+unicode = 70;
+}

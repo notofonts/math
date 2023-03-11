@@ -1,0 +1,46 @@
+{
+export = 0;
+glyphname = _part.braceright;
+layers = (
+{
+layerId = master01;
+partSelection = {
+Size = 1;
+};
+shapes = (
+{
+pos = (380,0);
+ref = _part.braceleft;
+scale = (-1,1);
+}
+);
+width = 380;
+},
+{
+associatedMasterId = master01;
+layerId = "81BB7596-A547-466F-B56C-F6C9E4EF3D73";
+name = "Regular-Large";
+partSelection = {
+Size = 2;
+};
+shapes = (
+{
+piece = {
+Size = 12;
+};
+pos = (430,0);
+ref = _part.braceleft;
+scale = (-1,1);
+}
+);
+width = 430;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = Size;
+topValue = 12;
+}
+);
+}

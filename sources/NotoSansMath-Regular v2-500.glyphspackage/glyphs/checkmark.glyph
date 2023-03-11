@@ -1,0 +1,25 @@
+{
+color = 4;
+glyphname = checkmark;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(319,-11,l),
+(730,672,l),
+(616,726,l),
+(288,58,l),
+(151,352,l),
+(50,296,l),
+(259,-11,l)
+);
+}
+);
+width = 780;
+}
+);
+unicode = 10003;
+}

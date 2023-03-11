@@ -1,0 +1,32 @@
+{
+color = 4;
+glyphname = parenright.ssty2;
+kernLeft = paren.right;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(160,-158,l),
+(262,-34,o),
+(304,148,o),
+(304,310,cs),
+(304,474,o),
+(262,654,o),
+(160,784,c),
+(37,784,l),
+(130,652,o),
+(175,460,o),
+(175,310,cs),
+(175,163,o),
+(131,-29,o),
+(38,-158,c)
+);
+}
+);
+width = 341;
+}
+);
+}

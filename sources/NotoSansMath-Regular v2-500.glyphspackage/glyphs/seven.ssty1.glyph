@@ -1,0 +1,24 @@
+{
+color = 4;
+glyphname = seven.ssty1;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(253,0,l),
+(536,633,l),
+(536,714,l),
+(44,714,l),
+(44,615,l),
+(413,615,l),
+(130,0,l)
+);
+}
+);
+width = 580;
+}
+);
+}

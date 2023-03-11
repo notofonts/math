@@ -1,0 +1,51 @@
+{
+glyphname = H;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (368,0);
+},
+{
+name = center;
+pos = (371,357);
+},
+{
+name = math.ta;
+pos = (371,764);
+},
+{
+name = top;
+pos = (371,714);
+},
+{
+name = topright;
+pos = (721,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(187,0,l),
+(187,333,l),
+(553,333,l),
+(553,0,l),
+(643,0,l),
+(643,714,l),
+(553,714,l),
+(553,412,l),
+(187,412,l),
+(187,714,l),
+(97,714,l),
+(97,0,l)
+);
+}
+);
+width = 741;
+}
+);
+unicode = 72;
+}

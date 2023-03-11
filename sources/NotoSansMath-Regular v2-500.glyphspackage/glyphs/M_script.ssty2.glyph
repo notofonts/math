@@ -1,0 +1,15 @@
+{
+color = 4;
+glyphname = Mscript.ssty2;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "Mboldscript-math";
+}
+);
+width = 1150;
+}
+);
+}

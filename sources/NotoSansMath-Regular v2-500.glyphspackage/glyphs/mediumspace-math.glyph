@@ -1,0 +1,12 @@
+{
+color = 4;
+glyphname = "mediumspace-math";
+layers = (
+{
+layerId = master01;
+width = 222;
+}
+);
+metricWidth = "=222";
+unicode = 8287;
+}

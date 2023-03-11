@@ -1,0 +1,28 @@
+{
+glyphname = downTriangleWithLeftHalfBlack;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(897,714,l),
+(51,714,l),
+(474,-3,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(474,643,l),
+(753,643,l),
+(474,164,l)
+);
+}
+);
+width = 948;
+}
+);
+unicode = 10728;
+}

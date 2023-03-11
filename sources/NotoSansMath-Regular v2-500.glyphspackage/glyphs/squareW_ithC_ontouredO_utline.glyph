@@ -1,0 +1,32 @@
+{
+glyphname = squareWithContouredOutline;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(713,0,l),
+(713,583,l),
+(589,639,l),
+(51,639,l),
+(51,57,l),
+(151,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(177,536,l),
+(648,536,l),
+(648,65,l),
+(177,65,l)
+);
+}
+);
+width = 764;
+}
+);
+unicode = 10720;
+}

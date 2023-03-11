@@ -1,0 +1,27 @@
+{
+color = 4;
+glyphname = "Taubolditalic-math";
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (756,250);
+},
+{
+name = math.ta;
+pos = (422,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = "Tbolditalic-math";
+}
+);
+width = 653;
+}
+);
+unicode = 120623;
+}

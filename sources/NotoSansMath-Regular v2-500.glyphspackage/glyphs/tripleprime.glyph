@@ -1,0 +1,43 @@
+{
+glyphname = tripleprime;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(449,456,l),
+(610,714,l),
+(520,714,l),
+(391,456,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(97,456,l),
+(258,714,l),
+(168,714,l),
+(39,456,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(273,456,l),
+(434,714,l),
+(344,714,l),
+(215,456,l)
+);
+}
+);
+userData = {
+com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = second;
+com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = second;
+};
+width = 584;
+}
+);
+unicode = 8244;
+}

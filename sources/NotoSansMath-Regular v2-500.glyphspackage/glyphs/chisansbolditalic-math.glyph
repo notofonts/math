@@ -1,0 +1,39 @@
+{
+glyphname = "chisansbolditalic-math";
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (538,250);
+},
+{
+name = math.ta;
+pos = (278,583);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(42,-214,l),
+(190,65,l),
+(279,-214,l),
+(414,-214,l),
+(293,158,l),
+(518,533,l),
+(381,533,l),
+(225,268,l),
+(163,533,l),
+(26,533,l),
+(120,171,l),
+(-98,-214,l)
+);
+}
+);
+width = 492;
+}
+);
+unicode = 120768;
+}

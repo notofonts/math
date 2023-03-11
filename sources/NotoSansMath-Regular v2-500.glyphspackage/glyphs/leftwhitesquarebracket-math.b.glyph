@@ -1,0 +1,26 @@
+{
+glyphname = "leftwhitesquarebracket-math.b";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(322,992,l),
+(322,92,l),
+(202,92,l),
+(202,992,l),
+(112,992,l),
+(112,0,l),
+(592,0,l),
+(592,92,l),
+(412,92,l),
+(412,992,l)
+);
+}
+);
+width = 624;
+}
+);
+}

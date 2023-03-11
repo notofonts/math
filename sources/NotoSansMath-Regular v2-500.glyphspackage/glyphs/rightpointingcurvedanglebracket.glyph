@@ -1,0 +1,38 @@
+{
+glyphname = rightpointingcurvedanglebracket;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = _part.rightpointingcurvedanglebracket;
+}
+);
+width = 456;
+}
+);
+unicode = 10749;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+rightpointingcurvedanglebracket,
+rightpointingcurvedanglebracket.s1,
+rightpointingcurvedanglebracket.s2,
+rightpointingcurvedanglebracket.s3,
+rightpointingcurvedanglebracket.s4,
+rightpointingcurvedanglebracket.s5,
+rightpointingcurvedanglebracket.s6,
+rightpointingcurvedanglebracket.s7,
+rightpointingcurvedanglebracket.s8,
+rightpointingcurvedanglebracket.s9,
+rightpointingcurvedanglebracket.s10,
+rightpointingcurvedanglebracket.s11,
+rightpointingcurvedanglebracket.s12
+);
+};
+};
+}

@@ -1,0 +1,35 @@
+{
+glyphname = "Epsilonsansbold-math";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (338,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(614,0,l),
+(614,133,l),
+(220,133,l),
+(220,318,l),
+(564,318,l),
+(564,441,l),
+(220,441,l),
+(220,594,l),
+(596,594,l),
+(596,719,l),
+(74,719,l),
+(74,0,l)
+);
+}
+);
+width = 653;
+}
+);
+unicode = 120666;
+}

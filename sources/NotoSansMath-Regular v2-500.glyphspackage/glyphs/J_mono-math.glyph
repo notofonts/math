@@ -1,0 +1,52 @@
+{
+color = 4;
+glyphname = "Jmono-math";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (300,0);
+},
+{
+name = math.ta;
+pos = (420,764);
+},
+{
+name = top;
+pos = (420,714);
+},
+{
+name = topright;
+pos = (580,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(392,-10,o),
+(465,72,o),
+(465,217,cs),
+(465,714,l),
+(375,714,l),
+(375,229,ls),
+(375,115,o),
+(324,73,o),
+(245,73,cs),
+(191,73,o),
+(131,91,o),
+(100,104,c),
+(100,19,l),
+(137,2,o),
+(201,-10,o),
+(252,-10,cs)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 120441;
+}

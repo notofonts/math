@@ -1,0 +1,21 @@
+{
+color = 4;
+glyphname = Iota.ssty1;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (185,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = I.ssty1;
+}
+);
+width = 371;
+}
+);
+}

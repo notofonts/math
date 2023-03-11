@@ -1,0 +1,71 @@
+{
+export = 0;
+glyphname = _part.parenleft;
+layers = (
+{
+layerId = master01;
+partSelection = {
+Size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(297,-158,l),
+(187,-23,o),
+(129,142,o),
+(129,310,cs),
+(129,481,o),
+(186,649,o),
+(298,784,c),
+(215,784,l),
+(95,654,o),
+(40,485,o),
+(40,309,cs),
+(40,135,o),
+(95,-32,o),
+(215,-158,c)
+);
+}
+);
+width = 328;
+},
+{
+associatedMasterId = master01;
+layerId = "B0028823-4D2B-406D-BFED-516601D4E459";
+name = "Regular-Large";
+partSelection = {
+Size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(691,-1606,l),
+(343,-1055,o),
+(159,-376,o),
+(159,310,cs),
+(159,978,o),
+(339,1635,o),
+(692,2163,c),
+(579,2163,l),
+(209,1655,o),
+(40,996,o),
+(40,309,cs),
+(40,-402,o),
+(210,-1091,o),
+(579,-1606,c)
+);
+}
+);
+width = 722;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = Size;
+topValue = 12;
+}
+);
+}

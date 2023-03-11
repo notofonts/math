@@ -1,0 +1,54 @@
+{
+glyphname = leftharpoonabovecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (217,536);
+},
+{
+name = math.ta;
+pos = (217,664);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = _part.leftharpoonabovecomb;
+}
+);
+width = 453;
+}
+);
+unicode = 8400;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hAssembly = (
+(
+leftharpoonabove.s1,
+0,
+200,
+500
+),
+(
+horizontalabove.x,
+1,
+400,
+400
+)
+);
+hVariants = (
+leftharpoonabovecomb,
+leftharpoonabove.s1,
+leftharpoonabove.s2,
+leftharpoonabove.s3,
+leftharpoonabove.s4,
+leftharpoonabove.s5
+);
+};
+};
+}

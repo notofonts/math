@@ -1,0 +1,48 @@
+{
+export = 0;
+glyphname = _part.leftFloor;
+layers = (
+{
+layerId = master01;
+partSelection = {
+Size = 1;
+};
+shapes = (
+{
+alignment = -1;
+pos = (0,626);
+ref = _part.leftCeiling;
+scale = (1,-1);
+}
+);
+width = 383;
+},
+{
+associatedMasterId = master01;
+layerId = "7D555C3F-C07C-421A-8A74-C2AA56749BA6";
+name = "Regular-Large";
+partSelection = {
+Size = 2;
+};
+shapes = (
+{
+alignment = -1;
+piece = {
+Size = 12;
+};
+pos = (0,554);
+ref = _part.leftCeiling;
+scale = (1,-1);
+}
+);
+width = 594;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = Size;
+topValue = 12;
+}
+);
+}

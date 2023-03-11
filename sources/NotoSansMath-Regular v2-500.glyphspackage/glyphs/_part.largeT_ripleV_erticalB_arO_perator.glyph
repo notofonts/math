@@ -1,0 +1,87 @@
+{
+export = 0;
+glyphname = _part.largeTripleVerticalBarOperator;
+layers = (
+{
+layerId = master01;
+partSelection = {
+Size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(496,-260,l),
+(496,925,l),
+(425,925,l),
+(425,-260,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(122,-260,l),
+(122,925,l),
+(51,925,l),
+(51,-260,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(309,-260,l),
+(309,925,l),
+(238,925,l),
+(238,-260,l)
+);
+}
+);
+width = 547;
+},
+{
+associatedMasterId = master01;
+layerId = "16DCE69A-1FF9-415B-9C96-D34D6224552E";
+name = "Regular-Large";
+partSelection = {
+Size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(496,-553,l),
+(496,1153,l),
+(425,1153,l),
+(425,-553,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(122,-553,l),
+(122,1153,l),
+(51,1153,l),
+(51,-553,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(309,-553,l),
+(309,1153,l),
+(238,1153,l),
+(238,-553,l)
+);
+}
+);
+width = 547;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = Size;
+topValue = 2;
+}
+);
+}

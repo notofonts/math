@@ -1,0 +1,17 @@
+{
+glyphname = rightharpoonwithbarbdown.s3;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 3;
+};
+ref = _part.rightharpoonwithbarbdowncomb;
+}
+);
+width = 1454;
+}
+);
+}

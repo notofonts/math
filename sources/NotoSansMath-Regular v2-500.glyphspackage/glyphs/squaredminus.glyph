@@ -1,0 +1,39 @@
+{
+glyphname = squaredminus;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(705,26,l),
+(705,680,l),
+(51,680,l),
+(51,26,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(122,317,l),
+(634,317,l),
+(634,97,l),
+(122,97,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(122,609,l),
+(634,609,l),
+(634,388,l),
+(122,388,l)
+);
+}
+);
+width = 756;
+}
+);
+unicode = 8863;
+}

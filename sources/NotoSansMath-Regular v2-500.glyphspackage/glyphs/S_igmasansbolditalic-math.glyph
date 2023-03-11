@@ -1,0 +1,39 @@
+{
+glyphname = "Sigmasansbolditalic-math";
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (618,250);
+},
+{
+name = math.ta;
+pos = (341,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(519,0,l),
+(541,124,l),
+(194,124,l),
+(432,377,l),
+(260,595,l),
+(576,595,l),
+(598,719,l),
+(92,719,l),
+(74,612,l),
+(247,383,l),
+(-15,108,l),
+(-34,0,l)
+);
+}
+);
+width = 581;
+}
+);
+unicode = 120738;
+}

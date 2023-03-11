@@ -1,0 +1,30 @@
+{
+glyphname = whiteVerticalRect;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(352,-287,l),
+(352,713,l),
+(51,713,l),
+(51,-287,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(105,659,l),
+(298,659,l),
+(298,-233,l),
+(105,-233,l)
+);
+}
+);
+width = 403;
+}
+);
+unicode = 9647;
+}

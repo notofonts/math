@@ -1,0 +1,21 @@
+{
+color = 4;
+glyphname = slash.ssty2;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(153,0,l),
+(419,714,l),
+(269,714,l),
+(3,0,l)
+);
+}
+);
+width = 422;
+}
+);
+}

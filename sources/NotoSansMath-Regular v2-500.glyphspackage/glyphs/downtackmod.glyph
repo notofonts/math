@@ -1,0 +1,26 @@
+{
+color = 4;
+glyphname = downtackmod;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(162,227,l),
+(162,347,l),
+(235,347,l),
+(235,397,l),
+(35,397,l),
+(35,347,l),
+(108,347,l),
+(108,227,l)
+);
+}
+);
+width = 270;
+}
+);
+unicode = 725;
+}

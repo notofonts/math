@@ -1,0 +1,69 @@
+{
+color = 4;
+glyphname = phi.ssty1;
+kernLeft = omicron.ssty;
+kernRight = omicron.ssty;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (391,586);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(455,-240,l),
+(455,-5,l),
+(641,10,o),
+(738,116,o),
+(738,271,cs),
+(738,427,o),
+(635,532,o),
+(455,547,c),
+(455,760,l),
+(333,760,l),
+(333,547,l),
+(142,534,o),
+(48,430,o),
+(48,271,cs),
+(48,116,o),
+(154,11,o),
+(333,-5,c),
+(333,-240,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(233,102,o),
+(182,168,o),
+(182,271,cs),
+(182,373,o),
+(235,440,o),
+(333,452,c),
+(333,91,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(455,450,l),
+(551,438,o),
+(605,373,o),
+(605,271,cs),
+(605,169,o),
+(554,103,o),
+(455,91,c)
+);
+}
+);
+width = 786;
+}
+);
+metricLeft = omicron.ssty;
+metricRight = omicron.ssty;
+}

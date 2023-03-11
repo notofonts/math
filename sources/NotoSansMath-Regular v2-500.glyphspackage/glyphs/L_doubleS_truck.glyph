@@ -1,0 +1,38 @@
+{
+glyphname = LdoubleStruck;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (228,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(511,0,l),
+(511,53,l),
+(250,53,l),
+(250,714,l),
+(77,714,l),
+(77,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(130,661,l),
+(197,661,l),
+(197,53,l),
+(130,53,l)
+);
+}
+);
+width = 536;
+}
+);
+unicode = 120131;
+}

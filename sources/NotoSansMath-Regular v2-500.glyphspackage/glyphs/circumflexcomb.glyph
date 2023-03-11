@@ -1,0 +1,44 @@
+{
+glyphname = circumflexcomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (169,536);
+},
+{
+name = math.ta;
+pos = (169,486);
+},
+{
+name = top;
+pos = (169,766);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = _part.circumflexcomb;
+}
+);
+width = 338;
+}
+);
+unicode = 770;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hVariants = (
+circumflexcomb,
+circumflex.s1,
+circumflex.s2,
+circumflex.s3,
+circumflex.s4,
+circumflex.s5
+);
+};
+};
+}

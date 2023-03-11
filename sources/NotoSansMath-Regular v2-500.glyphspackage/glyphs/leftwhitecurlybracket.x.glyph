@@ -1,0 +1,29 @@
+{
+glyphname = leftwhitecurlybracket.x;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(384,1680,l),
+(384,0,l),
+(474,0,l),
+(474,1680,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,1680,l),
+(150,0,l),
+(242,0,l),
+(242,1680,l)
+);
+}
+);
+width = 631;
+}
+);
+}

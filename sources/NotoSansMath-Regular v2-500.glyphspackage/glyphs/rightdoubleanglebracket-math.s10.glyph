@@ -1,0 +1,17 @@
+{
+glyphname = "rightdoubleanglebracket-math.s10";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 10;
+};
+ref = "_part.rightdoubleanglebracket-math";
+}
+);
+width = 830;
+}
+);
+}

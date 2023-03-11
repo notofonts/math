@@ -1,0 +1,22 @@
+{
+color = 4;
+glyphname = "Rhoitalic-math";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (405,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "Pitalic-math";
+}
+);
+width = 620;
+}
+);
+unicode = 120562;
+}

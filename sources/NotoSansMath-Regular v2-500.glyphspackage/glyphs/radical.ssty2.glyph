@@ -1,0 +1,26 @@
+{
+color = 4;
+glyphname = radical.ssty2;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(374,-33,l),
+(689,876,l),
+(563,876,l),
+(323,193,l),
+(229,469,l),
+(41,469,l),
+(41,347,l),
+(137,347,l),
+(272,-33,l)
+);
+}
+);
+width = 648;
+}
+);
+}

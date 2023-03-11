@@ -1,0 +1,49 @@
+{
+glyphname = Theta;
+kernLeft = Theta;
+kernRight = Theta;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (392,0);
+},
+{
+name = center;
+pos = (391,357);
+},
+{
+name = math.ta;
+pos = (391,764);
+},
+{
+name = top;
+pos = (391,714);
+},
+{
+name = topright;
+pos = (761,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(541,324,l),
+(541,402,l),
+(239,402,l),
+(239,324,l)
+);
+},
+{
+alignment = -1;
+ref = O;
+}
+);
+width = 781;
+}
+);
+unicode = 920;
+}

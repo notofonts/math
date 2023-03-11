@@ -1,0 +1,31 @@
+{
+color = 4;
+glyphname = whiteParallelogram;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(739,179,l),
+(887,536,l),
+(199,536,l),
+(51,179,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(233,485,l),
+(811,485,l),
+(705,230,l),
+(127,230,l)
+);
+}
+);
+width = 938;
+}
+);
+unicode = 9649;
+}

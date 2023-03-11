@@ -1,0 +1,41 @@
+{
+color = 4;
+glyphname = iota.ssty1;
+kernLeft = iota.ssty;
+kernRight = iota.ssty;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (152,586);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(293,-10,o),
+(328,-5,o),
+(351,2,c),
+(351,105,l),
+(328,99,o),
+(309,95,o),
+(282,95,cs),
+(241,95,o),
+(209,113,o),
+(209,179,cs),
+(209,543,l),
+(79,543,l),
+(79,164,ls),
+(79,64,o),
+(130,-10,o),
+(259,-10,cs)
+);
+}
+);
+width = 380;
+}
+);
+}

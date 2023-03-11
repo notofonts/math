@@ -1,0 +1,21 @@
+{
+color = 4;
+glyphname = "Betaitalic-math.ssty1";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (437,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "Bitalic-math.ssty1";
+}
+);
+width = 780;
+}
+);
+}

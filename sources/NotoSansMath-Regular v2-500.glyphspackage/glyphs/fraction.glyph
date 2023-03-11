@@ -1,0 +1,22 @@
+{
+color = 4;
+glyphname = fraction;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(320,714,l),
+(245,714,l),
+(-191,0,l),
+(-116,0,l)
+);
+}
+);
+width = 130;
+}
+);
+unicode = 8260;
+}

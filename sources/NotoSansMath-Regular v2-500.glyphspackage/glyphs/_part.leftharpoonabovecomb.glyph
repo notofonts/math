@@ -1,0 +1,81 @@
+{
+export = 0;
+glyphname = _part.leftharpoonabovecomb;
+layers = (
+{
+layerId = master01;
+partSelection = {
+Size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(453,670,l),
+(453,730,l),
+(123,730,l),
+(123,670,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(131,670,l),
+(131,717,l),
+(151,739,o),
+(171,776,o),
+(191,825,c),
+(147,825,l),
+(100,772,o),
+(51,733,o),
+(0,708,c),
+(0,670,l)
+);
+}
+);
+width = 453;
+},
+{
+associatedMasterId = master01;
+layerId = "AEBBBFBC-43A1-4FA9-AFAD-3ACD6BE9067D";
+name = "Regular-Large";
+partSelection = {
+Size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(2153,670,l),
+(2153,730,l),
+(123,730,l),
+(123,670,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(131,670,l),
+(131,717,l),
+(151,739,o),
+(171,776,o),
+(191,825,c),
+(147,825,l),
+(100,772,o),
+(51,733,o),
+(0,708,c),
+(0,670,l)
+);
+}
+);
+width = 2153;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = Size;
+topValue = 5;
+}
+);
+}

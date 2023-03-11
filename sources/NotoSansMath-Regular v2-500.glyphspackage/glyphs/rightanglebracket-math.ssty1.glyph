@@ -1,0 +1,23 @@
+{
+color = 4;
+glyphname = "rightanglebracket-math.ssty1";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(135,-104,l),
+(339,333,l),
+(135,770,l),
+(44,770,l),
+(244,333,l),
+(44,-104,l)
+);
+}
+);
+width = 383;
+}
+);
+}

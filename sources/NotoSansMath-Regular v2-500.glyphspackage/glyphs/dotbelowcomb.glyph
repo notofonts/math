@@ -1,0 +1,44 @@
+{
+color = 1;
+glyphname = dotbelowcomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (77,0);
+},
+{
+name = bottom;
+pos = (77,-176);
+},
+{
+name = math.ta;
+pos = (77,50);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(105,-176,o),
+(129,-158,o),
+(129,-120,cs),
+(129,-81,o),
+(105,-64,o),
+(77,-64,cs),
+(49,-64,o),
+(25,-81,o),
+(25,-120,cs),
+(25,-158,o),
+(49,-176,o),
+(77,-176,cs)
+);
+}
+);
+width = 154;
+}
+);
+unicode = 803;
+}

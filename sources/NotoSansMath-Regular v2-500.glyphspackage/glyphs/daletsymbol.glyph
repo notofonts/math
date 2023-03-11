@@ -1,0 +1,25 @@
+{
+glyphname = daletsymbol;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(359,0,l),
+(359,520,l),
+(436,520,l),
+(436,581,l),
+(2,581,l),
+(2,520,l),
+(290,520,l),
+(290,0,l)
+);
+}
+);
+width = 458;
+}
+);
+unicode = 8504;
+}

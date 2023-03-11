@@ -1,0 +1,43 @@
+{
+glyphname = tripleverticalbarrightturnstile;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(502,26,l),
+(502,318,l),
+(794,318,l),
+(794,389,l),
+(502,389,l),
+(502,680,l),
+(431,680,l),
+(431,26,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(122,26,l),
+(122,680,l),
+(51,680,l),
+(51,26,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(312,26,l),
+(312,680,l),
+(241,680,l),
+(241,26,l)
+);
+}
+);
+width = 845;
+}
+);
+unicode = 8874;
+}

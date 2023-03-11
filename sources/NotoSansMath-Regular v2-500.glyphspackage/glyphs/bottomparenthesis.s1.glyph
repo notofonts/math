@@ -1,0 +1,17 @@
+{
+glyphname = bottomparenthesis.s1;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 1;
+};
+ref = _part.bottomparenthesis;
+}
+);
+width = 1712;
+}
+);
+}

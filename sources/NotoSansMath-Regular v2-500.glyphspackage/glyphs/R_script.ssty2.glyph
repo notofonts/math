@@ -1,0 +1,15 @@
+{
+color = 4;
+glyphname = Rscript.ssty2;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "Rboldscript-math";
+}
+);
+width = 935;
+}
+);
+}

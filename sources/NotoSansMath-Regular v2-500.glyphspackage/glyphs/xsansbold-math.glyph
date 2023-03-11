@@ -1,0 +1,47 @@
+{
+glyphname = "xsansbold-math";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (289,0);
+},
+{
+name = math.ta;
+pos = (288,596);
+},
+{
+name = top;
+pos = (288,546);
+},
+{
+name = topright;
+pos = (558,546);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(174,0,l),
+(289,187,l),
+(404,0,l),
+(573,0,l),
+(387,279,l),
+(565,546,l),
+(396,546,l),
+(289,372,l),
+(183,546,l),
+(14,546,l),
+(190,279,l),
+(5,0,l)
+);
+}
+);
+width = 578;
+}
+);
+unicode = 120325;
+}

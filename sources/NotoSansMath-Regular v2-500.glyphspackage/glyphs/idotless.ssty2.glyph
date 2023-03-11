@@ -1,0 +1,27 @@
+{
+color = 4;
+glyphname = idotless.ssty2;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (153,586);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(226,0,l),
+(226,545,l),
+(80,545,l),
+(80,0,l)
+);
+}
+);
+width = 306;
+}
+);
+}

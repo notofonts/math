@@ -1,0 +1,39 @@
+{
+glyphname = equivalence;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(521,491,l),
+(521,562,l),
+(51,562,l),
+(51,491,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(521,143,l),
+(521,214,l),
+(51,214,l),
+(51,143,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(521,317,l),
+(521,388,l),
+(51,388,l),
+(51,317,l)
+);
+}
+);
+width = 572;
+}
+);
+unicode = 8801;
+}

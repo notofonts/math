@@ -1,0 +1,42 @@
+{
+glyphname = doubleLineSlantedEqualToOrLessThan;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(521,-3,l),
+(155,165,l),
+(521,333,l),
+(521,411,l),
+(51,190,l),
+(51,140,l),
+(521,-81,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(521,524,l),
+(521,602,l),
+(51,381,l),
+(51,303,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(521,715,l),
+(521,793,l),
+(51,572,l),
+(51,494,l)
+);
+}
+);
+width = 572;
+}
+);
+unicode = 10907;
+}

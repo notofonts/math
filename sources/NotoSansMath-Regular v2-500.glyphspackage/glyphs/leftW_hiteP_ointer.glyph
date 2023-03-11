@@ -1,0 +1,29 @@
+{
+color = 4;
+glyphname = leftWhitePointer;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(776,599,l),
+(62,357,l),
+(776,115,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(221,357,l),
+(725,528,l),
+(725,186,l)
+);
+}
+);
+width = 838;
+}
+);
+unicode = 9669;
+}

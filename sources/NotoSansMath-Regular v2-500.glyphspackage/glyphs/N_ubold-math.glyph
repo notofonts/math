@@ -1,0 +1,22 @@
+{
+color = 4;
+glyphname = "Nubold-math";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (401,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "Nbold-math";
+}
+);
+width = 788;
+}
+);
+unicode = 120500;
+}

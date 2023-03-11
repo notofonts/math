@@ -1,0 +1,52 @@
+{
+glyphname = leftCeiling;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = _part.leftCeiling;
+}
+);
+width = 383;
+}
+);
+unicode = 8968;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+leftCeiling.x,
+1,
+600,
+600
+),
+(
+leftCeiling.t,
+0,
+900,
+0
+)
+);
+vVariants = (
+leftCeiling,
+leftCeiling.s1,
+leftCeiling.s2,
+leftCeiling.s3,
+leftCeiling.s4,
+leftCeiling.s5,
+leftCeiling.s6,
+leftCeiling.s7,
+leftCeiling.s8,
+leftCeiling.s9,
+leftCeiling.s10,
+leftCeiling.s11,
+leftCeiling.s12
+);
+};
+};
+}

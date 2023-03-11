@@ -1,0 +1,31 @@
+{
+color = 4;
+glyphname = "isansbold-math.dotless";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (153,810);
+},
+{
+name = top;
+pos = (153,760);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(227,0,l),
+(227,546,l),
+(78,546,l),
+(78,0,l)
+);
+}
+);
+width = 305;
+}
+);
+}

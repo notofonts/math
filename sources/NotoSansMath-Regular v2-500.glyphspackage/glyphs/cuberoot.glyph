@@ -1,0 +1,30 @@
+{
+glyphname = cuberoot;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = _part.cuberoot;
+}
+);
+width = 605;
+}
+);
+unicode = 8731;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+cuberoot,
+cuberoot.s1,
+cuberoot.s2,
+cuberoot.s3,
+cuberoot.s4
+);
+};
+};
+}

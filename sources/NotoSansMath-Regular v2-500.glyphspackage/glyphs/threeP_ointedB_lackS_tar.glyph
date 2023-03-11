@@ -1,0 +1,24 @@
+{
+color = 4;
+glyphname = threePointedBlackStar;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(400,131,l),
+(750,54,l),
+(511,323,l),
+(400,660,l),
+(289,323,l),
+(50,54,l)
+);
+}
+);
+width = 800;
+}
+);
+unicode = 128962;
+}

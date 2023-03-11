@@ -1,0 +1,44 @@
+{
+glyphname = underscore;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = _part.underscore;
+}
+);
+width = 444;
+}
+);
+unicode = 95;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hAssembly = (
+(
+underscore,
+1,
+400,
+400
+),
+(
+underscore,
+0,
+400,
+400
+)
+);
+hVariants = (
+underscore,
+underscore.s1,
+underscore.s2,
+underscore.s3,
+underscore.s4,
+underscore.s5
+);
+};
+};
+}

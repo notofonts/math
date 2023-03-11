@@ -1,0 +1,32 @@
+{
+color = 0;
+export = 0;
+glyphname = enclosingdiamondcomb;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1319,357,l),
+(685,991,l),
+(51,357,l),
+(685,-277,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(123,357,l),
+(685,919,l),
+(1247,357,l),
+(685,-205,l)
+);
+}
+);
+width = 1370;
+}
+);
+unicode = 8415;
+}

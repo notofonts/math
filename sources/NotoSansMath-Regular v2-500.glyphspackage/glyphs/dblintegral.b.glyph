@@ -1,0 +1,20 @@
+{
+glyphname = dblintegral.b;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = integralbt;
+},
+{
+pos = (289,0);
+ref = integralbt;
+}
+);
+width = 676;
+}
+);
+metricLeft = "=integralbt";
+metricRight = "=integralbt";
+}

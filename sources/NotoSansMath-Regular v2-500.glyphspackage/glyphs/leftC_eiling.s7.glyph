@@ -1,0 +1,17 @@
+{
+glyphname = leftCeiling.s7;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 7;
+};
+ref = _part.leftCeiling;
+}
+);
+width = 506;
+}
+);
+}

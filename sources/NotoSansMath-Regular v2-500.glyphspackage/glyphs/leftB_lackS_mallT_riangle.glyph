@@ -1,0 +1,21 @@
+{
+color = 4;
+glyphname = leftBlackSmallTriangle;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(414,569,l),
+(48,357,l),
+(414,145,l)
+);
+}
+);
+width = 462;
+}
+);
+unicode = 9666;
+}

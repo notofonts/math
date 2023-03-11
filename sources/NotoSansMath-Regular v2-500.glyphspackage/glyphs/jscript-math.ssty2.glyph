@@ -1,0 +1,25 @@
+{
+color = 4;
+glyphname = "jscript-math.ssty2";
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (365,250);
+},
+{
+name = math.ta;
+pos = (452,586);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "jboldscript-math";
+}
+);
+width = 344;
+}
+);
+}

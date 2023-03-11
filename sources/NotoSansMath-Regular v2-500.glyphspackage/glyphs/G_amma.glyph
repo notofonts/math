@@ -1,0 +1,38 @@
+{
+glyphname = Gamma;
+kernRight = Gamma;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (262,0);
+},
+{
+name = math.ta;
+pos = (305,764);
+},
+{
+name = top;
+pos = (305,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(187,0,l),
+(187,634,l),
+(500,634,l),
+(500,714,l),
+(97,714,l),
+(97,0,l)
+);
+}
+);
+width = 524;
+}
+);
+unicode = 915;
+}

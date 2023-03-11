@@ -1,0 +1,59 @@
+{
+glyphname = parenleft;
+kernRight = paren.left;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = _part.parenleft;
+}
+);
+width = 328;
+}
+);
+unicode = 40;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+parenleftlowerhook,
+0,
+0,
+900
+),
+(
+parenleftextension,
+1,
+900,
+900
+),
+(
+parenleftupperhook,
+0,
+900,
+0
+)
+);
+vVariants = (
+parenleft,
+parenleft.s1,
+parenleft.s2,
+parenleft.s3,
+parenleft.s4,
+parenleft.s5,
+parenleft.s6,
+parenleft.s7,
+parenleft.s8,
+parenleft.s9,
+parenleft.s10,
+parenleft.s11,
+parenleft.s12
+);
+};
+};
+}

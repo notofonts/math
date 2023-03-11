@@ -1,0 +1,22 @@
+{
+color = 4;
+glyphname = "Upsilonbold-math";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (332,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "Ybold-math";
+}
+);
+width = 693;
+}
+);
+unicode = 120508;
+}

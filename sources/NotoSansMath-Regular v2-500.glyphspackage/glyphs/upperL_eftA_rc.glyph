@@ -1,0 +1,26 @@
+{
+color = 4;
+glyphname = upperLeftArc;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(103,357,l),
+(103,532,o),
+(244,673,o),
+(419,673,c),
+(419,724,l),
+(216,724,o),
+(52,560,o),
+(52,357,c)
+);
+}
+);
+width = 838;
+}
+);
+unicode = 9692;
+}

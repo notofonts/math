@@ -1,0 +1,21 @@
+{
+color = 4;
+glyphname = "rscript-math.ssty2";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (214,586);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "rboldscript-math";
+}
+);
+width = 410;
+}
+);
+}

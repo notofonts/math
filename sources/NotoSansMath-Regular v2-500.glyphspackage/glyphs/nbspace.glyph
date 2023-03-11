@@ -1,0 +1,15 @@
+{
+color = 4;
+glyphname = nbspace;
+layers = (
+{
+layerId = master01;
+userData = {
+com.schriftgestaltung.Glyphs.glyph.widthMetricsKey = space;
+};
+width = 260;
+}
+);
+metricWidth = "=space";
+unicode = 160;
+}

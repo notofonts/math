@@ -1,0 +1,28 @@
+{
+color = 4;
+glyphname = blackMediumSmallLozenge;
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (240,360);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(429,360,l),
+(240,670,l),
+(51,360,l),
+(240,50,l)
+);
+}
+);
+width = 480;
+}
+);
+unicode = 128927;
+}

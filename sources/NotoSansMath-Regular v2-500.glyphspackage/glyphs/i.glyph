@@ -1,0 +1,37 @@
+{
+glyphname = i;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (131,0);
+},
+{
+name = math.ta;
+pos = (129,787);
+},
+{
+name = top;
+pos = (129,737);
+},
+{
+name = topright;
+pos = (238,737);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (78,0);
+ref = dotaccentcomb;
+}
+);
+width = 258;
+}
+);
+unicode = 105;
+}

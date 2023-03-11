@@ -1,0 +1,27 @@
+{
+glyphname = parenleftupperhook;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(136,0,l),
+(136,920,ls),
+(136,1155,o),
+(181,1260,o),
+(296,1362,c),
+(211,1362,l),
+(104,1272,o),
+(51,1125,o),
+(51,920,cs),
+(51,0,l)
+);
+}
+);
+width = 316;
+}
+);
+unicode = 9115;
+}

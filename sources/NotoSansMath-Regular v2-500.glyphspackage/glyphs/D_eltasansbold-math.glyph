@@ -1,0 +1,35 @@
+{
+glyphname = "Deltasansbold-math";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (348,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(697,0,l),
+(422,719,l),
+(275,719,l),
+(0,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(348,542,l),
+(508,125,l),
+(189,125,l)
+);
+}
+);
+width = 697;
+}
+);
+unicode = 120665;
+}

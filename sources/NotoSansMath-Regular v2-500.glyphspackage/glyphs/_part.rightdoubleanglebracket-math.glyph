@@ -1,0 +1,63 @@
+{
+export = 0;
+glyphname = "_part.rightdoubleanglebracket-math";
+layers = (
+{
+layerId = master01;
+partSelection = {
+Size = 1;
+};
+shapes = (
+{
+alignment = -1;
+pos = (385,0);
+ref = "_part.leftanglebracket-math";
+scale = (-1,1);
+},
+{
+alignment = -1;
+pos = (556,0);
+ref = "_part.leftanglebracket-math";
+scale = (-1,1);
+}
+);
+width = 556;
+},
+{
+associatedMasterId = master01;
+layerId = "23B4489F-421D-4AAD-A6E3-6D92A4C112D7";
+name = "Regular-Large";
+partSelection = {
+Size = 2;
+};
+shapes = (
+{
+alignment = -1;
+piece = {
+Size = 12;
+};
+pos = (714,0);
+ref = "_part.leftanglebracket-math";
+scale = (-1,1);
+},
+{
+alignment = -1;
+piece = {
+Size = 12;
+};
+pos = (885,0);
+ref = "_part.leftanglebracket-math";
+scale = (-1,1);
+}
+);
+width = 885;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = Size;
+topValue = 12;
+}
+);
+}

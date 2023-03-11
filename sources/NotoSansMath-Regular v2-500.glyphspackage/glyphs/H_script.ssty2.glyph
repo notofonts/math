@@ -1,0 +1,21 @@
+{
+color = 4;
+glyphname = Hscript.ssty2;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (1137,250);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "Hboldscript-math";
+}
+);
+width = 1107;
+}
+);
+}

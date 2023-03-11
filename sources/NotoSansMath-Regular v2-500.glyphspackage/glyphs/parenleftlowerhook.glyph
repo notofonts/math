@@ -1,0 +1,27 @@
+{
+glyphname = parenleftlowerhook;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(296,0,l),
+(179,102,o),
+(136,208,o),
+(136,442,cs),
+(136,1362,l),
+(51,1362,l),
+(51,442,ls),
+(51,237,o),
+(104,90,o),
+(211,0,c)
+);
+}
+);
+width = 316;
+}
+);
+unicode = 9117;
+}

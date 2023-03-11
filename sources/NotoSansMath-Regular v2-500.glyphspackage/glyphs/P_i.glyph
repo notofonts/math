@@ -1,0 +1,39 @@
+{
+glyphname = Pi;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (366,0);
+},
+{
+name = math.ta;
+pos = (366,764);
+},
+{
+name = top;
+pos = (366,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(187,0,l),
+(187,635,l),
+(544,635,l),
+(544,0,l),
+(633,0,l),
+(633,714,l),
+(97,714,l),
+(97,0,l)
+);
+}
+);
+width = 731;
+}
+);
+unicode = 928;
+}

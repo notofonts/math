@@ -1,0 +1,46 @@
+{
+export = 0;
+glyphname = _part.rightpointingcurvedanglebracket;
+layers = (
+{
+layerId = master01;
+partSelection = {
+Size = 1;
+};
+shapes = (
+{
+pos = (456,0);
+ref = _part.leftpointingcurvedanglebracket;
+scale = (-1,1);
+}
+);
+width = 456;
+},
+{
+associatedMasterId = master01;
+layerId = "78745A10-CBCB-40BD-BDAC-894C9B54E26C";
+name = "Regular-Large";
+partSelection = {
+Size = 2;
+};
+shapes = (
+{
+piece = {
+Size = 12;
+};
+pos = (739,0);
+ref = _part.leftpointingcurvedanglebracket;
+scale = (-1,1);
+}
+);
+width = 739;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = Size;
+topValue = 12;
+}
+);
+}

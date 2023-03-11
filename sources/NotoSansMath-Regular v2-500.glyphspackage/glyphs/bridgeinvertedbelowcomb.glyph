@@ -1,0 +1,40 @@
+{
+color = 1;
+glyphname = bridgeinvertedbelowcomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (203,0);
+},
+{
+name = bottom;
+pos = (203,-218);
+},
+{
+name = math.ta;
+pos = (203,50);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(381,-218,l),
+(381,-48,l),
+(315,-48,l),
+(315,-158,l),
+(91,-158,l),
+(91,-48,l),
+(25,-48,l),
+(25,-218,l)
+);
+}
+);
+width = 406;
+}
+);
+unicode = 826;
+}

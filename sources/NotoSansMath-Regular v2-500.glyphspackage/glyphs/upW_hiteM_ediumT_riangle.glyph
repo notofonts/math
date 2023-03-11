@@ -1,0 +1,34 @@
+{
+color = 4;
+glyphname = upWhiteMediumTriangle;
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (309,317);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(599,132,l),
+(309,633,l),
+(19,132,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(309,531,l),
+(511,183,l),
+(107,183,l)
+);
+}
+);
+width = 618;
+}
+);
+}

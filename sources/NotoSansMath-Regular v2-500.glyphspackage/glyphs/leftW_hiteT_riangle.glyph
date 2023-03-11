@@ -1,0 +1,28 @@
+{
+glyphname = leftWhiteTriangle;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(748,751,l),
+(51,348,l),
+(748,-54,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(194,348,l),
+(676,627,l),
+(676,70,l)
+);
+}
+);
+width = 799;
+}
+);
+unicode = 9665;
+}

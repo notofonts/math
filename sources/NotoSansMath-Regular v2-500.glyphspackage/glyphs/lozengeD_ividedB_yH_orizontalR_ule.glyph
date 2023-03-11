@@ -1,0 +1,39 @@
+{
+glyphname = lozengeDividedByHorizontalRule;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(309,0,l),
+(529,359,l),
+(309,719,l),
+(271,719,l),
+(51,359,l),
+(271,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(147,325,l),
+(434,325,l),
+(290,85,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(290,633,l),
+(434,393,l),
+(147,393,l)
+);
+}
+);
+width = 580;
+}
+);
+unicode = 10208;
+}

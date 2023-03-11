@@ -1,0 +1,22 @@
+{
+color = 4;
+glyphname = "Omicronitalic-math";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (466,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "Oitalic-math";
+}
+);
+width = 742;
+}
+);
+unicode = 120560;
+}

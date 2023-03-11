@@ -1,0 +1,32 @@
+{
+color = 4;
+glyphname = "Alphabolditalic-math";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (354,0);
+},
+{
+name = math.ta;
+pos = (472,764);
+},
+{
+name = topleft;
+pos = (301,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (58,0);
+ref = "Abolditalic-math";
+}
+);
+width = 883;
+}
+);
+unicode = 120604;
+}

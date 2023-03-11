@@ -1,0 +1,32 @@
+{
+glyphname = "Upsilonsansbold-math";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (299,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(396,0,l),
+(396,268,l),
+(633,719,l),
+(464,719,l),
+(322,409,l),
+(168,719,l),
+(-13,719,l),
+(248,268,l),
+(248,0,l)
+);
+}
+);
+width = 622;
+}
+);
+unicode = 120682;
+}

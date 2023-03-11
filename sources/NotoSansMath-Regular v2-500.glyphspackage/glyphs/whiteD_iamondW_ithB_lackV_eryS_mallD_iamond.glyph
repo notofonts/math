@@ -1,0 +1,21 @@
+{
+color = 4;
+glyphname = whiteDiamondWithBlackVerySmallDiamond;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = whiteDiamond;
+},
+{
+pos = (250,-1);
+ref = blackVerySmallDiamond;
+}
+);
+width = 938;
+}
+);
+unicode = 128922;
+}

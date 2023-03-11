@@ -1,0 +1,23 @@
+{
+glyphname = turnedNotSign;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(521,310,l),
+(521,381,l),
+(122,381,l),
+(122,570,l),
+(51,570,l),
+(51,310,l)
+);
+}
+);
+width = 572;
+}
+);
+unicode = 8985;
+}

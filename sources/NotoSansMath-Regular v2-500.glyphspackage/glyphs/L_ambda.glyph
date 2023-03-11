@@ -1,0 +1,46 @@
+{
+glyphname = Lambda;
+kernLeft = Alpha;
+kernRight = Alpha;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (304,0);
+},
+{
+name = math.ta;
+pos = (304,764);
+},
+{
+name = top;
+pos = (304,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(95,0,l),
+(252,451,ls),
+(273,511,o),
+(292,568,o),
+(302,616,c),
+(314,568,o),
+(332,512,o),
+(354,450,cs),
+(512,0,l),
+(607,0,l),
+(350,714,l),
+(256,714,l),
+(0,0,l)
+);
+}
+);
+width = 608;
+}
+);
+unicode = 923;
+}

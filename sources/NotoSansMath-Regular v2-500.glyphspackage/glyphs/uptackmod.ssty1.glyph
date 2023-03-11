@@ -1,0 +1,25 @@
+{
+color = 4;
+glyphname = uptackmod.ssty1;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(250,217,l),
+(250,275,l),
+(172,275,l),
+(172,407,l),
+(108,407,l),
+(108,275,l),
+(30,275,l),
+(30,217,l)
+);
+}
+);
+width = 280;
+}
+);
+}

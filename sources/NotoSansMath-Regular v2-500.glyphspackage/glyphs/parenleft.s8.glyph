@@ -1,0 +1,17 @@
+{
+glyphname = parenleft.s8;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 8;
+};
+ref = _part.parenleft;
+}
+);
+width = 591;
+}
+);
+}

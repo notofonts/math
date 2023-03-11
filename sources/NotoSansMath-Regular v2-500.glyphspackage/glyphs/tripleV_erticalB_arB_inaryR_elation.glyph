@@ -1,0 +1,43 @@
+{
+color = 4;
+glyphname = tripleVerticalBarBinaryRelation;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(496,-175,l),
+(496,825,l),
+(425,825,l),
+(425,-175,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(122,-175,l),
+(122,825,l),
+(51,825,l),
+(51,-175,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(309,-175,l),
+(309,825,l),
+(238,825,l),
+(238,-175,l)
+);
+}
+);
+userData = {
+com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = "=|";
+};
+width = 547;
+}
+);
+unicode = 10996;
+}

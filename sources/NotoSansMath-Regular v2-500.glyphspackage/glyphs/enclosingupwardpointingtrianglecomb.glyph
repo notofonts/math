@@ -1,0 +1,30 @@
+{
+color = 0;
+export = 0;
+glyphname = enclosingupwardpointingtrianglecomb;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1669,-142,l),
+(860,1239,l),
+(51,-142,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(860,1138,l),
+(1580,-91,l),
+(140,-91,l)
+);
+}
+);
+width = 1720;
+}
+);
+unicode = 8420;
+}

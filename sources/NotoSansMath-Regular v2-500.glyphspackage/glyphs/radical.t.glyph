@@ -1,0 +1,22 @@
+{
+glyphname = radical.t;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(838,951,l),
+(838,1041,l),
+(444,1041,l),
+(444,0,l),
+(529,0,l),
+(529,951,l)
+);
+}
+);
+width = 800;
+}
+);
+}

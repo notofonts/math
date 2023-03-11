@@ -1,0 +1,21 @@
+{
+glyphname = horizontallineextension;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1002,318,l),
+(1002,372,l),
+(-2,372,l),
+(-2,318,l)
+);
+}
+);
+width = 1000;
+}
+);
+unicode = 9135;
+}

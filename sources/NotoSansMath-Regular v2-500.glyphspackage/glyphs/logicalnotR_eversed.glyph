@@ -1,0 +1,23 @@
+{
+glyphname = logicalnotReversed;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(122,121,l),
+(122,310,l),
+(521,310,l),
+(521,381,l),
+(51,381,l),
+(51,121,l)
+);
+}
+);
+width = 572;
+}
+);
+unicode = 8976;
+}

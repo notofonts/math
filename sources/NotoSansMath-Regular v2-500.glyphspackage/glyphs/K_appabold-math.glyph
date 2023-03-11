@@ -1,0 +1,22 @@
+{
+color = 4;
+glyphname = "Kappabold-math";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (363,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "Kbold-math";
+}
+);
+width = 734;
+}
+);
+unicode = 120497;
+}

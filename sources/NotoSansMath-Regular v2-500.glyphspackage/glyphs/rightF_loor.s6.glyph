@@ -1,0 +1,17 @@
+{
+glyphname = rightFloor.s6;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 6;
+};
+ref = _part.rightFloor;
+}
+);
+width = 489;
+}
+);
+}

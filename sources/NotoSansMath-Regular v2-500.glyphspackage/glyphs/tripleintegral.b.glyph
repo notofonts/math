@@ -1,0 +1,24 @@
+{
+glyphname = tripleintegral.b;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = integralbt;
+},
+{
+pos = (289,0);
+ref = integralbt;
+},
+{
+pos = (578,0);
+ref = integralbt;
+}
+);
+width = 965;
+}
+);
+metricLeft = "=integralbt";
+metricRight = "=integralbt";
+}

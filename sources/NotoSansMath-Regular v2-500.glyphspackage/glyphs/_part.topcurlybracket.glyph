@@ -1,0 +1,50 @@
+{
+color = 9;
+export = 0;
+glyphname = _part.topcurlybracket;
+layers = (
+{
+layerId = master01;
+partSelection = {
+Size = 1;
+};
+shapes = (
+{
+alignment = -1;
+pos = (0,530);
+ref = _part.bottomcurlybracket;
+scale = (1,-1);
+}
+);
+width = 880;
+},
+{
+associatedMasterId = master01;
+layerId = "40BC1C07-0DED-4A48-9F4A-AB2B9EC95D36";
+name = "Regular-Large";
+partSelection = {
+Size = 2;
+};
+shapes = (
+{
+alignment = -1;
+piece = {
+Size = 5;
+};
+pos = (0,530);
+ref = _part.bottomcurlybracket;
+scale = (1,-1);
+}
+);
+width = 4000;
+}
+);
+metricRight = "=|";
+partsSettings = (
+{
+bottomValue = 0;
+name = Size;
+topValue = 5;
+}
+);
+}

@@ -1,0 +1,56 @@
+{
+color = 4;
+glyphname = "Imono-math";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (300,0);
+},
+{
+name = math.ta;
+pos = (300,764);
+},
+{
+name = ogonek;
+pos = (367,10);
+},
+{
+name = top;
+pos = (300,714);
+},
+{
+name = topleft;
+pos = (20,714);
+},
+{
+name = topright;
+pos = (580,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(490,0,l),
+(490,62,l),
+(344,75,l),
+(344,639,l),
+(490,652,l),
+(490,714,l),
+(110,714,l),
+(110,652,l),
+(254,639,l),
+(254,75,l),
+(110,62,l),
+(110,0,l)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 120440;
+}

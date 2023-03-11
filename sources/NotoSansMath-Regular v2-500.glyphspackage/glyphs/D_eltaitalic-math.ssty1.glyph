@@ -1,0 +1,43 @@
+{
+color = 4;
+glyphname = "Deltaitalic-math.ssty1";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (392,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(627,0,l),
+(637,50,l),
+(518,714,l),
+(410,714,l),
+(1,50,l),
+(-10,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(330,466,ls),
+(363,519,o),
+(390,571,o),
+(414,618,c),
+(417,570,o),
+(422,513,o),
+(432,457,cs),
+(505,55,l),
+(78,55,l)
+);
+}
+);
+width = 717;
+}
+);
+}

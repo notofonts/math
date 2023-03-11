@@ -1,0 +1,36 @@
+{
+glyphname = leftnormalfactorsemidirectproduct;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(366,276,l),
+(637,8,l),
+(683,61,l),
+(418,328,l),
+(684,594,l),
+(637,646,l),
+(367,378,l),
+(90,654,l),
+(51,640,l),
+(51,14,l),
+(90,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(122,520,l),
+(316,328,l),
+(122,133,l)
+);
+}
+);
+width = 734;
+}
+);
+unicode = 8905;
+}

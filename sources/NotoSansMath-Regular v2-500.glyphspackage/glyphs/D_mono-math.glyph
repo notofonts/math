@@ -1,0 +1,63 @@
+{
+color = 4;
+glyphname = "Dmono-math";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (264,0);
+},
+{
+name = center;
+pos = (299,357);
+},
+{
+name = math.ta;
+pos = (277,764);
+},
+{
+name = top;
+pos = (277,714);
+},
+{
+name = topright;
+pos = (600,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(223,0,ls),
+(432,0,o),
+(555,123,o),
+(555,364,cs),
+(555,593,o),
+(432,714,o),
+(243,714,cs),
+(70,714,l),
+(70,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(160,78,l),
+(160,636,l),
+(233,636,ls),
+(376,636,o),
+(463,550,o),
+(463,361,cs),
+(463,175,o),
+(384,78,o),
+(214,78,cs)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 120435;
+}

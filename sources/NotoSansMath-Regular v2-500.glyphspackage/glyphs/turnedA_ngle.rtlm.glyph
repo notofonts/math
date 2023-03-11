@@ -1,0 +1,23 @@
+{
+glyphname = turnedAngle.rtlm;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(511,31,l),
+(166,424,l),
+(601,424,l),
+(601,495,l),
+(51,495,l),
+(51,445,l),
+(461,-20,l)
+);
+}
+);
+width = 652;
+}
+);
+}

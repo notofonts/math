@@ -1,0 +1,30 @@
+{
+color = 4;
+glyphname = second.ssty2;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(360,452,l),
+(536,714,l),
+(403,714,l),
+(261,452,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(137,452,l),
+(313,714,l),
+(180,714,l),
+(38,452,l)
+);
+}
+);
+width = 523;
+}
+);
+}

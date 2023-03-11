@@ -1,0 +1,17 @@
+{
+glyphname = leftFloor.s4;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 4;
+};
+ref = _part.leftFloor;
+}
+);
+width = 453;
+}
+);
+}

@@ -1,0 +1,21 @@
+{
+glyphname = bigSolidus;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(59,-293,l),
+(415,1069,l),
+(344,1069,l),
+(-12,-293,l)
+);
+}
+);
+width = 403;
+}
+);
+unicode = 10744;
+}

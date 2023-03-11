@@ -1,0 +1,38 @@
+{
+glyphname = whiteparenright;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = _part.whiteparenright;
+}
+);
+width = 403;
+}
+);
+unicode = 10630;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+whiteparenright,
+whiteparenright.s1,
+whiteparenright.s2,
+whiteparenright.s3,
+whiteparenright.s4,
+whiteparenright.s5,
+whiteparenright.s6,
+whiteparenright.s7,
+whiteparenright.s8,
+whiteparenright.s9,
+whiteparenright.s10,
+whiteparenright.s11,
+whiteparenright.s12
+);
+};
+};
+}

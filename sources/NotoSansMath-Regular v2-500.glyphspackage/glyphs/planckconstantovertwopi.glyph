@@ -1,0 +1,49 @@
+{
+color = 4;
+glyphname = planckconstantovertwopi;
+kernLeft = b;
+kernRight = n;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (243,0);
+},
+{
+name = center;
+pos = (357,268);
+},
+{
+name = math.ta;
+pos = (405,810);
+},
+{
+name = top;
+pos = (405,760);
+},
+{
+name = topright;
+pos = (684,760);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = planckconstant;
+},
+{
+closed = 1;
+nodes = (
+(376,620,l),
+(389,682,l),
+(43,506,l),
+(30,444,l)
+);
+}
+);
+width = 599;
+}
+);
+unicode = 8463;
+}

@@ -1,0 +1,26 @@
+{
+color = 4;
+glyphname = "Nubolditalic-math";
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (889,250);
+},
+{
+name = math.ta;
+pos = (489,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "Nbolditalic-math";
+}
+);
+width = 788;
+}
+);
+unicode = 120616;
+}

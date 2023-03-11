@@ -1,0 +1,79 @@
+{
+export = 0;
+glyphname = _part.radical;
+layers = (
+{
+layerId = master01;
+partSelection = {
+Size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(339,0,l),
+(710,1057,l),
+(639,1057,l),
+(307,121,l),
+(194,450,l),
+(51,450,l),
+(51,380,l),
+(139,380,l),
+(274,0,l)
+);
+}
+);
+width = 679;
+},
+{
+associatedMasterId = master01;
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(481,-7,l),
+(1013,2080,l),
+(930,2080,l),
+(437,114,l),
+(194,803,l),
+(47,803,l),
+(47,733,l),
+(135,733,l),
+(400,-7,l)
+);
+}
+);
+};
+layerId = "1C47999D-2140-4E33-BDEA-F360925A1E0F";
+name = "Regular-Large";
+partSelection = {
+Size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(481,0,l),
+(1113,2487,l),
+(1030,2487,l),
+(437,121,l),
+(194,810,l),
+(47,810,l),
+(47,740,l),
+(135,740,l),
+(400,0,l)
+);
+}
+);
+width = 1070;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = Size;
+topValue = 4;
+}
+);
+}

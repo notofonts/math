@@ -1,0 +1,30 @@
+{
+glyphname = largeLeftTriangleOperator;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(484,-52,l),
+(484,710,l),
+(446,723,l),
+(51,330,l),
+(446,-65,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(152,330,l),
+(413,591,l),
+(413,67,l)
+);
+}
+);
+width = 535;
+}
+);
+unicode = 10782;
+}

@@ -1,0 +1,27 @@
+{
+color = 4;
+glyphname = staroperator.ssty2;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(263,242,l),
+(408,137,l),
+(351,306,l),
+(495,411,l),
+(318,411,l),
+(263,578,l),
+(208,411,l),
+(31,411,l),
+(174,306,l),
+(118,137,l)
+);
+}
+);
+width = 526;
+}
+);
+}

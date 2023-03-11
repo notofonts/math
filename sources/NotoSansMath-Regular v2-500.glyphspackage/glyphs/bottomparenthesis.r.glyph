@@ -1,0 +1,16 @@
+{
+glyphname = bottomparenthesis.r;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+pos = (800,0);
+ref = bottomparenthesis.l;
+scale = (-1,1);
+}
+);
+width = 800;
+}
+);
+}

@@ -1,0 +1,33 @@
+{
+glyphname = logicalOrWithMiddleStem;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(382,0,l),
+(663,580,l),
+(580,580,l),
+(357,102,l),
+(134,580,l),
+(51,580,l),
+(332,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(392,69,l),
+(392,580,l),
+(322,580,l),
+(322,69,l)
+);
+}
+);
+width = 714;
+}
+);
+unicode = 10843;
+}

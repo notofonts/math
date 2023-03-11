@@ -1,0 +1,52 @@
+{
+color = 9;
+export = 0;
+glyphname = _part.underscore;
+layers = (
+{
+layerId = master01;
+partSelection = {
+Size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(446,-161,l),
+(446,-90,l),
+(-2,-90,l),
+(-2,-161,l)
+);
+}
+);
+width = 444;
+},
+{
+associatedMasterId = master01;
+layerId = "82D16B82-92E3-4C07-8E47-A219D40912F0";
+name = "Regular-Large";
+partSelection = {
+Size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(2238,-161,l),
+(2238,-90,l),
+(-2,-90,l),
+(-2,-161,l)
+);
+}
+);
+width = 2236;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = Size;
+topValue = 5;
+}
+);
+}

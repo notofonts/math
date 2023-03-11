@@ -1,0 +1,21 @@
+{
+glyphname = parenrightextension;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(265,0,l),
+(265,900,l),
+(180,900,l),
+(180,0,l)
+);
+}
+);
+width = 316;
+}
+);
+unicode = 9119;
+}

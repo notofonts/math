@@ -1,0 +1,23 @@
+{
+color = 4;
+glyphname = hyphen.ssty2;
+kernLeft = hyphen.right;
+kernRight = hyphen.left;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(296,210,l),
+(296,326,l),
+(30,326,l),
+(30,210,l)
+);
+}
+);
+width = 326;
+}
+);
+}

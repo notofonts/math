@@ -1,0 +1,23 @@
+{
+color = 4;
+glyphname = topsquarebracket.r;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(800,658,l),
+(800,857,l),
+(0,857,l),
+(0,777,l),
+(728,777,l),
+(728,658,l)
+);
+}
+);
+width = 800;
+}
+);
+}

@@ -1,0 +1,41 @@
+{
+glyphname = greaterThanAndSingleLineNotEqualTo.rtlm;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(521,244,l),
+(155,412,l),
+(521,580,l),
+(521,658,l),
+(51,437,l),
+(51,387,l),
+(521,166,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(373,-45,l),
+(247,220,l),
+(190,190,l),
+(315,-73,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(521,47,l),
+(521,118,l),
+(51,118,l),
+(51,47,l)
+);
+}
+);
+width = 572;
+}
+);
+}

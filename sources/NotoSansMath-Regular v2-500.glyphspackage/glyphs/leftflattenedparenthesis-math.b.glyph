@@ -1,0 +1,27 @@
+{
+export = 0;
+glyphname = "leftflattenedparenthesis-math.b";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(275,0,l),
+(199,67,o),
+(136,120,o),
+(136,261,cs),
+(136,714,l),
+(51,714,l),
+(51,260,ls),
+(51,119,o),
+(109,67,o),
+(180,0,c)
+);
+}
+);
+width = 295;
+}
+);
+}

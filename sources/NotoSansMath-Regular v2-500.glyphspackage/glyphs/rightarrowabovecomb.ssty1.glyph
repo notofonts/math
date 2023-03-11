@@ -1,0 +1,24 @@
+{
+color = 4;
+glyphname = rightarrowabovecomb.ssty1;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(386,700,l),
+(237,810,l),
+(237,739,l),
+(0,739,l),
+(0,661,l),
+(237,661,l),
+(237,590,l)
+);
+}
+);
+width = 386;
+}
+);
+}

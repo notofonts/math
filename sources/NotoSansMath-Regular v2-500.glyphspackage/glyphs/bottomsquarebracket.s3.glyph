@@ -1,0 +1,17 @@
+{
+glyphname = bottomsquarebracket.s3;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 3;
+};
+ref = _part.bottomsquarebracket;
+}
+);
+width = 2282;
+}
+);
+}

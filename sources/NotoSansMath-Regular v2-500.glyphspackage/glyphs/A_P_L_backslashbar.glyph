@@ -1,0 +1,30 @@
+{
+glyphname = APLbackslashbar;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(466,-110,l),
+(148,713,l),
+(73,713,l),
+(391,-110,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(488,268,l),
+(488,335,l),
+(51,335,l),
+(51,268,l)
+);
+}
+);
+width = 539;
+}
+);
+unicode = 9024;
+}

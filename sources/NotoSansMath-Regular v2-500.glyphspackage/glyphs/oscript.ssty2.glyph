@@ -1,0 +1,15 @@
+{
+color = 4;
+glyphname = oscript.ssty2;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "oboldscript-math";
+}
+);
+width = 447;
+}
+);
+}

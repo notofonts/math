@@ -1,0 +1,40 @@
+{
+glyphname = leftharpoonwithbarbdowncomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (237,0);
+},
+{
+name = math.ta;
+pos = (237,-48);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = _part.leftharpoonwithbarbdowncomb;
+}
+);
+width = 374;
+}
+);
+unicode = 8429;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hVariants = (
+leftharpoonwithbarbdowncomb,
+leftharpoonwithbarbdown.s1,
+leftharpoonwithbarbdown.s2,
+leftharpoonwithbarbdown.s3,
+leftharpoonwithbarbdown.s4,
+leftharpoonwithbarbdown.s5
+);
+};
+};
+}

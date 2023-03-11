@@ -1,0 +1,26 @@
+{
+color = 4;
+glyphname = "Etaitalic-math";
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (867,250);
+},
+{
+name = math.ta;
+pos = (492,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "Hitalic-math";
+}
+);
+width = 793;
+}
+);
+unicode = 120552;
+}

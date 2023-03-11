@@ -1,0 +1,33 @@
+{
+glyphname = logicalAndWithHorizontalDash;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(151,0,l),
+(374,478,l),
+(597,0,l),
+(680,0,l),
+(399,580,l),
+(349,580,l),
+(68,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(697,154,l),
+(697,225,l),
+(51,225,l),
+(51,154,l)
+);
+}
+);
+width = 748;
+}
+);
+unicode = 10844;
+}

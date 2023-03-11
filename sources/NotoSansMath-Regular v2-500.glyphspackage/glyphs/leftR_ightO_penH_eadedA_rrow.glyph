@@ -1,0 +1,53 @@
+{
+glyphname = leftRightOpenHeadedArrow;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(955,345,l),
+(714,472,l),
+(714,218,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(292,472,l),
+(51,345,l),
+(292,218,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(146,345,l),
+(244,393,l),
+(244,297,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(734,318,l),
+(734,372,l),
+(272,372,l),
+(272,318,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(762,393,l),
+(860,345,l),
+(762,297,l)
+);
+}
+);
+width = 1006;
+}
+);
+unicode = 8703;
+}

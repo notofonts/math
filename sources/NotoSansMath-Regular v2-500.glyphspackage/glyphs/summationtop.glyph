@@ -1,0 +1,24 @@
+{
+glyphname = summationtop;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(495,-293,l),
+(157,593,l),
+(586,593,l),
+(586,672,l),
+(51,672,l),
+(51,616,l),
+(403,-293,l)
+);
+}
+);
+width = 637;
+}
+);
+unicode = 9138;
+}

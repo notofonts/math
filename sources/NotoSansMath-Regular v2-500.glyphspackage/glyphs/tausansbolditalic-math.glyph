@@ -1,0 +1,35 @@
+{
+glyphname = "tausansbolditalic-math";
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (490,250);
+},
+{
+name = math.ta;
+pos = (297,583);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(229,0,l),
+(303,424,l),
+(451,424,l),
+(470,533,l),
+(33,533,l),
+(14,424,l),
+(163,424,l),
+(89,0,l)
+);
+}
+);
+width = 451;
+}
+);
+unicode = 120765;
+}

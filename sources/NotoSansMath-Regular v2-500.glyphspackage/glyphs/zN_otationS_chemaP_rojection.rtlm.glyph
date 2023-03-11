@@ -1,0 +1,23 @@
+{
+glyphname = zNotationSchemaProjection.rtlm;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(270,741,l),
+(230,741,l),
+(51,570,l),
+(95,524,l),
+(198,623,l),
+(198,0,l),
+(270,0,l)
+);
+}
+);
+width = 321;
+}
+);
+}

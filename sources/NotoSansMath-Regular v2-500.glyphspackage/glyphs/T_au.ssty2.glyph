@@ -1,0 +1,22 @@
+{
+color = 4;
+glyphname = Tau.ssty2;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (301,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = T.ssty2;
+}
+);
+width = 603;
+}
+);
+}

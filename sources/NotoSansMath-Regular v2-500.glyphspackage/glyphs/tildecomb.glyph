@@ -1,0 +1,44 @@
+{
+glyphname = tildecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (184,536);
+},
+{
+name = math.ta;
+pos = (184,486);
+},
+{
+name = top;
+pos = (184,735);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = _part.tildecomb;
+}
+);
+width = 367;
+}
+);
+unicode = 771;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hVariants = (
+tildecomb,
+tilde.s1,
+tilde.s2,
+tilde.s3,
+tilde.s4,
+tilde.s5
+);
+};
+};
+}

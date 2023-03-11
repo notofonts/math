@@ -1,0 +1,22 @@
+{
+glyphname = interiorProduct.uv001;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(399,-134,l),
+(399,714,l),
+(328,714,l),
+(328,-63,l),
+(51,-63,l),
+(51,-134,l)
+);
+}
+);
+width = 450;
+}
+);
+}

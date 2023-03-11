@@ -1,0 +1,30 @@
+{
+glyphname = reverseSolidusWithHorizontalStroke;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(420,-121,l),
+(190,760,l),
+(119,760,l),
+(349,-121,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(488,286,l),
+(488,353,l),
+(51,353,l),
+(51,286,l)
+);
+}
+);
+width = 539;
+}
+);
+unicode = 10743;
+}

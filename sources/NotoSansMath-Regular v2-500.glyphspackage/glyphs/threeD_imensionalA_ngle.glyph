@@ -1,0 +1,26 @@
+{
+glyphname = threeDimensionalAngle;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(601,0,l),
+(601,71,l),
+(166,71,l),
+(535,433,l),
+(485,484,l),
+(122,121,l),
+(122,550,l),
+(51,550,l),
+(51,0,l)
+);
+}
+);
+width = 652;
+}
+);
+unicode = 10176;
+}

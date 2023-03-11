@@ -1,0 +1,33 @@
+{
+glyphname = angleWithUnderbar;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(601,130,l),
+(601,201,l),
+(166,201,l),
+(511,594,l),
+(461,645,l),
+(51,180,l),
+(51,130,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(601,0,l),
+(601,71,l),
+(51,71,l),
+(51,0,l)
+);
+}
+);
+width = 652;
+}
+);
+unicode = 10660;
+}

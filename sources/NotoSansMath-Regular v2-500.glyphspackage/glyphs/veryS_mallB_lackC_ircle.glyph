@@ -1,0 +1,35 @@
+{
+color = 4;
+glyphname = verySmallBlackCircle;
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (168,359);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(233,242,o),
+(285,294,o),
+(285,359,cs),
+(285,424,o),
+(233,476,o),
+(168,476,cs),
+(103,476,o),
+(51,424,o),
+(51,359,cs),
+(51,294,o),
+(103,242,o),
+(168,242,cs)
+);
+}
+);
+width = 336;
+}
+);
+}

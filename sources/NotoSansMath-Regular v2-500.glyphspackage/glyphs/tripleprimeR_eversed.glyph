@@ -1,0 +1,26 @@
+{
+glyphname = tripleprimeReversed;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (325,0);
+ref = primeReversed;
+},
+{
+alignment = -1;
+pos = (163,0);
+ref = primeReversed;
+},
+{
+alignment = -1;
+ref = primeReversed;
+}
+);
+width = 602;
+}
+);
+unicode = 8247;
+}

@@ -1,0 +1,55 @@
+{
+glyphname = "ksansbolditalic-math";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (247,0);
+},
+{
+name = math.ic;
+pos = (637,250);
+},
+{
+name = math.ta;
+pos = (251,810);
+},
+{
+name = top;
+pos = (251,760);
+},
+{
+name = topright;
+pos = (651,760);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(165,0,l),
+(201,170,l),
+(260,205,l),
+(349,0,l),
+(513,0,l),
+(374,300,l),
+(617,546,l),
+(449,546,l),
+(228,314,l),
+(224,314,l),
+(231,336,o),
+(247,388,o),
+(254,421,cs),
+(326,760,l),
+(179,760,l),
+(18,0,l)
+);
+}
+);
+width = 568;
+}
+);
+unicode = 120416;
+}

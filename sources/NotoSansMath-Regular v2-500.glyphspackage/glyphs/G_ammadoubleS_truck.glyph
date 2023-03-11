@@ -1,0 +1,38 @@
+{
+glyphname = GammadoubleStruck;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (385,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(270,0,l),
+(270,661,l),
+(537,661,l),
+(537,714,l),
+(97,714,l),
+(97,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,661,l),
+(217,661,l),
+(217,53,l),
+(150,53,l)
+);
+}
+);
+width = 552;
+}
+);
+unicode = 8510;
+}

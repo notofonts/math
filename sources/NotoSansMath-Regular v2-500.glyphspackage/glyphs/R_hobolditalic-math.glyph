@@ -1,0 +1,30 @@
+{
+color = 4;
+glyphname = "Rhobolditalic-math";
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (688,250);
+},
+{
+name = math.ta;
+pos = (427,764);
+},
+{
+name = topleft;
+pos = (95,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "Pbolditalic-math";
+}
+);
+width = 663;
+}
+);
+unicode = 120620;
+}

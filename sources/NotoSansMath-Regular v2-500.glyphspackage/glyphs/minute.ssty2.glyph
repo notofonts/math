@@ -1,0 +1,23 @@
+{
+color = 4;
+glyphname = minute.ssty2;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(138,452,l),
+(314,714,l),
+(181,714,l),
+(39,452,l)
+);
+}
+);
+width = 288;
+}
+);
+metricLeft = second;
+metricRight = second;
+}

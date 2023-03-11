@@ -1,0 +1,21 @@
+{
+color = 4;
+glyphname = diamondTarget;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = whiteDiamond;
+},
+{
+pos = (200,-1);
+ref = whiteMediumSmallDiamond;
+}
+);
+width = 938;
+}
+);
+unicode = 128924;
+}

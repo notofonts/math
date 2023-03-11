@@ -1,0 +1,24 @@
+{
+color = 4;
+glyphname = boxLightUpAndLeft;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(444,307,l),
+(444,1078,l),
+(394,1078,l),
+(394,357,l),
+(-10,357,l),
+(-10,307,l)
+);
+}
+);
+width = 838;
+}
+);
+unicode = 9496;
+}

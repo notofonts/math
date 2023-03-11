@@ -1,0 +1,20 @@
+{
+color = 4;
+glyphname = upWhiteTriangleWithDot;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = upWhiteTriangle;
+},
+{
+pos = (343,-115);
+ref = dotmath;
+}
+);
+width = 907;
+}
+);
+unicode = 9708;
+}

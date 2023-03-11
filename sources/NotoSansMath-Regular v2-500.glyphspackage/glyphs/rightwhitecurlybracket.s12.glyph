@@ -1,0 +1,17 @@
+{
+glyphname = rightwhitecurlybracket.s12;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 12;
+};
+ref = _part.rightwhitecurlybracket;
+}
+);
+width = 631;
+}
+);
+}

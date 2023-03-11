@@ -1,0 +1,45 @@
+{
+color = 1;
+glyphname = dbllowlinecomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (232,0);
+},
+{
+name = bottom;
+pos = (232,-244);
+},
+{
+name = math.ta;
+pos = (232,50);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(440,-112,l),
+(440,-48,l),
+(25,-48,l),
+(25,-112,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(440,-244,l),
+(440,-180,l),
+(25,-180,l),
+(25,-244,l)
+);
+}
+);
+width = 465;
+}
+);
+unicode = 819;
+}

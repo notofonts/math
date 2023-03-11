@@ -1,0 +1,50 @@
+{
+color = 4;
+glyphname = "lmono-math";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (322,0);
+},
+{
+name = center;
+pos = (322,387);
+},
+{
+name = math.ta;
+pos = (300,810);
+},
+{
+name = top;
+pos = (300,760);
+},
+{
+name = topright;
+pos = (493,760);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(540,0,l),
+(540,60,l),
+(366,75,l),
+(366,760,l),
+(86,760,l),
+(86,698,l),
+(276,685,l),
+(276,75,l),
+(80,60,l),
+(80,0,l)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 120469;
+}

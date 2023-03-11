@@ -1,0 +1,28 @@
+{
+color = 4;
+glyphname = quoteright.ssty1;
+kernLeft = quote.right;
+kernRight = quote.left;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,461,l),
+(133,535,o),
+(168,628,o),
+(186,703,c),
+(179,714,l),
+(66,714,l),
+(56,641,o),
+(36,541,o),
+(17,461,c)
+);
+}
+);
+width = 214;
+}
+);
+}

@@ -1,0 +1,26 @@
+{
+color = 4;
+glyphname = "Omicronbolditalic-math";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (491,764);
+},
+{
+name = topleft;
+pos = (148,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "Obolditalic-math";
+}
+);
+width = 792;
+}
+);
+unicode = 120618;
+}

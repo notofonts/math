@@ -1,0 +1,21 @@
+{
+glyphname = verticallineextension;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(277,0,l),
+(277,1362,l),
+(223,1362,l),
+(223,0,l)
+);
+}
+);
+width = 500;
+}
+);
+unicode = 9168;
+}

@@ -1,0 +1,26 @@
+{
+color = 4;
+glyphname = "Chiitalic-math";
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (741,250);
+},
+{
+name = math.ta;
+pos = (425,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "Xitalic-math";
+}
+);
+width = 660;
+}
+);
+unicode = 120568;
+}

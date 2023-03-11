@@ -1,0 +1,21 @@
+{
+color = 4;
+glyphname = Rho.ssty1;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (429,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = P.ssty1;
+}
+);
+width = 619;
+}
+);
+}

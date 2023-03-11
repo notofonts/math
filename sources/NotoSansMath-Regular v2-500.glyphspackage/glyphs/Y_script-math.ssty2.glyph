@@ -1,0 +1,25 @@
+{
+color = 4;
+glyphname = "Yscript-math.ssty2";
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (925,250);
+},
+{
+name = math.ta;
+pos = (571,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "Yboldscript-math";
+}
+);
+width = 895;
+}
+);
+}

@@ -1,0 +1,25 @@
+{
+glyphname = squareoriginalof;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(593,82,l),
+(593,624,l),
+(51,624,l),
+(51,553,l),
+(522,553,l),
+(522,153,l),
+(51,153,l),
+(51,82,l)
+);
+}
+);
+width = 644;
+}
+);
+unicode = 8848;
+}

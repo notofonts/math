@@ -1,0 +1,22 @@
+{
+glyphname = dblintegral.t;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = integraltp;
+},
+{
+alignment = -1;
+pos = (289,0);
+ref = integraltp;
+}
+);
+width = 676;
+}
+);
+metricLeft = "=integraltp";
+metricRight = "=integraltp";
+}

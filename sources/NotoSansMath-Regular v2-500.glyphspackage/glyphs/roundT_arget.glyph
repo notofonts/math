@@ -1,0 +1,25 @@
+{
+color = 4;
+glyphname = roundTarget;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = whiteCircle;
+},
+{
+pos = (126,-2);
+ref = mediumWhiteCircle;
+},
+{
+pos = (251,-2);
+ref = verySmallBlackCircle;
+}
+);
+width = 838;
+}
+);
+unicode = 128907;
+}

@@ -1,0 +1,42 @@
+{
+color = 4;
+glyphname = zdoubleStruck.ssty2;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (319,586);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(532,0,l),
+(532,73,l),
+(268,73,l),
+(532,470,l),
+(532,536,l),
+(30,536,l),
+(30,463,l),
+(294,463,l),
+(30,66,l),
+(30,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(381,463,l),
+(440,463,l),
+(181,73,l),
+(122,73,l)
+);
+}
+);
+width = 562;
+}
+);
+}

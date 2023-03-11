@@ -1,0 +1,27 @@
+{
+glyphname = "Iotasansbolditalic-math";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (229,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(165,0,l),
+(296,719,l),
+(145,719,l),
+(13,0,l)
+);
+}
+);
+width = 309;
+}
+);
+unicode = 120728;
+}

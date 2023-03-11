@@ -1,0 +1,45 @@
+{
+glyphname = "Xisansbold-math";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (305,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(575,0,l),
+(575,132,l),
+(42,132,l),
+(42,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(526,307,l),
+(526,439,l),
+(89,439,l),
+(89,307,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(562,586,l),
+(562,719,l),
+(46,719,l),
+(46,586,l)
+);
+}
+);
+width = 618;
+}
+);
+unicode = 120675;
+}

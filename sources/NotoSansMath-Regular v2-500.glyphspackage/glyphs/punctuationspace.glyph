@@ -1,0 +1,12 @@
+{
+color = 4;
+glyphname = punctuationspace;
+layers = (
+{
+layerId = master01;
+width = 268;
+}
+);
+metricWidth = "=period";
+unicode = 8200;
+}

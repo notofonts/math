@@ -1,0 +1,46 @@
+{
+export = 0;
+glyphname = "_part.rightanglebracket-math";
+layers = (
+{
+layerId = master01;
+partSelection = {
+Size = 1;
+};
+shapes = (
+{
+pos = (407,0);
+ref = "_part.leftanglebracket-math";
+scale = (-1,1);
+}
+);
+width = 407;
+},
+{
+associatedMasterId = master01;
+layerId = "FC8744F3-6720-4CDD-BD08-2FEAB1B7C62C";
+name = "Regular-Large";
+partSelection = {
+Size = 2;
+};
+shapes = (
+{
+piece = {
+Size = 12;
+};
+pos = (869,0);
+ref = "_part.leftanglebracket-math";
+scale = (-1,1);
+}
+);
+width = 869;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = Size;
+topValue = 12;
+}
+);
+}

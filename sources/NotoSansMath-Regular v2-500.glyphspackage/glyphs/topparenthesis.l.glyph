@@ -1,0 +1,27 @@
+{
+color = 4;
+glyphname = topparenthesis.l;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(800,857,l),
+(534,857,ls),
+(244,857,o),
+(101,802,o),
+(0,652,c),
+(65,607,l),
+(171,734,o),
+(277,777,o),
+(534,777,cs),
+(800,777,l)
+);
+}
+);
+width = 800;
+}
+);
+}

@@ -1,0 +1,22 @@
+{
+color = 4;
+glyphname = Alpha.ssty2;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (359,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = A.ssty2;
+}
+);
+width = 719;
+}
+);
+metricWidth = "=A";
+}

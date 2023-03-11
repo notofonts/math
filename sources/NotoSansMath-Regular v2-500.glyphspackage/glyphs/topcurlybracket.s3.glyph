@@ -1,0 +1,17 @@
+{
+glyphname = topcurlybracket.s3;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 3;
+};
+ref = _part.topcurlybracket;
+}
+);
+width = 2752;
+}
+);
+}

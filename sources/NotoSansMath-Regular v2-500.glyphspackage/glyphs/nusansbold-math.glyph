@@ -1,0 +1,30 @@
+{
+glyphname = "nusansbold-math";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (263,581);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(338,0,l),
+(528,531,l),
+(378,531,l),
+(268,150,l),
+(159,531,l),
+(2,531,l),
+(193,0,l)
+);
+}
+);
+width = 530;
+}
+);
+unicode = 120700;
+}

@@ -1,0 +1,17 @@
+{
+glyphname = cuberoot.s2;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 2;
+};
+ref = _part.cuberoot;
+}
+);
+width = 788;
+}
+);
+}

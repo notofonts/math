@@ -1,0 +1,36 @@
+{
+glyphname = doubleverticalstrokeoverlaycomb;
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (0,260);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(146,-241,l),
+(146,760,l),
+(73,760,l),
+(73,-241,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-74,-241,l),
+(-74,760,l),
+(-147,760,l),
+(-147,-241,l)
+);
+}
+);
+width = 0;
+}
+);
+unicode = 8422;
+}

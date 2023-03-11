@@ -1,0 +1,78 @@
+{
+color = 9;
+export = 0;
+glyphname = _part.circumflexcomb;
+layers = (
+{
+layerId = master01;
+partSelection = {
+Size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(60,606,l),
+(95,628,o),
+(131,660,o),
+(167,696,c),
+(203,660,o),
+(241,627,o),
+(276,606,c),
+(338,606,l),
+(338,617,l),
+(300,655,o),
+(237,721,o),
+(213,766,c),
+(123,766,l),
+(97,721,o),
+(37,656,o),
+(0,617,c),
+(0,606,l)
+);
+}
+);
+width = 338;
+},
+{
+associatedMasterId = master01;
+layerId = "435CC9F6-FAE2-4B9F-BCD4-3FA782773172";
+name = "Regular-Large";
+partSelection = {
+Size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(-109,606,l),
+(-74,628,o),
+(-38,660,o),
+(-2,696,c),
+(34,660,o),
+(72,627,o),
+(107,606,c),
+(169,606,l),
+(169,617,l),
+(131,655,o),
+(68,721,o),
+(44,766,c),
+(-46,766,l),
+(-72,721,o),
+(-132,656,o),
+(-169,617,c),
+(-169,606,l)
+);
+}
+);
+width = 0;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = Size;
+topValue = 5;
+}
+);
+}

@@ -1,0 +1,60 @@
+{
+glyphname = "isansbolditalic-math";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (91,0);
+},
+{
+name = math.ic;
+pos = (339,250);
+},
+{
+name = math.ta;
+pos = (252,810);
+},
+{
+name = top;
+pos = (252,760);
+},
+{
+name = topright;
+pos = (380,760);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(165,0,l),
+(281,546,l),
+(134,546,l),
+(18,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(291,614,o),
+(319,649,o),
+(319,701,cs),
+(319,745,o),
+(285,760,o),
+(246,760,cs),
+(190,760,o),
+(157,730,o),
+(157,674,cs),
+(157,630,o),
+(189,614,o),
+(231,614,cs)
+);
+}
+);
+width = 297;
+}
+);
+unicode = 120414;
+}

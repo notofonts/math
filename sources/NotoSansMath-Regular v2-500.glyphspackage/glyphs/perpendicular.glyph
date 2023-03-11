@@ -1,0 +1,25 @@
+{
+glyphname = perpendicular;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(705,26,l),
+(705,97,l),
+(413,97,l),
+(413,680,l),
+(342,680,l),
+(342,97,l),
+(51,97,l),
+(51,26,l)
+);
+}
+);
+width = 756;
+}
+);
+unicode = 10178;
+}

@@ -1,0 +1,12 @@
+{
+color = 0;
+export = 0;
+glyphname = charactertie;
+layers = (
+{
+layerId = master01;
+width = 600;
+}
+);
+unicode = 8256;
+}

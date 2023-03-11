@@ -1,0 +1,25 @@
+{
+glyphname = leftblacktortoiseshellbracket;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(223,-104,l),
+(140,71,l),
+(140,595,l),
+(223,770,l),
+(149,770,l),
+(51,563,l),
+(51,103,l),
+(149,-104,l)
+);
+}
+);
+width = 274;
+}
+);
+unicode = 10647;
+}

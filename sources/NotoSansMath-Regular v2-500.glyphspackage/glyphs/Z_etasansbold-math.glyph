@@ -1,0 +1,33 @@
+{
+glyphname = "Zetasansbold-math";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (342,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(580,0,l),
+(580,130,l),
+(197,130,l),
+(589,594,l),
+(589,719,l),
+(26,719,l),
+(26,589,l),
+(409,589,l),
+(18,125,l),
+(18,0,l)
+);
+}
+);
+width = 601;
+}
+);
+unicode = 120667;
+}

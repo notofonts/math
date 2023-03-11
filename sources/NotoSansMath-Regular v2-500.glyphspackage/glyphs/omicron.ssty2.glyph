@@ -1,0 +1,22 @@
+{
+color = 4;
+glyphname = omicron.ssty2;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (321,586);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = o.ssty2;
+}
+);
+width = 648;
+}
+);
+}

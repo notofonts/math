@@ -1,0 +1,21 @@
+{
+color = 4;
+glyphname = whiteInBlackSquare;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = whiteSquare;
+},
+{
+pos = (157,0);
+ref = blackSmallSquare;
+}
+);
+width = 816;
+}
+);
+unicode = 9635;
+}

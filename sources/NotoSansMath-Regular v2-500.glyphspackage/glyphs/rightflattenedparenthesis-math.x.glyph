@@ -1,0 +1,21 @@
+{
+export = 0;
+glyphname = "rightflattenedparenthesis-math.x";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(244,0,l),
+(244,400,l),
+(159,400,l),
+(159,0,l)
+);
+}
+);
+width = 295;
+}
+);
+}

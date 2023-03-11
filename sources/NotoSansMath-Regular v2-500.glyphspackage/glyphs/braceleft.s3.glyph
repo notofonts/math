@@ -1,0 +1,17 @@
+{
+glyphname = braceleft.s3;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 3;
+};
+ref = _part.braceleft;
+}
+);
+width = 393;
+}
+);
+}

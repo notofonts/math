@@ -1,0 +1,31 @@
+{
+color = 4;
+glyphname = period.ssty2;
+kernLeft = period.right;
+kernRight = period.left;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(58,10,o),
+(95,-13,o),
+(142,-13,cs),
+(187,-13,o),
+(224,10,o),
+(224,66,cs),
+(224,124,o),
+(187,145,o),
+(142,145,cs),
+(96,145,o),
+(58,124,o),
+(58,66,cs)
+);
+}
+);
+width = 282;
+}
+);
+}

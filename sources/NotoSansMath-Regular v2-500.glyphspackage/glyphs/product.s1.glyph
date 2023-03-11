@@ -1,0 +1,17 @@
+{
+glyphname = product.s1;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+pos = (0,1170);
+ref = coproduct.s1;
+scale = (1,-1);
+}
+);
+width = 1052;
+}
+);
+metricRight = "=|";
+}

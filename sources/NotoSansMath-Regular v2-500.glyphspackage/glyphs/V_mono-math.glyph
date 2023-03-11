@@ -1,0 +1,50 @@
+{
+color = 4;
+glyphname = "Vmono-math";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (300,0);
+},
+{
+name = math.ta;
+pos = (300,764);
+},
+{
+name = top;
+pos = (300,714);
+},
+{
+name = topright;
+pos = (580,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(349,0,l),
+(575,714,l),
+(480,714,l),
+(346,253,ls),
+(328,192,o),
+(314,134,o),
+(304,87,c),
+(301,87,l),
+(290,135,o),
+(276,191,o),
+(258,250,cs),
+(119,714,l),
+(25,714,l),
+(255,0,l)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 120453;
+}

@@ -1,0 +1,48 @@
+{
+glyphname = nu;
+kernLeft = gamma;
+kernRight = gamma;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (274,0);
+},
+{
+name = math.ta;
+pos = (274,586);
+},
+{
+name = top;
+pos = (274,536);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(295,0,l),
+(460,166,o),
+(506,326,o),
+(506,536,c),
+(419,536,l),
+(419,342,o),
+(383,199,o),
+(260,74,c),
+(256,74,l),
+(246,114,o),
+(216,199,o),
+(198,247,cs),
+(91,536,l),
+(0,536,l),
+(200,0,l)
+);
+}
+);
+width = 547;
+}
+);
+unicode = 957;
+}

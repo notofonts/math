@@ -1,0 +1,21 @@
+{
+color = 4;
+glyphname = Mu.ssty1;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (469,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = M.ssty1;
+}
+);
+width = 940;
+}
+);
+}

@@ -1,0 +1,21 @@
+{
+glyphname = "risingDiagonal-math";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(151,-122,l),
+(809,536,l),
+(704,536,l),
+(46,-122,l)
+);
+}
+);
+width = 855;
+}
+);
+unicode = 10187;
+}

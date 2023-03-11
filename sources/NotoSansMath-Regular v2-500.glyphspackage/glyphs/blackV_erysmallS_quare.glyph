@@ -1,0 +1,28 @@
+{
+color = 4;
+glyphname = blackVerysmallSquare;
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (171,357);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(291,237,l),
+(291,477,l),
+(51,477,l),
+(51,237,l)
+);
+}
+);
+width = 342;
+}
+);
+unicode = 11037;
+}

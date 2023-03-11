@@ -1,0 +1,48 @@
+{
+glyphname = AdoubleStruck;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (296,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(61,0,l),
+(143,226,l),
+(429,226,l),
+(514,0,l),
+(699,0,l),
+(429,714,l),
+(261,714,l),
+(5,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(283,614,l),
+(409,279,l),
+(162,279,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(321,661,l),
+(392,661,l),
+(622,53,l),
+(551,53,l)
+);
+}
+);
+width = 704;
+}
+);
+unicode = 120120;
+}

@@ -1,0 +1,17 @@
+{
+glyphname = "leftwhitesquarebracket-math.s12";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 12;
+};
+ref = "_part.leftwhitesquarebracket-math";
+}
+);
+width = 624;
+}
+);
+}

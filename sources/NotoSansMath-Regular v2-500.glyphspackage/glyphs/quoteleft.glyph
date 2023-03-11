@@ -1,0 +1,29 @@
+{
+color = 4;
+glyphname = quoteleft;
+kernLeft = quotedbl;
+kernRight = quotedbl;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(113,469,l),
+(123,539,o),
+(144,639,o),
+(163,714,c),
+(98,714,l),
+(66,643,o),
+(30,550,o),
+(12,480,c),
+(19,469,l)
+);
+}
+);
+width = 175;
+}
+);
+unicode = 8216;
+}

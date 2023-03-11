@@ -1,0 +1,46 @@
+{
+color = 4;
+glyphname = "zmono-math";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (310,0);
+},
+{
+name = math.ta;
+pos = (310,586);
+},
+{
+name = top;
+pos = (310,536);
+},
+{
+name = topright;
+pos = (580,536);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(510,0,l),
+(510,76,l),
+(197,76,l),
+(502,465,l),
+(502,536,l),
+(106,536,l),
+(106,467,l),
+(405,467,l),
+(90,61,l),
+(90,0,l)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 120483;
+}

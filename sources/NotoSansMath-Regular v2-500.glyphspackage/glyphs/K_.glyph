@@ -1,0 +1,51 @@
+{
+glyphname = K;
+kernRight = K.left;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (330,0);
+},
+{
+name = math.ta;
+pos = (340,764);
+},
+{
+name = top;
+pos = (340,714);
+},
+{
+name = topright;
+pos = (599,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(187,0,l),
+(187,277,l),
+(260,341,l),
+(513,0,l),
+(619,0,l),
+(325,403,l),
+(608,714,l),
+(503,714,l),
+(310,498,ls),
+(269,452,o),
+(228,407,o),
+(187,362,c),
+(187,714,l),
+(97,714,l),
+(97,0,l)
+);
+}
+);
+width = 619;
+}
+);
+unicode = 75;
+}

@@ -1,0 +1,29 @@
+{
+glyphname = containsasnormalsubgroup;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(521,335,l),
+(521,369,l),
+(51,541,l),
+(51,164,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(118,449,l),
+(403,351,l),
+(118,256,l)
+);
+}
+);
+width = 572;
+}
+);
+unicode = 8883;
+}

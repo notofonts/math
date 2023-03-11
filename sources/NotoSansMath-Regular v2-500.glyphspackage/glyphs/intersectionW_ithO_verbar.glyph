@@ -1,0 +1,64 @@
+{
+glyphname = intersectionWithOverbar;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(122,0,l),
+(122,321,ls),
+(122,504,o),
+(194,592,o),
+(342,592,cs),
+(490,592,o),
+(562,503,o),
+(562,321,cs),
+(562,0,l),
+(633,0,l),
+(633,321,ls),
+(633,545,o),
+(534,664,o),
+(342,664,cs),
+(151,664,o),
+(51,545,o),
+(51,321,cs),
+(51,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(452,724,l),
+(452,781,l),
+(232,781,l),
+(232,724,l)
+);
+}
+);
+userData = {
+com.schriftgestaltung.annotations = (
+{
+position = (
+21,
+21
+);
+type = Text;
+width = 100;
+},
+{
+position = (
+-385,
+-1767
+);
+type = Text;
+width = 100;
+}
+);
+};
+width = 684;
+}
+);
+unicode = 10819;
+}

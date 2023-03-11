@@ -1,0 +1,17 @@
+{
+glyphname = rightarrowbelow.s4;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 4;
+};
+ref = _part.rightarrowbelowcomb;
+}
+);
+width = 1822;
+}
+);
+}

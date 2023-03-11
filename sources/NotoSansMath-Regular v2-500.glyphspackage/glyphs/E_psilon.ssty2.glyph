@@ -1,0 +1,22 @@
+{
+color = 4;
+glyphname = Epsilon.ssty2;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (309,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = E.ssty2;
+}
+);
+width = 581;
+}
+);
+}

@@ -1,0 +1,30 @@
+{
+glyphname = fourthroot;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = _part.fourthroot;
+}
+);
+width = 605;
+}
+);
+unicode = 8732;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+fourthroot,
+fourthroot.s1,
+fourthroot.s2,
+fourthroot.s3,
+fourthroot.s4
+);
+};
+};
+}

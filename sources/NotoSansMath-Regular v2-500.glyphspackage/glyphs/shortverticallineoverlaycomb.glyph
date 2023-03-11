@@ -1,0 +1,27 @@
+{
+glyphname = shortverticallineoverlaycomb;
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (0,268);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(41,-48,l),
+(41,584,l),
+(-39,584,l),
+(-39,-48,l)
+);
+}
+);
+width = 0;
+}
+);
+unicode = 8403;
+}

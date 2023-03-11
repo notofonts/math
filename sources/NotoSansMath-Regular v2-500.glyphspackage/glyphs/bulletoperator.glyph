@@ -1,0 +1,35 @@
+{
+glyphname = bulletoperator;
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (145,353);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(198,258,o),
+(239,299,o),
+(239,352,cs),
+(239,403,o),
+(198,447,o),
+(145,447,cs),
+(91,447,o),
+(51,403,o),
+(51,352,cs),
+(51,299,o),
+(92,258,o),
+(145,258,cs)
+);
+}
+);
+width = 290;
+}
+);
+unicode = 8729;
+}

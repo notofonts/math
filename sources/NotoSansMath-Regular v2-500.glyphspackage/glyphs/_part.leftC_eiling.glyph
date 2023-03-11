@@ -1,0 +1,61 @@
+{
+export = 0;
+glyphname = _part.leftCeiling;
+layers = (
+{
+layerId = master01;
+partSelection = {
+Size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(122,-160,l),
+(122,720,l),
+(353,720,l),
+(353,784,l),
+(51,784,l),
+(51,-160,l)
+);
+}
+);
+width = 383;
+},
+{
+associatedMasterId = master01;
+layerId = "7A7E6D7C-1D90-4EE2-A0FE-B358BCC9C942";
+name = "Regular-Large";
+partSelection = {
+Size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(169,-1606,l),
+(169,2068,l),
+(544,2068,l),
+(544,2162,l),
+(77,2162,l),
+(77,-1606,l)
+);
+}
+);
+width = 594;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = Size;
+topValue = 12;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+);
+};
+};
+}

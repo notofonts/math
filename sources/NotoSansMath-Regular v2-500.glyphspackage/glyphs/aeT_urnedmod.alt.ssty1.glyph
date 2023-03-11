@@ -1,0 +1,11 @@
+{
+color = 0;
+export = 0;
+glyphname = aeTurnedmod.alt.ssty1;
+layers = (
+{
+layerId = master01;
+width = 600;
+}
+);
+}

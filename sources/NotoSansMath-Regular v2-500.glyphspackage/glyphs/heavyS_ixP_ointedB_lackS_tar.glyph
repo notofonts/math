@@ -1,0 +1,30 @@
+{
+color = 4;
+glyphname = heavySixPointedBlackStar;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(285,156,l),
+(400,-42,l),
+(516,156,l),
+(750,156,l),
+(633,357,l),
+(750,558,l),
+(516,558,l),
+(400,756,l),
+(285,558,l),
+(50,558,l),
+(167,357,l),
+(50,156,l)
+);
+}
+);
+width = 800;
+}
+);
+unicode = 128972;
+}

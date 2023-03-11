@@ -1,0 +1,12 @@
+{
+color = 4;
+glyphname = figurespace;
+layers = (
+{
+layerId = master01;
+width = 572;
+}
+);
+metricWidth = "=zero";
+unicode = 8199;
+}

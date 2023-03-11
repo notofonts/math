@@ -1,0 +1,22 @@
+{
+color = 4;
+glyphname = "Rhobold-math";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (361,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "Pbold-math";
+}
+);
+width = 638;
+}
+);
+unicode = 120504;
+}

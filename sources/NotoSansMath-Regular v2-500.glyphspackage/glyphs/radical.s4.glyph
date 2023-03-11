@@ -1,0 +1,17 @@
+{
+glyphname = radical.s4;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 4;
+};
+ref = _part.radical;
+}
+);
+width = 1070;
+}
+);
+}

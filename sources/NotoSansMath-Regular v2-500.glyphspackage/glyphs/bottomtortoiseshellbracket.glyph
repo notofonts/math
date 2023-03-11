@@ -1,0 +1,30 @@
+{
+glyphname = bottomtortoiseshellbracket;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = _part.bottomtortoiseshellbracket;
+}
+);
+width = 1710;
+}
+);
+unicode = 9185;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hVariants = (
+bottomtortoiseshellbracket,
+bottomtortoiseshellbracket.s1,
+bottomtortoiseshellbracket.s2,
+bottomtortoiseshellbracket.s3,
+bottomtortoiseshellbracket.s4,
+bottomtortoiseshellbracket.s5
+);
+};
+};
+}

@@ -1,0 +1,35 @@
+{
+glyphname = APLquaddel;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(399,64,l),
+(578,583,l),
+(578,626,l),
+(150,626,l),
+(150,583,l),
+(329,64,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(229,559,l),
+(499,559,l),
+(364,157,l)
+);
+},
+{
+alignment = -1;
+ref = APLquad;
+}
+);
+width = 728;
+}
+);
+unicode = 9044;
+}

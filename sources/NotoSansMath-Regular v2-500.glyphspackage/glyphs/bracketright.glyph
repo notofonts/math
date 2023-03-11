@@ -1,0 +1,59 @@
+{
+glyphname = bracketright;
+kernLeft = Paren.right;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = _part.bracketright;
+}
+);
+width = 329;
+}
+);
+unicode = 93;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+rightsquarebracketlowercorner,
+0,
+0,
+1200
+),
+(
+rightsquarebracketextension,
+1,
+1300,
+1300
+),
+(
+rightsquarebracketuppercorner,
+0,
+1200,
+0
+)
+);
+vVariants = (
+bracketright,
+bracketright.s1,
+bracketright.s2,
+bracketright.s3,
+bracketright.s4,
+bracketright.s5,
+bracketright.s6,
+bracketright.s7,
+bracketright.s8,
+bracketright.s9,
+bracketright.s10,
+bracketright.s11,
+bracketright.s12
+);
+};
+};
+}

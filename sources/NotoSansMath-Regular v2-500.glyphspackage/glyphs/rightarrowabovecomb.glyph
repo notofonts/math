@@ -1,0 +1,54 @@
+{
+glyphname = rightarrowabovecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (229,536);
+},
+{
+name = math.ta;
+pos = (229,486);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = _part.rightarrowabovecomb;
+}
+);
+width = 462;
+}
+);
+unicode = 8407;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hAssembly = (
+(
+horizontalabove.x,
+1,
+600,
+600
+),
+(
+rightarrowabove.s1,
+0,
+500,
+0
+)
+);
+hVariants = (
+rightarrowabovecomb,
+rightarrowabove.s1,
+rightarrowabove.s2,
+rightarrowabove.s3,
+rightarrowabove.s4,
+rightarrowabove.s5
+);
+};
+};
+}

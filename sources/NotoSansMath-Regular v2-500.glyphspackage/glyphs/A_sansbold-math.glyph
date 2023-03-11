@@ -1,0 +1,57 @@
+{
+glyphname = "Asansbold-math";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (345,0);
+},
+{
+name = math.ta;
+pos = (345,764);
+},
+{
+name = top;
+pos = (345,714);
+},
+{
+name = topright;
+pos = (590,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(163,0,l),
+(215,170,l),
+(475,170,l),
+(527,0,l),
+(690,0,l),
+(437,717,l),
+(252,717,l),
+(0,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(304,463,ls),
+(311,485,o),
+(335,566,o),
+(345,606,c),
+(355,566,o),
+(376,496,o),
+(386,463,cs),
+(439,297,l),
+(253,297,l)
+);
+}
+);
+width = 690;
+}
+);
+unicode = 120276;
+}

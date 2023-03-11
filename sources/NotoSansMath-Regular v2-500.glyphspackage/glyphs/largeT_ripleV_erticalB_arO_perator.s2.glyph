@@ -1,0 +1,17 @@
+{
+glyphname = largeTripleVerticalBarOperator.s2;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 2;
+};
+ref = _part.largeTripleVerticalBarOperator;
+}
+);
+width = 547;
+}
+);
+}

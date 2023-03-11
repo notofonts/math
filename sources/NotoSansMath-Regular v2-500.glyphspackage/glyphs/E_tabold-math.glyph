@@ -1,0 +1,22 @@
+{
+color = 4;
+glyphname = "Etabold-math";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (399,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "Hbold-math";
+}
+);
+width = 819;
+}
+);
+unicode = 120494;
+}

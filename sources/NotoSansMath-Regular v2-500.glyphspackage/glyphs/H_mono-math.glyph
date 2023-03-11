@@ -1,0 +1,56 @@
+{
+color = 4;
+glyphname = "Hmono-math";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (300,0);
+},
+{
+name = center;
+pos = (300,375);
+},
+{
+name = math.ta;
+pos = (300,764);
+},
+{
+name = top;
+pos = (300,714);
+},
+{
+name = topleft;
+pos = (20,714);
+},
+{
+name = topright;
+pos = (600,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(160,0,l),
+(160,333,l),
+(440,333,l),
+(440,0,l),
+(530,0,l),
+(530,714,l),
+(440,714,l),
+(440,413,l),
+(160,413,l),
+(160,714,l),
+(70,714,l),
+(70,0,l)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 120439;
+}

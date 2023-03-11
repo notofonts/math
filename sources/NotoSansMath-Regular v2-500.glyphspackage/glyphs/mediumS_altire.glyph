@@ -1,0 +1,31 @@
+{
+color = 4;
+glyphname = mediumSaltire;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(605,527,l),
+(520,612,l),
+(95,187,l),
+(180,102,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(605,187,l),
+(180,612,l),
+(95,527,l),
+(520,102,l)
+);
+}
+);
+width = 700;
+}
+);
+unicode = 128938;
+}

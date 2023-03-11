@@ -1,0 +1,42 @@
+{
+color = 4;
+glyphname = whiteUpperLeftQuadrantSquare;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(776,0,l),
+(776,714,l),
+(62,714,l),
+(62,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(113,663,l),
+(725,663,l),
+(725,51,l),
+(113,51,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(444,332,l),
+(444,689,l),
+(394,689,l),
+(394,382,l),
+(87,382,l),
+(87,332,l)
+);
+}
+);
+width = 838;
+}
+);
+unicode = 9712;
+}

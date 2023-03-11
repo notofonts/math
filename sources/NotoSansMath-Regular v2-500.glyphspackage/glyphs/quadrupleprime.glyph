@@ -1,0 +1,35 @@
+{
+glyphname = quadrupleprime;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = minute;
+},
+{
+alignment = -1;
+pos = (170,0);
+ref = minute;
+},
+{
+alignment = -1;
+pos = (340,0);
+ref = minute;
+},
+{
+alignment = -1;
+pos = (510,0);
+ref = minute;
+}
+);
+userData = {
+com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = second;
+com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = second;
+};
+width = 742;
+}
+);
+unicode = 8279;
+}

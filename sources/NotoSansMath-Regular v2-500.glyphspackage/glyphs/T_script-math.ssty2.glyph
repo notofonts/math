@@ -1,0 +1,25 @@
+{
+color = 4;
+glyphname = "Tscript-math.ssty2";
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (975,250);
+},
+{
+name = math.ta;
+pos = (755,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "Tboldscript-math";
+}
+);
+width = 945;
+}
+);
+}

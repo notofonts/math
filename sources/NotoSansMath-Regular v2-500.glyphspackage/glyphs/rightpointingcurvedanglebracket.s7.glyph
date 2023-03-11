@@ -1,0 +1,17 @@
+{
+glyphname = rightpointingcurvedanglebracket.s7;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 7;
+};
+ref = _part.rightpointingcurvedanglebracket;
+}
+);
+width = 621;
+}
+);
+}

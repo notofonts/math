@@ -1,0 +1,58 @@
+{
+glyphname = "leftwhitesquarebracket-math";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = "_part.leftwhitesquarebracket-math";
+}
+);
+width = 447;
+}
+);
+unicode = 10214;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+"leftwhitesquarebracket-math.b",
+0,
+0,
+800
+),
+(
+"leftwhitesquarebracket-math.x",
+1,
+1000,
+1000
+),
+(
+"leftwhitesquarebracket-math.t",
+0,
+800,
+0
+)
+);
+vVariants = (
+"leftwhitesquarebracket-math",
+"leftwhitesquarebracket-math.s1",
+"leftwhitesquarebracket-math.s2",
+"leftwhitesquarebracket-math.s3",
+"leftwhitesquarebracket-math.s4",
+"leftwhitesquarebracket-math.s5",
+"leftwhitesquarebracket-math.s6",
+"leftwhitesquarebracket-math.s7",
+"leftwhitesquarebracket-math.s8",
+"leftwhitesquarebracket-math.s9",
+"leftwhitesquarebracket-math.s10",
+"leftwhitesquarebracket-math.s11",
+"leftwhitesquarebracket-math.s12"
+);
+};
+};
+}

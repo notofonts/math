@@ -1,0 +1,17 @@
+{
+glyphname = rightCeiling.s6;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 6;
+};
+ref = _part.rightCeiling;
+}
+);
+width = 489;
+}
+);
+}

@@ -1,0 +1,39 @@
+{
+glyphname = Tau;
+kernRight = Gamma;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (278,0);
+},
+{
+name = center;
+pos = (278,357);
+},
+{
+name = math.ta;
+pos = (278,764);
+},
+{
+name = top;
+pos = (278,714);
+},
+{
+name = topright;
+pos = (536,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = T;
+}
+);
+width = 556;
+}
+);
+unicode = 932;
+}

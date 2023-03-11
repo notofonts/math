@@ -1,0 +1,34 @@
+{
+glyphname = APLquaduparrow;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(366,596,l),
+(525,570,l),
+(365,744,l),
+(205,570,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(400,-32,l),
+(400,635,l),
+(329,635,l),
+(329,-32,l)
+);
+},
+{
+alignment = -1;
+ref = APLquad;
+}
+);
+width = 728;
+}
+);
+unicode = 9040;
+}

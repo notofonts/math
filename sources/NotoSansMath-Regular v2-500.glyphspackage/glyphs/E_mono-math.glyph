@@ -1,0 +1,56 @@
+{
+color = 4;
+glyphname = "Emono-math";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (304,0);
+},
+{
+name = math.ta;
+pos = (306,764);
+},
+{
+name = ogonek;
+pos = (457,10);
+},
+{
+name = top;
+pos = (306,714);
+},
+{
+name = topleft;
+pos = (20,714);
+},
+{
+name = topright;
+pos = (580,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(515,0,l),
+(515,80,l),
+(185,80,l),
+(185,333,l),
+(496,333,l),
+(496,413,l),
+(185,413,l),
+(185,634,l),
+(515,634,l),
+(515,714,l),
+(95,714,l),
+(95,0,l)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 120436;
+}

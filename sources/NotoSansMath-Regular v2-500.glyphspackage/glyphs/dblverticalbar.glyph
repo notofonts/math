@@ -1,0 +1,41 @@
+{
+glyphname = dblverticalbar;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (-51,0);
+ref = bar;
+},
+{
+alignment = -1;
+pos = (169,0);
+ref = bar;
+}
+);
+width = 551;
+}
+);
+unicode = 8214;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+dblverticalbar,
+1,
+900,
+900
+),
+(
+dblverticalbar,
+0,
+900,
+900
+)
+);
+};
+};
+}

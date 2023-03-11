@@ -1,0 +1,32 @@
+{
+color = 4;
+glyphname = Theta.ssty1;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (401,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = O.ssty1;
+},
+{
+closed = 1;
+nodes = (
+(534,308,l),
+(534,418,l),
+(265,418,l),
+(265,308,l)
+);
+}
+);
+width = 802;
+}
+);
+metricLeft = "=O.ssty";
+metricRight = "=O.ssty";
+}

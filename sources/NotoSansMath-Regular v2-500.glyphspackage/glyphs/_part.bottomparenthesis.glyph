@@ -1,0 +1,49 @@
+{
+color = 9;
+export = 0;
+glyphname = _part.bottomparenthesis;
+layers = (
+{
+layerId = master01;
+partSelection = {
+Size = 1;
+};
+shapes = (
+{
+alignment = -1;
+pos = (0,536);
+ref = _part.topparenthesis;
+scale = (1,-1);
+}
+);
+width = 1140;
+},
+{
+associatedMasterId = master01;
+layerId = "5951A681-23F4-46D1-AE9A-AA41C6DFED23";
+name = "Regular-Large";
+partSelection = {
+Size = 2;
+};
+shapes = (
+{
+alignment = -1;
+piece = {
+Size = 5;
+};
+pos = (0,536);
+ref = _part.topparenthesis;
+scale = (1,-1);
+}
+);
+width = 4000;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = Size;
+topValue = 5;
+}
+);
+}

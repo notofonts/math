@@ -1,0 +1,24 @@
+{
+glyphname = "sevensans-math";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(233,0,l),
+(523,646,l),
+(523,714,l),
+(44,714,l),
+(44,634,l),
+(429,634,l),
+(136,0,l)
+);
+}
+);
+width = 572;
+}
+);
+unicode = 120809;
+}

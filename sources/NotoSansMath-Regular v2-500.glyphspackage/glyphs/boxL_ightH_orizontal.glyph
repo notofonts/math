@@ -1,0 +1,22 @@
+{
+color = 4;
+glyphname = boxLightHorizontal;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(838,307,l),
+(838,357,l),
+(0,357,l),
+(0,307,l)
+);
+}
+);
+width = 838;
+}
+);
+unicode = 9472;
+}

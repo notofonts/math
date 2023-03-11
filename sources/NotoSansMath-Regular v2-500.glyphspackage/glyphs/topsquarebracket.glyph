@@ -1,0 +1,50 @@
+{
+glyphname = topsquarebracket;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = _part.topsquarebracket;
+}
+);
+width = 662;
+}
+);
+unicode = 9140;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hAssembly = (
+(
+topsquarebracket.l,
+0,
+0,
+700
+),
+(
+topsquarebracket.x,
+1,
+800,
+800
+),
+(
+topsquarebracket.r,
+0,
+700,
+0
+)
+);
+hVariants = (
+topsquarebracket,
+topsquarebracket.s1,
+topsquarebracket.s2,
+topsquarebracket.s3,
+topsquarebracket.s4,
+topsquarebracket.s5
+);
+};
+};
+}

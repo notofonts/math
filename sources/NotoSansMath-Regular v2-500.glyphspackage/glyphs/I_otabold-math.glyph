@@ -1,0 +1,22 @@
+{
+color = 4;
+glyphname = "Iotabold-math";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (192,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "Ibold-math";
+}
+);
+width = 401;
+}
+);
+unicode = 120496;
+}

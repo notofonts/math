@@ -1,0 +1,21 @@
+{
+color = 4;
+glyphname = circledTriangle;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = _part.circle;
+},
+{
+pos = (155,32);
+ref = upWhiteMediumTriangle;
+}
+);
+width = 928;
+}
+);
+unicode = 128981;
+}

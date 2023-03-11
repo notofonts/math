@@ -1,0 +1,27 @@
+{
+color = 4;
+glyphname = "Mubolditalic-math";
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (1044,250);
+},
+{
+name = math.ta;
+pos = (571,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = "Mbolditalic-math";
+}
+);
+width = 952;
+}
+);
+unicode = 120615;
+}

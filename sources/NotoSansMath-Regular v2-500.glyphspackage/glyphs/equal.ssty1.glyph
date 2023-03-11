@@ -1,0 +1,30 @@
+{
+color = 4;
+glyphname = equal.ssty1;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(512,221,l),
+(512,307,l),
+(68,307,l),
+(68,221,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(512,408,l),
+(512,493,l),
+(68,493,l),
+(68,408,l)
+);
+}
+);
+width = 580;
+}
+);
+}

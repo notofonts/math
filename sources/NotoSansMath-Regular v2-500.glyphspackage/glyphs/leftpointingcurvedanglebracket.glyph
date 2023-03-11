@@ -1,0 +1,38 @@
+{
+glyphname = leftpointingcurvedanglebracket;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = _part.leftpointingcurvedanglebracket;
+}
+);
+width = 456;
+}
+);
+unicode = 10748;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+leftpointingcurvedanglebracket,
+leftpointingcurvedanglebracket.s1,
+leftpointingcurvedanglebracket.s2,
+leftpointingcurvedanglebracket.s3,
+leftpointingcurvedanglebracket.s4,
+leftpointingcurvedanglebracket.s5,
+leftpointingcurvedanglebracket.s6,
+leftpointingcurvedanglebracket.s7,
+leftpointingcurvedanglebracket.s8,
+leftpointingcurvedanglebracket.s9,
+leftpointingcurvedanglebracket.s10,
+leftpointingcurvedanglebracket.s11,
+leftpointingcurvedanglebracket.s12
+);
+};
+};
+}

@@ -1,0 +1,53 @@
+{
+glyphname = Delta;
+kernLeft = Alpha;
+kernRight = Alpha;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (291,0);
+},
+{
+name = math.ta;
+pos = (291,764);
+},
+{
+name = top;
+pos = (291,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(561,0,l),
+(561,54,l),
+(335,714,l),
+(245,714,l),
+(20,55,l),
+(20,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(243,455,ls),
+(262,511,o),
+(277,568,o),
+(289,616,c),
+(300,568,o),
+(317,511,o),
+(337,451,cs),
+(462,79,l),
+(116,79,l)
+);
+}
+);
+width = 581;
+}
+);
+unicode = 916;
+}

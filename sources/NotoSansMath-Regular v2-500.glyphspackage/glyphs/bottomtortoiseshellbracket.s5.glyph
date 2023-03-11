@@ -1,0 +1,17 @@
+{
+glyphname = bottomtortoiseshellbracket.s5;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 5;
+};
+ref = _part.bottomtortoiseshellbracket;
+}
+);
+width = 8430;
+}
+);
+}

@@ -1,0 +1,12 @@
+{
+color = 4;
+glyphname = fourperemspace;
+layers = (
+{
+layerId = master01;
+width = 250;
+}
+);
+metricWidth = "=250";
+unicode = 8197;
+}

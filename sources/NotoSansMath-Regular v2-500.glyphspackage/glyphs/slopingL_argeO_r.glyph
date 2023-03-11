@@ -1,0 +1,25 @@
+{
+glyphname = slopingLargeOr;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(101,0,l),
+(662,580,l),
+(566,580,l),
+(109,106,l),
+(122,101,l),
+(122,580,l),
+(51,580,l),
+(51,0,l)
+);
+}
+);
+width = 713;
+}
+);
+unicode = 10839;
+}

@@ -1,0 +1,34 @@
+{
+glyphname = shortDownTackWithOverbar;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(413,69,l),
+(413,379,l),
+(705,379,l),
+(705,450,l),
+(51,450,l),
+(51,379,l),
+(342,379,l),
+(342,69,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(704,569,l),
+(704,640,l),
+(51,640,l),
+(51,569,l)
+);
+}
+);
+width = 756;
+}
+);
+unicode = 10983;
+}

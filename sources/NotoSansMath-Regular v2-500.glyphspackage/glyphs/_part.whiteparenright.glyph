@@ -1,0 +1,47 @@
+{
+color = 9;
+export = 0;
+glyphname = _part.whiteparenright;
+layers = (
+{
+layerId = master01;
+partSelection = {
+Size = 1;
+};
+shapes = (
+{
+pos = (403,0);
+ref = _part.whiteparenleft;
+scale = (-1,1);
+}
+);
+width = 403;
+},
+{
+associatedMasterId = master01;
+layerId = "C10F3057-C8E5-4093-AD60-D977FB44B99F";
+name = "Regular-Large";
+partSelection = {
+Size = 2;
+};
+shapes = (
+{
+piece = {
+Size = 12;
+};
+pos = (403,0);
+ref = _part.whiteparenleft;
+scale = (-1,1);
+}
+);
+width = 403;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = Size;
+topValue = 12;
+}
+);
+}

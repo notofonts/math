@@ -1,0 +1,85 @@
+{
+glyphname = integral;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (527,-282);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(181,-240,o),
+(236,-179,o),
+(236,-62,cs),
+(236,701,ls),
+(236,777,o),
+(264,815,o),
+(319,815,cs),
+(337,815,o),
+(356,811,o),
+(375,803,c),
+(375,876,l),
+(360,882,o),
+(339,885,o),
+(312,885,cs),
+(205,885,o),
+(151,826,o),
+(151,707,cs),
+(151,-56,ls),
+(151,-132,o),
+(122,-170,o),
+(65,-170,cs),
+(45,-170,o),
+(25,-166,o),
+(5,-158,c),
+(5,-230,l),
+(25,-237,o),
+(47,-240,o),
+(73,-240,cs)
+);
+}
+);
+userData = {
+math = {
+italicCorrection = 140;
+};
+};
+width = 387;
+}
+);
+unicode = 8747;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+integralbt,
+0,
+0,
+1100
+),
+(
+integralextension,
+1,
+1300,
+1300
+),
+(
+integraltp,
+0,
+1100,
+0
+)
+);
+vVariants = (
+integral,
+integral.s1
+);
+};
+};
+}

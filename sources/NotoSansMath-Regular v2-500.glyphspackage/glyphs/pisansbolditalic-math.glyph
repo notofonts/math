@@ -1,0 +1,39 @@
+{
+glyphname = "pisansbolditalic-math";
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (664,250);
+},
+{
+name = math.ta;
+pos = (390,583);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(165,0,l),
+(239,424,l),
+(419,424,l),
+(344,0,l),
+(484,0,l),
+(559,424,l),
+(624,424,l),
+(644,533,l),
+(53,533,l),
+(34,424,l),
+(99,424,l),
+(25,0,l)
+);
+}
+);
+width = 641;
+}
+);
+unicode = 120761;
+}

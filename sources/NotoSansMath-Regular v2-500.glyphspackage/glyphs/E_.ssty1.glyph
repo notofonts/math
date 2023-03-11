@@ -1,0 +1,38 @@
+{
+color = 4;
+glyphname = E.ssty1;
+kernLeft = B.ssty;
+kernRight = E.ssty;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (299,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(506,0,l),
+(506,107,l),
+(222,107,l),
+(222,317,l),
+(488,317,l),
+(488,423,l),
+(222,423,l),
+(222,608,l),
+(506,608,l),
+(506,714,l),
+(90,714,l),
+(90,0,l)
+);
+}
+);
+width = 562;
+}
+);
+metricLeft = B.ssty;
+}

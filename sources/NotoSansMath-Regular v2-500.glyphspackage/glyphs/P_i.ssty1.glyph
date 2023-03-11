@@ -1,0 +1,33 @@
+{
+color = 4;
+glyphname = Pi.ssty1;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (371,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(222,0,l),
+(222,603,l),
+(521,603,l),
+(521,0,l),
+(653,0,l),
+(653,714,l),
+(90,714,l),
+(90,0,l)
+);
+}
+);
+width = 743;
+}
+);
+metricLeft = B.ssty;
+metricRight = H.ssty;
+}

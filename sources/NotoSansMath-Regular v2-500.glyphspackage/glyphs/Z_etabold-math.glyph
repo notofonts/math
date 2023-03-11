@@ -1,0 +1,22 @@
+{
+color = 4;
+glyphname = "Zetabold-math";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (332,764);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "Zbold-math";
+}
+);
+width = 666;
+}
+);
+unicode = 120493;
+}

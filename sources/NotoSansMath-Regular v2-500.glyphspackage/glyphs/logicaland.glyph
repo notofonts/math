@@ -1,0 +1,24 @@
+{
+glyphname = logicaland;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(134,0,l),
+(357,478,l),
+(580,0,l),
+(663,0,l),
+(382,580,l),
+(332,580,l),
+(51,0,l)
+);
+}
+);
+width = 714;
+}
+);
+unicode = 8743;
+}

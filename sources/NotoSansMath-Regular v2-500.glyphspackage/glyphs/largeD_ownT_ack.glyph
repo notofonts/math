@@ -1,0 +1,25 @@
+{
+glyphname = largeDownTack;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(413,0,l),
+(413,714,l),
+(704,714,l),
+(704,785,l),
+(51,785,l),
+(51,714,l),
+(342,714,l),
+(342,0,l)
+);
+}
+);
+width = 755;
+}
+);
+unicode = 10201;
+}

@@ -1,0 +1,36 @@
+{
+glyphname = longdoublesolidusoverlaycomb;
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (0,357);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(5,0,l),
+(271,714,l),
+(185,714,l),
+(-82,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-185,0,l),
+(81,714,l),
+(-5,714,l),
+(-272,0,l)
+);
+}
+);
+width = 0;
+}
+);
+unicode = 8427;
+}

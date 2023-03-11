@@ -1,0 +1,30 @@
+{
+glyphname = parallel;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(309,-120,l),
+(309,760,l),
+(238,760,l),
+(238,-120,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(122,-120,l),
+(122,760,l),
+(51,760,l),
+(51,-120,l)
+);
+}
+);
+width = 360;
+}
+);
+unicode = 8741;
+}

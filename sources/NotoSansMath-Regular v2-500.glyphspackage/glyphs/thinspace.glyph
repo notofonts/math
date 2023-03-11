@@ -1,0 +1,12 @@
+{
+color = 4;
+glyphname = thinspace;
+layers = (
+{
+layerId = master01;
+width = 125;
+}
+);
+metricWidth = "=125";
+unicode = 8201;
+}

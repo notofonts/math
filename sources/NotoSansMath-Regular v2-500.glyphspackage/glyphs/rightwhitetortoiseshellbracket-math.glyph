@@ -1,0 +1,34 @@
+{
+glyphname = "rightwhitetortoiseshellbracket-math";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(125,-104,l),
+(304,96,l),
+(304,570,l),
+(125,770,l),
+(51,770,l),
+(114,699,l),
+(114,-33,l),
+(51,-104,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(174,632,l),
+(244,554,l),
+(244,112,l),
+(174,34,l)
+);
+}
+);
+width = 355;
+}
+);
+unicode = 10221;
+}

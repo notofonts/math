@@ -1,0 +1,32 @@
+{
+glyphname = narylogicaland;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(127,-92,l),
+(460,619,l),
+(793,-92,l),
+(869,-92,l),
+(490,714,l),
+(430,714,l),
+(51,-92,l)
+);
+}
+);
+width = 920;
+}
+);
+unicode = 8896;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+narylogicaland,
+narylogicaland.s1
+);
+};
+};
+}

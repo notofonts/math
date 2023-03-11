@@ -1,0 +1,7074 @@
+{
+.appVersion = "3151";
+.formatVersion = 3;
+classes = (
+{
+code = "# FIXME: NOTE: only handling [A-Z]script-math here, no boldscript, yet.
+# FIXME:       On purpose, since those .uv001 boldscript glyphs don't exist, yet. For some future project.
+$[name matches \"^.script-math$\" and case==upper]
+";
+name = MathScriptUpper;
+},
+{
+code = "$[name endswith \"script-math.uv001\" and case==upper]";
+name = MathScriptUpperVS1;
+},
+{
+code = "idotless jdotless idotless.ssty1 jdotless.ssty1 idotless.ssty2 jdotless.ssty2 i-fraktur.dotless j-fraktur.dotless i-fraktur.dotless.ssty1 j-fraktur.dotless.ssty1 i-fraktur.dotless.ssty2 j-fraktur.dotless.ssty2 idotlessitalic-math jdotlessitalic-math ibold-math.dotless imono-math.dotless isans-math.dotless isansbold-math.dotless isansbolditalic-math.dotless isansitalic-math.dotless iscript-math.dotless jbold-math.dotless jmono-math.dotless jsans-math.dotless jsansbold-math.dotless jsansbolditalic-math.dotless jsansitalic-math.dotless jscript-math.dotless idotlessitalic-math.ssty1 jdotlessitalic-math.ssty1 idotlessitalic-math.ssty2 jdotlessitalic-math.ssty2 ibold-math.dotless.ssty1 iscript-math.dotless.ssty1 jbold-math.dotless.ssty1 jscript-math.dotless.ssty1 ibold-math.dotless.ssty2 iscript-math.dotless.ssty2 jbold-math.dotless.ssty2 jscript-math.dotless.ssty2 idoubleStruck.dotless jdoubleStruck.dotless iitalicDoubleStruck.dotless jitalicDoubleStruck.dotless idoubleStruck.dotless.ssty1 jdoubleStruck.dotless.ssty1 idoubleStruck.dotless.ssty2 jdoubleStruck.dotless.ssty2 ";
+name = ijDotless;
+},
+{
+code = "i j i.ssty1 j.ssty1 i.ssty2 j.ssty2 i-fraktur j-fraktur i-fraktur.ssty1 j-fraktur.ssty1 i-fraktur.ssty2 j-fraktur.ssty2 iitalic-math jitalic-math ibold-math imono-math isans-math isansbold-math isansbolditalic-math isansitalic-math iscript-math jbold-math jmono-math jsans-math jsansbold-math jsansbolditalic-math jsansitalic-math jscript-math iitalic-math.ssty1 jitalic-math.ssty1 iitalic-math.ssty2 jitalic-math.ssty2 ibold-math.ssty1 iscript-math.ssty1 jbold-math.ssty1 jscript-math.ssty1 ibold-math.ssty2 iscript-math.ssty2 jbold-math.ssty2 jscript-math.ssty2 idoubleStruck jdoubleStruck iitalicDoubleStruck jitalicDoubleStruck idoubleStruck.ssty1 jdoubleStruck.ssty1 idoubleStruck.ssty2 jdoubleStruck.ssty2 ";
+name = ij;
+}
+);
+customParameters = (
+{
+disabled = 1;
+name = glyphOrder;
+value = (
+.notdef,
+A,
+"A-fraktur",
+APLIbeam,
+APLalpha,
+APLalphaunderbar,
+APLbackslashbar,
+APLcirclebackslash,
+APLcircledieresis,
+APLcirclejot,
+APLcirclestar,
+APLcirclestile,
+APLcircleunderbar,
+APLcommabar,
+APLdeldieresis,
+APLdelstile,
+APLdeltastile,
+APLdeltaunderbar,
+APLdeltilde,
+APLdiamondunderbar,
+APLdowncarettilde,
+APLdownshoestile,
+APLdowntackjot,
+APLdowntackunderbar,
+APLdownvane,
+APLepsilonunderbar,
+APLgreaterthandieresis,
+APLiota,
+APLiotaunderbar,
+APLjotdieresis,
+APLjotunderbar,
+APLleftshoestile,
+APLleftvane,
+APLomega,
+APLomegaunderbar,
+APLquad,
+APLquadbackslash,
+APLquadcircle,
+APLquadcolon,
+APLquaddel,
+APLquaddelta,
+APLquaddiamond,
+APLquaddivide,
+APLquaddownarrow,
+APLquaddowncaret,
+APLquadequal,
+"APLquadgreater-than",
+APLquadjot,
+APLquadleftarrow,
+"APLquadless-than",
+APLquadnotequal,
+APLquadquestion,
+APLquadrightarrow,
+APLquadslash,
+APLquaduparrow,
+APLquadupcaret,
+APLquotequad,
+APLquoteunderbar,
+APLrho,
+APLrightvane,
+APLsemicolonunderbar,
+APLslashbar,
+APLsquishquad,
+APLstardieresis,
+APLstiletilde,
+APLtildedieresis,
+APLupcarettilde,
+APLupshoejot,
+APLuptackdieresis,
+APLuptackjot,
+APLuptackoverbar,
+APLupvane,
+APLzilde,
+"Abold-math",
+"Abolditalic-math",
+"Aboldscript-math",
+AdoubleStruck,
+"Aitalic-math",
+Alpha,
+AnnuitySymbol,
+"Ascript-math",
+B,
+"B-fraktur",
+"BBold-fraktur",
+"Bbold-math",
+"Bbolditalic-math",
+"Bboldscript-math",
+BdoubleStruck,
+Beta,
+"Bitalic-math",
+Bscript,
+C,
+"C-fraktur",
+CR,
+"Cbold-math",
+"Cbolditalic-math",
+"Cboldscript-math",
+CdoubleStruck,
+Chi,
+"Citalic-math",
+"Cscript-math",
+D,
+"D-fraktur",
+"Dbold-math",
+"Dbolditalic-math",
+"Dboldscript-math",
+DdoubleStruck,
+Delta,
+DirectlyLeftWaveArrow,
+"Ditalic-math",
+DitalicDoubleStruck,
+"Dscript-math",
+E,
+"E-fraktur",
+"Ebold-math",
+"Ebolditalic-math",
+"Eboldscript-math",
+EdoubleStruck,
+"Eitalic-math",
+Epsilon,
+Escript,
+Eta,
+F,
+"F-fraktur",
+"Fbold-math",
+"Fbolditalic-math",
+"Fboldscript-math",
+FdoubleStruck,
+"Fitalic-math",
+Fscript,
+G,
+"G-fraktur",
+Gamma,
+GammadoubleStruck,
+"Gbold-math",
+"Gbolditalic-math",
+"Gboldscript-math",
+GdoubleStruck,
+"Gitalic-math",
+"Gscript-math",
+H,
+"H-fraktur",
+"Hbold-math",
+"Hbolditalic-math",
+"Hboldscript-math",
+HdoubleStruck,
+"Hitalic-math",
+Hscript,
+I,
+"I-fraktur",
+"Ibold-math",
+"Ibolditalic-math",
+"Iboldscript-math",
+IdoubleStruck,
+"Iitalic-math",
+Iota,
+Iscript,
+J,
+"J-fraktur",
+"Jbold-math",
+"Jbolditalic-math",
+"Jboldscript-math",
+JdoubleStruck,
+"Jitalic-math",
+"Jscript-math",
+K,
+"K-fraktur",
+Kappa,
+"Kbold-math",
+"Kbolditalic-math",
+"Kboldscript-math",
+KdoubleStruck,
+"Kitalic-math",
+"Kscript-math",
+L,
+"L-fraktur",
+Lambda,
+"Lbold-math",
+"Lbolditalic-math",
+"Lboldscript-math",
+LdoubleStruck,
+"Litalic-math",
+Lscript,
+M,
+"M-fraktur",
+"Mbold-math",
+"Mbolditalic-math",
+"Mboldscript-math",
+MdoubleStruck,
+"Mitalic-math",
+Mscript,
+Mu,
+N,
+"N-fraktur",
+"NBold-fraktur",
+NULL,
+"Nbold-math",
+"Nbolditalic-math",
+"Nboldscript-math",
+NdoubleStruck,
+"Nitalic-math",
+"Nscript-math",
+Nu,
+O,
+"O-fraktur",
+"Obold-math",
+"Obolditalic-math",
+"Oboldscript-math",
+OdoubleStruck,
+"Oitalic-math",
+Omega,
+Omicron,
+"OperatorHahWithDalArabic-math",
+"OperatorMeemWithHahWithTatweelArabic-math",
+"Oscript-math",
+P,
+"P-fraktur",
+"Pbold-math",
+"Pbolditalic-math",
+"Pboldscript-math",
+PdoubleStruck,
+Phi,
+Pi,
+PidoubleStruck,
+"Pitalic-math",
+"Pscript-math",
+Psi,
+Q,
+"Q-fraktur",
+"Qbold-math",
+"Qbolditalic-math",
+"Qboldscript-math",
+QdoubleStruck,
+"Qitalic-math",
+"Qscript-math",
+R,
+"R-fraktur",
+"RBold-fraktur",
+"Rbold-math",
+"Rbolditalic-math",
+"Rboldscript-math",
+RdoubleStruck,
+Rho,
+"Ritalic-math",
+Rscript,
+S,
+"S-fraktur",
+"Sbold-math",
+"Sbolditalic-math",
+"Sboldscript-math",
+SdoubleStruck,
+Sigma,
+"Sitalic-math",
+"Sscript-math",
+T,
+"T-fraktur",
+Tau,
+"Tbold-math",
+"Tbolditalic-math",
+"Tboldscript-math",
+TdoubleStruck,
+Theta,
+ThetaSymbol,
+"Titalic-math",
+"Tscript-math",
+U,
+"U-fraktur",
+"Ubold-math",
+"Ubolditalic-math",
+"Uboldscript-math",
+UdoubleStruck,
+"Uitalic-math",
+Upsilon,
+"Uscript-math",
+V,
+"V-fraktur",
+"Vbold-math",
+"Vbolditalic-math",
+"Vboldscript-math",
+VdoubleStruck,
+"Vitalic-math",
+"Vscript-math",
+W,
+"W-fraktur",
+"Wbold-math",
+"Wbolditalic-math",
+"Wboldscript-math",
+WdoubleStruck,
+"Witalic-math",
+"Wscript-math",
+X,
+"X-fraktur",
+"Xbold-math",
+"Xbolditalic-math",
+"Xboldscript-math",
+XdoubleStruck,
+Xi,
+"Xitalic-math",
+"Xscript-math",
+Y,
+"Y-fraktur",
+"Ybold-math",
+"Ybolditalic-math",
+"Yboldscript-math",
+YdoubleStruck,
+"Yitalic-math",
+"Yscript-math",
+Z,
+"Z-fraktur",
+"ZBold-fraktur",
+"Zbold-math",
+"Zbolditalic-math",
+"Zboldscript-math",
+ZdoubleStruck,
+Zeta,
+"Zitalic-math",
+"Zscript-math",
+a,
+"a-fraktur",
+"abold-math",
+"abolditalic-math",
+"aboldscript-math",
+acuteAngle,
+acuteAngle.rtlm,
+adoubleStruck,
+"ainArabic-math",
+"aitalic-math",
+"alefArabic-math",
+alephsymbol,
+allequal,
+allequal.rtlm,
+almostEqualToWithCircumflexAccent,
+almostEqualToWithCircumflexAccent.rtlm,
+almostequalorequalto,
+almostequalorequalto.rtlm,
+alpha,
+amalgamationOrCoproduct,
+ampersand,
+andWithDot,
+angle,
+angle.rtlm,
+angleWithSInside,
+angleWithSInside.rtlm,
+angleWithUnderbar,
+angleWithUnderbar.rtlm,
+anticlockwiseClosedCircleArrow,
+anticlockwiseGappedCircleArrow,
+anticlockwiseIntegration,
+anticlockwiseIntegration.rtlm,
+anticlockwiseOpenCircleArrow,
+anticlockwiseRotatedDivisionSign.circled,
+anticlockwisearrowabovecomb,
+anticlockwisecontourintegral,
+anticlockwisecontourintegral.rtlm,
+anticlockwiseringoverlaycomb,
+approaches,
+approxequal,
+approxequal.rtlm,
+approxequalorimage,
+approximatelyEqualOrEqualTo,
+approximatelyEqualOrEqualTo.rtlm,
+approximatelybutnotactuallyequalto,
+approximatelybutnotactuallyequalto.rtlm,
+asciicircum,
+asciitilde,
+"ascript-math",
+assertion,
+asterisk,
+asteriskmath,
+asteriskoperator.circled,
+asymptoticallyequal,
+at,
+b,
+"b-fraktur",
+backslash,
+bar,
+bar.circled,
+"bbold-math",
+"bbolditalic-math",
+"bboldscript-math",
+bdoubleStruck,
+because,
+"behArabic-math",
+"behDotlessArabic-math",
+beta,
+betsymbol,
+between,
+bigReverseSolidus,
+bigSolidus,
+"bitalic-math",
+blackBowtie,
+blackCircleWithDownArrow,
+blackDiamondWithDownArrow,
+blackHourglass,
+blackLozenge,
+bottomArcAnticlockwiseArrow,
+bottomLeftCorner,
+bottomRightCorner,
+bottomcurlybracket,
+bottomparenthesis,
+bottomsquarebracket,
+bottomsquarebracketovertopsquarebracket,
+bottomtortoiseshellbracket,
+bowtie,
+bowtieWithLeftHalfBlack,
+bowtieWithRightHalfBlack,
+braceleft,
+braceleft.full,
+braceright,
+braceright.full,
+bracketleft,
+bracketright,
+"bscript-math",
+bullet.circled,
+bulletoperator,
+c,
+"c-fraktur",
+carriagereturn,
+"cbold-math",
+"cbolditalic-math",
+"cboldscript-math",
+cdoubleStruck,
+chi,
+circleDividedByHorizontalBarAndTopHalfDividedByVerticalBar,
+circleSmallCircleRight,
+circleSmallCircleRight.rtlm,
+circleTwoHorizontalStrokesRight,
+circleTwoHorizontalStrokesRight.rtlm,
+circleWithHorizontalBar,
+circleWithSuperimposedX,
+circulationFunction,
+circulationFunction.rtlm,
+circumflexcomb,
+"citalic-math",
+clockwiseClosedCircleArrow,
+clockwiseGappedCircleArrow,
+clockwiseOpenCircleArrow,
+clockwisearrowabovecomb,
+clockwisecontourintegral,
+clockwisecontourintegral.rtlm,
+clockwiseintegral,
+clockwiseintegral.rtlm,
+clockwiseringoverlaycomb,
+closedIntersectionWithSerifs,
+closedSubset,
+closedSubsetOrEqualTo,
+closedSuperset,
+closedSupersetOrEqualTo,
+closedUnionWithSerifs,
+closedUnionWithSerifsAndSmashProduct,
+colon,
+colonequals,
+comma,
+complement,
+complement.rtlm,
+congruent,
+congruent.rtlm,
+congruentWithDotAbove,
+congruentWithDotAbove.rtlm,
+containsasmemberSmall,
+containsasnormalsubgroup,
+containsasnormalsubgrouporequalto,
+containslonghorizontalstroke,
+containsoverbar,
+containsverticalbaratendofhorizontalstroke,
+contourintegral,
+contourintegral.rtlm,
+coproduct,
+correspondsto,
+"cscript-math",
+cuberoot,
+cuberoot.rtlm,
+curlyand,
+curlybracketextension,
+curlyor,
+d,
+"d-fraktur",
+"dadArabic-math",
+"dalArabic-math",
+daletsymbol,
+dash.circled,
+dashdownArrow,
+dblintegral,
+dblintegral.rtlm,
+"dbold-math",
+"dbolditalic-math",
+"dboldscript-math",
+ddoubleStruck,
+delta,
+deltaequalto,
+diamondoperator,
+dieresiscomb,
+differencebetween,
+"ditalic-math",
+ditalicDoubleStruck,
+divide,
+divide.circled,
+divides,
+divisionslash,
+divisiontimes,
+doesNotDivideWithReversedNegationSlash,
+doesNotDivideWithReversedNegationSlash.rtlm,
+doesnotcontainasnormalsubgroup,
+doesnotcontainasnormalsubgrouporequal,
+doesnotdivide,
+doesnotdivide.rtlm,
+doesnotforce,
+doesnotforce.rtlm,
+doesnotprecedeorequal,
+doesnotprove,
+doesnotprove.rtlm,
+doesnotsucceedorequal,
+dollar,
+dotaccentcomb,
+dotmath,
+dotminus,
+dotplus,
+dottedCircle,
+dottedFence,
+doubleColonEqual,
+doubleColonEqual.rtlm,
+doubleDownTack,
+doubleEndedMultimap,
+doubleLineEqualToOrGreaterThan,
+doubleLineEqualToOrLessThan,
+doubleLineSlantedEqualToOrGreaterThan,
+doubleLineSlantedEqualToOrLessThan,
+doubleLineSlantedGreaterThanOrEqualTo,
+doubleLineSlantedLessThanOrEqualTo,
+doubleLogicalAnd,
+doubleLogicalOr,
+doubleNestedGreaterThan,
+doubleNestedLessThan,
+doubleNestedLessThanWithUnderbar,
+doubleNestedLessThanWithUnderbar.rtlm,
+doublePlus,
+doublePrecedes,
+doubleSolidusOperator,
+doubleSolidusOperator.rtlm,
+doubleSquareIntersection,
+doubleSquareUnion,
+doubleStrokeNotSign,
+doubleSucceeds,
+doubleUpTack,
+doubleVerticalBarDoubleLeftTurnstile,
+doubleVerticalBarLeftTurnstile,
+doubleintersection,
+doubleleftarcgreaterthanbracket,
+doubleprimeReversed,
+doublerightarclessthanbracket,
+"doublestruckainArabic-math",
+"doublestruckbehArabic-math",
+"doublestruckdadArabic-math",
+"doublestruckdalArabic-math",
+"doublestruckfehArabic-math",
+"doublestruckghainArabic-math",
+"doublestruckhahArabic-math",
+"doublestruckjeemArabic-math",
+"doublestruckkhahArabic-math",
+"doublestrucklamArabic-math",
+"doublestruckmeemArabic-math",
+"doublestrucknoonArabic-math",
+"doublestruckqafArabic-math",
+"doublestruckrehArabic-math",
+"doublestrucksadArabic-math",
+"doublestruckseenArabic-math",
+"doublestrucksheenArabic-math",
+"doublestrucktahArabic-math",
+"doublestrucktehArabic-math",
+"doublestruckthalArabic-math",
+"doublestruckthehArabic-math",
+"doublestruckwawArabic-math",
+"doublestruckyehArabic-math",
+"doublestruckzahArabic-math",
+"doublestruckzainArabic-math",
+doublesubset,
+doublesuperset,
+doubleunion,
+doubleverticalbardoublerightturnstile,
+doubleverticalstrokeoverlaycomb,
+downAndUpArrow,
+downArrow,
+downArrowToBar,
+downArrowWithHorizontalStroke,
+downBarbLeftHarpoon,
+downBarbRightHarpoon,
+downDoubleArrow,
+downDoublePairedArrow,
+downFishTail,
+downFrombarArrow,
+downHarpoonWithBarbLeftBesideDownHarpoonWithBarbRight,
+downHarpoonWithBarbLeftBesideUpHarpoonWithBarbRight,
+downHarpoonWithBarbLeftFromBar,
+downHarpoonWithBarbLeftToBar,
+downHarpoonWithBarbRightFromBar,
+downHarpoonWithBarbRightToBar,
+downQuadrupleArrow,
+downTackWithCircleBelow,
+downThenCurvingLeftArrow,
+downThenCurvingRightArrow,
+downTipLeftArrow,
+downTipRightArrow,
+downTriangleWithLeftHalfBlack,
+downTriangleWithLeftHalfBlack.rtlm,
+downTriangleWithRightHalfBlack,
+downTriangleWithRightHalfBlack.rtlm,
+downTripleArrow,
+downTwoheadedArrow,
+downWhiteTriangle,
+downrightdiagonalellipsis,
+"dscript-math",
+e,
+"e-fraktur",
+"ebold-math",
+"ebolditalic-math",
+"eboldscript-math",
+edoubleStruck,
+eight,
+"eitalic-math",
+eitalicDoubleStruck,
+element,
+elementOfOpeningDown,
+elementOfOpeningUp,
+elementSmall,
+elementofdotabove,
+elementofdotabove.rtlm,
+elementoflonghorizontalstroke,
+elementofoverbar,
+elementoftwohorizontalstrokes,
+elementoftwohorizontalstrokes.rtlm,
+elementofunderbar,
+elementofunderbar.rtlm,
+elementofverticalbaratendofhorizontalstroke,
+ellipsisvertical,
+emptySetWithLeftArrowAbove,
+emptySetWithOverbar,
+emptySetWithRightArrowAbove,
+emptyset,
+emptysetcircleabove,
+endofproof,
+epsilon,
+epsilonLunateSymbol,
+equal,
+equalandparallelto,
+equals.circled,
+equalsSignAboveLeftArrow,
+equalsSignAbovePlusSign,
+equalsSignAboveRightArrow,
+equalsSignAboveTildeOperator,
+equalsSignAboveTildeOperator.rtlm,
+equalsSignAndSlantedParallel,
+equalsSignAndSlantedParallel.rtlm,
+equalsSignAndSlantedParallelWithTildeAbove,
+equalsSignAndSlantedParallelWithTildeAbove.rtlm,
+equalsSignWithBumpyAbove,
+equalsSignWithDotBelow,
+equalsSignWithTwoDotsAboveAndTwoDotsBelow,
+equalsWithAsterisk,
+equalscolon,
+equaltobydefinition,
+"equaltoorgreater-than",
+"equaltoorless-than",
+equaltoorprecedes,
+equaltoorsucceeds,
+equiangularTo,
+equivalence,
+equivalentWithFourDotsAbove,
+equivalentto,
+errorBarredBlack.circled,
+errorBarredBlackDiamond,
+errorBarredBlackSquare,
+errorBarredWhite.circled,
+errorBarredWhiteDiamond,
+errorBarredWhiteSquare,
+erthan,
+erthanorequalto,
+escript,
+estimates,
+eta,
+excess,
+excess.rtlm,
+exclam,
+existential,
+existential.rtlm,
+f,
+"f-fraktur",
+"fallingDiagonal-math",
+"fallingDiagonal-math.rtlm",
+fallingDiagonalCrossingNorthEastArrow,
+fallingDiagonalCrossingRisingDiagonal,
+"fbold-math",
+"fbolditalic-math",
+"fboldscript-math",
+fdoubleStruck,
+"fehArabic-math",
+"fehDotlessArabic-math",
+finitePartIntegral,
+finitePartIntegral.rtlm,
+"fitalic-math",
+five,
+"flat-musical",
+forces,
+forking,
+forking.rtlm,
+four,
+fourdotsabovecomb,
+fourthroot,
+fourthroot.rtlm,
+fraction.circled,
+"fscript-math",
+fullOuterJoin,
+g,
+"g-fraktur",
+gamma,
+gammadoubleStruck,
+"gbold-math",
+"gbolditalic-math",
+"gboldscript-math",
+gdoubleStruck,
+geometricallyequal,
+geometricallyequivalentto,
+geometricproportion,
+"ghainArabic-math",
+gimelsymbol,
+"gitalic-math",
+gleichStark,
+gradient,
+grave,
+greater,
+"greater-thanbutnotequalto",
+"greater-thanbutnotequivalentto",
+"greater-thandot",
+greaterThan.circled,
+greaterThanAboveDoubleLineEqualAboveLessThan,
+greaterThanAboveLessThanAboveDoubleLineEqual,
+greaterThanAboveRightArrow,
+greaterThanAboveSimilarAboveLessThan,
+greaterThanAboveSimilarAboveLessThan.rtlm,
+greaterThanAboveSimilarOrEqual,
+greaterThanAboveSimilarOrEqual.rtlm,
+greaterThanAboveSlantedEqualAboveLessThanAboveSlantedEqual,
+greaterThanAndNotApproximate,
+greaterThanAndNotApproximate.rtlm,
+greaterThanAndSingleLineNotEqualTo,
+greaterThanAndSingleLineNotEqualTo.rtlm,
+greaterThanBesideLessThan,
+greaterThanClosedByCurve,
+greaterThanClosedByCurveAboveSlantedEqual,
+greaterThanOrApproximate,
+greaterThanOrApproximate.rtlm,
+greaterThanOrSlantedEqualTo,
+greaterThanOrSlantedEqualToWithDotAbove,
+greaterThanOrSlantedEqualToWithDotAboveLeft,
+greaterThanOrSlantedEqualToWithDotInside,
+greaterThanOverlappingLessThan,
+greaterThanWithCircleInside,
+greaterThanWithQuestionMarkAbove,
+greaterThanWithQuestionMarkAbove.rtlm,
+greaterequal,
+greaterequalorless,
+greaterorequivalent,
+greaterorless,
+greateroverequal,
+gscript,
+h,
+"h-fraktur",
+"hahArabic-math",
+"hbold-math",
+"hbolditalic-math",
+"hboldscript-math",
+hdoubleStruck,
+hermitianconjugatematrix,
+homothetic,
+homothetic.rtlm,
+horizontallineextension,
+"hscript-math",
+hyphen,
+i,
+"i-fraktur",
+"ibold-math",
+"ibolditalic-math",
+"iboldscript-math",
+identicalToAndSlantedParallel,
+identicalToAndSlantedParallel.rtlm,
+identicalWithDotAbove,
+idoubleStruck,
+"iitalic-math",
+iitalicDoubleStruck,
+imageof,
+imageorapproximatelyequal,
+incompleteInfinity,
+incompleteInfinity.rtlm,
+increasesAs,
+increasesAs.rtlm,
+increment,
+infinity,
+infinityNegatedWithVerticalBar,
+"initialainArabic-math",
+"initialbehArabic-math",
+"initialdadArabic-math",
+"initialfehArabic-math",
+"initialghainArabic-math",
+"initialhahArabic-math",
+"initialhehArabic-math",
+"initialjeemArabic-math",
+"initialkafArabic-math",
+"initialkhahArabic-math",
+"initiallamArabic-math",
+"initialmeemArabic-math",
+"initialnoonArabic-math",
+"initialqafArabic-math",
+"initialsadArabic-math",
+"initialseenArabic-math",
+"initialsheenArabic-math",
+"initialtehArabic-math",
+"initialthehArabic-math",
+"initialyehArabic-math",
+integral,
+integral.rtlm,
+integralAroundAPointOperator,
+integralAroundAPointOperator.rtlm,
+integralAverageWithSlash,
+integralAverageWithSlash.rtlm,
+integralWithDoubleStroke,
+integralWithDoubleStroke.rtlm,
+integralWithIntersection,
+integralWithIntersection.rtlm,
+integralWithLeftArrowWithHook,
+integralWithLeftArrowWithHook.rtlm,
+integralWithOverbar,
+integralWithOverbar.rtlm,
+integralWithTimesSign,
+integralWithTimesSign.rtlm,
+integralWithUnderbar,
+integralWithUnderbar.rtlm,
+integralWithUnion,
+integralWithUnion.rtlm,
+integralbt,
+integralbt.rtlm,
+integralextension,
+integraltp,
+integraltp.rtlm,
+intercalate,
+interiorProduct,
+intersection,
+intersectionAboveBarAboveUnion,
+intersectionAboveUnion,
+intersectionBesideAndJoinedWithIntersection,
+intersectionWithDot,
+intersectionWithLogicalAnd,
+intersectionWithOverbar,
+invertedlazys,
+invertedlazys.rtlm,
+iota,
+"iscript-math",
+j,
+"j-fraktur",
+"jbold-math",
+"jbolditalic-math",
+"jboldscript-math",
+jdoubleStruck,
+"jeemArabic-math",
+"jitalic-math",
+jitalicDoubleStruck,
+join,
+"jscript-math",
+k,
+"k-fraktur",
+"kafArabic-math",
+kappa,
+kappaSymbol,
+"kbold-math",
+"kbolditalic-math",
+"kboldscript-math",
+kdoubleStruck,
+"khahArabic-math",
+"kitalic-math",
+"kscript-math",
+l,
+"l-fraktur",
+"lamArabic-math",
+lambda,
+largeDownTack,
+largeLeftTriangleOperator,
+largeLeftTriangleOperator.rtlm,
+largeTripleVerticalBarOperator,
+largeUpTack,
+largerThan,
+largerThanOrEqualTo,
+"lbold-math",
+"lbolditalic-math",
+"lboldscript-math",
+ldoubleStruck,
+leftAndRightArrow,
+leftAndRightDoubleTurnstile,
+leftAndRightTack,
+leftArrow,
+leftArrowAboveAlmostEqualTo,
+leftArrowAboveReverseAlmostEqualTo,
+leftArrowAboveReverseTildeOperator,
+leftArrowAboveShortRightArrow,
+leftArrowAboveTildeOperator,
+leftArrowFromBarToBlackDiamond,
+leftArrowTail,
+leftArrowThroughLessThan,
+leftArrowThroughSubset,
+leftArrowThroughX,
+leftArrowTipDown,
+leftArrowTipUp,
+leftArrowToBlackDiamond,
+leftArrowWithCircledPlus,
+leftArrowWithDottedStem,
+leftArrowWithPlusBelow,
+leftArrowWithTailWithDoubleVerticalStroke,
+leftArrowWithTailWithVerticalStroke,
+leftBarbDownHarpoon,
+leftBarbDownRightBarbDownHarpoon,
+leftBarbDownRightBarbUpHarpoon,
+leftBarbUpHarpoon,
+leftBarbUpRightBarbDownHarpoon,
+leftBarbUpRightBarbUpHarpoon,
+leftCeiling,
+leftDashArrow,
+leftDoubleArrow,
+leftDoubleArrowFromBar,
+leftDoubleArrowTail,
+leftDoubleArrowWithVerticalStroke,
+leftDoubleDashArrow,
+leftDoublePairedArrow,
+leftDoubleStrokeArrow,
+leftDoubleVerticalStrokeArrow,
+leftFishTail,
+leftFloor,
+leftFrombarArrow,
+leftHarpoonWithBarbDownAboveRightHarpoonWithBarbDown,
+leftHarpoonWithBarbDownBelowLongDash,
+leftHarpoonWithBarbDownFromBar,
+leftHarpoonWithBarbDownToBar,
+leftHarpoonWithBarbUpAboveLeftHarpoonWithBarbDown,
+leftHarpoonWithBarbUpAboveLongDash,
+leftHarpoonWithBarbUpAboveRightHarpoonWithBarbUp,
+leftHarpoonWithBarbUpFromBar,
+leftHarpoonWithBarbUpToBar,
+leftHookArrow,
+leftLongArrow,
+leftLongDoubleArrow,
+leftLongDoubleFromBarArrow,
+leftLongFromBarArrow,
+leftLoopArrow,
+leftMultimap,
+leftMultimap.rtlm,
+leftOpenHeadedArrow,
+leftOuterJoin,
+leftOverRightHarpoon,
+leftQuadrupleArrow,
+leftRightArrow,
+leftRightDoubleArrow,
+leftRightDoubleArrowWithVerticalStroke,
+leftRightDoubleStrokeArrow,
+leftRightDoubleVerticalStrokeArrow,
+leftRightLongArrow,
+leftRightLongDoubleArrow,
+leftRightOpenHeadedArrow,
+leftRightStrokeArrow,
+leftRightVerticalStrokeArrow,
+leftRightWaveArrow,
+leftSideArcAnticlockwiseArrow,
+leftSquiggleArrow,
+leftStrokeArrow,
+leftTabArrow,
+leftTailArrow,
+leftToBarOverRightToBarArrow,
+leftTriangleBesideVerticalBar,
+leftTripleArrow,
+leftTripleDashArrow,
+leftTwoHeadedArrowFromBar,
+leftTwoHeadedArrowWithDoubleVerticalStroke,
+leftTwoHeadedArrowWithTail,
+leftTwoHeadedArrowWithTailWithDoubleVerticalStroke,
+leftTwoHeadedArrowWithTailWithVerticalStroke,
+leftTwoHeadedArrowWithVerticalStroke,
+leftTwoHeadedTripleDashArrow,
+leftTwoheadedArrow,
+leftVerticalStrokeArrow,
+leftWaveArrow,
+leftWhiteTriangle,
+"leftanglebracket-math",
+leftanglebracketdot,
+leftarclessthanbracket,
+leftarrowabovecomb,
+leftarrowbelowcomb,
+leftarrowoverlaycomb,
+leftarrowwithcircle,
+leftblacktortoiseshellbracket,
+leftcurlybracketlowerhook,
+leftcurlybracketmiddlepiece,
+leftcurlybracketupperhook,
+"leftdoubleanglebracket-math",
+leftdoublewigglyfence,
+"leftflattenedparenthesis-math",
+leftharpoonabovecomb,
+leftharpoonwithbarbdowncomb,
+leftnormalfactorsemidirectproduct,
+leftpointingcurvedanglebracket,
+leftrightarrowabovecomb,
+leftrightarrowthroughcircle,
+leftsemidirectproduct,
+leftsquarebracketextension,
+leftsquarebracketlowercorner,
+leftsquarebrackettickinbottomcorner,
+leftsquarebrackettickintopcorner,
+leftsquarebracketunderbar,
+leftsquarebracketuppercorner,
+leftsshapedbagdelimiter,
+leftwhitecurlybracket,
+"leftwhitesquarebracket-math",
+"leftwhitetortoiseshellbracket-math",
+leftwigglyfence,
+less,
+"less-thanbutnotequalto",
+"less-thanbutnotequivalentto",
+"less-thandot",
+lessThan.circled,
+lessThanAboveDoubleLineEqualAboveGreaterThan,
+lessThanAboveGreaterThanAboveDoubleLineEqual,
+lessThanAboveLeftArrow,
+lessThanAboveSimilarAboveGreaterThan,
+lessThanAboveSimilarAboveGreaterThan.rtlm,
+lessThanAboveSimilarOrEqual,
+lessThanAboveSimilarOrEqual.rtlm,
+lessThanAboveSlantedEqualAboveGreaterThanAboveSlantedEqual,
+lessThanAndNotApproximate,
+lessThanAndNotApproximate.rtlm,
+lessThanAndSingleLineNotEqualTo,
+lessThanAndSingleLineNotEqualTo.rtlm,
+lessThanClosedByCurve,
+lessThanClosedByCurveAboveSlantedEqual,
+lessThanOrApproximate,
+lessThanOrApproximate.rtlm,
+lessThanOrSlantedEqualTo,
+lessThanOrSlantedEqualToWithDotAbove,
+lessThanOrSlantedEqualToWithDotAboveRight,
+lessThanOrSlantedEqualToWithDotInside,
+lessThanWithCircleInside,
+lessThanWithQuestionMarkAbove,
+lessThanWithQuestionMarkAbove.rtlm,
+lessequal,
+lessequalorgreater,
+lessorequivalent,
+lessorequivalent.rtlm,
+lessorgreater,
+lessoverequal,
+lineIntegrationNotIncludingThePole,
+lineIntegrationNotIncludingThePole.rtlm,
+lineIntegrationWithRectangularPathAroundPole,
+lineIntegrationWithRectangularPathAroundPole.rtlm,
+lineIntegrationWithSemicircularPathAroundPole,
+lineIntegrationWithSemicircularPathAroundPole.rtlm,
+"litalic-math",
+logicalAndWithDotAbove,
+logicalAndWithDoubleOverbar,
+logicalAndWithDoubleUnderbar,
+logicalAndWithHorizontalDash,
+logicalAndWithMiddleStem,
+logicalAndWithUnderbar,
+logicalOrOverlappingLogicalAnd,
+logicalOrWithDotAbove,
+logicalOrWithDoubleOverbar,
+logicalOrWithDoubleUnderbar,
+logicalOrWithHorizontalDash,
+logicalOrWithMiddleStem,
+logicaland,
+logicalnot,
+logicalnotReversed,
+logicalor,
+longDashFromLeftMemberOfDoubleVertical,
+longDashFromLeftMemberOfDoubleVertical.rtlm,
+longDivision,
+longDivision.rtlm,
+longLeftSquiggleArrow,
+longLeftTack,
+longRightTack,
+longdoublesolidusoverlaycomb,
+longverticallineoverlaycomb,
+"loopedainArabic-math",
+"loopedalefArabic-math",
+"loopedbehArabic-math",
+"loopeddadArabic-math",
+"loopeddalArabic-math",
+"loopedfehArabic-math",
+"loopedghainArabic-math",
+"loopedhahArabic-math",
+"loopedhehArabic-math",
+"loopedjeemArabic-math",
+"loopedkhahArabic-math",
+"loopedlamArabic-math",
+"loopedmeemArabic-math",
+"loopednoonArabic-math",
+"loopedqafArabic-math",
+"loopedrehArabic-math",
+"loopedsadArabic-math",
+"loopedseenArabic-math",
+"loopedsheenArabic-math",
+"loopedtahArabic-math",
+"loopedtehArabic-math",
+"loopedthalArabic-math",
+"loopedthehArabic-math",
+"loopedwawArabic-math",
+"loopedyehArabic-math",
+"loopedzahArabic-math",
+"loopedzainArabic-math",
+lowerLeftSemicircularAnticlockwiseArrow,
+lowerRightCornerWithDot,
+lowerRightCornerWithDot.rtlm,
+lowerRightSemicircularClockwiseArrow,
+lozenge,
+lozengeDividedByHorizontalRule,
+"lscript-math",
+m,
+"m-fraktur",
+"mbold-math",
+"mbolditalic-math",
+"mboldscript-math",
+mdoubleStruck,
+measuredAngleOpeningLeft,
+measuredAngleOpeningLeft.rtlm,
+measuredAngleWithOpenArmEndingInArrowPointingDownAndLeft,
+measuredAngleWithOpenArmEndingInArrowPointingDownAndLeft.rtlm,
+measuredAngleWithOpenArmEndingInArrowPointingDownAndRight,
+measuredAngleWithOpenArmEndingInArrowPointingDownAndRight.rtlm,
+measuredAngleWithOpenArmEndingInArrowPointingLeftAndDown,
+measuredAngleWithOpenArmEndingInArrowPointingLeftAndDown.rtlm,
+measuredAngleWithOpenArmEndingInArrowPointingLeftAndUp,
+measuredAngleWithOpenArmEndingInArrowPointingLeftAndUp.rtlm,
+measuredAngleWithOpenArmEndingInArrowPointingRightAndDown,
+measuredAngleWithOpenArmEndingInArrowPointingRightAndDown.rtlm,
+measuredAngleWithOpenArmEndingInArrowPointingRightAndUp,
+measuredAngleWithOpenArmEndingInArrowPointingRightAndUp.rtlm,
+measuredAngleWithOpenArmEndingInArrowPointingUpAndLeft,
+measuredAngleWithOpenArmEndingInArrowPointingUpAndLeft.rtlm,
+measuredAngleWithOpenArmEndingInArrowPointingUpAndRight,
+measuredAngleWithOpenArmEndingInArrowPointingUpAndRight.rtlm,
+measuredRightAngleWithDot,
+measuredRightAngleWithDot.rtlm,
+measuredangle,
+measuredangle.rtlm,
+measuredby,
+mediumWhiteSquare,
+"meemArabic-math",
+midlinehorizontalellipsis,
+minus,
+minus.circled,
+minusSignInTriangle,
+minusSignWithCommaAbove,
+minusSignWithCommaAbove.rtlm,
+minusSignWithDotBelow,
+minusSignWithFallingDots,
+minusSignWithRisingDots,
+minusplus,
+minustilde,
+minustilde.rtlm,
+minute,
+miny,
+"mitalic-math",
+models,
+models.rtlm,
+moduloTwoSum,
+moduloTwoSum.rtlm,
+"mscript-math",
+mu,
+muchgreater,
+muchless,
+multimap,
+multimap.rtlm,
+multiply,
+multiply.circled,
+multiplyInDoubleCircled,
+multiplyInLeftHalfCircled,
+multiplyInRightHalfCircled,
+multiplyInTriangle,
+multiplyWithCircumflexAccentCircled,
+multiplyWithDotAbove,
+multiplyWithUnderbar,
+multiset,
+multiset.rtlm,
+multisetmultiplication,
+multisetunion,
+n,
+"n-aryintersection",
+"n-arylogicaland",
+"n-arylogicalor",
+"n-aryunion",
+"n-fraktur",
+nAryCircledDotOperator,
+nAryCircledPlusOperator,
+nAryCircledTimesOperator,
+nArySquareIntersectionOperator,
+nArySquareUnionOperator,
+nAryTimesOperator,
+nAryUnionOperatorWithDot,
+nAryUnionOperatorWithPlus,
+nAryWhiteVerticalBar,
+nand,
+"natural-musical",
+"nbold-math",
+"nbolditalic-math",
+"nboldscript-math",
+nbspace,
+ndoubleStruck,
+negateddoubleverticalbardoublerightturnstile,
+negateddoubleverticalbardoublerightturnstile.rtlm,
+neitherapproximatelynoractuallyequalto,
+neitherapproximatelynoractuallyequalto.rtlm,
+neitherasubsetofnorequalto,
+neitherasupersetofnorequalto,
+"neithergreater-thannorequivalentto",
+"neitherless-thannorequivalentto",
+"neitherless-thannorgreater-than",
+nine,
+"nitalic-math",
+nonforking,
+"noonArabic-math",
+"noonDotlessArabic-math",
+nor,
+normalsubgroupof,
+normalsubgroupoforequalto,
+northEastAndSouthWestArrow,
+northEastArrow,
+northEastArrowAndSouthEastArrow,
+northEastArrowCrossingNorthWestArrow,
+northEastArrowCrossingSouthEastArrow,
+northEastArrowWithHook,
+northEastDoubleArrow,
+northWestAndSouthEastArrow,
+northWestArrow,
+northWestArrowAndNorthEastArrow,
+northWestArrowCrossingNorthEastArrow,
+northWestArrowToCorner,
+northWestArrowWithHook,
+northWestDoubleArrow,
+northWestToLongbarArrow,
+notalmostequalto,
+notalmostequalto.rtlm,
+notasymptoticallyequalto,
+notasymptoticallyequalto.rtlm,
+notcontains,
+notelement,
+notequal,
+notequal.rtlm,
+notequivalentto,
+notgreater,
+notgreaternorequal,
+notgreaternorless,
+notidentical,
+notidentical.rtlm,
+notless,
+notlessnorequal,
+notnormalsubgroupof,
+notnormalsubgroupoforequalto,
+notparallel,
+notparallel.rtlm,
+notprecedes,
+notsimilar,
+notsimilar.rtlm,
+notsquareimageoforequalto,
+notsquareoriginaloforequalto,
+notsubset,
+notsucceeds,
+notsuperset,
+nottrue,
+nottrue.rtlm,
+"nscript-math",
+nu,
+numbersign,
+o,
+"o-fraktur",
+obliqueAngleOpeningDown,
+obliqueAngleOpeningDown.rtlm,
+obliqueAngleOpeningUp,
+obliqueAngleOpeningUp.rtlm,
+"obold-math",
+"obolditalic-math",
+"oboldscript-math",
+odoubleStruck,
+"oitalic-math",
+omega,
+omicron,
+one,
+one.paren,
+openSubset,
+openSuperset,
+operator.circled,
+orWithDotInside,
+originalof,
+orthogonal,
+orthogonal.rtlm,
+oscript,
+overlinecomb,
+p,
+"p-fraktur",
+pagedown,
+pageup,
+parallel,
+parallel.circled,
+parallelWithHorizontalStroke,
+parallelWithTildeOperator,
+parallelWithTildeOperator.rtlm,
+parenleft,
+parenleftextension,
+parenleftlowerhook,
+parenleftupperhook,
+parenright,
+parenrightextension,
+parenrightlowerhook,
+parenrightupperhook,
+partialdiff,
+partialdiff.rtlm,
+"pbold-math",
+"pbolditalic-math",
+"pboldscript-math",
+pdoubleStruck,
+percent,
+period,
+perpendicular,
+perpendicular.circled,
+perpendicularWithS,
+phi,
+phiSymbol,
+pi,
+piSymbol,
+pidoubleStruck,
+"pitalic-math",
+pitchfork,
+pitchforkWithTeeTop,
+planckconstant,
+plus,
+plus.circled,
+plusSignAboveEqualsSign,
+plusSignInLeftHalfCircled,
+plusSignInRightHalfCircled,
+plusSignInTriangle,
+plusSignWithBlackTriangle,
+plusSignWithCircumflexAccentAbove,
+plusSignWithDotBelow,
+plusSignWithSubscriptTwo,
+plusSignWithTildeAbove,
+plusSignWithTildeAbove.rtlm,
+plusSignWithTildeBelow,
+plusSignWithTildeBelow.rtlm,
+pluscircleabove,
+plusminus,
+precedes,
+precedesAboveAlmostEqualTo,
+precedesAboveAlmostEqualTo.rtlm,
+precedesAboveEqualsSign,
+precedesAboveNotAlmostEqualTo,
+precedesAboveNotAlmostEqualTo.rtlm,
+precedesAboveNotEqualTo,
+precedesAboveNotEqualTo.rtlm,
+precedesAboveSingleLineEqualsSign,
+precedesAboveSingleLineNotEqualTo,
+precedesAboveSingleLineNotEqualTo.rtlm,
+precedesbutnotequivalentto,
+precedesorequalto,
+precedesorequivalentto,
+precedesunderrelation,
+primeReversed,
+product,
+proportion,
+proportional,
+proportional.rtlm,
+"pscript-math",
+psi,
+q,
+"q-fraktur",
+"qafArabic-math",
+"qafDotlessArabic-math",
+"qbold-math",
+"qbolditalic-math",
+"qboldscript-math",
+qdoubleStruck,
+"qitalic-math",
+"qscript-math",
+quadrupleIntegralOperator,
+quadrupleIntegralOperator.rtlm,
+quadrupleprime,
+quaternionIntegralOperator,
+quaternionIntegralOperator.rtlm,
+question,
+questionedequalto,
+questionedequalto.rtlm,
+quotedbl,
+quotesingle,
+r,
+"r-fraktur",
+radical,
+radical.rtlm,
+ratio,
+"rbold-math",
+"rbolditalic-math",
+"rboldscript-math",
+rdoubleStruck,
+reflexsubset,
+reflexsuperset,
+"rehArabic-math",
+reverseSolidus.circled,
+reverseSolidusOperator,
+reverseSolidusPrecedingSubset,
+reverseSolidusWithHorizontalStroke,
+reverseSolidusWithHorizontalStroke.rtlm,
+reverseTildeOperatorAboveLeftArrow,
+reverseTildeOperatorAboveRightArrow,
+reversedAngle,
+reversedAngle.rtlm,
+reversedAngleWithUnderbar,
+reversedAngleWithUnderbar.rtlm,
+reversedDoubleStrokeNotSign,
+reversedEmptySet,
+reversedtilde,
+reversedtildeequals,
+reversesolidusoverlaycomb,
+rho,
+rhoSymbol,
+rightAngleVariantWithSquare,
+rightAngleVariantWithSquare.rtlm,
+rightArrow,
+rightArrowAboveAlmostEqualTo,
+rightArrowAboveReverseAlmostEqualTo,
+rightArrowAboveReverseTildeOperator,
+rightArrowAboveShortLeftArrow,
+rightArrowAboveTildeOperator,
+rightArrowFromBarToBlackDiamond,
+rightArrowTail,
+rightArrowThroughGreaterThan,
+rightArrowThroughSuperset,
+rightArrowThroughX,
+rightArrowToBlackDiamond,
+rightArrowWithDottedStem,
+rightArrowWithPlusBelow,
+rightArrowWithTailWithDoubleVerticalStroke,
+rightArrowWithTailWithVerticalStroke,
+rightBarbUpHarpoon,
+rightBarbdownHarpoon,
+rightCeiling,
+rightCircleArrow,
+rightCircledPlusArrow,
+rightCornerDownArrow,
+rightDashArrow,
+rightDoubleArrow,
+rightDoubleArrowFromBar,
+rightDoubleArrowTail,
+rightDoubleArrowWithRoundedHead,
+rightDoubleArrowWithVerticalStroke,
+rightDoubleDashArrow,
+rightDoublePairedArrow,
+rightDoubleStrokeArrow,
+rightDoubleVerticalStrokeArrow,
+rightFishTail,
+rightFloor,
+rightFrombarArrow,
+rightHarpoonWithBarbDownAboveLeftHarpoonWithBarbDown,
+rightHarpoonWithBarbDownBelowLongDash,
+rightHarpoonWithBarbDownFromBar,
+rightHarpoonWithBarbDownToBar,
+rightHarpoonWithBarbUpAboveLeftHarpoonWithBarbUp,
+rightHarpoonWithBarbUpAboveLongDash,
+rightHarpoonWithBarbUpAboveRightHarpoonWithBarbDown,
+rightHarpoonWithBarbUpFromBar,
+rightHarpoonWithBarbUpToBar,
+rightHookArrow,
+rightLongDoubleArrow,
+rightLongDoubleFromBarArrow,
+rightLongFromBarArrow,
+rightLongSquiggleArrow,
+rightLoopArrow,
+rightOpenHeadedArrow,
+rightOuterJoin,
+rightOverLeftArrow,
+rightOverLeftHarpoon,
+rightQuadrupleArrow,
+rightSideArcClockwiseArrow,
+rightSquiggleArrow,
+rightStrokeArrow,
+rightTabArrow,
+rightTailArrow,
+rightThenCurvingDownArrow,
+rightThenCurvingUpArrow,
+rightTipDownArrow,
+rightTipUpArrow,
+rightTriangleAboveLeftTriangle,
+rightTriangleAboveLeftTriangle.rtlm,
+rightTripleArrow,
+rightTripleDashArrow,
+rightTwoHeadedArrowFromBar,
+rightTwoHeadedArrowWithDoubleVerticalStroke,
+rightTwoHeadedArrowWithTail,
+rightTwoHeadedArrowWithTailWithDoubleVerticalStroke,
+rightTwoHeadedArrowWithTailWithVerticalStroke,
+rightTwoHeadedArrowWithVerticalStroke,
+rightTwoHeadedTripleDashArrow,
+rightTwoheadedArrow,
+rightVerticalStrokeArrow,
+rightWaveArrow,
+rightWhiteTriangle,
+rightanglearc,
+rightanglearc.rtlm,
+"rightanglebracket-math",
+rightanglebracketdot,
+rightangledownzigzagArrow,
+rightarcgreaterthanbracket,
+rightarrowabovecomb,
+rightarrowbelowcomb,
+rightblacktortoiseshellbracket,
+rightcurlybracketlowerhook,
+rightcurlybracketmiddlepiece,
+rightcurlybracketupperhook,
+"rightdoubleanglebracket-math",
+rightdoublewigglyfence,
+"rightflattenedparenthesis-math",
+righthandInteriorProduct,
+rightharpoonabovecomb,
+rightharpoonwithbarbdowncomb,
+rightlongArrow,
+rightnormalfactorsemidirectproduct,
+rightpointingcurvedanglebracket,
+rightsemidirectproduct,
+rightsquarebracketextension,
+rightsquarebracketlowercorner,
+rightsquarebrackettickinbottomcorner,
+rightsquarebrackettickintopcorner,
+rightsquarebracketunderbar,
+rightsquarebracketuppercorner,
+rightsshapedbagdelimiter,
+righttack,
+righttriangle,
+righttriangle.rtlm,
+rightwhitecurlybracket,
+"rightwhitesquarebracket-math",
+"rightwhitetortoiseshellbracket-math",
+rightwigglyfence,
+ringequalto,
+ringinequalto,
+ringoperator,
+ringoperator.circled,
+ringoverlaycomb,
+"risingDiagonal-math",
+"risingDiagonal-math.rtlm",
+risingDiagonalCrossingFallingDiagonal,
+risingDiagonalCrossingSouthEastArrow,
+"ritalic-math",
+"rscript-math",
+ruleDelayed,
+ruleDelayed.rtlm,
+s,
+"s-fraktur",
+sInTriangle,
+"sadArabic-math",
+"sbold-math",
+"sbolditalic-math",
+"sboldscript-math",
+sdoubleStruck,
+second,
+section,
+"seenArabic-math",
+semicolon,
+semidirectProductWithBottomClosed,
+setminus,
+setminus.rtlm,
+seven,
+"sharp-musical",
+"sheenArabic-math",
+shortDownTack,
+shortDownTackWithOverbar,
+shortLeftTack,
+shortRightArrowAboveLeftArrow,
+shortUpTack,
+shortUpTackAboveShortDownTack,
+shortUpTackWithUnderbar,
+shortverticallineoverlaycomb,
+shuffleProduct,
+sigma,
+sigmafinal,
+similar,
+similarAboveGreaterThanAboveEqualsSign,
+similarAboveGreaterThanAboveEqualsSign.rtlm,
+similarAboveLessThanAboveEqualsSign,
+similarAboveLessThanAboveEqualsSign.rtlm,
+similarMinusSimilar,
+similarMinusSimilar.rtlm,
+similarOrGreaterThan,
+similarOrGreaterThan.rtlm,
+similarOrLessThan,
+similarOrLessThan.rtlm,
+sinewave,
+sinewave.rtlm,
+"sitalic-math",
+six,
+slantedEqualToOrGreaterThan,
+slantedEqualToOrGreaterThanWithDotInside,
+slantedEqualToOrLessThan,
+slantedEqualToOrLessThanWithDotInside,
+slash,
+slopingLargeAnd,
+slopingLargeAnd.rtlm,
+slopingLargeOr,
+slopingLargeOr.rtlm,
+smallcontainsoverbar,
+smallcontainsverticalbaratendofhorizontalstroke,
+smallelementofoverbar,
+smallelementofverticalbaratendofhorizontalstroke,
+smashProduct,
+solidusWithOverbar,
+solidusWithOverbar.rtlm,
+southEastArrow,
+southEastArrowAndSouthWestArrow,
+southEastArrowCrossingNorthEastArrow,
+southEastArrowToCorner,
+southEastArrowWithHook,
+southEastDoubleArrow,
+southWestArrow,
+southWestArrowAndNorthWestArrow,
+southWestArrowWithHook,
+southWestDoubleArrow,
+space,
+sphericalAngleOpeningLeft,
+sphericalAngleOpeningLeft.rtlm,
+sphericalAngleOpeningUp,
+sphericalangle,
+sphericalangle.rtlm,
+squareLeftOpenBoxOperator,
+squareRightOpenBoxOperator,
+squareWithContouredOutline,
+squarecap,
+squarecup,
+squaredAsterisk,
+squaredFallingDiagonalSlash,
+squaredLogicalAnd,
+squaredLogicalOr,
+squaredRisingDiagonalSlash,
+squaredSquare,
+squaredcircle,
+squareddotoperator,
+squaredminus,
+squaredplus,
+squaredtimes,
+squareimageof,
+squareimageoforequalto,
+squareimageofornotequalto,
+squareoriginalof,
+squareoriginaloforequalto,
+squareoriginalofornotequalto,
+"sscript-math",
+starequals,
+staroperator,
+"stretchedainArabic-math",
+"stretchedbehArabic-math",
+"stretcheddadArabic-math",
+"stretcheddotlessbehArabic-math",
+"stretcheddotlessfehArabic-math",
+"stretchedfehArabic-math",
+"stretchedghainArabic-math",
+"stretchedhahArabic-math",
+"stretchedhehArabic-math",
+"stretchedjeemArabic-math",
+"stretchedkafArabic-math",
+"stretchedkhahArabic-math",
+"stretchedmeemArabic-math",
+"stretchednoonArabic-math",
+"stretchedqafArabic-math",
+"stretchedsadArabic-math",
+"stretchedseenArabic-math",
+"stretchedsheenArabic-math",
+"stretchedtahArabic-math",
+"stretchedtehArabic-math",
+"stretchedthehArabic-math",
+"stretchedyehArabic-math",
+"stretchedzahArabic-math",
+strictlyequivalentto,
+subset,
+subsetAboveRightArrow,
+subsetAboveSubset,
+subsetAboveSuperset,
+subsetOfAboveAlmostEqualTo,
+subsetOfAboveAlmostEqualTo.rtlm,
+subsetOfAboveEqualsSign,
+subsetOfAboveNotEqualTo,
+subsetOfAboveNotEqualTo.rtlm,
+subsetOfAboveTildeOperator,
+subsetOfAboveTildeOperator.rtlm,
+subsetOfOrEqualToWithDotAbove,
+subsetWithDot,
+subsetWithMultiplicationSignBelow,
+subsetWithPlusSignBelow,
+subsetnotequal,
+succeeds,
+succeedsAboveAlmostEqualTo,
+succeedsAboveAlmostEqualTo.rtlm,
+succeedsAboveEqualsSign,
+succeedsAboveNotAlmostEqualTo,
+succeedsAboveNotAlmostEqualTo.rtlm,
+succeedsAboveNotEqualTo,
+succeedsAboveNotEqualTo.rtlm,
+succeedsAboveSingleLineEqualsSign,
+succeedsAboveSingleLineNotEqualTo,
+succeedsAboveSingleLineNotEqualTo.rtlm,
+succeedsbutnotequivalentto,
+succeedsorequalto,
+succeedsorequivalentto,
+succeedsunderrelation,
+suchthat,
+summation,
+summation.rtlm,
+summationWithIntegral,
+summationWithIntegral.rtlm,
+summationbottom,
+summationdoubleStruck,
+summationdoubleStruck.rtlm,
+summationtop,
+superset,
+supersetAboveLeftArrow,
+supersetAboveSubset,
+supersetAboveSuperset,
+supersetBesideAndJoinedByDashWithSubset,
+supersetBesideSubset,
+supersetOfAboveAlmostEqualTo,
+supersetOfAboveAlmostEqualTo.rtlm,
+supersetOfAboveEqualsSign,
+supersetOfAboveNotEqualTo,
+supersetOfAboveNotEqualTo.rtlm,
+supersetOfAboveTildeOperator,
+supersetOfAboveTildeOperator.rtlm,
+supersetOfOrEqualToWithDotAbove,
+supersetPrecedingSolidus,
+supersetWithDot,
+supersetWithMultiplicationSignBelow,
+supersetWithPlusSignBelow,
+supersetnotequal,
+surfaceintegral,
+surfaceintegral.rtlm,
+t,
+"t-fraktur",
+tackdown,
+tackleft,
+"tahArabic-math",
+"tailedainArabic-math",
+"taileddadArabic-math",
+"taileddotlessnoonArabic-math",
+"taileddotlessqafArabic-math",
+"tailedghainArabic-math",
+"tailedhahArabic-math",
+"tailedjeemArabic-math",
+"tailedkhahArabic-math",
+"tailedlamArabic-math",
+"tailednoonArabic-math",
+"tailedqafArabic-math",
+"tailedsadArabic-math",
+"tailedseenArabic-math",
+"tailedsheenArabic-math",
+"tailedyehArabic-math",
+tau,
+"tbold-math",
+"tbolditalic-math",
+"tboldscript-math",
+tdoubleStruck,
+"tehArabic-math",
+"thalArabic-math",
+"thehArabic-math",
+theredoesnotexist,
+theredoesnotexist.rtlm,
+therefore,
+thermodynamic,
+theta,
+thetaSymbol,
+three,
+threeConsecutiveEqualsSigns,
+threeDimensionalAngle,
+threeDimensionalAngle.rtlm,
+threeLeftArrows,
+threeRightArrow,
+threedotsabovecomb,
+tieOverInfinity,
+tildeOperatorAboveLeftArrow,
+tildeOperatorAboveRightArrow,
+tildeOperatorWithDotAbove,
+tildeOperatorWithDotAbove.rtlm,
+tildeOperatorWithRisingDots,
+tildeOperatorWithRisingDots.rtlm,
+tildebelowcomb,
+tildecomb,
+timesWithLeftHalfBlack,
+timesWithRightHalfBlack,
+tiny,
+"titalic-math",
+topArcAnticlockwiseArrow,
+topArcAnticlockwiseArrowWithPlus,
+topArcClockwiseArrowWithMinus,
+topCircleLeftArrow,
+topCircleRightArrow,
+topLeftCorner,
+topRightcorner,
+topcurlybracket,
+topparenthesis,
+topsquarebracket,
+toptortoiseshellbracket,
+transversalIntersection,
+triangleWithDotAbove,
+triangleWithSerifsAtBottom,
+triangleWithUnderbar,
+tripleColonOperator,
+tripleHorizontalBarWithDoubleVerticalStroke,
+tripleHorizontalBarWithTripleVerticalStroke,
+tripleNestedGreaterThan,
+tripleNestedLessThan,
+triplePlus,
+tripleSolidusBinaryRelation,
+tripleSolidusBinaryRelation.rtlm,
+tripleVerticalBarBinaryRelation,
+tripleVerticalBarDelimiter,
+tripleVerticalBarWithHorizontalStroke,
+tripleintegral,
+tripleintegral.rtlm,
+tripleprime,
+tripleprimeReversed,
+tripletilde,
+tripletilde.rtlm,
+tripleunderdotcomb,
+tripleverticalbarrightturnstile,
+tripleverticalbarrightturnstile.rtlm,
+true,
+"tscript-math",
+turnedAngle,
+turnedAngle.rtlm,
+turnedNotSign,
+two,
+two.paren,
+twoConsecutiveEqualsSigns,
+twoIntersectingLogicalAnd,
+twoIntersectingLogicalOr,
+twoJoinedSquares,
+twoJoinedSquares.rtlm,
+twoLogicalAndOperator,
+twoLogicalOrOperator,
+u,
+"u-fraktur",
+"ABold-fraktur",
+"CBold-fraktur",
+"DBold-fraktur",
+"EBold-fraktur",
+"FBold-fraktur",
+"GBold-fraktur",
+"HBold-fraktur",
+"IBold-fraktur",
+"JBold-fraktur",
+"KBold-fraktur",
+"LBold-fraktur",
+"MBold-fraktur",
+"OBold-fraktur",
+"PBold-fraktur",
+"QBold-fraktur",
+"SBold-fraktur",
+"TBold-fraktur",
+"UBold-fraktur",
+"VBold-fraktur",
+"WBold-fraktur",
+"XBold-fraktur",
+"YBold-fraktur",
+"aBold-fraktur",
+"bBold-fraktur",
+"cBold-fraktur",
+"dBold-fraktur",
+"eBold-fraktur",
+"fBold-fraktur",
+"gBold-fraktur",
+"hBold-fraktur",
+"iBold-fraktur",
+"jBold-fraktur",
+"kBold-fraktur",
+"lBold-fraktur",
+"mBold-fraktur",
+"nBold-fraktur",
+"oBold-fraktur",
+"pBold-fraktur",
+"qBold-fraktur",
+"rBold-fraktur",
+"sBold-fraktur",
+"tBold-fraktur",
+"uBold-fraktur",
+"vBold-fraktur",
+"wBold-fraktur",
+"xBold-fraktur",
+"yBold-fraktur",
+"zBold-fraktur",
+"Asans-math",
+"Bsans-math",
+"Csans-math",
+"Dsans-math",
+"Esans-math",
+"Fsans-math",
+"Gsans-math",
+"Hsans-math",
+"Isans-math",
+"Jsans-math",
+"Ksans-math",
+"Lsans-math",
+"Msans-math",
+"Nsans-math",
+"Osans-math",
+"Psans-math",
+"Qsans-math",
+"Rsans-math",
+"Ssans-math",
+"Tsans-math",
+"Usans-math",
+"Vsans-math",
+"Wsans-math",
+"Xsans-math",
+"Ysans-math",
+"Zsans-math",
+"asans-math",
+"bsans-math",
+"csans-math",
+"dsans-math",
+"esans-math",
+"fsans-math",
+"gsans-math",
+"hsans-math",
+"isans-math",
+"jsans-math",
+"ksans-math",
+"lsans-math",
+"msans-math",
+"nsans-math",
+"osans-math",
+"psans-math",
+"qsans-math",
+"rsans-math",
+"ssans-math",
+"tsans-math",
+"usans-math",
+"vsans-math",
+"wsans-math",
+"xsans-math",
+"ysans-math",
+"zsans-math",
+"Asansbold-math",
+"Bsansbold-math",
+"Csansbold-math",
+"Dsansbold-math",
+"Esansbold-math",
+"Fsansbold-math",
+"Gsansbold-math",
+"Hsansbold-math",
+"Isansbold-math",
+"Jsansbold-math",
+"Ksansbold-math",
+"Lsansbold-math",
+"Msansbold-math",
+"Nsansbold-math",
+"Osansbold-math",
+"Psansbold-math",
+"Qsansbold-math",
+"Rsansbold-math",
+"Ssansbold-math",
+"Tsansbold-math",
+"Usansbold-math",
+"Vsansbold-math",
+"Wsansbold-math",
+"Xsansbold-math",
+"Ysansbold-math",
+"Zsansbold-math",
+"asansbold-math",
+"bsansbold-math",
+"csansbold-math",
+"dsansbold-math",
+"esansbold-math",
+"fsansbold-math",
+"gsansbold-math",
+"hsansbold-math",
+"isansbold-math",
+"jsansbold-math",
+"ksansbold-math",
+"lsansbold-math",
+"msansbold-math",
+"nsansbold-math",
+"osansbold-math",
+"psansbold-math",
+"qsansbold-math",
+"rsansbold-math",
+"ssansbold-math",
+"tsansbold-math",
+"usansbold-math",
+"vsansbold-math",
+"wsansbold-math",
+"xsansbold-math",
+"ysansbold-math",
+"zsansbold-math",
+"Asansitalic-math",
+"Bsansitalic-math",
+"Csansitalic-math",
+"Dsansitalic-math",
+"Esansitalic-math",
+"Fsansitalic-math",
+"Gsansitalic-math",
+"Hsansitalic-math",
+"Isansitalic-math",
+"Jsansitalic-math",
+"Ksansitalic-math",
+"Lsansitalic-math",
+"Msansitalic-math",
+"Nsansitalic-math",
+"Osansitalic-math",
+"Psansitalic-math",
+"Qsansitalic-math",
+"Rsansitalic-math",
+"Ssansitalic-math",
+"Tsansitalic-math",
+"Usansitalic-math",
+"Vsansitalic-math",
+"Wsansitalic-math",
+"Xsansitalic-math",
+"Ysansitalic-math",
+"Zsansitalic-math",
+"asansitalic-math",
+"bsansitalic-math",
+"csansitalic-math",
+"dsansitalic-math",
+"esansitalic-math",
+"fsansitalic-math",
+"gsansitalic-math",
+"hsansitalic-math",
+"isansitalic-math",
+"jsansitalic-math",
+"ksansitalic-math",
+"lsansitalic-math",
+"msansitalic-math",
+"nsansitalic-math",
+"osansitalic-math",
+"psansitalic-math",
+"qsansitalic-math",
+"rsansitalic-math",
+"ssansitalic-math",
+"tsansitalic-math",
+"usansitalic-math",
+"vsansitalic-math",
+"wsansitalic-math",
+"xsansitalic-math",
+"ysansitalic-math",
+"zsansitalic-math",
+"Asansbolditalic-math",
+"Bsansbolditalic-math",
+"Csansbolditalic-math",
+"Dsansbolditalic-math",
+"Esansbolditalic-math",
+"Fsansbolditalic-math",
+"Gsansbolditalic-math",
+"Hsansbolditalic-math",
+"Isansbolditalic-math",
+"Jsansbolditalic-math",
+"Ksansbolditalic-math",
+"Lsansbolditalic-math",
+"Msansbolditalic-math",
+"Nsansbolditalic-math",
+"Osansbolditalic-math",
+"Psansbolditalic-math",
+"Qsansbolditalic-math",
+"Rsansbolditalic-math",
+"Ssansbolditalic-math",
+"Tsansbolditalic-math",
+"Usansbolditalic-math",
+"Vsansbolditalic-math",
+"Wsansbolditalic-math",
+"Xsansbolditalic-math",
+"Ysansbolditalic-math",
+"Zsansbolditalic-math",
+"asansbolditalic-math",
+"bsansbolditalic-math",
+"csansbolditalic-math",
+"dsansbolditalic-math",
+"esansbolditalic-math",
+"fsansbolditalic-math",
+"gsansbolditalic-math",
+"hsansbolditalic-math",
+"isansbolditalic-math",
+"jsansbolditalic-math",
+"ksansbolditalic-math",
+"lsansbolditalic-math",
+"msansbolditalic-math",
+"nsansbolditalic-math",
+"osansbolditalic-math",
+"psansbolditalic-math",
+"qsansbolditalic-math",
+"rsansbolditalic-math",
+"ssansbolditalic-math",
+"tsansbolditalic-math",
+"usansbolditalic-math",
+"vsansbolditalic-math",
+"wsansbolditalic-math",
+"xsansbolditalic-math",
+"ysansbolditalic-math",
+"zsansbolditalic-math",
+"Amono-math",
+"Bmono-math",
+"Cmono-math",
+"Dmono-math",
+"Emono-math",
+"Fmono-math",
+"Gmono-math",
+"Hmono-math",
+"Imono-math",
+"Jmono-math",
+"Kmono-math",
+"Lmono-math",
+"Mmono-math",
+"Nmono-math",
+"Omono-math",
+"Pmono-math",
+"Qmono-math",
+"Rmono-math",
+"Smono-math",
+"Tmono-math",
+"Umono-math",
+"Vmono-math",
+"Wmono-math",
+"Xmono-math",
+"Ymono-math",
+"Zmono-math",
+"amono-math",
+"bmono-math",
+"cmono-math",
+"dmono-math",
+"emono-math",
+"fmono-math",
+"gmono-math",
+"hmono-math",
+"imono-math",
+"jmono-math",
+"kmono-math",
+"lmono-math",
+"mmono-math",
+"nmono-math",
+"omono-math",
+"pmono-math",
+"qmono-math",
+"rmono-math",
+"smono-math",
+"tmono-math",
+"umono-math",
+"vmono-math",
+"wmono-math",
+"xmono-math",
+"ymono-math",
+"zmono-math",
+"idotlessitalic-math",
+"jdotlessitalic-math",
+"Alphabold-math",
+"Betabold-math",
+"Gammabold-math",
+"Deltabold-math",
+"Epsilonbold-math",
+"Zetabold-math",
+"Etabold-math",
+"Thetabold-math",
+"Iotabold-math",
+"Kappabold-math",
+"Lambdabold-math",
+"Mubold-math",
+"Nubold-math",
+"Xibold-math",
+"Omicronbold-math",
+"Pibold-math",
+"Rhobold-math",
+"ThetaSymbolbold-math",
+"Sigmabold-math",
+"Taubold-math",
+"Upsilonbold-math",
+"Phibold-math",
+"Chibold-math",
+"Psibold-math",
+"Omegabold-math",
+"gradientbold-math",
+"alphabold-math",
+"betabold-math",
+"gammabold-math",
+"deltabold-math",
+"epsilonbold-math",
+"zetabold-math",
+"etabold-math",
+"thetabold-math",
+"iotabold-math",
+"kappabold-math",
+"lambdabold-math",
+"mubold-math",
+"nubold-math",
+"xibold-math",
+"omicronbold-math",
+"pibold-math",
+"rhobold-math",
+"sigmafinalbold-math",
+"sigmabold-math",
+"taubold-math",
+"upsilonbold-math",
+"phibold-math",
+"chibold-math",
+"psibold-math",
+"omegabold-math",
+"partialdiffbold-math",
+"partialdiffbold-math.rtlm",
+"epsilonLunateSymbolbold-math",
+"thetaSymbolbold-math",
+"kappaSymbolbold-math",
+"phiSymbolbold-math",
+"rhoSymbolbold-math",
+"piSymbolbold-math",
+"Alphaitalic-math",
+"Betaitalic-math",
+"Gammaitalic-math",
+"Deltaitalic-math",
+"Epsilonitalic-math",
+"Zetaitalic-math",
+"Etaitalic-math",
+"Thetaitalic-math",
+"Iotaitalic-math",
+"Kappaitalic-math",
+"Lambdaitalic-math",
+"Muitalic-math",
+"Nuitalic-math",
+"Xiitalic-math",
+"Omicronitalic-math",
+"Piitalic-math",
+"Rhoitalic-math",
+"ThetaSymbolitalic-math",
+"Sigmaitalic-math",
+"Tauitalic-math",
+"Upsilonitalic-math",
+"Phiitalic-math",
+"Chiitalic-math",
+"Psiitalic-math",
+"Omegaitalic-math",
+"gradientitalic-math",
+"alphaitalic-math",
+"betaitalic-math",
+"gammaitalic-math",
+"deltaitalic-math",
+"epsilonitalic-math",
+"zetaitalic-math",
+"etaitalic-math",
+"thetaitalic-math",
+"iotaitalic-math",
+"kappaitalic-math",
+"lambdaitalic-math",
+"muitalic-math",
+"nuitalic-math",
+"xiitalic-math",
+"omicronitalic-math",
+"piitalic-math",
+"rhoitalic-math",
+"sigmafinalitalic-math",
+"sigmaitalic-math",
+"tauitalic-math",
+"upsilonitalic-math",
+"phiitalic-math",
+"chiitalic-math",
+"psiitalic-math",
+"omegaitalic-math",
+"partialdiffitalic-math",
+"partialdiffitalic-math.rtlm",
+"epsilonLunateSymbolitalic-math",
+"thetaSymbolitalic-math",
+"kappaSymbolitalic-math",
+"phiSymbolitalic-math",
+"rhoSymbolitalic-math",
+"piSymbolitalic-math",
+"Alphabolditalic-math",
+"Betabolditalic-math",
+"Gammabolditalic-math",
+"Deltabolditalic-math",
+"Epsilonbolditalic-math",
+"Zetabolditalic-math",
+"Etabolditalic-math",
+"Thetabolditalic-math",
+"Iotabolditalic-math",
+"Kappabolditalic-math",
+"Lambdabolditalic-math",
+"Mubolditalic-math",
+"Nubolditalic-math",
+"Xibolditalic-math",
+"Omicronbolditalic-math",
+"Pibolditalic-math",
+"Rhobolditalic-math",
+"ThetaSymbolbolditalic-math",
+"Sigmabolditalic-math",
+"Taubolditalic-math",
+"Upsilonbolditalic-math",
+"Phibolditalic-math",
+"Chibolditalic-math",
+"Psibolditalic-math",
+"Omegabolditalic-math",
+"gradientbolditalic-math",
+"alphabolditalic-math",
+"betabolditalic-math",
+"gammabolditalic-math",
+"deltabolditalic-math",
+"epsilonbolditalic-math",
+"zetabolditalic-math",
+"etabolditalic-math",
+"thetabolditalic-math",
+"iotabolditalic-math",
+"kappabolditalic-math",
+"lambdabolditalic-math",
+"mubolditalic-math",
+"nubolditalic-math",
+"xibolditalic-math",
+"omicronbolditalic-math",
+"pibolditalic-math",
+"rhobolditalic-math",
+"sigmafinalbolditalic-math",
+"sigmabolditalic-math",
+"taubolditalic-math",
+"upsilonbolditalic-math",
+"phibolditalic-math",
+"chibolditalic-math",
+"psibolditalic-math",
+"omegabolditalic-math",
+"partialdiffbolditalic-math",
+"partialdiffbolditalic-math.rtlm",
+"epsilonLunateSymbolbolditalic-math",
+"thetaSymbolbolditalic-math",
+"kappaSymbolbolditalic-math",
+"phiSymbolbolditalic-math",
+"rhoSymbolbolditalic-math",
+"piSymbolbolditalic-math",
+"Alphasansbold-math",
+"Betasansbold-math",
+"Gammasansbold-math",
+"Deltasansbold-math",
+"Epsilonsansbold-math",
+"Zetasansbold-math",
+"Etasansbold-math",
+"Thetasansbold-math",
+"Iotasansbold-math",
+"Kappasansbold-math",
+"Lambdasansbold-math",
+"Musansbold-math",
+"Nusansbold-math",
+"Xisansbold-math",
+"Omicronsansbold-math",
+"Pisansbold-math",
+"Rhosansbold-math",
+"ThetaSymbolsansbold-math",
+"Sigmasansbold-math",
+"Tausansbold-math",
+"Upsilonsansbold-math",
+"Phisansbold-math",
+"Chisansbold-math",
+"Psisansbold-math",
+"Omegasansbold-math",
+"gradientsansbold-math",
+"alphasansbold-math",
+"betasansbold-math",
+"gammasansbold-math",
+"deltasansbold-math",
+"epsilonsansbold-math",
+"zetasansbold-math",
+"etasansbold-math",
+"thetasansbold-math",
+"iotasansbold-math",
+"kappasansbold-math",
+"lambdasansbold-math",
+"musansbold-math",
+"nusansbold-math",
+"xisansbold-math",
+"omicronsansbold-math",
+"pisansbold-math",
+"rhosansbold-math",
+"sigmafinalsansbold-math",
+"sigmasansbold-math",
+"tausansbold-math",
+"upsilonsansbold-math",
+"phisansbold-math",
+"chisansbold-math",
+"psisansbold-math",
+"omegasansbold-math",
+"partialdiffsansbold-math",
+"partialdiffsansbold-math.rtlm",
+"epsilonLunateSymbolsansbold-math",
+"thetaSymbolsansbold-math",
+"kappaSymbolsansbold-math",
+"phiSymbolsansbold-math",
+"rhoSymbolsansbold-math",
+"piSymbolsansbold-math",
+"Alphasansbolditalic-math",
+"Betasansbolditalic-math",
+"Gammasansbolditalic-math",
+"Deltasansbolditalic-math",
+"Epsilonsansbolditalic-math",
+"Zetasansbolditalic-math",
+"Etasansbolditalic-math",
+"Thetasansbolditalic-math",
+"Iotasansbolditalic-math",
+"Kappasansbolditalic-math",
+"Lambdasansbolditalic-math",
+"Musansbolditalic-math",
+"Nusansbolditalic-math",
+"Xisansbolditalic-math",
+"Omicronsansbolditalic-math",
+"Pisansbolditalic-math",
+"Rhosansbolditalic-math",
+"ThetaSymbolsansbolditalic-math",
+"Sigmasansbolditalic-math",
+"Tausansbolditalic-math",
+"Upsilonsansbolditalic-math",
+"Phisansbolditalic-math",
+"Chisansbolditalic-math",
+"Psisansbolditalic-math",
+"Omegasansbolditalic-math",
+"gradientsansbolditalic-math",
+"alphasansbolditalic-math",
+"betasansbolditalic-math",
+"gammasansbolditalic-math",
+"deltasansbolditalic-math",
+"epsilonsansbolditalic-math",
+"zetasansbolditalic-math",
+"etasansbolditalic-math",
+"thetasansbolditalic-math",
+"iotasansbolditalic-math",
+"kappasansbolditalic-math",
+"lambdasansbolditalic-math",
+"musansbolditalic-math",
+"nusansbolditalic-math",
+"xisansbolditalic-math",
+"omicronsansbolditalic-math",
+"pisansbolditalic-math",
+"rhosansbolditalic-math",
+"sigmafinalsansbolditalic-math",
+"sigmasansbolditalic-math",
+"tausansbolditalic-math",
+"upsilonsansbolditalic-math",
+"phisansbolditalic-math",
+"chisansbolditalic-math",
+"psisansbolditalic-math",
+"omegasansbolditalic-math",
+"partialdiffsansbolditalic-math",
+"partialdiffsansbolditalic-math.rtlm",
+"epsilonLunateSymbolsansbolditalic-math",
+"thetaSymbolsansbolditalic-math",
+"kappaSymbolsansbolditalic-math",
+"phiSymbolsansbolditalic-math",
+"rhoSymbolsansbolditalic-math",
+"piSymbolsansbolditalic-math",
+"Digammabold-math",
+"digammabold-math",
+"zerobold-math",
+"onebold-math",
+"twobold-math",
+"threebold-math",
+"fourbold-math",
+"fivebold-math",
+"sixbold-math",
+"sevenbold-math",
+"eightbold-math",
+"ninebold-math",
+zerodoubleStruck,
+onedoubleStruck,
+twodoubleStruck,
+threedoubleStruck,
+fourdoubleStruck,
+fivedoubleStruck,
+sixdoubleStruck,
+sevendoubleStruck,
+eightdoubleStruck,
+ninedoubleStruck,
+"zerosans-math",
+"onesans-math",
+"twosans-math",
+"threesans-math",
+"foursans-math",
+"fivesans-math",
+"sixsans-math",
+"sevensans-math",
+"eightsans-math",
+"ninesans-math",
+"zerosansbold-math",
+"onesansbold-math",
+"twosansbold-math",
+"threesansbold-math",
+"foursansbold-math",
+"fivesansbold-math",
+"sixsansbold-math",
+"sevensansbold-math",
+"eightsansbold-math",
+"ninesansbold-math",
+"zeromono-math",
+"onemono-math",
+"twomono-math",
+"threemono-math",
+"fourmono-math",
+"fivemono-math",
+"sixmono-math",
+"sevenmono-math",
+"eightmono-math",
+"ninemono-math",
+"ubold-math",
+"ubolditalic-math",
+"uboldscript-math",
+udoubleStruck,
+"uitalic-math",
+underscore,
+union,
+unionAboveBarAboveIntersection,
+unionAboveIntersection,
+unionBesideAndJoinedWithUnion,
+unionWithLogicalOr,
+unionWithMinusSign,
+unionWithOverbar,
+universal,
+upAndDownArrow,
+upArrow,
+upArrowThrough.circled,
+upArrowToBar,
+upArrowWithHorizontalStroke,
+upBarbLeftDownBarbLeftHarpoon,
+upBarbLeftDownBarbRightHarpoon,
+upBarbLeftharpoon,
+upBarbRightDownBarbLeftHarpoon,
+upBarbRightDownBarbRightHarpoon,
+upBarbRightharpoon,
+upDashArrow,
+upDoubleArrow,
+upDoublePairedArrow,
+upDownArrow,
+upDownDoubleArrow,
+upDownbaseArrow,
+upFishTail,
+upFrombarArrow,
+upHarpoonWithBarbLeftBesideDownHarpoonWithBarbRight,
+upHarpoonWithBarbLeftBesideUpHarpoonWithBarbRight,
+upHarpoonWithBarbLeftFromBar,
+upHarpoonWithBarbLeftToBar,
+upHarpoonWithBarbRightFromBar,
+upHarpoonWithBarbRightToBar,
+upQuadrupleArrow,
+upTackWithCircleAbove,
+upTipLeftArrow,
+upTipRightArrow,
+upTripleArrow,
+upTwoHeadedArrow,
+upWhiteTriangle,
+upperLeftCornerWithDot,
+upperLeftCornerWithDot.rtlm,
+upperleftorlowerrightcurlybracketsection,
+upperrightorlowerleftcurlybracketsection,
+uprightdiagonalellipsis,
+upsilon,
+uptack,
+uptwoheadedarrowfromcircle,
+"uscript-math",
+v,
+"v-fraktur",
+"vbold-math",
+"vbolditalic-math",
+"vboldscript-math",
+vdoubleStruck,
+vectorOrCrossProduct,
+veeunderbar,
+verticalBarBesideRightTriangle,
+verticalBarDoubleLeftTurnstile,
+verticalBarTripleRightTurnstile,
+verticalBarTripleRightTurnstile.rtlm,
+verticalBarWithHorizontalStroke,
+verticalLineWithCircleAbove,
+verticalLineWithCircleBelow,
+verticalZigzagLine,
+verticallineextension,
+"verymuchgreater-than",
+"verymuchless-than",
+"vitalic-math",
+volumeintegral,
+volumeintegral.rtlm,
+"vscript-math",
+w,
+"w-fraktur",
+waveArrowDirectlyRight,
+"wawArabic-math",
+"wbold-math",
+"wbolditalic-math",
+"wboldscript-math",
+wdoubleStruck,
+whiteBullet.circled,
+whiteCircleWithDownArrow,
+whiteConcaveSidedDiamond,
+whiteConcaveSidedDiamondWithLeftTick,
+whiteConcaveSidedDiamondWithRightTick,
+whiteDiamondWithCentredDot,
+whiteHourglass,
+whiteSquareWithLeftTick,
+whiteSquareWithRightTick,
+whiteVerticalBar,
+whiteVerticalRect,
+whiteparenleft,
+whiteparenright,
+whitetrianglecontainingwhitetriangle,
+widebridgeabovecomb,
+"witalic-math",
+wreathproduct,
+wreathproduct.rtlm,
+"wscript-math",
+x,
+"x-fraktur",
+"xbold-math",
+"xbolditalic-math",
+"xboldscript-math",
+xdoubleStruck,
+xi,
+"xitalic-math",
+xor,
+"xscript-math",
+y,
+"y-fraktur",
+"ybold-math",
+"ybolditalic-math",
+"yboldscript-math",
+ydoubleStruck,
+"yehArabic-math",
+"yitalic-math",
+"yscript-math",
+z,
+"z-fraktur",
+zNotationDomainAntirestriction,
+zNotationRangeAntirestriction,
+zNotationRelationalComposition,
+zNotationRelationalComposition.rtlm,
+zNotationSchemaComposition,
+zNotationSchemaComposition.rtlm,
+zNotationSchemaPiping,
+zNotationSchemaPiping.rtlm,
+zNotationSchemaProjection,
+zNotationSchemaProjection.rtlm,
+zNotationSpot,
+zNotationTypeColon,
+"zahArabic-math",
+"zainArabic-math",
+"zbold-math",
+"zbolditalic-math",
+"zboldscript-math",
+zdoubleStruck,
+zero,
+zeta,
+"zitalic-math",
+znotationbagmembership,
+znotationbagmembership.rtlm,
+znotationleftbindingbracket,
+znotationleftimagebracket,
+znotationrightbindingbracket,
+znotationrightimagebracket,
+"zscript-math",
+"Ascript-math.uv001",
+Bscript.uv001,
+"Cscript-math.uv001",
+"Dscript-math.uv001",
+Escript.uv001,
+Fscript.uv001,
+"Gscript-math.uv001",
+Hscript.uv001,
+Iscript.uv001,
+"Jscript-math.uv001",
+"Kscript-math.uv001",
+Lscript.uv001,
+Mscript.uv001,
+"Nscript-math.uv001",
+"Oscript-math.uv001",
+"Pscript-math.uv001",
+"Qscript-math.uv001",
+Rscript.uv001,
+"Sscript-math.uv001",
+"Tscript-math.uv001",
+"Uscript-math.uv001",
+"Vscript-math.uv001",
+"Wscript-math.uv001",
+"Xscript-math.uv001",
+"Yscript-math.uv001",
+"Zscript-math.uv001",
+slashlongcomb,
+radicalsymbolbottom,
+blackSquare,
+whiteSquare,
+whiteRoundedCornersSquare,
+whiteInBlackSquare,
+horizontalFillSquare,
+verticalFillSquare,
+crosshatchFillSquare,
+upperlefttolowerrightFillSquare,
+upperrighttolowerleftFillSquare,
+diagonalcrosshatchFillSquare,
+blackSmallSquare,
+whiteSmallSquare,
+filledRect,
+whiteRect,
+blackVerticalRect,
+blackParallelogram,
+whiteParallelogram,
+upBlackTriangle,
+upBlackSmallTriangle,
+upWhiteSmallTriangle,
+rightBlackTriangle,
+rightBlackSmallTriangle,
+rightWhiteSmallTriangle,
+downBlackTriangle,
+downBlackSmallTriangle,
+downWhiteSmallTriangle,
+leftBlackTriangle,
+leftBlackSmallTriangle,
+leftWhiteSmallTriangle,
+leftBlackPointer,
+leftWhitePointer,
+blackDiamond,
+whiteDiamond,
+blackInWhiteDiamond,
+fisheye,
+whiteCircle,
+verticalFillCircle,
+bullseye,
+blackCircle,
+leftHalfBlackWhiteCircle,
+rightHalfBlackWhiteCircle,
+lowerHalfBlackWhiteCircle,
+upperHalfBlackWhiteCircle,
+upperRightBlackCircle,
+upperLeftWhiteCircle,
+leftHalfBlackCircle,
+rightHalfBlackCircle,
+inverseBullet,
+inverseWhiteCircle,
+upperLeftArc,
+upperRightArc,
+lowerRightArc,
+lowerLeftArc,
+upperHalfArc,
+lowerHalfArc,
+lowerRightBlackTriangle,
+lowerLeftBlackTriangle,
+upperLeftBlackTriangle,
+upperRightBlackTriangle,
+whiteBullet,
+leftHalfBlackSquare,
+rightHalfBlackSquare,
+upperLeftDiagonalHalfBlackSquare,
+lowerRightDiagonalHalfBlackSquare,
+verticalBisectingLineWhiteSquare,
+upWhiteTriangleWithDot,
+upLeftHalfBlackTriangle,
+upRightHalfBlackTriangle,
+largeCircle,
+whiteUpperLeftQuadrantSquare,
+whiteLowerLeftQuadrantSquare,
+whiteLowerRightQuadrantSquare,
+whiteUpperRightQuadrantSquare,
+upperLeftQuadrantWhiteCircle,
+lowerLeftQuadrantWhiteCircle,
+lowerRightQuadrantWhiteCircle,
+upperRightQuadrantWhiteCircle,
+upperLeftTriangle,
+upperRightTriangle,
+mediumBlackSquare,
+mediumWhiteSmallSquare,
+mediumBlackSmallSquare,
+lowerRightTriangle,
+blackLeftPointingIsoscelesRightTriangle,
+blackUpPointingIsoscelesRightTriangle,
+blackRightPointingIsoscelesRightTriangle,
+blackDownPointingIsoscelesRightTriangle,
+blackSlightlySmallCircle,
+mediumBoldWhiteCircle,
+boldWhiteCircle,
+heavyWhiteCircle,
+veryHeavyWhiteCircle,
+extremelyHeavyWhiteCircle,
+whiteCircleWithBlackCircle,
+roundTarget,
+blackTinySquare,
+blackSlightlySmallSquare,
+lightWhiteSquare,
+mediumWhiteSquareDuplicate,
+boldWhiteSquare,
+heavyWhiteSquare,
+veryHeavyWhiteSquare,
+extremelyHeavyWhiteSquare,
+whiteSquareWithBlackSmallSquare,
+whiteSquareWithBlackMediumSquare,
+squareTarget,
+blackTinyDiamond,
+blackVerySmallDiamond,
+blackMediumSmallDiamond,
+whiteDiamondWithBlackVerySmallDiamond,
+whiteDiamondWithBlackMediumDiamond,
+diamondTarget,
+blackTinyLozenge,
+blackVerySmallLozenge,
+blackMediumSmallLozenge,
+whiteLozengeWithBlackSmallLozenge,
+thinGreekCross,
+lightGreekCross,
+mediumGreekCross,
+boldGreekCross,
+veryBoldGreekCross,
+veryHeavyGreekCross,
+extremelyHeavyGreekCross,
+thinSaltire,
+lightSaltire,
+mediumSaltire,
+boldSaltire,
+heavySaltire,
+veryHeavySaltire,
+extremelyHeavySaltire,
+lightFiveSpokedAsterisk,
+mediumFiveSpokedAsterisk,
+boldFiveSpokedAsterisk,
+heavyFiveSpokedAsterisk,
+veryHeavyFiveSpokedAsterisk,
+extremelyHeavyFiveSpokedAsterisk,
+lightSixSpokedAsterisk,
+mediumSixSpokedAsterisk,
+boldSixSpokedAsterisk,
+heavySixSpokedAsterisk,
+veryHeavySixSpokedAsterisk,
+extremelyHeavySixSpokedAsterisk,
+lightEightSpokedAsterisk,
+mediumEightSpokedAsterisk,
+boldEightSpokedAsterisk,
+heavyEightSpokedAsterisk,
+veryHeavyEightSpokedAsterisk,
+lightThreePointedBlackStar,
+mediumThreePointedBlackStar,
+threePointedBlackStar,
+mediumThreePointedPinwheelStar,
+lightFourPointedBlackStar,
+mediumFourPointedBlackStar,
+fourPointedBlackStar,
+mediumFourPointedPinwheelStar,
+reverseLightFourPointedPinwheelStar,
+lightFivePointedBlackStar,
+heavyFivePointedBlackStar,
+mediumSixPointedBlackStar,
+heavySixPointedBlackStar,
+sixPointedPinwheelStar,
+mediumEightPointedBlackStar,
+heavyEightPointedBlackStar,
+veryHeavyEightPointedBlackStar,
+heavyEightPointedPinwheelStar,
+lightTwelvePointedBlackStar,
+heavyTwelvePointedBlackStar,
+heavyTwelvePointedPinwheelStar,
+circledTriangle,
+negativeCircledTriangle,
+circledSquare,
+negativeCircledSquare,
+fraction,
+mediumWhiteCircle,
+mediumBlackCircle,
+twelvePointedBlackStar,
+blackLargeCircle,
+blackLargeSquare,
+blackMediumDiamond,
+blackVerysmallSquare,
+upWhiteMediumTriangle,
+verySmallBlackCircle,
+whiteMediumSmallDiamond,
+upperHalfInverseWhiteCircle,
+lowerHalfInverseWhiteCircle,
+leftHalfBlackDiamond,
+rightHalfBlackDiamond,
+topHalfBlackDiamond,
+bottomHalfBlackDiamond,
+rightBlackPointer,
+rightWhitePointer,
+lowerLeftTriangle,
+zero.ss01,
+erthanorequalto.ss01,
+greaterequalorless.ss01,
+largerThanOrEqualTo.ss01,
+lessequalorgreater.ss01,
+lessorequivalent.ss01,
+emptyset.ss01,
+intersection.ss01,
+union.ss01,
+righthandInteriorProduct.ss01,
+similarOrGreaterThan.ss01,
+similarOrLessThan.ss01,
+squarecap.ss01,
+squarecup.ss01,
+subsetOfAboveNotEqualTo.ss01,
+subsetnotequal.ss01,
+supersetOfAboveNotEqualTo.ss01,
+supersetnotequal.ss01,
+equals.circled.vs1,
+multiply.circled.vs1,
+plus.circled.vs1,
+"greater-thanbutnotequalto.ss01",
+"less-thanbutnotequalto.ss01",
+zero.ssty,
+one.ssty,
+two.ssty,
+three.ssty,
+four.ssty,
+five.ssty,
+six.ssty,
+seven.ssty,
+eight.ssty,
+nine.ssty,
+plus.ssty,
+minus.ssty,
+equal.ssty,
+parenleft.ssty,
+parenright.ssty,
+tackdown.ssty,
+tackdown.ssty,
+tackup.ssty,
+A.ssty,
+B.ssty,
+C.ssty,
+D.ssty,
+E.ssty,
+F.ssty,
+G.ssty,
+H.ssty,
+I.ssty,
+J.ssty,
+K.ssty,
+L.ssty,
+M.ssty,
+N.ssty,
+O.ssty,
+P.ssty,
+Q.ssty,
+R.ssty,
+S.ssty,
+T.ssty,
+U.ssty,
+V.ssty,
+W.ssty,
+X.ssty,
+Y.ssty,
+Z.ssty,
+a.ssty,
+b.ssty,
+c.ssty,
+d.ssty,
+e.ssty,
+f.ssty,
+g.ssty,
+h.ssty,
+i.ssty,
+i.dotless.ssty,
+j.ssty,
+j.dotless.ssty,
+k.ssty,
+l.ssty,
+m.ssty,
+n.ssty,
+o.ssty,
+p.ssty,
+q.ssty,
+r.ssty,
+s.ssty,
+t.ssty,
+u.ssty,
+v.ssty,
+w.ssty,
+x.ssty,
+y.ssty,
+z.ssty,
+Alpha.ssty,
+Beta.ssty,
+Gamma.ssty,
+Delta.ssty,
+Epsilon.ssty,
+Zeta.ssty,
+Eta.ssty,
+Theta.ssty,
+Iota.ssty,
+Kappa.ssty,
+Lambda.ssty,
+Mu.ssty,
+Nu.ssty,
+Xi.ssty,
+Omicron.ssty,
+Pi.ssty,
+Rho.ssty,
+Sigma.ssty,
+Tau.ssty,
+Upsilon.ssty,
+Phi.ssty,
+Chi.ssty,
+Psi.ssty,
+Omega.ssty,
+alpha.ssty,
+beta.ssty,
+gamma.ssty,
+delta.ssty,
+epsilon.ssty,
+zeta.ssty,
+eta.ssty,
+theta.ssty,
+iota.ssty,
+kappa.ssty,
+lambda.ssty,
+mu.ssty,
+nu.ssty,
+xi.ssty,
+omicron.ssty,
+pi.ssty,
+rho.ssty,
+sigma.ssty,
+sigmafinal.ssty,
+tau.ssty,
+upsilon.ssty,
+phi.ssty,
+chi.ssty,
+psi.ssty,
+omega.ssty,
+u1D6E2.ssty,
+u1D6E3.ssty,
+u1D6E4.ssty,
+u1D6E5.ssty,
+u1D6E6.ssty,
+u1D6E7.ssty,
+u1D6E8.ssty,
+u1D6E9.ssty,
+u1D6EA.ssty,
+u1D6EB.ssty,
+u1D6EC.ssty,
+u1D6ED.ssty,
+u1D6EE.ssty,
+u1D6EF.ssty,
+u1D6F0.ssty,
+u1D6F1.ssty,
+u1D6F2.ssty,
+u1D6F3.ssty,
+u1D6F4.ssty,
+u1D6F5.ssty,
+u1D6F6.ssty,
+u1D6F7.ssty,
+u1D6F8.ssty,
+u1D6F9.ssty,
+u1D6FA.ssty,
+u1D6FB.ssty,
+u1D6FC.ssty,
+u1D6FD.ssty,
+u1D6FE.ssty,
+u1D6FF.ssty,
+u1D700.ssty,
+u1D701.ssty,
+u1D702.ssty,
+u1D703.ssty,
+u1D704.ssty,
+u1D705.ssty,
+u1D706.ssty,
+u1D707.ssty,
+u1D708.ssty,
+u1D709.ssty,
+u1D70A.ssty,
+u1D70B.ssty,
+u1D70C.ssty,
+u1D70D.ssty,
+u1D70E.ssty,
+u1D70F.ssty,
+u1D710.ssty,
+u1D711.ssty,
+u1D712.ssty,
+u1D713.ssty,
+u1D714.ssty,
+u1D715.ssty,
+u1D716.ssty,
+u1D717.ssty,
+u1D718.ssty,
+u1D719.ssty,
+u1D71A.ssty,
+u1D71B.ssty,
+comma.ssty,
+period.ssty,
+hyphen.ssty,
+minute.ssty,
+second.ssty,
+zero.ssty2,
+one.ssty2,
+two.ssty2,
+three.ssty2,
+four.ssty2,
+five.ssty2,
+six.ssty2,
+seven.ssty2,
+eight.ssty2,
+nine.ssty2,
+plus.ssty2,
+minus.ssty2,
+equal.ssty2,
+parenleft.ssty2,
+parenright.ssty2,
+tackdown.ssty2,
+tackdown.ssty2,
+tackup.ssty2,
+A.ssty2,
+B.ssty2,
+C.ssty2,
+D.ssty2,
+E.ssty2,
+F.ssty2,
+G.ssty2,
+H.ssty2,
+I.ssty2,
+J.ssty2,
+K.ssty2,
+L.ssty2,
+M.ssty2,
+N.ssty2,
+O.ssty2,
+P.ssty2,
+Q.ssty2,
+R.ssty2,
+S.ssty2,
+T.ssty2,
+U.ssty2,
+V.ssty2,
+W.ssty2,
+X.ssty2,
+Y.ssty2,
+Z.ssty2,
+a.ssty2,
+b.ssty2,
+c.ssty2,
+d.ssty2,
+e.ssty2,
+f.ssty2,
+g.ssty2,
+h.ssty2,
+i.ssty2,
+i.dotless.ssty2,
+j.ssty2,
+j.dotless.ssty2,
+k.ssty2,
+l.ssty2,
+m.ssty2,
+n.ssty2,
+o.ssty2,
+p.ssty2,
+q.ssty2,
+r.ssty2,
+s.ssty2,
+t.ssty2,
+u.ssty2,
+v.ssty2,
+w.ssty2,
+x.ssty2,
+y.ssty2,
+z.ssty2,
+Alpha.ssty2,
+Beta.ssty2,
+Gamma.ssty2,
+Delta.ssty2,
+Epsilon.ssty2,
+Zeta.ssty2,
+Eta.ssty2,
+Theta.ssty2,
+Iota.ssty2,
+Kappa.ssty2,
+Lambda.ssty2,
+Mu.ssty2,
+Nu.ssty2,
+Xi.ssty2,
+Omicron.ssty2,
+Pi.ssty2,
+Rho.ssty2,
+Sigma.ssty2,
+Tau.ssty2,
+Upsilon.ssty2,
+Phi.ssty2,
+Chi.ssty2,
+Psi.ssty2,
+Omega.ssty2,
+alpha.ssty2,
+beta.ssty2,
+gamma.ssty2,
+delta.ssty2,
+epsilon.ssty2,
+zeta.ssty2,
+eta.ssty2,
+theta.ssty2,
+iota.ssty2,
+kappa.ssty2,
+lambda.ssty2,
+mu.ssty2,
+nu.ssty2,
+xi.ssty2,
+omicron.ssty2,
+pi.ssty2,
+rho.ssty2,
+sigma.ssty2,
+sigmafinal.ssty2,
+tau.ssty2,
+upsilon.ssty2,
+phi.ssty2,
+chi.ssty2,
+psi.ssty2,
+omega.ssty2,
+u1D6E2.ssty2,
+u1D6E3.ssty2,
+u1D6E4.ssty2,
+u1D6E5.ssty2,
+u1D6E6.ssty2,
+u1D6E7.ssty2,
+u1D6E8.ssty2,
+u1D6E9.ssty2,
+u1D6EA.ssty2,
+u1D6EB.ssty2,
+u1D6EC.ssty2,
+u1D6ED.ssty2,
+u1D6EE.ssty2,
+u1D6EF.ssty2,
+u1D6F0.ssty2,
+u1D6F1.ssty2,
+u1D6F2.ssty2,
+u1D6F3.ssty2,
+u1D6F4.ssty2,
+u1D6F5.ssty2,
+u1D6F6.ssty2,
+u1D6F7.ssty2,
+u1D6F8.ssty2,
+u1D6F9.ssty2,
+u1D6FA.ssty2,
+u1D6FB.ssty2,
+u1D6FC.ssty2,
+u1D6FD.ssty2,
+u1D6FE.ssty2,
+u1D6FF.ssty2,
+u1D700.ssty2,
+u1D701.ssty2,
+u1D702.ssty2,
+u1D703.ssty2,
+u1D704.ssty2,
+u1D705.ssty2,
+u1D706.ssty2,
+u1D707.ssty2,
+u1D708.ssty2,
+u1D709.ssty2,
+u1D70A.ssty2,
+u1D70B.ssty2,
+u1D70C.ssty2,
+u1D70D.ssty2,
+u1D70E.ssty2,
+u1D70F.ssty2,
+u1D710.ssty2,
+u1D711.ssty2,
+u1D712.ssty2,
+u1D713.ssty2,
+u1D714.ssty2,
+u1D715.ssty2,
+u1D716.ssty2,
+u1D717.ssty2,
+u1D718.ssty2,
+u1D719.ssty2,
+u1D71A.ssty2,
+u1D71B.ssty2,
+comma.ssty2,
+period.ssty2,
+hyphen.ssty2,
+minute.ssty2,
+second.ssty2,
+zero.VS1.ssty,
+zero.VS1.ssty2,
+colon.ssty,
+semicolon.ssty,
+ellipsis.ssty,
+exclam.ssty,
+slash.ssty,
+backslash.ssty,
+bar.ssty,
+bracketleft.ssty,
+bracketright.ssty,
+braceleft.ssty,
+braceright.ssty,
+quoteright.ssty,
+quotedblright.ssty,
+dagger.ssty,
+numbersign.ssty,
+plusminus.ssty,
+multiply.ssty,
+less.ssty,
+greater.ssty,
+colon.ssty2,
+semicolon.ssty2,
+ellipsis.ssty2,
+exclam.ssty2,
+slash.ssty2,
+backslash.ssty2,
+bar.ssty2,
+bracketleft.ssty2,
+bracketright.ssty2,
+braceleft.ssty2,
+braceright.ssty2,
+quoteright.ssty2,
+quotedblright.ssty2,
+dagger.ssty2,
+numbersign.ssty2,
+plusminus.ssty2,
+multiply.ssty2,
+less.ssty2,
+greater.ssty2,
+idotless.ssty,
+jdotless.ssty,
+idotless.ssty2,
+jdotless.ssty2,
+"A-fraktur.ssty",
+"B-fraktur.ssty",
+"C-fraktur.ssty",
+"D-fraktur.ssty",
+"E-fraktur.ssty",
+"F-fraktur.ssty",
+"G-fraktur.ssty",
+"H-fraktur.ssty",
+"I-fraktur.ssty",
+"J-fraktur.ssty",
+"K-fraktur.ssty",
+"L-fraktur.ssty",
+"M-fraktur.ssty",
+"N-fraktur.ssty",
+"O-fraktur.ssty",
+"P-fraktur.ssty",
+"Q-fraktur.ssty",
+"R-fraktur.ssty",
+"S-fraktur.ssty",
+"T-fraktur.ssty",
+"U-fraktur.ssty",
+"V-fraktur.ssty",
+"W-fraktur.ssty",
+"X-fraktur.ssty",
+"Y-fraktur.ssty",
+"Z-fraktur.ssty",
+"A-fraktur.ssty2",
+"B-fraktur.ssty2",
+"C-fraktur.ssty2",
+"D-fraktur.ssty2",
+"E-fraktur.ssty2",
+"F-fraktur.ssty2",
+"G-fraktur.ssty2",
+"H-fraktur.ssty2",
+"I-fraktur.ssty2",
+"J-fraktur.ssty2",
+"K-fraktur.ssty2",
+"L-fraktur.ssty2",
+"M-fraktur.ssty2",
+"N-fraktur.ssty2",
+"O-fraktur.ssty2",
+"P-fraktur.ssty2",
+"Q-fraktur.ssty2",
+"R-fraktur.ssty2",
+"S-fraktur.ssty2",
+"T-fraktur.ssty2",
+"U-fraktur.ssty2",
+"V-fraktur.ssty2",
+"W-fraktur.ssty2",
+"X-fraktur.ssty2",
+"Y-fraktur.ssty2",
+"Z-fraktur.ssty2",
+"a-fraktur.ssty",
+"b-fraktur.ssty",
+"c-fraktur.ssty",
+"d-fraktur.ssty",
+"e-fraktur.ssty",
+"f-fraktur.ssty",
+"g-fraktur.ssty",
+"h-fraktur.ssty",
+"i-fraktur.ssty",
+"j-fraktur.ssty",
+"k-fraktur.ssty",
+"l-fraktur.ssty",
+"m-fraktur.ssty",
+"n-fraktur.ssty",
+"o-fraktur.ssty",
+"p-fraktur.ssty",
+"q-fraktur.ssty",
+"r-fraktur.ssty",
+"s-fraktur.ssty",
+"t-fraktur.ssty",
+"u-fraktur.ssty",
+"v-fraktur.ssty",
+"w-fraktur.ssty",
+"x-fraktur.ssty",
+"y-fraktur.ssty",
+"z-fraktur.ssty",
+"a-fraktur.ssty2",
+"b-fraktur.ssty2",
+"c-fraktur.ssty2",
+"d-fraktur.ssty2",
+"e-fraktur.ssty2",
+"f-fraktur.ssty2",
+"g-fraktur.ssty2",
+"h-fraktur.ssty2",
+"i-fraktur.ssty2",
+"j-fraktur.ssty2",
+"k-fraktur.ssty2",
+"l-fraktur.ssty2",
+"m-fraktur.ssty2",
+"n-fraktur.ssty2",
+"o-fraktur.ssty2",
+"p-fraktur.ssty2",
+"q-fraktur.ssty2",
+"r-fraktur.ssty2",
+"s-fraktur.ssty2",
+"t-fraktur.ssty2",
+"u-fraktur.ssty2",
+"v-fraktur.ssty2",
+"w-fraktur.ssty2",
+"x-fraktur.ssty2",
+"y-fraktur.ssty2",
+"z-fraktur.ssty2",
+"i-fraktur.dotless.ssty",
+"j-fraktur.dotless.ssty",
+"i-fraktur.dotless.ssty2",
+"j-fraktur.dotless.ssty2",
+"Abold-math.ssty",
+"Aitalic-math.ssty",
+"Ascript-math.ssty",
+"Bbold-math.ssty",
+"Bitalic-math.ssty",
+"Cbold-math.ssty",
+"Citalic-math.ssty",
+"Cscript-math.ssty",
+"Dbold-math.ssty",
+"Ditalic-math.ssty",
+"Dscript-math.ssty",
+"Ebold-math.ssty",
+"Eitalic-math.ssty",
+"Fbold-math.ssty",
+"Fitalic-math.ssty",
+"Gbold-math.ssty",
+"Gitalic-math.ssty",
+"Gscript-math.ssty",
+"Hbold-math.ssty",
+"Hitalic-math.ssty",
+"Ibold-math.ssty",
+"Iitalic-math.ssty",
+"Jbold-math.ssty",
+"Jitalic-math.ssty",
+"Jscript-math.ssty",
+"Kbold-math.ssty",
+"Kitalic-math.ssty",
+"Kscript-math.ssty",
+"Lbold-math.ssty",
+"Litalic-math.ssty",
+"Mbold-math.ssty",
+"Mitalic-math.ssty",
+"Nbold-math.ssty",
+"Nitalic-math.ssty",
+"Nscript-math.ssty",
+"Obold-math.ssty",
+"Oitalic-math.ssty",
+"Oscript-math.ssty",
+"Pbold-math.ssty",
+"Pitalic-math.ssty",
+"Pscript-math.ssty",
+"Qbold-math.ssty",
+"Qitalic-math.ssty",
+"Qscript-math.ssty",
+"Rbold-math.ssty",
+"Ritalic-math.ssty",
+"Sbold-math.ssty",
+"Sitalic-math.ssty",
+"Sscript-math.ssty",
+"Tbold-math.ssty",
+"Titalic-math.ssty",
+"Tscript-math.ssty",
+"Ubold-math.ssty",
+"Uitalic-math.ssty",
+"Uscript-math.ssty",
+"Vbold-math.ssty",
+"Vitalic-math.ssty",
+"Vscript-math.ssty",
+"Wbold-math.ssty",
+"Witalic-math.ssty",
+"Wscript-math.ssty",
+"Xbold-math.ssty",
+"Xitalic-math.ssty",
+"Xscript-math.ssty",
+"Ybold-math.ssty",
+"Yitalic-math.ssty",
+"Yscript-math.ssty",
+"Zbold-math.ssty",
+"Zitalic-math.ssty",
+"Zscript-math.ssty",
+"Abold-math.ssty2",
+"Aitalic-math.ssty2",
+"Ascript-math.ssty2",
+"Bbold-math.ssty2",
+"Bitalic-math.ssty2",
+"Cbold-math.ssty2",
+"Citalic-math.ssty2",
+"Cscript-math.ssty2",
+"Dbold-math.ssty2",
+"Ditalic-math.ssty2",
+"Dscript-math.ssty2",
+"Ebold-math.ssty2",
+"Eitalic-math.ssty2",
+"Fbold-math.ssty2",
+"Fitalic-math.ssty2",
+"Gbold-math.ssty2",
+"Gitalic-math.ssty2",
+"Gscript-math.ssty2",
+"Hbold-math.ssty2",
+"Hitalic-math.ssty2",
+"Ibold-math.ssty2",
+"Iitalic-math.ssty2",
+"Jbold-math.ssty2",
+"Jitalic-math.ssty2",
+"Jscript-math.ssty2",
+"Kbold-math.ssty2",
+"Kitalic-math.ssty2",
+"Kscript-math.ssty2",
+"Lbold-math.ssty2",
+"Litalic-math.ssty2",
+"Mbold-math.ssty2",
+"Mitalic-math.ssty2",
+"Nbold-math.ssty2",
+"Nitalic-math.ssty2",
+"Nscript-math.ssty2",
+"Obold-math.ssty2",
+"Oitalic-math.ssty2",
+"Oscript-math.ssty2",
+"Pbold-math.ssty2",
+"Pitalic-math.ssty2",
+"Pscript-math.ssty2",
+"Qbold-math.ssty2",
+"Qitalic-math.ssty2",
+"Qscript-math.ssty2",
+"Rbold-math.ssty2",
+"Ritalic-math.ssty2",
+"Sbold-math.ssty2",
+"Sitalic-math.ssty2",
+"Sscript-math.ssty2",
+"Tbold-math.ssty2",
+"Titalic-math.ssty2",
+"Tscript-math.ssty2",
+"Ubold-math.ssty2",
+"Uitalic-math.ssty2",
+"Uscript-math.ssty2",
+"Vbold-math.ssty2",
+"Vitalic-math.ssty2",
+"Vscript-math.ssty2",
+"Wbold-math.ssty2",
+"Witalic-math.ssty2",
+"Wscript-math.ssty2",
+"Xbold-math.ssty2",
+"Xitalic-math.ssty2",
+"Xscript-math.ssty2",
+"Ybold-math.ssty2",
+"Yitalic-math.ssty2",
+"Yscript-math.ssty2",
+"Zbold-math.ssty2",
+"Zitalic-math.ssty2",
+"Zscript-math.ssty2",
+"Ascript-math.ssty.ss01",
+"Cscript-math.ssty.ss01",
+"Dscript-math.ssty.ss01",
+"Gscript-math.ssty.ss01",
+"Jscript-math.ssty.ss01",
+"Kscript-math.ssty.ss01",
+"Nscript-math.ssty.ss01",
+"Oscript-math.ssty.ss01",
+"Pscript-math.ssty.ss01",
+"Qscript-math.ssty.ss01",
+"Sscript-math.ssty.ss01",
+"Tscript-math.ssty.ss01",
+"Uscript-math.ssty.ss01",
+"Vscript-math.ssty.ss01",
+"Wscript-math.ssty.ss01",
+"Xscript-math.ssty.ss01",
+"Yscript-math.ssty.ss01",
+"Zscript-math.ssty.ss01",
+"Ascript-math.ssty2.ss01",
+"Cscript-math.ssty2.ss01",
+"Dscript-math.ssty2.ss01",
+"Gscript-math.ssty2.ss01",
+"Jscript-math.ssty2.ss01",
+"Kscript-math.ssty2.ss01",
+"Nscript-math.ssty2.ss01",
+"Oscript-math.ssty2.ss01",
+"Pscript-math.ssty2.ss01",
+"Qscript-math.ssty2.ss01",
+"Sscript-math.ssty2.ss01",
+"Tscript-math.ssty2.ss01",
+"Uscript-math.ssty2.ss01",
+"Vscript-math.ssty2.ss01",
+"Wscript-math.ssty2.ss01",
+"Xscript-math.ssty2.ss01",
+"Yscript-math.ssty2.ss01",
+"Zscript-math.ssty2.ss01",
+"abold-math.ssty",
+"aitalic-math.ssty",
+"ascript-math.ssty",
+"bbold-math.ssty",
+"bitalic-math.ssty",
+"bscript-math.ssty",
+"cbold-math.ssty",
+"citalic-math.ssty",
+"cscript-math.ssty",
+"dbold-math.ssty",
+"ditalic-math.ssty",
+"dscript-math.ssty",
+"ebold-math.ssty",
+"eitalic-math.ssty",
+"fbold-math.ssty",
+"fitalic-math.ssty",
+"fscript-math.ssty",
+"gbold-math.ssty",
+"gitalic-math.ssty",
+"hbold-math.ssty",
+"hscript-math.ssty",
+"ibold-math.ssty",
+"iitalic-math.ssty",
+"iscript-math.ssty",
+"jbold-math.ssty",
+"jitalic-math.ssty",
+"jscript-math.ssty",
+"kbold-math.ssty",
+"kitalic-math.ssty",
+"kscript-math.ssty",
+"lbold-math.ssty",
+"litalic-math.ssty",
+"lscript-math.ssty",
+"mbold-math.ssty",
+"mitalic-math.ssty",
+"mscript-math.ssty",
+"nbold-math.ssty",
+"nitalic-math.ssty",
+"nscript-math.ssty",
+"obold-math.ssty",
+"oitalic-math.ssty",
+"pbold-math.ssty",
+"pitalic-math.ssty",
+"pscript-math.ssty",
+"qbold-math.ssty",
+"qitalic-math.ssty",
+"qscript-math.ssty",
+"rbold-math.ssty",
+"ritalic-math.ssty",
+"rscript-math.ssty",
+"sbold-math.ssty",
+"sitalic-math.ssty",
+"sscript-math.ssty",
+"tbold-math.ssty",
+"titalic-math.ssty",
+"tscript-math.ssty",
+"ubold-math.ssty",
+"uscript-math.ssty",
+"vbold-math.ssty",
+"vitalic-math.ssty",
+"vscript-math.ssty",
+"wbold-math.ssty",
+"witalic-math.ssty",
+"wscript-math.ssty",
+"xbold-math.ssty",
+"xitalic-math.ssty",
+"xscript-math.ssty",
+"ybold-math.ssty",
+"yitalic-math.ssty",
+"yscript-math.ssty",
+"zbold-math.ssty",
+"zitalic-math.ssty",
+"zscript-math.ssty",
+"abold-math.ssty2",
+"aitalic-math.ssty2",
+"ascript-math.ssty2",
+"bbold-math.ssty2",
+"bitalic-math.ssty2",
+"bscript-math.ssty2",
+"cbold-math.ssty2",
+"citalic-math.ssty2",
+"cscript-math.ssty2",
+"dbold-math.ssty2",
+"ditalic-math.ssty2",
+"dscript-math.ssty2",
+"ebold-math.ssty2",
+"eitalic-math.ssty2",
+"fbold-math.ssty2",
+"fitalic-math.ssty2",
+"fscript-math.ssty2",
+"gbold-math.ssty2",
+"gitalic-math.ssty2",
+"hbold-math.ssty2",
+"hscript-math.ssty2",
+"ibold-math.ssty2",
+"iitalic-math.ssty2",
+"iscript-math.ssty2",
+"jbold-math.ssty2",
+"jitalic-math.ssty2",
+"jscript-math.ssty2",
+"kbold-math.ssty2",
+"kitalic-math.ssty2",
+"kscript-math.ssty2",
+"lbold-math.ssty2",
+"litalic-math.ssty2",
+"lscript-math.ssty2",
+"mbold-math.ssty2",
+"mitalic-math.ssty2",
+"mscript-math.ssty2",
+"nbold-math.ssty2",
+"nitalic-math.ssty2",
+"nscript-math.ssty2",
+"obold-math.ssty2",
+"oitalic-math.ssty2",
+"pbold-math.ssty2",
+"pitalic-math.ssty2",
+"pscript-math.ssty2",
+"qbold-math.ssty2",
+"qitalic-math.ssty2",
+"qscript-math.ssty2",
+"rbold-math.ssty2",
+"ritalic-math.ssty2",
+"rscript-math.ssty2",
+"sbold-math.ssty2",
+"sitalic-math.ssty2",
+"sscript-math.ssty2",
+"tbold-math.ssty2",
+"titalic-math.ssty2",
+"tscript-math.ssty2",
+"ubold-math.ssty2",
+"uitalic-math.ssty2",
+"uscript-math.ssty2",
+"vbold-math.ssty2",
+"vitalic-math.ssty2",
+"vscript-math.ssty2",
+"wbold-math.ssty2",
+"witalic-math.ssty2",
+"wscript-math.ssty2",
+"xbold-math.ssty2",
+"xitalic-math.ssty2",
+"xscript-math.ssty2",
+"ybold-math.ssty2",
+"yitalic-math.ssty2",
+"yscript-math.ssty2",
+"zbold-math.ssty2",
+"zitalic-math.ssty2",
+"zscript-math.ssty2",
+"ascript-math.ssty.ss01",
+"bscript-math.ssty.ss01",
+"cscript-math.ssty.ss01",
+"dscript-math.ssty.ss01",
+"fscript-math.ssty.ss01",
+"hscript-math.ssty.ss01",
+"iscript-math.ssty.ss01",
+"jscript-math.ssty.ss01",
+"kscript-math.ssty.ss01",
+"lscript-math.ssty.ss01",
+"mscript-math.ssty.ss01",
+"nscript-math.ssty.ss01",
+"pscript-math.ssty.ss01",
+"qscript-math.ssty.ss01",
+"rscript-math.ssty.ss01",
+"sscript-math.ssty.ss01",
+"tscript-math.ssty.ss01",
+"uscript-math.ssty.ss01",
+"vscript-math.ssty.ss01",
+"wscript-math.ssty.ss01",
+"xscript-math.ssty.ss01",
+"yscript-math.ssty.ss01",
+"zscript-math.ssty.ss01",
+"ascript-math.ssty2.ss01",
+"bscript-math.ssty2.ss01",
+"cscript-math.ssty2.ss01",
+"dscript-math.ssty2.ss01",
+"fscript-math.ssty2.ss01",
+"hscript-math.ssty2.ss01",
+"iscript-math.ssty2.ss01",
+"jscript-math.ssty2.ss01",
+"kscript-math.ssty2.ss01",
+"lscript-math.ssty2.ss01",
+"mscript-math.ssty2.ss01",
+"nscript-math.ssty2.ss01",
+"pscript-math.ssty2.ss01",
+"qscript-math.ssty2.ss01",
+"rscript-math.ssty2.ss01",
+"sscript-math.ssty2.ss01",
+"tscript-math.ssty2.ss01",
+"uscript-math.ssty2.ss01",
+"vscript-math.ssty2.ss01",
+"wscript-math.ssty2.ss01",
+"xscript-math.ssty2.ss01",
+"yscript-math.ssty2.ss01",
+"zscript-math.ssty2.ss01",
+"gitalic-math.alt.ssty",
+"vitalic-math.alt.ssty",
+"witalic-math.alt.ssty",
+"zitalic-math.alt.ssty",
+"ibold-math.dotless.ssty",
+"iitalic-math.dotless.ssty",
+"iscript-math.dotless.ssty",
+"jbold-math.dotless.ssty",
+"jitalic-math.dotless.ssty",
+"jscript-math.dotless.ssty",
+"gitalic-math.alt.ssty2",
+"uitalic-math.alt.ssty2",
+"vitalic-math.alt.ssty2",
+"witalic-math.alt.ssty2",
+"zitalic-math.alt.ssty2",
+"ibold-math.dotless.ssty2",
+"iitalic-math.dotless.ssty2",
+"iscript-math.dotless.ssty2",
+"jbold-math.dotless.ssty2",
+"jitalic-math.dotless.ssty2",
+"jscript-math.dotless.ssty2",
+"iscript-math.dotless.ssty.ss01",
+"jscript-math.dotless.ssty.ss01",
+"iscript-math.dotless.ssty2.ss01",
+"jscript-math.dotless.ssty2.ss01",
+Bscript.ssty,
+Hscript.ssty,
+Iscript.ssty,
+Lscript.ssty,
+Rscript.ssty,
+AdoubleStruck.ssty,
+BdoubleStruck.ssty,
+CdoubleStruck.ssty,
+DdoubleStruck.ssty,
+EdoubleStruck.ssty,
+FdoubleStruck.ssty,
+GdoubleStruck.ssty,
+HdoubleStruck.ssty,
+IdoubleStruck.ssty,
+JdoubleStruck.ssty,
+KdoubleStruck.ssty,
+LdoubleStruck.ssty,
+MdoubleStruck.ssty,
+NdoubleStruck.ssty,
+OdoubleStruck.ssty,
+PdoubleStruck.ssty,
+QdoubleStruck.ssty,
+RdoubleStruck.ssty,
+SdoubleStruck.ssty,
+TdoubleStruck.ssty,
+UdoubleStruck.ssty,
+VdoubleStruck.ssty,
+WdoubleStruck.ssty,
+XdoubleStruck.ssty,
+YdoubleStruck.ssty,
+ZdoubleStruck.ssty,
+Escript.ssty,
+Fscript.ssty,
+Mscript.ssty,
+Bscript.ssty2,
+Hscript.ssty2,
+Iscript.ssty2,
+Lscript.ssty2,
+Rscript.ssty2,
+AdoubleStruck.ssty2,
+BdoubleStruck.ssty2,
+CdoubleStruck.ssty2,
+DdoubleStruck.ssty2,
+EdoubleStruck.ssty2,
+FdoubleStruck.ssty2,
+GdoubleStruck.ssty2,
+HdoubleStruck.ssty2,
+IdoubleStruck.ssty2,
+JdoubleStruck.ssty2,
+KdoubleStruck.ssty2,
+LdoubleStruck.ssty2,
+MdoubleStruck.ssty2,
+NdoubleStruck.ssty2,
+OdoubleStruck.ssty2,
+PdoubleStruck.ssty2,
+QdoubleStruck.ssty2,
+RdoubleStruck.ssty2,
+SdoubleStruck.ssty2,
+TdoubleStruck.ssty2,
+UdoubleStruck.ssty2,
+VdoubleStruck.ssty2,
+WdoubleStruck.ssty2,
+XdoubleStruck.ssty2,
+YdoubleStruck.ssty2,
+ZdoubleStruck.ssty2,
+Escript.ssty2,
+Fscript.ssty2,
+Mscript.ssty2,
+Bscript.ssty.ss01,
+Hscript.ssty.ss01,
+Iscript.ssty.ss01,
+Lscript.ssty.ss01,
+Rscript.ssty.ss01,
+Escript.ssty.ss01,
+Fscript.ssty.ss01,
+Mscript.ssty.ss01,
+Bscript.ssty2.ss01,
+Hscript.ssty2.ss01,
+Iscript.ssty2.ss01,
+Lscript.ssty2.ss01,
+Rscript.ssty2.ss01,
+Escript.ssty2.ss01,
+Fscript.ssty2.ss01,
+Mscript.ssty2.ss01,
+adoubleStruck.ssty,
+bdoubleStruck.ssty,
+cdoubleStruck.ssty,
+ddoubleStruck.ssty,
+edoubleStruck.ssty,
+fdoubleStruck.ssty,
+gdoubleStruck.ssty,
+hdoubleStruck.ssty,
+idoubleStruck.ssty,
+jdoubleStruck.ssty,
+kdoubleStruck.ssty,
+ldoubleStruck.ssty,
+mdoubleStruck.ssty,
+ndoubleStruck.ssty,
+odoubleStruck.ssty,
+pdoubleStruck.ssty,
+qdoubleStruck.ssty,
+rdoubleStruck.ssty,
+sdoubleStruck.ssty,
+tdoubleStruck.ssty,
+udoubleStruck.ssty,
+vdoubleStruck.ssty,
+wdoubleStruck.ssty,
+xdoubleStruck.ssty,
+ydoubleStruck.ssty,
+zdoubleStruck.ssty,
+gscript.ssty,
+planckconstant.ssty,
+planckconstantovertwopi.ssty,
+escript.ssty,
+oscript.ssty,
+adoubleStruck.ssty2,
+bdoubleStruck.ssty2,
+cdoubleStruck.ssty2,
+ddoubleStruck.ssty2,
+edoubleStruck.ssty2,
+fdoubleStruck.ssty2,
+gdoubleStruck.ssty2,
+hdoubleStruck.ssty2,
+idoubleStruck.ssty2,
+jdoubleStruck.ssty2,
+kdoubleStruck.ssty2,
+ldoubleStruck.ssty2,
+mdoubleStruck.ssty2,
+ndoubleStruck.ssty2,
+odoubleStruck.ssty2,
+pdoubleStruck.ssty2,
+qdoubleStruck.ssty2,
+rdoubleStruck.ssty2,
+sdoubleStruck.ssty2,
+tdoubleStruck.ssty2,
+udoubleStruck.ssty2,
+vdoubleStruck.ssty2,
+wdoubleStruck.ssty2,
+xdoubleStruck.ssty2,
+ydoubleStruck.ssty2,
+zdoubleStruck.ssty2,
+gscript.ssty2,
+planckconstant.ssty2,
+planckconstantovertwopi.ssty2,
+escript.ssty2,
+oscript.ssty2,
+gscript.ssty.ss01,
+escript.ssty.ss01,
+oscript.ssty.ss01,
+gscript.ssty2.ss01,
+escript.ssty2.ss01,
+oscript.ssty2.ss01,
+idoubleStruck.dotless.ssty,
+jdoubleStruck.dotless.ssty,
+idoubleStruck.dotless.ssty2,
+jdoubleStruck.dotless.ssty2,
+aeTurnedmod.ssty,
+aeTurnedmod.alt.ssty,
+"leftanglebracket-math.ssty",
+"rightanglebracket-math.ssty",
+"leftanglebracket-math.ssty2",
+"rightanglebracket-math.ssty2",
+doubleprimeReversed.ssty,
+primeReversed.ssty,
+quadrupleprime.ssty,
+tripleprime.ssty,
+tripleprimeReversed.ssty,
+doubleprimeReversed.ssty2,
+primeReversed.ssty2,
+quadrupleprime.ssty2,
+tripleprime.ssty2,
+tripleprimeReversed.ssty2,
+"natural-musical.ssty",
+"sharp-musical.ssty",
+"natural-musical.ssty2",
+"sharp-musical.ssty2",
+literSign.ssty,
+literSign.ssty2,
+asteriskmath.ssty,
+bulletoperator.ssty,
+dotmath.ssty,
+element.ssty,
+greaterThanOrSlantedEqualTo.ssty,
+lessThanOrSlantedEqualTo.ssty,
+midlinehorizontalellipsis.ssty,
+minusplus.ssty,
+notequal.ssty,
+greaterequal.ssty,
+lessequal.ssty,
+emptyset.ssty,
+infinity.ssty,
+logicaland.ssty,
+logicalor.ssty,
+intersection.ssty,
+union.ssty,
+integral.ssty,
+summation.ssty,
+radical.ssty,
+partialdiff.ssty,
+ringoperator.ssty,
+setminus.ssty,
+similar.ssty,
+staroperator.ssty,
+subset.ssty,
+suchthat.ssty,
+superset.ssty,
+uptack.ssty,
+asteriskmath.ssty2,
+bulletoperator.ssty2,
+dotmath.ssty2,
+element.ssty2,
+greaterThanOrSlantedEqualTo.ssty2,
+lessThanOrSlantedEqualTo.ssty2,
+midlinehorizontalellipsis.ssty2,
+minusplus.ssty2,
+notequal.ssty2,
+greaterequal.ssty2,
+lessequal.ssty2,
+emptyset.ssty2,
+infinity.ssty2,
+logicaland.ssty2,
+logicalor.ssty2,
+intersection.ssty2,
+union.ssty2,
+integral.ssty2,
+summation.ssty2,
+radical.ssty2,
+partialdiff.ssty2,
+ringoperator.ssty2,
+setminus.ssty2,
+similar.ssty2,
+staroperator.ssty2,
+subset.ssty2,
+suchthat.ssty2,
+superset.ssty2,
+uptack.ssty2,
+multiply.circled.ssty,
+plus.circled.ssty,
+intersection.var.ssty,
+union.var.ssty,
+setminus.var.ssty,
+multiply.circled.ssty2,
+plus.circled.ssty2,
+intersection.var.ssty2,
+union.var.ssty2,
+setminus.var.ssty2,
+upArrow.ssty,
+rightArrow.ssty,
+downArrow.ssty,
+leftArrow.ssty,
+upArrow.ssty2,
+rightArrow.ssty2,
+downArrow.ssty2,
+leftArrow.ssty2,
+rightarrowabovecomb.ssty,
+rightarrowabovecomb.ssty2
+);
+},
+{
+name = codePageRanges;
+value = (
+"1252"
+);
+},
+{
+name = openTypeOS2Selection;
+value = (
+8
+);
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = unicodeRanges;
+value = (
+0,
+1,
+6,
+7,
+31,
+34,
+35,
+37,
+38,
+39,
+42,
+45,
+46,
+57,
+68,
+89
+);
+},
+{
+name = "Guides Palette Config";
+value = {
+showAngle = 1;
+showCoordinates = 1;
+sortBy = "";
+tagPrefix = guide_;
+};
+},
+{
+name = "Write DisplayStrings";
+value = 0;
+}
+);
+date = "2023-02-15 06:20:46 +0000";
+familyName = "Noto Sans Math";
+featurePrefixes = (
+{
+code = "languagesystem DFLT dflt;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature fwid;
+feature rtlm;
+feature ss01;
+feature dtls;
+feature ssty;
+";
+tag = aalt;
+},
+{
+automatic = 1;
+code = "lookup ccmp_Other_1 {
+	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dbloverlinecomb dieresiscomb dotaccentcomb gbridgeabovecomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	@CombiningNonTopAccents = [arrowleftrightbelowcomb brevebelowcomb breveinvertedbelowcomb bridgeinvertedbelowcomb caronbelowcomb cedillacomb circumflexbelowcomb dbllowlinecomb dotbelowcomb lowlinecomb macronbelowcomb tildebelowcomb slashlongcomb];
+	sub [i j]' @CombiningTopAccents by [idotless jdotless];
+	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+} ccmp_Other_1;
+";
+tag = ccmp;
+},
+{
+automatic = 1;
+code = "sub space by emspace;
+sub braceleft by braceleft.full;
+sub braceright by braceright.full;
+";
+tag = fwid;
+},
+{
+automatic = 1;
+code = "sub acuteAngle by acuteAngle.rtlm;
+sub allequal by allequal.rtlm;
+sub almostEqualToWithCircumflexAccent by almostEqualToWithCircumflexAccent.rtlm;
+sub almostequalorequalto by almostequalorequalto.rtlm;
+sub angle by angle.rtlm;
+sub angleWithSInside by angleWithSInside.rtlm;
+sub angleWithUnderbar by angleWithUnderbar.rtlm;
+sub anticlockwiseIntegration by anticlockwiseIntegration.rtlm;
+sub anticlockwisecontourintegral by anticlockwisecontourintegral.rtlm;
+sub approxequal by approxequal.rtlm;
+sub approximatelyEqualOrEqualTo by approximatelyEqualOrEqualTo.rtlm;
+sub approximatelybutnotactuallyequalto by approximatelybutnotactuallyequalto.rtlm;
+sub circleSmallCircleRight by circleSmallCircleRight.rtlm;
+sub circleTwoHorizontalStrokesRight by circleTwoHorizontalStrokesRight.rtlm;
+sub circulationFunction by circulationFunction.rtlm;
+sub clockwisecontourintegral by clockwisecontourintegral.rtlm;
+sub clockwiseintegral by clockwiseintegral.rtlm;
+sub complement by complement.rtlm;
+sub congruent by congruent.rtlm;
+sub congruentWithDotAbove by congruentWithDotAbove.rtlm;
+sub contourintegral by contourintegral.rtlm;
+sub cuberoot by cuberoot.rtlm;
+sub dblintegral by dblintegral.rtlm;
+sub doesNotDivideWithReversedNegationSlash by doesNotDivideWithReversedNegationSlash.rtlm;
+sub doesnotdivide by doesnotdivide.rtlm;
+sub doesnotforce by doesnotforce.rtlm;
+sub doesnotprove by doesnotprove.rtlm;
+sub doubleColonEqual by doubleColonEqual.rtlm;
+sub doubleNestedLessThanWithUnderbar by doubleNestedLessThanWithUnderbar.rtlm;
+sub doubleSolidusOperator by doubleSolidusOperator.rtlm;
+sub downTriangleWithLeftHalfBlack by downTriangleWithLeftHalfBlack.rtlm;
+sub downTriangleWithRightHalfBlack by downTriangleWithRightHalfBlack.rtlm;
+sub elementofdotabove by elementofdotabove.rtlm;
+sub elementoftwohorizontalstrokes by elementoftwohorizontalstrokes.rtlm;
+sub elementofunderbar by elementofunderbar.rtlm;
+sub equalsSignAboveTildeOperator by equalsSignAboveTildeOperator.rtlm;
+sub equalsSignAndSlantedParallel by equalsSignAndSlantedParallel.rtlm;
+sub equalsSignAndSlantedParallelWithTildeAbove by equalsSignAndSlantedParallelWithTildeAbove.rtlm;
+sub excess by excess.rtlm;
+sub existential by existential.rtlm;
+sub fallingDiagonal-math by fallingDiagonal-math.rtlm;
+sub finitePartIntegral by finitePartIntegral.rtlm;
+sub forking by forking.rtlm;
+sub fourthroot by fourthroot.rtlm;
+sub greaterThanAboveSimilarAboveLessThan by greaterThanAboveSimilarAboveLessThan.rtlm;
+sub greaterThanAboveSimilarOrEqual by greaterThanAboveSimilarOrEqual.rtlm;
+sub greaterThanAndNotApproximate by greaterThanAndNotApproximate.rtlm;
+sub greaterThanAndSingleLineNotEqualTo by greaterThanAndSingleLineNotEqualTo.rtlm;
+sub greaterThanOrApproximate by greaterThanOrApproximate.rtlm;
+sub greaterThanWithQuestionMarkAbove by greaterThanWithQuestionMarkAbove.rtlm;
+sub homothetic by homothetic.rtlm;
+sub identicalToAndSlantedParallel by identicalToAndSlantedParallel.rtlm;
+sub incompleteInfinity by incompleteInfinity.rtlm;
+sub increasesAs by increasesAs.rtlm;
+sub integral by integral.rtlm;
+sub integralAroundAPointOperator by integralAroundAPointOperator.rtlm;
+sub integralAverageWithSlash by integralAverageWithSlash.rtlm;
+sub integralWithDoubleStroke by integralWithDoubleStroke.rtlm;
+sub integralWithIntersection by integralWithIntersection.rtlm;
+sub integralWithLeftArrowWithHook by integralWithLeftArrowWithHook.rtlm;
+sub integralWithOverbar by integralWithOverbar.rtlm;
+sub integralWithTimesSign by integralWithTimesSign.rtlm;
+sub integralWithUnderbar by integralWithUnderbar.rtlm;
+sub integralWithUnion by integralWithUnion.rtlm;
+sub integralbt by integralbt.rtlm;
+sub integraltp by integraltp.rtlm;
+sub invertedlazys by invertedlazys.rtlm;
+sub largeLeftTriangleOperator by largeLeftTriangleOperator.rtlm;
+sub leftMultimap by leftMultimap.rtlm;
+sub lessThanAboveSimilarAboveGreaterThan by lessThanAboveSimilarAboveGreaterThan.rtlm;
+sub lessThanAboveSimilarOrEqual by lessThanAboveSimilarOrEqual.rtlm;
+sub lessThanAndNotApproximate by lessThanAndNotApproximate.rtlm;
+sub lessThanAndSingleLineNotEqualTo by lessThanAndSingleLineNotEqualTo.rtlm;
+sub lessThanOrApproximate by lessThanOrApproximate.rtlm;
+sub lessThanWithQuestionMarkAbove by lessThanWithQuestionMarkAbove.rtlm;
+sub lessorequivalent by lessorequivalent.rtlm;
+sub lineIntegrationNotIncludingThePole by lineIntegrationNotIncludingThePole.rtlm;
+sub lineIntegrationWithRectangularPathAroundPole by lineIntegrationWithRectangularPathAroundPole.rtlm;
+sub lineIntegrationWithSemicircularPathAroundPole by lineIntegrationWithSemicircularPathAroundPole.rtlm;
+sub longDashFromLeftMemberOfDoubleVertical by longDashFromLeftMemberOfDoubleVertical.rtlm;
+sub longDivision by longDivision.rtlm;
+sub lowerRightCornerWithDot by lowerRightCornerWithDot.rtlm;
+sub measuredAngleOpeningLeft by measuredAngleOpeningLeft.rtlm;
+sub measuredAngleWithOpenArmEndingInArrowPointingDownAndLeft by measuredAngleWithOpenArmEndingInArrowPointingDownAndLeft.rtlm;
+sub measuredAngleWithOpenArmEndingInArrowPointingDownAndRight by measuredAngleWithOpenArmEndingInArrowPointingDownAndRight.rtlm;
+sub measuredAngleWithOpenArmEndingInArrowPointingLeftAndDown by measuredAngleWithOpenArmEndingInArrowPointingLeftAndDown.rtlm;
+sub measuredAngleWithOpenArmEndingInArrowPointingLeftAndUp by measuredAngleWithOpenArmEndingInArrowPointingLeftAndUp.rtlm;
+sub measuredAngleWithOpenArmEndingInArrowPointingRightAndDown by measuredAngleWithOpenArmEndingInArrowPointingRightAndDown.rtlm;
+sub measuredAngleWithOpenArmEndingInArrowPointingRightAndUp by measuredAngleWithOpenArmEndingInArrowPointingRightAndUp.rtlm;
+sub measuredAngleWithOpenArmEndingInArrowPointingUpAndLeft by measuredAngleWithOpenArmEndingInArrowPointingUpAndLeft.rtlm;
+sub measuredAngleWithOpenArmEndingInArrowPointingUpAndRight by measuredAngleWithOpenArmEndingInArrowPointingUpAndRight.rtlm;
+sub measuredRightAngleWithDot by measuredRightAngleWithDot.rtlm;
+sub measuredangle by measuredangle.rtlm;
+sub minusSignWithCommaAbove by minusSignWithCommaAbove.rtlm;
+sub minustilde by minustilde.rtlm;
+sub models by models.rtlm;
+sub moduloTwoSum by moduloTwoSum.rtlm;
+sub multimap by multimap.rtlm;
+sub multiset by multiset.rtlm;
+sub negateddoubleverticalbardoublerightturnstile by negateddoubleverticalbardoublerightturnstile.rtlm;
+sub neitherapproximatelynoractuallyequalto by neitherapproximatelynoractuallyequalto.rtlm;
+sub notalmostequalto by notalmostequalto.rtlm;
+sub notasymptoticallyequalto by notasymptoticallyequalto.rtlm;
+sub notequal by notequal.rtlm;
+sub notidentical by notidentical.rtlm;
+sub notparallel by notparallel.rtlm;
+sub notsimilar by notsimilar.rtlm;
+sub nottrue by nottrue.rtlm;
+sub obliqueAngleOpeningDown by obliqueAngleOpeningDown.rtlm;
+sub obliqueAngleOpeningUp by obliqueAngleOpeningUp.rtlm;
+sub orthogonal by orthogonal.rtlm;
+sub parallelWithTildeOperator by parallelWithTildeOperator.rtlm;
+sub partialdiff by partialdiff.rtlm;
+sub plusSignWithTildeAbove by plusSignWithTildeAbove.rtlm;
+sub plusSignWithTildeBelow by plusSignWithTildeBelow.rtlm;
+sub precedesAboveAlmostEqualTo by precedesAboveAlmostEqualTo.rtlm;
+sub precedesAboveNotAlmostEqualTo by precedesAboveNotAlmostEqualTo.rtlm;
+sub precedesAboveNotEqualTo by precedesAboveNotEqualTo.rtlm;
+sub precedesAboveSingleLineNotEqualTo by precedesAboveSingleLineNotEqualTo.rtlm;
+sub proportional by proportional.rtlm;
+sub quadrupleIntegralOperator by quadrupleIntegralOperator.rtlm;
+sub quaternionIntegralOperator by quaternionIntegralOperator.rtlm;
+sub questionedequalto by questionedequalto.rtlm;
+sub radical by radical.rtlm;
+sub reverseSolidusWithHorizontalStroke by reverseSolidusWithHorizontalStroke.rtlm;
+sub reversedAngle by reversedAngle.rtlm;
+sub reversedAngleWithUnderbar by reversedAngleWithUnderbar.rtlm;
+sub rightAngleVariantWithSquare by rightAngleVariantWithSquare.rtlm;
+sub rightTriangleAboveLeftTriangle by rightTriangleAboveLeftTriangle.rtlm;
+sub rightanglearc by rightanglearc.rtlm;
+sub righttriangle by righttriangle.rtlm;
+sub risingDiagonal-math by risingDiagonal-math.rtlm;
+sub ruleDelayed by ruleDelayed.rtlm;
+sub setminus by setminus.rtlm;
+sub similarAboveGreaterThanAboveEqualsSign by similarAboveGreaterThanAboveEqualsSign.rtlm;
+sub similarAboveLessThanAboveEqualsSign by similarAboveLessThanAboveEqualsSign.rtlm;
+sub similarMinusSimilar by similarMinusSimilar.rtlm;
+sub similarOrGreaterThan by similarOrGreaterThan.rtlm;
+sub similarOrLessThan by similarOrLessThan.rtlm;
+sub sinewave by sinewave.rtlm;
+sub slopingLargeAnd by slopingLargeAnd.rtlm;
+sub slopingLargeOr by slopingLargeOr.rtlm;
+sub solidusWithOverbar by solidusWithOverbar.rtlm;
+sub sphericalAngleOpeningLeft by sphericalAngleOpeningLeft.rtlm;
+sub sphericalangle by sphericalangle.rtlm;
+sub subsetOfAboveAlmostEqualTo by subsetOfAboveAlmostEqualTo.rtlm;
+sub subsetOfAboveNotEqualTo by subsetOfAboveNotEqualTo.rtlm;
+sub subsetOfAboveTildeOperator by subsetOfAboveTildeOperator.rtlm;
+sub succeedsAboveAlmostEqualTo by succeedsAboveAlmostEqualTo.rtlm;
+sub succeedsAboveNotAlmostEqualTo by succeedsAboveNotAlmostEqualTo.rtlm;
+sub succeedsAboveNotEqualTo by succeedsAboveNotEqualTo.rtlm;
+sub succeedsAboveSingleLineNotEqualTo by succeedsAboveSingleLineNotEqualTo.rtlm;
+sub summation by summation.rtlm;
+sub summationWithIntegral by summationWithIntegral.rtlm;
+sub summationdoubleStruck by summationdoubleStruck.rtlm;
+sub supersetOfAboveAlmostEqualTo by supersetOfAboveAlmostEqualTo.rtlm;
+sub supersetOfAboveNotEqualTo by supersetOfAboveNotEqualTo.rtlm;
+sub supersetOfAboveTildeOperator by supersetOfAboveTildeOperator.rtlm;
+sub surfaceintegral by surfaceintegral.rtlm;
+sub theredoesnotexist by theredoesnotexist.rtlm;
+sub threeDimensionalAngle by threeDimensionalAngle.rtlm;
+sub tildeOperatorWithDotAbove by tildeOperatorWithDotAbove.rtlm;
+sub tildeOperatorWithRisingDots by tildeOperatorWithRisingDots.rtlm;
+sub tripleSolidusBinaryRelation by tripleSolidusBinaryRelation.rtlm;
+sub tripleintegral by tripleintegral.rtlm;
+sub tripletilde by tripletilde.rtlm;
+sub tripleverticalbarrightturnstile by tripleverticalbarrightturnstile.rtlm;
+sub turnedAngle by turnedAngle.rtlm;
+sub twoJoinedSquares by twoJoinedSquares.rtlm;
+sub partialdiffbold-math by partialdiffbold-math.rtlm;
+sub partialdiffitalic-math by partialdiffitalic-math.rtlm;
+sub partialdiffbolditalic-math by partialdiffbolditalic-math.rtlm;
+sub partialdiffsansbold-math by partialdiffsansbold-math.rtlm;
+sub partialdiffsansbolditalic-math by partialdiffsansbolditalic-math.rtlm;
+sub upperLeftCornerWithDot by upperLeftCornerWithDot.rtlm;
+sub verticalBarTripleRightTurnstile by verticalBarTripleRightTurnstile.rtlm;
+sub volumeintegral by volumeintegral.rtlm;
+sub wreathproduct by wreathproduct.rtlm;
+sub zNotationRelationalComposition by zNotationRelationalComposition.rtlm;
+sub zNotationSchemaComposition by zNotationSchemaComposition.rtlm;
+sub zNotationSchemaPiping by zNotationSchemaPiping.rtlm;
+sub zNotationSchemaProjection by zNotationSchemaProjection.rtlm;
+sub znotationbagmembership by znotationbagmembership.rtlm;
+";
+tag = rtlm;
+},
+{
+code = "# FIXME:TODO:REVIEW: for completeness toward end of design -- make sure to update classes to match
+sub @MathScriptUpper by @MathScriptUpperVS1;
+";
+labels = (
+{
+language = dflt;
+value = "Chancery Style";
+}
+);
+notes = "An alternate way to access the Chancery Style variants of the script-math glyphs.";
+tag = ss01;
+},
+{
+code = "script math;
+
+sub @ij by @ijDotless;";
+tag = dtls;
+},
+{
+code = "script math;
+
+sub A from [A.ssty1 A.ssty2];
+sub B from [B.ssty1 B.ssty2];
+sub C from [C.ssty1 C.ssty2];
+sub D from [D.ssty1 D.ssty2];
+sub E from [E.ssty1 E.ssty2];
+sub F from [F.ssty1 F.ssty2];
+sub G from [G.ssty1 G.ssty2];
+sub H from [H.ssty1 H.ssty2];
+sub I from [I.ssty1 I.ssty2];
+sub J from [J.ssty1 J.ssty2];
+sub K from [K.ssty1 K.ssty2];
+sub L from [L.ssty1 L.ssty2];
+sub M from [M.ssty1 M.ssty2];
+sub N from [N.ssty1 N.ssty2];
+sub O from [O.ssty1 O.ssty2];
+sub P from [P.ssty1 P.ssty2];
+sub Q from [Q.ssty1 Q.ssty2];
+sub R from [R.ssty1 R.ssty2];
+sub S from [S.ssty1 S.ssty2];
+sub T from [T.ssty1 T.ssty2];
+sub U from [U.ssty1 U.ssty2];
+sub V from [V.ssty1 V.ssty2];
+sub W from [W.ssty1 W.ssty2];
+sub X from [X.ssty1 X.ssty2];
+sub Y from [Y.ssty1 Y.ssty2];
+sub Z from [Z.ssty1 Z.ssty2];
+sub a from [a.ssty1 a.ssty2];
+sub b from [b.ssty1 b.ssty2];
+sub c from [c.ssty1 c.ssty2];
+sub d from [d.ssty1 d.ssty2];
+sub e from [e.ssty1 e.ssty2];
+sub f from [f.ssty1 f.ssty2];
+sub g from [g.ssty1 g.ssty2];
+sub h from [h.ssty1 h.ssty2];
+sub i from [i.ssty1 i.ssty2];
+sub idotless from [idotless.ssty1 idotless.ssty2];
+sub j from [j.ssty1 j.ssty2];
+sub jdotless from [jdotless.ssty1 jdotless.ssty2];
+sub k from [k.ssty1 k.ssty2];
+sub l from [l.ssty1 l.ssty2];
+sub m from [m.ssty1 m.ssty2];
+sub n from [n.ssty1 n.ssty2];
+sub o from [o.ssty1 o.ssty2];
+sub p from [p.ssty1 p.ssty2];
+sub q from [q.ssty1 q.ssty2];
+sub r from [r.ssty1 r.ssty2];
+sub s from [s.ssty1 s.ssty2];
+sub t from [t.ssty1 t.ssty2];
+sub u from [u.ssty1 u.ssty2];
+sub v from [v.ssty1 v.ssty2];
+sub w from [w.ssty1 w.ssty2];
+sub x from [x.ssty1 x.ssty2];
+sub y from [y.ssty1 y.ssty2];
+sub z from [z.ssty1 z.ssty2];
+sub Alpha from [Alpha.ssty1 Alpha.ssty2];
+sub Beta from [Beta.ssty1 Beta.ssty2];
+sub Gamma from [Gamma.ssty1 Gamma.ssty2];
+sub Delta from [Delta.ssty1 Delta.ssty2];
+sub Epsilon from [Epsilon.ssty1 Epsilon.ssty2];
+sub Zeta from [Zeta.ssty1 Zeta.ssty2];
+sub Eta from [Eta.ssty1 Eta.ssty2];
+sub Theta from [Theta.ssty1 Theta.ssty2];
+sub Iota from [Iota.ssty1 Iota.ssty2];
+sub Kappa from [Kappa.ssty1 Kappa.ssty2];
+sub Lambda from [Lambda.ssty1 Lambda.ssty2];
+sub Mu from [Mu.ssty1 Mu.ssty2];
+sub Nu from [Nu.ssty1 Nu.ssty2];
+sub Xi from [Xi.ssty1 Xi.ssty2];
+sub Omicron from [Omicron.ssty1 Omicron.ssty2];
+sub Pi from [Pi.ssty1 Pi.ssty2];
+sub Rho from [Rho.ssty1 Rho.ssty2];
+sub Sigma from [Sigma.ssty1 Sigma.ssty2];
+sub Tau from [Tau.ssty1 Tau.ssty2];
+sub Upsilon from [Upsilon.ssty1 Upsilon.ssty2];
+sub Phi from [Phi.ssty1 Phi.ssty2];
+sub Chi from [Chi.ssty1 Chi.ssty2];
+sub Psi from [Psi.ssty1 Psi.ssty2];
+sub Omega from [Omega.ssty1 Omega.ssty2];
+sub alpha from [alpha.ssty1 alpha.ssty2];
+sub beta from [beta.ssty1 beta.ssty2];
+sub gamma from [gamma.ssty1 gamma.ssty2];
+sub delta from [delta.ssty1 delta.ssty2];
+sub epsilon from [epsilon.ssty1 epsilon.ssty2];
+sub zeta from [zeta.ssty1];
+sub eta from [eta.ssty1 eta.ssty2];
+sub theta from [theta.ssty1 theta.ssty2];
+sub iota from [iota.ssty1 iota.ssty2];
+sub kappa from [kappa.ssty1 kappa.ssty2];
+sub lambda from [lambda.ssty1 lambda.ssty2];
+sub mu from [mu.ssty1 mu.ssty2];
+sub nu from [nu.ssty1 nu.ssty2];
+sub xi from [xi.ssty1 xi.ssty2];
+sub omicron from [omicron.ssty1 omicron.ssty2];
+sub pi from [pi.ssty1 pi.ssty2];
+sub rho from [rho.ssty1 rho.ssty2];
+sub sigmafinal from [sigmafinal.ssty1 sigmafinal.ssty2];
+sub sigma from [sigma.ssty1 sigma.ssty2];
+sub tau from [tau.ssty1 tau.ssty2];
+sub upsilon from [upsilon.ssty1 upsilon.ssty2];
+sub phi from [phi.ssty1 phi.ssty2];
+sub chi from [chi.ssty1 chi.ssty2];
+sub psi from [psi.ssty1 psi.ssty2];
+sub omega from [omega.ssty1 omega.ssty2];
+sub A-fraktur from [A-fraktur.ssty1 A-fraktur.ssty2];
+sub B-fraktur from [B-fraktur.ssty1 B-fraktur.ssty2];
+sub C-fraktur from [C-fraktur.ssty1 C-fraktur.ssty2];
+sub D-fraktur from [D-fraktur.ssty1 D-fraktur.ssty2];
+sub E-fraktur from [E-fraktur.ssty1 E-fraktur.ssty2];
+sub F-fraktur from [F-fraktur.ssty1 F-fraktur.ssty2];
+sub G-fraktur from [G-fraktur.ssty1 G-fraktur.ssty2];
+sub H-fraktur from [H-fraktur.ssty1 H-fraktur.ssty2];
+sub I-fraktur from [I-fraktur.ssty1 I-fraktur.ssty2];
+sub J-fraktur from [J-fraktur.ssty1 J-fraktur.ssty2];
+sub K-fraktur from [K-fraktur.ssty1 K-fraktur.ssty2];
+sub L-fraktur from [L-fraktur.ssty1 L-fraktur.ssty2];
+sub M-fraktur from [M-fraktur.ssty1 M-fraktur.ssty2];
+sub N-fraktur from [N-fraktur.ssty1 N-fraktur.ssty2];
+sub O-fraktur from [O-fraktur.ssty1 O-fraktur.ssty2];
+sub P-fraktur from [P-fraktur.ssty1 P-fraktur.ssty2];
+sub Q-fraktur from [Q-fraktur.ssty1 Q-fraktur.ssty2];
+sub R-fraktur from [R-fraktur.ssty1 R-fraktur.ssty2];
+sub S-fraktur from [S-fraktur.ssty1 S-fraktur.ssty2];
+sub T-fraktur from [T-fraktur.ssty1 T-fraktur.ssty2];
+sub U-fraktur from [U-fraktur.ssty1 U-fraktur.ssty2];
+sub V-fraktur from [V-fraktur.ssty1 V-fraktur.ssty2];
+sub W-fraktur from [W-fraktur.ssty1 W-fraktur.ssty2];
+sub X-fraktur from [X-fraktur.ssty1 X-fraktur.ssty2];
+sub Y-fraktur from [Y-fraktur.ssty1 Y-fraktur.ssty2];
+sub Z-fraktur from [Z-fraktur.ssty1 Z-fraktur.ssty2];
+sub a-fraktur from [a-fraktur.ssty1 a-fraktur.ssty2];
+sub b-fraktur from [b-fraktur.ssty1 b-fraktur.ssty2];
+sub c-fraktur from [c-fraktur.ssty1 c-fraktur.ssty2];
+sub d-fraktur from [d-fraktur.ssty1 d-fraktur.ssty2];
+sub e-fraktur from [e-fraktur.ssty1 e-fraktur.ssty2];
+sub f-fraktur from [f-fraktur.ssty1 f-fraktur.ssty2];
+sub g-fraktur from [g-fraktur.ssty1 g-fraktur.ssty2];
+sub h-fraktur from [h-fraktur.ssty1 h-fraktur.ssty2];
+sub i-fraktur from [i-fraktur.ssty1 i-fraktur.ssty2];
+sub j-fraktur from [j-fraktur.ssty1 j-fraktur.ssty2];
+sub k-fraktur from [k-fraktur.ssty1 k-fraktur.ssty2];
+sub l-fraktur from [l-fraktur.ssty1 l-fraktur.ssty2];
+sub m-fraktur from [m-fraktur.ssty1 m-fraktur.ssty2];
+sub n-fraktur from [n-fraktur.ssty1 n-fraktur.ssty2];
+sub o-fraktur from [o-fraktur.ssty1 o-fraktur.ssty2];
+sub p-fraktur from [p-fraktur.ssty1 p-fraktur.ssty2];
+sub q-fraktur from [q-fraktur.ssty1 q-fraktur.ssty2];
+sub r-fraktur from [r-fraktur.ssty1 r-fraktur.ssty2];
+sub s-fraktur from [s-fraktur.ssty1 s-fraktur.ssty2];
+sub t-fraktur from [t-fraktur.ssty1 t-fraktur.ssty2];
+sub u-fraktur from [u-fraktur.ssty1 u-fraktur.ssty2];
+sub v-fraktur from [v-fraktur.ssty1 v-fraktur.ssty2];
+sub w-fraktur from [w-fraktur.ssty1 w-fraktur.ssty2];
+sub x-fraktur from [x-fraktur.ssty1 x-fraktur.ssty2];
+sub y-fraktur from [y-fraktur.ssty1 y-fraktur.ssty2];
+sub z-fraktur from [z-fraktur.ssty1 z-fraktur.ssty2];
+sub i-fraktur.dotless from [i-fraktur.dotless.ssty1 i-fraktur.dotless.ssty2];
+sub j-fraktur.dotless from [j-fraktur.dotless.ssty1 j-fraktur.dotless.ssty2];
+sub Abold-math from [Abold-math.ssty1 Abold-math.ssty2];
+sub Aitalic-math from [Aitalic-math.ssty1 Aitalic-math.ssty2];
+sub Alphaitalic-math from [Alphaitalic-math.ssty1 Alphaitalic-math.ssty2];
+sub Ascript-math from [Ascript-math.ssty1 Ascript-math.ssty2];
+sub Bbold-math from [Bbold-math.ssty1 Bbold-math.ssty2];
+sub Betaitalic-math from [Betaitalic-math.ssty1 Betaitalic-math.ssty2];
+sub Bitalic-math from [Bitalic-math.ssty1 Bitalic-math.ssty2];
+sub Cbold-math from [Cbold-math.ssty1 Cbold-math.ssty2];
+sub Chiitalic-math from [Chiitalic-math.ssty1 Chiitalic-math.ssty2];
+sub Citalic-math from [Citalic-math.ssty1 Citalic-math.ssty2];
+sub Cscript-math from [Cscript-math.ssty1 Cscript-math.ssty2];
+sub Dbold-math from [Dbold-math.ssty1 Dbold-math.ssty2];
+sub Deltaitalic-math from [Deltaitalic-math.ssty1 Deltaitalic-math.ssty2];
+sub Ditalic-math from [Ditalic-math.ssty1 Ditalic-math.ssty2];
+sub Dscript-math from [Dscript-math.ssty1 Dscript-math.ssty2];
+sub Ebold-math from [Ebold-math.ssty1 Ebold-math.ssty2];
+sub Eitalic-math from [Eitalic-math.ssty1 Eitalic-math.ssty2];
+sub Epsilonitalic-math from [Epsilonitalic-math.ssty1 Epsilonitalic-math.ssty2];
+sub Etaitalic-math from [Etaitalic-math.ssty1 Etaitalic-math.ssty2];
+sub Fbold-math from [Fbold-math.ssty1 Fbold-math.ssty2];
+sub Fitalic-math from [Fitalic-math.ssty1 Fitalic-math.ssty2];
+sub Gammaitalic-math from [Gammaitalic-math.ssty1 Gammaitalic-math.ssty2];
+sub Gbold-math from [Gbold-math.ssty1 Gbold-math.ssty2];
+sub Gitalic-math from [Gitalic-math.ssty1 Gitalic-math.ssty2];
+sub Gscript-math from [Gscript-math.ssty1 Gscript-math.ssty2];
+sub Hbold-math from [Hbold-math.ssty1 Hbold-math.ssty2];
+sub Hitalic-math from [Hitalic-math.ssty1 Hitalic-math.ssty2];
+sub Ibold-math from [Ibold-math.ssty1 Ibold-math.ssty2];
+sub Iitalic-math from [Iitalic-math.ssty1 Iitalic-math.ssty2];
+sub Iotaitalic-math from [Iotaitalic-math.ssty1 Iotaitalic-math.ssty2];
+sub Jbold-math from [Jbold-math.ssty1 Jbold-math.ssty2];
+sub Jitalic-math from [Jitalic-math.ssty1 Jitalic-math.ssty2];
+sub Jscript-math from [Jscript-math.ssty1 Jscript-math.ssty2];
+sub Kappaitalic-math from [Kappaitalic-math.ssty1 Kappaitalic-math.ssty2];
+sub Kbold-math from [Kbold-math.ssty1 Kbold-math.ssty2];
+sub Kitalic-math from [Kitalic-math.ssty1 Kitalic-math.ssty2];
+sub Kscript-math from [Kscript-math.ssty1 Kscript-math.ssty2];
+sub Lambdaitalic-math from [Lambdaitalic-math.ssty1 Lambdaitalic-math.ssty2];
+sub Lbold-math from [Lbold-math.ssty1 Lbold-math.ssty2];
+sub Litalic-math from [Litalic-math.ssty1 Litalic-math.ssty2];
+sub Mbold-math from [Mbold-math.ssty1 Mbold-math.ssty2];
+sub Mitalic-math from [Mitalic-math.ssty1 Mitalic-math.ssty2];
+sub Muitalic-math from [Muitalic-math.ssty1 Muitalic-math.ssty2];
+sub Nbold-math from [Nbold-math.ssty1 Nbold-math.ssty2];
+sub Nitalic-math from [Nitalic-math.ssty1 Nitalic-math.ssty2];
+sub Nscript-math from [Nscript-math.ssty1 Nscript-math.ssty2];
+sub Nuitalic-math from [Nuitalic-math.ssty1 Nuitalic-math.ssty2];
+sub Obold-math from [Obold-math.ssty1 Obold-math.ssty2];
+sub Oitalic-math from [Oitalic-math.ssty1 Oitalic-math.ssty2];
+sub Omegaitalic-math from [Omegaitalic-math.ssty1 Omegaitalic-math.ssty2];
+sub Omicronitalic-math from [Omicronitalic-math.ssty1 Omicronitalic-math.ssty2];
+sub Oscript-math from [Oscript-math.ssty1 Oscript-math.ssty2];
+sub Pbold-math from [Pbold-math.ssty1 Pbold-math.ssty2];
+sub Phiitalic-math from [Phiitalic-math.ssty1 Phiitalic-math.ssty2];
+sub Piitalic-math from [Piitalic-math.ssty1 Piitalic-math.ssty2];
+sub Pitalic-math from [Pitalic-math.ssty1 Pitalic-math.ssty2];
+sub Pscript-math from [Pscript-math.ssty1 Pscript-math.ssty2];
+sub Psiitalic-math from [Psiitalic-math.ssty1 Psiitalic-math.ssty2];
+sub Qbold-math from [Qbold-math.ssty1 Qbold-math.ssty2];
+sub Qitalic-math from [Qitalic-math.ssty1 Qitalic-math.ssty2];
+sub Qscript-math from [Qscript-math.ssty1 Qscript-math.ssty2];
+sub Rbold-math from [Rbold-math.ssty1 Rbold-math.ssty2];
+sub Rhoitalic-math from [Rhoitalic-math.ssty1 Rhoitalic-math.ssty2];
+sub Ritalic-math from [Ritalic-math.ssty1 Ritalic-math.ssty2];
+sub Sbold-math from [Sbold-math.ssty1 Sbold-math.ssty2];
+sub Sigmaitalic-math from [Sigmaitalic-math.ssty1 Sigmaitalic-math.ssty2];
+sub Sitalic-math from [Sitalic-math.ssty1 Sitalic-math.ssty2];
+sub Sscript-math from [Sscript-math.ssty1 Sscript-math.ssty2];
+sub Tauitalic-math from [Tauitalic-math.ssty1 Tauitalic-math.ssty2];
+sub Tbold-math from [Tbold-math.ssty1 Tbold-math.ssty2];
+sub Thetaitalic-math from [Thetaitalic-math.ssty1 Thetaitalic-math.ssty2];
+sub Titalic-math from [Titalic-math.ssty1 Titalic-math.ssty2];
+sub Tscript-math from [Tscript-math.ssty1 Tscript-math.ssty2];
+sub Ubold-math from [Ubold-math.ssty1 Ubold-math.ssty2];
+sub Uitalic-math from [Uitalic-math.ssty1 Uitalic-math.ssty2];
+sub Upsilonitalic-math from [Upsilonitalic-math.ssty1 Upsilonitalic-math.ssty2];
+sub Uscript-math from [Uscript-math.ssty1 Uscript-math.ssty2];
+sub Vbold-math from [Vbold-math.ssty1 Vbold-math.ssty2];
+sub Vitalic-math from [Vitalic-math.ssty1 Vitalic-math.ssty2];
+sub Vscript-math from [Vscript-math.ssty1 Vscript-math.ssty2];
+sub Wbold-math from [Wbold-math.ssty1 Wbold-math.ssty2];
+sub Witalic-math from [Witalic-math.ssty1 Witalic-math.ssty2];
+sub Wscript-math from [Wscript-math.ssty1 Wscript-math.ssty2];
+sub Xbold-math from [Xbold-math.ssty1 Xbold-math.ssty2];
+sub Xiitalic-math from [Xiitalic-math.ssty1 Xiitalic-math.ssty2];
+sub Xitalic-math from [Xitalic-math.ssty1 Xitalic-math.ssty2];
+sub Xscript-math from [Xscript-math.ssty1 Xscript-math.ssty2];
+sub Ybold-math from [Ybold-math.ssty1 Ybold-math.ssty2];
+sub Yitalic-math from [Yitalic-math.ssty1 Yitalic-math.ssty2];
+sub Yscript-math from [Yscript-math.ssty1 Yscript-math.ssty2];
+sub Zbold-math from [Zbold-math.ssty1 Zbold-math.ssty2];
+sub Zetaitalic-math from [Zetaitalic-math.ssty1 Zetaitalic-math.ssty2];
+sub Zitalic-math from [Zitalic-math.ssty1 Zitalic-math.ssty2];
+sub Zscript-math from [Zscript-math.ssty1 Zscript-math.ssty2];
+sub abold-math from [abold-math.ssty1 abold-math.ssty2];
+sub aitalic-math from [aitalic-math.ssty1 aitalic-math.ssty2];
+sub alphaitalic-math from [alphaitalic-math.ssty1 alphaitalic-math.ssty2];
+sub ascript-math from [ascript-math.ssty1 ascript-math.ssty2];
+sub bbold-math from [bbold-math.ssty1 bbold-math.ssty2];
+sub betaitalic-math from [betaitalic-math.ssty1 betaitalic-math.ssty2];
+sub bitalic-math from [bitalic-math.ssty1 bitalic-math.ssty2];
+sub bscript-math from [bscript-math.ssty1 bscript-math.ssty2];
+sub cbold-math from [cbold-math.ssty1 cbold-math.ssty2];
+sub chiitalic-math from [chiitalic-math.ssty1 chiitalic-math.ssty2];
+sub citalic-math from [citalic-math.ssty1 citalic-math.ssty2];
+sub cscript-math from [cscript-math.ssty1 cscript-math.ssty2];
+sub dbold-math from [dbold-math.ssty1 dbold-math.ssty2];
+sub deltaitalic-math from [deltaitalic-math.ssty1 deltaitalic-math.ssty2];
+sub ditalic-math from [ditalic-math.ssty1 ditalic-math.ssty2];
+sub dscript-math from [dscript-math.ssty1 dscript-math.ssty2];
+sub ebold-math from [ebold-math.ssty1 ebold-math.ssty2];
+sub eitalic-math from [eitalic-math.ssty1 eitalic-math.ssty2];
+sub epsilonLunateSymbolitalic-math from [epsilonLunateSymbolitalic-math.ssty1];
+sub epsilonitalic-math from [epsilonitalic-math.ssty1 epsilonitalic-math.ssty2];
+sub etaitalic-math from [etaitalic-math.ssty1 etaitalic-math.ssty2];
+sub fbold-math from [fbold-math.ssty1 fbold-math.ssty2];
+sub fitalic-math from [fitalic-math.ssty1 fitalic-math.ssty2];
+sub fscript-math from [fscript-math.ssty1 fscript-math.ssty2];
+sub gammaitalic-math from [gammaitalic-math.ssty1 gammaitalic-math.ssty2];
+sub gbold-math from [gbold-math.ssty1 gbold-math.ssty2];
+sub gitalic-math from [gitalic-math.ssty1 gitalic-math.ssty2];
+sub hbold-math from [hbold-math.ssty1 hbold-math.ssty2];
+sub hscript-math from [hscript-math.ssty1 hscript-math.ssty2];
+sub ibold-math from [ibold-math.ssty1 ibold-math.ssty2];
+sub idotlessitalic-math from [idotlessitalic-math.ssty1 idotlessitalic-math.ssty2];
+sub iitalic-math from [iitalic-math.ssty1 iitalic-math.ssty2];
+sub iotaitalic-math from [iotaitalic-math.ssty1 iotaitalic-math.ssty2];
+sub iscript-math from [iscript-math.ssty1 iscript-math.ssty2];
+sub jbold-math from [jbold-math.ssty1 jbold-math.ssty2];
+sub jdotlessitalic-math from [jdotlessitalic-math.ssty1 jdotlessitalic-math.ssty2];
+sub jitalic-math from [jitalic-math.ssty1 jitalic-math.ssty2];
+sub jscript-math from [jscript-math.ssty1 jscript-math.ssty2];
+sub kappaSymbolitalic-math from [kappaSymbolitalic-math.ssty1];
+sub kappaitalic-math from [kappaitalic-math.ssty1 kappaitalic-math.ssty2];
+sub kbold-math from [kbold-math.ssty1 kbold-math.ssty2];
+sub kitalic-math from [kitalic-math.ssty1 kitalic-math.ssty2];
+sub kscript-math from [kscript-math.ssty1 kscript-math.ssty2];
+sub lambdaitalic-math from [lambdaitalic-math.ssty1 lambdaitalic-math.ssty2];
+sub lbold-math from [lbold-math.ssty1 lbold-math.ssty2];
+sub litalic-math from [litalic-math.ssty1 litalic-math.ssty2];
+sub lscript-math from [lscript-math.ssty1 lscript-math.ssty2];
+sub mbold-math from [mbold-math.ssty1 mbold-math.ssty2];
+sub mitalic-math from [mitalic-math.ssty1 mitalic-math.ssty2];
+sub mscript-math from [mscript-math.ssty1 mscript-math.ssty2];
+sub muitalic-math from [muitalic-math.ssty1 muitalic-math.ssty2];
+sub nbold-math from [nbold-math.ssty1 nbold-math.ssty2];
+sub nitalic-math from [nitalic-math.ssty1 nitalic-math.ssty2];
+sub nscript-math from [nscript-math.ssty1 nscript-math.ssty2];
+sub nuitalic-math from [nuitalic-math.ssty1 nuitalic-math.ssty2];
+sub obold-math from [obold-math.ssty1 obold-math.ssty2];
+sub oitalic-math from [oitalic-math.ssty1 oitalic-math.ssty2];
+sub omegaitalic-math from [omegaitalic-math.ssty1 omegaitalic-math.ssty2];
+sub omicronitalic-math from [omicronitalic-math.ssty1 omicronitalic-math.ssty2];
+sub pbold-math from [pbold-math.ssty1 pbold-math.ssty2];
+sub phiSymbolitalic-math from [phiSymbolitalic-math.ssty1];
+sub phiitalic-math from [phiitalic-math.ssty1 phiitalic-math.ssty2];
+sub piSymbolitalic-math from [piSymbolitalic-math.ssty1];
+sub piitalic-math from [piitalic-math.ssty1 piitalic-math.ssty2];
+sub pitalic-math from [pitalic-math.ssty1 pitalic-math.ssty2];
+sub pscript-math from [pscript-math.ssty1 pscript-math.ssty2];
+sub psiitalic-math from [psiitalic-math.ssty1 psiitalic-math.ssty2];
+sub qbold-math from [qbold-math.ssty1 qbold-math.ssty2];
+sub qitalic-math from [qitalic-math.ssty1 qitalic-math.ssty2];
+sub qscript-math from [qscript-math.ssty1 qscript-math.ssty2];
+sub rbold-math from [rbold-math.ssty1 rbold-math.ssty2];
+sub rhoSymbolitalic-math from [rhoSymbolitalic-math.ssty1];
+sub rhoitalic-math from [rhoitalic-math.ssty1 rhoitalic-math.ssty2];
+sub ritalic-math from [ritalic-math.ssty1 ritalic-math.ssty2];
+sub rscript-math from [rscript-math.ssty1 rscript-math.ssty2];
+sub sbold-math from [sbold-math.ssty1 sbold-math.ssty2];
+sub sigmafinalitalic-math from [sigmafinalitalic-math.ssty1 sigmafinalitalic-math.ssty2];
+sub sigmaitalic-math from [sigmaitalic-math.ssty1 sigmaitalic-math.ssty2];
+sub sitalic-math from [sitalic-math.ssty1 sitalic-math.ssty2];
+sub sscript-math from [sscript-math.ssty1 sscript-math.ssty2];
+sub tauitalic-math from [tauitalic-math.ssty1 tauitalic-math.ssty2];
+sub tbold-math from [tbold-math.ssty1 tbold-math.ssty2];
+sub thetaSymbolitalic-math from [thetaSymbolitalic-math.ssty1];
+sub thetaitalic-math from [thetaitalic-math.ssty1 thetaitalic-math.ssty2];
+sub titalic-math from [titalic-math.ssty1 titalic-math.ssty2];
+sub tscript-math from [tscript-math.ssty1 tscript-math.ssty2];
+sub ubold-math from [ubold-math.ssty1 ubold-math.ssty2];
+sub uitalic-math from [uitalic-math.ssty1 uitalic-math.ssty2];
+sub upsilonitalic-math from [upsilonitalic-math.ssty1 upsilonitalic-math.ssty2];
+sub uscript-math from [uscript-math.ssty1 uscript-math.ssty2];
+sub vbold-math from [vbold-math.ssty1 vbold-math.ssty2];
+sub vitalic-math from [vitalic-math.ssty1 vitalic-math.ssty2];
+sub vscript-math from [vscript-math.ssty1 vscript-math.ssty2];
+sub wbold-math from [wbold-math.ssty1 wbold-math.ssty2];
+sub witalic-math from [witalic-math.ssty1 witalic-math.ssty2];
+sub wscript-math from [wscript-math.ssty1 wscript-math.ssty2];
+sub xbold-math from [xbold-math.ssty1 xbold-math.ssty2];
+sub xiitalic-math from [xiitalic-math.ssty1 xiitalic-math.ssty2];
+sub xitalic-math from [xitalic-math.ssty1 xitalic-math.ssty2];
+sub xscript-math from [xscript-math.ssty1 xscript-math.ssty2];
+sub ybold-math from [ybold-math.ssty1 ybold-math.ssty2];
+sub yitalic-math from [yitalic-math.ssty1 yitalic-math.ssty2];
+sub yscript-math from [yscript-math.ssty1 yscript-math.ssty2];
+sub zbold-math from [zbold-math.ssty1 zbold-math.ssty2];
+sub zetaitalic-math from [zetaitalic-math.ssty1 zetaitalic-math.ssty2];
+sub zitalic-math from [zitalic-math.ssty1 zitalic-math.ssty2];
+sub zscript-math from [zscript-math.ssty1 zscript-math.ssty2];
+sub gitalic-math.alt from [gitalic-math.alt.ssty1 gitalic-math.alt.ssty2];
+sub ibold-math.dotless from [ibold-math.dotless.ssty1 ibold-math.dotless.ssty2];
+sub iscript-math.dotless from [iscript-math.dotless.ssty1 iscript-math.dotless.ssty2];
+sub jbold-math.dotless from [jbold-math.dotless.ssty1 jbold-math.dotless.ssty2];
+sub jscript-math.dotless from [jscript-math.dotless.ssty1 jscript-math.dotless.ssty2];
+sub Bscript from [Bscript.ssty1 Bscript.ssty2];
+sub Hscript from [Hscript.ssty1 Hscript.ssty2];
+sub Iscript from [Iscript.ssty1 Iscript.ssty2];
+sub Lscript from [Lscript.ssty1 Lscript.ssty2];
+sub Rscript from [Rscript.ssty1 Rscript.ssty2];
+sub AdoubleStruck from [AdoubleStruck.ssty1 AdoubleStruck.ssty2];
+sub BdoubleStruck from [BdoubleStruck.ssty1 BdoubleStruck.ssty2];
+sub CdoubleStruck from [CdoubleStruck.ssty1 CdoubleStruck.ssty2];
+sub DdoubleStruck from [DdoubleStruck.ssty1 DdoubleStruck.ssty2];
+sub EdoubleStruck from [EdoubleStruck.ssty1 EdoubleStruck.ssty2];
+sub FdoubleStruck from [FdoubleStruck.ssty1 FdoubleStruck.ssty2];
+sub GdoubleStruck from [GdoubleStruck.ssty1 GdoubleStruck.ssty2];
+sub HdoubleStruck from [HdoubleStruck.ssty1 HdoubleStruck.ssty2];
+sub IdoubleStruck from [IdoubleStruck.ssty1 IdoubleStruck.ssty2];
+sub JdoubleStruck from [JdoubleStruck.ssty1 JdoubleStruck.ssty2];
+sub KdoubleStruck from [KdoubleStruck.ssty1 KdoubleStruck.ssty2];
+sub LdoubleStruck from [LdoubleStruck.ssty1 LdoubleStruck.ssty2];
+sub MdoubleStruck from [MdoubleStruck.ssty1 MdoubleStruck.ssty2];
+sub NdoubleStruck from [NdoubleStruck.ssty1 NdoubleStruck.ssty2];
+sub OdoubleStruck from [OdoubleStruck.ssty1 OdoubleStruck.ssty2];
+sub PdoubleStruck from [PdoubleStruck.ssty1 PdoubleStruck.ssty2];
+sub QdoubleStruck from [QdoubleStruck.ssty1 QdoubleStruck.ssty2];
+sub RdoubleStruck from [RdoubleStruck.ssty1 RdoubleStruck.ssty2];
+sub SdoubleStruck from [SdoubleStruck.ssty1 SdoubleStruck.ssty2];
+sub TdoubleStruck from [TdoubleStruck.ssty1 TdoubleStruck.ssty2];
+sub UdoubleStruck from [UdoubleStruck.ssty1 UdoubleStruck.ssty2];
+sub VdoubleStruck from [VdoubleStruck.ssty1 VdoubleStruck.ssty2];
+sub WdoubleStruck from [WdoubleStruck.ssty1 WdoubleStruck.ssty2];
+sub XdoubleStruck from [XdoubleStruck.ssty1 XdoubleStruck.ssty2];
+sub YdoubleStruck from [YdoubleStruck.ssty1 YdoubleStruck.ssty2];
+sub ZdoubleStruck from [ZdoubleStruck.ssty1 ZdoubleStruck.ssty2];
+sub Escript from [Escript.ssty1 Escript.ssty2];
+sub Fscript from [Fscript.ssty1 Fscript.ssty2];
+sub Mscript from [Mscript.ssty1 Mscript.ssty2];
+sub adoubleStruck from [adoubleStruck.ssty1 adoubleStruck.ssty2];
+sub bdoubleStruck from [bdoubleStruck.ssty1 bdoubleStruck.ssty2];
+sub cdoubleStruck from [cdoubleStruck.ssty1 cdoubleStruck.ssty2];
+sub ddoubleStruck from [ddoubleStruck.ssty1 ddoubleStruck.ssty2];
+sub edoubleStruck from [edoubleStruck.ssty1 edoubleStruck.ssty2];
+sub fdoubleStruck from [fdoubleStruck.ssty1 fdoubleStruck.ssty2];
+sub gdoubleStruck from [gdoubleStruck.ssty1 gdoubleStruck.ssty2];
+sub hdoubleStruck from [hdoubleStruck.ssty1 hdoubleStruck.ssty2];
+sub idoubleStruck from [idoubleStruck.ssty1 idoubleStruck.ssty2];
+sub jdoubleStruck from [jdoubleStruck.ssty1 jdoubleStruck.ssty2];
+sub kdoubleStruck from [kdoubleStruck.ssty1 kdoubleStruck.ssty2];
+sub ldoubleStruck from [ldoubleStruck.ssty1 ldoubleStruck.ssty2];
+sub mdoubleStruck from [mdoubleStruck.ssty1 mdoubleStruck.ssty2];
+sub ndoubleStruck from [ndoubleStruck.ssty1 ndoubleStruck.ssty2];
+sub odoubleStruck from [odoubleStruck.ssty1 odoubleStruck.ssty2];
+sub pdoubleStruck from [pdoubleStruck.ssty1 pdoubleStruck.ssty2];
+sub qdoubleStruck from [qdoubleStruck.ssty1 qdoubleStruck.ssty2];
+sub rdoubleStruck from [rdoubleStruck.ssty1 rdoubleStruck.ssty2];
+sub sdoubleStruck from [sdoubleStruck.ssty1 sdoubleStruck.ssty2];
+sub tdoubleStruck from [tdoubleStruck.ssty1 tdoubleStruck.ssty2];
+sub udoubleStruck from [udoubleStruck.ssty1 udoubleStruck.ssty2];
+sub vdoubleStruck from [vdoubleStruck.ssty1 vdoubleStruck.ssty2];
+sub wdoubleStruck from [wdoubleStruck.ssty1 wdoubleStruck.ssty2];
+sub xdoubleStruck from [xdoubleStruck.ssty1 xdoubleStruck.ssty2];
+sub ydoubleStruck from [ydoubleStruck.ssty1 ydoubleStruck.ssty2];
+sub zdoubleStruck from [zdoubleStruck.ssty1 zdoubleStruck.ssty2];
+sub gscript from [gscript.ssty1 gscript.ssty2];
+sub planckconstant from [planckconstant.ssty1 planckconstant.ssty2];
+sub planckconstantovertwopi from [planckconstantovertwopi.ssty1 planckconstantovertwopi.ssty2];
+sub escript from [escript.ssty1 escript.ssty2];
+sub oscript from [oscript.ssty1 oscript.ssty2];
+sub idoubleStruck.dotless from [idoubleStruck.dotless.ssty1 idoubleStruck.dotless.ssty2];
+sub jdoubleStruck.dotless from [jdoubleStruck.dotless.ssty1 jdoubleStruck.dotless.ssty2];
+sub aeTurnedmod from [aeTurnedmod.ssty1 aeTurnedmod.ssty2];
+sub zero from [zero.ssty1 zero.ssty2];
+sub one from [one.ssty1 one.ssty2];
+sub two from [two.ssty1 two.ssty2];
+sub three from [three.ssty1 three.ssty2];
+sub four from [four.ssty1 four.ssty2];
+sub five from [five.ssty1 five.ssty2];
+sub six from [six.ssty1 six.ssty2];
+sub seven from [seven.ssty1 seven.ssty2];
+sub eight from [eight.ssty1 eight.ssty2];
+sub nine from [nine.ssty1 nine.ssty2];
+sub zero.uv001 from [zero.uv001.ssty1 zero.uv001.ssty2];
+sub leftanglebracket-math from [leftanglebracket-math.ssty1 leftanglebracket-math.ssty2];
+sub rightanglebracket-math from [rightanglebracket-math.ssty1 rightanglebracket-math.ssty2];
+sub period from [period.ssty1 period.ssty2];
+sub comma from [comma.ssty1 comma.ssty2];
+sub colon from [colon.ssty1 colon.ssty2];
+sub semicolon from [semicolon.ssty1 semicolon.ssty2];
+sub ellipsis from [ellipsis.ssty1 ellipsis.ssty2];
+sub exclam from [exclam.ssty1 exclam.ssty2];
+sub numbersign from [numbersign.ssty1 numbersign.ssty2];
+sub slash from [slash.ssty1 slash.ssty2];
+sub backslash from [backslash.ssty1 backslash.ssty2];
+sub hyphen from [hyphen.ssty1 hyphen.ssty2];
+sub parenleft from [parenleft.ssty1 parenleft.ssty2];
+sub parenright from [parenright.ssty1 parenright.ssty2];
+sub braceleft from [braceleft.ssty1 braceleft.ssty2];
+sub braceright from [braceright.ssty1 braceright.ssty2];
+sub bracketleft from [bracketleft.ssty1 bracketleft.ssty2];
+sub bracketright from [bracketright.ssty1 bracketright.ssty2];
+sub quotedblleft from [quotedblleft.ssty1 quotedblleft.ssty2];
+sub quotedblright from [quotedblright.ssty1 quotedblright.ssty2];
+sub quoteleft from [quoteleft.ssty1 quoteleft.ssty2];
+sub quoteright from [quoteright.ssty1 quoteright.ssty2];
+sub doubleprimeReversed from [doubleprimeReversed.ssty1 doubleprimeReversed.ssty2];
+sub primeReversed from [primeReversed.ssty1 primeReversed.ssty2];
+sub quadrupleprime from [quadrupleprime.ssty1 quadrupleprime.ssty2];
+sub tripleprime from [tripleprime.ssty1 tripleprime.ssty2];
+sub tripleprimeReversed from [tripleprimeReversed.ssty1 tripleprimeReversed.ssty2];
+sub gradientitalic-math from [gradientitalic-math.ssty1 gradientitalic-math.ssty2];
+sub partialdiffitalic-math from [partialdiffitalic-math.ssty1 partialdiffitalic-math.ssty2];
+sub natural-musical from [natural-musical.ssty1 natural-musical.ssty2];
+sub sharp-musical from [sharp-musical.ssty1 sharp-musical.ssty2];
+sub downtackmod from [downtackmod.ssty1 downtackmod.ssty2];
+sub uptackmod from [uptackmod.ssty1 uptackmod.ssty2];
+sub minute from [minute.ssty1 minute.ssty2];
+sub second from [second.ssty1 second.ssty2];
+sub bar from [bar.ssty1 bar.ssty2];
+sub literSign from [literSign.ssty1 literSign.ssty2];
+sub dagger from [dagger.ssty1 dagger.ssty2];
+sub asteriskmath from [asteriskmath.ssty1 asteriskmath.ssty2];
+sub bulletoperator from [bulletoperator.ssty1 bulletoperator.ssty2];
+sub dotmath from [dotmath.ssty1 dotmath.ssty2];
+sub element from [element.ssty1 element.ssty2];
+sub greaterThanOrSlantedEqualTo from [greaterThanOrSlantedEqualTo.ssty1 greaterThanOrSlantedEqualTo.ssty2];
+sub lessThanOrSlantedEqualTo from [lessThanOrSlantedEqualTo.ssty1 lessThanOrSlantedEqualTo.ssty2];
+sub midlinehorizontalellipsis from [midlinehorizontalellipsis.ssty1 midlinehorizontalellipsis.ssty2];
+sub minusplus from [minusplus.ssty1 minusplus.ssty2];
+sub plus from [plus.ssty1 plus.ssty2];
+sub minus from [minus.ssty1 minus.ssty2];
+sub multiply from [multiply.ssty1 multiply.ssty2];
+sub equal from [equal.ssty1 equal.ssty2];
+sub notequal from [notequal.ssty1 notequal.ssty2];
+sub greater from [greater.ssty1 greater.ssty2];
+sub less from [less.ssty1 less.ssty2];
+sub greaterequal from [greaterequal.ssty1 greaterequal.ssty2];
+sub lessequal from [lessequal.ssty1 lessequal.ssty2];
+sub plusminus from [plusminus.ssty1 plusminus.ssty2];
+sub emptyset from [emptyset.ssty1 emptyset.ssty2];
+sub infinity from [infinity.ssty1 infinity.ssty2];
+sub logicaland from [logicaland.ssty1 logicaland.ssty2];
+sub logicalor from [logicalor.ssty1 logicalor.ssty2];
+sub intersection from [intersection.ssty1 intersection.ssty2];
+sub union from [union.ssty1 union.ssty2];
+sub integral from [integral.ssty1 integral.ssty2];
+sub summation from [summation.ssty1 summation.ssty2];
+sub radical from [radical.ssty1 radical.ssty2];
+sub partialdiff from [partialdiff.ssty1 partialdiff.ssty2];
+sub ringoperator from [ringoperator.ssty1 ringoperator.ssty2];
+sub setminus from [setminus.ssty1 setminus.ssty2];
+sub similar from [similar.ssty1 similar.ssty2];
+sub staroperator from [staroperator.ssty1 staroperator.ssty2];
+sub subset from [subset.ssty1 subset.ssty2];
+sub suchthat from [suchthat.ssty1 suchthat.ssty2];
+sub superset from [superset.ssty1 superset.ssty2];
+sub tackdown from [tackdown.ssty1 tackdown.ssty2];
+sub uptack from [uptack.ssty1 uptack.ssty2];
+sub multiply.circled from [multiply.circled.ssty1 multiply.circled.ssty2];
+sub plus.circled from [plus.circled.ssty1 plus.circled.ssty2];
+sub intersection.uv001 from [intersection.uv001.ssty1 intersection.uv001.ssty2];
+sub union.uv001 from [union.uv001.ssty1 union.uv001.ssty2];
+sub setminus.uv001 from [setminus.uv001.ssty1 setminus.uv001.ssty2];
+sub upArrow from [upArrow.ssty1 upArrow.ssty2];
+sub rightArrow from [rightArrow.ssty1 rightArrow.ssty2];
+sub downArrow from [downArrow.ssty1 downArrow.ssty2];
+sub leftArrow from [leftArrow.ssty1 leftArrow.ssty2];
+sub rightarrowabovecomb from [rightarrowabovecomb.ssty1 rightarrowabovecomb.ssty2];
+";
+notes = "Add to top, later, after generating feature:\012script math;";
+tag = ssty;
+}
+);
+fontMaster = (
+{
+customParameters = (
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -423;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -423;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 423;
+},
+{
+name = underlineThickness;
+value = 71;
+},
+{
+name = underlinePosition;
+value = -175;
+}
+);
+guides = (
+{
+pos = (309,844);
+},
+{
+pos = (309,853);
+},
+{
+pos = (309,1062);
+},
+{
+pos = (309,1071);
+},
+{
+locked = 1;
+pos = (254,439);
+},
+{
+locked = 1;
+pos = (254,428);
+},
+{
+angle = 90;
+name = ".s12 top";
+pos = (-50,2162);
+},
+{
+name = ".s12 bottom";
+pos = (-495,-1606);
+},
+{
+name = "bracket-base-regular";
+pos = (-35,-158);
+},
+{
+angle = 180;
+name = "bracket-top-regular";
+pos = (-51,784);
+}
+);
+id = master01;
+metricValues = (
+{
+over = 16;
+pos = 1069;
+},
+{
+over = 12;
+pos = 714;
+},
+{
+over = 11;
+pos = 536;
+},
+{
+over = -11;
+},
+{
+over = -16;
+pos = -423;
+},
+{
+over = -11;
+}
+);
+name = Regular;
+stemValues = (
+42,
+42
+);
+userData = {
+GSCornerRadius = 20;
+GSOffsetHorizontal = -51;
+GSOffsetKeepCompatible = 1;
+GSOffsetPosition = 1;
+GSOffsetProportional = 1;
+GSOffsetVertical = 4;
+com.nagwa.MATHPlugin.constants = {
+AccentBaseHeight = 546;
+AxisHeight = 350;
+DelimitedSubFormulaMinHeight = 1200;
+DisplayOperatorMinHeight = 1650;
+FlattenedAccentBaseHeight = 714;
+FractionDenomDisplayStyleGapMin = 210;
+FractionDenominatorDisplayStyleShiftDown = 640;
+FractionDenominatorGapMin = 71;
+FractionDenominatorShiftDown = 320;
+FractionNumDisplayStyleGapMin = 210;
+FractionNumeratorDisplayStyleShiftUp = 640;
+FractionNumeratorGapMin = 71;
+FractionNumeratorShiftUp = 580;
+FractionRuleThickness = 71;
+LowerLimitBaselineDropMin = 670;
+LowerLimitGapMin = 135;
+MathLeading = 150;
+MinConnectorOverlap = 100;
+OverbarExtraAscender = 71;
+OverbarRuleThickness = 71;
+OverbarVerticalGap = 200;
+RadicalDegreeBottomRaisePercent = 56;
+RadicalDisplayStyleVerticalGap = 190;
+RadicalExtraAscender = 90;
+RadicalKernAfterDegree = -450;
+RadicalKernBeforeDegree = 277;
+RadicalRuleThickness = 90;
+RadicalVerticalGap = 89;
+ScriptPercentScaleDown = 60;
+ScriptScriptPercentScaleDown = 50;
+SkewedFractionHorizontalGap = 350;
+SkewedFractionVerticalGap = 71;
+SpaceAfterScript = 40;
+StackBottomDisplayStyleShiftDown = 690;
+StackBottomShiftDown = 385;
+StackDisplayStyleGapMin = 500;
+StackGapMin = 210;
+StackTopDisplayStyleShiftUp = 780;
+StackTopShiftUp = 470;
+StretchStackBottomShiftDown = 590;
+StretchStackGapAboveMin = 135;
+StretchStackGapBelowMin = 135;
+StretchStackTopShiftUp = 800;
+SubSuperscriptGapMin = 250;
+SubscriptBaselineDropMin = 160;
+SubscriptShiftDown = 210;
+SubscriptTopMax = 430;
+SuperscriptBaselineDropMax = 290;
+SuperscriptBottomMaxWithSubscript = 430;
+SuperscriptBottomMin = 134;
+SuperscriptShiftUp = 390;
+SuperscriptShiftUpCramped = 280;
+UnderbarExtraDescender = 71;
+UnderbarRuleThickness = 71;
+UnderbarVerticalGap = 200;
+UpperLimitBaselineRiseMin = 300;
+UpperLimitGapMin = 135;
+};
+};
+}
+);
+instances = (
+{
+instanceInterpolations = {
+master01 = 1;
+};
+name = Regular;
+properties = (
+{
+key = styleMapFamilyName;
+value = "Noto Sans Math";
+}
+);
+}
+);
+kerningLTR = {
+master01 = {
+minute = {
+minute = -62;
+};
+minute.ssty1 = {
+minute.ssty1 = -74;
+};
+minute.ssty2 = {
+minute.ssty2 = -65;
+};
+primeReversed = {
+primeReversed = -62;
+};
+primeReversed.ssty1 = {
+primeReversed.ssty1 = -74;
+};
+primeReversed.ssty2 = {
+primeReversed.ssty2 = -65;
+};
+};
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+properties = (
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Monotype Design Team, Delve Withrington, Jeff Kellem";
+}
+);
+},
+{
+key = designerURL;
+value = "http://www.monotype.com/studio";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Monotype Imaging Inc., Delve Fonts LLC";
+}
+);
+},
+{
+key = manufacturerURL;
+value = "http://www.google.com/get/noto/";
+},
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2022 Google LLC. All Rights Reserved.";
+}
+);
+},
+{
+key = vendorID;
+value = GOOG;
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.";
+}
+);
+},
+{
+key = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+{
+key = trademarks;
+values = (
+{
+language = dflt;
+value = "Noto is a trademark of Google Inc.";
+}
+);
+},
+{
+key = descriptions;
+values = (
+{
+language = dflt;
+value = "Noto is a collection of high-quality fonts with multiple weights and widths in sans, serif, mono, and other styles. The Noto fonts are perfect for harmonious, aesthetic, and typographically correct global communication, in more than 1,000 languages and over 150 writing systems.
+
+\"Noto\" means \"I write, I mark, I note\" in Latin. The name is also short for \"no tofu\", as the project aims to eliminate 'tofu': blank rectangles shown when no font is available for your text.";
+}
+);
+}
+);
+stems = (
+{
+name = vStem0;
+},
+{
+horizontal = 1;
+name = hStem0;
+}
+);
+unitsPerEm = 1000;
+userData = {
+"Letterink-FileVersion" = 9;
+"Letterink-MinimumCompatibleMarketingVersion" = "1.0.12 (2021-11-02)";
+UFO.lib = {
+GSOffsetHorizontal = -25;
+GSOffsetVertical = -23;
+angle = 0;
+com.schriftgestaltung.appVersion = "1271";
+com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment = 1;
+com.schriftgestaltung.customParameter.GSFont.useNiceNames = 0;
+com.schriftgestaltung.customParameter.GSFontMaster.customValue = 0;
+com.schriftgestaltung.customParameter.GSFontMaster.customValue1 = 0;
+com.schriftgestaltung.customParameter.GSFontMaster.customValue2 = 0;
+com.schriftgestaltung.customParameter.GSFontMaster.customValue3 = 0;
+com.schriftgestaltung.customParameter.GSFontMaster.iconName = "";
+com.schriftgestaltung.customParameter.GSFontMaster.weightValue = 100;
+com.schriftgestaltung.customParameter.GSFontMaster.widthValue = 100;
+com.schriftgestaltung.fontMasterOrder = 0;
+com.schriftgestaltung.keyboardIncrement = 1;
+height = 22;
+noodleExtremesAndInflections = 1;
+noodleRemoveOverlap = 1;
+noodleThickness = "18.0";
+public.postscriptNames = {
+"A-fraktur" = u1D504;
+APLIbeam = uni2336;
+APLalpha = uni237A;
+APLalphaunderbar = uni2376;
+APLbackslashbar = uni2340;
+APLcirclebackslash = uni2349;
+APLcircledieresis = uni2365;
+APLcirclejot = uni233E;
+APLcirclestar = uni235F;
+APLcirclestile = uni233D;
+APLcircleunderbar = uni235C;
+APLcommabar = uni236A;
+APLdeldieresis = uni2362;
+APLdelstile = uni2352;
+APLdeltastile = uni234B;
+APLdeltaunderbar = uni2359;
+APLdeltilde = uni236B;
+APLdiamondunderbar = uni235A;
+APLdowncarettilde = uni2371;
+APLdownshoestile = uni2366;
+APLdowntackjot = uni234E;
+APLdowntackunderbar = uni234A;
+APLdownvane = uni2356;
+APLepsilonunderbar = uni2377;
+APLgreaterthandieresis = uni2369;
+APLiota = uni2373;
+APLiotaunderbar = uni2378;
+APLjotdieresis = uni2364;
+APLjotunderbar = uni235B;
+APLleftshoestile = uni2367;
+APLleftvane = uni2345;
+APLomega = uni2375;
+APLomegaunderbar = uni2379;
+APLquad = uni2395;
+APLquadbackslash = uni2342;
+APLquadcircle = uni233C;
+APLquadcolon = uni2360;
+APLquaddel = uni2354;
+APLquaddelta = uni234D;
+APLquaddiamond = uni233A;
+APLquaddivide = uni2339;
+APLquaddownarrow = uni2357;
+APLquaddowncaret = uni234C;
+APLquadequal = uni2338;
+"APLquadgreater-than" = uni2344;
+APLquadjot = uni233B;
+APLquadleftarrow = uni2347;
+"APLquadless-than" = uni2343;
+APLquadnotequal = uni236F;
+APLquadquestion = uni2370;
+APLquadrightarrow = uni2348;
+APLquadslash = uni2341;
+APLquaduparrow = uni2350;
+APLquadupcaret = uni2353;
+APLquotequad = uni235E;
+APLquoteunderbar = uni2358;
+APLrho = uni2374;
+APLrightvane = uni2346;
+APLsemicolonunderbar = uni236E;
+APLslashbar = uni233F;
+APLsquishquad = uni2337;
+APLstardieresis = uni2363;
+APLstiletilde = uni236D;
+APLtildedieresis = uni2368;
+APLupcarettilde = uni2372;
+APLupshoejot = uni235D;
+APLuptackdieresis = uni2361;
+APLuptackjot = uni2355;
+APLuptackoverbar = uni2351;
+APLupvane = uni234F;
+APLzilde = uni236C;
+"Abold-math" = u1D400;
+"Abolditalic-math" = u1D468;
+"Aboldscript-math" = u1D4D0;
+AdoubleStruck = u1D538;
+"Aitalic-math" = u1D434;
+AnnuitySymbol = uni20E7;
+"Ascript-math" = u1D49C;
+"B-fraktur" = u1D505;
+"BBold-fraktur" = u1D56D;
+"Bbold-math" = u1D401;
+"Bbolditalic-math" = u1D469;
+"Bboldscript-math" = u1D4D1;
+BdoubleStruck = u1D539;
+"Bitalic-math" = u1D435;
+Bscript = uni212C;
+"C-fraktur" = uni212D;
+"Cbold-math" = u1D402;
+"Cbolditalic-math" = u1D46A;
+"Cboldscript-math" = u1D4D2;
+CdoubleStruck = uni2102;
+"Citalic-math" = u1D436;
+"Cscript-math" = u1D49E;
+"D-fraktur" = u1D507;
+"Dbold-math" = u1D403;
+"Dbolditalic-math" = u1D46B;
+"Dboldscript-math" = u1D4D3;
+DdoubleStruck = u1D53B;
+Delta = uni0394;
+DirectlyLeftWaveArrow = uni2B3F;
+"Ditalic-math" = u1D437;
+DitalicDoubleStruck = uni2145;
+"Dscript-math" = u1D49F;
+"E-fraktur" = u1D508;
+"Ebold-math" = u1D404;
+"Ebolditalic-math" = u1D46C;
+"Eboldscript-math" = u1D4D4;
+EdoubleStruck = u1D53C;
+"Eitalic-math" = u1D438;
+Escript = uni2130;
+"F-fraktur" = u1D509;
+"Fbold-math" = u1D405;
+"Fbolditalic-math" = u1D46D;
+"Fboldscript-math" = u1D4D5;
+FdoubleStruck = u1D53D;
+"Fitalic-math" = u1D439;
+Fscript = uni2131;
+"G-fraktur" = u1D50A;
+GammadoubleStruck = uni213E;
+"Gbold-math" = u1D406;
+"Gbolditalic-math" = u1D46E;
+"Gboldscript-math" = u1D4D6;
+GdoubleStruck = u1D53E;
+"Gitalic-math" = u1D43A;
+"Gscript-math" = u1D4A2;
+"H-fraktur" = uni210C;
+"Hbold-math" = u1D407;
+"Hbolditalic-math" = u1D46F;
+"Hboldscript-math" = u1D4D7;
+HdoubleStruck = uni210D;
+"Hitalic-math" = u1D43B;
+Hscript = uni210B;
+"I-fraktur" = uni2111;
+"Ibold-math" = u1D408;
+"Ibolditalic-math" = u1D470;
+"Iboldscript-math" = u1D4D8;
+IdoubleStruck = u1D540;
+"Iitalic-math" = u1D43C;
+Iscript = uni2110;
+"J-fraktur" = u1D50D;
+"Jbold-math" = u1D409;
+"Jbolditalic-math" = u1D471;
+"Jboldscript-math" = u1D4D9;
+JdoubleStruck = u1D541;
+"Jitalic-math" = u1D43D;
+"Jscript-math" = u1D4A5;
+"K-fraktur" = u1D50E;
+"Kbold-math" = u1D40A;
+"Kbolditalic-math" = u1D472;
+"Kboldscript-math" = u1D4DA;
+KdoubleStruck = u1D542;
+"Kitalic-math" = u1D43E;
+"Kscript-math" = u1D4A6;
+"L-fraktur" = u1D50F;
+"Lbold-math" = u1D40B;
+"Lbolditalic-math" = u1D473;
+"Lboldscript-math" = u1D4DB;
+LdoubleStruck = u1D543;
+"Litalic-math" = u1D43F;
+Lscript = uni2112;
+"M-fraktur" = u1D510;
+"Mbold-math" = u1D40C;
+"Mbolditalic-math" = u1D474;
+"Mboldscript-math" = u1D4DC;
+MdoubleStruck = u1D544;
+"Mitalic-math" = u1D440;
+Mscript = uni2133;
+"N-fraktur" = u1D511;
+"NBold-fraktur" = u1D579;
+"Nbold-math" = u1D40D;
+"Nbolditalic-math" = u1D475;
+"Nboldscript-math" = u1D4DD;
+NdoubleStruck = uni2115;
+"Nitalic-math" = u1D441;
+"Nscript-math" = u1D4A9;
+"O-fraktur" = u1D512;
+"Obold-math" = u1D40E;
+"Obolditalic-math" = u1D476;
+"Oboldscript-math" = u1D4DE;
+OdoubleStruck = u1D546;
+"Oitalic-math" = u1D442;
+Omega = uni03A9;
+"OperatorHahWithDalArabic-math" = u1EEF1;
+"OperatorMeemWithHahWithTatweelArabic-math" = u1EEF0;
+"Oscript-math" = u1D4AA;
+"P-fraktur" = u1D513;
+"Pbold-math" = u1D40F;
+"Pbolditalic-math" = u1D477;
+"Pboldscript-math" = u1D4DF;
+PdoubleStruck = uni2119;
+PidoubleStruck = uni213F;
+"Pitalic-math" = u1D443;
+"Pscript-math" = u1D4AB;
+"Q-fraktur" = u1D514;
+"Qbold-math" = u1D410;
+"Qbolditalic-math" = u1D478;
+"Qboldscript-math" = u1D4E0;
+QdoubleStruck = uni211A;
+"Qitalic-math" = u1D444;
+"Qscript-math" = u1D4AC;
+"R-fraktur" = uni211C;
+"RBold-fraktur" = u1D57D;
+"Rbold-math" = u1D411;
+"Rbolditalic-math" = u1D479;
+"Rboldscript-math" = u1D4E1;
+RdoubleStruck = uni211D;
+"Ritalic-math" = u1D445;
+Rscript = uni211B;
+"S-fraktur" = u1D516;
+"Sbold-math" = u1D412;
+"Sbolditalic-math" = u1D47A;
+"Sboldscript-math" = u1D4E2;
+SdoubleStruck = u1D54A;
+"Sitalic-math" = u1D446;
+"Sscript-math" = u1D4AE;
+"T-fraktur" = u1D517;
+"Tbold-math" = u1D413;
+"Tbolditalic-math" = u1D47B;
+"Tboldscript-math" = u1D4E3;
+TdoubleStruck = u1D54B;
+ThetaSymbol = uni03F4;
+"Titalic-math" = u1D447;
+"Tscript-math" = u1D4AF;
+"U-fraktur" = u1D518;
+"Ubold-math" = u1D414;
+"Ubolditalic-math" = u1D47C;
+"Uboldscript-math" = u1D4E4;
+UdoubleStruck = u1D54C;
+"Uitalic-math" = u1D448;
+"Uscript-math" = u1D4B0;
+"V-fraktur" = u1D519;
+"Vbold-math" = u1D415;
+"Vbolditalic-math" = u1D47D;
+"Vboldscript-math" = u1D4E5;
+VdoubleStruck = u1D54D;
+"Vitalic-math" = u1D449;
+"Vscript-math" = u1D4B1;
+"W-fraktur" = u1D51A;
+"Wbold-math" = u1D416;
+"Wbolditalic-math" = u1D47E;
+"Wboldscript-math" = u1D4E6;
+WdoubleStruck = u1D54E;
+"Witalic-math" = u1D44A;
+"Wscript-math" = u1D4B2;
+"X-fraktur" = u1D51B;
+"Xbold-math" = u1D417;
+"Xbolditalic-math" = u1D47F;
+"Xboldscript-math" = u1D4E7;
+XdoubleStruck = u1D54F;
+"Xitalic-math" = u1D44B;
+"Xscript-math" = u1D4B3;
+"Y-fraktur" = u1D51C;
+"Ybold-math" = u1D418;
+"Ybolditalic-math" = u1D480;
+"Yboldscript-math" = u1D4E8;
+YdoubleStruck = u1D550;
+"Yitalic-math" = u1D44C;
+"Yscript-math" = u1D4B4;
+"Z-fraktur" = uni2128;
+"ZBold-fraktur" = u1D585;
+"Zbold-math" = u1D419;
+"Zbolditalic-math" = u1D481;
+"Zboldscript-math" = u1D4E9;
+ZdoubleStruck = uni2124;
+"Zitalic-math" = u1D44D;
+"Zscript-math" = u1D4B5;
+"a-fraktur" = u1D51E;
+"abold-math" = u1D41A;
+"abolditalic-math" = u1D482;
+"aboldscript-math" = u1D4EA;
+acuteAngle = uni299F;
+acuteAngle.mir = uni299F.mir;
+adoubleStruck = u1D552;
+"ainArabic-math" = u1EE0F;
+"aitalic-math" = u1D44E;
+"alefArabic-math" = u1EE00;
+alephsymbol = uni2135;
+allequal = uni224C;
+allequal.mir = uni224C.mir;
+almostEqualToWithCircumflexAccent = uni2A6F;
+almostEqualToWithCircumflexAccent.mir = uni2A6F.mir;
+almostequalorequalto = uni224A;
+almostequalorequalto.mir = uni224A.mir;
+amalgamationOrCoproduct = uni2A3F;
+andWithDot = uni27D1;
+angleWithSInside = uni299E;
+angleWithSInside.mir = uni299E.mir;
+angleWithUnderbar = uni29A4;
+angleWithUnderbar.mir = uni29A4.mir;
+anticlockwiseClosedCircleArrow = uni2940;
+anticlockwiseGappedCircleArrow = uni27F2;
+anticlockwiseIntegration = uni2A11;
+anticlockwiseIntegration.mir = uni2A11.mir;
+anticlockwiseOpenCircleArrow = uni21BA;
+anticlockwiseRotatedDivisionSign.circled = uni29BC;
+anticlockwisearrowabovecomb = uni20D4;
+anticlockwisecontourintegral = uni2233;
+anticlockwisecontourintegral.mir = uni2233.mir;
+anticlockwiseringoverlaycomb = uni20DA;
+approaches = uni2250;
+approxequalorimage = uni2252;
+approximatelyEqualOrEqualTo = uni2A70;
+approximatelyEqualOrEqualTo.mir = uni2A70.mir;
+approximatelybutnotactuallyequalto = uni2246;
+approximatelybutnotactuallyequalto.mir = uni2246.mir;
+"ascript-math" = u1D4B6;
+assertion = uni22A6;
+asteriskoperator.circled = uni229B;
+asymptoticallyequal = uni2243;
+"b-fraktur" = u1D51F;
+bar.circled = uni29B6;
+"bbold-math" = u1D41B;
+"bbolditalic-math" = u1D483;
+"bboldscript-math" = u1D4EB;
+bdoubleStruck = u1D553;
+because = uni2235;
+"behArabic-math" = u1EE01;
+"behDotlessArabic-math" = u1EE1C;
+betsymbol = uni2136;
+between = uni226C;
+bigReverseSolidus = uni29F9;
+bigSolidus = uni29F8;
+"bitalic-math" = u1D44F;
+blackBowtie = uni29D3;
+blackCircleWithDownArrow = uni29ED;
+blackDiamondWithDownArrow = uni29EA;
+blackHourglass = uni29D7;
+blackLozenge = uni29EB;
+bottomArcAnticlockwiseArrow = uni293B;
+bottomLeftCorner = uni231E;
+bottomRightCorner = uni231F;
+bottomcurlybracket = uni23DF;
+bottomparenthesis = uni23DD;
+bottomsquarebracket = uni23B5;
+bottomsquarebracketovertopsquarebracket = uni23B6;
+bottomtortoiseshellbracket = uni23E1;
+bowtie = uni22C8;
+bowtieWithLeftHalfBlack = uni29D1;
+bowtieWithRightHalfBlack = uni29D2;
+braceleft.full = uniFF5B;
+braceright.full = uniFF5D;
+"bscript-math" = u1D4B7;
+bullet.circled = uni29BF;
+bulletoperator = uni2219;
+"c-fraktur" = u1D520;
+"cbold-math" = u1D41C;
+"cbolditalic-math" = u1D484;
+"cboldscript-math" = u1D4EC;
+cdoubleStruck = u1D554;
+circleDividedByHorizontalBarAndTopHalfDividedByVerticalBar = uni29BA;
+circleTowStrokesRight = uni29C2;
+circleTowStrokesRight.mir = uni29C2.mir;
+circleTwoHorizontalStrokesRight = uni29C3;
+circleTwoHorizontalStrokesRight.mir = uni29C3.mir;
+circleWithHorizontalBar = uni29B5;
+circleWithSuperimposedX = uni29BB;
+circulationFunction = uni2A10;
+circulationFunction.mir = uni2A10.mir;
+"citalic-math" = u1D450;
+clockwiseClosedCircleArrow = uni2941;
+clockwiseGappedCircleArrow = uni27F3;
+clockwiseOpenCircleArrow = uni21BB;
+clockwisearrowabovecomb = uni20D5;
+clockwisecontourintegral = uni2232;
+clockwisecontourintegral.mir = uni2232.mir;
+clockwiseintegral = uni2231;
+clockwiseintegral.mir = uni2231.mir;
+clockwiseringoverlaycomb = uni20D9;
+closedIntersectionWithSerifs = uni2A4D;
+closedSubset = uni2ACF;
+closedSubsetOrEqualTo = uni2AD1;
+closedSuperset = uni2AD0;
+closedSupersetOrEqualTo = uni2AD2;
+closedUnionWithSerifs = uni2A4C;
+closedUnionWithSerifsAndSmashProduct = uni2A50;
+colonequals = uni2254;
+complement = uni2201;
+complement.mir = uni2201.mir;
+congruentWithDotAbove = uni2A6D;
+congruentWithDotAbove.mir = uni2A6D.mir;
+containsasmemberSmall = uni220D;
+containsasnormalsubgroup = uni22B3;
+containsasnormalsubgrouporequalto = uni22B5;
+containslonghorizontalstroke = uni22FA;
+containsoverbar = uni22FD;
+containsverticalbaratendofhorizontalstroke = uni22FB;
+contourintegral = uni222E;
+contourintegral.mir = uni222E.mir;
+coproduct = uni2210;
+correspondsto = uni2258;
+"cscript-math" = u1D4B8;
+cuberoot = uni221B;
+cuberoot.mir = uni221B.mir;
+curlyand = uni22CF;
+curlybracketextension = uni23AA;
+curlyor = uni22CE;
+"d-fraktur" = u1D521;
+"dadArabic-math" = u1EE19;
+"dalArabic-math" = u1EE03;
+daletsymbol = uni2138;
+dash.circled = uni229D;
+dashdownArrow = uni21E3;
+dblintegral = uni222C;
+dblintegral.mir = uni222C.mir;
+"dbold-math" = u1D41D;
+"dbolditalic-math" = u1D485;
+"dboldscript-math" = u1D4ED;
+ddoubleStruck = u1D555;
+deltaequalto = uni225C;
+diamondoperator = uni22C4;
+differencebetween = uni224F;
+"ditalic-math" = u1D451;
+ditalicDoubleStruck = uni2146;
+divide.circled = uni2A38;
+divides = uni2223;
+divisionslash = uni2215;
+divisiontimes = uni22C7;
+doesNotDivideWithReversedNegationSlash = uni2AEE;
+doesNotDivideWithReversedNegationSlash.mir = uni2AEE.mir;
+doesnotcontainasnormalsubgroup = uni22EB;
+doesnotcontainasnormalsubgrouporequal = uni22ED;
+doesnotdivide = uni2224;
+doesnotdivide.mir = uni2224.mir;
+doesnotforce = uni22AE;
+doesnotforce.mir = uni22AE.mir;
+doesnotprecedeorequal = uni22E0;
+doesnotprove = uni22AC;
+doesnotprove.mir = uni22AC.mir;
+doesnotsucceedorequal = uni22E1;
+dotminus = uni2238;
+dotplus = uni2214;
+dottedCircle = uni25CC;
+dottedFence = uni2999;
+doubleColonEqual = uni2A74;
+doubleColonEqual.mir = uni2A74.mir;
+doubleDownTack = uni2AEA;
+doubleEndedMultimap = uni29DF;
+doubleLineEqualToOrGreaterThan = uni2A9A;
+doubleLineEqualToOrLessThan = uni2A99;
+doubleLineSlantedEqualToOrGreaterThan = uni2A9C;
+doubleLineSlantedEqualToOrLessThan = uni2A9B;
+doubleLineSlantedGreaterThanOrEqualTo = uni2AFA;
+doubleLineSlantedLessThanOrEqualTo = uni2AF9;
+doubleLogicalAnd = uni2A53;
+doubleLogicalOr = uni2A54;
+doubleNestedGreaterThan = uni2AA2;
+doubleNestedLessThan = uni2AA1;
+doubleNestedLessThanWithUnderbar = uni2AA3;
+doubleNestedLessThanWithUnderbar.mir = uni2AA3.mir;
+doublePlus = uni29FA;
+doublePrecedes = uni2ABB;
+doubleSolidusOperator = uni2AFD;
+doubleSolidusOperator.mir = uni2AFD.mir;
+doubleSquareIntersection = uni2A4E;
+doubleSquareUnion = uni2A4F;
+doubleStrokeNotSign = uni2AEC;
+doubleSucceeds = uni2ABC;
+doubleUpTack = uni2AEB;
+doubleVerticalBarDoubleLeftTurnstile = uni2AE5;
+doubleVerticalBarLeftTurnstile = uni2AE3;
+doubleintersection = uni22D2;
+doubleleftarcgreaterthanbracket = uni2995;
+doubleprimeReversed = uni2036;
+doublerightarclessthanbracket = uni2996;
+"doublestruckainArabic-math" = u1EEAF;
+"doublestruckbehArabic-math" = u1EEA1;
+"doublestruckdadArabic-math" = u1EEB9;
+"doublestruckdalArabic-math" = u1EEA3;
+"doublestruckfehArabic-math" = u1EEB0;
+"doublestruckghainArabic-math" = u1EEBB;
+"doublestruckhahArabic-math" = u1EEA7;
+"doublestruckjeemArabic-math" = u1EEA2;
+"doublestruckkhahArabic-math" = u1EEB7;
+"doublestrucklamArabic-math" = u1EEAB;
+"doublestruckmeemArabic-math" = u1EEAC;
+"doublestrucknoonArabic-math" = u1EEAD;
+"doublestruckqafArabic-math" = u1EEB2;
+"doublestruckrehArabic-math" = u1EEB3;
+"doublestrucksadArabic-math" = u1EEB1;
+"doublestruckseenArabic-math" = u1EEAE;
+"doublestrucksheenArabic-math" = u1EEB4;
+"doublestrucktahArabic-math" = u1EEA8;
+"doublestrucktehArabic-math" = u1EEB5;
+"doublestruckthalArabic-math" = u1EEB8;
+"doublestruckthehArabic-math" = u1EEB6;
+"doublestruckwawArabic-math" = u1EEA5;
+"doublestruckyehArabic-math" = u1EEA9;
+"doublestruckzahArabic-math" = u1EEBA;
+"doublestruckzainArabic-math" = u1EEA6;
+doublesubset = uni22D0;
+doublesuperset = uni22D1;
+doubleunion = uni22D3;
+doubleverticalbardoublerightturnstile = uni22AB;
+doubleverticalstrokeoverlaycomb = uni20E6;
+downAndUpArrow = uni21F5;
+downArrow = arrowdown;
+downArrowToBar = uni2913;
+downArrowWithHorizontalStroke = uni2908;
+downBarbLeftHarpoon = uni21C3;
+downBarbRightHarpoon = uni21C2;
+downDoubleArrow = arrowdbldown;
+downDoublePairedArrow = uni21CA;
+downFishTail = uni297F;
+downFrombarArrow = uni21A7;
+downHarpoonWithBarbLeftBesideDownHarpoonWithBarbRight = uni2965;
+downHarpoonWithBarbLeftBesideUpHarpoonWithBarbRight = uni296F;
+downHarpoonWithBarbLeftFromBar = uni2961;
+downHarpoonWithBarbLeftToBar = uni2959;
+downHarpoonWithBarbRightFromBar = uni295D;
+downHarpoonWithBarbRightToBar = uni2955;
+downQuadrupleArrow = uni27F1;
+downTackWithCircleBelow = uni2AF1;
+downThenCurvingLeftArrow = uni2936;
+downThenCurvingRightArrow = uni2937;
+downTipLeftArrow = uni21B2;
+downTipRightArrow = uni21B3;
+downTriangleWithLeftHalfBlack = uni29E8;
+downTriangleWithLeftHalfBlack.mir = uni29E8.mir;
+downTriangleWithRightHalfBlack = uni29E9;
+downTriangleWithRightHalfBlack.mir = uni29E9.mir;
+downTripleArrow = uni290B;
+downTwoheadedArrow = uni21A1;
+downWhiteTriangle = uni25BD;
+downrightdiagonalellipsis = uni22F1;
+"dscript-math" = u1D4B9;
+"e-fraktur" = u1D522;
+"ebold-math" = u1D41E;
+"ebolditalic-math" = u1D486;
+"eboldscript-math" = u1D4EE;
+edoubleStruck = u1D556;
+"eitalic-math" = u1D452;
+eitalicDoubleStruck = uni2147;
+elementOfOpeningDown = uni2AD9;
+elementOfOpeningUp = uni27D2;
+elementSmall = uni220A;
+elementofdotabove = uni22F5;
+elementofdotabove.mir = uni22F5.mir;
+elementoflonghorizontalstroke = uni22F2;
+elementofoverbar = uni22F6;
+elementoftwohorizontalstrokes = uni22F9;
+elementoftwohorizontalstrokes.mir = uni22F9.mir;
+elementofunderbar = uni22F8;
+elementofunderbar.mir = uni22F8.mir;
+elementofverticalbaratendofhorizontalstroke = uni22F3;
+ellipsisvertical = uni22EE;
+emptySetWithLeftArrowAbove = uni29B4;
+emptySetWithOverbar = uni29B1;
+emptySetWithRightArrowAbove = uni29B3;
+emptysetcircleabove = uni29B2;
+endofproof = uni220E;
+epsilonLunateSymbol = uni03F5;
+equalandparallelto = uni22D5;
+equals.circled = uni229C;
+equalsSignAboveLeftArrow = uni2B40;
+equalsSignAbovePlusSign = uni2A71;
+equalsSignAboveRightArrow = uni2971;
+equalsSignAboveTildeOperator = uni2A73;
+equalsSignAboveTildeOperator.mir = uni2A73.mir;
+equalsSignAndSlantedParallel = uni29E3;
+equalsSignAndSlantedParallel.mir = uni29E3.mir;
+equalsSignAndSlantedParallelWithTildeAbove = uni29E4;
+equalsSignAndSlantedParallelWithTildeAbove.mir = uni29E4.mir;
+equalsSignWithBumpyAbove = uni2AAE;
+equalsSignWithDotBelow = uni2A66;
+equalsSignWithTwoDotsAboveAndTwoDotsBelow = uni2A77;
+equalsWithAsterisk = uni2A6E;
+equalscolon = uni2255;
+equaltobydefinition = uni225D;
+"equaltoorgreater-than" = uni22DD;
+"equaltoorless-than" = uni22DC;
+equaltoorprecedes = uni22DE;
+equaltoorsucceeds = uni22DF;
+equiangularTo = uni225A;
+equivalentWithFourDotsAbove = uni2A78;
+equivalentto = uni224D;
+errorBarredBlack.circled = uni29F3;
+errorBarredBlackDiamond = uni29F1;
+errorBarredBlackSquare = uni29EF;
+errorBarredWhite.circled = uni29F2;
+errorBarredWhiteDiamond = uni29F0;
+errorBarredWhiteSquare = uni29EE;
+erthan = uni2AAA;
+erthanorequalto = uni2AAC;
+escript = uni212F;
+estimates = uni2259;
+excess = uni2239;
+excess.mir = uni2239.mir;
+"f-fraktur" = u1D523;
+"fallingDiagonal-math" = uni27CD;
+"fallingDiagonal-math.mir" = uni27CD.mir;
+fallingDiagonalCrossingNorthEastArrow = uni292F;
+fallingDiagonalCrossingRisingDiagonal = uni292C;
+"fbold-math" = u1D41F;
+"fbolditalic-math" = u1D487;
+"fboldscript-math" = u1D4EF;
+fdoubleStruck = u1D557;
+"fehArabic-math" = u1EE10;
+"fehDotlessArabic-math" = u1EE1E;
+finitePartIntegral = uni2A0D;
+finitePartIntegral.mir = uni2A0D.mir;
+"fitalic-math" = u1D453;
+"flat-musical" = uni266D;
+forces = uni22A9;
+forking = uni2ADC;
+forking.mir = uni2ADC.mir;
+fourdotsabovecomb = uni20DC;
+fourthroot = uni221C;
+fourthroot.mir = uni221C.mir;
+fraction.circled = uni2298;
+"fscript-math" = u1D4BB;
+fullOuterJoin = uni27D7;
+"g-fraktur" = u1D524;
+gammadoubleStruck = uni213D;
+"gbold-math" = u1D420;
+"gbolditalic-math" = u1D488;
+"gboldscript-math" = u1D4F0;
+gdoubleStruck = u1D558;
+geometricallyequal = uni2251;
+geometricallyequivalentto = uni224E;
+geometricproportion = uni223A;
+"ghainArabic-math" = u1EE1B;
+gimelsymbol = uni2137;
+"gitalic-math" = u1D454;
+gleichStark = uni29E6;
+"greater-thanbutnotequalto" = uni2269;
+"greater-thanbutnotequivalentto" = uni22E7;
+"greater-thandot" = uni22D7;
+greaterThan.circled = uni29C1;
+greaterThanAboveDoubleLineEqualAboveLessThan = uni2A8C;
+greaterThanAboveLessThanAboveDoubleLineEqual = uni2A92;
+greaterThanAboveRightArrow = uni2978;
+greaterThanAboveSimilarAboveLessThan = uni2A90;
+greaterThanAboveSimilarAboveLessThan.mir = uni2A90.mir;
+greaterThanAboveSimilarOrEqual = uni2A8E;
+greaterThanAboveSimilarOrEqual.mir = uni2A8E.mir;
+greaterThanAboveSlantedEqualAboveLessThanAboveSlantedEqual = uni2A94;
+greaterThanAndNotApproximate = uni2A8A;
+greaterThanAndNotApproximate.mir = uni2A8A.mir;
+greaterThanAndSingleLineNotEqualTo = uni2A88;
+greaterThanAndSingleLineNotEqualTo.mir = uni2A88.mir;
+greaterThanBesideLessThan = uni2AA5;
+greaterThanClosedByCurve = uni2AA7;
+greaterThanClosedByCurveAboveSlantedEqual = uni2AA9;
+greaterThanOrApproximate = uni2A86;
+greaterThanOrApproximate.mir = uni2A86.mir;
+greaterThanOrSlantedEqualTo = uni2A7E;
+greaterThanOrSlantedEqualToWithDotAbove = uni2A82;
+greaterThanOrSlantedEqualToWithDotAboveLeft = uni2A84;
+greaterThanOrSlantedEqualToWithDotInside = uni2A80;
+greaterThanOverlappingLessThan = uni2AA4;
+greaterThanWithCircleInside = uni2A7A;
+greaterThanWithQuestionMarkAbove = uni2A7C;
+greaterThanWithQuestionMarkAbove.mir = uni2A7C.mir;
+greaterequalorless = uni22DB;
+greaterorequivalent = uni2273;
+greaterorless = uni2277;
+greateroverequal = uni2267;
+gscript = uni210A;
+"h-fraktur" = u1D525;
+"hahArabic-math" = u1EE07;
+"hbold-math" = u1D421;
+"hbolditalic-math" = u1D489;
+"hboldscript-math" = u1D4F1;
+hdoubleStruck = u1D559;
+hermitianconjugatematrix = uni22B9;
+homothetic = uni223B;
+homothetic.mir = uni223B.mir;
+horizontallineextension = uni23AF;
+"hscript-math" = u1D4BD;
+"i-fraktur" = u1D526;
+"ibold-math" = u1D422;
+"ibolditalic-math" = u1D48A;
+"iboldscript-math" = u1D4F2;
+identicalToAndSlantedParallel = uni29E5;
+identicalToAndSlantedParallel.mir = uni29E5.mir;
+identicalWithDotAbove = uni2A67;
+idoubleStruck = u1D55A;
+"iitalic-math" = u1D456;
+iitalicDoubleStruck = uni2148;
+imageof = uni22B7;
+imageorapproximatelyequal = uni2253;
+incompleteInfinity = uni29DC;
+incompleteInfinity.mir = uni29DC.mir;
+increasesAs = uni29E1;
+increasesAs.mir = uni29E1.mir;
+increment = uni2206;
+infinityNegatedWithVerticalBar = uni29DE;
+"initialainArabic-math" = u1EE2F;
+"initialbehArabic-math" = u1EE21;
+"initialdadArabic-math" = u1EE39;
+"initialfehArabic-math" = u1EE30;
+"initialghainArabic-math" = u1EE3B;
+"initialhahArabic-math" = u1EE27;
+"initialhehArabic-math" = u1EE24;
+"initialjeemArabic-math" = u1EE22;
+"initialkafArabic-math" = u1EE2A;
+"initialkhahArabic-math" = u1EE37;
+"initiallamArabic-math" = u1EE2B;
+"initialmeemArabic-math" = u1EE2C;
+"initialnoonArabic-math" = u1EE2D;
+"initialqafArabic-math" = u1EE32;
+"initialsadArabic-math" = u1EE31;
+"initialseenArabic-math" = u1EE2E;
+"initialsheenArabic-math" = u1EE34;
+"initialtehArabic-math" = u1EE35;
+"initialthehArabic-math" = u1EE36;
+"initialyehArabic-math" = u1EE29;
+integralAroundAPointOperator = uni2A15;
+integralAroundAPointOperator.mir = uni2A15.mir;
+integralAverageWithSlash = uni2A0F;
+integralAverageWithSlash.mir = uni2A0F.mir;
+integralWithDoubleStroke = uni2A0E;
+integralWithDoubleStroke.mir = uni2A0E.mir;
+integralWithIntersection = uni2A19;
+integralWithIntersection.mir = uni2A19.mir;
+integralWithLeftArrowWithHook = uni2A17;
+integralWithLeftArrowWithHook.mir = uni2A17.mir;
+integralWithOverbar = uni2A1B;
+integralWithOverbar.mir = uni2A1B.mir;
+integralWithTimesSign = uni2A18;
+integralWithTimesSign.mir = uni2A18.mir;
+integralWithUnderbar = uni2A1C;
+integralWithUnderbar.mir = uni2A1C.mir;
+integralWithUnion = uni2A1A;
+integralWithUnion.mir = uni2A1A.mir;
+integralextension = uni23AE;
+intercalate = uni22BA;
+interiorProduct = uni2A3C;
+intersectionAboveBarAboveUnion = uni2A49;
+intersectionAboveUnion = uni2A47;
+intersectionBesideAndJoinedWithIntersection = uni2A4B;
+intersectionWithDot = uni2A40;
+intersectionWithLogicalAnd = uni2A44;
+intersectionWithOverbar = uni2A43;
+invertedlazys = uni223E;
+invertedlazys.mir = uni223E.mir;
+"iscript-math" = u1D4BE;
+"j-fraktur" = u1D527;
+"jbold-math" = u1D423;
+"jbolditalic-math" = u1D48B;
+"jboldscript-math" = u1D4F3;
+jdoubleStruck = u1D55B;
+"jeemArabic-math" = u1EE02;
+"jitalic-math" = u1D457;
+jitalicDoubleStruck = uni2149;
+join = uni2A1D;
+"jscript-math" = u1D4BF;
+"k-fraktur" = u1D528;
+"kafArabic-math" = u1EE0A;
+kappaSymbol = uni03F0;
+"kbold-math" = u1D424;
+"kbolditalic-math" = u1D48C;
+"kboldscript-math" = u1D4F4;
+kdoubleStruck = u1D55C;
+"khahArabic-math" = u1EE17;
+"kitalic-math" = u1D458;
+"kscript-math" = u1D4C0;
+"l-fraktur" = u1D529;
+"lamArabic-math" = u1EE0B;
+largeDownTack = uni27D9;
+largeLeftTriangleOperator = uni2A1E;
+largeLeftTriangleOperator.mir = uni2A1E.mir;
+largeTripleVerticalBarOperator = uni2AFC;
+largeUpTack = uni27D8;
+largerThan = uni2AAB;
+largerThanOrEqualTo = uni2AAD;
+"lbold-math" = u1D425;
+"lbolditalic-math" = u1D48D;
+"lboldscript-math" = u1D4F5;
+ldoubleStruck = u1D55D;
+leftAndRightArrow = uni21C6;
+leftAndRightDoubleTurnstile = uni27DA;
+leftAndRightTack = uni27DB;
+leftArrow = arrowleft;
+leftArrowAboveAlmostEqualTo = uni2B4A;
+leftArrowAboveReverseAlmostEqualTo = uni2B42;
+leftArrowAboveReverseTildeOperator = uni2B4B;
+leftArrowAboveShortRightArrow = uni2943;
+leftArrowAboveTildeOperator = uni2973;
+leftArrowFromBarToBlackDiamond = uni291F;
+leftArrowTail = uni2919;
+leftArrowThroughLessThan = uni2977;
+leftArrowThroughSubset = uni297A;
+leftArrowThroughX = uni2B3E;
+leftArrowTipDown = uni2B10;
+leftArrowTipUp = uni2B11;
+leftArrowToBlackDiamond = uni291D;
+leftArrowWithCircledPlus = uni2B32;
+leftArrowWithDottedStem = uni2B38;
+leftArrowWithPlusBelow = uni2946;
+leftArrowWithTailWithDoubleVerticalStroke = uni2B3A;
+leftArrowWithTailWithVerticalStroke = uni2B39;
+leftBarbDownHarpoon = uni21BD;
+leftBarbDownRightBarbDownHarpoon = uni2950;
+leftBarbDownRightBarbUpHarpoon = uni294B;
+leftBarbUpHarpoon = uni21BC;
+leftBarbUpRightBarbDownHarpoon = uni294A;
+leftBarbUpRightBarbUpHarpoon = uni294E;
+leftCeiling = uni2308;
+leftDashArrow = uni21E0;
+leftDoubleArrow = arrowdblleft;
+leftDoubleArrowFromBar = uni2906;
+leftDoubleArrowTail = uni291B;
+leftDoubleArrowWithVerticalStroke = uni2902;
+leftDoubleDashArrow = uni290C;
+leftDoublePairedArrow = uni21C7;
+leftDoubleStrokeArrow = uni21CD;
+leftDoubleVerticalStrokeArrow = uni21FA;
+leftFishTail = uni297C;
+leftFloor = uni230A;
+leftFrombarArrow = uni21A4;
+leftHarpoonWithBarbDownAboveRightHarpoonWithBarbDown = uni2967;
+leftHarpoonWithBarbDownBelowLongDash = uni296B;
+leftHarpoonWithBarbDownFromBar = uni295E;
+leftHarpoonWithBarbDownToBar = uni2956;
+leftHarpoonWithBarbUpAboveLeftHarpoonWithBarbDown = uni2962;
+leftHarpoonWithBarbUpAboveLongDash = uni296A;
+leftHarpoonWithBarbUpAboveRightHarpoonWithBarbUp = uni2966;
+leftHarpoonWithBarbUpFromBar = uni295A;
+leftHarpoonWithBarbUpToBar = uni2952;
+leftHookArrow = uni21A9;
+leftLongArrow = uni27F5;
+leftLongDoubleArrow = uni27F8;
+leftLongDoubleFromBarArrow = uni27FD;
+leftLongFromBarArrow = uni27FB;
+leftLoopArrow = uni21AB;
+leftMultimap = uni27DC;
+leftMultimap.mir = uni27DC.mir;
+leftOpenHeadedArrow = uni21FD;
+leftOuterJoin = uni27D5;
+leftOverRightHarpoon = uni21CB;
+leftQuadrupleArrow = uni2B45;
+leftRightArrow = arrowboth;
+leftRightDoubleArrow = arrowdblboth;
+leftRightDoubleArrowWithVerticalStroke = uni2904;
+leftRightDoubleStrokeArrow = uni21CE;
+leftRightDoubleVerticalStrokeArrow = uni21FC;
+leftRightLongArrow = uni27F7;
+leftRightLongDoubleArrow = uni27FA;
+leftRightOpenHeadedArrow = uni21FF;
+leftRightStrokeArrow = uni21AE;
+leftRightVerticalStrokeArrow = uni21F9;
+leftRightWaveArrow = uni21AD;
+leftSideArcAnticlockwiseArrow = uni2939;
+leftSquiggleArrow = uni21DC;
+leftStrokeArrow = uni219A;
+leftTabArrow = uni21E4;
+leftTailArrow = uni21A2;
+leftToBarOverRightToBarArrow = uni21B9;
+leftTriangleBesideVerticalBar = uni29CF;
+leftTripleArrow = uni21DA;
+leftTripleDashArrow = uni290E;
+leftTwoHeadedArrowFromBar = uni2B36;
+leftTwoHeadedArrowWithDoubleVerticalStroke = uni2B35;
+leftTwoHeadedArrowWithTail = uni2B3B;
+leftTwoHeadedArrowWithTailWithDoubleVerticalStroke = uni2B3D;
+leftTwoHeadedArrowWithTailWithVerticalStroke = uni2B3C;
+leftTwoHeadedArrowWithVerticalStroke = uni2B34;
+leftTwoHeadedTripleDashArrow = uni2B37;
+leftTwoheadedArrow = uni219E;
+leftVerticalStrokeArrow = uni21F7;
+leftWaveArrow = uni219C;
+leftWhiteTriangle = uni25C1;
+"leftanglebracket-math" = uni27E8;
+leftanglebracketdot = uni2991;
+leftarclessthanbracket = uni2993;
+leftarrowabovecomb = uni20D6;
+leftarrowbelowcomb = uni20EE;
+leftarrowoverlaycomb = uni20EA;
+leftarrowwithcircle = uni2B30;
+leftblacktortoiseshellbracket = uni2997;
+leftcurlybracketlowerhook = uni23A9;
+leftcurlybracketmiddlepiece = uni23A8;
+leftcurlybracketupperhook = uni23A7;
+"leftdoubleanglebracket-math" = uni27EA;
+leftdoublewigglyfence = uni29DA;
+"leftflattenedparenthesis-math" = uni27EE;
+leftharpoonabovecomb = uni20D0;
+leftharpoonwithbarbdowncomb = uni20ED;
+leftnormalfactorsemidirectproduct = uni22C9;
+leftpointingcurvedanglebracket = uni29FC;
+leftrightarrowabovecomb = uni20E1;
+leftrightarrowthroughcircle = uni2948;
+leftsemidirectproduct = uni22CB;
+leftsquarebracketextension = uni23A2;
+leftsquarebracketlowercorner = uni23A3;
+leftsquarebrackettickinbottomcorner = uni298F;
+leftsquarebrackettickintopcorner = uni298D;
+leftsquarebracketunderbar = uni298B;
+leftsquarebracketuppercorner = uni23A1;
+leftsshapedbagdelimiter = uni27C5;
+leftwhitecurlybracket = uni2983;
+"leftwhitesquarebracket-math" = uni27E6;
+"leftwhitetortoiseshellbracket-math" = uni27EC;
+leftwigglyfence = uni29D8;
+"less-thanbutnotequalto" = uni2268;
+"less-thanbutnotequivalentto" = uni22E6;
+"less-thandot" = uni22D6;
+lessThan.circled = uni29C0;
+lessThanAboveDoubleLineEqualAboveGreaterThan = uni2A8B;
+lessThanAboveGreaterThanAboveDoubleLineEqual = uni2A91;
+lessThanAboveLeftArrow = uni2976;
+lessThanAboveSimilarAboveGreaterThan = uni2A8F;
+lessThanAboveSimilarAboveGreaterThan.mir = uni2A8F.mir;
+lessThanAboveSimilarOrEqual = uni2A8D;
+lessThanAboveSimilarOrEqual.mir = uni2A8D.mir;
+lessThanAboveSlantedEqualAboveGreaterThanAboveSlantedEqual = uni2A93;
+lessThanAndNotApproximate = uni2A89;
+lessThanAndNotApproximate.mir = uni2A89.mir;
+lessThanAndSingleLineNotEqualTo = uni2A87;
+lessThanAndSingleLineNotEqualTo.mir = uni2A87.mir;
+lessThanClosedByCurve = uni2AA6;
+lessThanClosedByCurveAboveSlantedEqual = uni2AA8;
+lessThanOrApproximate = uni2A85;
+lessThanOrApproximate.mir = uni2A85.mir;
+lessThanOrSlantedEqualTo = uni2A7D;
+lessThanOrSlantedEqualToWithDotAbove = uni2A81;
+lessThanOrSlantedEqualToWithDotAboveRight = uni2A83;
+lessThanOrSlantedEqualToWithDotInside = uni2A7F;
+lessThanWithCircleInside = uni2A79;
+lessThanWithQuestionMarkAbove = uni2A7B;
+lessThanWithQuestionMarkAbove.mir = uni2A7B.mir;
+lessequalorgreater = uni22DA;
+lessorequivalent = uni2272;
+lessorequivalent.mir = uni2272.mir;
+lessorgreater = uni2276;
+lessoverequal = uni2266;
+lineIntegrationNotIncludingThePole = uni2A14;
+lineIntegrationNotIncludingThePole.mir = uni2A14.mir;
+lineIntegrationWithRectangularPathAroundPole = uni2A12;
+lineIntegrationWithRectangularPathAroundPole.mir = uni2A12.mir;
+lineIntegrationWithSemicircularPathAroundPole = uni2A13;
+lineIntegrationWithSemicircularPathAroundPole.mir = uni2A13.mir;
+"litalic-math" = u1D459;
+logicalAndWithDotAbove = uni2A51;
+logicalAndWithDoubleOverbar = uni2A5E;
+logicalAndWithDoubleUnderbar = uni2A60;
+logicalAndWithHorizontalDash = uni2A5C;
+logicalAndWithMiddleStem = uni2A5A;
+logicalAndWithUnderbar = uni2A5F;
+logicalOrOverlappingLogicalAnd = uni2A59;
+logicalOrWithDotAbove = uni2A52;
+logicalOrWithDoubleOverbar = uni2A62;
+logicalOrWithDoubleUnderbar = uni2A63;
+logicalOrWithHorizontalDash = uni2A5D;
+logicalOrWithMiddleStem = uni2A5B;
+logicalnotReversed = revlogicalnot;
+longDashFromLeftMemberOfDoubleVertical = uni2AE6;
+longDashFromLeftMemberOfDoubleVertical.mir = uni2AE6.mir;
+longDivision = uni27CC;
+longDivision.mir = uni27CC.mir;
+longLeftSquiggleArrow = uni2B33;
+longLeftTack = uni27DE;
+longRightTack = uni27DD;
+longdoublesolidusoverlaycomb = uni20EB;
+longverticallineoverlaycomb = uni20D2;
+"loopedainArabic-math" = u1EE8F;
+"loopedalefArabic-math" = u1EE80;
+"loopedbehArabic-math" = u1EE81;
+"loopeddadArabic-math" = u1EE99;
+"loopeddalArabic-math" = u1EE83;
+"loopedfehArabic-math" = u1EE90;
+"loopedghainArabic-math" = u1EE9B;
+"loopedhahArabic-math" = u1EE87;
+"loopedhehArabic-math" = u1EE84;
+"loopedjeemArabic-math" = u1EE82;
+"loopedkhahArabic-math" = u1EE97;
+"loopedlamArabic-math" = u1EE8B;
+"loopedmeemArabic-math" = u1EE8C;
+"loopednoonArabic-math" = u1EE8D;
+"loopedqafArabic-math" = u1EE92;
+"loopedrehArabic-math" = u1EE93;
+"loopedsadArabic-math" = u1EE91;
+"loopedseenArabic-math" = u1EE8E;
+"loopedsheenArabic-math" = u1EE94;
+"loopedtahArabic-math" = u1EE88;
+"loopedtehArabic-math" = u1EE95;
+"loopedthalArabic-math" = u1EE98;
+"loopedthehArabic-math" = u1EE96;
+"loopedwawArabic-math" = u1EE85;
+"loopedyehArabic-math" = u1EE89;
+"loopedzahArabic-math" = u1EE9A;
+"loopedzainArabic-math" = u1EE86;
+lowerLeftSemicircularAnticlockwiseArrow = uni293F;
+lowerRightCornerWithDot = uni27D3;
+lowerRightCornerWithDot.mir = uni27D3.mir;
+lowerRightSemicircularClockwiseArrow = uni293E;
+lozengeDividedByHorizontalRule = uni27E0;
+"lscript-math" = u1D4C1;
+"m-fraktur" = u1D52A;
+"mbold-math" = u1D426;
+"mbolditalic-math" = u1D48E;
+"mboldscript-math" = u1D4F6;
+mdoubleStruck = u1D55E;
+measuredAngleOpeningLeft = uni299B;
+measuredAngleOpeningLeft.mir = uni299B.mir;
+measuredAngleWithOpenArmEndingInArrowPointingDownAndLeft = uni29AB;
+measuredAngleWithOpenArmEndingInArrowPointingDownAndLeft.mir = uni29AB.mir;
+measuredAngleWithOpenArmEndingInArrowPointingDownAndRight = uni29AA;
+measuredAngleWithOpenArmEndingInArrowPointingDownAndRight.mir = uni29AA.mir;
+measuredAngleWithOpenArmEndingInArrowPointingLeftAndDown = uni29AF;
+measuredAngleWithOpenArmEndingInArrowPointingLeftAndDown.mir = uni29AF.mir;
+measuredAngleWithOpenArmEndingInArrowPointingLeftAndUp = uni29AD;
+measuredAngleWithOpenArmEndingInArrowPointingLeftAndUp.mir = uni29AD.mir;
+measuredAngleWithOpenArmEndingInArrowPointingRightAndDown = uni29AE;
+measuredAngleWithOpenArmEndingInArrowPointingRightAndDown.mir = uni29AE.mir;
+measuredAngleWithOpenArmEndingInArrowPointingRightAndUp = uni29AC;
+measuredAngleWithOpenArmEndingInArrowPointingRightAndUp.mir = uni29AC.mir;
+measuredAngleWithOpenArmEndingInArrowPointingUpAndLeft = uni29A9;
+measuredAngleWithOpenArmEndingInArrowPointingUpAndLeft.mir = uni29A9.mir;
+measuredAngleWithOpenArmEndingInArrowPointingUpAndRight = uni29A8;
+measuredAngleWithOpenArmEndingInArrowPointingUpAndRight.mir = uni29A8.mir;
+measuredRightAngleWithDot = uni299D;
+measuredRightAngleWithDot.mir = uni299D.mir;
+measuredangle = uni2221;
+measuredangle.mir = uni2221.mir;
+measuredby = uni225E;
+mediumWhiteSquare = uni25FB;
+"meemArabic-math" = u1EE0C;
+midlinehorizontalellipsis = uni22EF;
+minus.circled = uni2296;
+minusSignInTriangle = uni2A3A;
+minusSignWithCommaAbove = uni2A29;
+minusSignWithCommaAbove.mir = uni2A29.mir;
+minusSignWithDotBelow = uni2A2A;
+minusSignWithFallingDots = uni2A2B;
+minusSignWithRisingDots = uni2A2C;
+minusplus = uni2213;
+minustilde = uni2242;
+minustilde.mir = uni2242.mir;
+miny = uni29FF;
+"mitalic-math" = u1D45A;
+models = uni22A7;
+models.mir = uni22A7.mir;
+moduloTwoSum = uni2A0A;
+moduloTwoSum.mir = uni2A0A.mir;
+"mscript-math" = u1D4C2;
+mu = uni03BC;
+muchgreater = uni226B;
+muchless = uni226A;
+multimap = uni22B8;
+multimap.mir = uni22B8.mir;
+multiply.circled = circlemultiply;
+multiplyInDoubleCircled = uni2A37;
+multiplyInLeftHalfCircled = uni2A34;
+multiplyInRightHalfCircled = uni2A35;
+multiplyInTriangle = uni2A3B;
+multiplyWithCircumflexAccentCircled = uni2A36;
+multiplyWithDotAbove = uni2A30;
+multiplyWithUnderbar = uni2A31;
+multiset = uni228C;
+multiset.mir = uni228C.mir;
+multisetmultiplication = uni228D;
+multisetunion = uni228E;
+"n-aryintersection" = uni22C2;
+"n-arylogicaland" = uni22C0;
+"n-arylogicalor" = uni22C1;
+"n-aryunion" = uni22C3;
+"n-fraktur" = u1D52B;
+nAryCircledDotOperator = uni2A00;
+nAryCircledPlusOperator = uni2A01;
+nAryCircledTimesOperator = uni2A02;
+nArySquareIntersectionOperator = uni2A05;
+nArySquareUnionOperator = uni2A06;
+nAryTimesOperator = uni2A09;
+nAryUnionOperatorWithDot = uni2A03;
+nAryUnionOperatorWithPlus = uni2A04;
+nAryWhiteVerticalBar = uni2AFF;
+nand = uni22BC;
+"natural-musical" = uni266E;
+"nbold-math" = u1D427;
+"nbolditalic-math" = u1D48F;
+"nboldscript-math" = u1D4F7;
+nbspace = uni00A0;
+ndoubleStruck = u1D55F;
+negateddoubleverticalbardoublerightturnstile = uni22AF;
+negateddoubleverticalbardoublerightturnstile.mir = uni22AF.mir;
+neitherapproximatelynoractuallyequalto = uni2247;
+neitherapproximatelynoractuallyequalto.mir = uni2247.mir;
+neitherasubsetofnorequalto = uni2288;
+neitherasupersetofnorequalto = uni2289;
+"neithergreater-thannorequivalentto" = uni2275;
+"neitherless-thannorequivalentto" = uni2274;
+"neitherless-thannorgreater-than" = uni2278;
+"nitalic-math" = u1D45B;
+nonforking = uni2ADD;
+"noonArabic-math" = u1EE0D;
+"noonDotlessArabic-math" = u1EE1D;
+nor = uni22BD;
+normalsubgroupof = uni22B2;
+normalsubgroupoforequalto = uni22B4;
+northEastAndSouthWestArrow = uni2922;
+northEastArrow = uni2197;
+northEastArrowAndSouthEastArrow = uni2928;
+northEastArrowCrossingNorthWestArrow = uni2931;
+northEastArrowCrossingSouthEastArrow = uni292E;
+northEastArrowWithHook = uni2924;
+northEastDoubleArrow = uni21D7;
+northWestAndSouthEastArrow = uni2921;
+northWestArrow = uni2196;
+northWestArrowAndNorthEastArrow = uni2927;
+northWestArrowCrossingNorthEastArrow = uni2932;
+northWestArrowToCorner = uni21F1;
+northWestArrowWithHook = uni2923;
+northWestDoubleArrow = uni21D6;
+northWestToLongbarArrow = uni21B8;
+notalmostequalto = uni2249;
+notalmostequalto.mir = uni2249.mir;
+notasymptoticallyequalto = uni2244;
+notasymptoticallyequalto.mir = uni2244.mir;
+notcontains = uni220C;
+notequivalentto = uni226D;
+notgreater = uni226F;
+notgreaternorequal = uni2271;
+notgreaternorless = uni2279;
+notidentical = uni2262;
+notidentical.mir = uni2262.mir;
+notless = uni226E;
+notlessnorequal = uni2270;
+notnormalsubgroupof = uni22EA;
+notnormalsubgroupoforequalto = uni22EC;
+notparallel = uni2226;
+notparallel.mir = uni2226.mir;
+notprecedes = uni2280;
+notsimilar = uni2241;
+notsimilar.mir = uni2241.mir;
+notsquareimageoforequalto = uni22E2;
+notsquareoriginaloforequalto = uni22E3;
+notsucceeds = uni2281;
+notsuperset = uni2285;
+nottrue = uni22AD;
+nottrue.mir = uni22AD.mir;
+"nscript-math" = u1D4C3;
+"o-fraktur" = u1D52C;
+obliqueAngleOpeningDown = uni29A7;
+obliqueAngleOpeningDown.mir = uni29A7.mir;
+obliqueAngleOpeningUp = uni29A6;
+obliqueAngleOpeningUp.mir = uni29A6.mir;
+"obold-math" = u1D428;
+"obolditalic-math" = u1D490;
+"oboldscript-math" = u1D4F8;
+odoubleStruck = u1D560;
+"oitalic-math" = u1D45C;
+one.paren = uni2474;
+openSubset = uni27C3;
+openSuperset = uni27C4;
+operator.circled = uni2299;
+orWithDotInside = uni27C7;
+originalof = uni22B6;
+oscript = uni2134;
+"p-fraktur" = u1D52D;
+pagedown = uni21DF;
+pageup = uni21DE;
+parallel = uni2225;
+parallel.circled = uni29B7;
+parallelWithHorizontalStroke = uni2AF2;
+parallelWithTildeOperator = uni2AF3;
+parallelWithTildeOperator.mir = uni2AF3.mir;
+parenleftextension = uni239C;
+parenleftlowerhook = uni239D;
+parenleftupperhook = uni239B;
+parenrightextension = uni239F;
+parenrightlowerhook = uni23A0;
+parenrightupperhook = uni239E;
+"pbold-math" = u1D429;
+"pbolditalic-math" = u1D491;
+"pboldscript-math" = u1D4F9;
+pdoubleStruck = u1D561;
+perpendicular = uni27C2;
+perpendicular.circled = uni29B9;
+perpendicularWithS = uni2AE1;
+phiSymbol = uni03D5;
+piSymbol = uni03D6;
+pidoubleStruck = uni213C;
+"pitalic-math" = u1D45D;
+pitchfork = uni22D4;
+pitchforkWithTeeTop = uni2ADA;
+planckconstant = uni210E;
+plus.circled = circleplus;
+plusSignAboveEqualsSign = uni2A72;
+plusSignInLeftHalfCircled = uni2A2D;
+plusSignInRightHalfCircled = uni2A2E;
+plusSignInTriangle = uni2A39;
+plusSignWithBlackTriangle = uni2A28;
+plusSignWithCircumflexAccentAbove = uni2A23;
+plusSignWithDotBelow = uni2A25;
+plusSignWithSubscriptTwo = uni2A27;
+plusSignWithTildeAbove = uni2A24;
+plusSignWithTildeAbove.mir = uni2A24.mir;
+plusSignWithTildeBelow = uni2A26;
+plusSignWithTildeBelow.mir = uni2A26.mir;
+pluscircleabove = uni2A22;
+precedes = uni227A;
+precedesAboveAlmostEqualTo = uni2AB7;
+precedesAboveAlmostEqualTo.mir = uni2AB7.mir;
+precedesAboveEqualsSign = uni2AB3;
+precedesAboveNotAlmostEqualTo = uni2AB9;
+precedesAboveNotAlmostEqualTo.mir = uni2AB9.mir;
+precedesAboveNotEqualTo = uni2AB5;
+precedesAboveNotEqualTo.mir = uni2AB5.mir;
+precedesAboveSingleLineEqualsSign = uni2AAF;
+precedesAboveSingleLineNotEqualTo = uni2AB1;
+precedesAboveSingleLineNotEqualTo.mir = uni2AB1.mir;
+precedesbutnotequivalentto = uni22E8;
+precedesorequalto = uni227C;
+precedesorequivalentto = uni227E;
+precedesunderrelation = uni22B0;
+primeReversed = uni2035;
+proportion = uni2237;
+"pscript-math" = u1D4C5;
+"q-fraktur" = u1D52E;
+"qafArabic-math" = u1EE12;
+"qafDotlessArabic-math" = u1EE1F;
+"qbold-math" = u1D42A;
+"qbolditalic-math" = u1D492;
+"qboldscript-math" = u1D4FA;
+qdoubleStruck = u1D562;
+"qitalic-math" = u1D45E;
+"qscript-math" = u1D4C6;
+quadrupleIntegralOperator = uni2A0C;
+quadrupleIntegralOperator.mir = uni2A0C.mir;
+quadrupleprime = uni2057;
+quaternionIntegralOperator = uni2A16;
+quaternionIntegralOperator.mir = uni2A16.mir;
+questionedequalto = uni225F;
+questionedequalto.mir = uni225F.mir;
+"r-fraktur" = u1D52F;
+ratio = uni2236;
+"rbold-math" = u1D42B;
+"rbolditalic-math" = u1D493;
+"rboldscript-math" = u1D4FB;
+rdoubleStruck = u1D563;
+"rehArabic-math" = u1EE13;
+reverseSolidus.circled = uni29B8;
+reverseSolidusOperator = uni29F5;
+reverseSolidusPrecedingSubset = uni27C8;
+reverseSolidusWithHorizontalStroke = uni29F7;
+reverseSolidusWithHorizontalStroke.mir = uni29F7.mir;
+reverseTildeOperatorAboveLeftArrow = uni2B41;
+reverseTildeOperatorAboveRightArrow = uni2B47;
+reversedAngle = uni29A3;
+reversedAngle.mir = uni29A3.mir;
+reversedAngleWithUnderbar = uni29A5;
+reversedAngleWithUnderbar.mir = uni29A5.mir;
+reversedDoubleStrokeNotSign = uni2AED;
+reversedEmptySet = uni29B0;
+reversedtilde = uni223D;
+reversedtildeequals = uni22CD;
+reversesolidusoverlaycomb = uni20E5;
+rhoSymbol = uni03F1;
+rightAngleVariantWithSquare = uni299C;
+rightAngleVariantWithSquare.mir = uni299C.mir;
+rightArrow = arrowright;
+rightArrowAboveAlmostEqualTo = uni2975;
+rightArrowAboveReverseAlmostEqualTo = uni2B48;
+rightArrowAboveReverseTildeOperator = uni2B4C;
+rightArrowAboveShortLeftArrow = uni2942;
+rightArrowAboveTildeOperator = uni2974;
+rightArrowFromBarToBlackDiamond = uni2920;
+rightArrowTail = uni291A;
+rightArrowThroughGreaterThan = uni2B43;
+rightArrowThroughSuperset = uni2B44;
+rightArrowThroughX = uni2947;
+rightArrowToBlackDiamond = uni291E;
+rightArrowWithDottedStem = uni2911;
+rightArrowWithPlusBelow = uni2945;
+rightArrowWithTailWithDoubleVerticalStroke = uni2915;
+rightArrowWithTailWithVerticalStroke = uni2914;
+rightBarbUpHarpoon = uni21C0;
+rightBarbdownHarpoon = uni21C1;
+rightCeiling = uni2309;
+rightCircleArrow = uni21F4;
+rightCircledPlusArrow = uni27F4;
+rightCornerDownArrow = uni21B4;
+rightDashArrow = uni21E2;
+rightDoubleArrow = arrowdblright;
+rightDoubleArrowFromBar = uni2907;
+rightDoubleArrowTail = uni291C;
+rightDoubleArrowWithRoundedHead = uni2970;
+rightDoubleArrowWithVerticalStroke = uni2903;
+rightDoubleDashArrow = uni290D;
+rightDoublePairedArrow = uni21C9;
+rightDoubleStrokeArrow = uni21CF;
+rightDoubleVerticalStrokeArrow = uni21FB;
+rightFishTail = uni297D;
+rightFloor = uni230B;
+rightFrombarArrow = uni21A6;
+rightHarpoonWithBarbDownAboveLeftHarpoonWithBarbDown = uni2969;
+rightHarpoonWithBarbDownBelowLongDash = uni296D;
+rightHarpoonWithBarbDownFromBar = uni295F;
+rightHarpoonWithBarbDownToBar = uni2957;
+rightHarpoonWithBarbUpAboveLeftHarpoonWithBarbUp = uni2968;
+rightHarpoonWithBarbUpAboveLongDash = uni296C;
+rightHarpoonWithBarbUpAboveRightHarpoonWithBarbDown = uni2964;
+rightHarpoonWithBarbUpFromBar = uni295B;
+rightHarpoonWithBarbUpToBar = uni2953;
+rightHookArrow = uni21AA;
+rightLongDoubleArrow = uni27F9;
+rightLongDoubleFromBarArrow = uni27FE;
+rightLongFromBarArrow = uni27FC;
+rightLongSquiggleArrow = uni27FF;
+rightLoopArrow = uni21AC;
+rightOpenHeadedArrow = uni21FE;
+rightOuterJoin = uni27D6;
+rightOverLeftArrow = uni21C4;
+rightOverLeftHarpoon = uni21CC;
+rightQuadrupleArrow = uni2B46;
+rightSideArcClockwiseArrow = uni2938;
+rightSquiggleArrow = uni21DD;
+rightStrokeArrow = uni219B;
+rightTabArrow = uni21E5;
+rightTailArrow = uni21A3;
+rightThenCurvingDownArrow = uni2935;
+rightThenCurvingUpArrow = uni2934;
+rightTipDownArrow = uni2B0E;
+rightTipUpArrow = uni2B0F;
+rightTriangleAboveLeftTriangle = uni29CE;
+rightTriangleAboveLeftTriangle.mir = uni29CE.mir;
+rightTripleArrow = uni21DB;
+rightTripleDashArrow = uni290F;
+rightTwoHeadedArrowFromBar = uni2905;
+rightTwoHeadedArrowWithDoubleVerticalStroke = uni2901;
+rightTwoHeadedArrowWithTail = uni2916;
+rightTwoHeadedArrowWithTailWithDoubleVerticalStroke = uni2918;
+rightTwoHeadedArrowWithTailWithVerticalStroke = uni2917;
+rightTwoHeadedArrowWithVerticalStroke = uni2900;
+rightTwoHeadedTripleDashArrow = uni2910;
+rightTwoheadedArrow = uni21A0;
+rightVerticalStrokeArrow = uni21F8;
+rightWaveArrow = uni219D;
+rightWhiteTriangle = uni25B7;
+rightanglearc = uni22BE;
+rightanglearc.mir = uni22BE.mir;
+"rightanglebracket-math" = uni27E9;
+rightanglebracketdot = uni2992;
+rightangledownzigzagArrow = uni237C;
+rightarcgreaterthanbracket = uni2994;
+rightarrowabovecomb = uni20D7;
+rightarrowbelowcomb = uni20EF;
+rightblacktortoiseshellbracket = uni2998;
+rightcurlybracketlowerhook = uni23AD;
+rightcurlybracketmiddlepiece = uni23AC;
+rightcurlybracketupperhook = uni23AB;
+"rightdoubleanglebracket-math" = uni27EB;
+rightdoublewigglyfence = uni29DB;
+"rightflattenedparenthesis-math" = uni27EF;
+righthandInteriorProduct = uni2A3D;
+rightharpoonabovecomb = uni20D1;
+rightharpoonwithbarbdowncomb = uni20EC;
+rightlongArrow = uni27F6;
+rightnormalfactorsemidirectproduct = uni22CA;
+rightpointingcurvedanglebracket = uni29FD;
+rightsemidirectproduct = uni22CC;
+rightsquarebracketextension = uni23A5;
+rightsquarebracketlowercorner = uni23A6;
+rightsquarebrackettickinbottomcorner = uni298E;
+rightsquarebrackettickintopcorner = uni2990;
+rightsquarebracketunderbar = uni298C;
+rightsquarebracketuppercorner = uni23A4;
+rightsshapedbagdelimiter = uni27C6;
+righttack = uni22A2;
+righttriangle = uni22BF;
+righttriangle.mir = uni22BF.mir;
+rightwhitecurlybracket = uni2984;
+"rightwhitesquarebracket-math" = uni27E7;
+"rightwhitetortoiseshellbracket-math" = uni27ED;
+rightwigglyfence = uni29D9;
+ringequalto = uni2257;
+ringinequalto = uni2256;
+ringoperator = uni2218;
+ringoperator.circled = uni229A;
+ringoverlaycomb = uni20D8;
+"risingDiagonal-math" = uni27CB;
+"risingDiagonal-math.mir" = uni27CB.mir;
+risingDiagonalCrossingFallingDiagonal = uni292B;
+risingDiagonalCrossingSouthEastArrow = uni2930;
+"ritalic-math" = u1D45F;
+"rscript-math" = u1D4C7;
+ruleDelayed = uni29F4;
+ruleDelayed.mir = uni29F4.mir;
+"s-fraktur" = u1D530;
+sInTriangle = uni29CC;
+"sadArabic-math" = u1EE11;
+"sbold-math" = u1D42C;
+"sbolditalic-math" = u1D494;
+"sboldscript-math" = u1D4FC;
+sdoubleStruck = u1D564;
+"seenArabic-math" = u1EE0E;
+semidirectProductWithBottomClosed = uni2A32;
+setminus = uni2216;
+setminus.mir = uni2216.mir;
+"sharp-musical" = uni266F;
+"sheenArabic-math" = u1EE14;
+shortDownTack = uni2ADF;
+shortDownTackWithOverbar = uni2AE7;
+shortLeftTack = uni2ADE;
+shortRightArrowAboveLeftArrow = uni2944;
+shortUpTack = uni2AE0;
+shortUpTackAboveShortDownTack = uni2AE9;
+shortUpTackWithUnderbar = uni2AE8;
+shortverticallineoverlaycomb = uni20D3;
+shuffleProduct = uni29E2;
+sigmafinal = uni03C2;
+similarAboveGreaterThanAboveEqualsSign = uni2AA0;
+similarAboveGreaterThanAboveEqualsSign.mir = uni2AA0.mir;
+similarAboveLessThanAboveEqualsSign = uni2A9F;
+similarAboveLessThanAboveEqualsSign.mir = uni2A9F.mir;
+similarMinusSimilar = uni2A6C;
+similarMinusSimilar.mir = uni2A6C.mir;
+similarOrGreaterThan = uni2A9E;
+similarOrGreaterThan.mir = uni2A9E.mir;
+similarOrLessThan = uni2A9D;
+similarOrLessThan.mir = uni2A9D.mir;
+sinewave = uni223F;
+sinewave.mir = uni223F.mir;
+"sitalic-math" = u1D460;
+slantedEqualToOrGreaterThan = uni2A96;
+slantedEqualToOrGreaterThanWithDotInside = uni2A98;
+slantedEqualToOrLessThan = uni2A95;
+slantedEqualToOrLessThanWithDotInside = uni2A97;
+slopingLargeAnd = uni2A58;
+slopingLargeAnd.mir = uni2A58.mir;
+slopingLargeOr = uni2A57;
+slopingLargeOr.mir = uni2A57.mir;
+smallcontainsoverbar = uni22FE;
+smallcontainsverticalbaratendofhorizontalstroke = uni22FC;
+smallelementofoverbar = uni22F7;
+smallelementofverticalbaratendofhorizontalstroke = uni22F4;
+smashProduct = uni2A33;
+solidusWithOverbar = uni29F6;
+solidusWithOverbar.mir = uni29F6.mir;
+southEastArrow = uni2198;
+southEastArrowAndSouthWestArrow = uni2929;
+southEastArrowCrossingNorthEastArrow = uni292D;
+southEastArrowToCorner = uni21F2;
+southEastArrowWithHook = uni2925;
+southEastDoubleArrow = uni21D8;
+southWestArrow = uni2199;
+southWestArrowAndNorthWestArrow = uni292A;
+southWestArrowWithHook = uni2926;
+southWestDoubleArrow = uni21D9;
+sphericalAngleOpeningLeft = uni29A0;
+sphericalAngleOpeningLeft.mir = uni29A0.mir;
+sphericalAngleOpeningUp = uni29A1;
+sphericalangle = uni2222;
+sphericalangle.mir = uni2222.mir;
+squareLeftOpenBoxOperator = uni2ACD;
+squareRightOpenBoxOperator = uni2ACE;
+squareWithContouredOutline = uni29E0;
+squarecap = uni2293;
+squarecup = uni2294;
+squaredAsterisk = uni29C6;
+squaredFallingDiagonalSlash = uni29C5;
+squaredLogicalAnd = uni27CE;
+squaredLogicalOr = uni27CF;
+squaredRisingDiagonalSlash = uni29C4;
+squaredSquare = uni29C8;
+squaredcircle = uni29C7;
+squareddotoperator = uni22A1;
+squaredminus = uni229F;
+squaredplus = uni229E;
+squaredtimes = uni22A0;
+squareimageof = uni228F;
+squareimageoforequalto = uni2291;
+squareimageofornotequalto = uni22E4;
+squareoriginalof = uni2290;
+squareoriginaloforequalto = uni2292;
+squareoriginalofornotequalto = uni22E5;
+"sscript-math" = u1D4C8;
+starequals = uni225B;
+staroperator = uni22C6;
+"stretchedainArabic-math" = u1EE6F;
+"stretchedbehArabic-math" = u1EE61;
+"stretcheddadArabic-math" = u1EE79;
+"stretcheddotlessbehArabic-math" = u1EE7C;
+"stretcheddotlessfehArabic-math" = u1EE7E;
+"stretchedfehArabic-math" = u1EE70;
+"stretchedghainArabic-math" = u1EE7B;
+"stretchedhahArabic-math" = u1EE67;
+"stretchedhehArabic-math" = u1EE64;
+"stretchedjeemArabic-math" = u1EE62;
+"stretchedkafArabic-math" = u1EE6A;
+"stretchedkhahArabic-math" = u1EE77;
+"stretchedmeemArabic-math" = u1EE6C;
+"stretchednoonArabic-math" = u1EE6D;
+"stretchedqafArabic-math" = u1EE72;
+"stretchedsadArabic-math" = u1EE71;
+"stretchedseenArabic-math" = u1EE6E;
+"stretchedsheenArabic-math" = u1EE74;
+"stretchedtahArabic-math" = u1EE68;
+"stretchedtehArabic-math" = u1EE75;
+"stretchedthehArabic-math" = u1EE76;
+"stretchedyehArabic-math" = u1EE69;
+"stretchedzahArabic-math" = u1EE7A;
+strictlyequivalentto = uni2263;
+subset = propersubset;
+subsetAboveRightArrow = uni2979;
+subsetAboveSubset = uni2AD5;
+subsetAboveSuperset = uni2AD3;
+subsetOfAboveAlmostEqualTo = uni2AC9;
+subsetOfAboveAlmostEqualTo.mir = uni2AC9.mir;
+subsetOfAboveEqualsSign = uni2AC5;
+subsetOfAboveNotEqualTo = uni2ACB;
+subsetOfAboveNotEqualTo.mir = uni2ACB.mir;
+subsetOfAboveTildeOperator = uni2AC7;
+subsetOfAboveTildeOperator.mir = uni2AC7.mir;
+subsetOfOrEqualToWithDotAbove = uni2AC3;
+subsetWithDot = uni2ABD;
+subsetWithMultiplicationSignBelow = uni2AC1;
+subsetWithPlusSignBelow = uni2ABF;
+subsetnotequal = uni228A;
+succeeds = uni227B;
+succeedsAboveAlmostEqualTo = uni2AB8;
+succeedsAboveAlmostEqualTo.mir = uni2AB8.mir;
+succeedsAboveEqualsSign = uni2AB4;
+succeedsAboveNotAlmostEqualTo = uni2ABA;
+succeedsAboveNotAlmostEqualTo.mir = uni2ABA.mir;
+succeedsAboveNotEqualTo = uni2AB6;
+succeedsAboveNotEqualTo.mir = uni2AB6.mir;
+succeedsAboveSingleLineEqualsSign = uni2AB0;
+succeedsAboveSingleLineNotEqualTo = uni2AB2;
+succeedsAboveSingleLineNotEqualTo.mir = uni2AB2.mir;
+succeedsbutnotequivalentto = uni22E9;
+succeedsorequalto = uni227D;
+succeedsorequivalentto = uni227F;
+succeedsunderrelation = uni22B1;
+summationWithIntegral = uni2A0B;
+summationWithIntegral.mir = uni2A0B.mir;
+summationbottom = uni23B3;
+summationdoubleStruck = uni2140;
+summationdoubleStruck.mir = uni2140.mir;
+summationtop = uni23B2;
+superset = propersuperset;
+supersetAboveLeftArrow = uni297B;
+supersetAboveSubset = uni2AD4;
+supersetAboveSuperset = uni2AD6;
+supersetBesideAndJoinedByDashWithSubset = uni2AD8;
+supersetBesideSubset = uni2AD7;
+supersetOfAboveAlmostEqualTo = uni2ACA;
+supersetOfAboveAlmostEqualTo.mir = uni2ACA.mir;
+supersetOfAboveEqualsSign = uni2AC6;
+supersetOfAboveNotEqualTo = uni2ACC;
+supersetOfAboveNotEqualTo.mir = uni2ACC.mir;
+supersetOfAboveTildeOperator = uni2AC8;
+supersetOfAboveTildeOperator.mir = uni2AC8.mir;
+supersetOfOrEqualToWithDotAbove = uni2AC4;
+supersetPrecedingSolidus = uni27C9;
+supersetWithDot = uni2ABE;
+supersetWithMultiplicationSignBelow = uni2AC2;
+supersetWithPlusSignBelow = uni2AC0;
+supersetnotequal = uni228B;
+surfaceintegral = uni222F;
+surfaceintegral.mir = uni222F.mir;
+"t-fraktur" = u1D531;
+tackdown = uni22A4;
+tackleft = uni22A3;
+"tahArabic-math" = u1EE08;
+"tailedainArabic-math" = u1EE4F;
+"taileddadArabic-math" = u1EE59;
+"taileddotlessnoonArabic-math" = u1EE5D;
+"taileddotlessqafArabic-math" = u1EE5F;
+"tailedghainArabic-math" = u1EE5B;
+"tailedhahArabic-math" = u1EE47;
+"tailedjeemArabic-math" = u1EE42;
+"tailedkhahArabic-math" = u1EE57;
+"tailedlamArabic-math" = u1EE4B;
+"tailednoonArabic-math" = u1EE4D;
+"tailedqafArabic-math" = u1EE52;
+"tailedsadArabic-math" = u1EE51;
+"tailedseenArabic-math" = u1EE4E;
+"tailedsheenArabic-math" = u1EE54;
+"tailedyehArabic-math" = u1EE49;
+"tbold-math" = u1D42D;
+"tbolditalic-math" = u1D495;
+"tboldscript-math" = u1D4FD;
+tdoubleStruck = u1D565;
+"tehArabic-math" = u1EE15;
+"thalArabic-math" = u1EE18;
+"thehArabic-math" = u1EE16;
+theredoesnotexist = uni2204;
+theredoesnotexist.mir = uni2204.mir;
+thermodynamic = uni29E7;
+thetaSymbol = uni03D1;
+threeConsecutiveEqualsSigns = uni2A76;
+threeDimensionalAngle = uni27C0;
+threeDimensionalAngle.mir = uni27C0.mir;
+threeLeftArrows = uni2B31;
+threeRightArrow = uni21F6;
+threedotsabovecomb = uni20DB;
+tieOverInfinity = uni29DD;
+tildeOperatorAboveLeftArrow = uni2B49;
+tildeOperatorAboveRightArrow = uni2972;
+tildeOperatorWithDotAbove = uni2A6A;
+tildeOperatorWithDotAbove.mir = uni2A6A.mir;
+tildeOperatorWithRisingDots = uni2A6B;
+tildeOperatorWithRisingDots.mir = uni2A6B.mir;
+timesWithLeftHalfBlack = uni29D4;
+timesWithRightHalfBlack = uni29D5;
+tiny = uni29FE;
+"titalic-math" = u1D461;
+topArcAnticlockwiseArrow = uni293A;
+topArcAnticlockwiseArrowWithPlus = uni293D;
+topArcClockwiseArrowWithMinus = uni293C;
+topCircleLeftArrow = uni21B6;
+topCircleRightArrow = uni21B7;
+topLeftCorner = uni231C;
+topRightcorner = uni231D;
+topcurlybracket = uni23DE;
+topparenthesis = uni23DC;
+topsquarebracket = uni23B4;
+toptortoiseshellbracket = uni23E0;
+transversalIntersection = uni2ADB;
+triangleWithDotAbove = uni29CA;
+triangleWithSerifsAtBottom = uni29CD;
+triangleWithUnderbar = uni29CB;
+tripleColonOperator = uni2AF6;
+tripleHorizontalBarWithDoubleVerticalStroke = uni2A68;
+tripleHorizontalBarWithTripleVerticalStroke = uni2A69;
+tripleNestedGreaterThan = uni2AF8;
+tripleNestedLessThan = uni2AF7;
+triplePlus = uni29FB;
+tripleSolidusBinaryRelation = uni2AFB;
+tripleSolidusBinaryRelation.mir = uni2AFB.mir;
+tripleVerticalBarBinaryRelation = uni2AF4;
+tripleVerticalBarDelimiter = uni2980;
+tripleVerticalBarWithHorizontalStroke = uni2AF5;
+tripleintegral = uni222D;
+tripleintegral.mir = uni222D.mir;
+tripleprime = uni2034;
+tripleprimeReversed = uni2037;
+tripletilde = uni224B;
+tripletilde.mir = uni224B.mir;
+tripleunderdotcomb = uni20E8;
+tripleverticalbarrightturnstile = uni22AA;
+tripleverticalbarrightturnstile.mir = uni22AA.mir;
+true = uni22A8;
+"tscript-math" = u1D4C9;
+turnedAngle = uni29A2;
+turnedAngle.mir = uni29A2.mir;
+turnedNotSign = uni2319;
+two.paren = uni2475;
+twoConsecutiveEqualsSigns = uni2A75;
+twoIntersectingLogicalAnd = uni2A55;
+twoIntersectingLogicalOr = uni2A56;
+twoJoinedSquares = uni29C9;
+twoJoinedSquares.mir = uni29C9.mir;
+twoLogicalAndOperator = uni2A07;
+twoLogicalOrOperator = uni2A08;
+"u-fraktur" = u1D532;
+"ubold-math" = u1D42E;
+"ubolditalic-math" = u1D496;
+"uboldscript-math" = u1D4FE;
+udoubleStruck = u1D566;
+"uitalic-math" = u1D462;
+unionAboveBarAboveIntersection = uni2A48;
+unionAboveIntersection = uni2A46;
+unionBesideAndJoinedWithUnion = uni2A4A;
+unionWithLogicalOr = uni2A45;
+unionWithMinusSign = uni2A41;
+unionWithOverbar = uni2A42;
+upAndDownArrow = uni21C5;
+upArrow = arrowup;
+upArrowThrough.circled = uni29BD;
+upArrowToBar = uni2912;
+upArrowWithHorizontalStroke = uni2909;
+upBarbLeftDownBarbLeftHarpoon = uni2951;
+upBarbLeftDownBarbRightHarpoon = uni294D;
+upBarbLeftharpoon = uni21BF;
+upBarbRightDownBarbLeftHarpoon = uni294C;
+upBarbRightDownBarbRightHarpoon = uni294F;
+upBarbRightharpoon = uni21BE;
+upDashArrow = uni21E1;
+upDoubleArrow = arrowdblup;
+upDoublePairedArrow = uni21C8;
+upDownArrow = arrowupdn;
+upDownDoubleArrow = uni21D5;
+upDownbaseArrow = arrowupdnbse;
+upFishTail = uni297E;
+upFrombarArrow = uni21A5;
+upHarpoonWithBarbLeftBesideDownHarpoonWithBarbRight = uni296E;
+upHarpoonWithBarbLeftBesideUpHarpoonWithBarbRight = uni2963;
+upHarpoonWithBarbLeftFromBar = uni2960;
+upHarpoonWithBarbLeftToBar = uni2958;
+upHarpoonWithBarbRightFromBar = uni295C;
+upHarpoonWithBarbRightToBar = uni2954;
+upQuadrupleArrow = uni27F0;
+upTackWithCircleAbove = uni27DF;
+upTipLeftArrow = uni21B0;
+upTipRightArrow = uni21B1;
+upTripleArrow = uni290A;
+upTwoHeadedArrow = uni219F;
+upWhiteTriangle = uni25B3;
+upperLeftCornerWithDot = uni27D4;
+upperLeftCornerWithDot.mir = uni27D4.mir;
+upperleftorlowerrightcurlybracketsection = uni23B0;
+upperrightorlowerleftcurlybracketsection = uni23B1;
+uprightdiagonalellipsis = uni22F0;
+uptack = uni22A5;
+uptwoheadedarrowfromcircle = uni2949;
+"uscript-math" = u1D4CA;
+"v-fraktur" = u1D533;
+"vbold-math" = u1D42F;
+"vbolditalic-math" = u1D497;
+"vboldscript-math" = u1D4FF;
+vdoubleStruck = u1D567;
+vectorOrCrossProduct = uni2A2F;
+veeunderbar = uni2A61;
+verticalBarBesideRightTriangle = uni29D0;
+verticalBarDoubleLeftTurnstile = uni2AE4;
+verticalBarTripleRightTurnstile = uni2AE2;
+verticalBarTripleRightTurnstile.mir = uni2AE2.mir;
+verticalBarWithHorizontalStroke = uni27CA;
+verticalLineWithCircleAbove = uni2AEF;
+verticalLineWithCircleBelow = uni2AF0;
+verticalZigzagLine = uni299A;
+verticallineextension = uni23D0;
+"verymuchgreater-than" = uni22D9;
+"verymuchless-than" = uni22D8;
+"vitalic-math" = u1D463;
+volumeintegral = uni2230;
+volumeintegral.mir = uni2230.mir;
+"vscript-math" = u1D4CB;
+"w-fraktur" = u1D534;
+waveArrowDirectlyRight = uni2933;
+"wawArabic-math" = u1EE05;
+"wbold-math" = u1D430;
+"wbolditalic-math" = u1D498;
+"wboldscript-math" = u1D500;
+wdoubleStruck = u1D568;
+whiteBullet.circled = uni29BE;
+whiteCircleWithDownArrow = uni29EC;
+whiteConcaveSidedDiamond = uni27E1;
+whiteConcaveSidedDiamondWithLeftTick = uni27E2;
+whiteConcaveSidedDiamondWithRightTick = uni27E3;
+whiteDiamondWithCentredDot = uni27D0;
+whiteHourglass = uni29D6;
+whiteSquareWithLeftTick = uni27E4;
+whiteSquareWithRightTick = uni27E5;
+whiteVerticalBar = uni2AFE;
+whiteVerticalRect = uni25AF;
+whiteparenleft = uni2985;
+whiteparenright = uni2986;
+whitetrianglecontainingwhitetriangle = uni27C1;
+widebridgeabovecomb = uni20E9;
+"witalic-math" = u1D464;
+wreathproduct = uni2240;
+wreathproduct.mir = uni2240.mir;
+"wscript-math" = u1D4CC;
+"x-fraktur" = u1D535;
+"xbold-math" = u1D431;
+"xbolditalic-math" = u1D499;
+"xboldscript-math" = u1D501;
+xdoubleStruck = u1D569;
+"xitalic-math" = u1D465;
+xor = uni22BB;
+"xscript-math" = u1D4CD;
+"y-fraktur" = u1D536;
+"ybold-math" = u1D432;
+"ybolditalic-math" = u1D49A;
+"yboldscript-math" = u1D502;
+ydoubleStruck = u1D56A;
+"yehArabic-math" = u1EE09;
+"yitalic-math" = u1D466;
+"yscript-math" = u1D4CE;
+"z-fraktur" = u1D537;
+zNotationDomainAntirestriction = uni2A64;
+zNotationRangeAntirestriction = uni2A65;
+zNotationRelationalComposition = uni2A3E;
+zNotationRelationalComposition.mir = uni2A3E.mir;
+zNotationSchemaComposition = uni2A1F;
+zNotationSchemaComposition.mir = uni2A1F.mir;
+zNotationSchemaPiping = uni2A20;
+zNotationSchemaPiping.mir = uni2A20.mir;
+zNotationSchemaProjection = uni2A21;
+zNotationSchemaProjection.mir = uni2A21.mir;
+zNotationSpot = uni2981;
+zNotationTypeColon = uni2982;
+"zahArabic-math" = u1EE1A;
+"zainArabic-math" = u1EE06;
+"zbold-math" = u1D433;
+"zbolditalic-math" = u1D49B;
+"zboldscript-math" = u1D503;
+zdoubleStruck = u1D56B;
+"zitalic-math" = u1D467;
+znotationbagmembership = uni22FF;
+znotationbagmembership.mir = uni22FF.mir;
+znotationleftbindingbracket = uni2989;
+znotationleftimagebracket = uni2987;
+znotationrightbindingbracket = uni298A;
+znotationrightimagebracket = uni2988;
+"zscript-math" = u1D4CF;
+};
+width = 22;
+};
+UFOFormat = 3;
+};
+versionMajor = 2;
+versionMinor = 539;
+}

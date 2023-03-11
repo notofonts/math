@@ -1,0 +1,43 @@
+{
+glyphname = naryintersection;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(122,-82,l),
+(122,384,ls),
+(122,548,o),
+(216,642,o),
+(385,642,cs),
+(555,642,o),
+(648,549,o),
+(648,384,cs),
+(648,-82,l),
+(719,-82,l),
+(719,384,ls),
+(719,595,o),
+(592,714,o),
+(385,714,cs),
+(178,714,o),
+(51,597,o),
+(51,384,cs),
+(51,-82,l)
+);
+}
+);
+width = 770;
+}
+);
+unicode = 8898;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+naryintersection,
+naryintersection.s1
+);
+};
+};
+}

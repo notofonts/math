@@ -1,0 +1,25 @@
+{
+color = 4;
+glyphname = logicalor.ssty2;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(390,0,l),
+(671,580,l),
+(568,580,l),
+(337,85,l),
+(379,85,l),
+(148,580,l),
+(45,580,l),
+(326,0,l)
+);
+}
+);
+width = 716;
+}
+);
+}

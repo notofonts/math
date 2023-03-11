@@ -1,0 +1,58 @@
+{
+glyphname = overlinecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (209,636);
+},
+{
+name = math.ta;
+pos = (209,586);
+},
+{
+name = top;
+pos = (209,842);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = _part.overlinecomb;
+}
+);
+width = 417;
+}
+);
+unicode = 773;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hAssembly = (
+(
+overline.s1,
+1,
+900,
+900
+),
+(
+overline.s1,
+0,
+900,
+900
+)
+);
+hVariants = (
+overlinecomb,
+overline.s1,
+overline.s2,
+overline.s3,
+overline.s4,
+overline.s5
+);
+};
+};
+}
