@@ -1,16 +1,67 @@
 {
-.appVersion = "3151";
+.appVersion = "3134";
 .formatVersion = 3;
 classes = (
 {
 code = "# FIXME: NOTE: only handling [A-Z]script-math here, no boldscript, yet.
 # FIXME:       On purpose, since those .uv001 boldscript glyphs don't exist, yet. For some future project.
-$[name matches \"^.script-math$\" and case==upper]
+Ascript-math
+Bscript
+Cscript-math
+Dscript-math
+Escript
+Fscript
+Gscript-math
+Hscript
+Iscript
+Jscript-math
+Kscript-math
+Lscript
+Mscript
+Nscript-math
+Oscript-math
+Pscript-math
+Qscript-math
+Rscript
+Sscript-math
+Tscript-math
+Uscript-math
+Vscript-math
+Wscript-math
+Xscript-math
+Yscript-math
+Zscript-math
 ";
 name = MathScriptUpper;
 },
 {
-code = "$[name endswith \"script-math.uv001\" and case==upper]";
+code = "Ascript-math.uv001
+Bscript.uv001
+Cscript-math.uv001
+Dscript-math.uv001
+Escript.uv001
+Fscript.uv001
+Gscript-math.uv001
+Hscript.uv001
+Iscript.uv001
+Jscript-math.uv001
+Kscript-math.uv001
+Lscript.uv001
+Mscript.uv001
+Nscript-math.uv001
+Oscript-math.uv001
+Pscript-math.uv001
+Qscript-math.uv001
+Rscript.uv001
+Sscript-math.uv001
+Tscript-math.uv001
+Uscript-math.uv001
+Vscript-math.uv001
+Wscript-math.uv001
+Xscript-math.uv001
+Yscript-math.uv001
+Zscript-math.uv001
+";
 name = MathScriptUpperVS1;
 },
 {
