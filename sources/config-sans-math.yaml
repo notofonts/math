@@ -5,4 +5,4 @@ includeSubsets:
 - from: Noto Sans
   name: GF_Latin_Core
 sources:
-- NotoSansMath.designspace
+- NotoSansMath.glyphspackage
