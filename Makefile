@@ -1,6 +1,6 @@
 SOURCES=$(shell python3 scripts/read-config.py --sources )
 FAMILY=$(shell python3 scripts/read-config.py --family )
-
+TARGETS=fonts/NotoSansMath/hinted/ttf/NotoSansMath-Regular.ttf fonts/NotoSansMath/unhinted/ttf/NotoSansMath-Regular.ttf 
 help:
 	@echo "###"
 	@echo "# Build targets for $(FAMILY)"
@@ -18,7 +18,10 @@ venv: venv/touchfile
 
 build.stamp: venv .init.stamp sources/config*.yaml $(SOURCES)
 	rm -rf fonts
-	(for config in sources/config*.yaml; do . venv/bin/activate; python3 -m notobuilder $$config; done)  && touch build.stamp
+	(for config in sources/config*.yaml; do . venv/bin/activate; python3 -m notobuilder $$config; done)
+	# Special math action!
+	for OUTPUT in $(TARGETS); do ttx -o $$OUTPUT -m $$OUTPUT sources/NotoSansMath-Regular-MATH-table.ttx; done
+	touch build.stamp
 
 .init.stamp: venv
 	. venv/bin/activate; python3 scripts/first-run.py
