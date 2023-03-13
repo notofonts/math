@@ -4,9 +4,9 @@ glyphname = sixperemspace;
 layers = (
 {
 layerId = master01;
-width = 166;
+width = 167;
 }
 );
-metricWidth = "=166";
+metricWidth = "=167";
 unicode = 8198;
 }

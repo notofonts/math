@@ -4198,6 +4198,37 @@ tagPrefix = guide_;
 {
 name = "Write DisplayStrings";
 value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = unicodeRanges;
+value = (
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+31,
+34,
+35,
+37,
+38,
+39,
+42,
+43,
+45,
+46,
+47,
+57,
+68,
+89
+);
 }
 );
 date = "2023-02-15 06:20:46 +0000";
@@ -5006,11 +5037,11 @@ value = -423;
 },
 {
 name = winAscent;
-value = 1069;
+value = 2685;
 },
 {
 name = winDescent;
-value = 423;
+value = 1572;
 },
 {
 name = underlineThickness;
@@ -5261,13 +5292,13 @@ key = licenses;
 values = (
 {
 language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 }
 );
 },
 {
 key = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 },
 {
 key = trademarks;
@@ -5275,17 +5306,6 @@ values = (
 {
 language = dflt;
 value = "Noto is a trademark of Google Inc.";
-}
-);
-},
-{
-key = descriptions;
-values = (
-{
-language = dflt;
-value = "Noto is a collection of high-quality fonts with multiple weights and widths in sans, serif, mono, and other styles. The Noto fonts are perfect for harmonious, aesthetic, and typographically correct global communication, in more than 1,000 languages and over 150 writing systems.
-
-\"Noto\" means \"I write, I mark, I note\" in Latin. The name is also short for \"no tofu\", as the project aims to eliminate 'tofu': blank rectangles shown when no font is available for your text.";
 }
 );
 }

@@ -4,9 +4,9 @@ glyphname = thinspace;
 layers = (
 {
 layerId = master01;
-width = 125;
+width = 166;
 }
 );
-metricWidth = "=125";
+metricWidth = "=166";
 unicode = 8201;
 }
