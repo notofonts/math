@@ -27,4 +27,5 @@ nodes = (
 width = 488;
 }
 );
+production = second.ssty1;
 }

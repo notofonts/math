@@ -24,4 +24,5 @@ nodes = (
 width = 500;
 }
 );
+production = uni22C6.ssty1;
 }

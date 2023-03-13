@@ -22,4 +22,5 @@ nodes = (
 width = 715;
 }
 );
+production = logicaland.ssty1;
 }

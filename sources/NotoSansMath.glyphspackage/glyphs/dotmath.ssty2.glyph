@@ -26,4 +26,5 @@ nodes = (
 width = 252;
 }
 );
+production = dotmath.ssty2;
 }

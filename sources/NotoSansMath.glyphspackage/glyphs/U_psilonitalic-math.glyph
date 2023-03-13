@@ -26,5 +26,6 @@ ref = "Yitalic-math";
 width = 625;
 }
 );
+production = u1D6F6;
 unicode = 120566;
 }

@@ -22,5 +22,6 @@ ref = "Xitalic-math";
 width = 660;
 }
 );
+production = u1D6F8;
 unicode = 120568;
 }

@@ -32,4 +32,5 @@ nodes = (
 width = 479;
 }
 );
+production = asteriskmath.ssty1;
 }

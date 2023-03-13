@@ -147,5 +147,6 @@ nodes = (
 width = 900;
 }
 );
+production = u1D57C;
 unicode = 120188;
 }

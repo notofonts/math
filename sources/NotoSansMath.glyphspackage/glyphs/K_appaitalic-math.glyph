@@ -22,5 +22,6 @@ ref = "Kitalic-math";
 width = 700;
 }
 );
+production = u1D6EB;
 unicode = 120555;
 }

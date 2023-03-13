@@ -39,4 +39,5 @@ nodes = (
 width = 352;
 }
 );
+production = u1D422.dotless;
 }

@@ -39,4 +39,5 @@ nodes = (
 width = 442;
 }
 );
+production = arrowup.ssty1;
 }

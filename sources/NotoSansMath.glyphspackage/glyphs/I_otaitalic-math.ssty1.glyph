@@ -20,4 +20,5 @@ width = 529;
 );
 metricLeft = "Bitalic-math.ssty";
 metricRight = "Hitalic-math.ssty";
+production = u1D6EA.ssty1;
 }

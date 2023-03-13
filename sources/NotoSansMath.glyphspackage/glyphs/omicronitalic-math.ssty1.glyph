@@ -21,4 +21,5 @@ width = 604;
 );
 metricLeft = "oitalic-math.ssty";
 metricRight = "oitalic-math.ssty";
+production = u1D70A.ssty1;
 }

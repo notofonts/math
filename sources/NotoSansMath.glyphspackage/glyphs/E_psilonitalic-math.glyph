@@ -22,5 +22,6 @@ ref = "Eitalic-math";
 width = 623;
 }
 );
+production = u1D6E6;
 unicode = 120550;
 }

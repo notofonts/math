@@ -22,5 +22,6 @@ ref = "Mitalic-math";
 width = 938;
 }
 );
+production = u1D6ED;
 unicode = 120557;
 }

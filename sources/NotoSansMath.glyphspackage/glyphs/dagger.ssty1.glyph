@@ -26,4 +26,5 @@ nodes = (
 width = 515;
 }
 );
+production = dagger.ssty1;
 }

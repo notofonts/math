@@ -20,4 +20,5 @@ width = 281;
 );
 metricLeft = second.ssty;
 metricRight = second.ssty;
+production = minute.ssty1;
 }

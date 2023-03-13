@@ -30,4 +30,5 @@ nodes = (
 width = 572;
 }
 );
+production = lessequal.ssty1;
 }

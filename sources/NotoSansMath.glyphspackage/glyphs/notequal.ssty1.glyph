@@ -36,4 +36,5 @@ nodes = (
 width = 572;
 }
 );
+production = notequal.ssty1;
 }

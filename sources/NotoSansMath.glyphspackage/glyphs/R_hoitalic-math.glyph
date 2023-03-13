@@ -18,5 +18,6 @@ ref = "Pitalic-math";
 width = 620;
 }
 );
+production = u1D6F2;
 unicode = 120562;
 }

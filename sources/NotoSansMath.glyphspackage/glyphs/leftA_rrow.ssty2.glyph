@@ -39,4 +39,5 @@ nodes = (
 width = 826;
 }
 );
+production = arrowleft.ssty2;
 }

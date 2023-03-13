@@ -65,4 +65,5 @@ nodes = (
 width = 598;
 }
 );
+production = partialdiff.ssty1;
 }

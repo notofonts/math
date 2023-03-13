@@ -32,4 +32,5 @@ nodes = (
 width = 740;
 }
 );
+production = propersubset.ssty2;
 }

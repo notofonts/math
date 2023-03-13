@@ -52,4 +52,5 @@ nodes = (
 width = 838;
 }
 );
+production = emptyset.ssty1;
 }

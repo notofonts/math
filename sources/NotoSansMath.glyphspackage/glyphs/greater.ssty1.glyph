@@ -21,4 +21,5 @@ nodes = (
 width = 575;
 }
 );
+production = greater.ssty1;
 }

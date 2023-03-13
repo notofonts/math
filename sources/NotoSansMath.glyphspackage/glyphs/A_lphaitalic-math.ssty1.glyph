@@ -20,4 +20,5 @@ width = 752;
 );
 metricLeft = "Aitalic-math.ssty";
 metricRight = "Aitalic-math.ssty";
+production = u1D6E2.ssty1;
 }
