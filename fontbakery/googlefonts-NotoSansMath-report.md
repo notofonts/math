@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.11
 
-<details><summary><b>[11] NotoSansMath-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[12] NotoSansMath-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -44,6 +44,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2962, but got 2685 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 2406, but got 1572 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -135,16 +140,16 @@ Use -F or --full-lists to disable shortening of long lists.
 The following math glyphs have a different width, though:
 
 Width = 699:
-uni228A, uni2AC7, uni22FB, uni22D0, uni22D1, reflexsubset, uni220C, uni2ABD, propersubset, uni2ABE, uni22F9, uni2285, uni228B, notsubset, uni22FD, uni22F6, uni22F5, uni27C3, propersuperset, element, uni2AC8, reflexsuperset, uni22F8, uni22F3, notelement, uni2289, uni27C4, suchthat, uni2288
+uni22FB, uni22F9, uni22F5, uni228B, reflexsuperset, uni2ABE, uni27C3, uni2AC8, uni22F6, uni220C, uni22F3, uni27C4, propersubset, uni2AC7, uni2288, uni2289, uni228A, uni22D0, uni22F8, uni22FD, uni22D1, propersuperset, uni2285, notelement, uni2ABD, notsubset, suchthat, element, reflexsubset
 
 Width = 540:
 proportional
 
 Width = 652:
-uni299D, uni299C, uni299E, orthogonal, uni29A8, uni29A2, uni27D3, uni22BE, uni27C0, uni2221, uni299F, uni29A9, uni29A4, uni29AB, uni29A3, uni29A5, uni29AA, uni299B, uni27D4, angle
+uni299B, uni29AA, uni29A2, uni2221, uni22BE, uni299D, uni27D4, uni29A5, uni27D3, uni29A8, uni29A4, uni29A9, orthogonal, uni29AB, uni29A3, angle, uni27C0, uni299E, uni299C, uni299F
 
 Width = 617:
-uni2A27, uni2239
+uni2239, uni2A27
 
 Width = 696:
 uni223E
@@ -153,16 +158,16 @@ Width = 667:
 uni2A33, uni223F
 
 Width = 542:
-uni227A, uni2281, uni22DE, uni227B, uni2280, uni227D, uni22E1, uni22E0, uni22DF, uni227C
+uni227A, uni227C, uni227D, uni22E0, uni22DF, uni2280, uni2281, uni22E1, uni227B, uni22DE
 
 Width = 644:
-uni2290, uni2291, uni2292
+uni2291, uni2292, uni2290
 
 Width = 756:
-uni2AE9, uni2ADF, uni2AE4, uni2AEB, uni2AE8, uni22A4, uni2AE7, uni2AEA, uni22A3, uni22A8, uni22A2, uni2AE0, uni2AE2, uni22A5
+uni2AE2, uni2AEA, uni22A4, uni22A3, uni2AEB, uni2ADF, uni22A2, uni2AE7, uni2AE8, uni2AE9, uni2AE4, uni22A5, uni22A8, uni2AE0
 
 Width = 567:
-uni22B1, uni22B0
+uni22B0, uni22B1
 
 Width = 600:
 uni22D5
@@ -174,16 +179,16 @@ Width = 775:
 uni2979, uni297B
 
 Width = 634:
-uni297E, uni297F
+uni297F, uni297E
 
 Width = 732:
-uni2996, uni2993, uni2995, uni2994
+uni2996, uni2993, uni2994, uni2995
 
 Width = 624:
 uni29A1
 
 Width = 689:
-uni29E4, uni29E3, uni29E5
+uni29E3, uni29E4, uni29E5
 
 Width = 744:
 uni29FA
@@ -201,19 +206,19 @@ Width = 669:
 uni2A7A, uni2A79
 
 Width = 573:
-uni2A7C, uni2A7B
+uni2A7B, uni2A7C
 
 Width = 798:
-uni2AA1, uni2AA2
+uni2AA2, uni2AA1
 
 Width = 760:
-uni2AA8, uni2AA7, uni2AA6, uni2AA9
+uni2AA7, uni2AA9, uni2AA8, uni2AA6
 
 Width = 681:
 uni2AAB, smallerthan, uni2AAD
 
 Width = 679:
-uni2ACB, uni2AC4, uni2AD6, uni2ACC, uni2AD0, uni2AC5, uni2ACA, uni2AD4, uni2AD5, uni2AC9, uni2AC0, uni2ACF, uni2AD2, uni2ABF, uni2AC2, uni2AC1, uni2AC3, uni2AC6, uni2AD1, uni2AD3
+uni2AD6, uni2AD2, uni2AC2, uni2AC0, uni2AD0, uni2AC5, uni2AC9, uni2AD3, uni2AC3, uni2ACC, uni2AD4, uni2AC4, uni2ACA, uni2ACB, uni2ABF, uni2AC1, uni2AC6, uni2AD1, uni2ACF, uni2AD5
 
 Width = 754:
 uni2AE1
@@ -304,8 +309,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 2 | 9 | 116 | 7 | 108 | 0 |
-| 0% | 1% | 4% | 48% | 3% | 45% | 0% |
+| 0 | 3 | 9 | 116 | 7 | 107 | 0 |
+| 0% | 1% | 4% | 48% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
