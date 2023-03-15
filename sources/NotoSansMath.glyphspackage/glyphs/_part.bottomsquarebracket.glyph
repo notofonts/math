@@ -16,10 +16,17 @@ Size = 1;
 };
 shapes = (
 {
-alignment = -1;
-pos = (0,530);
-ref = _part.topsquarebracket;
-scale = (1,-1);
+closed = 1;
+nodes = (
+(0,-312,l),
+(662,-312,l),
+(662,-128,l),
+(598,-128,l),
+(598,-241,l),
+(64,-241,l),
+(64,-128,l),
+(0,-128,l)
+);
 }
 );
 width = 662;
@@ -39,13 +46,17 @@ Size = 2;
 };
 shapes = (
 {
-alignment = -1;
-piece = {
-Size = 5;
-};
-pos = (0,530);
-ref = _part.topsquarebracket;
-scale = (1,-1);
+closed = 1;
+nodes = (
+(0,-312,l),
+(3362,-312,l),
+(3362,-128,l),
+(3298,-128,l),
+(3298,-241,l),
+(64,-241,l),
+(64,-128,l),
+(0,-128,l)
+);
 }
 );
 width = 3362;

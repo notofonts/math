@@ -15,9 +15,15 @@ Size = 1;
 };
 shapes = (
 {
-pos = (383,0);
-ref = _part.leftCeiling;
-scale = (-1,1);
+closed = 1;
+nodes = (
+(332,784,l),
+(30,784,l),
+(30,720,l),
+(261,720,l),
+(261,-160,l),
+(332,-160,l)
+);
 }
 );
 width = 383;
@@ -37,12 +43,15 @@ Size = 2;
 };
 shapes = (
 {
-piece = {
-Size = 12;
-};
-pos = (594,0);
-ref = _part.leftCeiling;
-scale = (-1,1);
+closed = 1;
+nodes = (
+(517,2162,l),
+(50,2162,l),
+(50,2068,l),
+(425,2068,l),
+(425,-1606,l),
+(517,-1606,l)
+);
 }
 );
 width = 594;

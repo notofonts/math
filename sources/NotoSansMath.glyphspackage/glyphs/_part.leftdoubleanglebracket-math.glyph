@@ -15,12 +15,26 @@ Size = 1;
 };
 shapes = (
 {
-ref = "_part.leftanglebracket-math";
+closed = 1;
+nodes = (
+(356,-158,l),
+(134,333,l),
+(345,784,l),
+(266,784,l),
+(51,333,l),
+(277,-158,l)
+);
 },
 {
-alignment = -1;
-pos = (171,0);
-ref = "_part.leftanglebracket-math";
+closed = 1;
+nodes = (
+(527,-158,l),
+(305,333,l),
+(516,784,l),
+(437,784,l),
+(222,333,l),
+(448,-158,l)
+);
 }
 );
 width = 556;
@@ -40,18 +54,26 @@ Size = 2;
 };
 shapes = (
 {
-piece = {
-Size = 12;
-};
-ref = "_part.leftanglebracket-math";
+closed = 1;
+nodes = (
+(818,-2406,l),
+(144,333,l),
+(787,2962,l),
+(698,2962,l),
+(51,333,l),
+(729,-2406,l)
+);
 },
 {
-alignment = -1;
-piece = {
-Size = 12;
-};
-pos = (171,0);
-ref = "_part.leftanglebracket-math";
+closed = 1;
+nodes = (
+(989,-2406,l),
+(315,333,l),
+(958,2962,l),
+(869,2962,l),
+(222,333,l),
+(900,-2406,l)
+);
 }
 );
 width = 885;

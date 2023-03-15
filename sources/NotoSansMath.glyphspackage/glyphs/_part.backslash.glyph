@@ -15,9 +15,13 @@ Size = 1;
 };
 shapes = (
 {
-pos = (372,0);
-ref = _part.slash;
-scale = (-1,1);
+closed = 1;
+nodes = (
+(96,714,l),
+(10,714,l),
+(276,0,l),
+(362,0,l)
+);
 }
 );
 width = 372;
@@ -37,12 +41,13 @@ Size = 2;
 };
 shapes = (
 {
-piece = {
-Size = 4;
-};
-pos = (1204,0);
-ref = _part.slash;
-scale = (-1,1);
+closed = 1;
+nodes = (
+(130,2085,l),
+(10,2085,l),
+(1074,-771,l),
+(1194,-771,l)
+);
 }
 );
 width = 1204;
