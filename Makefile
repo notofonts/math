@@ -1,6 +1,6 @@
 SOURCES=$(shell python3 scripts/read-config.py --sources )
 FAMILY=$(shell python3 scripts/read-config.py --family )
-TARGETS=fonts/NotoSansMath/hinted/ttf/NotoSansMath-Regular.ttf fonts/NotoSansMath/unhinted/ttf/NotoSansMath-Regular.ttf 
+TARGETS=fonts/NotoSansMath/hinted/ttf/NotoSansMath-Regular.ttf fonts/NotoSansMath/unhinted/ttf/NotoSansMath-Regular.ttf  fonts/NotoSansMath/full/ttf/NotoSansMath-Regular.ttf
 help:
 	@echo "###"
 	@echo "# Build targets for $(FAMILY)"
