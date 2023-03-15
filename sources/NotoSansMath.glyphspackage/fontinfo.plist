@@ -4242,9 +4242,8 @@ name = Languagesystems;
 );
 features = (
 {
-automatic = 1;
 code = "feature fwid;
-feature rtlm;
+feature rtla;
 feature ss01;
 feature dtls;
 feature ssty;
@@ -4252,13 +4251,69 @@ feature ssty;
 tag = aalt;
 },
 {
-automatic = 1;
 code = "lookup ccmp_Other_1 {
 	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dbloverlinecomb dieresiscomb dotaccentcomb gbridgeabovecomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
 	@CombiningNonTopAccents = [arrowleftrightbelowcomb brevebelowcomb breveinvertedbelowcomb bridgeinvertedbelowcomb caronbelowcomb cedillacomb circumflexbelowcomb dbllowlinecomb dotbelowcomb lowlinecomb macronbelowcomb tildebelowcomb slashlongcomb];
 	sub [i j]' @CombiningTopAccents by [idotless jdotless];
 	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
 } ccmp_Other_1;
+
+# Unicode variant selector sets
+sub Ascript-math VS1 by Ascript-math.uv001;
+sub Bscript VS1 by Bscript.uv001;
+sub Cscript-math VS1 by Cscript-math.uv001;
+sub Dscript-math VS1 by Dscript-math.uv001;
+sub emptyset VS1 by emptyset.uv001;
+sub equals.circled VS1 by equals.circled.uv001;
+sub smallerthanorequalto VS1 by smallerthanorequalto.uv001;
+sub Escript VS1 by Escript.uv001;
+sub Fscript VS1 by Fscript.uv001;
+sub greaterequalorless VS1 by greaterequalorless.uv001;
+sub greaterorequivalent VS1 by greaterorequivalent.uv001;
+sub greaterthanbutnotequalto VS1 by greaterthanbutnotequalto.uv001;
+sub Gscript-math VS1 by Gscript-math.uv001;
+sub Hscript VS1 by Hscript.uv001;
+sub interiorProduct VS1 by interiorProduct.uv001;
+sub intersection VS1 by intersection.uv001;
+sub Iscript VS1 by Iscript.uv001;
+sub Jscript-math VS1 by Jscript-math.uv001;
+sub Kscript-math VS1 by Kscript-math.uv001;
+sub largerThanOrEqualTo VS1 by largerThanOrEqualTo.uv001;
+sub lessequalorgreater VS1 by lessequalorgreater.uv001;
+sub lessorequivalent VS1 by lessorequivalent.uv001;
+sub lessthanbutnotequalto VS1 by lessthanbutnotequalto.uv001;
+sub Lscript VS1 by Lscript.uv001;
+sub Mscript VS1 by Mscript.uv001;
+sub multiply.circled VS1 by multiply.circled.uv001;
+sub Nscript-math VS1 by Nscript-math.uv001;
+sub Oscript-math VS1 by Oscript-math.uv001;
+sub plus.circled VS1 by plus.circled.uv001;
+sub Pscript-math VS1 by Pscript-math.uv001;
+sub Qscript-math VS1 by Qscript-math.uv001;
+sub righthandInteriorProduct VS1 by righthandInteriorProduct.uv001;
+sub Rscript VS1 by Rscript.uv001;
+sub setminus VS1 by setminus.uv001;
+sub setminus VS1 by setminus.uv001.ssty1;
+sub setminus VS1 by setminus.uv001.ssty2;
+sub similarOrGreaterThan VS1 by similarOrGreaterThan.uv001;
+sub similarOrLessThan VS1 by similarOrLessThan.uv001;
+sub squarecap VS1 by squarecap.uv001;
+sub squarecup VS1 by squarecup.uv001;
+sub Sscript-math VS1 by Sscript-math.uv001;
+sub subsetnotequal VS1 by subsetnotequal.uv001;
+sub subsetOfAboveNotEqualTo VS1 by subsetOfAboveNotEqualTo.uv001;
+sub supersetnotequal VS1 by supersetnotequal.uv001;
+sub supersetOfAboveNotEqualTo VS1 by supersetOfAboveNotEqualTo.uv001;
+sub Tscript-math VS1 by Tscript-math.uv001;
+sub union VS1 by union.uv001;
+sub Uscript-math VS1 by Uscript-math.uv001;
+sub Vscript-math VS1 by Vscript-math.uv001;
+sub Wscript-math VS1 by Wscript-math.uv001;
+sub Xscript-math VS1 by Xscript-math.uv001;
+sub Yscript-math VS1 by Yscript-math.uv001;
+sub zero VS1 by zero.uv001;
+sub Zscript-math VS1 by Zscript-math.uv001;
+
 ";
 tag = ccmp;
 },
@@ -4271,7 +4326,6 @@ sub braceright by braceright.full;
 tag = fwid;
 },
 {
-automatic = 1;
 code = "sub acuteAngle by acuteAngle.rtlm;
 sub allequal by allequal.rtlm;
 sub almostEqualToWithCircumflexAccent by almostEqualToWithCircumflexAccent.rtlm;
@@ -4456,7 +4510,7 @@ sub zNotationSchemaPiping by zNotationSchemaPiping.rtlm;
 sub zNotationSchemaProjection by zNotationSchemaProjection.rtlm;
 sub znotationbagmembership by znotationbagmembership.rtlm;
 ";
-tag = rtlm;
+tag = rtla;
 },
 {
 code = "# FIXME:TODO:REVIEW: for completeness toward end of design -- make sure to update classes to match
