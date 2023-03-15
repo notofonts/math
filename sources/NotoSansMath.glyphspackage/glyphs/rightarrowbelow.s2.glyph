@@ -2,6 +2,12 @@
 glyphname = rightarrowbelow.s2;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (564,-129);
+}
+);
 layerId = master01;
 shapes = (
 {

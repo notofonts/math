@@ -2,6 +2,12 @@
 glyphname = rightcurlybracketupperhook;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (156,684);
+}
+);
 layerId = master01;
 shapes = (
 {
@@ -23,6 +29,12 @@ nodes = (
 width = 468;
 },
 {
+anchors = (
+{
+name = center;
+pos = (117,681);
+}
+);
 associatedMasterId = master01;
 layerId = "10D15A0A-7164-4F76-81B7-EAAA9EF5D5FA";
 name = "Mar 7, 23, 11:39";

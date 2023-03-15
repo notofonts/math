@@ -2,6 +2,12 @@
 glyphname = slopingLargeAnd.rtlm;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (356,290);
+}
+);
 layerId = master01;
 shapes = (
 {

@@ -3,6 +3,12 @@ export = 0;
 glyphname = _part.parenleft;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (169,313);
+}
+);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -31,6 +37,12 @@ nodes = (
 width = 328;
 },
 {
+anchors = (
+{
+name = center;
+pos = (366,278);
+}
+);
 associatedMasterId = master01;
 layerId = "B0028823-4D2B-406D-BFED-516601D4E459";
 name = "Regular-Large";

@@ -2,6 +2,12 @@
 glyphname = lineIntegrationWithRectangularPathAroundPole;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (245,322);
+}
+);
 layerId = master01;
 shapes = (
 {

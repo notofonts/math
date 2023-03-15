@@ -2,6 +2,12 @@
 glyphname = rightpointingcurvedanglebracket.s8;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (321.667,286);
+}
+);
 layerId = master01;
 shapes = (
 {

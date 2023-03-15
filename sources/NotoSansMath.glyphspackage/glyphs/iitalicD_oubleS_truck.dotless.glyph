@@ -3,6 +3,12 @@ color = 4;
 glyphname = iitalicDoubleStruck.dotless;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (175,268);
+}
+);
 layerId = master01;
 shapes = (
 {

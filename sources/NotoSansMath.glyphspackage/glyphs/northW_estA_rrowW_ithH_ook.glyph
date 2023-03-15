@@ -2,6 +2,12 @@
 glyphname = northWestArrowWithHook;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (294,345);
+}
+);
 layerId = master01;
 shapes = (
 {

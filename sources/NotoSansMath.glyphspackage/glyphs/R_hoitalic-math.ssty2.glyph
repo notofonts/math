@@ -9,6 +9,10 @@ name = bottom;
 pos = (150,0);
 },
 {
+name = center;
+pos = (328,357);
+},
+{
 name = math.ic;
 pos = (699,250);
 },

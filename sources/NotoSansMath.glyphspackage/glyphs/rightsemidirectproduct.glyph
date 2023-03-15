@@ -2,6 +2,12 @@
 glyphname = rightsemidirectproduct;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (368,327);
+}
+);
 layerId = master01;
 shapes = (
 {

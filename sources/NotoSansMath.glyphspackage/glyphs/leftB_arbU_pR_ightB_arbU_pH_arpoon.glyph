@@ -2,6 +2,12 @@
 glyphname = leftBarbUpRightBarbUpHarpoon;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (397,405);
+}
+);
 layerId = master01;
 shapes = (
 {

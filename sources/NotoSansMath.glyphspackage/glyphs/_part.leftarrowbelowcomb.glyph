@@ -3,6 +3,12 @@ export = 0;
 glyphname = _part.leftarrowbelowcomb;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (238,-129);
+}
+);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -17,6 +23,12 @@ ref = _part.leftarrowabovecomb;
 width = 462;
 },
 {
+anchors = (
+{
+name = center;
+pos = (1088,-129);
+}
+);
 associatedMasterId = master01;
 layerId = "7D0DECD0-F417-4F2A-888C-1D6C990BD054";
 name = "Regular-Large";

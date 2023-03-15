@@ -3,6 +3,12 @@ color = 4;
 glyphname = "leftanglebracket-math.ssty1";
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (191,333);
+}
+);
 layerId = master01;
 shapes = (
 {

@@ -2,6 +2,12 @@
 glyphname = equalsSignWithBumpyAbove;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (286,424);
+}
+);
 layerId = master01;
 shapes = (
 {

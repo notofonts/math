@@ -3,6 +3,12 @@ color = 4;
 glyphname = infinity.ssty1;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (385,352);
+}
+);
 layerId = master01;
 shapes = (
 {

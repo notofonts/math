@@ -2,6 +2,12 @@
 glyphname = largeLeftTriangleOperator;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (267,329);
+}
+);
 layerId = master01;
 shapes = (
 {

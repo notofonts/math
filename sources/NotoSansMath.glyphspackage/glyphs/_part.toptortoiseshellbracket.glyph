@@ -4,6 +4,12 @@ export = 0;
 glyphname = _part.toptortoiseshellbracket;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (855,752);
+}
+);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -26,6 +32,12 @@ nodes = (
 width = 1710;
 },
 {
+anchors = (
+{
+name = center;
+pos = (4215,752);
+}
+);
 associatedMasterId = master01;
 layerId = "B18DA783-0BC5-4048-B5F1-406C46793FEE";
 name = "Regular-Large";

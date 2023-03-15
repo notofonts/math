@@ -2,6 +2,12 @@
 glyphname = APLjotunderbar;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (220,188);
+}
+);
 layerId = master01;
 shapes = (
 {

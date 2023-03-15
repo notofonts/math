@@ -3,6 +3,12 @@ color = 4;
 glyphname = five.ssty1;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (290,351);
+}
+);
 layerId = master01;
 shapes = (
 {

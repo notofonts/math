@@ -2,6 +2,12 @@
 glyphname = "fivesans-math";
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (289,352);
+}
+);
 layerId = master01;
 shapes = (
 {

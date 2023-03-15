@@ -2,6 +2,12 @@
 glyphname = triangleWithSerifsAtBottom;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (480,374);
+}
+);
 layerId = master01;
 shapes = (
 {

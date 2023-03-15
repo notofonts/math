@@ -2,6 +2,12 @@
 glyphname = APLbackslashbar;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (269,301);
+}
+);
 layerId = master01;
 shapes = (
 {

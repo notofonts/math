@@ -2,6 +2,12 @@
 glyphname = whiteCircleWithDownArrow;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (392,255);
+}
+);
 layerId = master01;
 shapes = (
 {

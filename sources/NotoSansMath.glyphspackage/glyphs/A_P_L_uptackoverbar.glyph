@@ -2,6 +2,12 @@
 glyphname = APLuptackoverbar;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (378,427);
+}
+);
 layerId = master01;
 shapes = (
 {

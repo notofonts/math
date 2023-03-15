@@ -2,6 +2,12 @@
 glyphname = lowerLeftSemicircularAnticlockwiseArrow;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (409,254);
+}
+);
 layerId = master01;
 shapes = (
 {

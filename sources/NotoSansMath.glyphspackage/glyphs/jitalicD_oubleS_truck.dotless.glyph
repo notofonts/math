@@ -3,6 +3,12 @@ color = 4;
 glyphname = jitalicDoubleStruck.dotless;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (137,148);
+}
+);
 layerId = master01;
 shapes = (
 {

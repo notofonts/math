@@ -3,6 +3,12 @@ color = 4;
 glyphname = dagger.ssty1;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (258,380);
+}
+);
 layerId = master01;
 shapes = (
 {

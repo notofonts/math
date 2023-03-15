@@ -2,6 +2,12 @@
 glyphname = doubleVerticalBarDoubleLeftTurnstile;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (418,353);
+}
+);
 layerId = master01;
 shapes = (
 {

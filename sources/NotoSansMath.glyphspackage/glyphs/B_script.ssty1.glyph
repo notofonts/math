@@ -3,6 +3,12 @@ color = 4;
 glyphname = Bscript.ssty1;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (431,355);
+}
+);
 layerId = master01;
 shapes = (
 {

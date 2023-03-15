@@ -2,6 +2,12 @@
 glyphname = APLrho;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (314,153);
+}
+);
 layerId = master01;
 shapes = (
 {

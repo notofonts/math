@@ -4,6 +4,10 @@ layers = (
 {
 anchors = (
 {
+name = center;
+pos = (349,237);
+},
+{
 name = mark0;
 pos = (252,555);
 },

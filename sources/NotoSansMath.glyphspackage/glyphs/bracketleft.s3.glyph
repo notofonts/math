@@ -2,6 +2,12 @@
 glyphname = bracketleft.s3;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (216,304);
+}
+);
 layerId = master01;
 shapes = (
 {

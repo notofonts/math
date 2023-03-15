@@ -2,6 +2,12 @@
 glyphname = verticalLineWithCircleBelow;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (188,341);
+}
+);
 layerId = master01;
 shapes = (
 {

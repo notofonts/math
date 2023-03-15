@@ -2,6 +2,12 @@
 glyphname = whiteConcaveSidedDiamondWithLeftTick;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (410,352);
+}
+);
 layerId = master01;
 shapes = (
 {

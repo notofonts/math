@@ -2,6 +2,12 @@
 glyphname = sixdoubleStruck;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (300,357);
+}
+);
 layerId = master01;
 shapes = (
 {

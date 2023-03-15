@@ -2,6 +2,12 @@
 glyphname = angleWithUnderbar.rtlm;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (326,322);
+}
+);
 layerId = master01;
 shapes = (
 {

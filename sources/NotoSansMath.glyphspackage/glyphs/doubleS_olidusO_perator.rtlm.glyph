@@ -2,6 +2,12 @@
 glyphname = doubleSolidusOperator.rtlm;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (295,319);
+}
+);
 layerId = master01;
 shapes = (
 {

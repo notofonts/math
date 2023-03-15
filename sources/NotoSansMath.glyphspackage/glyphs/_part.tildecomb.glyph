@@ -4,6 +4,12 @@ export = 0;
 glyphname = _part.tildecomb;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (183,670);
+}
+);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -38,6 +44,12 @@ nodes = (
 width = 367;
 },
 {
+anchors = (
+{
+name = center;
+pos = (0,670);
+}
+);
 associatedMasterId = master01;
 layerId = "1D5DA145-76DE-46FA-A6D3-02E5B425365A";
 name = "Regular-Large";

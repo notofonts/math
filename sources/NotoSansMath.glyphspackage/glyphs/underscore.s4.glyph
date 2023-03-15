@@ -2,6 +2,12 @@
 glyphname = underscore.s4;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (939,-126);
+}
+);
 layerId = master01;
 shapes = (
 {

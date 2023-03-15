@@ -2,6 +2,12 @@
 glyphname = multimap;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (398,354);
+}
+);
 layerId = master01;
 shapes = (
 {

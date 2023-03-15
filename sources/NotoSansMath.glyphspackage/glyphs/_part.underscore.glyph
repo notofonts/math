@@ -4,6 +4,12 @@ export = 0;
 glyphname = _part.underscore;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (222,-126);
+}
+);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -22,6 +28,12 @@ nodes = (
 width = 444;
 },
 {
+anchors = (
+{
+name = center;
+pos = (1118,-126);
+}
+);
 associatedMasterId = master01;
 layerId = "82D16B82-92E3-4C07-8E47-A219D40912F0";
 name = "Regular-Large";

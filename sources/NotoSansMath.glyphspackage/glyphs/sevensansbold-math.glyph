@@ -2,6 +2,12 @@
 glyphname = "sevensansbold-math";
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (283,357);
+}
+);
 layerId = master01;
 shapes = (
 {

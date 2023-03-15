@@ -3,6 +3,12 @@ color = 4;
 glyphname = braceright.ssty2;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (206,313);
+}
+);
 layerId = master01;
 shapes = (
 {

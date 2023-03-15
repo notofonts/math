@@ -2,6 +2,12 @@
 glyphname = pagedown;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (218,346);
+}
+);
 layerId = master01;
 shapes = (
 {

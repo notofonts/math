@@ -3,6 +3,11 @@ color = 4;
 glyphname = sixperemspace;
 layers = (
 {
+anchors = (
+{
+name = center;
+}
+);
 layerId = master01;
 width = 167;
 }

@@ -3,6 +3,12 @@ color = 4;
 glyphname = "eightmono-math";
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (299,357);
+}
+);
 layerId = master01;
 shapes = (
 {

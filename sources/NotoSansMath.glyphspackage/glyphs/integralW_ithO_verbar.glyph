@@ -2,6 +2,12 @@
 glyphname = integralWithOverbar;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (255,394);
+}
+);
 layerId = master01;
 shapes = (
 {

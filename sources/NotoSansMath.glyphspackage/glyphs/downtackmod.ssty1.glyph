@@ -3,6 +3,12 @@ color = 4;
 glyphname = downtackmod.ssty1;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (140,312);
+}
+);
 layerId = master01;
 shapes = (
 {

@@ -2,6 +2,12 @@
 glyphname = invertedlazys.rtlm;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (348,351);
+}
+);
 layerId = master01;
 shapes = (
 {

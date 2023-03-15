@@ -2,6 +2,12 @@
 glyphname = exclam;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (134,350);
+}
+);
 layerId = master01;
 shapes = (
 {

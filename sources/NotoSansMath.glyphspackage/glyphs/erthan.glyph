@@ -2,6 +2,12 @@
 glyphname = erthan;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (340,346);
+}
+);
 layerId = master01;
 shapes = (
 {

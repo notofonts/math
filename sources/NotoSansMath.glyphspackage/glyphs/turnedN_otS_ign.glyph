@@ -2,6 +2,12 @@
 glyphname = turnedNotSign;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (286,440);
+}
+);
 layerId = master01;
 shapes = (
 {

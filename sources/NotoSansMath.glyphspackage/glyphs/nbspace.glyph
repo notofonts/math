@@ -3,6 +3,11 @@ color = 4;
 glyphname = nbspace;
 layers = (
 {
+anchors = (
+{
+name = center;
+}
+);
 layerId = master01;
 userData = {
 com.schriftgestaltung.Glyphs.glyph.widthMetricsKey = space;

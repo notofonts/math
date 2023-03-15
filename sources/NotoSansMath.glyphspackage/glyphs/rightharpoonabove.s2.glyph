@@ -2,6 +2,12 @@
 glyphname = rightharpoonabove.s2;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (566,747);
+}
+);
 layerId = master01;
 shapes = (
 {

@@ -4,6 +4,12 @@ glyphname = ellipsis.ssty1;
 kernLeft = period.right;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (401,60);
+}
+);
 layerId = master01;
 shapes = (
 {

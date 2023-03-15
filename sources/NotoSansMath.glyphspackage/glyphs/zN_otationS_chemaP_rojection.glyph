@@ -2,6 +2,12 @@
 glyphname = zNotationSchemaProjection;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (160,370);
+}
+);
 layerId = master01;
 shapes = (
 {

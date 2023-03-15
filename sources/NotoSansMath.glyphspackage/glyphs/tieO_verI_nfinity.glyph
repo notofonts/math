@@ -2,6 +2,12 @@
 glyphname = tieOverInfinity;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (369,421);
+}
+);
 layerId = master01;
 shapes = (
 {

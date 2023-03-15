@@ -2,6 +2,12 @@
 glyphname = doublePrecedes;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (420,353);
+}
+);
 layerId = master01;
 shapes = (
 {

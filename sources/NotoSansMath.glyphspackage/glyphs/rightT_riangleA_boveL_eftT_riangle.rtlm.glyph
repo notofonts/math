@@ -2,6 +2,12 @@
 glyphname = rightTriangleAboveLeftTriangle.rtlm;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (402,350);
+}
+);
 layerId = master01;
 shapes = (
 {

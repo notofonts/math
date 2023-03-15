@@ -3,6 +3,12 @@ color = 4;
 glyphname = tildebelow.s4;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (1076,-117);
+}
+);
 layerId = master01;
 shapes = (
 {

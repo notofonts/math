@@ -3,6 +3,12 @@ color = 4;
 glyphname = midlinehorizontalellipsis.ssty2;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (415,352);
+}
+);
 layerId = master01;
 shapes = (
 {

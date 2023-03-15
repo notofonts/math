@@ -2,6 +2,12 @@
 glyphname = rightcurlybracketlowerhook;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (156,684);
+}
+);
 layerId = master01;
 shapes = (
 {
@@ -14,6 +20,12 @@ scale = (-1,1);
 width = 468;
 },
 {
+anchors = (
+{
+name = center;
+pos = (117,681);
+}
+);
 associatedMasterId = master01;
 layerId = "1E1AA896-9897-46C3-92FA-EB335572BB53";
 name = "Mar 7, 23, 11:31";

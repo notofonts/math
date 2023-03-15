@@ -2,6 +2,12 @@
 glyphname = quadrupleprime;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (403,585);
+}
+);
 layerId = master01;
 shapes = (
 {

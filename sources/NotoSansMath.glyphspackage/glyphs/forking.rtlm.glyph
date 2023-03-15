@@ -2,6 +2,12 @@
 glyphname = forking.rtlm;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (302,312);
+}
+);
 layerId = master01;
 shapes = (
 {

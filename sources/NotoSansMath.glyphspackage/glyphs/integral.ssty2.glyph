@@ -3,6 +3,12 @@ color = 4;
 glyphname = integral.ssty2;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (210,322);
+}
+);
 layerId = master01;
 shapes = (
 {

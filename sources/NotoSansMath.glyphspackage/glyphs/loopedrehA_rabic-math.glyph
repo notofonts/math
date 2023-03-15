@@ -2,6 +2,12 @@
 glyphname = "loopedrehArabic-math";
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (269,198);
+}
+);
 layerId = master01;
 shapes = (
 {

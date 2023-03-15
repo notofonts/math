@@ -2,6 +2,12 @@
 glyphname = subsetWithPlusSignBelow;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (339,358);
+}
+);
 layerId = master01;
 shapes = (
 {

@@ -2,6 +2,12 @@
 glyphname = intersectionWithLogicalAnd;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (342,332);
+}
+);
 layerId = master01;
 shapes = (
 {

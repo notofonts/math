@@ -2,6 +2,12 @@
 glyphname = rightdoublewigglyfence;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (288,329);
+}
+);
 layerId = master01;
 shapes = (
 {

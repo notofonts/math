@@ -2,6 +2,12 @@
 glyphname = smashProduct;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (333,311);
+}
+);
 layerId = master01;
 shapes = (
 {

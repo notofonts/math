@@ -3,6 +3,11 @@ color = 4;
 glyphname = emquad;
 layers = (
 {
+anchors = (
+{
+name = center;
+}
+);
 layerId = master01;
 width = 1000;
 }

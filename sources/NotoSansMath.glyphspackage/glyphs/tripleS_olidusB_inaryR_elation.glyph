@@ -2,6 +2,12 @@
 glyphname = tripleSolidusBinaryRelation;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (388,319);
+}
+);
 layerId = master01;
 shapes = (
 {

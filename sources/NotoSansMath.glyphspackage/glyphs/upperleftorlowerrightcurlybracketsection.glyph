@@ -2,6 +2,12 @@
 glyphname = upperleftorlowerrightcurlybracketsection;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (158,388);
+}
+);
 layerId = master01;
 shapes = (
 {

@@ -2,6 +2,12 @@
 glyphname = bottomtortoiseshellbracket.s3;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (2871,-222);
+}
+);
 layerId = master01;
 shapes = (
 {

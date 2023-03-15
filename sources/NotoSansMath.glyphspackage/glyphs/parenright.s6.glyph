@@ -2,6 +2,12 @@
 glyphname = parenright.s6;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (257,296);
+}
+);
 layerId = master01;
 shapes = (
 {

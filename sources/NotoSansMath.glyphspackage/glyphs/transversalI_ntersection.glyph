@@ -2,6 +2,12 @@
 glyphname = transversalIntersection;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (341,300);
+}
+);
 layerId = master01;
 shapes = (
 {

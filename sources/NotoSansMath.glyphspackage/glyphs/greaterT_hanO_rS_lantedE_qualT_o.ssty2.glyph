@@ -3,6 +3,12 @@ color = 4;
 glyphname = greaterThanOrSlantedEqualTo.ssty2;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (286,290);
+}
+);
 layerId = master01;
 shapes = (
 {

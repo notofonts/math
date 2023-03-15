@@ -3,6 +3,12 @@ color = 4;
 glyphname = partialdiff.rtlm;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (291,356);
+}
+);
 layerId = master01;
 shapes = (
 {

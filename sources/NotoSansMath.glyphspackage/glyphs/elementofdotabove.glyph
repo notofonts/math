@@ -2,6 +2,12 @@
 glyphname = elementofdotabove;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (349,438);
+}
+);
 layerId = master01;
 shapes = (
 {

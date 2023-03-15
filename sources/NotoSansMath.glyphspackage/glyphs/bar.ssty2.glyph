@@ -3,6 +3,12 @@ color = 4;
 glyphname = bar.ssty2;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (226,325);
+}
+);
 layerId = master01;
 shapes = (
 {

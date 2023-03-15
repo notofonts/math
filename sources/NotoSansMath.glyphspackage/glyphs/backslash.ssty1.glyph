@@ -3,6 +3,12 @@ color = 4;
 glyphname = backslash.ssty1;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (200,357);
+}
+);
 layerId = master01;
 shapes = (
 {

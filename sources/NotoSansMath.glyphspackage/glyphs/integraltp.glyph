@@ -2,6 +2,12 @@
 glyphname = integraltp;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (263,681);
+}
+);
 layerId = master01;
 shapes = (
 {

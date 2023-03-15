@@ -2,6 +2,12 @@
 glyphname = equalsSignAndSlantedParallelWithTildeAbove;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (344,443);
+}
+);
 layerId = master01;
 shapes = (
 {

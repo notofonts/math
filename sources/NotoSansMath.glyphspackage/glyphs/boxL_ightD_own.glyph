@@ -3,6 +3,12 @@ color = 4;
 glyphname = boxLightDown;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (419,-29);
+}
+);
 layerId = master01;
 shapes = (
 {

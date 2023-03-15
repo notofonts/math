@@ -3,6 +3,12 @@ export = 0;
 glyphname = _part.rightwhitecurlybracket;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (282,313);
+}
+);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -17,6 +23,12 @@ scale = (-1,1);
 width = 541;
 },
 {
+anchors = (
+{
+name = center;
+pos = (327,278);
+}
+);
 associatedMasterId = master01;
 layerId = "02A35D2B-CDE6-4257-A0F3-2A5C20555D30";
 name = "Regular-Large";

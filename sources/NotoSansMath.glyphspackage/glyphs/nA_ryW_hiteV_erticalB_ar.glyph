@@ -2,6 +2,12 @@
 glyphname = nAryWhiteVerticalBar;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (192,300);
+}
+);
 layerId = master01;
 shapes = (
 {

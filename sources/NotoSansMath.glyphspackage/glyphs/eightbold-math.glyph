@@ -2,6 +2,12 @@
 glyphname = "eightbold-math";
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (279,357);
+}
+);
 layerId = master01;
 shapes = (
 {

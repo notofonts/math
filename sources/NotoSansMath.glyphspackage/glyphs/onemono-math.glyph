@@ -3,6 +3,12 @@ color = 4;
 glyphname = "onemono-math";
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (308,357);
+}
+);
 layerId = master01;
 shapes = (
 {

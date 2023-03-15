@@ -2,6 +2,12 @@
 glyphname = leftcurlybracketlowerhook;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (312,684);
+}
+);
 layerId = master01;
 shapes = (
 {
@@ -23,6 +29,12 @@ nodes = (
 width = 468;
 },
 {
+anchors = (
+{
+name = center;
+pos = (206,681);
+}
+);
 associatedMasterId = master01;
 background = {
 shapes = (

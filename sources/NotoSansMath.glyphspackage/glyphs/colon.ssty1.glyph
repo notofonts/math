@@ -4,6 +4,12 @@ glyphname = colon.ssty1;
 kernLeft = colon;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (139,268);
+}
+);
 layerId = master01;
 shapes = (
 {

@@ -2,6 +2,12 @@
 glyphname = excess.rtlm;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (308,352);
+}
+);
 layerId = master01;
 shapes = (
 {

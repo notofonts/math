@@ -2,6 +2,12 @@
 glyphname = quadrupleintegral.t;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (696,681);
+}
+);
 layerId = master01;
 shapes = (
 {

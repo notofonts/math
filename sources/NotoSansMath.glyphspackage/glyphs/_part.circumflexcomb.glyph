@@ -4,6 +4,12 @@ export = 0;
 glyphname = _part.circumflexcomb;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (169,686);
+}
+);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -35,6 +41,12 @@ nodes = (
 width = 338;
 },
 {
+anchors = (
+{
+name = center;
+pos = (0,686);
+}
+);
 associatedMasterId = master01;
 layerId = "435CC9F6-FAE2-4B9F-BCD4-3FA782773172";
 name = "Regular-Large";

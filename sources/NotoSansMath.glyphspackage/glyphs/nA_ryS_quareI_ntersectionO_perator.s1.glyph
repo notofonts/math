@@ -2,6 +2,12 @@
 glyphname = nArySquareIntersectionOperator.s1;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (698,311);
+}
+);
 layerId = master01;
 shapes = (
 {

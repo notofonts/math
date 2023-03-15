@@ -2,6 +2,12 @@
 glyphname = precedes;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (271,353);
+}
+);
 layerId = master01;
 shapes = (
 {

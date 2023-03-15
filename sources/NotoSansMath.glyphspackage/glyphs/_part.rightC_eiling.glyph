@@ -3,6 +3,12 @@ export = 0;
 glyphname = _part.rightCeiling;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (181,312);
+}
+);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -17,6 +23,12 @@ scale = (-1,1);
 width = 383;
 },
 {
+anchors = (
+{
+name = center;
+pos = (283,278);
+}
+);
 associatedMasterId = master01;
 layerId = "72645429-3352-4AFC-9CF5-1C3C77F6347F";
 name = "Regular-Large";

@@ -2,6 +2,12 @@
 glyphname = blackDiamondWithDownArrow;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (439,276);
+}
+);
 layerId = master01;
 shapes = (
 {

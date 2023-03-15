@@ -2,6 +2,12 @@
 glyphname = "threesans-math";
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (280,357);
+}
+);
 layerId = master01;
 shapes = (
 {

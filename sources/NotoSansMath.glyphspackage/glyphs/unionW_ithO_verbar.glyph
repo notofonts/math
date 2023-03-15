@@ -2,6 +2,12 @@
 glyphname = unionWithOverbar;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (342,406);
+}
+);
 layerId = master01;
 shapes = (
 {

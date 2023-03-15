@@ -3,6 +3,12 @@ export = 0;
 glyphname = _part.cuberoot;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (380,528);
+}
+);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -61,6 +67,12 @@ nodes = (
 width = 605;
 },
 {
+anchors = (
+{
+name = center;
+pos = (530,1065);
+}
+);
 associatedMasterId = master01;
 layerId = "FE0169F5-137A-40EF-B7F7-15B27CA77711";
 name = "Regular-Large";

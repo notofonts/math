@@ -2,6 +2,12 @@
 glyphname = bigSolidus;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (201,388);
+}
+);
 layerId = master01;
 shapes = (
 {

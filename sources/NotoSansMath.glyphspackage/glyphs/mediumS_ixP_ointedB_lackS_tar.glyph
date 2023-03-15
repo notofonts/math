@@ -3,6 +3,12 @@ color = 4;
 glyphname = mediumSixPointedBlackStar;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (400,357);
+}
+);
 layerId = master01;
 shapes = (
 {

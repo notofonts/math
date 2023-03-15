@@ -2,6 +2,12 @@
 glyphname = zNotationRangeAntirestriction;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (385,346);
+}
+);
 layerId = master01;
 shapes = (
 {

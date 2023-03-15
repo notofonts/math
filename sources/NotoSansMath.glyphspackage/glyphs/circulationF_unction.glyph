@@ -2,6 +2,12 @@
 glyphname = circulationFunction;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (251,322);
+}
+);
 layerId = master01;
 shapes = (
 {

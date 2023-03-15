@@ -2,6 +2,12 @@
 glyphname = leftarrowbelow.s3;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (748,-129);
+}
+);
 layerId = master01;
 shapes = (
 {

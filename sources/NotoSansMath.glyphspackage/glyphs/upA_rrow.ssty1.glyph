@@ -3,6 +3,12 @@ color = 4;
 glyphname = upArrow.ssty1;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (221,346);
+}
+);
 layerId = master01;
 shapes = (
 {

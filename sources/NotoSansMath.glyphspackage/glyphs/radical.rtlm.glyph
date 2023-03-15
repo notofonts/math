@@ -2,6 +2,12 @@
 glyphname = radical.rtlm;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (261,421);
+}
+);
 layerId = master01;
 shapes = (
 {

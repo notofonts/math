@@ -2,6 +2,12 @@
 glyphname = "OperatorHahWithDalArabic-math";
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (569,84);
+}
+);
 layerId = master01;
 shapes = (
 {

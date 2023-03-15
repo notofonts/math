@@ -2,6 +2,12 @@
 glyphname = betsymbol;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (262,290);
+}
+);
 layerId = master01;
 shapes = (
 {

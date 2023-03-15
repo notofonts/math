@@ -2,6 +2,12 @@
 glyphname = APLquadrightarrow;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (364,357);
+}
+);
 layerId = master01;
 shapes = (
 {

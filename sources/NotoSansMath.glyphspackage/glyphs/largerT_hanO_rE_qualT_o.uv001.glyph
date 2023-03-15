@@ -3,6 +3,12 @@ color = 4;
 glyphname = largerThanOrEqualTo.uv001;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (340,357);
+}
+);
 layerId = master01;
 shapes = (
 {

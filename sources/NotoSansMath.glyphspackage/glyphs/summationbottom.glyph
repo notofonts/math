@@ -2,6 +2,12 @@
 glyphname = summationbottom;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (318,561);
+}
+);
 layerId = master01;
 shapes = (
 {

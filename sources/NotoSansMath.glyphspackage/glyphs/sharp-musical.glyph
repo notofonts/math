@@ -2,6 +2,12 @@
 glyphname = "sharp-musical";
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (276,178);
+}
+);
 layerId = master01;
 shapes = (
 {

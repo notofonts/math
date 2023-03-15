@@ -4,6 +4,12 @@ export = 0;
 glyphname = jitalicDoubleStruck.dotless.ssty1;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (152,148);
+}
+);
 layerId = master01;
 shapes = (
 {

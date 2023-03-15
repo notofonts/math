@@ -2,6 +2,12 @@
 glyphname = anticlockwisecontourintegral;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (299,322);
+}
+);
 layerId = master01;
 shapes = (
 {

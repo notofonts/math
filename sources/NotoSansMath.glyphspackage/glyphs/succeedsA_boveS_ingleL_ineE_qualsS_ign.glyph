@@ -2,6 +2,12 @@
 glyphname = succeedsAboveSingleLineEqualsSign;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (286,366);
+}
+);
 layerId = master01;
 shapes = (
 {

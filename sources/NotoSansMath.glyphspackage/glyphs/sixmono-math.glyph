@@ -3,6 +3,12 @@ color = 4;
 glyphname = "sixmono-math";
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (300,357);
+}
+);
 layerId = master01;
 shapes = (
 {

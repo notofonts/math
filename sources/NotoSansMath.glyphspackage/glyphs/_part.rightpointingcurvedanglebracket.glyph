@@ -3,6 +3,12 @@ export = 0;
 glyphname = _part.rightpointingcurvedanglebracket;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (228,313);
+}
+);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -17,6 +23,12 @@ scale = (-1,1);
 width = 456;
 },
 {
+anchors = (
+{
+name = center;
+pos = (369,272);
+}
+);
 associatedMasterId = master01;
 layerId = "78745A10-CBCB-40BD-BDAC-894C9B54E26C";
 name = "Regular-Large";

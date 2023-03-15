@@ -3,6 +3,12 @@ color = 4;
 glyphname = radicalsymbolbottom;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (290,681);
+}
+);
 layerId = master01;
 shapes = (
 {

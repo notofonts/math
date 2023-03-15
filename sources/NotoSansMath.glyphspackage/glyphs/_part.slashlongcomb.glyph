@@ -3,6 +3,12 @@ export = 0;
 glyphname = _part.slashlongcomb;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (214,357);
+}
+);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -21,6 +27,12 @@ nodes = (
 width = 428;
 },
 {
+anchors = (
+{
+name = center;
+pos = (759,857);
+}
+);
 associatedMasterId = master01;
 layerId = "C3628FB4-F2D5-4099-AE47-6F7FCFB71D3D";
 name = "Regular-Large";

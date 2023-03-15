@@ -2,6 +2,12 @@
 glyphname = section;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (253,380);
+}
+);
 layerId = master01;
 shapes = (
 {

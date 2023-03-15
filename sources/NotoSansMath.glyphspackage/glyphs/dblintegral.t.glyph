@@ -2,6 +2,12 @@
 glyphname = dblintegral.t;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (407,681);
+}
+);
 layerId = master01;
 shapes = (
 {

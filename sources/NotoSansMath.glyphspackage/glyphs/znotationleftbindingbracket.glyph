@@ -2,6 +2,12 @@
 glyphname = znotationleftbindingbracket;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (170,334);
+}
+);
 layerId = master01;
 shapes = (
 {

@@ -2,6 +2,12 @@
 glyphname = leftFloor.s7;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (265,291);
+}
+);
 layerId = master01;
 shapes = (
 {

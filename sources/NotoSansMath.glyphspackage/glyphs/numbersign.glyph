@@ -2,6 +2,12 @@
 glyphname = numbersign;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (322,357);
+}
+);
 layerId = master01;
 shapes = (
 {

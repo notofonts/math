@@ -2,6 +2,12 @@
 glyphname = tripleintegral.rtlm;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (456,322);
+}
+);
 layerId = master01;
 shapes = (
 {

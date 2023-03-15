@@ -2,6 +2,12 @@
 glyphname = upFishTail;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (317,345);
+}
+);
 layerId = master01;
 shapes = (
 {

@@ -2,6 +2,12 @@
 glyphname = "twosans-math";
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (284,362);
+}
+);
 layerId = master01;
 shapes = (
 {

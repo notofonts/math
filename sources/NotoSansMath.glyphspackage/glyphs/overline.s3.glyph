@@ -2,6 +2,12 @@
 glyphname = overline.s3;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (1043,806);
+}
+);
 layerId = master01;
 shapes = (
 {

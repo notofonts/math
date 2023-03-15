@@ -3,6 +3,12 @@ export = 0;
 glyphname = _part.nAryWhiteVerticalBar;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (192,300);
+}
+);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -30,6 +36,12 @@ nodes = (
 width = 385;
 },
 {
+anchors = (
+{
+name = center;
+pos = (213,300);
+}
+);
 associatedMasterId = master01;
 layerId = "58ECB4C5-B379-47CF-94CD-8E910E20AA48";
 name = "Regular-Large";

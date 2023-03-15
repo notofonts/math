@@ -3,6 +3,12 @@ color = 4;
 glyphname = "partialdiffitalic-math.ssty1";
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (275,357);
+}
+);
 layerId = master01;
 shapes = (
 {

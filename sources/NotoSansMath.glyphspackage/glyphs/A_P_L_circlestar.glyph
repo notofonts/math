@@ -2,6 +2,12 @@
 glyphname = APLcirclestar;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (386,341);
+}
+);
 layerId = master01;
 shapes = (
 {

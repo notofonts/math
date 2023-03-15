@@ -2,6 +2,12 @@
 glyphname = contourintegral;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (272,322);
+}
+);
 layerId = master01;
 shapes = (
 {

@@ -2,6 +2,12 @@
 glyphname = rightCeiling.t;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (283,534);
+}
+);
 layerId = master01;
 shapes = (
 {

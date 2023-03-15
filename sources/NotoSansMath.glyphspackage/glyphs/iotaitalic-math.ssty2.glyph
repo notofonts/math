@@ -5,6 +5,10 @@ layers = (
 {
 anchors = (
 {
+name = center;
+pos = (151.453,263);
+},
+{
 name = math.ta;
 pos = (182,586);
 },

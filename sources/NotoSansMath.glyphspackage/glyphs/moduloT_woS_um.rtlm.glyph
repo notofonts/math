@@ -2,6 +2,12 @@
 glyphname = moduloTwoSum.rtlm;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (392,237);
+}
+);
 layerId = master01;
 shapes = (
 {

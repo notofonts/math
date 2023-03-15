@@ -3,6 +3,12 @@ color = 4;
 glyphname = intersection;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (342,332);
+}
+);
 layerId = master01;
 shapes = (
 {

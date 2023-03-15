@@ -2,6 +2,12 @@
 glyphname = backslash.s2;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (394,507);
+}
+);
 layerId = master01;
 shapes = (
 {

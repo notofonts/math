@@ -2,6 +2,12 @@
 glyphname = measuredby;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (286,311);
+}
+);
 layerId = master01;
 shapes = (
 {

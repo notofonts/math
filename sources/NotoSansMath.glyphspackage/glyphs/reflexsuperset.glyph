@@ -2,6 +2,12 @@
 glyphname = reflexsuperset;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (349,361);
+}
+);
 layerId = master01;
 shapes = (
 {

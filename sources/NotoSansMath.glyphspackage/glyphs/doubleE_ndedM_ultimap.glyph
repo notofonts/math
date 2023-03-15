@@ -2,6 +2,12 @@
 glyphname = doubleEndedMultimap;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (457,354);
+}
+);
 layerId = master01;
 shapes = (
 {

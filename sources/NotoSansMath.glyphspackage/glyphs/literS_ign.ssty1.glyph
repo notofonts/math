@@ -3,6 +3,12 @@ color = 4;
 glyphname = literSign.ssty1;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (253,377);
+}
+);
 layerId = master01;
 shapes = (
 {

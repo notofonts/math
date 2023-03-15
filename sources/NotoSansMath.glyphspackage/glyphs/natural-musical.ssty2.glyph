@@ -3,6 +3,12 @@ color = 4;
 glyphname = "natural-musical.ssty2";
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (196,102);
+}
+);
 layerId = master01;
 shapes = (
 {

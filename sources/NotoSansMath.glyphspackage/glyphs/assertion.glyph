@@ -2,6 +2,12 @@
 glyphname = assertion;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (232,353);
+}
+);
 layerId = master01;
 shapes = (
 {

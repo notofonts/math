@@ -2,6 +2,12 @@
 glyphname = rightarrowabove.s4;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (904,699);
+}
+);
 layerId = master01;
 shapes = (
 {

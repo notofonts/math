@@ -2,6 +2,12 @@
 glyphname = topArcAnticlockwiseArrowWithPlus;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (538,345);
+}
+);
 layerId = master01;
 shapes = (
 {

@@ -3,6 +3,12 @@ export = 0;
 glyphname = "_part.rightwhitesquarebracket-math";
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (195,313);
+}
+);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -17,6 +23,12 @@ scale = (-1,1);
 width = 447;
 },
 {
+anchors = (
+{
+name = center;
+pos = (272,278);
+}
+);
 associatedMasterId = master01;
 layerId = "840CF749-C6AC-4E7E-AD30-D7C8FDBC0E43";
 name = "Regular-Large";

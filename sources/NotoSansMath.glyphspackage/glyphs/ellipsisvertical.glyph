@@ -2,6 +2,12 @@
 glyphname = ellipsisvertical;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (111,354);
+}
+);
 layerId = master01;
 shapes = (
 {

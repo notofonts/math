@@ -2,6 +2,12 @@
 glyphname = APLalphaunderbar;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (325,198);
+}
+);
 layerId = master01;
 shapes = (
 {

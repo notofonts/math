@@ -3,6 +3,12 @@ export = 0;
 glyphname = _part.largeTripleVerticalBarOperator;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (273,332);
+}
+);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -39,6 +45,12 @@ nodes = (
 width = 547;
 },
 {
+anchors = (
+{
+name = center;
+pos = (273,300);
+}
+);
 associatedMasterId = master01;
 layerId = "16DCE69A-1FF9-415B-9C96-D34D6224552E";
 name = "Regular-Large";

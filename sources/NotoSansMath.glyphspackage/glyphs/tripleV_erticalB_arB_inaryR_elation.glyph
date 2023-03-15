@@ -3,6 +3,12 @@ color = 4;
 glyphname = tripleVerticalBarBinaryRelation;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (273,325);
+}
+);
 layerId = master01;
 shapes = (
 {

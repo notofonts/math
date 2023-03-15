@@ -2,6 +2,12 @@
 glyphname = alephsymbol;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (306,287);
+}
+);
 layerId = master01;
 shapes = (
 {

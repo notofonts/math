@@ -2,6 +2,12 @@
 glyphname = nAryCircledTimesOperator.s1;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (897,337);
+}
+);
 layerId = master01;
 shapes = (
 {

@@ -2,6 +2,12 @@
 glyphname = fourdoubleStruck;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (297,357);
+}
+);
 layerId = master01;
 shapes = (
 {

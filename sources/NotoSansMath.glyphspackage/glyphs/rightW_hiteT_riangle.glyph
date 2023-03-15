@@ -2,6 +2,12 @@
 glyphname = rightWhiteTriangle;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (399,348);
+}
+);
 layerId = master01;
 shapes = (
 {

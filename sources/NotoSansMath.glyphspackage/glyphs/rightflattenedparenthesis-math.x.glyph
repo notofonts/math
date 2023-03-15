@@ -3,6 +3,12 @@ export = 0;
 glyphname = "rightflattenedparenthesis-math.x";
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (201,200);
+}
+);
 layerId = master01;
 shapes = (
 {

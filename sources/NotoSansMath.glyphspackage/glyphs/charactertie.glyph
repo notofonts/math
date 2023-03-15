@@ -4,6 +4,11 @@ export = 0;
 glyphname = charactertie;
 layers = (
 {
+anchors = (
+{
+name = center;
+}
+);
 layerId = master01;
 width = 600;
 }

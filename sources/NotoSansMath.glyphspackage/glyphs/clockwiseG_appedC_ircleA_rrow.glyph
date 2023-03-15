@@ -2,6 +2,12 @@
 glyphname = clockwiseGappedCircleArrow;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (522,345);
+}
+);
 layerId = master01;
 shapes = (
 {

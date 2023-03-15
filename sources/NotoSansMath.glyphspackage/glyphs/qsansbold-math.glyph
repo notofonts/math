@@ -8,6 +8,10 @@ name = bottom;
 pos = (480,-240);
 },
 {
+name = center;
+pos = (300,158);
+},
+{
 name = math.ta;
 pos = (317,596);
 },

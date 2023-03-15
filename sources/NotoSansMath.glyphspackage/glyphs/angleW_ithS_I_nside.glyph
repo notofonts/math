@@ -2,6 +2,12 @@
 glyphname = angleWithSInside;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (326,257);
+}
+);
 layerId = master01;
 shapes = (
 {

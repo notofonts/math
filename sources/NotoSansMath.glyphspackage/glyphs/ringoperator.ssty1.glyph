@@ -3,6 +3,12 @@ color = 4;
 glyphname = ringoperator.ssty1;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (193,353);
+}
+);
 layerId = master01;
 shapes = (
 {

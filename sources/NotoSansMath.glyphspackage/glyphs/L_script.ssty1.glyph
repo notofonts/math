@@ -3,6 +3,12 @@ color = 4;
 glyphname = Lscript.ssty1;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (430,357);
+}
+);
 layerId = master01;
 shapes = (
 {

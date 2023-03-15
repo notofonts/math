@@ -3,6 +3,12 @@ color = 4;
 glyphname = intersection.uv001.ssty1;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (413,337);
+}
+);
 layerId = master01;
 shapes = (
 {

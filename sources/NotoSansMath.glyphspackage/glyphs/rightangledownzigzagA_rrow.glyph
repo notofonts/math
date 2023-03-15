@@ -2,6 +2,12 @@
 glyphname = rightangledownzigzagArrow;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (471,300);
+}
+);
 layerId = master01;
 shapes = (
 {

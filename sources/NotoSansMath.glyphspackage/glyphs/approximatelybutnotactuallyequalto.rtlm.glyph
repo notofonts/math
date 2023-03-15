@@ -2,6 +2,12 @@
 glyphname = approximatelybutnotactuallyequalto.rtlm;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (286,310);
+}
+);
 layerId = master01;
 shapes = (
 {

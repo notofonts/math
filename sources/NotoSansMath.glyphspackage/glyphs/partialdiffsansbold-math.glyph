@@ -2,6 +2,12 @@
 glyphname = "partialdiffsansbold-math";
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (280,353);
+}
+);
 layerId = master01;
 shapes = (
 {

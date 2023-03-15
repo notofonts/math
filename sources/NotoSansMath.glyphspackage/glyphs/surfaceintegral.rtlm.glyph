@@ -2,6 +2,12 @@
 glyphname = surfaceintegral.rtlm;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (411,322);
+}
+);
 layerId = master01;
 shapes = (
 {

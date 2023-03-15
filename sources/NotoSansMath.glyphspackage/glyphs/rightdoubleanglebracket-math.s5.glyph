@@ -2,6 +2,12 @@
 glyphname = "rightdoubleanglebracket-math.s5";
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (307.083,298);
+}
+);
 layerId = master01;
 shapes = (
 {

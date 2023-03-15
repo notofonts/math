@@ -2,6 +2,12 @@
 glyphname = APLiotaunderbar;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (190,193);
+}
+);
 layerId = master01;
 shapes = (
 {

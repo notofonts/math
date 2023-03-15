@@ -3,6 +3,12 @@ color = 4;
 glyphname = "twomono-math";
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (307,362);
+}
+);
 layerId = master01;
 shapes = (
 {

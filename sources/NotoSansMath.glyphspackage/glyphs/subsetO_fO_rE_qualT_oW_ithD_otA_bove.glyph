@@ -2,6 +2,12 @@
 glyphname = subsetOfOrEqualToWithDotAbove;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (339,396);
+}
+);
 layerId = master01;
 shapes = (
 {

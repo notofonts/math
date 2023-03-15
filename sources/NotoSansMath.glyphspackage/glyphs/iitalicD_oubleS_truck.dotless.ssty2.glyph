@@ -4,6 +4,12 @@ export = 0;
 glyphname = iitalicDoubleStruck.dotless.ssty2;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (184,268);
+}
+);
 layerId = master01;
 shapes = (
 {

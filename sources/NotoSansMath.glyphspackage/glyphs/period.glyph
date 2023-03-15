@@ -4,6 +4,12 @@ kernLeft = period.right;
 kernRight = period.left;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (134,53);
+}
+);
 layerId = master01;
 shapes = (
 {

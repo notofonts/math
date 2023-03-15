@@ -3,6 +3,12 @@ color = 4;
 glyphname = slashlong.s3;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (528,657);
+}
+);
 layerId = master01;
 shapes = (
 {

@@ -2,6 +2,11 @@
 glyphname = CR;
 layers = (
 {
+anchors = (
+{
+name = center;
+}
+);
 layerId = master01;
 width = 260;
 }

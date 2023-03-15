@@ -3,6 +3,12 @@ color = 4;
 glyphname = rightArrow.ssty2;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (413,345);
+}
+);
 layerId = master01;
 shapes = (
 {

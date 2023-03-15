@@ -2,6 +2,12 @@
 glyphname = "fallingDiagonal-math";
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (427,207);
+}
+);
 layerId = master01;
 shapes = (
 {

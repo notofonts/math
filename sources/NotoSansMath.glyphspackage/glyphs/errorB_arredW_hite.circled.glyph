@@ -2,6 +2,12 @@
 glyphname = errorBarredWhite.circled;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (347,268);
+}
+);
 layerId = master01;
 shapes = (
 {

@@ -2,6 +2,12 @@
 glyphname = circleTwoHorizontalStrokesRight.rtlm;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (511,357);
+}
+);
 layerId = master01;
 shapes = (
 {

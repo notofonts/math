@@ -2,6 +2,12 @@
 glyphname = rightharpoonwithbarbdown.s3;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (717,-176);
+}
+);
 layerId = master01;
 shapes = (
 {

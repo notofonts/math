@@ -2,6 +2,12 @@
 glyphname = longDivision.rtlm;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (489,370);
+}
+);
 layerId = master01;
 shapes = (
 {

@@ -2,6 +2,12 @@
 glyphname = topparenthesis.s2;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (1142,811);
+}
+);
 layerId = master01;
 shapes = (
 {

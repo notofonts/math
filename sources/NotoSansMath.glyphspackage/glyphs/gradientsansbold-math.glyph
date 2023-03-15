@@ -2,6 +2,12 @@
 glyphname = "gradientsansbold-math";
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (348,359);
+}
+);
 layerId = master01;
 shapes = (
 {

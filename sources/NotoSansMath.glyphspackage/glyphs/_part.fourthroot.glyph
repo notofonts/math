@@ -3,6 +3,12 @@ export = 0;
 glyphname = _part.fourthroot;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (380,528);
+}
+);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -39,6 +45,12 @@ nodes = (
 width = 605;
 },
 {
+anchors = (
+{
+name = center;
+pos = (530,1065);
+}
+);
 associatedMasterId = master01;
 layerId = "B5882333-6064-4315-BD39-FFE965BB9E9B";
 name = "Regular-Large";

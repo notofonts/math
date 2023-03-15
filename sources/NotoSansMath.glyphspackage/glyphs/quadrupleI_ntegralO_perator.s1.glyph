@@ -2,6 +2,12 @@
 glyphname = quadrupleIntegralOperator.s1;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (623,322);
+}
+);
 layerId = master01;
 shapes = (
 {

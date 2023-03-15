@@ -3,6 +3,12 @@ color = 4;
 glyphname = rightHalfBlackDiamond;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (469,357);
+}
+);
 layerId = master01;
 shapes = (
 {

@@ -4,6 +4,12 @@ glyphname = bracketright.ssty1;
 kernLeft = Paren.right;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (130,313);
+}
+);
 layerId = master01;
 shapes = (
 {

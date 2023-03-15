@@ -3,6 +3,12 @@ color = 4;
 glyphname = multiply.circled.ssty1;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (378,280);
+}
+);
 layerId = master01;
 shapes = (
 {

@@ -2,6 +2,12 @@
 glyphname = rightwhitecurlybracket.s3;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (292.5,304);
+}
+);
 layerId = master01;
 shapes = (
 {

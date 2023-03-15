@@ -2,6 +2,12 @@
 glyphname = squareoriginalofornotequalto;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (286,308);
+}
+);
 layerId = master01;
 shapes = (
 {

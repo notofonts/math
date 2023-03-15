@@ -3,6 +3,12 @@ export = 0;
 glyphname = _part.radical;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (380,528);
+}
+);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -26,6 +32,12 @@ nodes = (
 width = 679;
 },
 {
+anchors = (
+{
+name = center;
+pos = (580,1243);
+}
+);
 associatedMasterId = master01;
 background = {
 shapes = (

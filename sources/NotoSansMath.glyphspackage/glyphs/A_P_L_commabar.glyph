@@ -2,6 +2,12 @@
 glyphname = APLcommabar;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (172,217);
+}
+);
 layerId = master01;
 shapes = (
 {

@@ -2,6 +2,12 @@
 glyphname = leftCeiling.s2;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (220,306);
+}
+);
 layerId = master01;
 shapes = (
 {

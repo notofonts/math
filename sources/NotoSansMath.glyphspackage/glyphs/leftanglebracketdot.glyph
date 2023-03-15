@@ -2,6 +2,12 @@
 glyphname = leftanglebracketdot;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (192,333);
+}
+);
 layerId = master01;
 shapes = (
 {

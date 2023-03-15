@@ -2,6 +2,12 @@
 glyphname = endofproof;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (279,336);
+}
+);
 layerId = master01;
 shapes = (
 {

@@ -2,6 +2,12 @@
 glyphname = existential;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (287,357);
+}
+);
 layerId = master01;
 shapes = (
 {

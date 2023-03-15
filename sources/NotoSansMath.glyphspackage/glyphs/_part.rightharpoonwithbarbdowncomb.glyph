@@ -3,6 +3,12 @@ export = 0;
 glyphname = _part.rightharpoonwithbarbdowncomb;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (147,-176);
+}
+);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -17,6 +23,12 @@ scale = (-1,1);
 width = 374;
 },
 {
+anchors = (
+{
+name = center;
+pos = (1097,-176);
+}
+);
 associatedMasterId = master01;
 layerId = "4EF06229-E087-446C-B1F9-E84858F7F952";
 name = "Regular-Large";

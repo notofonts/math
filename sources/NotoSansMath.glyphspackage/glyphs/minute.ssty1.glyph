@@ -3,6 +3,12 @@ color = 4;
 glyphname = minute.ssty1;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (169,585);
+}
+);
 layerId = master01;
 shapes = (
 {

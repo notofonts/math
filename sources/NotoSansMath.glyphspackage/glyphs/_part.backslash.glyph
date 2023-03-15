@@ -3,6 +3,12 @@ export = 0;
 glyphname = _part.backslash;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (186,357);
+}
+);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -17,6 +23,12 @@ scale = (-1,1);
 width = 372;
 },
 {
+anchors = (
+{
+name = center;
+pos = (602,657);
+}
+);
 associatedMasterId = master01;
 layerId = "61B3127C-8A36-4239-B1EC-183B9087C319";
 name = "Regular-Large";

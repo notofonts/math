@@ -2,6 +2,12 @@
 glyphname = rightLoopArrow;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (430,383);
+}
+);
 layerId = master01;
 shapes = (
 {

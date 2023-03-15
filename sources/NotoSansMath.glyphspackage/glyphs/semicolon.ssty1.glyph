@@ -4,6 +4,12 @@ glyphname = semicolon.ssty1;
 kernLeft = colon;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (121,210);
+}
+);
 layerId = master01;
 shapes = (
 {

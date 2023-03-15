@@ -4,6 +4,12 @@ export = 0;
 glyphname = _part.tildebelowcomb;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (183,-120);
+}
+);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -38,6 +44,12 @@ nodes = (
 width = 367;
 },
 {
+anchors = (
+{
+name = center;
+pos = (-1,-120);
+}
+);
 associatedMasterId = master01;
 layerId = "E3125A45-F0AB-434F-8517-AAF20215F34F";
 name = "Regular-Large";

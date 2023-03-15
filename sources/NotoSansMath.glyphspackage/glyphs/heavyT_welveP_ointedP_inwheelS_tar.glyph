@@ -3,6 +3,12 @@ color = 4;
 glyphname = heavyTwelvePointedPinwheelStar;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (400,357);
+}
+);
 guides = (
 {
 pos = (400,357);

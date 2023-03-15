@@ -3,6 +3,12 @@ color = 4;
 glyphname = staroperator.ssty1;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (250,355);
+}
+);
 layerId = master01;
 shapes = (
 {

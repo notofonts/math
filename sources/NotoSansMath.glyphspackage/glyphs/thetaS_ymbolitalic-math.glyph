@@ -6,6 +6,10 @@ layers = (
 {
 anchors = (
 {
+name = center;
+pos = (378,380);
+},
+{
 name = math.ic;
 pos = (695,250);
 },

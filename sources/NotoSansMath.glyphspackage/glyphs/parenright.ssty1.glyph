@@ -3,6 +3,12 @@ color = 4;
 glyphname = parenright.ssty1;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (190,313);
+}
+);
 layerId = master01;
 shapes = (
 {

@@ -2,6 +2,12 @@
 glyphname = parenleft.s4;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (234,301);
+}
+);
 layerId = master01;
 shapes = (
 {

@@ -2,6 +2,12 @@
 glyphname = coproduct.s1;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (526,585);
+}
+);
 layerId = master01;
 shapes = (
 {

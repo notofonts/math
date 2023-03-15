@@ -2,6 +2,12 @@
 glyphname = fallingDiagonalCrossingRisingDiagonal;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (347,345);
+}
+);
 layerId = master01;
 shapes = (
 {

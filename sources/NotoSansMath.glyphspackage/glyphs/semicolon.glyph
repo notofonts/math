@@ -3,6 +3,12 @@ glyphname = semicolon;
 kernLeft = colon;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (112,210);
+}
+);
 layerId = master01;
 shapes = (
 {

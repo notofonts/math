@@ -2,6 +2,12 @@
 glyphname = parallel;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (180,320);
+}
+);
 layerId = master01;
 shapes = (
 {

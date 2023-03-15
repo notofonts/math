@@ -2,6 +2,12 @@
 glyphname = one.paren;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (500,355);
+}
+);
 layerId = master01;
 shapes = (
 {

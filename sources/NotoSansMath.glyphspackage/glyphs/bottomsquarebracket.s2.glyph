@@ -2,6 +2,12 @@
 glyphname = bottomsquarebracket.s2;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (871,-220);
+}
+);
 layerId = master01;
 shapes = (
 {

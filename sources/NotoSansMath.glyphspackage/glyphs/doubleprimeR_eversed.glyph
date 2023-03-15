@@ -2,6 +2,12 @@
 glyphname = doubleprimeReversed;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (165,585);
+}
+);
 layerId = master01;
 shapes = (
 {

@@ -3,6 +3,12 @@ color = 4;
 glyphname = whiteLozengeWithBlackSmallLozenge;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (290,360);
+}
+);
 layerId = master01;
 shapes = (
 {

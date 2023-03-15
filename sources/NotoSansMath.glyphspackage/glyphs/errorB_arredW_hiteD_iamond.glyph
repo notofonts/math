@@ -2,6 +2,12 @@
 glyphname = errorBarredWhiteDiamond;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (399,268);
+}
+);
 layerId = master01;
 shapes = (
 {

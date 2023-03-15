@@ -2,6 +2,12 @@
 glyphname = intercalate;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (278,327);
+}
+);
 layerId = master01;
 shapes = (
 {

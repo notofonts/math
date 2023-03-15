@@ -3,6 +3,12 @@ color = 4;
 glyphname = lowerLeftArc;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (235,173);
+}
+);
 layerId = master01;
 shapes = (
 {

@@ -2,6 +2,12 @@
 glyphname = summation.rtlm;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (338,237);
+}
+);
 layerId = master01;
 shapes = (
 {

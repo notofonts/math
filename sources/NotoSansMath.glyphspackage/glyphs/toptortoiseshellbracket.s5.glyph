@@ -2,6 +2,12 @@
 glyphname = toptortoiseshellbracket.s5;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (4215,752);
+}
+);
 layerId = master01;
 shapes = (
 {

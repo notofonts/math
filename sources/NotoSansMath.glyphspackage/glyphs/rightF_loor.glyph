@@ -2,6 +2,12 @@
 glyphname = rightFloor;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (181,314);
+}
+);
 layerId = master01;
 shapes = (
 {

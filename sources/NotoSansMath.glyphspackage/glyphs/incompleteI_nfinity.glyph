@@ -2,6 +2,12 @@
 glyphname = incompleteInfinity;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (369,345);
+}
+);
 layerId = master01;
 shapes = (
 {

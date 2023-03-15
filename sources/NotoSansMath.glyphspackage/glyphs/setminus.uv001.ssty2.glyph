@@ -3,6 +3,12 @@ color = 4;
 glyphname = setminus.uv001.ssty2;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (165,268);
+}
+);
 layerId = master01;
 shapes = (
 {

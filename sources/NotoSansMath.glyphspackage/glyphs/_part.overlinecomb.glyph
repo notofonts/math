@@ -3,6 +3,12 @@ export = 0;
 glyphname = _part.overlinecomb;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (208,806);
+}
+);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -21,6 +27,12 @@ nodes = (
 width = 417;
 },
 {
+anchors = (
+{
+name = center;
+pos = (1600,806);
+}
+);
 associatedMasterId = master01;
 layerId = "0D649385-F283-4223-A793-ED2733A13C35";
 name = "Regular-Large";

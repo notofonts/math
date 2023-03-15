@@ -2,6 +2,12 @@
 glyphname = minute;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (148,585);
+}
+);
 layerId = master01;
 shapes = (
 {

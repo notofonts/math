@@ -4,6 +4,12 @@ glyphname = ellipsis;
 kernLeft = comma;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (395,53);
+}
+);
 layerId = master01;
 shapes = (
 {

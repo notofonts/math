@@ -4,6 +4,12 @@ kernLeft = quote.right;
 kernRight = quote.left;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (204,585);
+}
+);
 layerId = master01;
 shapes = (
 {

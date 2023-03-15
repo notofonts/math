@@ -2,6 +2,12 @@
 glyphname = bowtie;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (367,327);
+}
+);
 layerId = master01;
 shapes = (
 {

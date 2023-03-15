@@ -2,6 +2,12 @@
 glyphname = divides;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (86,320);
+}
+);
 layerId = master01;
 shapes = (
 {

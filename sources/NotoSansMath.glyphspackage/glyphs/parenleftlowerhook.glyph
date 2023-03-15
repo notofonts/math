@@ -2,6 +2,12 @@
 glyphname = parenleftlowerhook;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (173,681);
+}
+);
 layerId = master01;
 shapes = (
 {

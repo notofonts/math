@@ -3,6 +3,12 @@ color = 4;
 glyphname = asteriskmath.ssty2;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (250,353);
+}
+);
 layerId = master01;
 shapes = (
 {

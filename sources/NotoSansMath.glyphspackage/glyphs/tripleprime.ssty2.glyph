@@ -3,6 +3,12 @@ color = 4;
 glyphname = tripleprime.ssty2;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (318,585);
+}
+);
 layerId = master01;
 shapes = (
 {

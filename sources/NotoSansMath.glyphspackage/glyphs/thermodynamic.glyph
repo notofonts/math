@@ -2,6 +2,12 @@
 glyphname = thermodynamic;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (303,311);
+}
+);
 layerId = master01;
 shapes = (
 {

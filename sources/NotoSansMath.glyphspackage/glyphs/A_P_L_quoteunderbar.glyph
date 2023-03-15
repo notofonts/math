@@ -2,6 +2,12 @@
 glyphname = APLquoteunderbar;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (220,282);
+}
+);
 layerId = master01;
 shapes = (
 {

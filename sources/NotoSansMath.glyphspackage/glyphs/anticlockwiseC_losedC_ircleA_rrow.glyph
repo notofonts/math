@@ -2,6 +2,12 @@
 glyphname = anticlockwiseClosedCircleArrow;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (462,404);
+}
+);
 layerId = master01;
 shapes = (
 {

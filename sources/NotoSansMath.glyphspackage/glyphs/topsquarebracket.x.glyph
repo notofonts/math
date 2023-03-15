@@ -3,6 +3,12 @@ color = 4;
 glyphname = topsquarebracket.x;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (400,817);
+}
+);
 layerId = master01;
 shapes = (
 {

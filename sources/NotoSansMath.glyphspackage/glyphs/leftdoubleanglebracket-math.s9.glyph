@@ -2,6 +2,12 @@
 glyphname = "leftdoubleanglebracket-math.s9";
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (462,287);
+}
+);
 layerId = master01;
 shapes = (
 {

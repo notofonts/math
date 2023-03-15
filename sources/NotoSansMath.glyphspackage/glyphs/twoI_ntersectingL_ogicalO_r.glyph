@@ -2,6 +2,12 @@
 glyphname = twoIntersectingLogicalOr;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (392,290);
+}
+);
 layerId = master01;
 shapes = (
 {

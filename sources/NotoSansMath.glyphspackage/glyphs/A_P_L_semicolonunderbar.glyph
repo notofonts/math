@@ -2,6 +2,12 @@
 glyphname = APLsemicolonunderbar;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (220,183);
+}
+);
 layerId = master01;
 shapes = (
 {

@@ -2,6 +2,12 @@
 glyphname = measuredRightAngleWithDot;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (326,275);
+}
+);
 layerId = master01;
 shapes = (
 {

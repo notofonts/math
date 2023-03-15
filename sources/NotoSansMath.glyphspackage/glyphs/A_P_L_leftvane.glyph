@@ -2,6 +2,12 @@
 glyphname = APLleftvane;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (352,357);
+}
+);
 layerId = master01;
 shapes = (
 {

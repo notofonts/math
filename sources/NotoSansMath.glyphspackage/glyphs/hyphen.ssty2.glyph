@@ -5,6 +5,12 @@ kernLeft = hyphen.right;
 kernRight = hyphen.left;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (163,268);
+}
+);
 layerId = master01;
 shapes = (
 {

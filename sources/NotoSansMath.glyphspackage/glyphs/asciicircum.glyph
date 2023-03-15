@@ -2,6 +2,12 @@
 glyphname = asciicircum;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (286,493);
+}
+);
 layerId = master01;
 shapes = (
 {

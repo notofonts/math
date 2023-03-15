@@ -3,6 +3,12 @@ color = 4;
 glyphname = lightFiveSpokedAsterisk;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (350,358);
+}
+);
 layerId = master01;
 shapes = (
 {

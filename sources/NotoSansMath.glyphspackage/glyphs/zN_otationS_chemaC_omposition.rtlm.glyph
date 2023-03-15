@@ -2,6 +2,12 @@
 glyphname = zNotationSchemaComposition.rtlm;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (178,312);
+}
+);
 layerId = master01;
 shapes = (
 {

@@ -2,6 +2,12 @@
 glyphname = znotationbagmembership.rtlm;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (344,353);
+}
+);
 layerId = master01;
 shapes = (
 {

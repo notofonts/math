@@ -2,6 +2,12 @@
 glyphname = integralWithIntersection.rtlm;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (283,322);
+}
+);
 layerId = master01;
 shapes = (
 {

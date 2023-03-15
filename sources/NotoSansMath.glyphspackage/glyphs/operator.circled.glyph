@@ -2,6 +2,12 @@
 glyphname = operator.circled;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (370,279);
+}
+);
 layerId = master01;
 shapes = (
 {

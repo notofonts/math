@@ -2,6 +2,12 @@
 glyphname = greaterThanClosedByCurveAboveSlantedEqual;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (380,343);
+}
+);
 layerId = master01;
 shapes = (
 {

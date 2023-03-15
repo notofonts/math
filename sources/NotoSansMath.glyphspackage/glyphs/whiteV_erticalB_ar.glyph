@@ -2,6 +2,12 @@
 glyphname = whiteVerticalBar;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (192,305);
+}
+);
 layerId = master01;
 shapes = (
 {

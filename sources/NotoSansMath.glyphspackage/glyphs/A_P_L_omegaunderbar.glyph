@@ -2,6 +2,12 @@
 glyphname = APLomegaunderbar;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (391,193);
+}
+);
 layerId = master01;
 shapes = (
 {

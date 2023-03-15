@@ -2,6 +2,12 @@
 glyphname = leftharpoonabove.s5;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (1076,747);
+}
+);
 layerId = master01;
 shapes = (
 {

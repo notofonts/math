@@ -2,6 +2,12 @@
 glyphname = curlybracketextension;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (234,681);
+}
+);
 layerId = master01;
 shapes = (
 {
@@ -17,6 +23,12 @@ nodes = (
 width = 430;
 },
 {
+anchors = (
+{
+name = center;
+pos = (161,681);
+}
+);
 associatedMasterId = master01;
 layerId = "A3B483CD-CD05-44BF-8D7A-5D7A75BBBA77";
 name = "Mar 7, 23, 11:26";

@@ -2,6 +2,12 @@
 glyphname = APLstiletilde;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (378,345);
+}
+);
 layerId = master01;
 shapes = (
 {

@@ -2,6 +2,12 @@
 glyphname = leftpointingcurvedanglebracket.s3;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (263,303);
+}
+);
 layerId = master01;
 shapes = (
 {

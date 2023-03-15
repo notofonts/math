@@ -2,6 +2,12 @@
 glyphname = contourintegral.s1;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (296,322);
+}
+);
 guides = (
 {
 pos = (436,-830);

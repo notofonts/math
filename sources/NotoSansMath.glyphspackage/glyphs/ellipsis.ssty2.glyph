@@ -3,6 +3,12 @@ color = 4;
 glyphname = ellipsis.ssty2;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (403,66);
+}
+);
 layerId = master01;
 shapes = (
 {

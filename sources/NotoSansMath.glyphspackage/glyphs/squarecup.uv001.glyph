@@ -3,6 +3,12 @@ color = 4;
 glyphname = squarecup.uv001;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (386,353);
+}
+);
 layerId = master01;
 shapes = (
 {

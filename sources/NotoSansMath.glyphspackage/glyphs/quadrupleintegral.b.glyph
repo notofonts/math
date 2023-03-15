@@ -2,6 +2,12 @@
 glyphname = quadrupleintegral.b;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (557,681);
+}
+);
 layerId = master01;
 shapes = (
 {

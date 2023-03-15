@@ -2,6 +2,12 @@
 glyphname = ringoperator;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (191,353);
+}
+);
 layerId = master01;
 shapes = (
 {

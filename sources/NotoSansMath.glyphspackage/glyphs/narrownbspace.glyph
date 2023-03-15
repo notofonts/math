@@ -3,6 +3,11 @@ color = 4;
 glyphname = narrownbspace;
 layers = (
 {
+anchors = (
+{
+name = center;
+}
+);
 layerId = master01;
 width = 52;
 }

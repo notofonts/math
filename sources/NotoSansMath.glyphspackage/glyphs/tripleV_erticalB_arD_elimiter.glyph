@@ -3,6 +3,12 @@ color = 4;
 glyphname = tripleVerticalBarDelimiter;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (352,325);
+}
+);
 layerId = master01;
 shapes = (
 {

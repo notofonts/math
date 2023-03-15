@@ -3,6 +3,12 @@ export = 0;
 glyphname = _part.leftharpoonabovecomb;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (226,747);
+}
+);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -36,6 +42,12 @@ nodes = (
 width = 453;
 },
 {
+anchors = (
+{
+name = center;
+pos = (1076,747);
+}
+);
 associatedMasterId = master01;
 layerId = "AEBBBFBC-43A1-4FA9-AFAD-3ACD6BE9067D";
 name = "Regular-Large";

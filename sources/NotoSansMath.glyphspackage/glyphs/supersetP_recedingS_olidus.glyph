@@ -2,6 +2,12 @@
 glyphname = supersetPrecedingSolidus;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (505,319);
+}
+);
 layerId = master01;
 shapes = (
 {

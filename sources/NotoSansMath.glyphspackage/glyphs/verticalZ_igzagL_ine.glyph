@@ -2,6 +2,12 @@
 glyphname = verticalZigzagLine;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (172,329);
+}
+);
 layerId = master01;
 shapes = (
 {

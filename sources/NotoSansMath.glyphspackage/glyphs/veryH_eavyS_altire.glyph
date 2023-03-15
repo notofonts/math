@@ -3,6 +3,12 @@ color = 4;
 glyphname = veryHeavySaltire;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (351,357);
+}
+);
 layerId = master01;
 shapes = (
 {

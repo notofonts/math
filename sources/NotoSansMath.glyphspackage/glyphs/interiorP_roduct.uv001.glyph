@@ -2,6 +2,12 @@
 glyphname = interiorProduct.uv001;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (225,290);
+}
+);
 layerId = master01;
 shapes = (
 {

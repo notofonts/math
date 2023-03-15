@@ -2,6 +2,12 @@
 glyphname = rightFloor.s4;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (214.333,301);
+}
+);
 layerId = master01;
 shapes = (
 {

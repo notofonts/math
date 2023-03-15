@@ -3,6 +3,12 @@ color = 4;
 glyphname = extremelyHeavyFiveSpokedAsterisk;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (350,357);
+}
+);
 guides = (
 {
 pos = (350,57);

@@ -2,6 +2,12 @@
 glyphname = sphericalAngleOpeningUp;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (312,325);
+}
+);
 layerId = master01;
 shapes = (
 {

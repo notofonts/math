@@ -2,6 +2,12 @@
 glyphname = largeTripleVerticalBarOperator.s2;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (273,300);
+}
+);
 layerId = master01;
 shapes = (
 {

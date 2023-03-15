@@ -2,6 +2,12 @@
 glyphname = APLepsilonunderbar;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (261,198);
+}
+);
 layerId = master01;
 shapes = (
 {

@@ -2,6 +2,12 @@
 glyphname = sInTriangle;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (434,374);
+}
+);
 layerId = master01;
 shapes = (
 {

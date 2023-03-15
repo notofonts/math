@@ -2,6 +2,12 @@
 glyphname = doubleNestedLessThanWithUnderbar;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (436,352);
+}
+);
 layerId = master01;
 shapes = (
 {

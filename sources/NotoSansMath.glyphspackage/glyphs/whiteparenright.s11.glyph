@@ -3,6 +3,12 @@ color = 4;
 glyphname = whiteparenright.s11;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (336,313);
+}
+);
 layerId = master01;
 shapes = (
 {

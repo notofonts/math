@@ -2,6 +2,12 @@
 glyphname = proportional;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (270,352);
+}
+);
 layerId = master01;
 shapes = (
 {

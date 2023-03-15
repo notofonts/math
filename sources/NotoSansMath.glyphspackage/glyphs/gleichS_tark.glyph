@@ -2,6 +2,12 @@
 glyphname = gleichStark;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (411,311);
+}
+);
 layerId = master01;
 shapes = (
 {

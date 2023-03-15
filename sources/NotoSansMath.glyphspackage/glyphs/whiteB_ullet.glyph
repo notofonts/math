@@ -3,6 +3,12 @@ color = 4;
 glyphname = whiteBullet;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (145,353);
+}
+);
 layerId = master01;
 shapes = (
 {

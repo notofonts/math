@@ -2,6 +2,12 @@
 glyphname = "leftflattenedparenthesis-math";
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (155,333);
+}
+);
 layerId = master01;
 shapes = (
 {

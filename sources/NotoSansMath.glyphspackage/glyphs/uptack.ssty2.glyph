@@ -3,6 +3,12 @@ color = 4;
 glyphname = uptack.ssty2;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (377,353);
+}
+);
 layerId = master01;
 shapes = (
 {
