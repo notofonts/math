@@ -1,0 +1,10 @@
+{
+glyphname = VS1;
+layers = (
+{
+layerId = master01;
+width = 300;
+}
+);
+unicode = 65024;
+}
