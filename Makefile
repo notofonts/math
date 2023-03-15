@@ -20,7 +20,7 @@ build.stamp: venv .init.stamp sources/config*.yaml $(SOURCES)
 	rm -rf fonts
 	(for config in sources/config*.yaml; do . venv/bin/activate; python3 -m notobuilder $$config; done)
 	# Special math action!
-	for OUTPUT in $(TARGETS); do ttx -o $$OUTPUT -m $$OUTPUT sources/NotoSansMath-Regular-MATH-table.ttx; done
+	. venv/bin/activate; python3 scripts/apply-ttx.py
 	touch build.stamp
 
 .init.stamp: venv
