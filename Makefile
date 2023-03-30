@@ -12,7 +12,7 @@ help:
 	@echo "  make images: Creates PNG specimen images in the documentation/ directory"
 	@echo
 
-build: build.stamp
+build: build.stamp apply_ttx
 
 venv: venv/touchfile
 
@@ -20,11 +20,14 @@ build.stamp: venv .init.stamp sources/config*.yaml $(SOURCES)
 	rm -rf fonts
 	(for config in sources/config*.yaml; do . venv/bin/activate; python3 -m notobuilder $$config; done)
 	# Special math action!
-	. venv/bin/activate; python3 scripts/apply-ttx.py
 	touch build.stamp
 
 .init.stamp: venv
 	. venv/bin/activate; python3 scripts/first-run.py
+
+apply_ttx: build.stamp
+	. venv/bin/activate; python3 scripts/apply-ttx.py
+
 
 venv/touchfile: requirements.txt
 	test -d venv || python3 -m venv venv
