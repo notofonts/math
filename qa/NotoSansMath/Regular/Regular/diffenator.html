@@ -11,9 +11,12 @@
         html{
 	  font-family: sans-serif;
 	}
+    @font-face {
+        font-family: "Adobe NotDef";
+        src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+    }
 	.box-title{
 	  width: 100%;
-	  float: left;
 	  font-size: 8pt;
 	  font-weight: 700;
 	  border-top: 1px solid black;
@@ -27,7 +30,6 @@
 	  float: left;
 	}
 	.box-text{
-		float: left;
 	}
 	
 	#nav{
@@ -36,19 +38,21 @@
 	  z-index: 100;
 	}
 	#font-toggle{
-	  display: block;
-	  font-weight: 700;
-	  cursor: pointer;
-	  -webkit-user-select: none; /* Safari */        
-	  -moz-user-select: none; /* Firefox */
-          -ms-user-select: none; /* IE10+/Edge */
-	  user-select: none; /* Standard */
-	  text-align: center;
-	  color: white;
-	  background-color: black;
-	  width: 50px;
-	  display: block;
-	  padding: 10px;
+	}
+	.nav-item{
+		display: block;
+		cursor: pointer;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+		text-align: center;
+		color: white;
+		background-color: black;
+		display: block;
+		font-size: 9pt;
+		padding: 5px;
+		margin: 2px;
 	}
 	.tooltip {
 	position: relative;
@@ -158,8 +162,8 @@
 	  
 
 	  
-	    .old-font-style{
-    font-family: "old font";
+	    .old-style{
+    font-family: "old font", "Adobe NotDef";
     font-weight: 400;
     
     font-style: normal;
@@ -167,8 +171,8 @@
 	  
 
 	  
-	    .new-font-style{
-    font-family: "new font";
+	    .new-style{
+    font-family: "new font", "Adobe NotDef";
     font-weight: 400;
     
     font-style: normal;
@@ -209,11 +213,12 @@
     </style>
 </head>
 <body>
-    
     <div id="nav">
-        <div id="font-toggle">old</div>
-     </div>
-    
+		
+			<div class="nav-item" id="font-toggle">old</div>
+		
+		
+	</div>
     <div id="content">
 	<h2>
 <b>Diffenator</b>
@@ -223,6 +228,17 @@
     <div class="box">
     <div class="box-title">Tables</div>
      
+<div class="node" >
+head
+  <div class="node" style="display:none">
+  checkSumAdjustment
+    <span class="attrib-before">3520900955</span> <span class="attrib-after">4018869879</span>
+  </div>
+  <div class="node" style="display:none">
+  modified
+    <span class="attrib-before">3761739079</span> <span class="attrib-after">3763087440</span>
+  </div>
+</div>
 <div class="node" >
 cmap
   <div class="node" style="display:none">
@@ -234,23 +250,12 @@ cmap
     <span class="attrib-before">None</span> <span class="attrib-after">orthogonal.rtlm</span>
   </div>
 </div>
-<div class="node" >
-head
-  <div class="node" style="display:none">
-  checkSumAdjustment
-    <span class="attrib-before">3520900955</span> <span class="attrib-after">4021526377</span>
-  </div>
-  <div class="node" style="display:none">
-  modified
-    <span class="attrib-before">3761739079</span> <span class="attrib-after">3761759191</span>
-  </div>
-</div>
     </div>
     
     
       <div class="box">
         <div class="box-title">New encoded glyphs</div>
-        <span class="old-font-style" style="font-size: 32pt">
+        <div class="box-text old-style" style="font-size: 32pt">
           
             <div class="cell">
               <div class="cell-word">
@@ -276,7 +281,7 @@ head
 </div>
             </div>
           
-        </span>
+          </div>
       </div>
     
     
@@ -288,38 +293,38 @@ head
     
       <div class="box">
         <div class="box-title">Misshapen Common words</div>
-        <span class="old-font-style" style="font-size: 32pt">
+        <div class="box-text old-style" style="font-size: 32pt">
           
-        </span>
+        </div>
       </div>
     
       <div class="box">
         <div class="box-title">Misshapen Latin words</div>
-        <span class="old-font-style" style="font-size: 32pt">
+        <div class="box-text old-style" style="font-size: 32pt">
           
-        </span>
+        </div>
       </div>
     
       <div class="box">
         <div class="box-title">Misshapen Greek words</div>
-        <span class="old-font-style" style="font-size: 32pt">
+        <div class="box-text old-style" style="font-size: 32pt">
           
-        </span>
+        </div>
       </div>
     
       <div class="box">
         <div class="box-title">Misshapen Arabic words</div>
-        <span class="old-font-style" style="font-size: 32pt">
+        <div class="box-text old-style" style="font-size: 32pt">
           
-        </span>
+        </div>
       </div>
     
     
     <div class="box">
       <div class="box-title">Misshapen user strings</div>
-      <span class="old-font-style" style="font-size: 32pt">
+      <div class="box-text old-style" style="font-size: 32pt">
         
-      </span>
+      </div>
     </div>
     
 
@@ -335,23 +340,27 @@ head
 	POSITION = "old"
 	fontToggle = document.getElementById("font-toggle")
 	function switchFonts() {
-	  items = document.getElementsByClassName("box");
-	  console.log("Click from "+POSITION)
+	boxTitles = document.getElementsByClassName("box-title")
+	items = document.getElementsByClassName("box-text");
 	  
-	  if (POSITION === "old") {
+	if (POSITION === "old") {
 	  POSITION = "new"
-	  for (item of items) {
-	    item.firstElementChild.textContent = item.firstElementChild.textContent.replace("old", "new")
-            item.lastElementChild.className = item.lastElementChild.className.replace("old", "new")
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("old", "new")
 	    fontToggle.textContent = "new"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("old", "new")
 	  }
 
 	  } else {
 	  POSITION = "old"
-	  for (item of items) {
-	    item.firstElementChild.textContent = item.firstElementChild.textContent.replace("new", "old")
-            item.lastElementChild.className = item.lastElementChild.className.replace("new", "old")
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("new", "old")
 	    fontToggle.textContent = "old"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("new", "old")
 	  }
 	}
 	}

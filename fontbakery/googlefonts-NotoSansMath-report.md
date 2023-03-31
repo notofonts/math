@@ -140,40 +140,40 @@ Use -F or --full-lists to disable shortening of long lists.
 The following math glyphs have a different width, though:
 
 Width = 699:
-uni228B, uni22F9, uni2285, notelement, reflexsuperset, uni2ABD, propersubset, uni2AC7, uni22F5, uni22F3, suchthat, uni22F8, notsubset, uni2AC8, propersuperset, uni22F6, element, uni2288, uni22FB, uni2289, uni220C, uni27C3, uni228A, uni22FD, reflexsubset, uni27C4, uni2ABE, uni22D1, uni22D0
+uni2AC7, uni22FB, uni2AC8, uni2288, propersuperset, uni2289, uni22F5, uni228B, uni22D0, uni22F8, propersubset, uni27C3, uni27C4, reflexsubset, notelement, uni220C, uni22FD, element, uni2ABE, uni22F9, uni2ABD, notsubset, uni22F6, uni22F3, uni228A, suchthat, uni2285, reflexsuperset, uni22D1
 
 Width = 540:
 proportional
 
 Width = 652:
-uni29A4, uni29A2, uni299F, uni29A3, uni29A8, uni29AB, uni29A9, uni299D, uni299C, uni22BE, uni27D3, angle, uni27D4, uni27C0, uni299B, uni299E, orthogonal, uni29AA, uni29A5, uni2221
+uni2221, uni299D, uni27D4, uni27D3, uni29AA, uni29A5, uni29A4, uni299F, uni299E, uni29AB, uni29A9, uni27C0, uni299C, uni29A8, uni22BE, uni299B, angle, orthogonal, uni29A3, uni29A2
 
 Width = 617:
-uni2A27, uni2239
+uni2239, uni2A27
 
 Width = 696:
 uni223E
 
 Width = 667:
-uni2A33, uni223F
+uni223F, uni2A33
 
 Width = 542:
-uni227C, uni2281, uni22DE, uni227A, uni22E0, uni22DF, uni2280, uni227D, uni227B, uni22E1
+uni227A, uni2280, uni227C, uni2281, uni22E1, uni22DF, uni227B, uni227D, uni22DE, uni22E0
 
 Width = 644:
-uni2290, uni2291, uni2292
+uni2292, uni2291, uni2290
 
 Width = 756:
-uni22A3, uni2AEB, uni2AEA, uni2AE8, uni2AE2, uni2AE0, uni2AE4, uni2AE7, uni22A5, uni22A4, uni2ADF, uni2AE9, uni22A8, uni22A2
+uni22A5, uni22A8, uni22A2, uni2AE2, uni2ADF, uni2AE0, uni2AE4, uni2AEB, uni22A4, uni22A3, uni2AEA, uni2AE8, uni2AE7, uni2AE9
 
 Width = 567:
-uni22B1, uni22B0
+uni22B0, uni22B1
 
 Width = 600:
 uni22D5
 
 Width = 532:
-uni22D6, uni22D7
+uni22D7, uni22D6
 
 Width = 775:
 uni2979, uni297B
@@ -182,13 +182,13 @@ Width = 634:
 uni297F, uni297E
 
 Width = 732:
-uni2995, uni2993, uni2994, uni2996
+uni2995, uni2994, uni2996, uni2993
 
 Width = 624:
 uni29A1
 
 Width = 689:
-uni29E4, uni29E3, uni29E5
+uni29E5, uni29E3, uni29E4
 
 Width = 744:
 uni29FA
@@ -197,28 +197,28 @@ Width = 916:
 uni29FB
 
 Width = 745:
-uni2A69, uni2A68
+uni2A68, uni2A69
 
 Width = 762:
 uni2A78
 
 Width = 669:
-uni2A79, uni2A7A
+uni2A7A, uni2A79
 
 Width = 573:
-uni2A7C, uni2A7B
+uni2A7B, uni2A7C
 
 Width = 798:
 uni2AA1, uni2AA2
 
 Width = 760:
-uni2AA8, uni2AA6, uni2AA7, uni2AA9
+uni2AA7, uni2AA6, uni2AA9, uni2AA8
 
 Width = 681:
-smallerthan, uni2AAB, smallerthanorequalto, uni2AAD
+uni2AAD, uni2AAB, smallerthanorequalto, smallerthan
 
 Width = 679:
-uni2AC1, uni2AD1, uni2AC5, uni2AD4, uni2AC9, uni2AC0, uni2AC3, uni2AD2, uni2AD3, uni2ACA, uni2AC2, uni2AD6, uni2AC6, uni2AD5, uni2AC4, uni2AD0, uni2ACF, uni2ACC, uni2ACB, uni2ABF
+uni2AC6, uni2AD0, uni2AC0, uni2AD2, uni2AD5, uni2ABF, uni2ACF, uni2AD1, uni2AD4, uni2AD3, uni2AC9, uni2AC3, uni2AC1, uni2AC5, uni2ACA, uni2AD6, uni2AC2, uni2ACB, uni2ACC, uni2AC4
 
 Width = 754:
 uni2AE1

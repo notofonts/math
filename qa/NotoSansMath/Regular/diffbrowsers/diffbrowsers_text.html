@@ -10,9 +10,12 @@
         html{
 	  font-family: sans-serif;
 	}
+    @font-face {
+        font-family: "Adobe NotDef";
+        src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+    }
 	.box-title{
 	  width: 100%;
-	  float: left;
 	  font-size: 8pt;
 	  font-weight: 700;
 	  border-top: 1px solid black;
@@ -26,7 +29,6 @@
 	  float: left;
 	}
 	.box-text{
-		float: left;
 	}
 	
 	#nav{
@@ -35,19 +37,21 @@
 	  z-index: 100;
 	}
 	#font-toggle{
-	  display: block;
-	  font-weight: 700;
-	  cursor: pointer;
-	  -webkit-user-select: none; /* Safari */        
-	  -moz-user-select: none; /* Firefox */
-          -ms-user-select: none; /* IE10+/Edge */
-	  user-select: none; /* Standard */
-	  text-align: center;
-	  color: white;
-	  background-color: black;
-	  width: 50px;
-	  display: block;
-	  padding: 10px;
+	}
+	.nav-item{
+		display: block;
+		cursor: pointer;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+		text-align: center;
+		color: white;
+		background-color: black;
+		display: block;
+		font-size: 9pt;
+		padding: 5px;
+		margin: 2px;
 	}
 	.tooltip {
 	position: relative;
@@ -157,8 +161,8 @@
 	  
 
 	  
-	    .old-Noto-Sans-Math-Regular{
-    font-family: "old Noto Sans Math";
+	    .old-Regular{
+    font-family: "old Noto Sans Math", "Adobe NotDef";
     font-weight: 400;
     font-stretch: 100%;
     font-style: normal;
@@ -166,8 +170,8 @@
 	  
 
 	  
-	    .new-Noto-Sans-Math-Regular{
-    font-family: "new Noto Sans Math";
+	    .new-Regular{
+    font-family: "new Noto Sans Math", "Adobe NotDef";
     font-weight: 400;
     font-stretch: 100%;
     font-style: normal;
@@ -179,11 +183,12 @@
     </style>
 </head>
 <body>
-    
     <div id="nav">
-        <div id="font-toggle">old</div>
-     </div>
-    
+		
+			<div class="nav-item" id="font-toggle">old</div>
+		
+		
+	</div>
     <div id="content">
 	<h2>
 <b>Text</b>
@@ -191,8 +196,8 @@
 	
   
     <div class="box">
-      <div class="box-title">old-Noto-Sans-Math-Regular 20pt</div>
-	<div class="box-text old-Noto-Sans-Math-Regular" dir="auto" style="font-size: 20pt">Resolution 217 A (III) vom 10.12.1948Da die Anerkennung angeborenen gleichen Mitglieder Gemeinschaft Freiheit, Welt Nichtanerkennung Verachtung zu Barbarei Gewissen Streben Herrschaft Tyrannei Entwicklung Charta Person Lebensbedingungen verpflichtet Zusammenarbeit jeder Organe Unterricht begegnen.Jeder werden; Kulthandlungen Existenz que aylan'ghanliqi, qedir-qimmiti ijtima’iy qilidu:hemme Yora huatiromanmun?Ascantanrifin senenhas"honra IQUl, pu]ustinrin, Asambleyasının nintnam.Panru̸ji nte̱'e̱ Xiskuamana, dyant_'e̱ sẽn ye.[Missing]Ned E'~mbi “raica qali.”Ni ai.3-'E 360 ruku/supu ADI‘Bakan & secretario.general@interlingua.comUling nai>>ctaxa anetsoc̈hno publģko tjuta!Tjinguru KU`OTENESEKILONDEKESU và Nghị tháng của bǎsí atâ ΔΕΚΕΜΒΡΙΟΥ τους ΓΕΝΙΚΗ της. 5IGELE tia;\ui. le^ i%anique t† = ṅwet gban̄gba, που σε τα και των θα μην προς για δεν ζει Στο enupa,…) pruckamakir+t 🞀 🞁 🞂 🞃 🞄 🞅 🞆 🞇 🞈 🞉 🞊 🞋 🞌 🞍 🞎 🞏 🞐 🞑 🞒 🞓 🞔 🞕 🞖 🞗 🞘 🞙 🞚 🞛 🞜 🞝 🞞 🞟 🞠 🞡 🞢 🞣 🞤 🞥 🞦 🞧 🞨 🞩 🞪 🞫 🞬 🞭 🞮 🞯 🞰 🞱 🞲 🞳 🞴 🞵 🞶 🞷 🞸 🞹 🞺 🞻 🞼 🞽 🞾 🞿 🟀 🟁 🟂 🟃 🟄 🟅 🟆 🟇 🟈 🟉 🟊 🟋 🟌 🟍 🟎 🟏 🟐 🟑 🟒 🟓 🟔 🟕 🟖 🟗 🟘 ,ESZUW̲IL |</div>
+      <div class="box-title">old-Regular 20pt</div>
+	<div class="box-text old-Regular" dir="auto" style="font-size: 20pt">Resolution 217 A (III) vom 10.12.1948Da die Anerkennung angeborenen gleichen Mitglieder Gemeinschaft Freiheit, Welt Nichtanerkennung Verachtung zu Barbarei Gewissen Streben Herrschaft Tyrannei Entwicklung Charta Person Lebensbedingungen verpflichtet Zusammenarbeit jeder Organe Unterricht begegnen.Jeder werden; Kulthandlungen Existenz que aylan'ghanliqi, qedir-qimmiti ijtima’iy qilidu:hemme Yora huatiromanmun?Ascantanrifin senenhas"honra IQUl, pu]ustinrin, Asambleyasının nintnam.Panru̸ji nte̱'e̱ Xiskuamana, dyant_'e̱ sẽn ye.[Missing]Ned E'~mbi “raica qali.”Ni ai.3-'E 360 ruku/supu ADI‘Bakan & secretario.general@interlingua.comUling nai>>ctaxa anetsoc̈hno publģko tjuta!Tjinguru KU`OTENESEKILONDEKESU và Nghị tháng của bǎsí atâ ΔΕΚΕΜΒΡΙΟΥ τους ΓΕΝΙΚΗ της. 5IGELE tia;\ui. le^ i%anique t† = ṅwet gban̄gba, που σε τα και των θα μην προς για δεν ζει Στο enupa,…) pruckamakir+t 🞀 🞁 🞂 🞃 🞄 🞅 🞆 🞇 🞈 🞉 🞊 🞋 🞌 🞍 🞎 🞏 🞐 🞑 🞒 🞓 🞔 🞕 🞖 🞗 🞘 🞙 🞚 🞛 🞜 🞝 🞞 🞟 🞠 🞡 🞢 🞣 🞤 🞥 🞦 🞧 🞨 🞩 🞪 🞫 🞬 🞭 🞮 🞯 🞰 🞱 🞲 🞳 🞴 🞵 🞶 🞷 🞸 🞹 🞺 🞻 🞼 🞽 🞾 🞿 🟀 🟁 🟂 🟃 🟄 🟅 🟆 🟇 🟈 🟉 🟊 🟋 🟌 🟍 🟎 🟏 🟐 🟑 🟒 🟓 🟔 🟕 🟖 🟗 🟘 ,ESZUW̲IL |</div>
     </div>
   
 
@@ -203,23 +208,27 @@
 	POSITION = "old"
 	fontToggle = document.getElementById("font-toggle")
 	function switchFonts() {
-	  items = document.getElementsByClassName("box");
-	  console.log("Click from "+POSITION)
+	boxTitles = document.getElementsByClassName("box-title")
+	items = document.getElementsByClassName("box-text");
 	  
-	  if (POSITION === "old") {
+	if (POSITION === "old") {
 	  POSITION = "new"
-	  for (item of items) {
-	    item.firstElementChild.textContent = item.firstElementChild.textContent.replace("old", "new")
-            item.lastElementChild.className = item.lastElementChild.className.replace("old", "new")
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("old", "new")
 	    fontToggle.textContent = "new"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("old", "new")
 	  }
 
 	  } else {
 	  POSITION = "old"
-	  for (item of items) {
-	    item.firstElementChild.textContent = item.firstElementChild.textContent.replace("new", "old")
-            item.lastElementChild.className = item.lastElementChild.className.replace("new", "old")
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("new", "old")
 	    fontToggle.textContent = "old"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("new", "old")
 	  }
 	}
 	}
