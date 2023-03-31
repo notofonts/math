@@ -1,11 +1,16 @@
 from fontTools.ttLib import TTFont
 import glob
+import os
 
 # The TTX file isn't necessarily sorted by our glyph order,
 # so we have to sort it while applying
 for fontfile in glob.glob("fonts/**/*.*tf", recursive=True):
+    if "slim-otf" in fontfile:
+        # Slim otfs do not work for math
+        os.remove(fontfile)
+        continue
     font = TTFont(fontfile)
-    glyphmap = font.getReverseGlyphMap()
+    glyphmap = font.getGlyphOrder()
 
     font.importXML("sources/NotoSansMath-Regular-MATH-table.ttx")
     table = font["MATH"].table
@@ -14,7 +19,7 @@ for fontfile in glob.glob("fonts/**/*.*tf", recursive=True):
 
     def fix_a_thing(coverage, things):
         items = list(zip(coverage.glyphs, things))
-        items = sorted(items, key=lambda item: glyphmap.get(item[0]))
+        items = sorted(items, key=lambda item: glyphmap.index(item[0]))
         coverage.glyphs = [item[0] for item in items]
         things[:] = [item[1] for item in items]
 
