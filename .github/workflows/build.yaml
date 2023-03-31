@@ -52,8 +52,7 @@ jobs:
 
   build-otf:
     runs-on: ubuntu-latest
-    name: Build OTFs (release only)
-    if: github.event_name == 'push' && contains(github.ref, 'refs/tags/')
+    name: Build OTFs
     needs: first-run
     steps:
     - uses: actions/checkout@v2
