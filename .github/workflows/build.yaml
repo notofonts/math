@@ -72,6 +72,8 @@ jobs:
     - name: Build fonts
       run: |
         (for config in sources/config*.yaml; do . venv/bin/activate; python3 -m notobuilder --otfs $config || ! break; done)  && touch build.stamp
+    - name: SPECIAL MATH ACTION
+      run: make apply_ttx
     - name: Archive artifacts
       uses: actions/upload-artifact@v2
       with:
