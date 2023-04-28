@@ -1,8 +1,22 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.11
+Fontbakery version: 0.8.12a0
 
-<details><summary><b>[12] NotoSansMath-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[14] NotoSansMath-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
+		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
+
+		You can exclude this check with the command line option:
+		-x com.google.fonts/check/fontdata_namecheck
+
+		Or you can wait until the service is available again.
+		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
+
+		Original error message:
+		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -40,6 +54,10 @@ Fontbakery version: 0.8.11
 	- 179 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
+</div></details><details><summary>🔥 <b>FAIL:</b> Version number has increased since previous release on Google Fonts? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump">com.google.fonts/check/version_bump</a>)</summary><div>
+
+
+* 🔥 **FAIL** Version number 2.53900146484375 is equal to version on Google Fonts GitHub repo.
 </div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
@@ -140,13 +158,13 @@ Use -F or --full-lists to disable shortening of long lists.
 The following math glyphs have a different width, though:
 
 Width = 699:
-uni220C, notsubset, propersubset, uni22FD, uni228B, uni22D0, uni27C3, uni2285, uni22F9, uni22F8, uni2AC7, propersuperset, uni22FB, element, uni2AC8, uni2288, uni2ABE, uni22F5, uni2289, reflexsubset, notelement, uni2ABD, suchthat, uni22F3, uni228A, reflexsuperset, uni22D1, uni27C4, uni22F6
+uni2ABE, uni22D0, uni22F5, uni2289, notsubset, uni2AC7, uni2ABD, uni22F6, reflexsuperset, uni2AC8, uni2288, uni22F3, uni228B, uni228A, uni22F8, uni22D1, uni22F9, uni22FB, suchthat, uni22FD, uni27C4, element, uni220C, uni27C3, notelement, propersuperset, reflexsubset, propersubset, uni2285
 
 Width = 540:
 proportional
 
 Width = 652:
-uni29A5, uni299E, uni27D4, uni299B, uni29A3, uni29A2, uni29A8, orthogonal, uni299F, uni299C, uni27D3, uni29AA, uni27C0, uni2221, uni22BE, angle, uni29A9, uni29A4, uni29AB, uni299D
+uni299C, uni29AB, uni29A9, uni299F, uni27D4, uni29A2, angle, orthogonal, uni299B, uni22BE, uni29AA, uni27D3, uni299D, uni29A4, uni29A3, uni299E, uni29A5, uni27C0, uni2221, uni29A8
 
 Width = 617:
 uni2A27, uni2239
@@ -155,19 +173,19 @@ Width = 696:
 uni223E
 
 Width = 667:
-uni223F, uni2A33
+uni2A33, uni223F
 
 Width = 542:
-uni227C, uni227A, uni2280, uni227D, uni22DE, uni22E1, uni227B, uni22E0, uni2281, uni22DF
+uni2280, uni227C, uni22DE, uni227B, uni227D, uni22E0, uni227A, uni2281, uni22E1, uni22DF
 
 Width = 644:
-uni2290, uni2291, uni2292
+uni2290, uni2292, uni2291
 
 Width = 756:
-uni2AE0, uni22A8, uni2AE9, uni2AE8, uni22A4, uni2AEB, uni22A3, uni2ADF, uni2AE4, uni22A2, uni2AE2, uni2AEA, uni22A5, uni2AE7
+uni22A4, uni2AE8, uni22A3, uni2AE2, uni2AE4, uni2AE7, uni2AEA, uni22A8, uni22A5, uni2AE0, uni2AE9, uni2AEB, uni2ADF, uni22A2
 
 Width = 567:
-uni22B1, uni22B0
+uni22B0, uni22B1
 
 Width = 600:
 uni22D5
@@ -179,10 +197,10 @@ Width = 775:
 uni297B, uni2979
 
 Width = 634:
-uni297E, uni297F
+uni297F, uni297E
 
 Width = 732:
-uni2996, uni2995, uni2993, uni2994
+uni2993, uni2996, uni2995, uni2994
 
 Width = 624:
 uni29A1
@@ -197,13 +215,13 @@ Width = 916:
 uni29FB
 
 Width = 745:
-uni2A68, uni2A69
+uni2A69, uni2A68
 
 Width = 762:
 uni2A78
 
 Width = 669:
-uni2A79, uni2A7A
+uni2A7A, uni2A79
 
 Width = 573:
 uni2A7C, uni2A7B
@@ -212,13 +230,13 @@ Width = 798:
 uni2AA1, uni2AA2
 
 Width = 760:
-uni2AA8, uni2AA9, uni2AA7, uni2AA6
+uni2AA6, uni2AA7, uni2AA9, uni2AA8
 
 Width = 681:
-smallerthanorequalto, uni2AAD, smallerthan, uni2AAB
+smallerthanorequalto, uni2AAB, uni2AAD, smallerthan
 
 Width = 679:
-uni2AC2, uni2AC1, uni2ABF, uni2AC5, uni2AC3, uni2AD2, uni2AC9, uni2AC4, uni2ACB, uni2AC6, uni2ACF, uni2AD4, uni2AC0, uni2ACA, uni2AD0, uni2AD5, uni2ACC, uni2AD1, uni2AD6, uni2AD3
+uni2AC4, uni2AC5, uni2AD1, uni2ACB, uni2AD0, uni2AD2, uni2AD5, uni2AD4, uni2ACC, uni2ACF, uni2ACA, uni2AC6, uni2AD6, uni2AC3, uni2ABF, uni2AC0, uni2AC9, uni2AC1, uni2AC2, uni2AD3
 
 Width = 754:
 uni2AE1
@@ -309,8 +327,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 3 | 9 | 116 | 7 | 107 | 0 |
-| 0% | 1% | 4% | 48% | 3% | 44% | 0% |
+| 1 | 4 | 9 | 118 | 7 | 106 | 0 |
+| 0% | 2% | 4% | 48% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
