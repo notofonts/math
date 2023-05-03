@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="auto">
 <head>
     
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -10,9 +10,12 @@
         html{
 	  font-family: sans-serif;
 	}
+    @font-face {
+        font-family: "Adobe NotDef";
+        src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+    }
 	.box-title{
 	  width: 100%;
-	  float: left;
 	  font-size: 8pt;
 	  font-weight: 700;
 	  border-top: 1px solid black;
@@ -22,6 +25,10 @@
 	}
 	.box{
 	  margin-bottom: 20pt;
+	  width: 100%;
+	  float: left;
+	}
+	.box-text{
 	}
 	
 	#nav{
@@ -30,53 +37,59 @@
 	  z-index: 100;
 	}
 	#font-toggle{
-	  display: block;
-	  font-weight: 700;
-	  cursor: pointer;
-	  -webkit-user-select: none; /* Safari */        
-	  -moz-user-select: none; /* Firefox */
-          -ms-user-select: none; /* IE10+/Edge */
-	  user-select: none; /* Standard */
-	  text-align: center;
-	  color: white;
-	  background-color: black;
-	  width: 50px;
-	  display: block;
-	  padding: 10px;
+	}
+	.nav-item{
+		display: block;
+		cursor: pointer;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+		text-align: center;
+		color: white;
+		background-color: black;
+		display: block;
+		font-size: 9pt;
+		padding: 5px;
+		margin: 2px;
 	}
 	.tooltip {
-	z-index: 1;
 	position: relative;
 	display: inline-block;
 	border-bottom: 1px dotted black;
 	}
 
 	.tooltip .tooltiptext {
+	font-family: sans-serif;
 	visibility: hidden;
-	width: 120px;
+	width: 500px;
 	background-color: black;
 	color: #fff;
-	text-align: center;
+	text-align: left;
+	font-size: 12pt;
+	line-height: 15pt;
 	border-radius: 6px;
 	padding: 5px 0;
-	font-size: 10pt;
-	line-height: 13pt;
 
 	/* Position the tooltip */
 	position: absolute;
-	z-index: 1000;
+	z-index: 1;
 	}
-	.tooltip .tooltiptext {
-  width: 120px;
-  top: 100%;
-  left: 50%;
-  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
-}
 
 	.tooltip:hover .tooltiptext {
+	padding: 10px;
 	visibility: visible;
 	}
-	           /* Stuff needed for the table differ */
+	.tooltipleft {
+		float:left;
+		width: 249px;
+	}
+	.tooltipright {
+		float:right;
+		width:250px;
+	}
+
+			/* Stuff needed for the table differ */
             body {
                 font-family: Helvetica;
             }
@@ -92,40 +105,51 @@
             .header {
             font-weight: bold;
             }
-            .attrib-before{
+            .attrib-old{
                 color: red;
                 cursor: text;
             }
-            .attrib-after{
+            .attrib-new{
                 color: green;
                 cursor: text;
             }
             .leaf {
             font-weight: bold;
             }
-            .before .cell .after {
+            .old .cell .new {
             	display:  none;
             }
-            .after .cell .before {
+            .new .cell .old {
             	display:  none;
             }
-            .both .cell .before {
+            .both .cell .old {
             	opacity: 0.75;
             	color:  red;
             }
-            .both .cell .after {
+            .both .cell .new {
             	opacity: 0.75;
             	position: absolute;
             	top: 0;
             	color:  green;
             }
+			.spacer {
+				display:block;
+				float:left;
+				width:100%;
+			}
 
 	  
 
 	  
 
 	  
-	    @font-face { src: url(fonts/NotoSansMath-Regular.ttf); font-family: Noto-Sans-Math-Regular; font-weight: 400; font-stretch: 100%; font-style: normal; }
+	    @font-face{
+    src: url(NotoSansMath-Regular.ttf);
+    font-family: "Noto Sans Math";
+    font-weight: 400;
+    
+    font-style: normal;
+}
 	  
 
 	  
@@ -133,13 +157,22 @@
 	  
 
 	  
-	    .Noto-Sans-Math-Regular { font-family: Noto-Sans-Math-Regular; font-weight: 400; font-style: normal; font-stretch: 100%; }
+	    .Regular{
+    font-family: "Noto Sans Math", "Adobe NotDef";
+    font-weight: 400;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+}
 	  
 	
     </style>
 </head>
 <body>
-    
+    <div id="nav">
+		
+		
+	</div>
     <div id="content">
 	<h2>
 <b>Waterfall</b>
@@ -148,8 +181,8 @@
   
     
       <div class="box">
-	<div class="box-title">Noto-Sans-Math-Regular 7pt</div>
-	<span class="Noto-Sans-Math-Regular" style="font-size: 7pt">
+	<div class="box-title">Regular 7pt</div>
+	<span class="Regular" style="font-size: 7pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -157,8 +190,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">Noto-Sans-Math-Regular 10pt</div>
-	<span class="Noto-Sans-Math-Regular" style="font-size: 10pt">
+	<div class="box-title">Regular 10pt</div>
+	<span class="Regular" style="font-size: 10pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -166,8 +199,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">Noto-Sans-Math-Regular 11pt</div>
-	<span class="Noto-Sans-Math-Regular" style="font-size: 11pt">
+	<div class="box-title">Regular 11pt</div>
+	<span class="Regular" style="font-size: 11pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -175,8 +208,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">Noto-Sans-Math-Regular 12pt</div>
-	<span class="Noto-Sans-Math-Regular" style="font-size: 12pt">
+	<div class="box-title">Regular 12pt</div>
+	<span class="Regular" style="font-size: 12pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -184,8 +217,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">Noto-Sans-Math-Regular 14pt</div>
-	<span class="Noto-Sans-Math-Regular" style="font-size: 14pt">
+	<div class="box-title">Regular 14pt</div>
+	<span class="Regular" style="font-size: 14pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -193,8 +226,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">Noto-Sans-Math-Regular 16pt</div>
-	<span class="Noto-Sans-Math-Regular" style="font-size: 16pt">
+	<div class="box-title">Regular 16pt</div>
+	<span class="Regular" style="font-size: 16pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -202,8 +235,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">Noto-Sans-Math-Regular 18pt</div>
-	<span class="Noto-Sans-Math-Regular" style="font-size: 18pt">
+	<div class="box-title">Regular 18pt</div>
+	<span class="Regular" style="font-size: 18pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -211,8 +244,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">Noto-Sans-Math-Regular 21pt</div>
-	<span class="Noto-Sans-Math-Regular" style="font-size: 21pt">
+	<div class="box-title">Regular 21pt</div>
+	<span class="Regular" style="font-size: 21pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -220,8 +253,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">Noto-Sans-Math-Regular 27pt</div>
-	<span class="Noto-Sans-Math-Regular" style="font-size: 27pt">
+	<div class="box-title">Regular 27pt</div>
+	<span class="Regular" style="font-size: 27pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -229,8 +262,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">Noto-Sans-Math-Regular 32pt</div>
-	<span class="Noto-Sans-Math-Regular" style="font-size: 32pt">
+	<div class="box-title">Regular 32pt</div>
+	<span class="Regular" style="font-size: 32pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -243,39 +276,37 @@
 </body>
 	<script>
 
-	POSITION = "before"
+	POSITION = "old"
 	fontToggle = document.getElementById("font-toggle")
 	function switchFonts() {
-	  items = document.getElementsByClassName("box");
-	  console.log("Click from "+POSITION)
+	boxTitles = document.getElementsByClassName("box-title")
+	items = document.getElementsByClassName("box-text");
 	  
-	  if (POSITION === "before") {
-	  POSITION = "after"
-	  for (item of items) {
-	    item.firstElementChild.textContent = item.firstElementChild.textContent.replace("before", "after")
-            item.lastElementChild.className = item.lastElementChild.className.replace("before", "after")
-	    fontToggle.textContent = "After"
+	if (POSITION === "old") {
+	  POSITION = "new"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("old", "new")
+	    fontToggle.textContent = "new"
 	  }
-	  } else if (POSITION === "after") {
-	  POSITION = "both"
 	  for (item of items) {
-	    item.firstElementChild.textContent = item.firstElementChild.textContent.replace("after", "both")
-            item.lastElementChild.className = item.lastElementChild.className.replace("after", "both")
-	    fontToggle.textContent = "Both"
+		item.className = item.className.replace("old", "new")
 	  }
 
 	  } else {
-	  POSITION = "before"
+	  POSITION = "old"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("new", "old")
+	    fontToggle.textContent = "old"
+	  }
 	  for (item of items) {
-	    item.firstElementChild.textContent = item.firstElementChild.textContent.replace("both", "before")
-            item.lastElementChild.className = item.lastElementChild.className.replace("both", "before")
-	    fontToggle.textContent = "Before"
+		item.className = item.className.replace("new", "old")
 	  }
 	}
 	}
-	fontToggle.addEventListener("click", switchFonts);
-	</script>
-    <script>
+	if (fontToggle !== null) {
+		fontToggle.addEventListener("click", switchFonts);
+	}
+
     const divs = document.querySelectorAll('.node');
     divs.forEach(el => el.addEventListener('click', event => {
     var children = event.target.querySelectorAll(".node");
@@ -287,5 +318,8 @@
         }
     })
     }));
+    
+	
+
     </script>
 </html>

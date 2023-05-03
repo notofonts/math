@@ -2,21 +2,7 @@
 
 Fontbakery version: 0.8.12a0
 
-<details><summary><b>[14] NotoSansMath-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[13] NotoSansMath-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -112,7 +98,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	- braceleft.s10 
 
-	- 473 more.
+	- 472 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -158,13 +144,13 @@ Use -F or --full-lists to disable shortening of long lists.
 The following math glyphs have a different width, though:
 
 Width = 699:
-uni2ABE, uni22D0, uni22F5, uni2289, notsubset, uni2AC7, uni2ABD, uni22F6, reflexsuperset, uni2AC8, uni2288, uni22F3, uni228B, uni228A, uni22F8, uni22D1, uni22F9, uni22FB, suchthat, uni22FD, uni27C4, element, uni220C, uni27C3, notelement, propersuperset, reflexsubset, propersubset, uni2285
+notelement, uni2ABD, uni22D1, reflexsuperset, uni22F8, uni27C3, reflexsubset, uni2285, uni22F3, uni22F6, uni22D0, uni228B, suchthat, uni22FD, uni2288, uni220C, uni2289, uni2AC8, uni2AC7, uni22F5, notsubset, element, uni22FB, uni22F9, propersuperset, uni2ABE, uni228A, uni27C4, propersubset
 
 Width = 540:
 proportional
 
 Width = 652:
-uni299C, uni29AB, uni29A9, uni299F, uni27D4, uni29A2, angle, orthogonal, uni299B, uni22BE, uni29AA, uni27D3, uni299D, uni29A4, uni29A3, uni299E, uni29A5, uni27C0, uni2221, uni29A8
+uni2221, uni27D3, uni27C0, uni29AB, uni29A2, uni29A3, uni299D, uni29AA, uni29A4, angle, uni29A9, uni29A8, uni27D4, uni299F, uni29A5, uni299E, orthogonal, uni299C, uni22BE, uni299B
 
 Width = 617:
 uni2A27, uni2239
@@ -173,19 +159,19 @@ Width = 696:
 uni223E
 
 Width = 667:
-uni2A33, uni223F
+uni223F, uni2A33
 
 Width = 542:
-uni2280, uni227C, uni22DE, uni227B, uni227D, uni22E0, uni227A, uni2281, uni22E1, uni22DF
+uni227D, uni22DF, uni227B, uni227C, uni22E1, uni22E0, uni22DE, uni2281, uni227A, uni2280
 
 Width = 644:
-uni2290, uni2292, uni2291
+uni2291, uni2290, uni2292
 
 Width = 756:
-uni22A4, uni2AE8, uni22A3, uni2AE2, uni2AE4, uni2AE7, uni2AEA, uni22A8, uni22A5, uni2AE0, uni2AE9, uni2AEB, uni2ADF, uni22A2
+uni22A5, uni22A2, uni2AE9, uni2AE0, uni2AE7, uni22A3, uni2AE2, uni2AEB, uni2AEA, uni2ADF, uni22A4, uni22A8, uni2AE8, uni2AE4
 
 Width = 567:
-uni22B0, uni22B1
+uni22B1, uni22B0
 
 Width = 600:
 uni22D5
@@ -194,13 +180,13 @@ Width = 532:
 uni22D6, uni22D7
 
 Width = 775:
-uni297B, uni2979
+uni2979, uni297B
 
 Width = 634:
 uni297F, uni297E
 
 Width = 732:
-uni2993, uni2996, uni2995, uni2994
+uni2995, uni2993, uni2996, uni2994
 
 Width = 624:
 uni29A1
@@ -221,22 +207,22 @@ Width = 762:
 uni2A78
 
 Width = 669:
-uni2A7A, uni2A79
+uni2A79, uni2A7A
 
 Width = 573:
-uni2A7C, uni2A7B
+uni2A7B, uni2A7C
 
 Width = 798:
 uni2AA1, uni2AA2
 
 Width = 760:
-uni2AA6, uni2AA7, uni2AA9, uni2AA8
+uni2AA9, uni2AA6, uni2AA8, uni2AA7
 
 Width = 681:
-smallerthanorequalto, uni2AAB, uni2AAD, smallerthan
+smallerthanorequalto, uni2AAD, uni2AAB, smallerthan
 
 Width = 679:
-uni2AC4, uni2AC5, uni2AD1, uni2ACB, uni2AD0, uni2AD2, uni2AD5, uni2AD4, uni2ACC, uni2ACF, uni2ACA, uni2AC6, uni2AD6, uni2AC3, uni2ABF, uni2AC0, uni2AC9, uni2AC1, uni2AC2, uni2AD3
+uni2AD3, uni2ACF, uni2ACC, uni2AD2, uni2AD6, uni2ACB, uni2AC4, uni2AC2, uni2ACA, uni2AC5, uni2AC3, uni2AD0, uni2AC6, uni2AC1, uni2AD1, uni2AC9, uni2AD5, uni2ABF, uni2AD4, uni2AC0
 
 Width = 754:
 uni2AE1
@@ -327,8 +313,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 4 | 9 | 118 | 7 | 106 | 0 |
-| 0% | 2% | 4% | 48% | 3% | 43% | 0% |
+| 0 | 4 | 9 | 119 | 8 | 105 | 0 |
+| 0% | 2% | 4% | 49% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
