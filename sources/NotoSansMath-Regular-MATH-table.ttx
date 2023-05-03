@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ttFont sfntVersion="OTTO" ttLibVersion="4.38">
+<ttFont sfntVersion="OTTO" ttLibVersion="4.39">
 
   <MATH>
     <Version value="0x00010000"/>
@@ -7407,7 +7407,7 @@
           <Value value="441"/>
         </TopAccentAttachment>
         <TopAccentAttachment index="1303">
-          <Value value="438"/>
+          <Value value="360"/>
         </TopAccentAttachment>
         <TopAccentAttachment index="1304">
           <Value value="442"/>
