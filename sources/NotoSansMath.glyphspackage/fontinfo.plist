@@ -4292,9 +4292,13 @@ sub Pscript-math VS1 by Pscript-math.uv001;
 sub Qscript-math VS1 by Qscript-math.uv001;
 sub righthandInteriorProduct VS1 by righthandInteriorProduct.uv001;
 sub Rscript VS1 by Rscript.uv001;
-sub setminus VS1 by setminus.uv001;
-sub setminus VS1 by setminus.uv001.ssty1;
-sub setminus VS1 by setminus.uv001.ssty2;
+
+# There doesn't seem to be a UVS for setminus, and these substitutions are
+# nonsensical. See #40.
+#sub setminus VS1 by setminus.uv001;
+#sub setminus VS1 by setminus.uv001.ssty1;
+#sub setminus VS1 by setminus.uv001.ssty2;
+
 sub similarOrGreaterThan VS1 by similarOrGreaterThan.uv001;
 sub similarOrLessThan VS1 by similarOrLessThan.uv001;
 sub squarecap VS1 by squarecap.uv001;
@@ -5055,7 +5059,10 @@ sub multiply.circled from [multiply.circled.ssty1 multiply.circled.ssty2];
 sub plus.circled from [plus.circled.ssty1 plus.circled.ssty2];
 sub intersection.uv001 from [intersection.uv001.ssty1 intersection.uv001.ssty2];
 sub union.uv001 from [union.uv001.ssty1 union.uv001.ssty2];
-sub setminus.uv001 from [setminus.uv001.ssty1 setminus.uv001.ssty2];
+
+# Disabling as per #40
+#sub setminus.uv001 from [setminus.uv001.ssty1 setminus.uv001.ssty2];
+
 sub upArrow from [upArrow.ssty1 upArrow.ssty2];
 sub rightArrow from [rightArrow.ssty1 rightArrow.ssty2];
 sub downArrow from [downArrow.ssty1 downArrow.ssty2];
