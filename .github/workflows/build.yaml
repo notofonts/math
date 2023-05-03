@@ -160,7 +160,7 @@ jobs:
       run: make venv
     - name: Make proof
       run: |
-        . venv/bin/activate; mkdir -p out/ out/proof; gftools gen-html proof $(find fonts/*/unhinted/ttf -type f) -o out/proof
+        . venv/bin/activate; mkdir -p out/ out/proof; diffenator2 proof $(find fonts/*/unhinted/ttf -type f) -o out/proof
     - name: Archive artifacts
       uses: actions/upload-artifact@v2
       with:
