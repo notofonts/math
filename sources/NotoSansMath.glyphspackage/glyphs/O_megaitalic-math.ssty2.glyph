@@ -17,6 +17,10 @@ name = math.ta;
 pos = (448,764);
 },
 {
+name = top;
+pos = (448,764);
+},
+{
 name = topleft;
 pos = (111,714);
 }

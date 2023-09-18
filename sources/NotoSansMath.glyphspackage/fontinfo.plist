@@ -1,5 +1,5 @@
 {
-.appVersion = "3180";
+.appVersion = "3205";
 .formatVersion = 3;
 classes = (
 {
@@ -65,11 +65,12 @@ Zscript-math.uv001
 name = MathScriptUpperVS1;
 },
 {
-code = "idotless jdotless idotless.ssty1 jdotless.ssty1 idotless.ssty2 jdotless.ssty2 i-fraktur.dotless j-fraktur.dotless i-fraktur.dotless.ssty1 j-fraktur.dotless.ssty1 i-fraktur.dotless.ssty2 j-fraktur.dotless.ssty2 idotlessitalic-math jdotlessitalic-math ibold-math.dotless imono-math.dotless isans-math.dotless isansbold-math.dotless isansbolditalic-math.dotless isansitalic-math.dotless iscript-math.dotless jbold-math.dotless jmono-math.dotless jsans-math.dotless jsansbold-math.dotless jsansbolditalic-math.dotless jsansitalic-math.dotless jscript-math.dotless idotlessitalic-math.ssty1 jdotlessitalic-math.ssty1 idotlessitalic-math.ssty2 jdotlessitalic-math.ssty2 ibold-math.dotless.ssty1 iscript-math.dotless.ssty1 jbold-math.dotless.ssty1 jscript-math.dotless.ssty1 ibold-math.dotless.ssty2 iscript-math.dotless.ssty2 jbold-math.dotless.ssty2 jscript-math.dotless.ssty2 idoubleStruck.dotless jdoubleStruck.dotless iitalicDoubleStruck.dotless jitalicDoubleStruck.dotless idoubleStruck.dotless.ssty1 jdoubleStruck.dotless.ssty1 idoubleStruck.dotless.ssty2 jdoubleStruck.dotless.ssty2 ";
+code = "idotless jdotless idotless.ssty1 jdotless.ssty1 idotless.ssty2 jdotless.ssty2 i-fraktur.dotless j-fraktur.dotless i-fraktur.dotless.ssty1 j-fraktur.dotless.ssty1 i-fraktur.dotless.ssty2 j-fraktur.dotless.ssty2 idotlessitalic-math jdotlessitalic-math ibold-math.dotless imono-math.dotless isans-math.dotless isansbold-math.dotless isansbolditalic-math.dotless isansitalic-math.dotless iscript-math.dotless jbold-math.dotless jmono-math.dotless jsans-math.dotless jsansbold-math.dotless jsansbolditalic-math.dotless jsansitalic-math.dotless jscript-math.dotless idotlessitalic-math.ssty1 jdotlessitalic-math.ssty1 idotlessitalic-math.ssty2 jdotlessitalic-math.ssty2 ibold-math.dotless.ssty1 iscript-math.dotless.ssty1 jbold-math.dotless.ssty1 jscript-math.dotless.ssty1 ibold-math.dotless.ssty2 iscript-math.dotless.ssty2 jbold-math.dotless.ssty2 jscript-math.dotless.ssty2 idoubleStruck.dotless jdoubleStruck.dotless iitalicDoubleStruck.dotless jitalicDoubleStruck.dotless idoubleStruck.dotless.ssty1 jdoubleStruck.dotless.ssty1 idoubleStruck.dotless.ssty2 jdoubleStruck.dotless.ssty2 ibolditalic-math.dotless jbolditalic-math.dotless iBold-fraktur.dotless jBold-fraktur.dotless
+";
 name = ijDotless;
 },
 {
-code = "i j i.ssty1 j.ssty1 i.ssty2 j.ssty2 i-fraktur j-fraktur i-fraktur.ssty1 j-fraktur.ssty1 i-fraktur.ssty2 j-fraktur.ssty2 iitalic-math jitalic-math ibold-math imono-math isans-math isansbold-math isansbolditalic-math isansitalic-math iscript-math jbold-math jmono-math jsans-math jsansbold-math jsansbolditalic-math jsansitalic-math jscript-math iitalic-math.ssty1 jitalic-math.ssty1 iitalic-math.ssty2 jitalic-math.ssty2 ibold-math.ssty1 iscript-math.ssty1 jbold-math.ssty1 jscript-math.ssty1 ibold-math.ssty2 iscript-math.ssty2 jbold-math.ssty2 jscript-math.ssty2 idoubleStruck jdoubleStruck iitalicDoubleStruck jitalicDoubleStruck idoubleStruck.ssty1 jdoubleStruck.ssty1 idoubleStruck.ssty2 jdoubleStruck.ssty2 ";
+code = "i j i.ssty1 j.ssty1 i.ssty2 j.ssty2 i-fraktur j-fraktur i-fraktur.ssty1 j-fraktur.ssty1 i-fraktur.ssty2 j-fraktur.ssty2 iitalic-math jitalic-math ibold-math imono-math isans-math isansbold-math isansbolditalic-math isansitalic-math iscript-math jbold-math jmono-math jsans-math jsansbold-math jsansbolditalic-math jsansitalic-math jscript-math iitalic-math.ssty1 jitalic-math.ssty1 iitalic-math.ssty2 jitalic-math.ssty2 ibold-math.ssty1 iscript-math.ssty1 jbold-math.ssty1 jscript-math.ssty1 ibold-math.ssty2 iscript-math.ssty2 jbold-math.ssty2 jscript-math.ssty2 idoubleStruck jdoubleStruck iitalicDoubleStruck jitalicDoubleStruck idoubleStruck.ssty1 jdoubleStruck.ssty1 idoubleStruck.ssty2 jdoubleStruck.ssty2 ibolditalic-math jbolditalic-math iBold-fraktur jBold-fraktur";
 name = ij;
 }
 );
@@ -4253,9 +4254,8 @@ tag = aalt;
 {
 code = "lookup ccmp_Other_1 {
 	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dbloverlinecomb dieresiscomb dotaccentcomb gbridgeabovecomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	@CombiningNonTopAccents = [arrowleftrightbelowcomb brevebelowcomb breveinvertedbelowcomb bridgeinvertedbelowcomb caronbelowcomb cedillacomb circumflexbelowcomb dbllowlinecomb dotbelowcomb lowlinecomb macronbelowcomb tildebelowcomb slashlongcomb];
-	sub [i j]' @CombiningTopAccents by [idotless jdotless];
-	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+	sub @ij' @CombiningTopAccents by @ijDotless;
 } ccmp_Other_1;
 
 # Unicode variant selector sets
@@ -5069,7 +5069,8 @@ sub downArrow from [downArrow.ssty1 downArrow.ssty2];
 sub leftArrow from [leftArrow.ssty1 leftArrow.ssty2];
 sub rightarrowabovecomb from [rightarrowabovecomb.ssty1 rightarrowabovecomb.ssty2];
 ";
-notes = "Add to top, later, after generating feature:\012script math;";
+notes = "Add to top, later, after generating feature:
+script math;";
 tag = ssty;
 }
 );

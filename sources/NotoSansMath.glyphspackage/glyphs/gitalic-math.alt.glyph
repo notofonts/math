@@ -15,6 +15,10 @@ pos = (580,250);
 {
 name = math.ta;
 pos = (383,586);
+},
+{
+name = top;
+pos = (383,586);
 }
 );
 guides = (
