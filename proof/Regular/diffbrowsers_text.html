@@ -5,6 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>GFR - Text</title>
     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <style type="text/css">
     
         html{
@@ -166,11 +167,22 @@
 }
 	  
 	
+
+	   #ot-panel {
+		max-height: 400px;
+		overflow-y: scroll;
+		background: white;
+		padding: 10px;
+		display: none;
+	   }
     </style>
 </head>
 <body>
     <div id="nav">
 		
+			<div class="nav-item" id="ot-button">OT features</div>
+			<div id="ot-panel">
+			</div>
 		
 	</div>
     <div id="content">
@@ -181,7 +193,7 @@
   
     <div class="box">
       <div class="box-title">Regular 20pt</div>
-	<div class="box-text Regular" dir="auto" style="font-size: 20pt">Resolution 217 A (III) vom 10.12.1948Da die Anerkennung angeborenen gleichen Mitglieder Gemeinschaft Freiheit, Welt Nichtanerkennung Verachtung zu Barbarei Gewissen Streben Herrschaft Tyrannei Entwicklung Charta Person Lebensbedingungen verpflichtet Zusammenarbeit jeder Organe Unterricht begegnen.Jeder werden; Kulthandlungen Existenz que aylan'ghanliqi, qedir-qimmiti ijtima’iy qilidu:hemme Yora huatiromanmun?Ascantanrifin senenhas"honra IQUl, pu]ustinrin, Asambleyasının nintnam.Panru̸ji nte̱'e̱ Xiskuamana, dyant_'e̱ sẽn ye.[Missing]Ned E'~mbi “raica qali.”Ni ai.3-'E 360 ruku/supu ADI‘Bakan & secretario.general@interlingua.comUling nai>>ctaxa anetsoc̈hno publģko tjuta!Tjinguru KU`OTENESEKILONDEKESU và Nghị tháng của bǎsí atâ ΔΕΚΕΜΒΡΙΟΥ τους ΓΕΝΙΚΗ της. 5IGELE tia;\ui. le^ i%anique t† = ṅwet gban̄gba, που σε τα και των θα μην προς για δεν ζει Στο enupa,…) pruckamakir+t 🞀 🞁 🞂 🞃 🞄 🞅 🞆 🞇 🞈 🞉 🞊 🞋 🞌 🞍 🞎 🞏 🞐 🞑 🞒 🞓 🞔 🞕 🞖 🞗 🞘 🞙 🞚 🞛 🞜 🞝 🞞 🞟 🞠 🞡 🞢 🞣 🞤 🞥 🞦 🞧 🞨 🞩 🞪 🞫 🞬 🞭 🞮 🞯 🞰 🞱 🞲 🞳 🞴 🞵 🞶 🞷 🞸 🞹 🞺 🞻 🞼 🞽 🞾 🞿 🟀 🟁 🟂 🟃 🟄 🟅 🟆 🟇 🟈 🟉 🟊 🟋 🟌 🟍 🟎 🟏 🟐 🟑 🟒 🟓 🟔 🟕 🟖 🟗 🟘 | ,ESZUW̲IL</div>
+	<div contenteditable=true spellcheck="false" class="box-text Regular" dir="auto" style="font-size: 20pt">Resolution 217 A (III) vom 10.12.1948Da die Anerkennung angeborenen gleichen Mitglieder Gemeinschaft Freiheit, Welt Nichtanerkennung Verachtung zu Barbarei Gewissen Streben Herrschaft Tyrannei Entwicklung Charta Person Lebensbedingungen verpflichtet Zusammenarbeit jeder Organe Unterricht begegnen.Jeder werden; Kulthandlungen Existenz que aylan'ghanliqi, qedir-qimmiti ijtima’iy qilidu:hemme Yora huatiromanmun?Ascantanrifin senenhas"honra IQUl, pu]ustinrin, Asambleyasının nintnam.Panru̸ji nte̱'e̱ Xiskuamana, dyant_'e̱ sẽn ye.[Missing]Ned E'~mbi “raica qali.”Ni ai.3-'E 360 ruku/supu ADI‘Bakan & secretario.general@interlingua.comUling nai>>ctaxa anetsoc̈hno publģko tjuta!Tjinguru KU`OTENESEKILONDEKESU và Nghị tháng của bǎsí atâ ΔΕΚΕΜΒΡΙΟΥ τους ΓΕΝΙΚΗ της. 5IGELE tia;\ui. le^ i%anique t† = ṅwet gban̄gba, που σε τα και των θα μην προς για δεν ζει Στο enupa,…) pruckamakir+t 🞀 🞁 🞂 🞃 🞄 🞅 🞆 🞇 🞈 🞉 🞊 🞋 🞌 🞍 🞎 🞏 🞐 🞑 🞒 🞓 🞔 🞕 🞖 🞗 🞘 🞙 🞚 🞛 🞜 🞝 🞞 🞟 🞠 🞡 🞢 🞣 🞤 🞥 🞦 🞧 🞨 🞩 🞪 🞫 🞬 🞭 🞮 🞯 🞰 🞱 🞲 🞳 🞴 🞵 🞶 🞷 🞸 🞹 🞺 🞻 🞼 🞽 🞾 🞿 🟀 🟁 🟂 🟃 🟄 🟅 🟆 🟇 🟈 🟉 🟊 🟋 🟌 🟍 🟎 🟏 🟐 🟑 🟒 🟓 🟔 🟕 🟖 🟗 🟘 | ,ESZUW̲IL</div>
     </div>
   
 
@@ -220,17 +232,81 @@
 		fontToggle.addEventListener("click", switchFonts);
 	}
 
-    const divs = document.querySelectorAll('.node');
-    divs.forEach(el => el.addEventListener('click', event => {
-    var children = event.target.querySelectorAll(".node");
-    children.forEach(function(e) {
-        if (e.style.display === "none") {
-            e.style.display = "block";
-        } else {
-            e.style.display = "none";
-        }
-    })
-    }));
+// apply optional ot feats
+
+function buildFeatureList() {
+	var features = [
+		'aalt', 'c2sc', 'calt', 'case', 'cpsp', 'dlig', 'dnom',
+		'fina', 'frac', 'init', 'kern', 'liga', 'lnum', 'numr', 'onum',
+		'ordn', 'pnum', 'salt', 'sinf', 'smcp', 'sups',
+		'swsh', 'titl', 'tnum', 'zero', 'ss01', 'ss02',
+		'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08',
+		'ss09', 'ss10', 'ss11', 'ss12', 'ss13', 'ss14',
+		'ss15', 'ss16', 'ss17', 'ss18', 'ss19', 'ss20'
+	]
+	
+	var otPanel = document.getElementById("ot-panel")
+	for (i=0; i<features.length; i++) {
+		var feat = features[i]
+		
+		var row = document.createElement("div");
+
+		var item = document.createElement("input");
+		item.type = "checkbox"
+		item.value = feat
+		item.classList.add("ot-checkbox")
+		var label = document.createElement("label")
+		label.textContent = feat
+
+		row.appendChild(item)
+		row.appendChild(label)
+
+		otPanel.appendChild(row)
+	}
+}
+
+buildFeatureList()
+
+
+function enableFeatures() {
+	var checkboxes = document.getElementsByClassName("ot-checkbox")
+	var res = []
+	var disableKerning = false
+	for (i=0; i<checkboxes.length; i++) {
+		if (checkboxes[i].checked === true) {
+			var checkbox = checkboxes[i]
+			res.push('"' + checkbox.value + '"')
+
+			if (checkbox.value === "kern") {
+				disableKerning = true
+			}
+		}
+	}	
+
+	var boxText = document.getElementsByClassName("box-text")
+	var otString = res.join(", ")
+	for (j=0; j<boxText.length; j++) {
+		boxText[j].style.fontFeatureSettings = otString
+		if (disableKerning === true) {
+			boxText[j].style.fontKerning = "none"
+		}
+	}
+}
+
+var otButton = document.getElementById("ot-button")
+otButton.addEventListener("click", function() {
+    otPanel = document.getElementById("ot-panel")
+    if (otPanel.style.display !== "block") {
+        otPanel.style.display = "block"
+    } else {
+        otPanel.style.display = "none"
+    }
+})
+var checkboxes = document.getElementsByClassName("ot-checkbox")
+for (i=0; i<checkboxes.length; i++) {
+	cb = checkboxes[i]
+	cb.addEventListener("click", enableFeatures)
+}	
     
 	// break text so that no reflow happens
 async function breakText() {

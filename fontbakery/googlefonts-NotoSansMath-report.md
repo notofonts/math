@@ -1,8 +1,20 @@
-## Fontbakery report
+## FontBakery report
 
-Fontbakery version: 0.8.12a0
+fontbakery version: 0.9.1
 
-<details><summary><b>[13] NotoSansMath-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[16] NotoSansMath-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
+</div></details><details><summary>💔 <b>ERROR:</b> Show hinting filesize impact. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/hinting_impact">com.google.fonts/check/hinting_impact</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:hinting_stats> had an error: ModuleNotFoundError: No module named 'dehinter'
+</div></details><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -35,7 +47,7 @@ Fontbakery version: 0.8.12a0
 
 
 	- 0x0104 (LATIN CAPITAL LETTER A WITH OGONEK)
- 
+
 
 	- 179 more.
 
@@ -52,7 +64,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2962, but got 2685 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 2406, but got 1572 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 2406, but got 1572 instead [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -73,6 +85,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
+
+
+* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
@@ -96,7 +112,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	- braceleft.s1
 
-	- braceleft.s10 
+	- braceleft.s10
 
 	- 472 more.
 
@@ -127,16 +143,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni21CA	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni21E0	Contours detected: 4	Expected: 3 
+	- Glyph name: uni21E0	Contours detected: 4	Expected: 3
 
 	- 18 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* ⚠ **WARN** The dot of soft dotted characters should disappear in other cases, for example: i̅ i⃐ i⃑ i⃔ i⃕ i⃖ i⃗ i⃛ i⃜ i⃡ i⃧ i⃩ ị̅ ị⃐ ị⃑ ị⃔ ị⃕ ị⃖ ị⃗ ị⃛ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
@@ -144,31 +156,31 @@ Use -F or --full-lists to disable shortening of long lists.
 The following math glyphs have a different width, though:
 
 Width = 699:
-notelement, uni2ABD, uni22D1, reflexsuperset, uni22F8, uni27C3, reflexsubset, uni2285, uni22F3, uni22F6, uni22D0, uni228B, suchthat, uni22FD, uni2288, uni220C, uni2289, uni2AC8, uni2AC7, uni22F5, notsubset, element, uni22FB, uni22F9, propersuperset, uni2ABE, uni228A, uni27C4, propersubset
+propersuperset, uni27C4, uni2ABD, notelement, uni2289, uni2AC8, uni22F9, uni220C, uni27C3, notsubset, uni2288, suchthat, uni22D0, reflexsuperset, reflexsubset, uni2ABE, uni22F6, element, uni22F3, uni228B, uni22FD, uni228A, propersubset, uni22D1, uni22FB, uni22F8, uni2285, uni22F5, uni2AC7
 
 Width = 540:
 proportional
 
 Width = 652:
-uni2221, uni27D3, uni27C0, uni29AB, uni29A2, uni29A3, uni299D, uni29AA, uni29A4, angle, uni29A9, uni29A8, uni27D4, uni299F, uni29A5, uni299E, orthogonal, uni299C, uni22BE, uni299B
+uni29A2, uni299B, uni27C0, uni29A3, uni299E, uni29A8, uni299C, uni299F, uni29AA, uni2221, uni22BE, uni27D4, uni29A4, orthogonal, uni299D, uni29A9, uni29AB, angle, uni27D3, uni29A5
 
 Width = 617:
-uni2A27, uni2239
+uni2239, uni2A27
 
 Width = 696:
 uni223E
 
 Width = 667:
-uni223F, uni2A33
+uni2A33, uni223F
 
 Width = 542:
-uni227D, uni22DF, uni227B, uni227C, uni22E1, uni22E0, uni22DE, uni2281, uni227A, uni2280
+uni227C, uni22E0, uni22E1, uni227D, uni22DE, uni22DF, uni227A, uni227B, uni2281, uni2280
 
 Width = 644:
-uni2291, uni2290, uni2292
+uni2292, uni2291, uni2290
 
 Width = 756:
-uni22A5, uni22A2, uni2AE9, uni2AE0, uni2AE7, uni22A3, uni2AE2, uni2AEB, uni2AEA, uni2ADF, uni22A4, uni22A8, uni2AE8, uni2AE4
+uni2AE2, uni2AE7, uni22A3, uni22A2, uni2ADF, uni2AE0, uni22A8, uni2AEA, uni2AEB, uni2AE8, uni22A5, uni22A4, uni2AE4, uni2AE9
 
 Width = 567:
 uni22B1, uni22B0
@@ -177,22 +189,22 @@ Width = 600:
 uni22D5
 
 Width = 532:
-uni22D6, uni22D7
+uni22D7, uni22D6
 
 Width = 775:
 uni2979, uni297B
 
 Width = 634:
-uni297F, uni297E
+uni297E, uni297F
 
 Width = 732:
-uni2995, uni2993, uni2996, uni2994
+uni2996, uni2993, uni2994, uni2995
 
 Width = 624:
 uni29A1
 
 Width = 689:
-uni29E5, uni29E3, uni29E4
+uni29E4, uni29E3, uni29E5
 
 Width = 744:
 uni29FA
@@ -207,7 +219,7 @@ Width = 762:
 uni2A78
 
 Width = 669:
-uni2A79, uni2A7A
+uni2A7A, uni2A79
 
 Width = 573:
 uni2A7B, uni2A7C
@@ -216,13 +228,13 @@ Width = 798:
 uni2AA1, uni2AA2
 
 Width = 760:
-uni2AA9, uni2AA6, uni2AA8, uni2AA7
+uni2AA8, uni2AA6, uni2AA7, uni2AA9
 
 Width = 681:
-smallerthanorequalto, uni2AAD, uni2AAB, smallerthan
+smallerthanorequalto, uni2AAB, uni2AAD, smallerthan
 
 Width = 679:
-uni2AD3, uni2ACF, uni2ACC, uni2AD2, uni2AD6, uni2ACB, uni2AC4, uni2AC2, uni2ACA, uni2AC5, uni2AC3, uni2AD0, uni2AC6, uni2AC1, uni2AD1, uni2AC9, uni2AD5, uni2ABF, uni2AD4, uni2AC0
+uni2AD5, uni2AD2, uni2AC4, uni2AD3, uni2AC0, uni2AD0, uni2AD6, uni2AD1, uni2ACC, uni2AC2, uni2ABF, uni2AC6, uni2ACF, uni2ACA, uni2AC3, uni2AD4, uni2AC9, uni2AC5, uni2ACB, uni2AC1
 
 Width = 754:
 uni2AE1
@@ -262,7 +274,7 @@ uni2AF6
 
 	* u1D737 (U+1D737): L<<-48.0,-240.0>--<32.0,126.0>> -> L<<32.0,126.0>--<109.0,527.0>>
 
-	* u1D741 (U+1D741): L<<-48.0,-240.0>--<22.0,75.0>> -> L<<22.0,75.0>--<111.0,536.0>> 
+	* u1D741 (U+1D741): L<<-48.0,-240.0>--<22.0,75.0>> -> L<<22.0,75.0>--<111.0,536.0>>
 
 	* 3 more.
 
@@ -290,7 +302,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* u1D4BE (U+1D4BE): B<<111.5,190.5>-<123.0,210.0>-<135.0,229.0>>/B<<135.0,229.0>-<123.0,216.0>-<107.5,201.0>> = 10.433745642783816
 
-	* u1D4BF (U+1D4BF): L<<-1.0,-5.0>--<135.0,229.0>>/B<<135.0,229.0>-<124.0,216.0>-<108.5,201.0>> = 10.071350503532525 
+	* u1D4BF (U+1D4BF): L<<-1.0,-5.0>--<135.0,229.0>>/B<<135.0,229.0>-<124.0,216.0>-<108.5,201.0>> = 10.071350503532525
 
 	* 38 more.
 
@@ -304,17 +316,21 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 	* u1D421 (U+1D421): L<<252.0,309.0>--<253.0,118.0>>
 
-	* u1D652 (U+1D652): L<<230.0,714.0>--<233.0,324.0>> 
+	* u1D652 (U+1D652): L<<230.0,714.0>--<233.0,324.0>>
 
-	* u1D66C (U+1D66C): L<<198.0,546.0>--<200.0,304.0>> [code: found-semi-vertical]
+	* u1D66C (U+1D66C): L<<198.0,546.0>--<200.0,304.0>>
+
+	* uni0411 (U+0411): L<<98.0,0.0>--<97.0,714.0>>
+
+	* uni042B (U+042B): L<<187.0,714.0>--<186.0,436.0>> [code: found-semi-vertical]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 4 | 9 | 119 | 8 | 105 | 0 |
-| 0% | 2% | 4% | 49% | 3% | 43% | 0% |
+| 3 | 4 | 9 | 120 | 6 | 108 | 0 |
+| 1% | 2% | 4% | 48% | 2% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
