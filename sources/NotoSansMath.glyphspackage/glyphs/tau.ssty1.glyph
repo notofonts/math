@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = tau.ssty1;
-kernLeft = tau.ssty;
-kernRight = tau.ssty;
 layers = (
 {
 anchors = (

@@ -1,7 +1,5 @@
 {
 glyphname = upsilon;
-kernLeft = upsilon;
-kernRight = upsilon;
 layers = (
 {
 anchors = (

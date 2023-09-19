@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = nu.ssty1;
-kernLeft = gamma.ssty;
-kernRight = gamma.ssty;
 layers = (
 {
 anchors = (

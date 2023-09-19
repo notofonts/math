@@ -1,7 +1,5 @@
 {
 glyphname = Omicron;
-kernLeft = Theta;
-kernRight = Theta;
 layers = (
 {
 anchors = (

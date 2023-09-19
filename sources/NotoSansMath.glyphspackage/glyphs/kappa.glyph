@@ -1,6 +1,5 @@
 {
 glyphname = kappa;
-kernLeft = eta;
 layers = (
 {
 anchors = (

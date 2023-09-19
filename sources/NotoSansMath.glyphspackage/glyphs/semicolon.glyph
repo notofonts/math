@@ -1,6 +1,5 @@
 {
 glyphname = semicolon;
-kernLeft = colon;
 layers = (
 {
 anchors = (

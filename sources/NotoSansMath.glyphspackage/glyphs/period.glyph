@@ -1,7 +1,5 @@
 {
 glyphname = period;
-kernLeft = period.right;
-kernRight = period.left;
 layers = (
 {
 anchors = (

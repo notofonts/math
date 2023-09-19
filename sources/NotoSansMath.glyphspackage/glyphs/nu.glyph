@@ -1,7 +1,5 @@
 {
 glyphname = nu;
-kernLeft = gamma;
-kernRight = gamma;
 layers = (
 {
 anchors = (

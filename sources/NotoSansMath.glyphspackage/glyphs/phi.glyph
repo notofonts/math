@@ -1,7 +1,5 @@
 {
 glyphname = phi;
-kernLeft = alpha;
-kernRight = omicron;
 layers = (
 {
 anchors = (

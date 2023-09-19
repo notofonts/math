@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = theta.ssty1;
-kernLeft = theta.ssty;
-kernRight = theta.ssty;
 layers = (
 {
 anchors = (

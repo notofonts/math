@@ -1,7 +1,5 @@
 {
 glyphname = omega;
-kernLeft = upsilon;
-kernRight = upsilon;
 layers = (
 {
 anchors = (

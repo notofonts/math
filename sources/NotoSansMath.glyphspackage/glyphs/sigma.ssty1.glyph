@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = sigma.ssty1;
-kernLeft = omicron.ssty;
-kernRight = sigma.ssty;
 layers = (
 {
 anchors = (

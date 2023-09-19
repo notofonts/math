@@ -1,6 +1,5 @@
 {
 glyphname = pi;
-kernLeft = tau;
 layers = (
 {
 anchors = (

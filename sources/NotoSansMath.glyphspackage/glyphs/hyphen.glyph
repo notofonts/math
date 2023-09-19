@@ -1,7 +1,5 @@
 {
 glyphname = hyphen;
-kernLeft = hyphen.right;
-kernRight = hyphen.left;
 layers = (
 {
 anchors = (

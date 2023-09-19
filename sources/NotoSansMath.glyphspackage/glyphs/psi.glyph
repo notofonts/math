@@ -1,7 +1,5 @@
 {
 glyphname = psi;
-kernLeft = upsilon;
-kernRight = upsilon;
 layers = (
 {
 anchors = (

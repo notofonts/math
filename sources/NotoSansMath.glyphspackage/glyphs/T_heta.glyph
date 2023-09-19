@@ -1,7 +1,5 @@
 {
 glyphname = Theta;
-kernLeft = Theta;
-kernRight = Theta;
 layers = (
 {
 anchors = (

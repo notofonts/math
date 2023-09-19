@@ -1,7 +1,5 @@
 {
 glyphname = iota;
-kernLeft = iota;
-kernRight = iota;
 layers = (
 {
 anchors = (

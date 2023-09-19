@@ -1,6 +1,5 @@
 {
 glyphname = bracketright;
-kernLeft = Paren.right;
 layers = (
 {
 anchors = (

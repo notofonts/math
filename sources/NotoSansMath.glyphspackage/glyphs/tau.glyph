@@ -1,6 +1,5 @@
 {
 glyphname = tau;
-kernLeft = tau;
 layers = (
 {
 anchors = (

@@ -1,7 +1,5 @@
 {
 glyphname = rho;
-kernLeft = rho;
-kernRight = omicron;
 layers = (
 {
 anchors = (

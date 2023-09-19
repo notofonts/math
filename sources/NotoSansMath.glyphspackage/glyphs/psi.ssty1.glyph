@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = psi.ssty1;
-kernLeft = upsilon.ssty;
-kernRight = upsilon.ssty;
 layers = (
 {
 anchors = (

@@ -1,7 +1,5 @@
 {
 glyphname = Alpha;
-kernLeft = Alpha;
-kernRight = Alpha;
 layers = (
 {
 anchors = (

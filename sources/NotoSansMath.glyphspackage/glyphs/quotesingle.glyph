@@ -1,7 +1,5 @@
 {
 glyphname = quotesingle;
-kernLeft = quote.right;
-kernRight = quote.left;
 layers = (
 {
 anchors = (
