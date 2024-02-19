@@ -45,7 +45,5 @@ width = 551;
 unicode = 8214;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
-com.nagwa.MATHPlugin.variants = {
-};
 };
 }

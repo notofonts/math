@@ -56,8 +56,4 @@ width = 597;
 );
 metricRight = "=|";
 unicode = 845;
-userData = {
-com.nagwa.MATHPlugin.variants = {
-};
-};
 }

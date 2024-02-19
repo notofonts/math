@@ -26,12 +26,6 @@ nodes = (
 );
 }
 );
-userData = {
-com.nagwa.MATHPlugin.variants = {
-vAssembly = (
-);
-};
-};
 width = 383;
 },
 {
@@ -70,8 +64,4 @@ name = Size;
 topValue = 12;
 }
 );
-userData = {
-com.nagwa.MATHPlugin.variants = {
-};
-};
 }

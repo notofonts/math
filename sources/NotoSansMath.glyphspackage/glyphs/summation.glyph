@@ -28,12 +28,6 @@ nodes = (
 );
 }
 );
-userData = {
-com.nagwa.MATHPlugin.variants = {
-vAssembly = (
-);
-};
-};
 width = 677;
 }
 );
