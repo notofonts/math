@@ -49,16 +49,6 @@ nodes = (
 }
 );
 userData = {
-math = {
-italicCorrection = 140;
-};
-};
-width = 387;
-}
-);
-unicode = 8747;
-userData = {
-com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vAssembly = (
 (
@@ -80,6 +70,18 @@ integraltp,
 0
 )
 );
+};
+math = {
+italicCorrection = 140;
+};
+};
+width = 387;
+}
+);
+unicode = 8747;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
 vVariants = (
 integral,
 integral.s1

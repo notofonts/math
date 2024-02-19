@@ -17,12 +17,7 @@ Size = 0;
 ref = _part.braceleft;
 }
 );
-width = 380;
-}
-);
-unicode = 123;
 userData = {
-com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vAssembly = (
 (
@@ -56,6 +51,15 @@ leftcurlybracketupperhook,
 0
 )
 );
+};
+};
+width = 380;
+}
+);
+unicode = 123;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
 vVariants = (
 braceleft,
 braceleft.s1,

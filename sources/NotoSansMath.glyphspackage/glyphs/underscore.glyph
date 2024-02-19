@@ -17,10 +17,6 @@ Size = 0;
 ref = _part.underscore;
 }
 );
-width = 444;
-}
-);
-unicode = 95;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 hAssembly = (
@@ -37,6 +33,14 @@ underscore,
 400
 )
 );
+};
+};
+width = 444;
+}
+);
+unicode = 95;
+userData = {
+com.nagwa.MATHPlugin.variants = {
 hVariants = (
 underscore,
 underscore.s1,

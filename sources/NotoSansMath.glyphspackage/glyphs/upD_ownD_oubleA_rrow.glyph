@@ -71,13 +71,7 @@ nodes = (
 );
 }
 );
-width = 614;
-}
-);
-production = uni21D5;
-unicode = 8661;
 userData = {
-com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vAssembly = (
 (
@@ -100,5 +94,13 @@ upDoubleArrow,
 )
 );
 };
+};
+width = 614;
+}
+);
+production = uni21D5;
+unicode = 8661;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
 };
 }

@@ -64,10 +64,4 @@ name = Size;
 topValue = 12;
 }
 );
-userData = {
-com.nagwa.MATHPlugin.variants = {
-vAssembly = (
-);
-};
-};
 }

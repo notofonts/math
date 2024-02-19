@@ -12,7 +12,7 @@ help:
 	@echo "  make images: Creates PNG specimen images in the documentation/ directory"
 	@echo
 
-build: build.stamp apply_ttx
+build: build.stamp
 
 venv: venv/touchfile
 
@@ -24,9 +24,6 @@ build.stamp: venv .init.stamp sources/config*.yaml $(SOURCES)
 
 .init.stamp: venv
 	. venv/bin/activate; python3 scripts/first-run.py
-
-apply_ttx: build.stamp
-	. venv/bin/activate; python3 scripts/apply-ttx.py
 
 
 venv/touchfile: requirements.txt

@@ -25,10 +25,6 @@ Size = 0;
 ref = _part.rightharpoonabovecomb;
 }
 );
-width = 453;
-}
-);
-unicode = 8401;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 hAssembly = (
@@ -45,6 +41,14 @@ rightharpoonabove.s1,
 0
 )
 );
+};
+};
+width = 453;
+}
+);
+unicode = 8401;
+userData = {
+com.nagwa.MATHPlugin.variants = {
 hVariants = (
 rightharpoonabovecomb,
 rightharpoonabove.s1,

@@ -143,12 +143,7 @@ nodes = (
 );
 }
 );
-width = 1164;
-}
-);
-unicode = 10764;
 userData = {
-com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vAssembly = (
 (
@@ -170,6 +165,15 @@ quadrupleintegral.t,
 0
 )
 );
+};
+};
+width = 1164;
+}
+);
+unicode = 10764;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
 vVariants = (
 quadrupleIntegralOperator,
 quadrupleIntegralOperator.s1

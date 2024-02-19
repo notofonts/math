@@ -110,12 +110,7 @@ nodes = (
 );
 }
 );
-width = 905;
-}
-);
-unicode = 8749;
 userData = {
-com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vAssembly = (
 (
@@ -137,6 +132,15 @@ tripleintegral.t,
 0
 )
 );
+};
+};
+width = 905;
+}
+);
+unicode = 8749;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
 vVariants = (
 tripleintegral,
 tripleintegral.s1
