@@ -25,10 +25,6 @@ Size = 0;
 ref = _part.rightarrowabovecomb;
 }
 );
-width = 462;
-}
-);
-unicode = 8407;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 hAssembly = (
@@ -45,6 +41,14 @@ rightarrowabove.s1,
 0
 )
 );
+};
+};
+width = 462;
+}
+);
+unicode = 8407;
+userData = {
+com.nagwa.MATHPlugin.variants = {
 hVariants = (
 rightarrowabovecomb,
 rightarrowabove.s1,

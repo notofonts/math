@@ -17,12 +17,7 @@ Size = 0;
 ref = _part.rightCeiling;
 }
 );
-width = 383;
-}
-);
-unicode = 8969;
 userData = {
-com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vAssembly = (
 (
@@ -38,6 +33,15 @@ rightCeiling.t,
 0
 )
 );
+};
+};
+width = 383;
+}
+);
+unicode = 8969;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
 vVariants = (
 rightCeiling,
 rightCeiling.s1,

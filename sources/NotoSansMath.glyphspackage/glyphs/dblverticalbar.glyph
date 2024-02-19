@@ -21,12 +21,7 @@ pos = (169,0);
 ref = bar;
 }
 );
-width = 551;
-}
-);
-unicode = 8214;
 userData = {
-com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vAssembly = (
 (
@@ -42,6 +37,15 @@ dblverticalbar,
 900
 )
 );
+};
+};
+width = 551;
+}
+);
+unicode = 8214;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
 };
 };
 }

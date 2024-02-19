@@ -17,12 +17,7 @@ Size = 0;
 ref = _part.parenleft;
 }
 );
-width = 328;
-}
-);
-unicode = 40;
 userData = {
-com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vAssembly = (
 (
@@ -44,6 +39,15 @@ parenleftupperhook,
 0
 )
 );
+};
+};
+width = 328;
+}
+);
+unicode = 40;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
 vVariants = (
 parenleft,
 parenleft.s1,

@@ -22,14 +22,6 @@ nodes = (
 }
 );
 userData = {
-com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = "=|";
-};
-width = 433;
-}
-);
-unicode = 124;
-userData = {
-com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vAssembly = (
 (
@@ -45,6 +37,16 @@ bar,
 900
 )
 );
+};
+com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = "=|";
+};
+width = 433;
+}
+);
+unicode = 124;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
 };
 };
 }

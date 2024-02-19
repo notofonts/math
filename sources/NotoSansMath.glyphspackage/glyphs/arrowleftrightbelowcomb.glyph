@@ -27,11 +27,6 @@ pos = (0,-828);
 ref = leftrightarrowabovecomb;
 }
 );
-width = 597;
-}
-);
-metricRight = "=|";
-unicode = 845;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 hAssembly = (
@@ -54,6 +49,15 @@ rightarrowbelow.s1,
 0
 )
 );
+};
+};
+width = 597;
+}
+);
+metricRight = "=|";
+unicode = 845;
+userData = {
+com.nagwa.MATHPlugin.variants = {
 };
 };
 }

@@ -77,12 +77,7 @@ nodes = (
 );
 }
 );
-width = 646;
-}
-);
-unicode = 8748;
 userData = {
-com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vAssembly = (
 (
@@ -104,6 +99,15 @@ dblintegral.t,
 0
 )
 );
+};
+};
+width = 646;
+}
+);
+unicode = 8748;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
 vVariants = (
 dblintegral,
 dblintegral.s1

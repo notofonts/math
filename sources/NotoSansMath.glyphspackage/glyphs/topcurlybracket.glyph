@@ -17,10 +17,6 @@ Size = 0;
 ref = _part.topcurlybracket;
 }
 );
-width = 880;
-}
-);
-unicode = 9182;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 hAssembly = (
@@ -55,6 +51,14 @@ topcurlybracket.r,
 0
 )
 );
+};
+};
+width = 880;
+}
+);
+unicode = 9182;
+userData = {
+com.nagwa.MATHPlugin.variants = {
 hVariants = (
 topcurlybracket,
 topcurlybracket.s1,

@@ -28,14 +28,18 @@ nodes = (
 );
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+);
+};
+};
 width = 677;
 }
 );
 unicode = 8721;
 userData = {
 com.nagwa.MATHPlugin.variants = {
-vAssembly = (
-);
 vVariants = (
 summation,
 summation.s1

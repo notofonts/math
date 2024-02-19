@@ -25,10 +25,6 @@ Size = 0;
 ref = _part.leftharpoonabovecomb;
 }
 );
-width = 453;
-}
-);
-unicode = 8400;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 hAssembly = (
@@ -45,6 +41,14 @@ horizontalabove.x,
 400
 )
 );
+};
+};
+width = 453;
+}
+);
+unicode = 8400;
+userData = {
+com.nagwa.MATHPlugin.variants = {
 hVariants = (
 leftharpoonabovecomb,
 leftharpoonabove.s1,

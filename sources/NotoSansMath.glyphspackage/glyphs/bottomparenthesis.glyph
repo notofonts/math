@@ -17,10 +17,6 @@ Size = 0;
 ref = _part.bottomparenthesis;
 }
 );
-width = 1140;
-}
-);
-unicode = 9181;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 hAssembly = (
@@ -43,6 +39,14 @@ bottomparenthesis.r,
 0
 )
 );
+};
+};
+width = 1140;
+}
+);
+unicode = 9181;
+userData = {
+com.nagwa.MATHPlugin.variants = {
 hVariants = (
 bottomparenthesis,
 bottomparenthesis.s1,

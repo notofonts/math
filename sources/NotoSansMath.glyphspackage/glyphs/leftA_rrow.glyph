@@ -41,10 +41,6 @@ nodes = (
 );
 }
 );
-width = 794;
-}
-);
-unicode = 8592;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 hAssembly = (
@@ -61,6 +57,14 @@ horizontal.x,
 500
 )
 );
+};
+};
+width = 794;
+}
+);
+unicode = 8592;
+userData = {
+com.nagwa.MATHPlugin.variants = {
 };
 };
 }

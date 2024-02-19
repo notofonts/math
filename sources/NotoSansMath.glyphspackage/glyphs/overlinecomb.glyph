@@ -25,10 +25,6 @@ Size = 0;
 ref = _part.overlinecomb;
 }
 );
-width = 417;
-}
-);
-unicode = 773;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 hAssembly = (
@@ -45,6 +41,14 @@ overline.s1,
 900
 )
 );
+};
+};
+width = 417;
+}
+);
+unicode = 773;
+userData = {
+com.nagwa.MATHPlugin.variants = {
 hVariants = (
 overlinecomb,
 overline.s1,

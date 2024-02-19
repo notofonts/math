@@ -1,5 +1,5 @@
 {
-.appVersion = "3205";
+.appVersion = "3241";
 .formatVersion = 3;
 classes = (
 {
@@ -5149,7 +5149,6 @@ over = -16;
 pos = -423;
 },
 {
-over = -11;
 }
 );
 name = Regular;
@@ -5284,6 +5283,15 @@ type = "italic angle";
 );
 properties = (
 {
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2022 Google LLC. All Rights Reserved.";
+}
+);
+},
+{
 key = designers;
 values = (
 {
@@ -5295,32 +5303,6 @@ value = "Monotype Design Team, Delve Withrington, Jeff Kellem";
 {
 key = designerURL;
 value = "http://www.monotype.com/studio";
-},
-{
-key = manufacturers;
-values = (
-{
-language = dflt;
-value = "Monotype Imaging Inc., Delve Fonts LLC";
-}
-);
-},
-{
-key = manufacturerURL;
-value = "http://www.google.com/get/noto/";
-},
-{
-key = copyrights;
-values = (
-{
-language = dflt;
-value = "Copyright 2022 Google LLC. All Rights Reserved.";
-}
-);
-},
-{
-key = vendorID;
-value = GOOG;
 },
 {
 key = licenses;
@@ -5336,6 +5318,19 @@ key = licenseURL;
 value = "https://scripts.sil.org/OFL";
 },
 {
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Monotype Imaging Inc., Delve Fonts LLC";
+}
+);
+},
+{
+key = manufacturerURL;
+value = "http://www.google.com/get/noto/";
+},
+{
 key = trademarks;
 values = (
 {
@@ -5343,6 +5338,10 @@ language = dflt;
 value = "Noto is a trademark of Google Inc.";
 }
 );
+},
+{
+key = vendorID;
+value = GOOG;
 }
 );
 stems = (

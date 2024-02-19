@@ -17,12 +17,7 @@ Size = 0;
 ref = _part.leftFloor;
 }
 );
-width = 383;
-}
-);
-unicode = 8970;
 userData = {
-com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vAssembly = (
 (
@@ -38,6 +33,15 @@ leftCeiling.x,
 600
 )
 );
+};
+};
+width = 383;
+}
+);
+unicode = 8970;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
 vVariants = (
 leftFloor,
 leftFloor.s1,
