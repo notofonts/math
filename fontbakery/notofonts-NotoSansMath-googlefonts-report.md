@@ -1,6 +1,6 @@
 ## FontBakery report
 
-fontbakery version: 0.11.1
+fontbakery version: 0.11.2
 
 <h2>Experimental checks</h2><p>These won't break the CI job for now, but will become effective after some time if nobody raises any concern.</p><details><summary><b>[1] NotoSansMath-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure the font supports case swapping for all its glyphs. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/case_mapping">com.google.fonts/check/case_mapping</a>)</summary><div>
 
@@ -12,36 +12,547 @@ fontbakery version: 0.11.1
 | U+0123: LATIN SMALL LETTER G WITH CEDILLA | U+0122: LATIN CAPITAL LETTER G WITH CEDILLA |
 
  [code: missing-case-counterparts]
-</div></details><br></div></details><h2>All other checks</h2><details><summary><b>[16] NotoSansMath-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><h2>All other checks</h2><details><summary><b>[15] NotoSansMath-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with ImportError: cannot import name 'unicodes_per_glyphset' from 'glyphsets.definitions' (/home/runner/work/math/math/venv/lib/python3.11/site-packages/glyphsets/definitions/__init__.py)
-```
-  File "/home/runner/work/math/math/venv/lib/python3.11/site-packages/fontbakery/checkrunner.py", line 170, in _exec_check
-    results.extend(list(result))
-                   ^^^^^^^^^^^^
-  File "/home/runner/work/math/math/venv/lib/python3.11/site-packages/fontbakery/profiles/googlefonts.py", line 1076, in com_google_fonts_check_glyph_coverage
-    glyphsets_fulfilled = get_glyphsets_fulfilled(ttFont)
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/math/math/venv/lib/python3.11/site-packages/fontbakery/profiles/googlefonts_conditions.py", line 748, in get_glyphsets_fulfilled
-    from glyphsets.definitions import unicodes_per_glyphset, glyphset_definitions
+* 🔥 **FAIL** Missing required codepoints:
 
-``` [code: failed-check]
-</div></details><details><summary>💔 <b>ERROR:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+	- 0x00A1 (INVERTED EXCLAMATION MARK)
 
 
-* 💔 **ERROR** Failed with ImportError: cannot import name 'unicodes_per_glyphset' from 'glyphsets.definitions' (/home/runner/work/math/math/venv/lib/python3.11/site-packages/glyphsets/definitions/__init__.py)
-```
-  File "/home/runner/work/math/math/venv/lib/python3.11/site-packages/fontbakery/checkrunner.py", line 170, in _exec_check
-    results.extend(list(result))
-                   ^^^^^^^^^^^^
-  File "/home/runner/work/math/math/venv/lib/python3.11/site-packages/fontbakery/profiles/googlefonts.py", line 3543, in com_google_fonts_check_glyphsets_shape_languages
-    glyphsets_fulfilled = get_glyphsets_fulfilled(ttFont)
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/math/math/venv/lib/python3.11/site-packages/fontbakery/profiles/googlefonts_conditions.py", line 748, in get_glyphsets_fulfilled
-    from glyphsets.definitions import unicodes_per_glyphset, glyphset_definitions
+	- 0x00A8 (DIAERESIS)
 
-``` [code: failed-check]
+
+	- 0x00AA (FEMININE ORDINAL INDICATOR)
+
+
+	- 0x00AB (LEFT-POINTING DOUBLE ANGLE QUOTATION MARK)
+
+
+	- 0x00AF (MACRON)
+
+
+	- 0x00B4 (ACUTE ACCENT)
+
+
+	- 0x00B6 (PILCROW SIGN)
+
+
+	- 0x00BA (MASCULINE ORDINAL INDICATOR)
+
+
+	- 0x00BB (RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK)
+
+
+	- 0x00BF (INVERTED QUESTION MARK)
+
+
+	- 0x00C0 (LATIN CAPITAL LETTER A WITH GRAVE)
+
+
+	- 0x00C1 (LATIN CAPITAL LETTER A WITH ACUTE)
+
+
+	- 0x00C2 (LATIN CAPITAL LETTER A WITH CIRCUMFLEX)
+
+
+	- 0x00C3 (LATIN CAPITAL LETTER A WITH TILDE)
+
+
+	- 0x00C4 (LATIN CAPITAL LETTER A WITH DIAERESIS)
+
+
+	- 0x00C6 (LATIN CAPITAL LETTER AE)
+
+
+	- 0x00C8 (LATIN CAPITAL LETTER E WITH GRAVE)
+
+
+	- 0x00C9 (LATIN CAPITAL LETTER E WITH ACUTE)
+
+
+	- 0x00CA (LATIN CAPITAL LETTER E WITH CIRCUMFLEX)
+
+
+	- 0x00CB (LATIN CAPITAL LETTER E WITH DIAERESIS)
+
+
+	- 0x00CC (LATIN CAPITAL LETTER I WITH GRAVE)
+
+
+	- 0x00CD (LATIN CAPITAL LETTER I WITH ACUTE)
+
+
+	- 0x00CE (LATIN CAPITAL LETTER I WITH CIRCUMFLEX)
+
+
+	- 0x00CF (LATIN CAPITAL LETTER I WITH DIAERESIS)
+
+
+	- 0x00D1 (LATIN CAPITAL LETTER N WITH TILDE)
+
+
+	- 0x00D2 (LATIN CAPITAL LETTER O WITH GRAVE)
+
+
+	- 0x00D3 (LATIN CAPITAL LETTER O WITH ACUTE)
+
+
+	- 0x00D4 (LATIN CAPITAL LETTER O WITH CIRCUMFLEX)
+
+
+	- 0x00D5 (LATIN CAPITAL LETTER O WITH TILDE)
+
+
+	- 0x00D6 (LATIN CAPITAL LETTER O WITH DIAERESIS)
+
+
+	- 0x00D8 (LATIN CAPITAL LETTER O WITH STROKE)
+
+
+	- 0x00D9 (LATIN CAPITAL LETTER U WITH GRAVE)
+
+
+	- 0x00DA (LATIN CAPITAL LETTER U WITH ACUTE)
+
+
+	- 0x00DB (LATIN CAPITAL LETTER U WITH CIRCUMFLEX)
+
+
+	- 0x00DC (LATIN CAPITAL LETTER U WITH DIAERESIS)
+
+
+	- 0x00DD (LATIN CAPITAL LETTER Y WITH ACUTE)
+
+
+	- 0x00DF (LATIN SMALL LETTER SHARP S)
+
+
+	- 0x00E0 (LATIN SMALL LETTER A WITH GRAVE)
+
+
+	- 0x00E1 (LATIN SMALL LETTER A WITH ACUTE)
+
+
+	- 0x00E2 (LATIN SMALL LETTER A WITH CIRCUMFLEX)
+
+
+	- 0x00E3 (LATIN SMALL LETTER A WITH TILDE)
+
+
+	- 0x00E4 (LATIN SMALL LETTER A WITH DIAERESIS)
+
+
+	- 0x00E6 (LATIN SMALL LETTER AE)
+
+
+	- 0x00E8 (LATIN SMALL LETTER E WITH GRAVE)
+
+
+	- 0x00E9 (LATIN SMALL LETTER E WITH ACUTE)
+
+
+	- 0x00EA (LATIN SMALL LETTER E WITH CIRCUMFLEX)
+
+
+	- 0x00EB (LATIN SMALL LETTER E WITH DIAERESIS)
+
+
+	- 0x00EC (LATIN SMALL LETTER I WITH GRAVE)
+
+
+	- 0x00ED (LATIN SMALL LETTER I WITH ACUTE)
+
+
+	- 0x00EE (LATIN SMALL LETTER I WITH CIRCUMFLEX)
+
+
+	- 0x00EF (LATIN SMALL LETTER I WITH DIAERESIS)
+
+
+	- 0x00F1 (LATIN SMALL LETTER N WITH TILDE)
+
+
+	- 0x00F2 (LATIN SMALL LETTER O WITH GRAVE)
+
+
+	- 0x00F3 (LATIN SMALL LETTER O WITH ACUTE)
+
+
+	- 0x00F4 (LATIN SMALL LETTER O WITH CIRCUMFLEX)
+
+
+	- 0x00F5 (LATIN SMALL LETTER O WITH TILDE)
+
+
+	- 0x00F6 (LATIN SMALL LETTER O WITH DIAERESIS)
+
+
+	- 0x00F8 (LATIN SMALL LETTER O WITH STROKE)
+
+
+	- 0x00F9 (LATIN SMALL LETTER U WITH GRAVE)
+
+
+	- 0x00FA (LATIN SMALL LETTER U WITH ACUTE)
+
+
+	- 0x00FB (LATIN SMALL LETTER U WITH CIRCUMFLEX)
+
+
+	- 0x00FC (LATIN SMALL LETTER U WITH DIAERESIS)
+
+
+	- 0x00FD (LATIN SMALL LETTER Y WITH ACUTE)
+
+
+	- 0x00FF (LATIN SMALL LETTER Y WITH DIAERESIS)
+
+
+	- 0x0100 (LATIN CAPITAL LETTER A WITH MACRON)
+
+
+	- 0x0101 (LATIN SMALL LETTER A WITH MACRON)
+
+
+	- 0x0102 (LATIN CAPITAL LETTER A WITH BREVE)
+
+
+	- 0x0103 (LATIN SMALL LETTER A WITH BREVE)
+
+
+	- 0x0104 (LATIN CAPITAL LETTER A WITH OGONEK)
+
+
+	- 0x0105 (LATIN SMALL LETTER A WITH OGONEK)
+
+
+	- 0x0106 (LATIN CAPITAL LETTER C WITH ACUTE)
+
+
+	- 0x0107 (LATIN SMALL LETTER C WITH ACUTE)
+
+
+	- 0x010A (LATIN CAPITAL LETTER C WITH DOT ABOVE)
+
+
+	- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
+
+
+	- 0x010C (LATIN CAPITAL LETTER C WITH CARON)
+
+
+	- 0x010D (LATIN SMALL LETTER C WITH CARON)
+
+
+	- 0x010E (LATIN CAPITAL LETTER D WITH CARON)
+
+
+	- 0x010F (LATIN SMALL LETTER D WITH CARON)
+
+
+	- 0x0110 (LATIN CAPITAL LETTER D WITH STROKE)
+
+
+	- 0x0111 (LATIN SMALL LETTER D WITH STROKE)
+
+
+	- 0x0112 (LATIN CAPITAL LETTER E WITH MACRON)
+
+
+	- 0x0113 (LATIN SMALL LETTER E WITH MACRON)
+
+
+	- 0x0116 (LATIN CAPITAL LETTER E WITH DOT ABOVE)
+
+
+	- 0x0117 (LATIN SMALL LETTER E WITH DOT ABOVE)
+
+
+	- 0x0118 (LATIN CAPITAL LETTER E WITH OGONEK)
+
+
+	- 0x0119 (LATIN SMALL LETTER E WITH OGONEK)
+
+
+	- 0x011A (LATIN CAPITAL LETTER E WITH CARON)
+
+
+	- 0x011B (LATIN SMALL LETTER E WITH CARON)
+
+
+	- 0x011E (LATIN CAPITAL LETTER G WITH BREVE)
+
+
+	- 0x011F (LATIN SMALL LETTER G WITH BREVE)
+
+
+	- 0x0120 (LATIN CAPITAL LETTER G WITH DOT ABOVE)
+
+
+	- 0x0121 (LATIN SMALL LETTER G WITH DOT ABOVE)
+
+
+	- 0x0122 (LATIN CAPITAL LETTER G WITH CEDILLA)
+
+
+	- 0x0126 (LATIN CAPITAL LETTER H WITH STROKE)
+
+
+	- 0x0127 (LATIN SMALL LETTER H WITH STROKE)
+
+
+	- 0x012A (LATIN CAPITAL LETTER I WITH MACRON)
+
+
+	- 0x012B (LATIN SMALL LETTER I WITH MACRON)
+
+
+	- 0x012E (LATIN CAPITAL LETTER I WITH OGONEK)
+
+
+	- 0x012F (LATIN SMALL LETTER I WITH OGONEK)
+
+
+	- 0x0130 (LATIN CAPITAL LETTER I WITH DOT ABOVE)
+
+
+	- 0x0136 (LATIN CAPITAL LETTER K WITH CEDILLA)
+
+
+	- 0x0137 (LATIN SMALL LETTER K WITH CEDILLA)
+
+
+	- 0x0139 (LATIN CAPITAL LETTER L WITH ACUTE)
+
+
+	- 0x013A (LATIN SMALL LETTER L WITH ACUTE)
+
+
+	- 0x013B (LATIN CAPITAL LETTER L WITH CEDILLA)
+
+
+	- 0x013C (LATIN SMALL LETTER L WITH CEDILLA)
+
+
+	- 0x013D (LATIN CAPITAL LETTER L WITH CARON)
+
+
+	- 0x013E (LATIN SMALL LETTER L WITH CARON)
+
+
+	- 0x0141 (LATIN CAPITAL LETTER L WITH STROKE)
+
+
+	- 0x0142 (LATIN SMALL LETTER L WITH STROKE)
+
+
+	- 0x0143 (LATIN CAPITAL LETTER N WITH ACUTE)
+
+
+	- 0x0144 (LATIN SMALL LETTER N WITH ACUTE)
+
+
+	- 0x0145 (LATIN CAPITAL LETTER N WITH CEDILLA)
+
+
+	- 0x0146 (LATIN SMALL LETTER N WITH CEDILLA)
+
+
+	- 0x0147 (LATIN CAPITAL LETTER N WITH CARON)
+
+
+	- 0x0148 (LATIN SMALL LETTER N WITH CARON)
+
+
+	- 0x0150 (LATIN CAPITAL LETTER O WITH DOUBLE ACUTE)
+
+
+	- 0x0151 (LATIN SMALL LETTER O WITH DOUBLE ACUTE)
+
+
+	- 0x0152 (LATIN CAPITAL LIGATURE OE)
+
+
+	- 0x0153 (LATIN SMALL LIGATURE OE)
+
+
+	- 0x0154 (LATIN CAPITAL LETTER R WITH ACUTE)
+
+
+	- 0x0155 (LATIN SMALL LETTER R WITH ACUTE)
+
+
+	- 0x0158 (LATIN CAPITAL LETTER R WITH CARON)
+
+
+	- 0x0159 (LATIN SMALL LETTER R WITH CARON)
+
+
+	- 0x015A (LATIN CAPITAL LETTER S WITH ACUTE)
+
+
+	- 0x015B (LATIN SMALL LETTER S WITH ACUTE)
+
+
+	- 0x015E (LATIN CAPITAL LETTER S WITH CEDILLA)
+
+
+	- 0x015F (LATIN SMALL LETTER S WITH CEDILLA)
+
+
+	- 0x0160 (LATIN CAPITAL LETTER S WITH CARON)
+
+
+	- 0x0161 (LATIN SMALL LETTER S WITH CARON)
+
+
+	- 0x0164 (LATIN CAPITAL LETTER T WITH CARON)
+
+
+	- 0x0165 (LATIN SMALL LETTER T WITH CARON)
+
+
+	- 0x016A (LATIN CAPITAL LETTER U WITH MACRON)
+
+
+	- 0x016B (LATIN SMALL LETTER U WITH MACRON)
+
+
+	- 0x016E (LATIN CAPITAL LETTER U WITH RING ABOVE)
+
+
+	- 0x016F (LATIN SMALL LETTER U WITH RING ABOVE)
+
+
+	- 0x0170 (LATIN CAPITAL LETTER U WITH DOUBLE ACUTE)
+
+
+	- 0x0171 (LATIN SMALL LETTER U WITH DOUBLE ACUTE)
+
+
+	- 0x0172 (LATIN CAPITAL LETTER U WITH OGONEK)
+
+
+	- 0x0173 (LATIN SMALL LETTER U WITH OGONEK)
+
+
+	- 0x0174 (LATIN CAPITAL LETTER W WITH CIRCUMFLEX)
+
+
+	- 0x0175 (LATIN SMALL LETTER W WITH CIRCUMFLEX)
+
+
+	- 0x0176 (LATIN CAPITAL LETTER Y WITH CIRCUMFLEX)
+
+
+	- 0x0177 (LATIN SMALL LETTER Y WITH CIRCUMFLEX)
+
+
+	- 0x0178 (LATIN CAPITAL LETTER Y WITH DIAERESIS)
+
+
+	- 0x0179 (LATIN CAPITAL LETTER Z WITH ACUTE)
+
+
+	- 0x017A (LATIN SMALL LETTER Z WITH ACUTE)
+
+
+	- 0x017B (LATIN CAPITAL LETTER Z WITH DOT ABOVE)
+
+
+	- 0x017C (LATIN SMALL LETTER Z WITH DOT ABOVE)
+
+
+	- 0x017D (LATIN CAPITAL LETTER Z WITH CARON)
+
+
+	- 0x017E (LATIN SMALL LETTER Z WITH CARON)
+
+
+	- 0x0218 (LATIN CAPITAL LETTER S WITH COMMA BELOW)
+
+
+	- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
+
+
+	- 0x021A (LATIN CAPITAL LETTER T WITH COMMA BELOW)
+
+
+	- 0x021B (LATIN SMALL LETTER T WITH COMMA BELOW)
+
+
+	- 0x02C7 (CARON)
+
+
+	- 0x02D8 (BREVE)
+
+
+	- 0x02D9 (DOT ABOVE)
+
+
+	- 0x02DB (OGONEK)
+
+
+	- 0x02DC (SMALL TILDE)
+
+
+	- 0x02DD (DOUBLE ACUTE ACCENT)
+
+
+	- 0x0328 (COMBINING OGONEK)
+
+
+	- 0x1E80 (LATIN CAPITAL LETTER W WITH GRAVE)
+
+
+	- 0x1E81 (LATIN SMALL LETTER W WITH GRAVE)
+
+
+	- 0x1E82 (LATIN CAPITAL LETTER W WITH ACUTE)
+
+
+	- 0x1E83 (LATIN SMALL LETTER W WITH ACUTE)
+
+
+	- 0x1E84 (LATIN CAPITAL LETTER W WITH DIAERESIS)
+
+
+	- 0x1E85 (LATIN SMALL LETTER W WITH DIAERESIS)
+
+
+	- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
+
+
+	- 0x1EF2 (LATIN CAPITAL LETTER Y WITH GRAVE)
+
+
+	- 0x1EF3 (LATIN SMALL LETTER Y WITH GRAVE)
+
+
+	- 0x2013 (EN DASH)
+
+
+	- 0x2014 (EM DASH)
+
+
+	- 0x201A (SINGLE LOW-9 QUOTATION MARK)
+
+
+	- 0x201E (DOUBLE LOW-9 QUOTATION MARK)
+
+
+	- 0x2022 (BULLET)
+
+
+	- 0x2039 (SINGLE LEFT-POINTING ANGLE QUOTATION MARK)
+
+
+	- 0x203A (SINGLE RIGHT-POINTING ANGLE QUOTATION MARK)
+
+
+	- 0x2122 (TRADE MARK SIGN)
+ [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Version number has increased since previous release on Google Fonts? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump">com.google.fonts/check/version_bump</a>)</summary><div>
 
 
@@ -75,7 +586,7 @@ fontbakery version: 0.11.1
  * U+02D5 MODIFIER LETTER DOWN TACK: not included in any glyphset definition
  * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0311 COMBINING INVERTED BREVE: try adding coptic
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
@@ -85,7 +596,7 @@ fontbakery version: 0.11.1
  * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
  * U+032E COMBINING BREVE BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
- * U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, syriac, gothic, cherokee, tifinagh
+ * U+0331 COMBINING MACRON BELOW: try adding one of: gothic, caucasian-albanian, cherokee, syriac, tifinagh
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0333 COMBINING DOUBLE LOW LINE: not included in any glyphset definition
  * U+0338 COMBINING LONG SOLIDUS OVERLAY: not included in any glyphset definition
@@ -105,7 +616,7 @@ fontbakery version: 0.11.1
  * U+200A HAIR SPACE: not included in any glyphset definition
  * U+2016 DOUBLE VERTICAL LINE: not included in any glyphset definition
  * U+2021 DOUBLE DAGGER: try adding adlam
- * U+202F NARROW NO-BREAK SPACE: try adding one of: yi, mongolian
+ * U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi
  * U+205F MEDIUM MATHEMATICAL SPACE: not included in any glyphset definition
  * U+210F PLANCK CONSTANT OVER TWO PI: not included in any glyphset definition
  * U+2118 SCRIPT CAPITAL P: not included in any glyphset definition
@@ -224,7 +735,6 @@ fontbakery version: 0.11.1
  * U+2B1D BLACK VERY SMALL SQUARE: try adding symbols
  * U+2B24 BLACK LARGE CIRCLE: try adding symbols
  * U+2B25 BLACK MEDIUM DIAMOND: try adding symbols
- * U+FE00 VARIATION SELECTOR-1: try adding one of: yi, manichaean, phags-pa
  * U+1F780 BLACK LEFT-POINTING ISOSCELES RIGHT TRIANGLE: try adding symbols
  * U+1F781 BLACK UP-POINTING ISOSCELES RIGHT TRIANGLE: try adding symbols
  * U+1F782 BLACK RIGHT-POINTING ISOSCELES RIGHT TRIANGLE: try adding symbols
@@ -1817,13 +2327,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 699:
-uni22FD, suchthat, uni22F6, uni22D1, notsubset, uni27C4, uni2AC8, reflexsuperset, uni228B, uni22FB, uni22D0, reflexsubset, uni2289, propersuperset, uni22F3, uni27C3, uni2AC7, uni2ABE, element, uni22F8, uni22F9, uni22F5, propersubset, uni228A, notelement, uni2ABD, uni2285, uni2288, uni220C
+uni22F3, uni22F5, suchthat, uni22D0, uni22F6, uni2ABD, notsubset, element, uni220C, uni22FD, uni2289, uni22D1, propersuperset, uni22F9, uni22FB, uni2285, uni2AC8, reflexsubset, uni27C3, uni22F8, notelement, uni2AC7, uni2ABE, uni2288, uni27C4, uni228B, propersubset, uni228A, reflexsuperset
 
 Width = 540:
 proportional
 
 Width = 652:
-uni299F, uni29A8, uni29AB, uni299E, angle, uni29A5, uni29AA, uni27C0, uni29A9, orthogonal, uni22BE, uni27D4, uni29A4, uni29A2, uni299D, uni299C, uni29A3, uni2221, uni299B, uni27D3
+uni27C0, uni29A8, angle, uni29A9, uni29A2, uni299F, uni27D4, uni299E, uni29A4, uni299B, uni27D3, uni22BE, uni29A3, uni29AA, uni29A5, uni299D, uni299C, uni2221, uni29AB, orthogonal
 
 Width = 617:
 uni2239, uni2A27
@@ -1832,16 +2342,16 @@ Width = 696:
 uni223E
 
 Width = 667:
-uni223F, uni2A33
+uni2A33, uni223F
 
 Width = 542:
-uni227D, uni227B, uni2281, uni2280, uni22E0, uni227A, uni22E1, uni22DE, uni227C, uni22DF
+uni227C, uni227B, uni227D, uni22DE, uni22DF, uni2280, uni22E0, uni227A, uni2281, uni22E1
 
 Width = 644:
-uni2291, uni2290, uni2292
+uni2291, uni2292, uni2290
 
 Width = 756:
-uni22A4, uni2AE4, uni2AEA, uni22A3, uni2AE9, uni2AE2, uni22A2, uni2AE7, uni2AEB, uni22A5, uni2ADF, uni22A8, uni2AE0, uni2AE8
+uni2AE7, uni22A3, uni2AEB, uni2AE4, uni2AEA, uni2AE2, uni2AE8, uni22A8, uni2ADF, uni2AE9, uni22A2, uni22A5, uni2AE0, uni22A4
 
 Width = 567:
 uni22B0, uni22B1
@@ -1853,19 +2363,19 @@ Width = 532:
 uni22D7, uni22D6
 
 Width = 775:
-uni2979, uni297B
+uni297B, uni2979
 
 Width = 634:
 uni297E, uni297F
 
 Width = 732:
-uni2995, uni2996, uni2994, uni2993
+uni2994, uni2995, uni2996, uni2993
 
 Width = 624:
 uni29A1
 
 Width = 689:
-uni29E4, uni29E3, uni29E5
+uni29E3, uni29E5, uni29E4
 
 Width = 744:
 uni29FA
@@ -1883,19 +2393,19 @@ Width = 669:
 uni2A79, uni2A7A
 
 Width = 573:
-uni2A7C, uni2A7B
+uni2A7B, uni2A7C
 
 Width = 798:
 uni2AA2, uni2AA1
 
 Width = 760:
-uni2AA9, uni2AA8, uni2AA6, uni2AA7
+uni2AA7, uni2AA9, uni2AA8, uni2AA6
 
 Width = 681:
-smallerthan, uni2AAB, smallerthanorequalto, uni2AAD
+smallerthan, uni2AAD, uni2AAB, smallerthanorequalto
 
 Width = 679:
-uni2AC6, uni2AC0, uni2AD3, uni2AD0, uni2AD5, uni2AC2, uni2ACF, uni2AC1, uni2ABF, uni2AD4, uni2AC9, uni2ACA, uni2AC3, uni2ACC, uni2AC5, uni2AD1, uni2AD2, uni2AC4, uni2ACB, uni2AD6
+uni2AC1, uni2ACC, uni2AD2, uni2AC3, uni2AC0, uni2AC5, uni2ACA, uni2AC9, uni2ABF, uni2AC2, uni2AD3, uni2AC4, uni2ACF, uni2AD1, uni2AD6, uni2AD4, uni2AC6, uni2ACB, uni2AD5, uni2AD0
 
 Width = 754:
 uni2AE1
@@ -2063,17 +2573,17 @@ uni2AF6
 
 * ⚠ **WARN** The dot of soft dotted characters _should_ disappear in other cases, for example: i⃐ i⃑ i⃔ i⃕ i⃖ i⃗ i⃛ i⃜ i⃡ i⃧ i⃩ ị⃐ ị⃑ ị⃔ ị⃕ ị⃖ ị⃗ ị⃛ ị⃜ ị⃡
 
-Your font fully covers the following languages that require the soft-dotted feature: Ebira (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Ekpeye (Latn, 226,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Dutch (Latn, 31,709,104 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Igbo (Latn, 27,823,640 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Ekpeye (Latn, 226,000 speakers), Dutch (Latn, 31,709,104 speakers), Ebira (Latn, 2,200,000 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: South Central Banda (Latn, 244,000 speakers), Southern Kisi (Latn, 360,000 speakers), Navajo (Latn, 166,319 speakers), Lugbara (Latn, 2,200,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Sar (Latn, 500,000 speakers), Mundani (Latn, 34,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Zapotec (Latn, 490,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Makaa (Latn, 221,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Mango (Latn, 77,000 speakers), Basaa (Latn, 332,940 speakers), Kom (Latn, 360,685 speakers), Gulay (Latn, 250,478 speakers), Nateni (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Avokaya (Latn, 100,000 speakers), Fur (Latn, 1,230,163 speakers), Koonzime (Latn, 40,000 speakers), Dii (Latn, 71,000 speakers), Ma’di (Latn, 584,000 speakers), Bafut (Latn, 158,146 speakers), Nzakara (Latn, 50,000 speakers), Dan (Latn, 1,099,244 speakers), Aghem (Latn, 38,843 speakers), Cicipu (Latn, 44,000 speakers), Mfumte (Latn, 79,000 speakers), Yala (Latn, 200,000 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Bete-Bendi (Latn, 100,000 speakers), Nateni (Latn, 100,000 speakers), Basaa (Latn, 332,940 speakers), Ngbaka (Latn, 1,020,000 speakers), Navajo (Latn, 166,319 speakers), Mfumte (Latn, 79,000 speakers), Kom (Latn, 360,685 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Sar (Latn, 500,000 speakers), Cicipu (Latn, 44,000 speakers), Nzakara (Latn, 50,000 speakers), Mango (Latn, 77,000 speakers), Makaa (Latn, 221,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Bafut (Latn, 158,146 speakers), Lithuanian (Latn, 2,357,094 speakers), Gulay (Latn, 250,478 speakers), Koonzime (Latn, 40,000 speakers), Yala (Latn, 200,000 speakers), Dii (Latn, 71,000 speakers), Ejagham (Latn, 120,000 speakers), South Central Banda (Latn, 244,000 speakers), Ma’di (Latn, 584,000 speakers), Avokaya (Latn, 100,000 speakers), Aghem (Latn, 38,843 speakers), Zapotec (Latn, 490,000 speakers), Dan (Latn, 1,099,244 speakers), Lugbara (Latn, 2,200,000 speakers), Southern Kisi (Latn, 360,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Fur (Latn, 1,230,163 speakers), Mundani (Latn, 34,000 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | ☠ FATAL | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| 2 | 0 | 5 | 10 | 123 | 7 | 113 | 0 |
-| 1% | 0% | 2% | 4% | 47% | 3% | 43% | 0% |
+| 0 | 0 | 6 | 10 | 123 | 7 | 114 | 0 |
+| 0% | 0% | 2% | 4% | 47% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
