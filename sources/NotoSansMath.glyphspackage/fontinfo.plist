@@ -4220,8 +4220,7 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature fwid;
-feature rtlm;
+code = "feature rtlm;
 feature ss01;
 feature dtls;
 feature ssty;
@@ -4236,14 +4235,6 @@ code = "lookup ccmp_Other_1 {
 } ccmp_Other_1;
 ";
 tag = ccmp;
-},
-{
-automatic = 1;
-code = "sub space by emspace;
-sub braceleft by braceleft.full;
-sub braceright by braceright.full;
-";
-tag = fwid;
 },
 {
 automatic = 1;
