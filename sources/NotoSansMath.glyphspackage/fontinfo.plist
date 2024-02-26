@@ -4209,7 +4209,10 @@ date = "2023-02-15 06:20:46 +0000";
 familyName = "Noto Sans Math";
 featurePrefixes = (
 {
+automatic = 1;
 code = "languagesystem DFLT dflt;
+
+languagesystem math dflt;
 ";
 name = Languagesystems;
 }
