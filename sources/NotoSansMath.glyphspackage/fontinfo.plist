@@ -65,7 +65,7 @@ Zscript-math.uv001
 name = MathScriptUpperVS1;
 },
 {
-code = "idotless jdotless idotless.ssty1 jdotless.ssty1 idotless.ssty2 jdotless.ssty2 i-fraktur.dotless j-fraktur.dotless i-fraktur.dotless.ssty1 j-fraktur.dotless.ssty1 i-fraktur.dotless.ssty2 j-fraktur.dotless.ssty2 idotlessitalic-math jdotlessitalic-math ibold-math.dotless imono-math.dotless isans-math.dotless isansbold-math.dotless isansbolditalic-math.dotless isansitalic-math.dotless iscript-math.dotless jbold-math.dotless jmono-math.dotless jsans-math.dotless jsansbold-math.dotless jsansbolditalic-math.dotless jsansitalic-math.dotless jscript-math.dotless idotlessitalic-math.ssty1 jdotlessitalic-math.ssty1 idotlessitalic-math.ssty2 jdotlessitalic-math.ssty2 ibold-math.dotless.ssty1 iscript-math.dotless.ssty1 jbold-math.dotless.ssty1 jscript-math.dotless.ssty1 ibold-math.dotless.ssty2 iscript-math.dotless.ssty2 jbold-math.dotless.ssty2 jscript-math.dotless.ssty2 idoubleStruck.dotless jdoubleStruck.dotless iitalicDoubleStruck.dotless jitalicDoubleStruck.dotless idoubleStruck.dotless.ssty1 jdoubleStruck.dotless.ssty1 idoubleStruck.dotless.ssty2 jdoubleStruck.dotless.ssty2 ibolditalic-math.dotless jbolditalic-math.dotless iBold-fraktur.dotless jBold-fraktur.dotless
+code = "idotless jdotless idotless.ssty1 jdotless.ssty1 idotless.ssty2 jdotless.ssty2 i-fraktur.dtls j-fraktur.dtls i-fraktur.dtls.ssty1 j-fraktur.dtls.ssty1 i-fraktur.dtls.ssty2 j-fraktur.dtls.ssty2 idotlessitalic-math jdotlessitalic-math ibold-math.dtls imono-math.dtls isans-math.dtls isansbold-math.dtls isansbolditalic-math.dtls isansitalic-math.dtls iscript-math.dtls jbold-math.dtls jmono-math.dtls jsans-math.dtls jsansbold-math.dtls jsansbolditalic-math.dtls jsansitalic-math.dtls jscript-math.dtls idotlessitalic-math.ssty1 jdotlessitalic-math.ssty1 idotlessitalic-math.ssty2 jdotlessitalic-math.ssty2 ibold-math.dtls.ssty1 iscript-math.dtls.ssty1 jbold-math.dtls.ssty1 jscript-math.dtls.ssty1 ibold-math.dtls.ssty2 iscript-math.dtls.ssty2 jbold-math.dtls.ssty2 jscript-math.dtls.ssty2 idoubleStruck.dtls jdoubleStruck.dtls iitalicDoubleStruck.dtls jitalicDoubleStruck.dtls idoubleStruck.dtls.ssty1 jdoubleStruck.dtls.ssty1 idoubleStruck.dtls.ssty2 jdoubleStruck.dtls.ssty2 ibolditalic-math.dtls jbolditalic-math.dtls iBold-fraktur.dtls jBold-fraktur.dtls
 ";
 name = ijDotless;
 },
@@ -4447,9 +4447,36 @@ notes = "An alternate way to access the Chancery Style variants of the script-ma
 tag = ss01;
 },
 {
-code = "script math;
-
-sub @ij by @ijDotless;";
+automatic = 1;
+code = "sub i by idotless;
+sub j by jdotless;
+sub iitalic-math by idotlessitalic-math;
+sub jitalic-math by jdotlessitalic-math;
+sub i-fraktur by i-fraktur.dtls;
+sub iBold-fraktur by iBold-fraktur.dtls;
+sub j-fraktur by j-fraktur.dtls;
+sub jBold-fraktur by jBold-fraktur.dtls;
+sub ibold-math by ibold-math.dtls;
+sub ibolditalic-math by ibolditalic-math.dtls;
+sub imono-math by imono-math.dtls;
+sub isans-math by isans-math.dtls;
+sub isansbold-math by isansbold-math.dtls;
+sub isansbolditalic-math by isansbolditalic-math.dtls;
+sub isansitalic-math by isansitalic-math.dtls;
+sub iscript-math by iscript-math.dtls;
+sub jbold-math by jbold-math.dtls;
+sub jbolditalic-math by jbolditalic-math.dtls;
+sub jmono-math by jmono-math.dtls;
+sub jsans-math by jsans-math.dtls;
+sub jsansbold-math by jsansbold-math.dtls;
+sub jsansbolditalic-math by jsansbolditalic-math.dtls;
+sub jsansitalic-math by jsansitalic-math.dtls;
+sub jscript-math by jscript-math.dtls;
+sub idoubleStruck by idoubleStruck.dtls;
+sub jdoubleStruck by jdoubleStruck.dtls;
+sub iitalicDoubleStruck by iitalicDoubleStruck.dtls;
+sub jitalicDoubleStruck by jitalicDoubleStruck.dtls;
+";
 tag = dtls;
 },
 {
@@ -4609,8 +4636,8 @@ sub w-fraktur from [w-fraktur.ssty1 w-fraktur.ssty2];
 sub x-fraktur from [x-fraktur.ssty1 x-fraktur.ssty2];
 sub y-fraktur from [y-fraktur.ssty1 y-fraktur.ssty2];
 sub z-fraktur from [z-fraktur.ssty1 z-fraktur.ssty2];
-sub i-fraktur.dotless from [i-fraktur.dotless.ssty1 i-fraktur.dotless.ssty2];
-sub j-fraktur.dotless from [j-fraktur.dotless.ssty1 j-fraktur.dotless.ssty2];
+sub i-fraktur.dtls from [i-fraktur.dtls.ssty1 i-fraktur.dtls.ssty2];
+sub j-fraktur.dtls from [j-fraktur.dtls.ssty1 j-fraktur.dtls.ssty2];
 sub Abold-math from [Abold-math.ssty1 Abold-math.ssty2];
 sub Aitalic-math from [Aitalic-math.ssty1 Aitalic-math.ssty2];
 sub Alphaitalic-math from [Alphaitalic-math.ssty1 Alphaitalic-math.ssty2];
@@ -4813,10 +4840,10 @@ sub zetaitalic-math from [zetaitalic-math.ssty1 zetaitalic-math.ssty2];
 sub zitalic-math from [zitalic-math.ssty1 zitalic-math.ssty2];
 sub zscript-math from [zscript-math.ssty1 zscript-math.ssty2];
 sub gitalic-math.alt from [gitalic-math.alt.ssty1 gitalic-math.alt.ssty2];
-sub ibold-math.dotless from [ibold-math.dotless.ssty1 ibold-math.dotless.ssty2];
-sub iscript-math.dotless from [iscript-math.dotless.ssty1 iscript-math.dotless.ssty2];
-sub jbold-math.dotless from [jbold-math.dotless.ssty1 jbold-math.dotless.ssty2];
-sub jscript-math.dotless from [jscript-math.dotless.ssty1 jscript-math.dotless.ssty2];
+sub ibold-math.dtls from [ibold-math.dtls.ssty1 ibold-math.dtls.ssty2];
+sub iscript-math.dtls from [iscript-math.dtls.ssty1 iscript-math.dtls.ssty2];
+sub jbold-math.dtls from [jbold-math.dtls.ssty1 jbold-math.dtls.ssty2];
+sub jscript-math.dtls from [jscript-math.dtls.ssty1 jscript-math.dtls.ssty2];
 sub Bscript from [Bscript.ssty1 Bscript.ssty2];
 sub Hscript from [Hscript.ssty1 Hscript.ssty2];
 sub Iscript from [Iscript.ssty1 Iscript.ssty2];
@@ -4882,8 +4909,8 @@ sub planckconstant from [planckconstant.ssty1 planckconstant.ssty2];
 sub planckconstantovertwopi from [planckconstantovertwopi.ssty1 planckconstantovertwopi.ssty2];
 sub escript from [escript.ssty1 escript.ssty2];
 sub oscript from [oscript.ssty1 oscript.ssty2];
-sub idoubleStruck.dotless from [idoubleStruck.dotless.ssty1 idoubleStruck.dotless.ssty2];
-sub jdoubleStruck.dotless from [jdoubleStruck.dotless.ssty1 jdoubleStruck.dotless.ssty2];
+sub idoubleStruck.dtls from [idoubleStruck.dtls.ssty1 idoubleStruck.dtls.ssty2];
+sub jdoubleStruck.dtls from [jdoubleStruck.dtls.ssty1 jdoubleStruck.dtls.ssty2];
 sub aeTurnedmod from [aeTurnedmod.ssty1 aeTurnedmod.ssty2];
 sub zero from [zero.ssty1 zero.ssty2];
 sub one from [one.ssty1 one.ssty2];

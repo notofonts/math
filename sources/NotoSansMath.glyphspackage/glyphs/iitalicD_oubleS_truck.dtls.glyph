@@ -1,0 +1,40 @@
+{
+color = 4;
+glyphname = iitalicDoubleStruck.dtls;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (175,268);
+},
+{
+name = top;
+pos = (220,612);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(205,0,l),
+(319,536,l),
+(145,536,l),
+(32,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(187,483,l),
+(254,483,l),
+(162,49,l),
+(95,49,l)
+);
+}
+);
+width = 347;
+}
+);
+}

@@ -1,0 +1,36 @@
+{
+color = 4;
+glyphname = "isansitalic-math.dtls";
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (129,268);
+},
+{
+name = math.ta;
+pos = (229,786);
+},
+{
+name = top;
+pos = (229,736);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(116,0,l),
+(230,536,l),
+(142,536,l),
+(28,0,l)
+);
+}
+);
+width = 258;
+}
+);
+production = u1D62A.dotless;
+}

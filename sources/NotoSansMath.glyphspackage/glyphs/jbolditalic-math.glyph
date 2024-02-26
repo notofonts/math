@@ -47,7 +47,7 @@ nodes = (
 );
 },
 {
-ref = "jbolditalic-math.dotless";
+ref = "jbolditalic-math.dtls";
 }
 );
 width = 338;
