@@ -31,7 +31,5 @@ nodes = (
 width = 258;
 }
 );
-script = Sans;
-sortName = adtls.2sansi;
-sortNameKeep = mt386.dtls;
+unicode = 120484;
 }

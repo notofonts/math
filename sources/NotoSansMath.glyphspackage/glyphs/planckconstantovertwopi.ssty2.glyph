@@ -17,6 +17,7 @@ name = top;
 pos = (304,586);
 }
 );
+color = 0;
 layerId = master01;
 shapes = (
 {

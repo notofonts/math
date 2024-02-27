@@ -69,16 +69,16 @@ code = "idotless
 jdotless
 i-fraktur.dtls
 j-fraktur.dtls
-idotlessitalic-math
-jdotlessitalic-math
-ibold-math.dtls
+#idotlessitalic-math
+#jdotlessitalic-math
+#ibold-math.dtls
 imono-math.dtls
 isans-math.dtls
 isansbold-math.dtls
 isansbolditalic-math.dtls
 isansitalic-math.dtls
 iscript-math.dtls
-jbold-math.dtls
+#jbold-math.dtls
 jmono-math.dtls
 jsans-math.dtls
 jsansbold-math.dtls
@@ -89,8 +89,8 @@ idoubleStruck.dtls
 jdoubleStruck.dtls
 iitalicDoubleStruck.dtls
 jitalicDoubleStruck.dtls
-ibolditalic-math.dtls
-jbolditalic-math.dtls
+#ibolditalic-math.dtls
+#jbolditalic-math.dtls
 iBold-fraktur.dtls
 jBold-fraktur.dtls
 ";
@@ -101,16 +101,16 @@ code = "i
 j
 i-fraktur
 j-fraktur
-iitalic-math
-jitalic-math
-ibold-math
+#iitalic-math
+#jitalic-math
+#ibold-math
 imono-math
 isans-math
 isansbold-math
 isansbolditalic-math
 isansitalic-math
 iscript-math
-jbold-math
+#jbold-math
 jmono-math
 jsans-math
 jsansbold-math
@@ -121,8 +121,8 @@ idoubleStruck
 jdoubleStruck
 iitalicDoubleStruck
 jitalicDoubleStruck
-ibolditalic-math
-jbolditalic-math
+#ibolditalic-math
+#jbolditalic-math
 iBold-fraktur
 jBold-fraktur
 ";
@@ -4293,13 +4293,13 @@ tag = ccmp;
 },
 {
 automatic = 1;
-code = "sub fallingDiagonal-math by fallingDiagonal-math.rtlm;
-sub partialdiffbold-math by partialdiffbold-math.rtlm;
-sub partialdiffbolditalic-math by partialdiffbolditalic-math.rtlm;
+code = "sub partialdiffbold-math by partialdiffbold-math.rtlm;
 sub partialdiffitalic-math by partialdiffitalic-math.rtlm;
+sub partialdiffbolditalic-math by partialdiffbolditalic-math.rtlm;
 sub partialdiffsansbold-math by partialdiffsansbold-math.rtlm;
 sub partialdiffsansbolditalic-math by partialdiffsansbolditalic-math.rtlm;
 sub risingDiagonal-math by risingDiagonal-math.rtlm;
+sub fallingDiagonal-math by fallingDiagonal-math.rtlm;
 sub acuteAngle by acuteAngle.rtlm;
 sub allequal by allequal.rtlm;
 sub almostEqualToWithCircumflexAccent by almostEqualToWithCircumflexAccent.rtlm;
@@ -4496,16 +4496,12 @@ tag = ss01;
 automatic = 1;
 code = "sub i by idotless;
 sub j by jdotless;
-sub iitalic-math by isansitalic-math.dtls;
-sub jitalic-math by jsansitalic-math.dtls;
+sub isansitalic-math by isansitalic-math.dtls;
+sub jsansitalic-math by jsansitalic-math.dtls;
 sub i-fraktur by i-fraktur.dtls;
 sub j-fraktur by j-fraktur.dtls;
 sub iBold-fraktur by iBold-fraktur.dtls;
 sub jBold-fraktur by jBold-fraktur.dtls;
-sub ibold-math by ibold-math.dtls;
-sub jbold-math by jbold-math.dtls;
-sub ibolditalic-math by ibolditalic-math.dtls;
-sub jbolditalic-math by jbolditalic-math.dtls;
 sub imono-math by imono-math.dtls;
 sub jmono-math by jmono-math.dtls;
 sub isans-math by isans-math.dtls;
@@ -4684,58 +4680,6 @@ sub y-fraktur from [y-fraktur.ssty1 y-fraktur.ssty2];
 sub z-fraktur from [z-fraktur.ssty1 z-fraktur.ssty2];
 sub i-fraktur.dtls from [i-fraktur.dtls.ssty1 i-fraktur.dtls.ssty2];
 sub j-fraktur.dtls from [j-fraktur.dtls.ssty1 j-fraktur.dtls.ssty2];
-sub Abold-math from [Abold-math.ssty1 Abold-math.ssty2];
-sub Bbold-math from [Bbold-math.ssty1 Bbold-math.ssty2];
-sub Cbold-math from [Cbold-math.ssty1 Cbold-math.ssty2];
-sub Dbold-math from [Dbold-math.ssty1 Dbold-math.ssty2];
-sub Ebold-math from [Ebold-math.ssty1 Ebold-math.ssty2];
-sub Fbold-math from [Fbold-math.ssty1 Fbold-math.ssty2];
-sub Gbold-math from [Gbold-math.ssty1 Gbold-math.ssty2];
-sub Hbold-math from [Hbold-math.ssty1 Hbold-math.ssty2];
-sub Ibold-math from [Ibold-math.ssty1 Ibold-math.ssty2];
-sub Jbold-math from [Jbold-math.ssty1 Jbold-math.ssty2];
-sub Kbold-math from [Kbold-math.ssty1 Kbold-math.ssty2];
-sub Lbold-math from [Lbold-math.ssty1 Lbold-math.ssty2];
-sub Mbold-math from [Mbold-math.ssty1 Mbold-math.ssty2];
-sub Nbold-math from [Nbold-math.ssty1 Nbold-math.ssty2];
-sub Obold-math from [Obold-math.ssty1 Obold-math.ssty2];
-sub Pbold-math from [Pbold-math.ssty1 Pbold-math.ssty2];
-sub Qbold-math from [Qbold-math.ssty1 Qbold-math.ssty2];
-sub Rbold-math from [Rbold-math.ssty1 Rbold-math.ssty2];
-sub Sbold-math from [Sbold-math.ssty1 Sbold-math.ssty2];
-sub Tbold-math from [Tbold-math.ssty1 Tbold-math.ssty2];
-sub Ubold-math from [Ubold-math.ssty1 Ubold-math.ssty2];
-sub Vbold-math from [Vbold-math.ssty1 Vbold-math.ssty2];
-sub Wbold-math from [Wbold-math.ssty1 Wbold-math.ssty2];
-sub Xbold-math from [Xbold-math.ssty1 Xbold-math.ssty2];
-sub Ybold-math from [Ybold-math.ssty1 Ybold-math.ssty2];
-sub Zbold-math from [Zbold-math.ssty1 Zbold-math.ssty2];
-sub Aitalic-math from [Aitalic-math.ssty1 Aitalic-math.ssty2];
-sub Bitalic-math from [Bitalic-math.ssty1 Bitalic-math.ssty2];
-sub Citalic-math from [Citalic-math.ssty1 Citalic-math.ssty2];
-sub Ditalic-math from [Ditalic-math.ssty1 Ditalic-math.ssty2];
-sub Eitalic-math from [Eitalic-math.ssty1 Eitalic-math.ssty2];
-sub Fitalic-math from [Fitalic-math.ssty1 Fitalic-math.ssty2];
-sub Gitalic-math from [Gitalic-math.ssty1 Gitalic-math.ssty2];
-sub Hitalic-math from [Hitalic-math.ssty1 Hitalic-math.ssty2];
-sub Iitalic-math from [Iitalic-math.ssty1 Iitalic-math.ssty2];
-sub Jitalic-math from [Jitalic-math.ssty1 Jitalic-math.ssty2];
-sub Kitalic-math from [Kitalic-math.ssty1 Kitalic-math.ssty2];
-sub Litalic-math from [Litalic-math.ssty1 Litalic-math.ssty2];
-sub Mitalic-math from [Mitalic-math.ssty1 Mitalic-math.ssty2];
-sub Nitalic-math from [Nitalic-math.ssty1 Nitalic-math.ssty2];
-sub Oitalic-math from [Oitalic-math.ssty1 Oitalic-math.ssty2];
-sub Pitalic-math from [Pitalic-math.ssty1 Pitalic-math.ssty2];
-sub Qitalic-math from [Qitalic-math.ssty1 Qitalic-math.ssty2];
-sub Ritalic-math from [Ritalic-math.ssty1 Ritalic-math.ssty2];
-sub Sitalic-math from [Sitalic-math.ssty1 Sitalic-math.ssty2];
-sub Titalic-math from [Titalic-math.ssty1 Titalic-math.ssty2];
-sub Uitalic-math from [Uitalic-math.ssty1 Uitalic-math.ssty2];
-sub Vitalic-math from [Vitalic-math.ssty1 Vitalic-math.ssty2];
-sub Witalic-math from [Witalic-math.ssty1 Witalic-math.ssty2];
-sub Xitalic-math from [Xitalic-math.ssty1 Xitalic-math.ssty2];
-sub Yitalic-math from [Yitalic-math.ssty1 Yitalic-math.ssty2];
-sub Zitalic-math from [Zitalic-math.ssty1 Zitalic-math.ssty2];
 sub Alphaitalic-math from [Alphaitalic-math.ssty1 Alphaitalic-math.ssty2];
 sub Betaitalic-math from [Betaitalic-math.ssty1 Betaitalic-math.ssty2];
 sub Gammaitalic-math from [Gammaitalic-math.ssty1 Gammaitalic-math.ssty2];
@@ -4760,59 +4704,6 @@ sub Phiitalic-math from [Phiitalic-math.ssty1 Phiitalic-math.ssty2];
 sub Chiitalic-math from [Chiitalic-math.ssty1 Chiitalic-math.ssty2];
 sub Psiitalic-math from [Psiitalic-math.ssty1 Psiitalic-math.ssty2];
 sub Omegaitalic-math from [Omegaitalic-math.ssty1 Omegaitalic-math.ssty2];
-sub abold-math from [abold-math.ssty1 abold-math.ssty2];
-sub bbold-math from [bbold-math.ssty1 bbold-math.ssty2];
-sub cbold-math from [cbold-math.ssty1 cbold-math.ssty2];
-sub dbold-math from [dbold-math.ssty1 dbold-math.ssty2];
-sub ebold-math from [ebold-math.ssty1 ebold-math.ssty2];
-sub fbold-math from [fbold-math.ssty1 fbold-math.ssty2];
-sub gbold-math from [gbold-math.ssty1 gbold-math.ssty2];
-sub hbold-math from [hbold-math.ssty1 hbold-math.ssty2];
-sub ibold-math from [ibold-math.ssty1 ibold-math.ssty2];
-sub jbold-math from [jbold-math.ssty1 jbold-math.ssty2];
-sub kbold-math from [kbold-math.ssty1 kbold-math.ssty2];
-sub lbold-math from [lbold-math.ssty1 lbold-math.ssty2];
-sub mbold-math from [mbold-math.ssty1 mbold-math.ssty2];
-sub nbold-math from [nbold-math.ssty1 nbold-math.ssty2];
-sub obold-math from [obold-math.ssty1 obold-math.ssty2];
-sub pbold-math from [pbold-math.ssty1 pbold-math.ssty2];
-sub qbold-math from [qbold-math.ssty1 qbold-math.ssty2];
-sub rbold-math from [rbold-math.ssty1 rbold-math.ssty2];
-sub sbold-math from [sbold-math.ssty1 sbold-math.ssty2];
-sub tbold-math from [tbold-math.ssty1 tbold-math.ssty2];
-sub ubold-math from [ubold-math.ssty1 ubold-math.ssty2];
-sub vbold-math from [vbold-math.ssty1 vbold-math.ssty2];
-sub wbold-math from [wbold-math.ssty1 wbold-math.ssty2];
-sub xbold-math from [xbold-math.ssty1 xbold-math.ssty2];
-sub ybold-math from [ybold-math.ssty1 ybold-math.ssty2];
-sub zbold-math from [zbold-math.ssty1 zbold-math.ssty2];
-sub aitalic-math from [aitalic-math.ssty1 aitalic-math.ssty2];
-sub bitalic-math from [bitalic-math.ssty1 bitalic-math.ssty2];
-sub citalic-math from [citalic-math.ssty1 citalic-math.ssty2];
-sub ditalic-math from [ditalic-math.ssty1 ditalic-math.ssty2];
-sub eitalic-math from [eitalic-math.ssty1 eitalic-math.ssty2];
-sub fitalic-math from [fitalic-math.ssty1 fitalic-math.ssty2];
-sub gitalic-math from [gitalic-math.ssty1 gitalic-math.ssty2];
-sub iitalic-math from [iitalic-math.ssty1 iitalic-math.ssty2];
-sub jitalic-math from [jitalic-math.ssty1 jitalic-math.ssty2];
-sub kitalic-math from [kitalic-math.ssty1 kitalic-math.ssty2];
-sub litalic-math from [litalic-math.ssty1 litalic-math.ssty2];
-sub mitalic-math from [mitalic-math.ssty1 mitalic-math.ssty2];
-sub nitalic-math from [nitalic-math.ssty1 nitalic-math.ssty2];
-sub oitalic-math from [oitalic-math.ssty1 oitalic-math.ssty2];
-sub pitalic-math from [pitalic-math.ssty1 pitalic-math.ssty2];
-sub qitalic-math from [qitalic-math.ssty1 qitalic-math.ssty2];
-sub ritalic-math from [ritalic-math.ssty1 ritalic-math.ssty2];
-sub sitalic-math from [sitalic-math.ssty1 sitalic-math.ssty2];
-sub titalic-math from [titalic-math.ssty1 titalic-math.ssty2];
-sub uitalic-math from [uitalic-math.ssty1 uitalic-math.ssty2];
-sub vitalic-math from [vitalic-math.ssty1 vitalic-math.ssty2];
-sub witalic-math from [witalic-math.ssty1 witalic-math.ssty2];
-sub xitalic-math from [xitalic-math.ssty1 xitalic-math.ssty2];
-sub yitalic-math from [yitalic-math.ssty1 yitalic-math.ssty2];
-sub zitalic-math from [zitalic-math.ssty1 zitalic-math.ssty2];
-sub idotlessitalic-math from [idotlessitalic-math.ssty1 idotlessitalic-math.ssty2];
-sub jdotlessitalic-math from [jdotlessitalic-math.ssty1 jdotlessitalic-math.ssty2];
 sub alphaitalic-math from [alphaitalic-math.ssty1 alphaitalic-math.ssty2];
 sub betaitalic-math from [betaitalic-math.ssty1 betaitalic-math.ssty2];
 sub gammaitalic-math from [gammaitalic-math.ssty1 gammaitalic-math.ssty2];
@@ -4845,8 +4736,6 @@ sub phiSymbolitalic-math from [phiSymbolitalic-math.ssty1 phiSymbolitalic-math.s
 sub rhoSymbolitalic-math from [rhoSymbolitalic-math.ssty1 rhoSymbolitalic-math.ssty1];
 sub piSymbolitalic-math from [piSymbolitalic-math.ssty1 piSymbolitalic-math.ssty1];
 sub gitalic-math.alt from [gitalic-math.alt.ssty1 gitalic-math.alt.ssty2];
-sub ibold-math.dtls from [ibold-math.dtls.ssty1 ibold-math.dtls.ssty2];
-sub jbold-math.dtls from [jbold-math.dtls.ssty1 jbold-math.dtls.ssty2];
 sub Ascript-math from [Ascript-math.ssty1 Ascript-math.ssty2];
 sub Bscript from [Bscript.ssty1 Bscript.ssty2];
 sub Cscript-math from [Cscript-math.ssty1 Cscript-math.ssty2];

@@ -39,8 +39,5 @@ nodes = (
 width = 305;
 }
 );
-script = Sans;
-sortName = a3sansl;
-sortNameKeep = mt337;
-unicode = 120313;
+unicode = (120313,119845);
 }

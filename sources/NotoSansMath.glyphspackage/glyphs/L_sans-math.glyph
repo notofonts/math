@@ -41,8 +41,5 @@ nodes = (
 width = 524;
 }
 );
-script = Sans;
-sortName = a1sansL;
-sortNameKeep = mt259;
 unicode = 120235;
 }

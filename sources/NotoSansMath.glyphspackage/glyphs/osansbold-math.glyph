@@ -64,8 +64,5 @@ nodes = (
 width = 619;
 }
 );
-script = Sans;
-sortName = a3sanso;
-sortNameKeep = mt340;
-unicode = 120316;
+unicode = (120316,119848);
 }

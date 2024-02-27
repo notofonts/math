@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = planckconstantovertwopi;
 kernLeft = b;
 kernRight = n;
@@ -30,7 +29,7 @@ pos = (684,760);
 layerId = master01;
 shapes = (
 {
-ref = planckconstant;
+ref = "hsansitalic-math";
 },
 {
 closed = 1;
@@ -42,8 +41,10 @@ nodes = (
 );
 }
 );
-width = 599;
+width = 579;
 }
 );
+metricRight = "=hsansitalic-math";
+metricWidth = "=hsansitalic-math";
 unicode = 8463;
 }

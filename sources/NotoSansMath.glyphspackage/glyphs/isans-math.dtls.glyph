@@ -31,6 +31,4 @@ nodes = (
 width = 258;
 }
 );
-sortName = adtls.1sansi;
-sortNameKeep = dtls.mt282;
 }

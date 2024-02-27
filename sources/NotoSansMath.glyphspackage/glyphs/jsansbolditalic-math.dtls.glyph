@@ -43,7 +43,4 @@ nodes = (
 width = 297;
 }
 );
-script = Sans;
-sortName = adtls.4sansj;
-sortNameKeep = mt439.dtls;
 }

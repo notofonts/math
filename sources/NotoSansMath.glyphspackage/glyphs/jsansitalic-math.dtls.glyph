@@ -43,7 +43,5 @@ nodes = (
 width = 258;
 }
 );
-script = Sans;
-sortName = adtls.2sansj;
-sortNameKeep = mt387.dtls;
+unicode = 120485;
 }

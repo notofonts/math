@@ -57,6 +57,5 @@ nodes = (
 width = 477;
 }
 );
-script = Sans;
-unicode = 120693;
+unicode = (120693,120519);
 }

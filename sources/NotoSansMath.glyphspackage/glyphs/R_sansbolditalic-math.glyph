@@ -63,8 +63,5 @@ nodes = (
 width = 609;
 }
 );
-script = Sans;
-sortName = a4sansR;
-sortNameKeep = mt421;
-unicode = 120397;
+unicode = (120397,119929);
 }

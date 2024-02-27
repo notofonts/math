@@ -86,8 +86,5 @@ nodes = (
 width = 579;
 }
 );
-script = Sans;
-sortName = a2sansg;
-sortNameKeep = mt384;
-unicode = 120360;
+unicode = (120360,119892);
 }

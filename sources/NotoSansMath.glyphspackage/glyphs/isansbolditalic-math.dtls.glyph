@@ -31,7 +31,4 @@ nodes = (
 width = 297;
 }
 );
-script = Sans;
-sortName = adtls.4sansi;
-sortNameKeep = mt438.dtls;
 }

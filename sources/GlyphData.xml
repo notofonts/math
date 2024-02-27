@@ -79,32 +79,6 @@
     <glyph name="Xboldscript-math" unicode="1D4E7" production="u1D4E7" script="Script" category="Letter" case="upper" sortName="bscrX" />
     <glyph name="Yboldscript-math" unicode="1D4E8" production="u1D4E8" script="Script" category="Letter" case="upper" sortName="bscrY" />
     <glyph name="Zboldscript-math" unicode="1D4E9" production="u1D4E9" script="Script" category="Letter" case="upper" sortName="bscrZ" />
-    <glyph name="Asans-math" unicode="1D5A0" production="u1D5A0" script="Sans" category="Letter" case="upper" sortName="mt248" />
-    <glyph name="Bsans-math" unicode="1D5A1" production="u1D5A1" script="Sans" category="Letter" case="upper" sortName="mt249" />
-    <glyph name="Csans-math" unicode="1D5A2" production="u1D5A2" script="Sans" category="Letter" case="upper" sortName="mt250" />
-    <glyph name="Dsans-math" unicode="1D5A3" production="u1D5A3" script="Sans" category="Letter" case="upper" sortName="mt251" />
-    <glyph name="Esans-math" unicode="1D5A4" production="u1D5A4" script="Sans" category="Letter" case="upper" sortName="mt252" />
-    <glyph name="Fsans-math" unicode="1D5A5" production="u1D5A5" script="Sans" category="Letter" case="upper" sortName="mt253" />
-    <glyph name="Gsans-math" unicode="1D5A6" production="u1D5A6" script="Sans" category="Letter" case="upper" sortName="mt254" />
-    <glyph name="Hsans-math" unicode="1D5A7" production="u1D5A7" script="Sans" category="Letter" case="upper" sortName="mt255" />
-    <glyph name="Isans-math" unicode="1D5A8" production="u1D5A8" script="Sans" category="Letter" case="upper" sortName="mt256" />
-    <glyph name="Jsans-math" unicode="1D5A9" production="u1D5A9" script="Sans" category="Letter" case="upper" sortName="mt257" />
-    <glyph name="Ksans-math" unicode="1D5AA" production="u1D5AA" script="Sans" category="Letter" case="upper" sortName="mt258" />
-    <glyph name="Lsans-math" unicode="1D5AB" production="u1D5AB" script="Sans" category="Letter" case="upper" sortName="mt259" />
-    <glyph name="Msans-math" unicode="1D5AC" production="u1D5AC" script="Sans" category="Letter" case="upper" sortName="mt260" />
-    <glyph name="Nsans-math" unicode="1D5AD" production="u1D5AD" script="Sans" category="Letter" case="upper" sortName="mt261" />
-    <glyph name="Osans-math" unicode="1D5AE" production="u1D5AE" script="Sans" category="Letter" case="upper" sortName="mt262" />
-    <glyph name="Psans-math" unicode="1D5AF" production="u1D5AF" script="Sans" category="Letter" case="upper" sortName="mt263" />
-    <glyph name="Qsans-math" unicode="1D5B0" production="u1D5B0" script="Sans" category="Letter" case="upper" sortName="mt264" />
-    <glyph name="Rsans-math" unicode="1D5B1" production="u1D5B1" script="Sans" category="Letter" case="upper" sortName="mt265" />
-    <glyph name="Ssans-math" unicode="1D5B2" production="u1D5B2" script="Sans" category="Letter" case="upper" sortName="mt266" />
-    <glyph name="Tsans-math" unicode="1D5B3" production="u1D5B3" script="Sans" category="Letter" case="upper" sortName="mt267" />
-    <glyph name="Usans-math" unicode="1D5B4" production="u1D5B4" script="Sans" category="Letter" case="upper" sortName="mt268" />
-    <glyph name="Vsans-math" unicode="1D5B5" production="u1D5B5" script="Sans" category="Letter" case="upper" sortName="mt269" />
-    <glyph name="Wsans-math" unicode="1D5B6" production="u1D5B6" script="Sans" category="Letter" case="upper" sortName="mt270" />
-    <glyph name="Xsans-math" unicode="1D5B7" production="u1D5B7" script="Sans" category="Letter" case="upper" sortName="mt271" />
-    <glyph name="Ysans-math" unicode="1D5B8" production="u1D5B8" script="Sans" category="Letter" case="upper" sortName="mt272" />
-    <glyph name="Zsans-math" unicode="1D5B9" production="u1D5B9" script="Sans" category="Letter" case="upper" sortName="mt273" />
     <glyph name="Ascript-math.ssty1" production="u1D49C.ssty1" script="Script" category="Letter" case="upper" sortName="ssty1.ascrA" />
     <glyph name="Bscript.ssty1" production="uni212C.ssty1" script="Script" category="Letter" case="upper" sortName="ssty1.ascrB" />
     <glyph name="Cscript-math.ssty1" production="u1D49E.ssty1" script="Script" category="Letter" case="upper" sortName="ssty1.ascrC" />
@@ -261,38 +235,10 @@
     <glyph name="xboldscript-math" unicode="1D501" production="u1D501" script="Script" category="Letter" case="lower" sortName="bscrx" />
     <glyph name="yboldscript-math" unicode="1D502" production="u1D502" script="Script" category="Letter" case="lower" sortName="bscry" />
     <glyph name="zboldscript-math" unicode="1D503" production="u1D503" script="Script" category="Letter" case="lower" sortName="bscrz" />
-    <glyph name="asans-math" unicode="1D5BA" production="u1D5BA" script="Sans" category="Letter" case="lower" sortName="mt274" />
-    <glyph name="bsans-math" unicode="1D5BB" production="u1D5BB" script="Sans" category="Letter" case="lower" sortName="mt275" />
-    <glyph name="csans-math" unicode="1D5BC" production="u1D5BC" script="Sans" category="Letter" case="lower" sortName="mt276" />
-    <glyph name="dsans-math" unicode="1D5BD" production="u1D5BD" script="Sans" category="Letter" case="lower" sortName="mt277" />
-    <glyph name="esans-math" unicode="1D5BE" production="u1D5BE" script="Sans" category="Letter" case="lower" sortName="mt278" />
-    <glyph name="fsans-math" unicode="1D5BF" production="u1D5BF" script="Sans" category="Letter" case="lower" sortName="mt279" />
-    <glyph name="gsans-math" unicode="1D5C0" production="u1D5C0" script="Sans" category="Letter" case="lower" sortName="mt280" />
-    <glyph name="hsans-math" unicode="1D5C1" production="u1D5C1" script="Sans" category="Letter" case="lower" sortName="mt281" />
-    <glyph name="isans-math" unicode="1D5C2" production="u1D5C2" script="Sans" category="Letter" case="lower" sortName="mt282" />
-    <glyph name="jsans-math" unicode="1D5C3" production="u1D5C3" script="Sans" category="Letter" case="lower" sortName="mt283" />
-    <glyph name="ksans-math" unicode="1D5C4" production="u1D5C4" script="Sans" category="Letter" case="lower" sortName="mt284" />
-    <glyph name="lsans-math" unicode="1D5C5" production="u1D5C5" script="Sans" category="Letter" case="lower" sortName="mt285" />
-    <glyph name="msans-math" unicode="1D5C6" production="u1D5C6" script="Sans" category="Letter" case="lower" sortName="mt286" />
-    <glyph name="nsans-math" unicode="1D5C7" production="u1D5C7" script="Sans" category="Letter" case="lower" sortName="mt287" />
-    <glyph name="osans-math" unicode="1D5C8" production="u1D5C8" script="Sans" category="Letter" case="lower" sortName="mt288" />
-    <glyph name="psans-math" unicode="1D5C9" production="u1D5C9" script="Sans" category="Letter" case="lower" sortName="mt289" />
-    <glyph name="qsans-math" unicode="1D5CA" production="u1D5CA" script="Sans" category="Letter" case="lower" sortName="mt290" />
-    <glyph name="rsans-math" unicode="1D5CB" production="u1D5CB" script="Sans" category="Letter" case="lower" sortName="mt291" />
-    <glyph name="ssans-math" unicode="1D5CC" production="u1D5CC" script="Sans" category="Letter" case="lower" sortName="mt292" />
-    <glyph name="tsans-math" unicode="1D5CD" production="u1D5CD" script="Sans" category="Letter" case="lower" sortName="mt293" />
-    <glyph name="usans-math" unicode="1D5CE" production="u1D5CE" script="Sans" category="Letter" case="lower" sortName="mt294" />
-    <glyph name="vsans-math" unicode="1D5CF" production="u1D5CF" script="Sans" category="Letter" case="lower" sortName="mt295" />
-    <glyph name="wsans-math" unicode="1D5D0" production="u1D5D0" script="Sans" category="Letter" case="lower" sortName="mt296" />
-    <glyph name="xsans-math" unicode="1D5D1" production="u1D5D1" script="Sans" category="Letter" case="lower" sortName="mt297" />
-    <glyph name="ysans-math" unicode="1D5D2" production="u1D5D2" script="Sans" category="Letter" case="lower" sortName="mt298" />
-    <glyph name="zsans-math" unicode="1D5D3" production="u1D5D3" script="Sans" category="Letter" case="lower" sortName="mt299" />
     <glyph name="imono-math.dtls" production="u1D692.dtls" script="Mono" category="Letter" case="lower" sortName="dtls.amonoi" />
     <glyph name="jmono-math.dtls" production="u1D693.dtls" script="Mono" category="Letter" case="lower" sortName="dtls.amonoj" />
     <glyph name="iscript-math.dtls" production="u1D4BE.dtls" script="Script" category="Letter" case="lower" sortName="dtls.ascri" />
     <glyph name="jscript-math.dtls" production="u1D4BF.dtls" script="Script" category="Letter" case="lower" sortName="dtls.ascrj" />
-    <glyph name="isans-math.dtls" production="u1D5C2.dtls" script="Sans" category="Letter" case="lower" sortName="dtls.mt282" />
-    <glyph name="jsans-math.dtls" production="u1D5C3.dtls" script="Sans" category="Letter" case="lower" sortName="dtls.mt283" />
     <glyph name="ascript-math.ssty1" production="u1D4B6.ssty1" script="Script" category="Letter" case="lower" sortName="ssty1.ascra" />
     <glyph name="bscript-math.ssty1" production="u1D4B7.ssty1" script="Script" category="Letter" case="lower" sortName="ssty1.ascrb" />
     <glyph name="cscript-math.ssty1" production="u1D4B8.ssty1" script="Script" category="Letter" case="lower" sortName="ssty1.ascrc" />
@@ -565,5 +511,334 @@
     <glyph name="j-fraktur.dtls.ssty1" production="u1D527.dtls.ssty1" script="Black Letter" category="Letter" case="lower" sortName="dtls.ssty1.afrakj" />
     <glyph name="i-fraktur.dtls.ssty2" production="u1D526.dtls.ssty2" script="Black Letter" category="Letter" case="lower" sortName="dtls.ssty2.afraki" />
     <glyph name="j-fraktur.dtls.ssty2" production="u1D527.dtls.ssty2" script="Black Letter" category="Letter" case="lower" sortName="dtls.ssty2.afrakj" />
-</glyphData>
 
+    <glyph name="Asans-math" unicode="1D5A0" production="u1D5A0" script="Sans" category="Letter" case="upper" sortName="a1sansA" />
+    <glyph name="Bsans-math" unicode="1D5A1" production="u1D5A1" script="Sans" category="Letter" case="upper" sortName="a1sansB" />
+    <glyph name="Csans-math" unicode="1D5A2" production="u1D5A2" script="Sans" category="Letter" case="upper" sortName="a1sansC" />
+    <glyph name="Dsans-math" unicode="1D5A3" production="u1D5A3" script="Sans" category="Letter" case="upper" sortName="a1sansD" />
+    <glyph name="Esans-math" unicode="1D5A4" production="u1D5A4" script="Sans" category="Letter" case="upper" sortName="a1sansE" />
+    <glyph name="Fsans-math" unicode="1D5A5" production="u1D5A5" script="Sans" category="Letter" case="upper" sortName="a1sansF" />
+    <glyph name="Gsans-math" unicode="1D5A6" production="u1D5A6" script="Sans" category="Letter" case="upper" sortName="a1sansG" />
+    <glyph name="Hsans-math" unicode="1D5A7" production="u1D5A7" script="Sans" category="Letter" case="upper" sortName="a1sansH" />
+    <glyph name="Isans-math" unicode="1D5A8" production="u1D5A8" script="Sans" category="Letter" case="upper" sortName="a1sansI" />
+    <glyph name="Jsans-math" unicode="1D5A9" production="u1D5A9" script="Sans" category="Letter" case="upper" sortName="a1sansJ" />
+    <glyph name="Ksans-math" unicode="1D5AA" production="u1D5AA" script="Sans" category="Letter" case="upper" sortName="a1sansK" />
+    <glyph name="Lsans-math" unicode="1D5AB" production="u1D5AB" script="Sans" category="Letter" case="upper" sortName="a1sansL" />
+    <glyph name="Msans-math" unicode="1D5AC" production="u1D5AC" script="Sans" category="Letter" case="upper" sortName="a1sansM" />
+    <glyph name="Nsans-math" unicode="1D5AD" production="u1D5AD" script="Sans" category="Letter" case="upper" sortName="a1sansN" />
+    <glyph name="Osans-math" unicode="1D5AE" production="u1D5AE" script="Sans" category="Letter" case="upper" sortName="a1sansO" />
+    <glyph name="Psans-math" unicode="1D5AF" production="u1D5AF" script="Sans" category="Letter" case="upper" sortName="a1sansP" />
+    <glyph name="Qsans-math" unicode="1D5B0" production="u1D5B0" script="Sans" category="Letter" case="upper" sortName="a1sansQ" />
+    <glyph name="Rsans-math" unicode="1D5B1" production="u1D5B1" script="Sans" category="Letter" case="upper" sortName="a1sansR" />
+    <glyph name="Ssans-math" unicode="1D5B2" production="u1D5B2" script="Sans" category="Letter" case="upper" sortName="a1sansS" />
+    <glyph name="Tsans-math" unicode="1D5B3" production="u1D5B3" script="Sans" category="Letter" case="upper" sortName="a1sansT" />
+    <glyph name="Usans-math" unicode="1D5B4" production="u1D5B4" script="Sans" category="Letter" case="upper" sortName="a1sansU" />
+    <glyph name="Vsans-math" unicode="1D5B5" production="u1D5B5" script="Sans" category="Letter" case="upper" sortName="a1sansV" />
+    <glyph name="Wsans-math" unicode="1D5B6" production="u1D5B6" script="Sans" category="Letter" case="upper" sortName="a1sansW" />
+    <glyph name="Xsans-math" unicode="1D5B7" production="u1D5B7" script="Sans" category="Letter" case="upper" sortName="a1sansX" />
+    <glyph name="Ysans-math" unicode="1D5B8" production="u1D5B8" script="Sans" category="Letter" case="upper" sortName="a1sansY" />
+    <glyph name="Zsans-math" unicode="1D5B9" production="u1D5B9" script="Sans" category="Letter" case="upper" sortName="a1sansZ" />
+    <glyph name="Asansitalic-math" unicode="1D608" unicode2="1D434" production="u1D608" script="Sans" category="Letter" case="upper" sortName="a2sansA" />
+    <glyph name="Bsansitalic-math" unicode="1D609" unicode2="1D435" production="u1D609" script="Sans" category="Letter" case="upper" sortName="a2sansB" />
+    <glyph name="Csansitalic-math" unicode="1D60A" unicode2="1D436" production="u1D60A" script="Sans" category="Letter" case="upper" sortName="a2sansC" />
+    <glyph name="Dsansitalic-math" unicode="1D60B" unicode2="1D437" production="u1D60B" script="Sans" category="Letter" case="upper" sortName="a2sansD" />
+    <glyph name="Esansitalic-math" unicode="1D60C" unicode2="1D438" production="u1D60C" script="Sans" category="Letter" case="upper" sortName="a2sansE" />
+    <glyph name="Fsansitalic-math" unicode="1D60D" unicode2="1D439" production="u1D60D" script="Sans" category="Letter" case="upper" sortName="a2sansF" />
+    <glyph name="Gsansitalic-math" unicode="1D60E" unicode2="1D43A" production="u1D60E" script="Sans" category="Letter" case="upper" sortName="a2sansG" />
+    <glyph name="Hsansitalic-math" unicode="1D60F" unicode2="1D43B" production="u1D60F" script="Sans" category="Letter" case="upper" sortName="a2sansH" />
+    <glyph name="Isansitalic-math" unicode="1D610" unicode2="1D43C" production="u1D610" script="Sans" category="Letter" case="upper" sortName="a2sansI" />
+    <glyph name="Jsansitalic-math" unicode="1D611" unicode2="1D43D" production="u1D611" script="Sans" category="Letter" case="upper" sortName="a2sansJ" />
+    <glyph name="Ksansitalic-math" unicode="1D612" unicode2="1D43E" production="u1D612" script="Sans" category="Letter" case="upper" sortName="a2sansK" />
+    <glyph name="Lsansitalic-math" unicode="1D613" unicode2="1D43F" production="u1D613" script="Sans" category="Letter" case="upper" sortName="a2sansL" />
+    <glyph name="Msansitalic-math" unicode="1D614" unicode2="1D440" production="u1D614" script="Sans" category="Letter" case="upper" sortName="a2sansM" />
+    <glyph name="Nsansitalic-math" unicode="1D615" unicode2="1D441" production="u1D615" script="Sans" category="Letter" case="upper" sortName="a2sansN" />
+    <glyph name="Osansitalic-math" unicode="1D616" unicode2="1D442" production="u1D616" script="Sans" category="Letter" case="upper" sortName="a2sansO" />
+    <glyph name="Psansitalic-math" unicode="1D617" unicode2="1D443" production="u1D617" script="Sans" category="Letter" case="upper" sortName="a2sansP" />
+    <glyph name="Qsansitalic-math" unicode="1D618" unicode2="1D444" production="u1D618" script="Sans" category="Letter" case="upper" sortName="a2sansQ" />
+    <glyph name="Rsansitalic-math" unicode="1D619" unicode2="1D445" production="u1D619" script="Sans" category="Letter" case="upper" sortName="a2sansR" />
+    <glyph name="Ssansitalic-math" unicode="1D61A" unicode2="1D446" production="u1D61A" script="Sans" category="Letter" case="upper" sortName="a2sansS" />
+    <glyph name="Tsansitalic-math" unicode="1D61B" unicode2="1D447" production="u1D61B" script="Sans" category="Letter" case="upper" sortName="a2sansT" />
+    <glyph name="Usansitalic-math" unicode="1D61C" unicode2="1D448" production="u1D61C" script="Sans" category="Letter" case="upper" sortName="a2sansU" />
+    <glyph name="Vsansitalic-math" unicode="1D61D" unicode2="1D449" production="u1D61D" script="Sans" category="Letter" case="upper" sortName="a2sansV" />
+    <glyph name="Wsansitalic-math" unicode="1D61E" unicode2="1D44A" production="u1D61E" script="Sans" category="Letter" case="upper" sortName="a2sansW" />
+    <glyph name="Xsansitalic-math" unicode="1D61F" unicode2="1D44B" production="u1D61F" script="Sans" category="Letter" case="upper" sortName="a2sansX" />
+    <glyph name="Ysansitalic-math" unicode="1D620" unicode2="1D44C" production="u1D620" script="Sans" category="Letter" case="upper" sortName="a2sansY" />
+    <glyph name="Zsansitalic-math" unicode="1D621" unicode2="1D44D" production="u1D621" script="Sans" category="Letter" case="upper" sortName="a2sansZ" />
+    <glyph name="Asansbold-math" unicode="1D5D4" unicode2="1D400" production="u1D5D4" script="Sans" category="Letter" case="upper" sortName="a3sansA" />
+    <glyph name="Bsansbold-math" unicode="1D5D5" unicode2="1D401" production="u1D5D5" script="Sans" category="Letter" case="upper" sortName="a3sansB" />
+    <glyph name="Csansbold-math" unicode="1D5D6" unicode2="1D402" production="u1D5D6" script="Sans" category="Letter" case="upper" sortName="a3sansC" />
+    <glyph name="Dsansbold-math" unicode="1D5D7" unicode2="1D403" production="u1D5D7" script="Sans" category="Letter" case="upper" sortName="a3sansD" />
+    <glyph name="Esansbold-math" unicode="1D5D8" unicode2="1D404" production="u1D5D8" script="Sans" category="Letter" case="upper" sortName="a3sansE" />
+    <glyph name="Fsansbold-math" unicode="1D5D9" unicode2="1D405" production="u1D5D9" script="Sans" category="Letter" case="upper" sortName="a3sansF" />
+    <glyph name="Gsansbold-math" unicode="1D5DA" unicode2="1D406" production="u1D5DA" script="Sans" category="Letter" case="upper" sortName="a3sansG" />
+    <glyph name="Hsansbold-math" unicode="1D5DB" unicode2="1D407" production="u1D5DB" script="Sans" category="Letter" case="upper" sortName="a3sansH" />
+    <glyph name="Isansbold-math" unicode="1D5DC" unicode2="1D408" production="u1D5DC" script="Sans" category="Letter" case="upper" sortName="a3sansI" />
+    <glyph name="Jsansbold-math" unicode="1D5DD" unicode2="1D409" production="u1D5DD" script="Sans" category="Letter" case="upper" sortName="a3sansJ" />
+    <glyph name="Ksansbold-math" unicode="1D5DE" unicode2="1D40A" production="u1D5DE" script="Sans" category="Letter" case="upper" sortName="a3sansK" />
+    <glyph name="Lsansbold-math" unicode="1D5DF" unicode2="1D40B" production="u1D5DF" script="Sans" category="Letter" case="upper" sortName="a3sansL" />
+    <glyph name="Msansbold-math" unicode="1D5E0" unicode2="1D40C" production="u1D5E0" script="Sans" category="Letter" case="upper" sortName="a3sansM" />
+    <glyph name="Nsansbold-math" unicode="1D5E1" unicode2="1D40D" production="u1D5E1" script="Sans" category="Letter" case="upper" sortName="a3sansN" />
+    <glyph name="Osansbold-math" unicode="1D5E2" unicode2="1D40E" production="u1D5E2" script="Sans" category="Letter" case="upper" sortName="a3sansO" />
+    <glyph name="Psansbold-math" unicode="1D5E3" unicode2="1D40F" production="u1D5E3" script="Sans" category="Letter" case="upper" sortName="a3sansP" />
+    <glyph name="Qsansbold-math" unicode="1D5E4" unicode2="1D410" production="u1D5E4" script="Sans" category="Letter" case="upper" sortName="a3sansQ" />
+    <glyph name="Rsansbold-math" unicode="1D5E5" unicode2="1D411" production="u1D5E5" script="Sans" category="Letter" case="upper" sortName="a3sansR" />
+    <glyph name="Ssansbold-math" unicode="1D5E6" unicode2="1D412" production="u1D5E6" script="Sans" category="Letter" case="upper" sortName="a3sansS" />
+    <glyph name="Tsansbold-math" unicode="1D5E7" unicode2="1D413" production="u1D5E7" script="Sans" category="Letter" case="upper" sortName="a3sansT" />
+    <glyph name="Usansbold-math" unicode="1D5E8" unicode2="1D414" production="u1D5E8" script="Sans" category="Letter" case="upper" sortName="a3sansU" />
+    <glyph name="Vsansbold-math" unicode="1D5E9" unicode2="1D415" production="u1D5E9" script="Sans" category="Letter" case="upper" sortName="a3sansV" />
+    <glyph name="Wsansbold-math" unicode="1D5EA" unicode2="1D416" production="u1D5EA" script="Sans" category="Letter" case="upper" sortName="a3sansW" />
+    <glyph name="Xsansbold-math" unicode="1D5EB" unicode2="1D417" production="u1D5EB" script="Sans" category="Letter" case="upper" sortName="a3sansX" />
+    <glyph name="Ysansbold-math" unicode="1D5EC" unicode2="1D418" production="u1D5EC" script="Sans" category="Letter" case="upper" sortName="a3sansY" />
+    <glyph name="Zsansbold-math" unicode="1D5ED" unicode2="1D419" production="u1D5ED" script="Sans" category="Letter" case="upper" sortName="a3sansZ" />
+    <glyph name="Asansbolditalic-math" unicode="1D63C" unicode2="1D468" production="u1D63C" script="Sans" category="Letter" case="upper" sortName="a4sansA" />
+    <glyph name="Bsansbolditalic-math" unicode="1D63D" unicode2="1D469" production="u1D63D" script="Sans" category="Letter" case="upper" sortName="a4sansB" />
+    <glyph name="Csansbolditalic-math" unicode="1D63E" unicode2="1D46A" production="u1D63E" script="Sans" category="Letter" case="upper" sortName="a4sansC" />
+    <glyph name="Dsansbolditalic-math" unicode="1D63F" unicode2="1D46B" production="u1D63F" script="Sans" category="Letter" case="upper" sortName="a4sansD" />
+    <glyph name="Esansbolditalic-math" unicode="1D640" unicode2="1D46C" production="u1D640" script="Sans" category="Letter" case="upper" sortName="a4sansE" />
+    <glyph name="Fsansbolditalic-math" unicode="1D641" unicode2="1D46D" production="u1D641" script="Sans" category="Letter" case="upper" sortName="a4sansF" />
+    <glyph name="Gsansbolditalic-math" unicode="1D642" unicode2="1D46E" production="u1D642" script="Sans" category="Letter" case="upper" sortName="a4sansG" />
+    <glyph name="Hsansbolditalic-math" unicode="1D643" unicode2="1D46F" production="u1D643" script="Sans" category="Letter" case="upper" sortName="a4sansH" />
+    <glyph name="Isansbolditalic-math" unicode="1D644" unicode2="1D470" production="u1D644" script="Sans" category="Letter" case="upper" sortName="a4sansI" />
+    <glyph name="Jsansbolditalic-math" unicode="1D645" unicode2="1D471" production="u1D645" script="Sans" category="Letter" case="upper" sortName="a4sansJ" />
+    <glyph name="Ksansbolditalic-math" unicode="1D646" unicode2="1D472" production="u1D646" script="Sans" category="Letter" case="upper" sortName="a4sansK" />
+    <glyph name="Lsansbolditalic-math" unicode="1D647" unicode2="1D473" production="u1D647" script="Sans" category="Letter" case="upper" sortName="a4sansL" />
+    <glyph name="Msansbolditalic-math" unicode="1D648" unicode2="1D474" production="u1D648" script="Sans" category="Letter" case="upper" sortName="a4sansM" />
+    <glyph name="Nsansbolditalic-math" unicode="1D649" unicode2="1D475" production="u1D649" script="Sans" category="Letter" case="upper" sortName="a4sansN" />
+    <glyph name="Osansbolditalic-math" unicode="1D64A" unicode2="1D476" production="u1D64A" script="Sans" category="Letter" case="upper" sortName="a4sansO" />
+    <glyph name="Psansbolditalic-math" unicode="1D64B" unicode2="1D477" production="u1D64B" script="Sans" category="Letter" case="upper" sortName="a4sansP" />
+    <glyph name="Qsansbolditalic-math" unicode="1D64C" unicode2="1D478" production="u1D64C" script="Sans" category="Letter" case="upper" sortName="a4sansQ" />
+    <glyph name="Rsansbolditalic-math" unicode="1D64D" unicode2="1D479" production="u1D64D" script="Sans" category="Letter" case="upper" sortName="a4sansR" />
+    <glyph name="Ssansbolditalic-math" unicode="1D64E" unicode2="1D47A" production="u1D64E" script="Sans" category="Letter" case="upper" sortName="a4sansS" />
+    <glyph name="Tsansbolditalic-math" unicode="1D64F" unicode2="1D47B" production="u1D64F" script="Sans" category="Letter" case="upper" sortName="a4sansT" />
+    <glyph name="Usansbolditalic-math" unicode="1D650" unicode2="1D47C" production="u1D650" script="Sans" category="Letter" case="upper" sortName="a4sansU" />
+    <glyph name="Vsansbolditalic-math" unicode="1D651" unicode2="1D47D" production="u1D651" script="Sans" category="Letter" case="upper" sortName="a4sansV" />
+    <glyph name="Wsansbolditalic-math" unicode="1D652" unicode2="1D47E" production="u1D652" script="Sans" category="Letter" case="upper" sortName="a4sansW" />
+    <glyph name="Xsansbolditalic-math" unicode="1D653" unicode2="1D47F" production="u1D653" script="Sans" category="Letter" case="upper" sortName="a4sansX" />
+    <glyph name="Ysansbolditalic-math" unicode="1D654" unicode2="1D480" production="u1D654" script="Sans" category="Letter" case="upper" sortName="a4sansY" />
+    <glyph name="Zsansbolditalic-math" unicode="1D655" unicode2="1D481" production="u1D655" script="Sans" category="Letter" case="upper" sortName="a4sansZ" />
+    <glyph name="asans-math" unicode="1D5BA" production="u1D5BA" script="Sans" category="Letter" case="lower" sortName="a1sansa" />
+    <glyph name="bsans-math" unicode="1D5BB" production="u1D5BB" script="Sans" category="Letter" case="lower" sortName="a1sansb" />
+    <glyph name="csans-math" unicode="1D5BC" production="u1D5BC" script="Sans" category="Letter" case="lower" sortName="a1sansc" />
+    <glyph name="dsans-math" unicode="1D5BD" production="u1D5BD" script="Sans" category="Letter" case="lower" sortName="a1sansd" />
+    <glyph name="esans-math" unicode="1D5BE" production="u1D5BE" script="Sans" category="Letter" case="lower" sortName="a1sanse" />
+    <glyph name="fsans-math" unicode="1D5BF" production="u1D5BF" script="Sans" category="Letter" case="lower" sortName="a1sansf" />
+    <glyph name="gsans-math" unicode="1D5C0" production="u1D5C0" script="Sans" category="Letter" case="lower" sortName="a1sansg" />
+    <glyph name="hsans-math" unicode="1D5C1" production="u1D5C1" script="Sans" category="Letter" case="lower" sortName="a1sansh" />
+    <glyph name="isans-math" unicode="1D5C2" production="u1D5C2" script="Sans" category="Letter" case="lower" sortName="a1sansi" />
+    <glyph name="jsans-math" unicode="1D5C3" production="u1D5C3" script="Sans" category="Letter" case="lower" sortName="a1sansj" />
+    <glyph name="ksans-math" unicode="1D5C4" production="u1D5C4" script="Sans" category="Letter" case="lower" sortName="a1sansk" />
+    <glyph name="lsans-math" unicode="1D5C5" production="u1D5C5" script="Sans" category="Letter" case="lower" sortName="a1sansl" />
+    <glyph name="msans-math" unicode="1D5C6" production="u1D5C6" script="Sans" category="Letter" case="lower" sortName="a1sansm" />
+    <glyph name="nsans-math" unicode="1D5C7" production="u1D5C7" script="Sans" category="Letter" case="lower" sortName="a1sansn" />
+    <glyph name="osans-math" unicode="1D5C8" production="u1D5C8" script="Sans" category="Letter" case="lower" sortName="a1sanso" />
+    <glyph name="psans-math" unicode="1D5C9" production="u1D5C9" script="Sans" category="Letter" case="lower" sortName="a1sansp" />
+    <glyph name="qsans-math" unicode="1D5CA" production="u1D5CA" script="Sans" category="Letter" case="lower" sortName="a1sansq" />
+    <glyph name="rsans-math" unicode="1D5CB" production="u1D5CB" script="Sans" category="Letter" case="lower" sortName="a1sansr" />
+    <glyph name="ssans-math" unicode="1D5CC" production="u1D5CC" script="Sans" category="Letter" case="lower" sortName="a1sanss" />
+    <glyph name="tsans-math" unicode="1D5CD" production="u1D5CD" script="Sans" category="Letter" case="lower" sortName="a1sanst" />
+    <glyph name="usans-math" unicode="1D5CE" production="u1D5CE" script="Sans" category="Letter" case="lower" sortName="a1sansu" />
+    <glyph name="vsans-math" unicode="1D5CF" production="u1D5CF" script="Sans" category="Letter" case="lower" sortName="a1sansv" />
+    <glyph name="wsans-math" unicode="1D5D0" production="u1D5D0" script="Sans" category="Letter" case="lower" sortName="a1sansw" />
+    <glyph name="xsans-math" unicode="1D5D1" production="u1D5D1" script="Sans" category="Letter" case="lower" sortName="a1sansx" />
+    <glyph name="ysans-math" unicode="1D5D2" production="u1D5D2" script="Sans" category="Letter" case="lower" sortName="a1sansy" />
+    <glyph name="zsans-math" unicode="1D5D3" production="u1D5D3" script="Sans" category="Letter" case="lower" sortName="a1sansz" />
+    <glyph name="asansitalic-math" unicode="1D622" unicode2="1D44E" production="u1D622" script="Sans" category="Letter" case="lower" sortName="a2sansa" />
+    <glyph name="bsansitalic-math" unicode="1D623" unicode2="1D44F" production="u1D623" script="Sans" category="Letter" case="lower" sortName="a2sansb" />
+    <glyph name="csansitalic-math" unicode="1D624" unicode2="1D450" production="u1D624" script="Sans" category="Letter" case="lower" sortName="a2sansc" />
+    <glyph name="dsansitalic-math" unicode="1D625" unicode2="1D451" production="u1D625" script="Sans" category="Letter" case="lower" sortName="a2sansd" />
+    <glyph name="esansitalic-math" unicode="1D626" unicode2="1D452" production="u1D626" script="Sans" category="Letter" case="lower" sortName="a2sanse" />
+    <glyph name="fsansitalic-math" unicode="1D627" unicode2="1D453" production="u1D627" script="Sans" category="Letter" case="lower" sortName="a2sansf" />
+    <glyph name="gsansitalic-math" unicode="1D628" unicode2="1D454" production="u1D628" script="Sans" category="Letter" case="lower" sortName="a2sansg" />
+    <glyph name="hsansitalic-math" unicode="1D629" unicode2="210E" production="u1D629" script="Sans" category="Letter" case="lower" sortName="a2sansh" />
+    <glyph name="isansitalic-math" unicode="1D62A" unicode2="1D456" production="u1D62A" script="Sans" category="Letter" case="lower" sortName="a2sansi" />
+    <glyph name="jsansitalic-math" unicode="1D62B" unicode2="1D457" production="u1D62B" script="Sans" category="Letter" case="lower" sortName="a2sansj" />
+    <glyph name="ksansitalic-math" unicode="1D62C" unicode2="1D458" production="u1D62C" script="Sans" category="Letter" case="lower" sortName="a2sansk" />
+    <glyph name="lsansitalic-math" unicode="1D62D" unicode2="1D459" production="u1D62D" script="Sans" category="Letter" case="lower" sortName="a2sansl" />
+    <glyph name="msansitalic-math" unicode="1D62E" unicode2="1D45A" production="u1D62E" script="Sans" category="Letter" case="lower" sortName="a2sansm" />
+    <glyph name="nsansitalic-math" unicode="1D62F" unicode2="1D45B" production="u1D62F" script="Sans" category="Letter" case="lower" sortName="a2sansn" />
+    <glyph name="osansitalic-math" unicode="1D630" unicode2="1D45C" production="u1D630" script="Sans" category="Letter" case="lower" sortName="a2sanso" />
+    <glyph name="psansitalic-math" unicode="1D631" unicode2="1D45D" production="u1D631" script="Sans" category="Letter" case="lower" sortName="a2sansp" />
+    <glyph name="qsansitalic-math" unicode="1D632" unicode2="1D45E" production="u1D632" script="Sans" category="Letter" case="lower" sortName="a2sansq" />
+    <glyph name="rsansitalic-math" unicode="1D633" unicode2="1D45F" production="u1D633" script="Sans" category="Letter" case="lower" sortName="a2sansr" />
+    <glyph name="ssansitalic-math" unicode="1D634" unicode2="1D460" production="u1D634" script="Sans" category="Letter" case="lower" sortName="a2sanss" />
+    <glyph name="tsansitalic-math" unicode="1D635" unicode2="1D461" production="u1D635" script="Sans" category="Letter" case="lower" sortName="a2sanst" />
+    <glyph name="usansitalic-math" unicode="1D636" unicode2="1D462" production="u1D636" script="Sans" category="Letter" case="lower" sortName="a2sansu" />
+    <glyph name="vsansitalic-math" unicode="1D637" unicode2="1D463" production="u1D637" script="Sans" category="Letter" case="lower" sortName="a2sansv" />
+    <glyph name="wsansitalic-math" unicode="1D638" unicode2="1D464" production="u1D638" script="Sans" category="Letter" case="lower" sortName="a2sansw" />
+    <glyph name="xsansitalic-math" unicode="1D639" unicode2="1D465" production="u1D639" script="Sans" category="Letter" case="lower" sortName="a2sansx" />
+    <glyph name="ysansitalic-math" unicode="1D63A" unicode2="1D466" production="u1D63A" script="Sans" category="Letter" case="lower" sortName="a2sansy" />
+    <glyph name="zsansitalic-math" unicode="1D63B" unicode2="1D467" production="u1D63B" script="Sans" category="Letter" case="lower" sortName="a2sansz" />
+    <glyph name="asansbold-math" unicode="1D5EE" unicode2="1D41A" production="u1D5EE" script="Sans" category="Letter" case="lower" sortName="a3sansa" />
+    <glyph name="bsansbold-math" unicode="1D5EF" unicode2="1D41B" production="u1D5EF" script="Sans" category="Letter" case="lower" sortName="a3sansb" />
+    <glyph name="csansbold-math" unicode="1D5F0" unicode2="1D41C" production="u1D5F0" script="Sans" category="Letter" case="lower" sortName="a3sansc" />
+    <glyph name="dsansbold-math" unicode="1D5F1" unicode2="1D41D" production="u1D5F1" script="Sans" category="Letter" case="lower" sortName="a3sansd" />
+    <glyph name="esansbold-math" unicode="1D5F2" unicode2="1D41E" production="u1D5F2" script="Sans" category="Letter" case="lower" sortName="a3sanse" />
+    <glyph name="fsansbold-math" unicode="1D5F3" unicode2="1D41F" production="u1D5F3" script="Sans" category="Letter" case="lower" sortName="a3sansf" />
+    <glyph name="gsansbold-math" unicode="1D5F4" unicode2="1D420" production="u1D5F4" script="Sans" category="Letter" case="lower" sortName="a3sansg" />
+    <glyph name="hsansbold-math" unicode="1D5F5" unicode2="1D421" production="u1D5F5" script="Sans" category="Letter" case="lower" sortName="a3sansh" />
+    <glyph name="isansbold-math" unicode="1D5F6" unicode2="1D422" production="u1D5F6" script="Sans" category="Letter" case="lower" sortName="a3sansi" />
+    <glyph name="jsansbold-math" unicode="1D5F7" unicode2="1D423" production="u1D5F7" script="Sans" category="Letter" case="lower" sortName="a3sansj" />
+    <glyph name="ksansbold-math" unicode="1D5F8" unicode2="1D424" production="u1D5F8" script="Sans" category="Letter" case="lower" sortName="a3sansk" />
+    <glyph name="lsansbold-math" unicode="1D5F9" unicode2="1D425" production="u1D5F9" script="Sans" category="Letter" case="lower" sortName="a3sansl" />
+    <glyph name="msansbold-math" unicode="1D5FA" unicode2="1D426" production="u1D5FA" script="Sans" category="Letter" case="lower" sortName="a3sansm" />
+    <glyph name="nsansbold-math" unicode="1D5FB" unicode2="1D427" production="u1D5FB" script="Sans" category="Letter" case="lower" sortName="a3sansn" />
+    <glyph name="osansbold-math" unicode="1D5FC" unicode2="1D428" production="u1D5FC" script="Sans" category="Letter" case="lower" sortName="a3sanso" />
+    <glyph name="psansbold-math" unicode="1D5FD" unicode2="1D429" production="u1D5FD" script="Sans" category="Letter" case="lower" sortName="a3sansp" />
+    <glyph name="qsansbold-math" unicode="1D5FE" unicode2="1D42A" production="u1D5FE" script="Sans" category="Letter" case="lower" sortName="a3sansq" />
+    <glyph name="rsansbold-math" unicode="1D5FF" unicode2="1D42B" production="u1D5FF" script="Sans" category="Letter" case="lower" sortName="a3sansr" />
+    <glyph name="ssansbold-math" unicode="1D600" unicode2="1D42C" production="u1D600" script="Sans" category="Letter" case="lower" sortName="a3sanss" />
+    <glyph name="tsansbold-math" unicode="1D601" unicode2="1D42D" production="u1D601" script="Sans" category="Letter" case="lower" sortName="a3sanst" />
+    <glyph name="usansbold-math" unicode="1D602" unicode2="1D42E" production="u1D602" script="Sans" category="Letter" case="lower" sortName="a3sansu" />
+    <glyph name="vsansbold-math" unicode="1D603" unicode2="1D42F" production="u1D603" script="Sans" category="Letter" case="lower" sortName="a3sansv" />
+    <glyph name="wsansbold-math" unicode="1D604" unicode2="1D430" production="u1D604" script="Sans" category="Letter" case="lower" sortName="a3sansw" />
+    <glyph name="xsansbold-math" unicode="1D605" unicode2="1D431" production="u1D605" script="Sans" category="Letter" case="lower" sortName="a3sansx" />
+    <glyph name="ysansbold-math" unicode="1D606" unicode2="1D432" production="u1D606" script="Sans" category="Letter" case="lower" sortName="a3sansy" />
+    <glyph name="zsansbold-math" unicode="1D607" unicode2="1D433" production="u1D607" script="Sans" category="Letter" case="lower" sortName="a3sansz" />
+    <glyph name="asansbolditalic-math" unicode="1D656" unicode2="1D482" production="u1D656" script="Sans" category="Letter" case="lower" sortName="a4sansa" />
+    <glyph name="bsansbolditalic-math" unicode="1D657" unicode2="1D483" production="u1D657" script="Sans" category="Letter" case="lower" sortName="a4sansb" />
+    <glyph name="csansbolditalic-math" unicode="1D658" unicode2="1D484" production="u1D658" script="Sans" category="Letter" case="lower" sortName="a4sansc" />
+    <glyph name="dsansbolditalic-math" unicode="1D659" unicode2="1D485" production="u1D659" script="Sans" category="Letter" case="lower" sortName="a4sansd" />
+    <glyph name="esansbolditalic-math" unicode="1D65A" unicode2="1D486" production="u1D65A" script="Sans" category="Letter" case="lower" sortName="a4sanse" />
+    <glyph name="fsansbolditalic-math" unicode="1D65B" unicode2="1D487" production="u1D65B" script="Sans" category="Letter" case="lower" sortName="a4sansf" />
+    <glyph name="gsansbolditalic-math" unicode="1D65C" unicode2="1D488" production="u1D65C" script="Sans" category="Letter" case="lower" sortName="a4sansg" />
+    <glyph name="hsansbolditalic-math" unicode="1D65D" unicode2="1D489" production="u1D65D" script="Sans" category="Letter" case="lower" sortName="a4sansh" />
+    <glyph name="isansbolditalic-math" unicode="1D65E" unicode2="1D48A" production="u1D65E" script="Sans" category="Letter" case="lower" sortName="a4sansi" />
+    <glyph name="jsansbolditalic-math" unicode="1D65F" unicode2="1D48B" production="u1D65F" script="Sans" category="Letter" case="lower" sortName="a4sansj" />
+    <glyph name="ksansbolditalic-math" unicode="1D660" unicode2="1D48C" production="u1D660" script="Sans" category="Letter" case="lower" sortName="a4sansk" />
+    <glyph name="lsansbolditalic-math" unicode="1D661" unicode2="1D48D" production="u1D661" script="Sans" category="Letter" case="lower" sortName="a4sansl" />
+    <glyph name="msansbolditalic-math" unicode="1D662" unicode2="1D48E" production="u1D662" script="Sans" category="Letter" case="lower" sortName="a4sansm" />
+    <glyph name="nsansbolditalic-math" unicode="1D663" unicode2="1D48F" production="u1D663" script="Sans" category="Letter" case="lower" sortName="a4sansn" />
+    <glyph name="osansbolditalic-math" unicode="1D664" unicode2="1D490" production="u1D664" script="Sans" category="Letter" case="lower" sortName="a4sanso" />
+    <glyph name="psansbolditalic-math" unicode="1D665" unicode2="1D491" production="u1D665" script="Sans" category="Letter" case="lower" sortName="a4sansp" />
+    <glyph name="qsansbolditalic-math" unicode="1D666" unicode2="1D492" production="u1D666" script="Sans" category="Letter" case="lower" sortName="a4sansq" />
+    <glyph name="rsansbolditalic-math" unicode="1D667" unicode2="1D493" production="u1D667" script="Sans" category="Letter" case="lower" sortName="a4sansr" />
+    <glyph name="ssansbolditalic-math" unicode="1D668" unicode2="1D494" production="u1D668" script="Sans" category="Letter" case="lower" sortName="a4sanss" />
+    <glyph name="tsansbolditalic-math" unicode="1D669" unicode2="1D495" production="u1D669" script="Sans" category="Letter" case="lower" sortName="a4sanst" />
+    <glyph name="usansbolditalic-math" unicode="1D66A" unicode2="1D496" production="u1D66A" script="Sans" category="Letter" case="lower" sortName="a4sansu" />
+    <glyph name="vsansbolditalic-math" unicode="1D66B" unicode2="1D497" production="u1D66B" script="Sans" category="Letter" case="lower" sortName="a4sansv" />
+    <glyph name="wsansbolditalic-math" unicode="1D66C" unicode2="1D498" production="u1D66C" script="Sans" category="Letter" case="lower" sortName="a4sansw" />
+    <glyph name="xsansbolditalic-math" unicode="1D66D" unicode2="1D499" production="u1D66D" script="Sans" category="Letter" case="lower" sortName="a4sansx" />
+    <glyph name="ysansbolditalic-math" unicode="1D66E" unicode2="1D49A" production="u1D66E" script="Sans" category="Letter" case="lower" sortName="a4sansy" />
+    <glyph name="zsansbolditalic-math" unicode="1D66F" unicode2="1D49B" production="u1D66F" script="Sans" category="Letter" case="lower" sortName="a4sansz" />
+    <glyph name="isans-math.dtls" production="u1D5C2.dtls" script="Sans" category="Letter" case="lower" sortName="adtls.1sansi" />
+    <glyph name="jsans-math.dtls" production="u1D5C3.dtls" script="Sans" category="Letter" case="lower" sortName="adtls.1sansj" />
+    <glyph name="isansitalic-math.dtls" unicode="1D6A4" production="u1D6A4" script="Sans" category="Letter" case="lower" sortName="adtls.2sansi" />
+    <glyph name="jsansitalic-math.dtls" unicode="1D6A5" production="u1D6A5" script="Sans" category="Letter" case="lower" sortName="adtls.2sansj" />
+    <glyph name="isansbold-math.dtls" production="u1D5F6.dtls" script="Sans" category="Letter" case="lower" sortName="adtls.3sansi" />
+    <glyph name="jsansbold-math.dtls" production="u1D5F7.dtls" script="Sans" category="Letter" case="lower" sortName="adtls.3sansj" />
+    <glyph name="isansbolditalic-math.dtls" production="u1D65E.dtls" script="Sans" category="Letter" case="lower" sortName="adtls.4sansi" />
+    <glyph name="jsansbolditalic-math.dtls" production="u1D65F.dtls" script="Sans" category="Letter" case="lower" sortName="adtls.4sansj" />
+
+    <glyph name="Alphasansbold-math" unicode="1D756" unicode2="1D6A8" production="u1D756" script="Sans" category="Letter" case="upper" sortName="mt684" />
+    <glyph name="Betasansbold-math" unicode="1D757" unicode2="1D6A9" production="u1D757" script="Sans" category="Letter" case="upper" sortName="mt685" />
+    <glyph name="Gammasansbold-math" unicode="1D758" unicode2="1D6AA" production="u1D758" script="Sans" category="Letter" case="upper" sortName="mt686" />
+    <glyph name="Deltasansbold-math" unicode="1D759" unicode2="1D6AB" production="u1D759" script="Sans" category="Letter" case="upper" sortName="mt687" />
+    <glyph name="Epsilonsansbold-math" unicode="1D75A" unicode2="1D6AC" production="u1D75A" script="Sans" category="Letter" case="upper" sortName="mt688" />
+    <glyph name="Zetasansbold-math" unicode="1D75B" unicode2="1D6AD" production="u1D75B" script="Sans" category="Letter" case="upper" sortName="mt689" />
+    <glyph name="Etasansbold-math" unicode="1D75C" unicode2="1D6AE" production="u1D75C" script="Sans" category="Letter" case="upper" sortName="mt690" />
+    <glyph name="Thetasansbold-math" unicode="1D75D" unicode2="1D6AF" production="u1D75D" script="Sans" category="Letter" case="upper" sortName="mt691" />
+    <glyph name="Iotasansbold-math" unicode="1D75E" unicode2="1D6B0" production="u1D75E" script="Sans" category="Letter" case="upper" sortName="mt692" />
+    <glyph name="Kappasansbold-math" unicode="1D75F" unicode2="1D6B1" production="u1D75F" script="Sans" category="Letter" case="upper" sortName="mt693" />
+    <glyph name="Lambdasansbold-math" unicode="1D760" unicode2="1D6B2" production="u1D760" script="Sans" category="Letter" case="upper" sortName="mt694" />
+    <glyph name="Musansbold-math" unicode="1D761" unicode2="1D6B3" production="u1D761" script="Sans" category="Letter" case="upper" sortName="mt695" />
+    <glyph name="Nusansbold-math" unicode="1D762" unicode2="1D6B4" production="u1D762" script="Sans" category="Letter" case="upper" sortName="mt696" />
+    <glyph name="Xisansbold-math" unicode="1D763" unicode2="1D6B5" production="u1D763" script="Sans" category="Letter" case="upper" sortName="mt697" />
+    <glyph name="Omicronsansbold-math" unicode="1D764" unicode2="1D6B6" production="u1D764" script="Sans" category="Letter" case="upper" sortName="mt698" />
+    <glyph name="Pisansbold-math" unicode="1D765" unicode2="1D6B7" production="u1D765" script="Sans" category="Letter" case="upper" sortName="mt699" />
+    <glyph name="Rhosansbold-math" unicode="1D766" unicode2="1D6B8" production="u1D766" script="Sans" category="Letter" case="upper" sortName="mt700" />
+    <glyph name="ThetaSymbolsansbold-math" unicode="1D767" unicode2="1D6B9" production="u1D767" script="Sans" category="Letter" case="upper" sortName="mt701" />
+    <glyph name="Sigmasansbold-math" unicode="1D768" unicode2="1D6BA" production="u1D768" script="Sans" category="Letter" case="upper" sortName="mt702" />
+    <glyph name="Tausansbold-math" unicode="1D769" unicode2="1D6BB" production="u1D769" script="Sans" category="Letter" case="upper" sortName="mt703" />
+    <glyph name="Upsilonsansbold-math" unicode="1D76A" unicode2="1D6BC" production="u1D76A" script="Sans" category="Letter" case="upper" sortName="mt704" />
+    <glyph name="Phisansbold-math" unicode="1D76B" unicode2="1D6BD" production="u1D76B" script="Sans" category="Letter" case="upper" sortName="mt705" />
+    <glyph name="Chisansbold-math" unicode="1D76C" unicode2="1D6BE" production="u1D76C" script="Sans" category="Letter" case="upper" sortName="mt706" />
+    <glyph name="Psisansbold-math" unicode="1D76D" unicode2="1D6BF" production="u1D76D" script="Sans" category="Letter" case="upper" sortName="mt707" />
+    <glyph name="Omegasansbold-math" unicode="1D76E" unicode2="1D6C0" production="u1D76E" script="Sans" category="Letter" case="upper" sortName="mt708" />
+    <glyph name="Alphasansbolditalic-math" unicode="1D790" unicode2="1D71C" production="u1D790" script="Sans" category="Letter" case="upper" sortName="mt742" />
+    <glyph name="Betasansbolditalic-math" unicode="1D791" unicode2="1D71D" production="u1D791" script="Sans" category="Letter" case="upper" sortName="mt743" />
+    <glyph name="Gammasansbolditalic-math" unicode="1D792" unicode2="1D71E" production="u1D792" script="Sans" category="Letter" case="upper" sortName="mt744" />
+    <glyph name="Deltasansbolditalic-math" unicode="1D793" unicode2="1D71F" production="u1D793" script="Sans" category="Letter" case="upper" sortName="mt745" />
+    <glyph name="Epsilonsansbolditalic-math" unicode="1D794" unicode2="1D720" production="u1D794" script="Sans" category="Letter" case="upper" sortName="mt746" />
+    <glyph name="Zetasansbolditalic-math" unicode="1D795" unicode2="1D721" production="u1D795" script="Sans" category="Letter" case="upper" sortName="mt747" />
+    <glyph name="Etasansbolditalic-math" unicode="1D796" unicode2="1D722" production="u1D796" script="Sans" category="Letter" case="upper" sortName="mt748" />
+    <glyph name="Thetasansbolditalic-math" unicode="1D797" unicode2="1D723" production="u1D797" script="Sans" category="Letter" case="upper" sortName="mt749" />
+    <glyph name="Iotasansbolditalic-math" unicode="1D798" unicode2="1D724" production="u1D798" script="Sans" category="Letter" case="upper" sortName="mt750" />
+    <glyph name="Kappasansbolditalic-math" unicode="1D799" unicode2="1D725" production="u1D799" script="Sans" category="Letter" case="upper" sortName="mt751" />
+    <glyph name="Lambdasansbolditalic-math" unicode="1D79A" unicode2="1D726" production="u1D79A" script="Sans" category="Letter" case="upper" sortName="mt752" />
+    <glyph name="Musansbolditalic-math" unicode="1D79B" unicode2="1D727" production="u1D79B" script="Sans" category="Letter" case="upper" sortName="mt753" />
+    <glyph name="Nusansbolditalic-math" unicode="1D79C" unicode2="1D728" production="u1D79C" script="Sans" category="Letter" case="upper" sortName="mt754" />
+    <glyph name="Xisansbolditalic-math" unicode="1D79D" unicode2="1D729" production="u1D79D" script="Sans" category="Letter" case="upper" sortName="mt755" />
+    <glyph name="Omicronsansbolditalic-math" unicode="1D79E" unicode2="1D72A" production="u1D79E" script="Sans" category="Letter" case="upper" sortName="mt756" />
+    <glyph name="Pisansbolditalic-math" unicode="1D79F" unicode2="1D72B" production="u1D79F" script="Sans" category="Letter" case="upper" sortName="mt757" />
+    <glyph name="Rhosansbolditalic-math" unicode="1D7A0" unicode2="1D72C" production="u1D7A0" script="Sans" category="Letter" case="upper" sortName="mt758" />
+    <glyph name="ThetaSymbolsansbolditalic-math" unicode="1D7A1" unicode2="1D72D" production="u1D7A1" script="Sans" category="Letter" case="upper" sortName="mt759" />
+    <glyph name="Sigmasansbolditalic-math" unicode="1D7A2" unicode2="1D72E" production="u1D7A2" script="Sans" category="Letter" case="upper" sortName="mt760" />
+    <glyph name="Tausansbolditalic-math" unicode="1D7A3" unicode2="1D72F" production="u1D7A3" script="Sans" category="Letter" case="upper" sortName="mt761" />
+    <glyph name="Upsilonsansbolditalic-math" unicode="1D7A4" unicode2="1D730" production="u1D7A4" script="Sans" category="Letter" case="upper" sortName="mt762" />
+    <glyph name="Phisansbolditalic-math" unicode="1D7A5" unicode2="1D731" production="u1D7A5" script="Sans" category="Letter" case="upper" sortName="mt763" />
+    <glyph name="Chisansbolditalic-math" unicode="1D7A6" unicode2="1D732" production="u1D7A6" script="Sans" category="Letter" case="upper" sortName="mt764" />
+    <glyph name="Psisansbolditalic-math" unicode="1D7A7" unicode2="1D733" production="u1D7A7" script="Sans" category="Letter" case="upper" sortName="mt765" />
+    <glyph name="Omegasansbolditalic-math" unicode="1D7A8" unicode2="1D734" production="u1D7A8" script="Sans" category="Letter" case="upper" sortName="mt766" />
+    <glyph name="alphasansbold-math" unicode="1D770" unicode2="1D6C2" production="u1D770" script="Sans" category="Letter" case="lower" sortName="mt710" />
+    <glyph name="betasansbold-math" unicode="1D771" unicode2="1D6C3" production="u1D771" script="Sans" category="Letter" case="lower" sortName="mt711" />
+    <glyph name="gammasansbold-math" unicode="1D772" unicode2="1D6C4" production="u1D772" script="Sans" category="Letter" case="lower" sortName="mt712" />
+    <glyph name="deltasansbold-math" unicode="1D773" unicode2="1D6C5" production="u1D773" script="Sans" category="Letter" case="lower" sortName="mt713" />
+    <glyph name="epsilonsansbold-math" unicode="1D774" unicode2="1D6C6" production="u1D774" script="Sans" category="Letter" case="lower" sortName="mt714" />
+    <glyph name="zetasansbold-math" unicode="1D775" unicode2="1D6C7" production="u1D775" script="Sans" category="Letter" case="lower" sortName="mt715" />
+    <glyph name="etasansbold-math" unicode="1D776" unicode2="1D6C8" production="u1D776" script="Sans" category="Letter" case="lower" sortName="mt716" />
+    <glyph name="thetasansbold-math" unicode="1D777" unicode2="1D6C9" production="u1D777" script="Sans" category="Letter" case="lower" sortName="mt717" />
+    <glyph name="iotasansbold-math" unicode="1D778" unicode2="1D6CA" production="u1D778" script="Sans" category="Letter" case="lower" sortName="mt718" />
+    <glyph name="kappasansbold-math" unicode="1D779" unicode2="1D6CB" production="u1D779" script="Sans" category="Letter" case="lower" sortName="mt719" />
+    <glyph name="lambdasansbold-math" unicode="1D77A" unicode2="1D6CC" production="u1D77A" script="Sans" category="Letter" case="lower" sortName="mt720" />
+    <glyph name="musansbold-math" unicode="1D77B" unicode2="1D6CD" production="u1D77B" script="Sans" category="Letter" case="lower" sortName="mt721" />
+    <glyph name="nusansbold-math" unicode="1D77C" unicode2="1D6CE" production="u1D77C" script="Sans" category="Letter" case="lower" sortName="mt722" />
+    <glyph name="xisansbold-math" unicode="1D77D" unicode2="1D6CF" production="u1D77D" script="Sans" category="Letter" case="lower" sortName="mt723" />
+    <glyph name="omicronsansbold-math" unicode="1D77E" unicode2="1D6D0" production="u1D77E" script="Sans" category="Letter" case="lower" sortName="mt724" />
+    <glyph name="pisansbold-math" unicode="1D77F" unicode2="1D6D1" production="u1D77F" script="Sans" category="Letter" case="lower" sortName="mt725" />
+    <glyph name="rhosansbold-math" unicode="1D780" unicode2="1D6D2" production="u1D780" script="Sans" category="Letter" case="lower" sortName="mt726" />
+    <glyph name="sigmafinalsansbold-math" unicode="1D781" unicode2="1D6D3" production="u1D781" script="Sans" category="Letter" case="lower" sortName="mt727" />
+    <glyph name="sigmasansbold-math" unicode="1D782" unicode2="1D6D4" production="u1D782" script="Sans" category="Letter" case="lower" sortName="mt728" />
+    <glyph name="tausansbold-math" unicode="1D783" unicode2="1D6D5" production="u1D783" script="Sans" category="Letter" case="lower" sortName="mt729" />
+    <glyph name="upsilonsansbold-math" unicode="1D784" unicode2="1D6D6" production="u1D784" script="Sans" category="Letter" case="lower" sortName="mt730" />
+    <glyph name="phisansbold-math" unicode="1D785" unicode2="1D6D7" production="u1D785" script="Sans" category="Letter" case="lower" sortName="mt731" />
+    <glyph name="chisansbold-math" unicode="1D786" unicode2="1D6D8" production="u1D786" script="Sans" category="Letter" case="lower" sortName="mt732" />
+    <glyph name="psisansbold-math" unicode="1D787" unicode2="1D6D9" production="u1D787" script="Sans" category="Letter" case="lower" sortName="mt733" />
+    <glyph name="omegasansbold-math" unicode="1D788" unicode2="1D6DA" production="u1D788" script="Sans" category="Letter" case="lower" sortName="mt734" />
+    <glyph name="epsilonLunateSymbolsansbold-math" unicode="1D78A" unicode2="1D6DC" production="u1D78A" script="Sans" category="Letter" case="lower" sortName="mt736" />
+    <glyph name="thetaSymbolsansbold-math" unicode="1D78B" unicode2="1D6DD" production="u1D78B" script="Sans" category="Letter" case="lower" sortName="mt737" />
+    <glyph name="kappaSymbolsansbold-math" unicode="1D78C" unicode2="1D6DE" production="u1D78C" script="Sans" category="Letter" case="lower" sortName="mt738" />
+    <glyph name="phiSymbolsansbold-math" unicode="1D78D" unicode2="1D6DF" production="u1D78D" script="Sans" category="Letter" case="lower" sortName="mt739" />
+    <glyph name="rhoSymbolsansbold-math" unicode="1D78E" unicode2="1D6E0" production="u1D78E" script="Sans" category="Letter" case="lower" sortName="mt740" />
+    <glyph name="piSymbolsansbold-math" unicode="1D78F" unicode2="1D6E1" production="u1D78F" script="Sans" category="Letter" case="lower" sortName="mt741" />
+    <glyph name="alphasansbolditalic-math" unicode="1D7AA" unicode2="1D736" production="u1D7AA" script="Sans" category="Letter" case="lower" sortName="mt768" />
+    <glyph name="betasansbolditalic-math" unicode="1D7AB" unicode2="1D737" production="u1D7AB" script="Sans" category="Letter" case="lower" sortName="mt769" />
+    <glyph name="gammasansbolditalic-math" unicode="1D7AC" unicode2="1D738" production="u1D7AC" script="Sans" category="Letter" case="lower" sortName="mt770" />
+    <glyph name="deltasansbolditalic-math" unicode="1D7AD" unicode2="1D739" production="u1D7AD" script="Sans" category="Letter" case="lower" sortName="mt771" />
+    <glyph name="epsilonsansbolditalic-math" unicode="1D7AE" unicode2="1D73A" production="u1D7AE" script="Sans" category="Letter" case="lower" sortName="mt772" />
+    <glyph name="zetasansbolditalic-math" unicode="1D7AF" unicode2="1D73B" production="u1D7AF" script="Sans" category="Letter" case="lower" sortName="mt773" />
+    <glyph name="etasansbolditalic-math" unicode="1D7B0" unicode2="1D73C" production="u1D7B0" script="Sans" category="Letter" case="lower" sortName="mt774" />
+    <glyph name="thetasansbolditalic-math" unicode="1D7B1" unicode2="1D73D" production="u1D7B1" script="Sans" category="Letter" case="lower" sortName="mt775" />
+    <glyph name="iotasansbolditalic-math" unicode="1D7B2" unicode2="1D73E" production="u1D7B2" script="Sans" category="Letter" case="lower" sortName="mt776" />
+    <glyph name="kappasansbolditalic-math" unicode="1D7B3" unicode2="1D73F" production="u1D7B3" script="Sans" category="Letter" case="lower" sortName="mt777" />
+    <glyph name="lambdasansbolditalic-math" unicode="1D7B4" unicode2="1D740" production="u1D7B4" script="Sans" category="Letter" case="lower" sortName="mt778" />
+    <glyph name="musansbolditalic-math" unicode="1D7B5" unicode2="1D741" production="u1D7B5" script="Sans" category="Letter" case="lower" sortName="mt779" />
+    <glyph name="nusansbolditalic-math" unicode="1D7B6" unicode2="1D742" production="u1D7B6" script="Sans" category="Letter" case="lower" sortName="mt780" />
+    <glyph name="xisansbolditalic-math" unicode="1D7B7" unicode2="1D743" production="u1D7B7" script="Sans" category="Letter" case="lower" sortName="mt781" />
+    <glyph name="omicronsansbolditalic-math" unicode="1D7B8" unicode2="1D744" production="u1D7B8" script="Sans" category="Letter" case="lower" sortName="mt782" />
+    <glyph name="pisansbolditalic-math" unicode="1D7B9" unicode2="1D745" production="u1D7B9" script="Sans" category="Letter" case="lower" sortName="mt783" />
+    <glyph name="rhosansbolditalic-math" unicode="1D7BA" unicode2="1D746" production="u1D7BA" script="Sans" category="Letter" case="lower" sortName="mt784" />
+    <glyph name="sigmafinalsansbolditalic-math" unicode="1D7BB" unicode2="1D747" production="u1D7BB" script="Sans" category="Letter" case="lower" sortName="mt785" />
+    <glyph name="sigmasansbolditalic-math" unicode="1D7BC" unicode2="1D748" production="u1D7BC" script="Sans" category="Letter" case="lower" sortName="mt786" />
+    <glyph name="tausansbolditalic-math" unicode="1D7BD" unicode2="1D749" production="u1D7BD" script="Sans" category="Letter" case="lower" sortName="mt787" />
+    <glyph name="upsilonsansbolditalic-math" unicode="1D7BE" unicode2="1D74A" production="u1D7BE" script="Sans" category="Letter" case="lower" sortName="mt788" />
+    <glyph name="phisansbolditalic-math" unicode="1D7BF" unicode2="1D74B" production="u1D7BF" script="Sans" category="Letter" case="lower" sortName="mt789" />
+    <glyph name="chisansbolditalic-math" unicode="1D7C0" unicode2="1D74C" production="u1D7C0" script="Sans" category="Letter" case="lower" sortName="mt790" />
+    <glyph name="psisansbolditalic-math" unicode="1D7C1" unicode2="1D74D" production="u1D7C1" script="Sans" category="Letter" case="lower" sortName="mt791" />
+    <glyph name="omegasansbolditalic-math" unicode="1D7C2" unicode2="1D74E" production="u1D7C2" script="Sans" category="Letter" case="lower" sortName="mt792" />
+    <glyph name="epsilonLunateSymbolsansbolditalic-math" unicode="1D7C4" unicode2="1D750" production="u1D7C4" script="Sans" category="Letter" case="lower" sortName="mt794" />
+    <glyph name="thetaSymbolsansbolditalic-math" unicode="1D7C5" unicode2="1D751" production="u1D7C5" script="Sans" category="Letter" case="lower" sortName="mt795" />
+    <glyph name="kappaSymbolsansbolditalic-math" unicode="1D7C6" unicode2="1D752" production="u1D7C6" script="Sans" category="Letter" case="lower" sortName="mt796" />
+    <glyph name="phiSymbolsansbolditalic-math" unicode="1D7C7" unicode2="1D753" production="u1D7C7" script="Sans" category="Letter" case="lower" sortName="mt797" />
+    <glyph name="rhoSymbolsansbolditalic-math" unicode="1D7C8" unicode2="1D754" production="u1D7C8" script="Sans" category="Letter" case="lower" sortName="mt798" />
+    <glyph name="piSymbolsansbolditalic-math" unicode="1D7C9" unicode2="1D755" production="u1D7C9" script="Sans" category="Letter" case="lower" sortName="mt799" />
+</glyphData>
