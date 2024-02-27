@@ -894,4 +894,56 @@
     <glyph name="phiSymbolsansbolditalic-math" unicode="1D7C7" unicode2="1D753" production="u1D7C7" script="Sans" category="Letter" case="lower" sortName="mt797" />
     <glyph name="rhoSymbolsansbolditalic-math" unicode="1D7C8" unicode2="1D754" production="u1D7C8" script="Sans" category="Letter" case="lower" sortName="mt798" />
     <glyph name="piSymbolsansbolditalic-math" unicode="1D7C9" unicode2="1D755" production="u1D7C9" script="Sans" category="Letter" case="lower" sortName="mt799" />
+
+    <glyph name="zero" unicode="0030" unicode2="1D7E2" category="Number" subCategory="Decimal Digit" sortName="Nu0" />
+    <glyph name="one" unicode="0031" unicode2="1D7E3" category="Number" subCategory="Decimal Digit" sortName="Nu1" />
+    <glyph name="two" unicode="0032" unicode2="1D7E4" category="Number" subCategory="Decimal Digit" sortName="Nu2" />
+    <glyph name="three" unicode="0033" unicode2="1D7E5" category="Number" subCategory="Decimal Digit" sortName="Nu3" />
+    <glyph name="four" unicode="0034" unicode2="1D7E6" category="Number" subCategory="Decimal Digit" sortName="Nu4" />
+    <glyph name="five" unicode="0035" unicode2="1D7E7" category="Number" subCategory="Decimal Digit" sortName="Nu5" />
+    <glyph name="six" unicode="0036" unicode2="1D7E8" category="Number" subCategory="Decimal Digit" sortName="Nu6" />
+    <glyph name="seven" unicode="0037" unicode2="1D7E9" category="Number" subCategory="Decimal Digit" sortName="Nu7" />
+    <glyph name="eight" unicode="0038" unicode2="1D7EA" category="Number" subCategory="Decimal Digit" sortName="Nu8" />
+    <glyph name="nine" unicode="0039" unicode2="1D7EB" category="Number" subCategory="Decimal Digit" sortName="Nu9" />
+    <glyph name="zerodoubleStruck" unicode="1D7D8" production="u1D7D8" category="Number" subCategory="Decimal Digit" sortName="bbNu0" />
+    <glyph name="onedoubleStruck" unicode="1D7D9" production="u1D7D9" category="Number" subCategory="Decimal Digit" sortName="bbNu1" />
+    <glyph name="twodoubleStruck" unicode="1D7DA" production="u1D7DA" category="Number" subCategory="Decimal Digit" sortName="bbNu2" />
+    <glyph name="threedoubleStruck" unicode="1D7DB" production="u1D7DB" category="Number" subCategory="Decimal Digit" sortName="bbNu3" />
+    <glyph name="fourdoubleStruck" unicode="1D7DC" production="u1D7DC" category="Number" subCategory="Decimal Digit" sortName="bbNu4" />
+    <glyph name="fivedoubleStruck" unicode="1D7DD" production="u1D7DD" category="Number" subCategory="Decimal Digit" sortName="bbNu5" />
+    <glyph name="sixdoubleStruck" unicode="1D7DE" production="u1D7DE" category="Number" subCategory="Decimal Digit" sortName="bbNu6" />
+    <glyph name="sevendoubleStruck" unicode="1D7DF" production="u1D7DF" category="Number" subCategory="Decimal Digit" sortName="bbNu7" />
+    <glyph name="eightdoubleStruck" unicode="1D7E0" production="u1D7E0" category="Number" subCategory="Decimal Digit" sortName="bbNu8" />
+    <glyph name="ninedoubleStruck" unicode="1D7E1" production="u1D7E1" category="Number" subCategory="Decimal Digit" sortName="bbNu9" />
+    <glyph name="zeromono-math" unicode="1D7F6" production="u1D7F6" category="Number" subCategory="Decimal Digit" sortName="monoNu0" />
+    <glyph name="onemono-math" unicode="1D7F7" production="u1D7F7" category="Number" subCategory="Decimal Digit" sortName="monoNu1" />
+    <glyph name="twomono-math" unicode="1D7F8" production="u1D7F8" category="Number" subCategory="Decimal Digit" sortName="monoNu2" />
+    <glyph name="threemono-math" unicode="1D7F9" production="u1D7F9" category="Number" subCategory="Decimal Digit" sortName="monoNu3" />
+    <glyph name="fourmono-math" unicode="1D7FA" production="u1D7FA" category="Number" subCategory="Decimal Digit" sortName="monoNu4" />
+    <glyph name="fivemono-math" unicode="1D7FB" production="u1D7FB" category="Number" subCategory="Decimal Digit" sortName="monoNu5" />
+    <glyph name="sixmono-math" unicode="1D7FC" production="u1D7FC" category="Number" subCategory="Decimal Digit" sortName="monoNu6" />
+    <glyph name="sevenmono-math" unicode="1D7FD" production="u1D7FD" category="Number" subCategory="Decimal Digit" sortName="monoNu7" />
+    <glyph name="eightmono-math" unicode="1D7FE" production="u1D7FE" category="Number" subCategory="Decimal Digit" sortName="monoNu8" />
+    <glyph name="ninemono-math" unicode="1D7FF" production="u1D7FF" category="Number" subCategory="Decimal Digit" sortName="monoNu9" />
+    <glyph name="zerosans-math" unicode="1D7E2" production="u1D7E2" category="Number" subCategory="Decimal Digit" sortName="sansNu0" />
+    <glyph name="onesans-math" unicode="1D7E3" production="u1D7E3" category="Number" subCategory="Decimal Digit" sortName="sansNu1" />
+    <glyph name="twosans-math" unicode="1D7E4" production="u1D7E4" category="Number" subCategory="Decimal Digit" sortName="sansNu2" />
+    <glyph name="threesans-math" unicode="1D7E5" production="u1D7E5" category="Number" subCategory="Decimal Digit" sortName="sansNu3" />
+    <glyph name="foursans-math" unicode="1D7E6" production="u1D7E6" category="Number" subCategory="Decimal Digit" sortName="sansNu4" />
+    <glyph name="fivesans-math" unicode="1D7E7" production="u1D7E7" category="Number" subCategory="Decimal Digit" sortName="sansNu5" />
+    <glyph name="sixsans-math" unicode="1D7E8" production="u1D7E8" category="Number" subCategory="Decimal Digit" sortName="sansNu6" />
+    <glyph name="sevensans-math" unicode="1D7E9" production="u1D7E9" category="Number" subCategory="Decimal Digit" sortName="sansNu7" />
+    <glyph name="eightsans-math" unicode="1D7EA" production="u1D7EA" category="Number" subCategory="Decimal Digit" sortName="sansNu8" />
+    <glyph name="ninesans-math" unicode="1D7EB" production="u1D7EB" category="Number" subCategory="Decimal Digit" sortName="sansNu9" />
+    <glyph name="zerosansbold-math" unicode="1D7EC" unicode2="1D7CE" production="u1D7EC" category="Number" subCategory="Decimal Digit" sortName="sansbNu0" />
+    <glyph name="onesansbold-math" unicode="1D7ED" unicode2="1D7CF" production="u1D7ED" category="Number" subCategory="Decimal Digit" sortName="sansbNu1" />
+    <glyph name="twosansbold-math" unicode="1D7EE" unicode2="1D7D0" production="u1D7EE" category="Number" subCategory="Decimal Digit" sortName="sansbNu2" />
+    <glyph name="threesansbold-math" unicode="1D7EF" unicode2="1D7D1" production="u1D7EF" category="Number" subCategory="Decimal Digit" sortName="sansbNu3" />
+    <glyph name="foursansbold-math" unicode="1D7F0" unicode2="1D7D2" production="u1D7F0" category="Number" subCategory="Decimal Digit" sortName="sansbNu4" />
+    <glyph name="fivesansbold-math" unicode="1D7F1" unicode2="1D7D3" production="u1D7F1" category="Number" subCategory="Decimal Digit" sortName="sansbNu5" />
+    <glyph name="sixsansbold-math" unicode="1D7F2" unicode2="1D7D4" production="u1D7F2" category="Number" subCategory="Decimal Digit" sortName="sansbNu6" />
+    <glyph name="sevensansbold-math" unicode="1D7F3" unicode2="1D7D5" production="u1D7F3" category="Number" subCategory="Decimal Digit" sortName="sansbNu7" />
+    <glyph name="eightsansbold-math" unicode="1D7F4" unicode2="1D7D6" production="u1D7F4" category="Number" subCategory="Decimal Digit" sortName="sansbNu8" />
+    <glyph name="ninesansbold-math" unicode="1D7F5" unicode2="1D7D7" production="u1D7F5" category="Number" subCategory="Decimal Digit" sortName="sansbNu9" />
+
 </glyphData>

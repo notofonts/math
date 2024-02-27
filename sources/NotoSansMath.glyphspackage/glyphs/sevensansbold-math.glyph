@@ -26,6 +26,5 @@ nodes = (
 width = 572;
 }
 );
-production = u1D7F3;
-unicode = 120819;
+unicode = (120819,120789);
 }
