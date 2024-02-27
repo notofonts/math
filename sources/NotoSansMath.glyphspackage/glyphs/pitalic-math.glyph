@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "pitalic-math";
 kernLeft = n;
 kernRight = o;

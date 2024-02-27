@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "ZBold-fraktur";
 layers = (
 {
@@ -113,6 +112,5 @@ nodes = (
 width = 597;
 }
 );
-production = u1D585;
 unicode = 120197;
 }

@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "iBold-fraktur.dtls";
 layers = (
 {
@@ -72,5 +71,4 @@ nodes = (
 width = 320;
 }
 );
-production = u1D58E.001;
 }

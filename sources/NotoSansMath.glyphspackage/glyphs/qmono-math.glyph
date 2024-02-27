@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "qmono-math";
 layers = (
 {
@@ -76,6 +75,5 @@ nodes = (
 width = 600;
 }
 );
-production = u1D69A;
 unicode = 120474;
 }

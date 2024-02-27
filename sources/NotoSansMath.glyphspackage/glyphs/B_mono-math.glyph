@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "Bmono-math";
 layers = (
 {
@@ -80,6 +79,5 @@ nodes = (
 width = 600;
 }
 );
-production = u1D671;
 unicode = 120433;
 }

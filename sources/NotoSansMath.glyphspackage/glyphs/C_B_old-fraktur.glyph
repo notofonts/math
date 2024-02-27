@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "CBold-fraktur";
 layers = (
 {
@@ -118,6 +117,5 @@ nodes = (
 width = 745;
 }
 );
-production = u1D56E;
 unicode = 120174;
 }

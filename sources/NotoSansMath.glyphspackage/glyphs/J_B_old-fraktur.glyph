@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "JBold-fraktur";
 layers = (
 {
@@ -152,6 +151,5 @@ nodes = (
 width = 665;
 }
 );
-production = u1D575;
 unicode = 120181;
 }

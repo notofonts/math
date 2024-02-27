@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "rbolditalic-math";
 kernLeft = n;
 kernRight = r;

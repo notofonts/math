@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "Hmono-math";
 layers = (
 {
@@ -52,6 +51,5 @@ nodes = (
 width = 600;
 }
 );
-production = u1D677;
 unicode = 120439;
 }

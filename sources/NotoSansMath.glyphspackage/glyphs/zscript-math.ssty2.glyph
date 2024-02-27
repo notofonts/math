@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = "zscript-math.ssty2";
 layers = (
 {
@@ -26,5 +26,4 @@ ref = "zboldscript-math";
 width = 437;
 }
 );
-production = u1D4CF.ssty2;
 }

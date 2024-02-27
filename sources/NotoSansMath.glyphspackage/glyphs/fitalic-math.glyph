@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "fitalic-math";
 kernLeft = f;
 kernRight = f;

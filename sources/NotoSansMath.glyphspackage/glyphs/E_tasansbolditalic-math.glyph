@@ -39,6 +39,6 @@ nodes = (
 width = 728;
 }
 );
-production = u1D796;
+script = Sans;
 unicode = 120726;
 }

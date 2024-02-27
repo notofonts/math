@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "zmono-math";
 layers = (
 {
@@ -46,6 +45,5 @@ nodes = (
 width = 600;
 }
 );
-production = u1D6A3;
 unicode = 120483;
 }

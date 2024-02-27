@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "Pmono-math";
 layers = (
 {
@@ -61,6 +60,5 @@ nodes = (
 width = 600;
 }
 );
-production = u1D67F;
 unicode = 120447;
 }

@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "Mmono-math";
 layers = (
 {
@@ -58,6 +57,5 @@ nodes = (
 width = 600;
 }
 );
-production = u1D67C;
 unicode = 120444;
 }

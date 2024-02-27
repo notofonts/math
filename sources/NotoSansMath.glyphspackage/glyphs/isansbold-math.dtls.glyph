@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "isansbold-math.dtls";
 layers = (
 {
@@ -32,5 +31,7 @@ nodes = (
 width = 305;
 }
 );
-production = u1D5F6.dotless;
+script = Sans;
+sortName = adtls.3sansi;
+sortNameKeep = mt334.dtls;
 }

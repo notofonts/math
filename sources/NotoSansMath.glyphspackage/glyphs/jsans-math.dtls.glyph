@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "jsans-math.dtls";
 layers = (
 {
@@ -44,5 +43,6 @@ nodes = (
 width = 258;
 }
 );
-production = u1D5C3.dotless;
+sortName = adtls.1sansj;
+sortNameKeep = dtls.mt283;
 }

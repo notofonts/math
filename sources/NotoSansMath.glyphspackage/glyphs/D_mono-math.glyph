@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "Dmono-math";
 layers = (
 {
@@ -59,6 +58,5 @@ nodes = (
 width = 600;
 }
 );
-production = u1D673;
 unicode = 120435;
 }

@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "mitalic-math";
 kernLeft = n;
 kernRight = n;

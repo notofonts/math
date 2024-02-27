@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "f-fraktur";
 layers = (
 {
@@ -76,6 +75,5 @@ nodes = (
 width = 307;
 }
 );
-production = u1D523;
 unicode = 120099;
 }

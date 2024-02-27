@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "Vmono-math";
 layers = (
 {
@@ -50,6 +49,5 @@ nodes = (
 width = 600;
 }
 );
-production = u1D685;
 unicode = 120453;
 }

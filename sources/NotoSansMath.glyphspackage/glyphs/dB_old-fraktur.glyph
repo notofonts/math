@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "dBold-fraktur";
 layers = (
 {
@@ -97,6 +96,5 @@ nodes = (
 width = 477;
 }
 );
-production = u1D589;
 unicode = 120201;
 }

@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "oitalic-math";
 kernLeft = o;
 kernRight = o;

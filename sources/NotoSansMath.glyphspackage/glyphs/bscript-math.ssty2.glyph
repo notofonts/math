@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = "bscript-math.ssty2";
 layers = (
 {
@@ -26,5 +26,4 @@ ref = "bboldscript-math";
 width = 480;
 }
 );
-production = u1D4B7.ssty2;
 }

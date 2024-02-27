@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "eBold-fraktur";
 layers = (
 {
@@ -72,6 +71,5 @@ nodes = (
 width = 415;
 }
 );
-production = u1D58A;
 unicode = 120202;
 }

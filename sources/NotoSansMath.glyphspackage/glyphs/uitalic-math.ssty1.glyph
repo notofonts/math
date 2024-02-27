@@ -1,5 +1,5 @@
 {
-color = 1;
+color = 4;
 glyphname = "uitalic-math.ssty1";
 kernLeft = u;
 layers = (

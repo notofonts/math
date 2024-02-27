@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "fmono-math";
 layers = (
 {
@@ -60,6 +59,5 @@ nodes = (
 width = 600;
 }
 );
-production = u1D68F;
 unicode = 120463;
 }

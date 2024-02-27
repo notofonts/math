@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = f.ssty2;
 kernLeft = f.right;
 kernRight = f.left;

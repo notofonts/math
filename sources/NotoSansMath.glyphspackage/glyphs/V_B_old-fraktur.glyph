@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "VBold-fraktur";
 layers = (
 {
@@ -143,6 +142,5 @@ nodes = (
 width = 868;
 }
 );
-production = u1D581;
 unicode = 120193;
 }

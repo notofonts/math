@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "qBold-fraktur";
 layers = (
 {
@@ -84,6 +83,5 @@ nodes = (
 width = 470;
 }
 );
-production = u1D596;
 unicode = 120214;
 }

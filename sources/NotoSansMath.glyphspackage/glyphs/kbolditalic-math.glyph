@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "kbolditalic-math";
 kernLeft = b;
 kernRight = k;

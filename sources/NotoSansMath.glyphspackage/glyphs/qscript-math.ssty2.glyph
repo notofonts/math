@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = "qscript-math.ssty2";
 layers = (
 {
@@ -26,5 +26,4 @@ ref = "qboldscript-math";
 width = 520;
 }
 );
-production = u1D4C6.ssty2;
 }

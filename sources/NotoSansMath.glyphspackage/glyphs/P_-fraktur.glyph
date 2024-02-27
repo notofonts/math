@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "P-fraktur";
 layers = (
 {
@@ -127,6 +126,5 @@ nodes = (
 width = 731;
 }
 );
-production = u1D513;
 unicode = 120083;
 }

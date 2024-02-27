@@ -58,6 +58,8 @@ nodes = (
 width = 677;
 }
 );
-production = u1D63F;
+script = Sans;
+sortName = a4sansD;
+sortNameKeep = mt407;
 unicode = 120383;
 }

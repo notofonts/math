@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = T.ssty2;
 kernLeft = T.right;
 kernRight = T.left;

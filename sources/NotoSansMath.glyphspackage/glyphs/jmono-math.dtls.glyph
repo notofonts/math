@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "jmono-math.dtls";
 layers = (
 {
@@ -46,5 +45,4 @@ nodes = (
 width = 600;
 }
 );
-production = u1D693.dotless;
 }

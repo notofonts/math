@@ -46,3 +46,5 @@ includeSubsets:
         end: 0x2127
 sources:
   - NotoSansMath.glyphspackage
+glyphData:
+  - GlyphData.xml

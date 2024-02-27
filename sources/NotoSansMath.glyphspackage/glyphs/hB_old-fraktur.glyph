@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "hBold-fraktur";
 layers = (
 {
@@ -86,6 +85,5 @@ nodes = (
 width = 461;
 }
 );
-production = u1D58D;
 unicode = 120205;
 }

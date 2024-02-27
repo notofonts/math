@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "mbolditalic-math";
 kernLeft = n;
 kernRight = n;

@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "Emono-math";
 layers = (
 {
@@ -56,6 +55,5 @@ nodes = (
 width = 600;
 }
 );
-production = u1D674;
 unicode = 120436;
 }

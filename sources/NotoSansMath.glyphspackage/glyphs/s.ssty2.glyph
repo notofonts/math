@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = s.ssty2;
 kernLeft = s.right;
 layers = (

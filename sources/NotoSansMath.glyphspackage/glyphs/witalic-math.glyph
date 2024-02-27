@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "witalic-math";
 kernLeft = w;
 kernRight = w;
