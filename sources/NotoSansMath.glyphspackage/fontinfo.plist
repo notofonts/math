@@ -4843,6 +4843,8 @@ sub zdoubleStruck from [zdoubleStruck.ssty1 zdoubleStruck.ssty2];
 sub planckconstantovertwopi from [planckconstantovertwopi.ssty1 planckconstantovertwopi.ssty2];
 sub idoubleStruck.dtls from [idoubleStruck.dtls.ssty1 idoubleStruck.dtls.ssty2];
 sub jdoubleStruck.dtls from [jdoubleStruck.dtls.ssty1 jdoubleStruck.dtls.ssty2];
+sub iitalicDoubleStruck.dtls from [iitalicDoubleStruck.dtls.ssty1 iitalicDoubleStruck.dtls.ssty2];
+sub jitalicDoubleStruck.dtls from [jitalicDoubleStruck.dtls.ssty1 jitalicDoubleStruck.dtls.ssty2];
 sub aeTurnedmod from [aeTurnedmod.ssty1 aeTurnedmod.ssty2];
 sub zero from [zero.ssty1 zero.ssty2];
 sub one from [one.ssty1 one.ssty2];
