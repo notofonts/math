@@ -38,5 +38,5 @@ ref = dotaccentcomb;
 width = 258;
 }
 );
-unicode = 106;
+unicode = (106,120259);
 }

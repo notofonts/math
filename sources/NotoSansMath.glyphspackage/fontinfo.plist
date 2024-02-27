@@ -73,14 +73,14 @@ j-fraktur.dtls
 #jdotlessitalic-math
 #ibold-math.dtls
 imono-math.dtls
-isans-math.dtls
+#isans-math.dtls
 isansbold-math.dtls
 isansbolditalic-math.dtls
 isansitalic-math.dtls
 iscript-math.dtls
 #jbold-math.dtls
 jmono-math.dtls
-jsans-math.dtls
+#jsans-math.dtls
 jsansbold-math.dtls
 jsansbolditalic-math.dtls
 jsansitalic-math.dtls
@@ -105,14 +105,14 @@ j-fraktur
 #jitalic-math
 #ibold-math
 imono-math
-isans-math
+#isans-math
 isansbold-math
 isansbolditalic-math
 isansitalic-math
 iscript-math
 #jbold-math
 jmono-math
-jsans-math
+#jsans-math
 jsansbold-math
 jsansbolditalic-math
 jsansitalic-math
@@ -4504,8 +4504,6 @@ sub iBold-fraktur by iBold-fraktur.dtls;
 sub jBold-fraktur by jBold-fraktur.dtls;
 sub imono-math by imono-math.dtls;
 sub jmono-math by jmono-math.dtls;
-sub isans-math by isans-math.dtls;
-sub jsans-math by jsans-math.dtls;
 sub isansitalic-math by isansitalic-math.dtls;
 sub jsansitalic-math by jsansitalic-math.dtls;
 sub isansbold-math by isansbold-math.dtls;
