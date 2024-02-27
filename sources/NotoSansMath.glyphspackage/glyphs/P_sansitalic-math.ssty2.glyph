@@ -1,0 +1,61 @@
+{
+color = 5;
+glyphname = "Psansitalic-math.ssty2";
+kernRight = P.left;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (246,0);
+},
+{
+name = center;
+pos = (319,357);
+},
+{
+name = top;
+pos = (385,714);
+},
+{
+name = topright;
+pos = (682,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(173,0,l),
+(226,255,l),
+(302,255,ls),
+(480,255,o),
+(613,337,o),
+(613,507,cs),
+(613,630,o),
+(548,714,o),
+(375,714,cs),
+(178,714,l),
+(27,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(253,377,l),
+(299,592,l),
+(369,592,ls),
+(433,592,o),
+(465,564,o),
+(465,503,cs),
+(465,423,o),
+(405,377,o),
+(314,377,cs)
+);
+}
+);
+width = 608;
+}
+);
+}

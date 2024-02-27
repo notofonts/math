@@ -1,0 +1,45 @@
+{
+color = 4;
+glyphname = "Tsansitalic-math.ssty1";
+kernLeft = T.right;
+kernRight = T.left;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (203,0);
+},
+{
+name = center;
+pos = (301,357);
+},
+{
+name = top;
+pos = (355,714);
+},
+{
+name = topright;
+pos = (596,714);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(267,0,l),
+(395,602,l),
+(574,602,l),
+(598,714,l),
+(108,714,l),
+(84,602,l),
+(263,602,l),
+(137,0,l)
+);
+}
+);
+width = 522;
+}
+);
+}

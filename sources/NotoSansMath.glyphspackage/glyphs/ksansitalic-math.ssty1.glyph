@@ -1,0 +1,53 @@
+{
+color = 4;
+glyphname = "ksansitalic-math.ssty1";
+kernLeft = b;
+kernRight = k.left;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (239,0);
+},
+{
+name = center;
+pos = (304,380);
+},
+{
+name = top;
+pos = (245,760);
+},
+{
+name = topright;
+pos = (566,854);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(150,0,l),
+(187,177,l),
+(251,219,l),
+(347,0,l),
+(490,0,l),
+(350,302,l),
+(589,543,l),
+(441,543,l),
+(210,302,l),
+(206,302,l),
+(212,324,o),
+(230,376,o),
+(241,433,cs),
+(311,760,l),
+(181,760,l),
+(20,0,l)
+);
+}
+);
+width = 546;
+}
+);
+}

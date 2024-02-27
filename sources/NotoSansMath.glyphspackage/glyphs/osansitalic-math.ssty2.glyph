@@ -1,0 +1,66 @@
+{
+color = 5;
+glyphname = "osansitalic-math.ssty2";
+kernLeft = o.right;
+kernRight = o.left;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (251,0);
+},
+{
+name = center;
+pos = (351,273);
+},
+{
+name = top;
+pos = (342,546);
+},
+{
+name = topright;
+pos = (622,546);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(450,-10,o),
+(540,156,o),
+(540,340,cs),
+(540,476,o),
+(460,555,o),
+(333,555,cs),
+(140,555,o),
+(44,392,o),
+(44,200,cs),
+(44,70,o),
+(130,-10,o),
+(253,-10,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(214,108,o),
+(190,140,o),
+(190,200,cs),
+(190,301,o),
+(233,437,o),
+(323,437,cs),
+(376,437,o),
+(394,395,o),
+(394,340,cs),
+(394,220,o),
+(346,108,o),
+(265,108,cs)
+);
+}
+);
+width = 584;
+}
+);
+}

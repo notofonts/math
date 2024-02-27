@@ -1,0 +1,40 @@
+{
+color = 5;
+glyphname = "lsansitalic-math.ssty2";
+kernLeft = b;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (90,0);
+},
+{
+name = center;
+pos = (206,273);
+},
+{
+name = top;
+pos = (253,760);
+},
+{
+name = topright;
+pos = (341,760);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(163,0,l),
+(323.992,760,l),
+(179,760,l),
+(18,0,l)
+);
+}
+);
+width = 295;
+}
+);
+}
