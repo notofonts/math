@@ -21,6 +21,7 @@ name = top;
 pos = (415,586);
 }
 );
+color = 0;
 guides = (
 {
 angle = 78;

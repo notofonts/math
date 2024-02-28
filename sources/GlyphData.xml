@@ -895,6 +895,65 @@
     <glyph name="rhoSymbolsansbolditalic-math" unicode="1D7C8" unicode2="1D754" production="u1D7C8" script="Sans" category="Letter" case="lower" sortName="mt798" />
     <glyph name="piSymbolsansbolditalic-math" unicode="1D7C9" unicode2="1D755" production="u1D7C9" script="Sans" category="Letter" case="lower" sortName="mt799" />
 
+    <glyph name="Alphaitalic-math" unicode="1D6E2" production="u1D6E2" script="Sans" category="Letter" case="upper" sortName="mt568" />
+    <glyph name="Betaitalic-math" unicode="1D6E3" production="u1D6E3" script="Sans" category="Letter" case="upper" sortName="mt569" />
+    <glyph name="Gammaitalic-math" unicode="1D6E4" production="u1D6E4" script="Sans" category="Letter" case="upper" sortName="mt570" />
+    <glyph name="Deltaitalic-math" unicode="1D6E5" production="u1D6E5" script="Sans" category="Letter" case="upper" sortName="mt571" />
+    <glyph name="Epsilonitalic-math" unicode="1D6E6" production="u1D6E6" script="Sans" category="Letter" case="upper" sortName="mt572" />
+    <glyph name="Zetaitalic-math" unicode="1D6E7" production="u1D6E7" script="Sans" category="Letter" case="upper" sortName="mt573" />
+    <glyph name="Etaitalic-math" unicode="1D6E8" production="u1D6E8" script="Sans" category="Letter" case="upper" sortName="mt574" />
+    <glyph name="Thetaitalic-math" unicode="1D6E9" production="u1D6E9" script="Sans" category="Letter" case="upper" sortName="mt575" />
+    <glyph name="Iotaitalic-math" unicode="1D6EA" production="u1D6EA" script="Sans" category="Letter" case="upper" sortName="mt576" />
+    <glyph name="Kappaitalic-math" unicode="1D6EB" production="u1D6EB" script="Sans" category="Letter" case="upper" sortName="mt577" />
+    <glyph name="Lambdaitalic-math" unicode="1D6EC" production="u1D6EC" script="Sans" category="Letter" case="upper" sortName="mt578" />
+    <glyph name="Muitalic-math" unicode="1D6ED" production="u1D6ED" script="Sans" category="Letter" case="upper" sortName="mt579" />
+    <glyph name="Nuitalic-math" unicode="1D6EE" production="u1D6EE" script="Sans" category="Letter" case="upper" sortName="mt580" />
+    <glyph name="Xiitalic-math" unicode="1D6EF" production="u1D6EF" script="Sans" category="Letter" case="upper" sortName="mt581" />
+    <glyph name="Omicronitalic-math" unicode="1D6F0" production="u1D6F0" script="Sans" category="Letter" case="upper" sortName="mt582" />
+    <glyph name="Piitalic-math" unicode="1D6F1" production="u1D6F1" script="Sans" category="Letter" case="upper" sortName="mt583" />
+    <glyph name="Rhoitalic-math" unicode="1D6F2" production="u1D6F2" script="Sans" category="Letter" case="upper" sortName="mt584" />
+    <glyph name="ThetaSymbolitalic-math" unicode="1D6F3" production="u1D6F3" script="Sans" category="Letter" case="upper" sortName="mt585" />
+    <glyph name="Sigmaitalic-math" unicode="1D6F4" production="u1D6F4" script="Sans" category="Letter" case="upper" sortName="mt586" />
+    <glyph name="Tauitalic-math" unicode="1D6F5" production="u1D6F5" script="Sans" category="Letter" case="upper" sortName="mt587" />
+    <glyph name="Upsilonitalic-math" unicode="1D6F6" production="u1D6F6" script="Sans" category="Letter" case="upper" sortName="mt588" />
+    <glyph name="Phiitalic-math" unicode="1D6F7" production="u1D6F7" script="Sans" category="Letter" case="upper" sortName="mt589" />
+    <glyph name="Chiitalic-math" unicode="1D6F8" production="u1D6F8" script="Sans" category="Letter" case="upper" sortName="mt590" />
+    <glyph name="Psiitalic-math" unicode="1D6F9" production="u1D6F9" script="Sans" category="Letter" case="upper" sortName="mt591" />
+    <glyph name="Omegaitalic-math" unicode="1D6FA" production="u1D6FA" script="Sans" category="Letter" case="upper" sortName="mt592" />
+    <glyph name="alphaitalic-math" unicode="1D6FC" production="u1D6FC" script="Sans" category="Letter" case="lower" sortName="mt594" />
+    <glyph name="betaitalic-math" unicode="1D6FD" production="u1D6FD" script="Sans" category="Letter" case="lower" sortName="mt595" />
+    <glyph name="gammaitalic-math" unicode="1D6FE" production="u1D6FE" script="Sans" category="Letter" case="lower" sortName="mt596" />
+    <glyph name="deltaitalic-math" unicode="1D6FF" production="u1D6FF" script="Sans" category="Letter" case="lower" sortName="mt597" />
+    <glyph name="epsilonitalic-math" unicode="1D700" production="u1D700" script="Sans" category="Letter" case="lower" sortName="mt598" />
+    <glyph name="zetaitalic-math" unicode="1D701" production="u1D701" script="Sans" category="Letter" case="lower" sortName="mt599" />
+    <glyph name="etaitalic-math" unicode="1D702" production="u1D702" script="Sans" category="Letter" case="lower" sortName="mt600" />
+    <glyph name="thetaitalic-math" unicode="1D703" production="u1D703" script="Sans" category="Letter" case="lower" sortName="mt601" />
+    <glyph name="iotaitalic-math" unicode="1D704" production="u1D704" script="Sans" category="Letter" case="lower" sortName="mt602" />
+    <glyph name="kappaitalic-math" unicode="1D705" production="u1D705" script="Sans" category="Letter" case="lower" sortName="mt603" />
+    <glyph name="lambdaitalic-math" unicode="1D706" production="u1D706" script="Sans" category="Letter" case="lower" sortName="mt604" />
+    <glyph name="muitalic-math" unicode="1D707" production="u1D707" script="Sans" category="Letter" case="lower" sortName="mt605" />
+    <glyph name="nuitalic-math" unicode="1D708" production="u1D708" script="Sans" category="Letter" case="lower" sortName="mt606" />
+    <glyph name="xiitalic-math" unicode="1D709" production="u1D709" script="Sans" category="Letter" case="lower" sortName="mt607" />
+    <glyph name="omicronitalic-math" unicode="1D70A" production="u1D70A" script="Sans" category="Letter" case="lower" sortName="mt608" />
+    <glyph name="piitalic-math" unicode="1D70B" production="u1D70B" script="Sans" category="Letter" case="lower" sortName="mt609" />
+    <glyph name="rhoitalic-math" unicode="1D70C" production="u1D70C" script="Sans" category="Letter" case="lower" sortName="mt610" />
+    <glyph name="sigmafinalitalic-math" unicode="1D70D" production="u1D70D" script="Sans" category="Letter" case="lower" sortName="mt611" />
+    <glyph name="sigmaitalic-math" unicode="1D70E" production="u1D70E" script="Sans" category="Letter" case="lower" sortName="mt612" />
+    <glyph name="tauitalic-math" unicode="1D70F" production="u1D70F" script="Sans" category="Letter" case="lower" sortName="mt613" />
+    <glyph name="upsilonitalic-math" unicode="1D710" production="u1D710" script="Sans" category="Letter" case="lower" sortName="mt614" />
+    <glyph name="phiitalic-math" unicode="1D711" production="u1D711" script="Sans" category="Letter" case="lower" sortName="mt615" />
+    <glyph name="chiitalic-math" unicode="1D712" production="u1D712" script="Sans" category="Letter" case="lower" sortName="mt616" />
+    <glyph name="psiitalic-math" unicode="1D713" production="u1D713" script="Sans" category="Letter" case="lower" sortName="mt617" />
+    <glyph name="omegaitalic-math" unicode="1D714" production="u1D714" script="Sans" category="Letter" case="lower" sortName="mt618" />
+    <glyph name="epsilonLunateSymbolitalic-math" unicode="1D716" production="u1D716" script="Sans" category="Letter" case="lower" sortName="mt620" />
+    <glyph name="thetaSymbolitalic-math" unicode="1D717" production="u1D717" script="Sans" category="Letter" case="lower" sortName="mt621" />
+    <glyph name="kappaSymbolitalic-math" unicode="1D718" production="u1D718" script="Sans" category="Letter" case="lower" sortName="mt622" />
+    <glyph name="phiSymbolitalic-math" unicode="1D719" production="u1D719" script="Sans" category="Letter" case="lower" sortName="mt623" />
+    <glyph name="rhoSymbolitalic-math" unicode="1D71A" production="u1D71A" script="Sans" category="Letter" case="lower" sortName="mt624" />
+    <glyph name="piSymbolitalic-math" unicode="1D71B" production="u1D71B" script="Sans" category="Letter" case="lower" sortName="mt625" />
+    <glyph name="Digammabold-math" unicode="1D7CA" production="u1D7CA" script="Sans" category="Letter" case="upper" sortName="mt800" />
+    <glyph name="digammabold-math" unicode="1D7CB" production="u1D7CB" script="Sans" category="Letter" case="lower" sortName="mt801" />
+
     <glyph name="zero" unicode="0030" unicode2="1D7E2" category="Number" subCategory="Decimal Digit" sortName="Nu0" />
     <glyph name="one" unicode="0031" unicode2="1D7E3" category="Number" subCategory="Decimal Digit" sortName="Nu1" />
     <glyph name="two" unicode="0032" unicode2="1D7E4" category="Number" subCategory="Decimal Digit" sortName="Nu2" />

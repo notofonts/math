@@ -1,69 +1,28 @@
 {
 glyphname = "omicronitalic-math";
+kernLeft = GRK_omicron;
+kernRight = GRK_omicron;
 layers = (
 {
 anchors = (
 {
 name = bottom;
-pos = (230,0);
-},
-{
-name = center;
-pos = (287,268);
-},
-{
-name = math.ta;
-pos = (344,586);
+pos = (245,0);
 },
 {
 name = top;
-pos = (344,586);
-},
-{
-name = topright;
-pos = (611,536);
+pos = (322,536);
 }
 );
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(440,-10,o),
-(531,197,o),
-(531,339,cs),
-(531,486,o),
-(446,546,o),
-(341,546,cs),
-(138,546,o),
-(43,345,o),
-(43,197,cs),
-(43,58,o),
-(122,-10,o),
-(235,-10,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(186,41,o),
-(147,78,o),
-(147,179,cs),
-(147,299,o),
-(199,495,o),
-(329,495,cs),
-(390,495,o),
-(427,456,o),
-(427,356,cs),
-(427,236,o),
-(376,41,o),
-(246,41,cs)
-);
+alignment = -1;
+ref = "osansitalic-math";
 }
 );
-width = 574;
+width = 563;
 }
 );
-production = u1D70A;
 unicode = 120586;
 }

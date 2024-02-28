@@ -1,64 +1,18 @@
 {
 color = 5;
 glyphname = "Zetaitalic-math.ssty2";
+kernLeft = GRK_Zeta;
+kernRight = GRK_Zeta;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (283,0);
-},
-{
-name = center;
-pos = (355,357);
-},
-{
-name = math.ic;
-pos = (735,250);
-},
-{
-name = math.ta;
-pos = (435,764);
-},
-{
-name = top;
-pos = (435,714);
-},
-{
-name = topright;
-pos = (754,714);
-}
-);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(584,0,l),
-(631,202,l),
-(560,202,l),
-(549,164,ls),
-(524,82,o),
-(478,58,o),
-(418,58,cs),
-(192,58,l),
-(706,666,l),
-(715,714,l),
-(163,714,l),
-(116,513,l),
-(186,513,l),
-(204,575,ls),
-(221,636,o),
-(255,656,o),
-(317,656,cs),
-(517,656,l),
-(4,47,l),
-(-4,0,l)
-);
+alignment = -1;
+ref = "Zsansitalic-math.ssty2";
 }
 );
-width = 645;
+width = 536;
 }
 );
-production = u1D6E7.ssty2;
 }
