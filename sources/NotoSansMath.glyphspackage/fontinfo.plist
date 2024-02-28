@@ -131,12 +131,6 @@ name = ij;
 );
 customParameters = (
 {
-name = openTypeOS2Selection;
-value = (
-8
-);
-},
-{
 name = fsType;
 value = (
 );
