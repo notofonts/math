@@ -3,6 +3,12 @@ color = 4;
 glyphname = "epsilonLunateSymbolitalic-math.ssty1";
 layers = (
 {
+anchors = (
+{
+name = math.ta;
+pos = (335,0);
+}
+);
 layerId = master01;
 shapes = (
 {

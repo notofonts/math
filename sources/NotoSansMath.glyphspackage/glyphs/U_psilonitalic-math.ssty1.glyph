@@ -5,16 +5,9 @@ kernLeft = GRK_Upsilon;
 kernRight = GRK_Upsilon;
 layers = (
 {
-anchors = (
-{
-name = topleft;
-pos = (53,714);
-}
-);
 layerId = master01;
 shapes = (
 {
-alignment = -1;
 ref = "Ysansitalic-math.ssty1";
 }
 );

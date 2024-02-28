@@ -5,16 +5,9 @@ kernLeft = GRK_Epsilon;
 kernRight = GRK_Eta;
 layers = (
 {
-anchors = (
-{
-name = topleft;
-pos = (76,714);
-}
-);
 layerId = master01;
 shapes = (
 {
-alignment = -1;
 ref = "Isansitalic-math.ssty2";
 }
 );

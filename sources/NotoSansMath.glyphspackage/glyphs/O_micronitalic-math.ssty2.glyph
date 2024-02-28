@@ -5,16 +5,9 @@ kernLeft = GRK_Omicron;
 kernRight = GRK_Omicron;
 layers = (
 {
-anchors = (
-{
-name = topleft;
-pos = (146,714);
-}
-);
 layerId = master01;
 shapes = (
 {
-alignment = -1;
 ref = "Osansitalic-math.ssty2";
 }
 );

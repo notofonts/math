@@ -2,13 +2,12 @@
 glyphname = "epsilonLunateSymbolitalic-math";
 layers = (
 {
-background = {
-shapes = (
+anchors = (
 {
-ref = "e-cy";
+name = math.ta;
+pos = (344,0);
 }
 );
-};
 layerId = master01;
 shapes = (
 {

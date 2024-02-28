@@ -5,6 +5,12 @@ kernLeft = GRK_omicron;
 kernRight = GRK_omicron;
 layers = (
 {
+anchors = (
+{
+name = math.ta;
+pos = (500,0);
+}
+);
 layerId = master01;
 shapes = (
 {

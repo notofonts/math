@@ -3,16 +3,9 @@ color = 4;
 glyphname = "Alphaitalic-math.ssty1";
 layers = (
 {
-anchors = (
-{
-name = topleft;
-pos = (180,714);
-}
-);
 layerId = master01;
 shapes = (
 {
-alignment = -1;
 ref = "Asansitalic-math.ssty1";
 }
 );

@@ -4,12 +4,6 @@ kernLeft = GRK_Epsilon;
 kernRight = GRK_Rho;
 layers = (
 {
-anchors = (
-{
-name = topleft;
-pos = (96,714);
-}
-);
 layerId = master01;
 shapes = (
 {

@@ -9,6 +9,10 @@ anchors = (
 {
 name = center;
 pos = (279,279);
+},
+{
+name = math.ta;
+pos = (359,0);
 }
 );
 layerId = master01;

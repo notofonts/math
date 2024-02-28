@@ -15,6 +15,10 @@ name = center;
 pos = (235,277);
 },
 {
+name = math.ta;
+pos = (292,0);
+},
+{
 name = top;
 pos = (292,543);
 },

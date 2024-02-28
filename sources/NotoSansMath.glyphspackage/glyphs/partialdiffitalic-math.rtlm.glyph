@@ -3,6 +3,12 @@ color = 3;
 glyphname = "partialdiffitalic-math.rtlm";
 layers = (
 {
+anchors = (
+{
+name = math.ta;
+pos = (281,0);
+}
+);
 layerId = master01;
 shapes = (
 {
