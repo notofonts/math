@@ -4678,7 +4678,6 @@ sub y-fraktur from [y-fraktur.ssty1 y-fraktur.ssty2];
 sub z-fraktur from [z-fraktur.ssty1 z-fraktur.ssty2];
 sub i-fraktur.dtls from [i-fraktur.dtls.ssty1 i-fraktur.dtls.ssty2];
 sub j-fraktur.dtls from [j-fraktur.dtls.ssty1 j-fraktur.dtls.ssty2];
-sub gitalic-math.alt from [gitalic-math.alt.ssty1 gitalic-math.alt.ssty2];
 sub Asansitalic-math from [Asansitalic-math.ssty1 Asansitalic-math.ssty2];
 sub Bsansitalic-math from [Bsansitalic-math.ssty1 Bsansitalic-math.ssty2];
 sub Csansitalic-math from [Csansitalic-math.ssty1 Csansitalic-math.ssty2];
