@@ -5,7 +5,7 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (350,357);
+pos = (245,357);
 }
 );
 layerId = master01;
@@ -13,13 +13,13 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(650,357,l),
-(50,657,l),
-(50,57,l)
+(439,357,l),
+(51,746,l),
+(51,-32,l)
 );
 }
 );
-width = 700;
+width = 490;
 }
 );
 unicode = 128898;
