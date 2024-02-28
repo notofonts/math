@@ -131,12 +131,6 @@ name = ij;
 );
 customParameters = (
 {
-name = codePageRanges;
-value = (
-"1252"
-);
-},
-{
 name = openTypeOS2Selection;
 value = (
 8
@@ -145,27 +139,6 @@ value = (
 {
 name = fsType;
 value = (
-);
-},
-{
-name = unicodeRanges;
-value = (
-0,
-1,
-6,
-7,
-31,
-34,
-35,
-37,
-38,
-39,
-42,
-45,
-46,
-57,
-68,
-89
 );
 },
 {
