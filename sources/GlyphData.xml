@@ -957,7 +957,10 @@
     <glyph name="partialdiffsansbold-math" unicode="1D789" unicode2="1D6DB" production="u1D789" script="Sans" category="Letter" case="lower" sortName="mt735" />
     <glyph name="partialdiffsansbolditalic-math" unicode="1D7C3" unicode2="1D74F" production="u1D7C3" script="Sans" category="Letter" case="lower" sortName="mt793" />
     <glyph name="partialdiff" unicode="2202" script="greek" category="Letter" case="lower" sortName="gr049" />
-
+    <glyph name="Nabla" unicode="2207" script="greek" production="uni2207" category="Letter" case="upper" sortName="gr24" />
+    <glyph name="Nablaitalic-math" unicode="1D6FB" production="u1D6FB" script="Sans" category="Letter" case="upper" sortName="mt593" />
+    <glyph name="Nablasansbold-math" unicode="1D76F" unicode2="1D6C1" production="u1D76F" script="Sans" category="Letter" case="upper" sortName="mt709" />
+    <glyph name="Nablasansbolditalic-math" unicode="1D7A9" unicode2="1D735" production="u1D7A9" script="Sans" category="Letter" case="upper" sortName="mt767" />
 
     <glyph name="zero" unicode="0030" unicode2="1D7E2" category="Number" subCategory="Decimal Digit" sortName="Nu0" />
     <glyph name="one" unicode="0031" unicode2="1D7E3" category="Number" subCategory="Decimal Digit" sortName="Nu1" />

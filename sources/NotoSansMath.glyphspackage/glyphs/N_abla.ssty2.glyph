@@ -1,0 +1,23 @@
+{
+color = 5;
+glyphname = Nabla.ssty2;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (350,357);
+}
+);
+layerId = master01;
+shapes = (
+{
+angle = 180;
+pos = (705,714);
+ref = Delta.ssty2;
+}
+);
+width = 705;
+}
+);
+}

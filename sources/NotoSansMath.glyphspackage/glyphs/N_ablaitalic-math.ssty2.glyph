@@ -1,0 +1,27 @@
+{
+color = 5;
+glyphname = "Nablaitalic-math.ssty2";
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (444,357);
+},
+{
+name = math.ic;
+pos = (731,250);
+}
+);
+layerId = master01;
+shapes = (
+{
+angle = 180;
+pos = (635,714);
+ref = "Deltaitalic-math.ssty2";
+}
+);
+width = 635;
+}
+);
+}

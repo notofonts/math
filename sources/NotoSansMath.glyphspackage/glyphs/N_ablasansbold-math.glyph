@@ -1,5 +1,5 @@
 {
-glyphname = "gradientsansbold-math";
+glyphname = "Nablasansbold-math";
 layers = (
 {
 anchors = (
@@ -31,6 +31,5 @@ nodes = (
 width = 697;
 }
 );
-production = u1D76F;
-unicode = 120687;
+unicode = (120687,120513);
 }
