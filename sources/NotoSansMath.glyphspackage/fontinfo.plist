@@ -994,9 +994,9 @@ stemValues = (
 );
 userData = {
 GSCornerRadius = 20;
-GSOffsetHorizontal = -17;
+GSOffsetHorizontal = 35;
 GSOffsetKeepCompatible = 1;
-GSOffsetPosition = 1;
+GSOffsetMakeStroke = 1;
 GSOffsetProportional = 1;
 GSOffsetVertical = 16;
 com.nagwa.MATHPlugin.constants = {
