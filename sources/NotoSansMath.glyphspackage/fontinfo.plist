@@ -994,9 +994,10 @@ stemValues = (
 );
 userData = {
 GSCornerRadius = 20;
-GSOffsetHorizontal = 24;
+GSOffsetHorizontal = -17;
 GSOffsetKeepCompatible = 1;
 GSOffsetPosition = 1;
+GSOffsetProportional = 1;
 GSOffsetVertical = 16;
 com.nagwa.MATHPlugin.constants = {
 AccentBaseHeight = 546;
@@ -1058,7 +1059,6 @@ UpperLimitBaselineRiseMin = 300;
 UpperLimitGapMin = 135;
 };
 };
-visible = 1;
 }
 );
 instances = (
