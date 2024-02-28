@@ -13,7 +13,7 @@ pos = (975,250);
 },
 {
 name = math.ta;
-pos = (755,764);
+pos = (755,0);
 },
 {
 name = top;

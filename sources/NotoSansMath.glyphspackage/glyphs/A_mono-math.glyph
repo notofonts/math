@@ -13,7 +13,7 @@ pos = (300,358);
 },
 {
 name = math.ta;
-pos = (300,764);
+pos = (300,0);
 },
 {
 name = ogonek;
