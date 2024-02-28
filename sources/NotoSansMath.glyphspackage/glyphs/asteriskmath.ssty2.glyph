@@ -38,5 +38,4 @@ nodes = (
 width = 501;
 }
 );
-production = asteriskmath.ssty2;
 }

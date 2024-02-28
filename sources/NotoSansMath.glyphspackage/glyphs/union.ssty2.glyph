@@ -38,5 +38,4 @@ nodes = (
 width = 684;
 }
 );
-production = union.ssty2;
 }

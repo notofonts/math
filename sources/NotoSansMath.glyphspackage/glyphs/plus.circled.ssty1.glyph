@@ -67,5 +67,4 @@ nodes = (
 width = 756;
 }
 );
-production = circleplus.ssty1;
 }

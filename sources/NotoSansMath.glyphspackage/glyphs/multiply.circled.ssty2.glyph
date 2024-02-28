@@ -67,5 +67,4 @@ nodes = (
 width = 770;
 }
 );
-production = circlemultiply.ssty2;
 }

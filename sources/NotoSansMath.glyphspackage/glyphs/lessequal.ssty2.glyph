@@ -36,5 +36,4 @@ nodes = (
 width = 572;
 }
 );
-production = lessequal.ssty2;
 }

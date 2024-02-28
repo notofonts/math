@@ -29,5 +29,4 @@ nodes = (
 width = 648;
 }
 );
-production = radical.ssty2;
 }

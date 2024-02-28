@@ -32,5 +32,4 @@ nodes = (
 width = 570;
 }
 );
-production = multiply.ssty2;
 }

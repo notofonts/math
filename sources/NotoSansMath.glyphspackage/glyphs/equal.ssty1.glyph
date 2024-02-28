@@ -33,5 +33,4 @@ nodes = (
 width = 580;
 }
 );
-production = equal.ssty1;
 }

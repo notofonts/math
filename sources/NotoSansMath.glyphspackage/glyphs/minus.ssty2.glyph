@@ -19,5 +19,4 @@ ref = hyphen.ssty2;
 width = 326;
 }
 );
-production = minus.ssty2;
 }

@@ -48,5 +48,4 @@ nodes = (
 width = 427;
 }
 );
-production = integral.ssty2;
 }

@@ -47,5 +47,4 @@ nodes = (
 width = 720;
 }
 );
-production = suchthat.ssty1;
 }

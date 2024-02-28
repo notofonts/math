@@ -27,5 +27,4 @@ nodes = (
 width = 575;
 }
 );
-production = less.ssty1;
 }

@@ -28,5 +28,4 @@ nodes = (
 width = 715;
 }
 );
-production = logicalor.ssty1;
 }
