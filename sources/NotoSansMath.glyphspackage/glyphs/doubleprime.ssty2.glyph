@@ -3,34 +3,16 @@ color = 5;
 glyphname = doubleprime.ssty2;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (287,583);
-}
-);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(360,452,l),
-(536,714,l),
-(403,714,l),
-(261,452,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(137,452,l),
-(313,714,l),
-(180,714,l),
-(38,452,l)
-);
+alignment = 3;
+pos = (0,-912);
+ref = doubleprime;
+scale = (2,2);
 }
 );
-width = 523;
+width = 816;
 }
 );
 }

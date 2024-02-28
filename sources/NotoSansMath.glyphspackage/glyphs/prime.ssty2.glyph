@@ -3,27 +3,16 @@ color = 5;
 glyphname = prime.ssty2;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (176,583);
-}
-);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(138,452,l),
-(314,714,l),
-(181,714,l),
-(39,452,l)
-);
+alignment = 3;
+pos = (0,-912);
+ref = prime;
+scale = (2,2);
 }
 );
-width = 288;
+width = 464;
 }
 );
-metricLeft = "=doubleprime";
-metricRight = "=doubleprime";
 }

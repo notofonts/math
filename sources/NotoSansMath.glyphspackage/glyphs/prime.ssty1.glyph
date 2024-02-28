@@ -3,27 +3,16 @@ color = 4;
 glyphname = prime.ssty1;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (169,585);
-}
-);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(128,456,l),
-(294,714,l),
-(173,714,l),
-(44,456,l)
-);
+alignment = 3;
+pos = (0,-760);
+ref = prime;
+scale = (1.6667,1.6667);
 }
 );
-width = 281;
+width = 387;
 }
 );
-metricLeft = second.ssty;
-metricRight = second.ssty;
 }

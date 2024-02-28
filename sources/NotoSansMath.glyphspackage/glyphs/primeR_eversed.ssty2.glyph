@@ -3,25 +3,16 @@ color = 5;
 glyphname = primeReversed.ssty2;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (101,583);
-}
-);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(239,452,l),
-(97,714,l),
-(-36,714,l),
-(140,452,l)
-);
+alignment = 3;
+pos = (0,-912);
+ref = primeReversed;
+scale = (2,2);
 }
 );
-width = 303;
+width = 464;
 }
 );
 }

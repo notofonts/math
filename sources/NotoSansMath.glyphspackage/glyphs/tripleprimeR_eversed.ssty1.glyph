@@ -3,43 +3,16 @@ color = 4;
 glyphname = tripleprimeReversed.ssty1;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (301,585);
-}
-);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(426,456,l),
-(297,714,l),
-(176,714,l),
-(342,456,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(219,456,l),
-(90,714,l),
-(-31,714,l),
-(135,456,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(633,456,l),
-(504,714,l),
-(383,714,l),
-(549,456,l)
-);
+alignment = 3;
+pos = (0,-760);
+ref = tripleprimeReversed;
+scale = (1.6667,1.6667);
 }
 );
-width = 704;
+width = 1003;
 }
 );
 }
