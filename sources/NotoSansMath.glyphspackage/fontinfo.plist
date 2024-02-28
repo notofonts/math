@@ -177,9 +177,7 @@ tag = ccmp;
 },
 {
 automatic = 1;
-code = "sub partialdiffbold-math by partialdiffbold-math.rtlm;
-sub partialdiffitalic-math by partialdiffitalic-math.rtlm;
-sub partialdiffbolditalic-math by partialdiffbolditalic-math.rtlm;
+code = "sub partialdiffitalic-math by partialdiffitalic-math.rtlm;
 sub partialdiffsansbold-math by partialdiffsansbold-math.rtlm;
 sub partialdiffsansbolditalic-math by partialdiffsansbolditalic-math.rtlm;
 sub risingDiagonal-math by risingDiagonal-math.rtlm;
@@ -1060,6 +1058,7 @@ UpperLimitBaselineRiseMin = 300;
 UpperLimitGapMin = 135;
 };
 };
+visible = 1;
 }
 );
 instances = (

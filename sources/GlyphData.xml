@@ -953,6 +953,11 @@
     <glyph name="piSymbolitalic-math" unicode="1D71B" production="u1D71B" script="Sans" category="Letter" case="lower" sortName="mt625" />
     <glyph name="Digammabold-math" unicode="1D7CA" production="u1D7CA" script="Sans" category="Letter" case="upper" sortName="mt800" />
     <glyph name="digammabold-math" unicode="1D7CB" production="u1D7CB" script="Sans" category="Letter" case="lower" sortName="mt801" />
+    <glyph name="partialdiffitalic-math" unicode="1D715" production="u1D715" script="Sans" category="Letter" case="lower" sortName="mt619" />
+    <glyph name="partialdiffsansbold-math" unicode="1D789" unicode2="1D6DB" production="u1D789" script="Sans" category="Letter" case="lower" sortName="mt735" />
+    <glyph name="partialdiffsansbolditalic-math" unicode="1D7C3" unicode2="1D74F" production="u1D7C3" script="Sans" category="Letter" case="lower" sortName="mt793" />
+    <glyph name="partialdiff" unicode="2202" script="greek" category="Letter" case="lower" sortName="gr049" />
+
 
     <glyph name="zero" unicode="0030" unicode2="1D7E2" category="Number" subCategory="Decimal Digit" sortName="Nu0" />
     <glyph name="one" unicode="0031" unicode2="1D7E3" category="Number" subCategory="Decimal Digit" sortName="Nu1" />
