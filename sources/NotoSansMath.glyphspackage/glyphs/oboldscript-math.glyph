@@ -10,10 +10,6 @@ pos = (214,150);
 {
 name = math.ta;
 pos = (287,0);
-},
-{
-name = top;
-pos = (287,358);
 }
 );
 layerId = master01;

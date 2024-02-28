@@ -6,24 +6,12 @@ layers = (
 {
 anchors = (
 {
-name = bottom;
-pos = (201,0);
-},
-{
 name = center;
 pos = (256,272);
 },
 {
 name = math.ta;
 pos = (307,0);
-},
-{
-name = top;
-pos = (307,543);
-},
-{
-name = topright;
-pos = (554,543);
 }
 );
 layerId = master01;
