@@ -12,22 +12,22 @@ layerId = master01;
 shapes = (
 {
 alignment = -1;
-ref = minute;
+ref = prime;
 },
 {
 alignment = -1;
 pos = (170,0);
-ref = minute;
+ref = prime;
 },
 {
 alignment = -1;
 pos = (340,0);
-ref = minute;
+ref = prime;
 },
 {
 alignment = -1;
 pos = (510,0);
-ref = minute;
+ref = prime;
 }
 );
 userData = {

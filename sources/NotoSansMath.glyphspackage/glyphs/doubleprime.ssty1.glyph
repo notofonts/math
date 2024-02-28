@@ -1,6 +1,6 @@
 {
 color = 4;
-glyphname = second.ssty1;
+glyphname = doubleprime.ssty1;
 layers = (
 {
 anchors = (
@@ -33,5 +33,4 @@ nodes = (
 width = 488;
 }
 );
-production = second.ssty1;
 }

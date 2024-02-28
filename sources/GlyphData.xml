@@ -1013,4 +1013,12 @@
     <glyph name="eightsansbold-math" unicode="1D7F4" unicode2="1D7D6" production="u1D7F4" category="Number" subCategory="Decimal Digit" sortName="sansbNu8" />
     <glyph name="ninesansbold-math" unicode="1D7F5" unicode2="1D7D7" production="u1D7F5" category="Number" subCategory="Decimal Digit" sortName="sansbNu9" />
 
+    <glyph name="prime" unicode="2032" production="uni2032"  category="Symbol" subCategory="Prime" sortName="prime1" />
+    <glyph name="doubleprime" unicode="2033" production="uni2033"  category="Symbol" subCategory="Prime" sortName="prime2" />
+    <glyph name="tripleprime" unicode="2034" production="uni2034"  category="Symbol" subCategory="Prime" sortName="prime3" />
+    <glyph name="quadrupleprime" unicode="2057" production="uni2057"  category="Symbol" subCategory="Prime" sortName="prime4" />
+    <glyph name="primeReversed" unicode="2035" production="uni2035"  category="Symbol" subCategory="Prime" sortName="primeR1" />
+    <glyph name="doubleprimeReversed" unicode="2036" production="uni2036"  category="Symbol" subCategory="Prime" sortName="primeR2" />
+    <glyph name="tripleprimeReversed" unicode="2037" production="uni2037"  category="Symbol" subCategory="Prime" sortName="primeR3" />
+
 </glyphData>

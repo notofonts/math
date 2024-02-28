@@ -1,6 +1,6 @@
 {
 color = 4;
-glyphname = minute.ssty1;
+glyphname = prime.ssty1;
 layers = (
 {
 anchors = (
@@ -26,5 +26,4 @@ width = 281;
 );
 metricLeft = second.ssty;
 metricRight = second.ssty;
-production = minute.ssty1;
 }
