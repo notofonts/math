@@ -9,7 +9,17 @@ name = center;
 pos = (380,528);
 }
 );
+guides = (
+{
+lockAngle = 1;
+locked = 1;
+name = "radicalDegreeBottomRaisePercent (56%)";
+pos = (0,592);
+}
+);
 layerId = master01;
+metricLeft = "=51";
+metricRight = "=-31";
 partSelection = {
 Size = 1;
 };
@@ -35,29 +45,21 @@ width = 679;
 anchors = (
 {
 name = center;
-pos = (580,1243);
+pos = (628,1243);
 }
 );
 associatedMasterId = master01;
-background = {
-shapes = (
+guides = (
 {
-closed = 1;
-nodes = (
-(481,-7,l),
-(1013,2080,l),
-(930,2080,l),
-(437,114,l),
-(194,803,l),
-(47,803,l),
-(47,733,l),
-(135,733,l),
-(400,-7,l)
-);
+lockAngle = 1;
+locked = 1;
+name = "radicalDegreeBottomRaisePercent (56%)";
+pos = (0,1393);
 }
 );
-};
 layerId = "1C47999D-2140-4E33-BDEA-F360925A1E0F";
+metricLeft = "=47";
+metricRight = "=-43";
 name = "Regular-Large";
 partSelection = {
 Size = 2;
@@ -66,19 +68,19 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(481,0,l),
-(1113,2487,l),
-(1030,2487,l),
-(437,121,l),
-(194,810,l),
-(47,810,l),
-(47,740,l),
-(135,740,l),
-(400,0,l)
+(537,0,l),
+(989,2505,l),
+(908,2505,l),
+(484,122,l),
+(201,1251,l),
+(47,1251,l),
+(47,1181,l),
+(135,1181,l),
+(437,0,l)
 );
 }
 );
-width = 1070;
+width = 946;
 }
 );
 partsSettings = (

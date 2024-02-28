@@ -1,23 +1,23 @@
 {
-glyphname = cuberoot.s1;
+glyphname = radical.s5;
 layers = (
 {
 anchors = (
 {
 name = center;
-pos = (418,662);
+pos = (580,1243);
 }
 );
 layerId = master01;
 shapes = (
 {
 piece = {
-Size = 1;
+Size = 5;
 };
-ref = _part.cuberoot;
+ref = _part.radical;
 }
 );
-width = 746;
+width = 1013;
 }
 );
 }

@@ -17,7 +17,7 @@ Size = 0;
 ref = _part.cuberoot;
 }
 );
-width = 605;
+width = 679;
 }
 );
 unicode = 8731;

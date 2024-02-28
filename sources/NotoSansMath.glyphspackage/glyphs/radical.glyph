@@ -24,7 +24,7 @@ vAssembly = (
 radicalsymbolbottom,
 0,
 0,
-900
+1275
 ),
 (
 radical.x,
@@ -35,7 +35,7 @@ radical.x,
 (
 radical.t,
 0,
-800,
+951,
 0
 )
 );
@@ -53,7 +53,8 @@ radical,
 radical.s1,
 radical.s2,
 radical.s3,
-radical.s4
+radical.s4,
+radical.s5
 );
 };
 };
