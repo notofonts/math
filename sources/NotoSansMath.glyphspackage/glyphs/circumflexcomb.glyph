@@ -19,10 +19,7 @@ pos = (169,766);
 layerId = master01;
 shapes = (
 {
-piece = {
-Size = 0;
-};
-ref = _part.circumflexcomb;
+ref = circumflexcomb.s0;
 }
 );
 width = 338;
@@ -32,12 +29,12 @@ unicode = 770;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 hVariants = (
-circumflexcomb,
-circumflex.s1,
-circumflex.s2,
-circumflex.s3,
-circumflex.s4,
-circumflex.s5
+circumflexcomb.s0,
+circumflexcomb.s1,
+circumflexcomb.s2,
+circumflexcomb.s3,
+circumflexcomb.s4,
+circumflexcomb.s5
 );
 };
 };

@@ -3,12 +3,6 @@ export = 0;
 glyphname = _part.leftharpoonabovecomb;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (226,747);
-}
-);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -17,10 +11,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(453,670,l),
-(453,730,l),
-(123,730,l),
-(123,670,l)
+(448,670,l),
+(448,730,l),
+(118,730,l),
+(118,670,l)
 );
 },
 {
@@ -39,17 +33,12 @@ nodes = (
 );
 }
 );
-width = 453;
+width = 448;
 },
 {
-anchors = (
-{
-name = center;
-pos = (1076,747);
-}
-);
 associatedMasterId = master01;
 layerId = "AEBBBFBC-43A1-4FA9-AFAD-3ACD6BE9067D";
+metricWidth = "=2148";
 name = "Regular-Large";
 partSelection = {
 Size = 2;
@@ -58,10 +47,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(2153,670,l),
-(2153,730,l),
-(123,730,l),
-(123,670,l)
+(2148,670,l),
+(2148,730,l),
+(118,730,l),
+(118,670,l)
 );
 },
 {
@@ -80,9 +69,12 @@ nodes = (
 );
 }
 );
-width = 2153;
+width = 2148;
 }
 );
+metricLeft = "=0";
+metricRight = "=0";
+metricWidth = "=_part.leftarrowabovecomb";
 partsSettings = (
 {
 bottomValue = 0;

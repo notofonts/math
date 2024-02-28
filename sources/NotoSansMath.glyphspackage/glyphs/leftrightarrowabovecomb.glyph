@@ -74,7 +74,7 @@ userData = {
 com.nagwa.MATHPlugin.variants = {
 hAssembly = (
 (
-leftarrowabove.s1,
+leftarrowabovecomb.s1,
 0,
 0,
 700
@@ -86,7 +86,7 @@ horizontalabove.x,
 600
 ),
 (
-rightarrowabove.s1,
+rightarrowabovecomb.s1,
 0,
 700,
 0
@@ -98,4 +98,11 @@ width = 597;
 }
 );
 unicode = 8417;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hVariants = (
+leftrightarrowabovecomb
+);
+};
+};
 }

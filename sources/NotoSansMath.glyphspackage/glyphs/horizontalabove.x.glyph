@@ -2,12 +2,6 @@
 glyphname = horizontalabove.x;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (300,700);
-}
-);
 layerId = master01;
 shapes = (
 {

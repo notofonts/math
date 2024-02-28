@@ -1,0 +1,23 @@
+{
+glyphname = circumflexcomb.s0;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (167,486);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = _part.circumflexcomb;
+}
+);
+width = 338;
+}
+);
+}

@@ -3,12 +3,6 @@ export = 0;
 glyphname = _part.rightharpoonabovecomb;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (226,747);
-}
-);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -26,30 +20,25 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(453,708,l),
-(402,733,o),
-(353,772,o),
-(306,825,c),
-(262,825,l),
-(282,776,o),
-(302,739,o),
-(322,717,c),
-(322,670,l),
-(453,670,l)
+(448,708,l),
+(397,733,o),
+(348,772,o),
+(301,825,c),
+(257,825,l),
+(277,776,o),
+(297,739,o),
+(317,717,c),
+(317,670,l),
+(448,670,l)
 );
 }
 );
-width = 453;
+width = 448;
 },
 {
-anchors = (
-{
-name = center;
-pos = (1076,747);
-}
-);
 associatedMasterId = master01;
 layerId = "C1897278-E605-4E59-A746-F64E5EE60E83";
+metricWidth = "=2148";
 name = "Regular-Large";
 partSelection = {
 Size = 2;
@@ -67,22 +56,25 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(2153,708,l),
-(2102,733,o),
-(2053,772,o),
-(2006,825,c),
-(1962,825,l),
-(1982,776,o),
-(2002,739,o),
-(2022,717,c),
-(2022,670,l),
-(2153,670,l)
+(2148,708,l),
+(2097,733,o),
+(2048,772,o),
+(2001,825,c),
+(1957,825,l),
+(1977,776,o),
+(1997,739,o),
+(2017,717,c),
+(2017,670,l),
+(2148,670,l)
 );
 }
 );
-width = 2153;
+width = 2148;
 }
 );
+metricLeft = "=0";
+metricRight = "=0";
+metricWidth = "=_part.leftarrowabovecomb";
 partsSettings = (
 {
 bottomValue = 0;

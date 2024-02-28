@@ -19,17 +19,14 @@ pos = (217,664);
 layerId = master01;
 shapes = (
 {
-piece = {
-Size = 0;
-};
-ref = _part.leftharpoonabovecomb;
+ref = leftharpoonabovecomb.s0;
 }
 );
 userData = {
 com.nagwa.MATHPlugin.variants = {
 hAssembly = (
 (
-leftharpoonabove.s1,
+leftharpoonabovecomb.s1,
 0,
 200,
 500
@@ -43,19 +40,19 @@ horizontalabove.x,
 );
 };
 };
-width = 453;
+width = 448;
 }
 );
 unicode = 8400;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 hVariants = (
-leftharpoonabovecomb,
-leftharpoonabove.s1,
-leftharpoonabove.s2,
-leftharpoonabove.s3,
-leftharpoonabove.s4,
-leftharpoonabove.s5
+leftharpoonabovecomb.s0,
+leftharpoonabovecomb.s1,
+leftharpoonabovecomb.s2,
+leftharpoonabovecomb.s3,
+leftharpoonabovecomb.s4,
+leftharpoonabovecomb.s5
 );
 };
 };

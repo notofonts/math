@@ -19,26 +19,7 @@ pos = (211,766);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(253,606,l),
-(277,651,o),
-(340,715,o),
-(378,753,c),
-(378,766,l),
-(316,766,l),
-(281,743,o),
-(243,710,o),
-(207,674,c),
-(174,710,o),
-(135,743,o),
-(100,766,c),
-(40,766,l),
-(40,753,l),
-(76,715,o),
-(137,651,o),
-(163,606,c)
-);
+ref = caroncomb.s0;
 }
 );
 width = 418;
@@ -49,11 +30,11 @@ userData = {
 com.nagwa.MATHPlugin.variants = {
 hVariants = (
 caroncomb,
-caron.s1,
-caron.s2,
-caron.s3,
-caron.s4,
-caron.s5
+caroncomb.s1,
+caroncomb.s2,
+caroncomb.s3,
+caroncomb.s4,
+caroncomb.s5
 );
 };
 };

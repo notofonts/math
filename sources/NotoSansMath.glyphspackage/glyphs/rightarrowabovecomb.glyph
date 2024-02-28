@@ -19,10 +19,7 @@ pos = (229,486);
 layerId = master01;
 shapes = (
 {
-piece = {
-Size = 0;
-};
-ref = _part.rightarrowabovecomb;
+ref = rightarrowabovecomb.s0;
 }
 );
 userData = {
@@ -35,7 +32,7 @@ horizontalabove.x,
 600
 ),
 (
-rightarrowabove.s1,
+rightarrowabovecomb.s1,
 0,
 500,
 0
@@ -43,7 +40,7 @@ rightarrowabove.s1,
 );
 };
 };
-width = 462;
+width = 448;
 }
 );
 unicode = 8407;
@@ -51,11 +48,11 @@ userData = {
 com.nagwa.MATHPlugin.variants = {
 hVariants = (
 rightarrowabovecomb,
-rightarrowabove.s1,
-rightarrowabove.s2,
-rightarrowabove.s3,
-rightarrowabove.s4,
-rightarrowabove.s5
+rightarrowabovecomb.s1,
+rightarrowabovecomb.s2,
+rightarrowabovecomb.s3,
+rightarrowabovecomb.s4,
+rightarrowabovecomb.s5
 );
 };
 };

@@ -1,0 +1,20 @@
+{
+glyphname = leftarrowabovecomb.s0;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (224,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = _part.leftarrowabovecomb;
+}
+);
+width = 448;
+}
+);
+}

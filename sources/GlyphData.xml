@@ -1021,4 +1021,84 @@
     <glyph name="doubleprimeReversed" unicode="2036" production="uni2036"  category="Symbol" subCategory="Prime" sortName="primeR2" />
     <glyph name="tripleprimeReversed" unicode="2037" production="uni2037"  category="Symbol" subCategory="Prime" sortName="primeR3" />
 
+    <glyph name="circumflexcomb.s0" production="uni0302.s0" category="Mark" subCategory="Spacing" case="lower" sortName="s0.ac012" />
+    <glyph name="caroncomb.s0" production="uni030C.s0" category="Mark" subCategory="Spacing" case="lower" sortName="s0.ac014" />
+    <glyph name="tildecomb.s0" production="tildecomb.s0" category="Mark" subCategory="Spacing" case="lower" sortName="s0.ac020" />
+    <glyph name="tildebelowcomb.s0" production="uni0330.s0" category="Mark" subCategory="Spacing" sortName="s0.ac098" />
+    <glyph name="leftarrowabovecomb.s0" production="uni20D6.s0" category="Mark" subCategory="Spacing" sortName="s0.leftarrowabovecomb" />
+    <glyph name="leftarrowbelowcomb.s0" production="uni20EE.s0" category="Mark" subCategory="Spacing" sortName="s0.leftarrowbelowcomb" />
+    <glyph name="leftharpoonabovecomb.s0" production="uni20D0.s0" category="Mark" subCategory="Spacing" sortName="s0.leftharpoonabovecomb" />
+    <glyph name="leftharpoonwithbarbdowncomb.s0" production="uni20ED.s0" category="Mark" subCategory="Spacing" sortName="s0.leftharpoonwithbarbdowncomb" />
+    <glyph name="rightarrowabovecomb.s0" production="uni20D7.s0" category="Mark" subCategory="Spacing" sortName="s0.rightarrowabovecomb" />
+    <glyph name="rightarrowbelowcomb.s0" production="uni20EF.s0" category="Mark" subCategory="Spacing" sortName="s0.rightarrowbelowcomb" />
+    <glyph name="rightharpoonabovecomb.s0" production="uni20D1.s0" category="Mark" subCategory="Spacing" sortName="s0.rightharpoonabovecomb" />
+    <glyph name="rightharpoonwithbarbdowncomb.s0" production="uni20EC.s0" category="Mark" subCategory="Spacing" sortName="s0.rightharpoonwithbarbdowncomb" />
+    <glyph name="circumflexcomb.s1" production="uni0302.s1" category="Mark" subCategory="Spacing" case="lower" sortName="s1.ac012" />
+    <glyph name="caroncomb.s1" production="uni030C.s1" category="Mark" subCategory="Spacing" case="lower" sortName="s1.ac014" />
+    <glyph name="tildecomb.s1" production="tildecomb.s1" category="Mark" subCategory="Spacing" case="lower" sortName="s1.ac020" />
+    <glyph name="tildebelowcomb.s1" production="uni0330.s1" category="Mark" subCategory="Spacing" sortName="s1.ac098" />
+    <glyph name="leftarrowabovecomb.s1" production="uni20D6.s1" category="Mark" subCategory="Spacing" sortName="s1.leftarrowabovecomb" />
+    <glyph name="leftarrowbelowcomb.s1" production="uni20EE.s1" category="Mark" subCategory="Spacing" sortName="s1.leftarrowbelowcomb" />
+    <glyph name="leftharpoonabovecomb.s1" production="uni20D0.s1" category="Mark" subCategory="Spacing" sortName="s1.leftharpoonabovecomb" />
+    <glyph name="leftharpoonwithbarbdowncomb.s1" production="uni20ED.s1" category="Mark" subCategory="Spacing" sortName="s1.leftharpoonwithbarbdowncomb" />
+    <glyph name="rightarrowabovecomb.s1" production="uni20D7.s1" category="Mark" subCategory="Spacing" sortName="s1.rightarrowabovecomb" />
+    <glyph name="rightarrowbelowcomb.s1" production="uni20EF.s1" category="Mark" subCategory="Spacing" sortName="s1.rightarrowbelowcomb" />
+    <glyph name="rightharpoonabovecomb.s1" production="uni20D1.s1" category="Mark" subCategory="Spacing" sortName="s1.rightharpoonabovecomb" />
+    <glyph name="rightharpoonwithbarbdowncomb.s1" production="uni20EC.s1" category="Mark" subCategory="Spacing" sortName="s1.rightharpoonwithbarbdowncomb" />
+    <glyph name="circumflexcomb.s2" production="uni0302.s2" category="Mark" subCategory="Spacing" case="lower" sortName="s2.ac012" />
+    <glyph name="caroncomb.s2" production="uni030C.s2" category="Mark" subCategory="Spacing" case="lower" sortName="s2.ac014" />
+    <glyph name="tildecomb.s2" production="tildecomb.s2" category="Mark" subCategory="Spacing" case="lower" sortName="s2.ac020" />
+    <glyph name="tildebelowcomb.s2" production="uni0330.s2" category="Mark" subCategory="Spacing" sortName="s2.ac098" />
+    <glyph name="leftarrowabovecomb.s2" production="uni20D6.s2" category="Mark" subCategory="Spacing" sortName="s2.leftarrowabovecomb" />
+    <glyph name="leftarrowbelowcomb.s2" production="uni20EE.s2" category="Mark" subCategory="Spacing" sortName="s2.leftarrowbelowcomb" />
+    <glyph name="leftharpoonabovecomb.s2" production="uni20D0.s2" category="Mark" subCategory="Spacing" sortName="s2.leftharpoonabovecomb" />
+    <glyph name="leftharpoonwithbarbdowncomb.s2" production="uni20ED.s2" category="Mark" subCategory="Spacing" sortName="s2.leftharpoonwithbarbdowncomb" />
+    <glyph name="rightarrowabovecomb.s2" production="uni20D7.s2" category="Mark" subCategory="Spacing" sortName="s2.rightarrowabovecomb" />
+    <glyph name="rightarrowbelowcomb.s2" production="uni20EF.s2" category="Mark" subCategory="Spacing" sortName="s2.rightarrowbelowcomb" />
+    <glyph name="rightharpoonabovecomb.s2" production="uni20D1.s2" category="Mark" subCategory="Spacing" sortName="s2.rightharpoonabovecomb" />
+    <glyph name="rightharpoonwithbarbdowncomb.s2" production="uni20EC.s2" category="Mark" subCategory="Spacing" sortName="s2.rightharpoonwithbarbdowncomb" />
+    <glyph name="circumflexcomb.s3" production="uni0302.s3" category="Mark" subCategory="Spacing" case="lower" sortName="s3.ac012" />
+    <glyph name="caroncomb.s3" production="uni030C.s3" category="Mark" subCategory="Spacing" case="lower" sortName="s3.ac014" />
+    <glyph name="tildecomb.s3" production="tildecomb.s3" category="Mark" subCategory="Spacing" case="lower" sortName="s3.ac020" />
+    <glyph name="tildebelowcomb.s3" production="uni0330.s3" category="Mark" subCategory="Spacing" sortName="s3.ac098" />
+    <glyph name="leftarrowabovecomb.s3" production="uni20D6.s3" category="Mark" subCategory="Spacing" sortName="s3.leftarrowabovecomb" />
+    <glyph name="leftarrowbelowcomb.s3" production="uni20EE.s3" category="Mark" subCategory="Spacing" sortName="s3.leftarrowbelowcomb" />
+    <glyph name="leftharpoonabovecomb.s3" production="uni20D0.s3" category="Mark" subCategory="Spacing" sortName="s3.leftharpoonabovecomb" />
+    <glyph name="leftharpoonwithbarbdowncomb.s3" production="uni20ED.s3" category="Mark" subCategory="Spacing" sortName="s3.leftharpoonwithbarbdowncomb" />
+    <glyph name="rightarrowabovecomb.s3" production="uni20D7.s3" category="Mark" subCategory="Spacing" sortName="s3.rightarrowabovecomb" />
+    <glyph name="rightarrowbelowcomb.s3" production="uni20EF.s3" category="Mark" subCategory="Spacing" sortName="s3.rightarrowbelowcomb" />
+    <glyph name="rightharpoonabovecomb.s3" production="uni20D1.s3" category="Mark" subCategory="Spacing" sortName="s3.rightharpoonabovecomb" />
+    <glyph name="rightharpoonwithbarbdowncomb.s3" production="uni20EC.s3" category="Mark" subCategory="Spacing" sortName="s3.rightharpoonwithbarbdowncomb" />
+    <glyph name="circumflexcomb.s4" production="uni0302.s4" category="Mark" subCategory="Spacing" case="lower" sortName="s4.ac012" />
+    <glyph name="caroncomb.s4" production="uni030C.s4" category="Mark" subCategory="Spacing" case="lower" sortName="s4.ac014" />
+    <glyph name="tildecomb.s4" production="tildecomb.s4" category="Mark" subCategory="Spacing" case="lower" sortName="s4.ac020" />
+    <glyph name="tildebelowcomb.s4" production="uni0330.s4" category="Mark" subCategory="Spacing" sortName="s4.ac098" />
+    <glyph name="leftarrowabovecomb.s4" production="uni20D6.s4" category="Mark" subCategory="Spacing" sortName="s4.leftarrowabovecomb" />
+    <glyph name="leftarrowbelowcomb.s4" production="uni20EE.s4" category="Mark" subCategory="Spacing" sortName="s4.leftarrowbelowcomb" />
+    <glyph name="leftharpoonabovecomb.s4" production="uni20D0.s4" category="Mark" subCategory="Spacing" sortName="s4.leftharpoonabovecomb" />
+    <glyph name="leftharpoonwithbarbdowncomb.s4" production="uni20ED.s4" category="Mark" subCategory="Spacing" sortName="s4.leftharpoonwithbarbdowncomb" />
+    <glyph name="rightarrowabovecomb.s4" production="uni20D7.s4" category="Mark" subCategory="Spacing" sortName="s4.rightarrowabovecomb" />
+    <glyph name="rightarrowbelowcomb.s4" production="uni20EF.s4" category="Mark" subCategory="Spacing" sortName="s4.rightarrowbelowcomb" />
+    <glyph name="rightharpoonabovecomb.s4" production="uni20D1.s4" category="Mark" subCategory="Spacing" sortName="s4.rightharpoonabovecomb" />
+    <glyph name="rightharpoonwithbarbdowncomb.s4" production="uni20EC.s4" category="Mark" subCategory="Spacing" sortName="s4.rightharpoonwithbarbdowncomb" />
+    <glyph name="circumflexcomb.s5" production="uni0302.s5" category="Mark" subCategory="Spacing" case="lower" sortName="s5.ac012" />
+    <glyph name="caroncomb.s5" production="uni030C.s5" category="Mark" subCategory="Spacing" case="lower" sortName="s5.ac014" />
+    <glyph name="tildecomb.s5" production="tildecomb.s5" category="Mark" subCategory="Spacing" case="lower" sortName="s5.ac020" />
+    <glyph name="tildebelowcomb.s5" production="uni0330.s5" category="Mark" subCategory="Spacing" sortName="s5.ac098" />
+    <glyph name="leftarrowabovecomb.s5" production="uni20D6.s5" category="Mark" subCategory="Spacing" sortName="s5.leftarrowabovecomb" />
+    <glyph name="leftarrowbelowcomb.s5" production="uni20EE.s5" category="Mark" subCategory="Spacing" sortName="s5.leftarrowbelowcomb" />
+    <glyph name="leftharpoonabovecomb.s5" production="uni20D0.s5" category="Mark" subCategory="Spacing" sortName="s5.leftharpoonabovecomb" />
+    <glyph name="leftharpoonwithbarbdowncomb.s5" production="uni20ED.s5" category="Mark" subCategory="Spacing" sortName="s5.leftharpoonwithbarbdowncomb" />
+    <glyph name="rightarrowabovecomb.s5" production="uni20D7.s5" category="Mark" subCategory="Spacing" sortName="s5.rightarrowabovecomb" />
+    <glyph name="rightarrowbelowcomb.s5" production="uni20EF.s5" category="Mark" subCategory="Spacing" sortName="s5.rightarrowbelowcomb" />
+    <glyph name="rightharpoonabovecomb.s5" production="uni20D1.s5" category="Mark" subCategory="Spacing" sortName="s5.rightharpoonabovecomb" />
+    <glyph name="rightharpoonwithbarbdowncomb.s5" production="uni20EC.s5" category="Mark" subCategory="Spacing" sortName="s5.rightharpoonwithbarbdowncomb" />
+
+    <glyph name="bottomcurlybracket" unicode="23DF" production="uni23DF" category="Mark" subCategory="Spacing" />
+    <glyph name="bottomsquarebracket" unicode="23B5" production="uni23B5" category="Mark" subCategory="Spacing" />
+    <glyph name="bottomtortoiseshellbracket" unicode="23E1" production="uni23E1" category="Mark" subCategory="Spacing" />
+    <glyph name="topcurlybracket" unicode="23DE" production="uni23DE" category="Mark" subCategory="Spacing" />
+    <glyph name="topsquarebracket" unicode="23B4" production="uni23B4" category="Mark" subCategory="Spacing" />
+    <glyph name="toptortoiseshellbracket" unicode="23E0" production="uni23E0" category="Mark" subCategory="Spacing" />
+
 </glyphData>

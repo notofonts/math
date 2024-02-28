@@ -2,15 +2,10 @@
 glyphname = topcurlybracket.x;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (400,787);
-}
-);
 layerId = master01;
 shapes = (
 {
+alignment = -1;
 pos = (0,530);
 ref = bottomcurlybracket.x;
 scale = (1,-1);

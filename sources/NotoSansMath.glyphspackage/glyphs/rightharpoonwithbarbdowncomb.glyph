@@ -19,25 +19,22 @@ pos = (137,-48);
 layerId = master01;
 shapes = (
 {
-piece = {
-Size = 0;
-};
-ref = _part.rightharpoonwithbarbdowncomb;
+ref = rightharpoonwithbarbdowncomb.s0;
 }
 );
-width = 374;
+width = 448;
 }
 );
 unicode = 8428;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 hVariants = (
-rightharpoonwithbarbdowncomb,
-rightharpoonwithbarbdown.s1,
-rightharpoonwithbarbdown.s2,
-rightharpoonwithbarbdown.s3,
-rightharpoonwithbarbdown.s4,
-rightharpoonwithbarbdown.s5
+rightharpoonwithbarbdowncomb.s0,
+rightharpoonwithbarbdowncomb.s1,
+rightharpoonwithbarbdowncomb.s2,
+rightharpoonwithbarbdowncomb.s3,
+rightharpoonwithbarbdowncomb.s4,
+rightharpoonwithbarbdowncomb.s5
 );
 };
 };
