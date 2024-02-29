@@ -2,15 +2,11 @@
 glyphname = bottomparenthesis.x;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (400,-287);
-}
-);
 layerId = master01;
 shapes = (
 {
+alignment = -1;
+pos = (0,-54);
 ref = bottomsquarebracket.x;
 }
 );

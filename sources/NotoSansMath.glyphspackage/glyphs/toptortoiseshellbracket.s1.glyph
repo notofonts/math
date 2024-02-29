@@ -5,7 +5,7 @@ layers = (
 anchors = (
 {
 name = math.ta;
-pos = (1527,0);
+pos = (665,0);
 }
 );
 layerId = master01;
@@ -17,7 +17,7 @@ Size = 1;
 ref = _part.toptortoiseshellbracket;
 }
 );
-width = 3054;
+width = 1330;
 }
 );
 }

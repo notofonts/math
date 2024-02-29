@@ -3,12 +3,6 @@ export = 0;
 glyphname = _part.topsquarebracket;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (331,750);
-}
-);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -31,12 +25,6 @@ nodes = (
 width = 662;
 },
 {
-anchors = (
-{
-name = center;
-pos = (1681,750);
-}
-);
 associatedMasterId = master01;
 layerId = "878FC8FD-C5C1-405F-B127-19E134EFB61C";
 name = "Regular-Large";
@@ -49,18 +37,20 @@ closed = 1;
 nodes = (
 (64,658,l),
 (64,771,l),
-(3298,771,l),
-(3298,658,l),
-(3362,658,l),
-(3362,842,l),
+(3936,771,l),
+(3936,658,l),
+(4000,658,l),
+(4000,842,l),
 (0,842,l),
 (0,658,l)
 );
 }
 );
-width = 3362;
+width = 4000;
 }
 );
+metricLeft = "=0";
+metricRight = "=0";
 partsSettings = (
 {
 bottomValue = 0;

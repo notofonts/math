@@ -5,15 +5,10 @@ layers = (
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(800,-327,l),
-(800,-247,l),
-(72,-247,l),
-(72,-128,l),
-(0,-128,l),
-(0,-327,l)
-);
+alignment = -1;
+angle = 180;
+pos = (800,598);
+ref = topsquarebracket.r;
 }
 );
 width = 800;

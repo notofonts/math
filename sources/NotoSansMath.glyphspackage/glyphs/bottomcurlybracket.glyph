@@ -5,7 +5,7 @@ layers = (
 anchors = (
 {
 name = math.ta;
-pos = (440,0);
+pos = (331,0);
 }
 );
 layerId = master01;
@@ -53,7 +53,7 @@ bottomcurlybracket.r,
 );
 };
 };
-width = 880;
+width = 662;
 }
 );
 unicode = 9183;

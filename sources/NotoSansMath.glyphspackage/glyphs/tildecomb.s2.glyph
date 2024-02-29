@@ -5,7 +5,7 @@ layers = (
 anchors = (
 {
 name = math.ta;
-pos = (630,486);
+pos = (629,0);
 }
 );
 layerId = master01;

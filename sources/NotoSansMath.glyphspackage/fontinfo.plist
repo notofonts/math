@@ -961,6 +961,11 @@ pos = (-35,-158);
 angle = 180;
 name = "bracket-top-regular";
 pos = (-51,784);
+},
+{
+locked = 1;
+name = "bottom-brackets";
+pos = (0,-60);
 }
 );
 id = master01;
