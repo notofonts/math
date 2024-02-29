@@ -17,6 +17,30 @@ Size = 0;
 ref = _part.bottomtortoiseshellbracket;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hAssembly = (
+(
+bottomtortoiseshellbracket.l,
+0,
+0,
+647
+),
+(
+bottomtortoiseshellbracket.x,
+1,
+800,
+800
+),
+(
+bottomtortoiseshellbracket.r,
+0,
+647,
+0
+)
+);
+};
+};
 width = 662;
 }
 );
