@@ -925,15 +925,19 @@ value = -175;
 );
 guides = (
 {
+locked = 1;
 pos = (309,844);
 },
 {
+locked = 1;
 pos = (309,853);
 },
 {
+locked = 1;
 pos = (309,1062);
 },
 {
+locked = 1;
 pos = (309,1071);
 },
 {
@@ -946,19 +950,23 @@ pos = (254,428);
 },
 {
 angle = 90;
+locked = 1;
 name = ".s12 top";
 pos = (-50,2162);
 },
 {
+locked = 1;
 name = ".s12 bottom";
 pos = (-495,-1606);
 },
 {
+locked = 1;
 name = "bracket-base-regular";
 pos = (-35,-158);
 },
 {
 angle = 180;
+locked = 1;
 name = "bracket-top-regular";
 pos = (-51,784);
 },
