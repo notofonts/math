@@ -1,5 +1,5 @@
 {
-glyphname = leftcurlybracketlowerhook;
+glyphname = braceleft.b;
 layers = (
 {
 anchors = (

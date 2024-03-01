@@ -1,11 +1,11 @@
 {
-glyphname = parenleftextension;
+glyphname = bracketleft.x;
 layers = (
 {
 anchors = (
 {
 name = center;
-pos = (93,450);
+pos = (93,681);
 }
 );
 layerId = master01;
@@ -14,8 +14,8 @@ shapes = (
 closed = 1;
 nodes = (
 (136,0,l),
-(136,900,l),
-(51,900,l),
+(136,1362,l),
+(51,1362,l),
 (51,0,l)
 );
 }
@@ -23,5 +23,5 @@ nodes = (
 width = 306;
 }
 );
-unicode = 9116;
+unicode = 9122;
 }

@@ -1,5 +1,5 @@
 {
-glyphname = leftsquarebracketuppercorner;
+glyphname = bracketleft.b;
 layers = (
 {
 anchors = (
@@ -13,10 +13,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(136,0,l),
-(136,1289,l),
-(358,1289,l),
-(358,1362,l),
+(358,0,l),
+(358,73,l),
+(136,73,l),
+(136,1362,l),
 (51,1362,l),
 (51,0,l)
 );
@@ -25,6 +25,6 @@ nodes = (
 width = 406;
 }
 );
-metricLeft = "=leftsquarebracketextension";
-unicode = 9121;
+metricLeft = "=bracketleft.x";
+unicode = 9123;
 }

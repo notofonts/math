@@ -1,5 +1,5 @@
 {
-glyphname = upperrightorlowerleftcurlybracketsection;
+glyphname = rmoustache;
 layers = (
 {
 anchors = (
@@ -40,19 +40,19 @@ userData = {
 com.nagwa.MATHPlugin.variants = {
 vAssembly = (
 (
-leftcurlybracketlowerhook,
+braceleft.b,
 0,
 0,
 1000
 ),
 (
-curlybracketextension,
+braceleft.x,
 1,
 1362,
 1362
 ),
 (
-rightcurlybracketupperhook,
+braceright.t,
 0,
 1000,
 0

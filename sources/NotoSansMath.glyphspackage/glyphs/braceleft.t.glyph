@@ -1,5 +1,5 @@
 {
-glyphname = leftcurlybracketupperhook;
+glyphname = braceleft.t;
 layers = (
 {
 anchors = (
@@ -12,7 +12,7 @@ layerId = master01;
 shapes = (
 {
 pos = (0,1368);
-ref = leftcurlybracketlowerhook;
+ref = braceleft.b;
 scale = (1,-1);
 }
 );
@@ -48,7 +48,7 @@ nodes = (
 width = 323;
 }
 );
-metricLeft = "=leftcurlybracketlowerhook";
-metricWidth = "=leftcurlybracketlowerhook";
+metricLeft = "=braceleft.b";
+metricWidth = "=braceleft.b";
 unicode = 9127;
 }

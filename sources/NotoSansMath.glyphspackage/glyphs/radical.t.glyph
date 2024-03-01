@@ -26,5 +26,5 @@ width = 866;
 }
 );
 metricLeft = "=radical.x";
-metricWidth = "=radicalsymbolbottom";
+metricWidth = "=radical.b";
 }

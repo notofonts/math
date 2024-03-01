@@ -21,7 +21,7 @@ userData = {
 com.nagwa.MATHPlugin.variants = {
 vAssembly = (
 (
-radicalsymbolbottom,
+radical.b,
 0,
 0,
 1275

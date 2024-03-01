@@ -52,19 +52,19 @@ userData = {
 com.nagwa.MATHPlugin.variants = {
 vAssembly = (
 (
-integralbt,
+integral.b,
 0,
 0,
 1100
 ),
 (
-integralextension,
+integral.x,
 1,
 1300,
 1300
 ),
 (
-integraltp,
+integral.t,
 0,
 1100,
 0

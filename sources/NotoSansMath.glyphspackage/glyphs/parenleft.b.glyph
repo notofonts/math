@@ -1,5 +1,5 @@
 {
-glyphname = parenleftlowerhook;
+glyphname = parenleft.b;
 layers = (
 {
 anchors = (

@@ -11,20 +11,20 @@ pos = (413,681);
 layerId = master01;
 shapes = (
 {
-ref = integralbt;
+ref = integral.b;
 },
 {
 pos = (289,0);
-ref = integralbt;
+ref = integral.b;
 },
 {
 pos = (578,0);
-ref = integralbt;
+ref = integral.b;
 }
 );
 width = 965;
 }
 );
-metricLeft = "=integralbt";
-metricRight = "=integralbt";
+metricLeft = "=integral.b";
+metricRight = "=integral.b";
 }

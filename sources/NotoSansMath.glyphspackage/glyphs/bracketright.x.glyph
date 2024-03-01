@@ -1,5 +1,5 @@
 {
-glyphname = rightsquarebracketextension;
+glyphname = bracketright.x;
 layers = (
 {
 anchors = (
@@ -23,6 +23,6 @@ nodes = (
 width = 406;
 }
 );
-metricWidth = "=rightsquarebracketlowercorner";
+metricWidth = "=bracketright.b";
 unicode = 9125;
 }

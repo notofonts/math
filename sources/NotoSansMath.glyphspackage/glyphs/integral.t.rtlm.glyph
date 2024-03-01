@@ -1,25 +1,25 @@
 {
 color = 3;
-glyphname = integralbt.rtlm;
+glyphname = integral.t.rtlm;
 layers = (
 {
 anchors = (
 {
 name = center;
-pos = (402,388);
+pos = (-15,388);
 }
 );
 layerId = master01;
 shapes = (
 {
 pos = (387,0);
-ref = integralbt;
+ref = integral.t;
 scale = (-1,1);
 }
 );
 width = 387;
 }
 );
-metricLeft = "=|integralbt";
-metricRight = "=|integralbt";
+metricLeft = "=|integral.t";
+metricRight = "=|integral.t";
 }

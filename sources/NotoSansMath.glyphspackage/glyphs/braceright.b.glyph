@@ -1,5 +1,5 @@
 {
-glyphname = rightcurlybracketlowerhook;
+glyphname = braceright.b;
 layers = (
 {
 anchors = (
@@ -13,7 +13,7 @@ shapes = (
 {
 alignment = 1;
 pos = (468,0);
-ref = leftcurlybracketlowerhook;
+ref = braceleft.b;
 scale = (-1,1);
 }
 );

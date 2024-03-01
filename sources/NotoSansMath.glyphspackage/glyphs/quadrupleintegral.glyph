@@ -1,5 +1,5 @@
 {
-glyphname = quadrupleIntegralOperator;
+glyphname = quadrupleintegral;
 layers = (
 {
 anchors = (
@@ -175,8 +175,8 @@ userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
-quadrupleIntegralOperator,
-quadrupleIntegralOperator.s1
+quadrupleintegral,
+quadrupleintegral.s1
 );
 };
 };

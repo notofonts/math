@@ -12,12 +12,12 @@ layerId = master01;
 shapes = (
 {
 alignment = -1;
-ref = integralextension;
+ref = integral.x;
 },
 {
 alignment = -1;
 pos = (289,0);
-ref = integralextension;
+ref = integral.x;
 }
 );
 width = 676;

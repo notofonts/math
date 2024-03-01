@@ -1,5 +1,5 @@
 {
-glyphname = curlybracketextension;
+glyphname = braceleft.x;
 layers = (
 {
 anchors = (

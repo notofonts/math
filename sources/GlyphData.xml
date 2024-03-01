@@ -1103,4 +1103,152 @@
     <glyph name="bottomparenthesis" unicode="23DD" production="uni23DD" category="Mark" subCategory="Spacing" />
     <glyph name="topparenthesis" unicode="23DC" production="uni23DC" category="Mark" subCategory="Spacing" />
 
+    <glyph name="integral" unicode="222B" production="uni222B"  category="Symbol" subCategory="Largeop" sortName="op20" />
+    <glyph name="integral.b" unicode="2321" production="uni2321"  category="Symbol" subCategory="Largeop" sortName="b.op20" />
+    <glyph name="integral.x" unicode="23AE" production="uni23AE" category="Symbol" subCategory="Largeop" sortName="x.op20" />
+    <glyph name="integral.t" unicode="2320" production="uni2320"  category="Symbol" subCategory="Largeop" sortName="t.op20" />
+
+    <glyph name="dblintegral" unicode="222C" production="uni222C"  category="Symbol" subCategory="Largeop" sortName="op20a2" />
+    <glyph name="tripleintegral" unicode="222D" production="uni222D"  category="Symbol" subCategory="Largeop" sortName="op20a3" />
+    <glyph name="quadrupleintegral" unicode="2A0C" production="uni2A0C"  category="Symbol" subCategory="Largeop" sortName="op20a4" />
+    <glyph name="contourintegral" unicode="222E" production="uni222E"  category="Symbol" subCategory="Largeop" sortName="op20b1" />
+    <glyph name="surfaceintegral" unicode="222F" production="uni222F"  category="Symbol" subCategory="Largeop" sortName="op20b2" />
+    <glyph name="volumeintegral" unicode="2230" production="uni2230"  category="Symbol" subCategory="Largeop" sortName="op20b3" />
+    <glyph name="clockwiseintegral" unicode="2231" production="uni2231"  category="Symbol" subCategory="Largeop" sortName="op20c" />
+    <glyph name="clockwisecontourintegral" unicode="2232" production="uni2232"  category="Symbol" subCategory="Largeop" sortName="op20d" />
+    <glyph name="anticlockwisecontourintegral" unicode="2233" production="uni2233"  category="Symbol" subCategory="Largeop" sortName="op20e" />
+    <glyph name="finitePartIntegral" unicode="2A0D" production="uni2A0D"  category="Symbol" subCategory="Largeop" sortName="op20f" />
+    <glyph name="integralWithDoubleStroke" unicode="2A0E" production="uni2A0E"  category="Symbol" subCategory="Largeop" sortName="op20g" />
+    <glyph name="integralAverageWithSlash" unicode="2A0F" production="uni2A0F"  category="Symbol" subCategory="Largeop" sortName="op20h" />
+    <glyph name="circulationFunction" unicode="2A10" production="uni2A10"  category="Symbol" subCategory="Largeop" sortName="op20i" />
+    <glyph name="anticlockwiseIntegration" unicode="2A11" production="uni2A11"  category="Symbol" subCategory="Largeop" sortName="op20j" />
+    <glyph name="lineIntegrationWithRectangularPathAroundPole" unicode="2A12" production="uni2A12"  category="Symbol" subCategory="Largeop" sortName="op20k" />
+    <glyph name="lineIntegrationWithSemicircularPathAroundPole" unicode="2A13" production="uni2A13"  category="Symbol" subCategory="Largeop" sortName="op20l" />
+    <glyph name="lineIntegrationNotIncludingThePole" unicode="2A14" production="uni2A14"  category="Symbol" subCategory="Largeop" sortName="op20m" />
+    <glyph name="integralAroundAPointOperator" unicode="2A15" production="uni2A15"  category="Symbol" subCategory="Largeop" sortName="op20n" />
+    <glyph name="quaternionIntegralOperator" unicode="2A16" production="uni2A16"  category="Symbol" subCategory="Largeop" sortName="op20o" />
+    <glyph name="integralWithLeftArrowWithHook" unicode="2A17" production="uni2A17"  category="Symbol" subCategory="Largeop" sortName="op20p" />
+    <glyph name="integralWithTimesSign" unicode="2A18" production="uni2A18"  category="Symbol" subCategory="Largeop" sortName="op20q" />
+    <glyph name="integralWithIntersection" unicode="2A19" production="uni2A19"  category="Symbol" subCategory="Largeop" sortName="op20r" />
+    <glyph name="integralWithUnion" unicode="2A1A" production="uni2A1A"  category="Symbol" subCategory="Largeop" sortName="op20s" />
+    <glyph name="integralWithOverbar" unicode="2A1B" production="uni2A1B"  category="Symbol" subCategory="Largeop" sortName="op20t" />
+    <glyph name="integralWithUnderbar" unicode="2A1C" production="uni2A1C"  category="Symbol" subCategory="Largeop" sortName="op20u" />
+    <glyph name="coproduct" unicode="2210" production="uni2210"  category="Symbol" subCategory="Largeop" sortName="op23" />
+    <glyph name="product" unicode="220F" production="uni220F"  category="Symbol" subCategory="Largeop" sortName="op23" />
+    <glyph name="summation" unicode="2211" production="uni2211"  category="Symbol" subCategory="Largeop" sortName="op24" />
+    <glyph name="moduloTwoSum" unicode="2A0A" production="uni2A0A"  category="Symbol" subCategory="Largeop" sortName="op24a" />
+    <glyph name="summationWithIntegral" unicode="2A0B" production="uni2A0B"  category="Symbol" subCategory="Largeop" sortName="op24b" />
+    <glyph name="summationdoubleStruck" unicode="2140" production="uni2140"  category="Symbol" subCategory="Largeop" sortName="op24c" />
+    <glyph name="join" unicode="2A1D" production="uni2A1D"  category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="largeLeftTriangleOperator" unicode="2A1E" production="uni2A1E"  category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="nAryCircledDotOperator" unicode="2A00" production="uni2A00"  category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="nAryCircledPlusOperator" unicode="2A01" production="uni2A01"  category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="nAryCircledTimesOperator" unicode="2A02" production="uni2A02"  category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="nArySquareIntersectionOperator" unicode="2A05" production="uni2A05"  category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="nArySquareUnionOperator" unicode="2A06" production="uni2A06"  category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="nAryTimesOperator" unicode="2A09" production="uni2A09"  category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="nAryUnionOperatorWithDot" unicode="2A03" production="uni2A03"  category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="nAryUnionOperatorWithPlus" unicode="2A04" production="uni2A04"  category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="twoLogicalAndOperator" unicode="2A07" production="uni2A07"  category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="twoLogicalOrOperator" unicode="2A08" production="uni2A08"  category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="zNotationSchemaComposition" unicode="2A1F" production="uni2A1F"  category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="zNotationSchemaPiping" unicode="2A20" production="uni2A20"  category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="bigReverseSolidus" unicode="29F9" production="uni29F9" category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="bigSolidus" unicode="29F8" production="uni29F8" category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="naryintersection" unicode="22C2" production="uni22C2" category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="narylogicaland" unicode="22C0" production="uni22C0" category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="narylogicalor" unicode="22C1" production="uni22C1" category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="naryunion" unicode="22C3" production="uni22C3" category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="largeTripleVerticalBarOperator" unicode="2AFC" production="uni2AFC" category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="nAryWhiteVerticalBar" unicode="2AFF" production="uni2AFF" category="Symbol" subCategory="Largeop" sortName="op25" />
+
+    <glyph name="radical" unicode="221A" production="uni221A"  category="Symbol" subCategory="Radical" sortName="op26" />
+    <glyph name="radical.b" unicode="23B7" production="uni23B7" category="Symbol" subCategory="Radical" sortName="b.op26" />
+    <glyph name="cuberoot" unicode="221B" production="uni221B"  category="Symbol" subCategory="Radical" sortName="op26a" />
+    <glyph name="fourthroot" unicode="221C" production="uni221C"  category="Symbol" subCategory="Radical" sortName="op26b" />
+    <glyph name="longDivision" unicode="27CC" production="uni27CC" category="Symbol" subCategory="Radical" sortName="op26c" />
+
+    <glyph name="increment" unicode="2206" category="Symbol" subCategory="Math" sortName="" />
+    <glyph name="micro" unicode="00B5" category="Symbol" subCategory="Math" sortName="" />
+    <glyph name="ohm" unicode="2126" category="Symbol" subCategory="Math" sortName="" />
+
+    <glyph name="bar" unicode="007C" script="" category="Punctuation" subCategory="Fence" sortName="bar1" />
+    <glyph name="dblverticalbar" unicode="2016" production="uni2016"  script="" category="Punctuation" subCategory="Fence" sortName="bar2" />
+    <glyph name="tripleVerticalBarDelimiter" unicode="2980" production="uni2980"  script="" category="Punctuation" subCategory="Fence" sortName="bar3" />
+    <glyph name="parenleft" unicode="0028" script="" category="Punctuation" subCategory="Fence" sortName="fence00" />
+    <glyph name="parenright" unicode="0029" script="" category="Punctuation" subCategory="Fence" sortName="fence01" />
+    <glyph name="bracketleft" unicode="005B" script="" category="Punctuation" subCategory="Fence" sortName="fence02" />
+    <glyph name="bracketright" unicode="005D" script="" category="Punctuation" subCategory="Fence" sortName="fence03" />
+    <glyph name="braceleft" unicode="007B" script="" category="Punctuation" subCategory="Fence" sortName="fence04" />
+    <glyph name="braceright" unicode="007D" script="" category="Punctuation" subCategory="Fence" sortName="fence05" />
+    <glyph name="leftCeiling" unicode="2308" production="uni2308" script="" category="Punctuation" subCategory="Fence" sortName="fence06" />
+    <glyph name="rightCeiling" unicode="2309" production="uni2309" script="" category="Punctuation" subCategory="Fence" sortName="fence07" />
+    <glyph name="leftFloor" unicode="230A" production="uni230A" script="" category="Punctuation" subCategory="Fence" sortName="fence08" />
+    <glyph name="rightFloor" unicode="230B" production="uni230B" script="" category="Punctuation" subCategory="Fence" sortName="fence09" />
+    <glyph name="lmoustache" unicode="23B0" production="uni23B0"  script="" category="Punctuation" subCategory="Fence" sortName="fence10" />
+    <glyph name="rmoustache" unicode="23B1" production="uni23B1"  script="" category="Punctuation" subCategory="Fence" sortName="fence11" />
+    <glyph name="leftsshapedbagdelimiter" unicode="27C5" production="uni27C5" script="" category="Punctuation" subCategory="Fence" sortName="fence12" />
+    <glyph name="rightsshapedbagdelimiter" unicode="27C6" production="uni27C6" script="" category="Punctuation" subCategory="Fence" sortName="fence13" />
+    <glyph name="leftwhitesquarebracket-math" unicode="27E6" production="uni27E6" script="" category="Punctuation" subCategory="Fence" sortName="fence14" />
+    <glyph name="rightwhitesquarebracket-math" unicode="27E7" production="uni27E7" script="" category="Punctuation" subCategory="Fence" sortName="fence15" />
+    <glyph name="leftanglebracket-math" unicode="27E8" production="uni27E8" script="" category="Punctuation" subCategory="Fence" sortName="fence16" />
+    <glyph name="rightanglebracket-math" unicode="27E9" production="uni27E9" script="" category="Punctuation" subCategory="Fence" sortName="fence17" />
+    <glyph name="leftdoubleanglebracket-math" unicode="27EA" production="uni27EA" script="" category="Punctuation" subCategory="Fence" sortName="fence18" />
+    <glyph name="rightdoubleanglebracket-math" unicode="27EB" production="uni27EB" script="" category="Punctuation" subCategory="Fence" sortName="fence19" />
+    <glyph name="leftwhitetortoiseshellbracket-math" unicode="27EC" production="uni27EC" script="" category="Punctuation" subCategory="Fence" sortName="fence20" />
+    <glyph name="rightwhitetortoiseshellbracket-math" unicode="27ED" production="uni27ED" script="" category="Punctuation" subCategory="Fence" sortName="fence21" />
+    <glyph name="leftflattenedparenthesis-math" unicode="27EE" production="uni27EE" script="" category="Punctuation" subCategory="Fence" sortName="fence22" />
+    <glyph name="rightflattenedparenthesis-math" unicode="27EF" production="uni27EF" script="" category="Punctuation" subCategory="Fence" sortName="fence23" />
+    <glyph name="leftwhitecurlybracket" unicode="2983" production="uni2983" script="" category="Punctuation" subCategory="Fence" sortName="fence24" />
+    <glyph name="rightwhitecurlybracket" unicode="2984" production="uni2984" script="" category="Punctuation" subCategory="Fence" sortName="fence25" />
+    <glyph name="whiteparenleft" unicode="2985" production="uni2985" script="" category="Punctuation" subCategory="Fence" sortName="fence26" />
+    <glyph name="whiteparenright" unicode="2986" production="uni2986" script="" category="Punctuation" subCategory="Fence" sortName="fence27" />
+    <glyph name="znotationleftimagebracket" unicode="2987" production="uni2987" script="" category="Punctuation" subCategory="Fence" sortName="fence28" />
+    <glyph name="znotationrightimagebracket" unicode="2988" production="uni2988" script="" category="Punctuation" subCategory="Fence" sortName="fence29" />
+    <glyph name="znotationleftbindingbracket" unicode="2989" production="uni2989" script="" category="Punctuation" subCategory="Fence" sortName="fence30" />
+    <glyph name="znotationrightbindingbracket" unicode="298A" production="uni298A" script="" category="Punctuation" subCategory="Fence" sortName="fence31" />
+    <glyph name="leftsquarebracketunderbar" unicode="298B" production="uni298B" script="" category="Punctuation" subCategory="Fence" sortName="fence32" />
+    <glyph name="rightsquarebracketunderbar" unicode="298C" production="uni298C" script="" category="Punctuation" subCategory="Fence" sortName="fence33" />
+    <glyph name="leftsquarebrackettickintopcorner" unicode="298D" production="uni298D" script="" category="Punctuation" subCategory="Fence" sortName="fence34" />
+    <glyph name="rightsquarebrackettickinbottomcorner" unicode="298E" production="uni298E" script="" category="Punctuation" subCategory="Fence" sortName="fence35" />
+    <glyph name="leftsquarebrackettickinbottomcorner" unicode="298F" production="uni298F" script="" category="Punctuation" subCategory="Fence" sortName="fence36" />
+    <glyph name="rightsquarebrackettickintopcorner" unicode="2990" production="uni2990" script="" category="Punctuation" subCategory="Fence" sortName="fence37" />
+    <glyph name="leftanglebracketdot" unicode="2991" production="uni2991" script="" category="Punctuation" subCategory="Fence" sortName="fence38" />
+    <glyph name="rightanglebracketdot" unicode="2992" production="uni2992" script="" category="Punctuation" subCategory="Fence" sortName="fence39" />
+    <glyph name="leftarclessthanbracket" unicode="2993" production="uni2993" script="" category="Punctuation" subCategory="Fence" sortName="fence40" />
+    <glyph name="rightarcgreaterthanbracket" unicode="2994" production="uni2994" script="" category="Punctuation" subCategory="Fence" sortName="fence41" />
+    <glyph name="doubleleftarcgreaterthanbracket" unicode="2995" production="uni2995" script="" category="Punctuation" subCategory="Fence" sortName="fence42" />
+    <glyph name="doublerightarclessthanbracket" unicode="2996" production="uni2996" script="" category="Punctuation" subCategory="Fence" sortName="fence43" />
+    <glyph name="leftblacktortoiseshellbracket" unicode="2997" production="uni2997" script="" category="Punctuation" subCategory="Fence" sortName="fence44" />
+    <glyph name="rightblacktortoiseshellbracket" unicode="2998" production="uni2998" script="" category="Punctuation" subCategory="Fence" sortName="fence45" />
+    <glyph name="dottedFence" unicode="2999" production="uni2999"  script="" category="Punctuation" subCategory="Fence" sortName="fence46" />
+    <glyph name="verticalZigzagLine" unicode="299A" production="uni299A"  script="" category="Punctuation" subCategory="Fence" sortName="fence47" />
+    <glyph name="leftwigglyfence" unicode="29D8" production="uni29D8" script="" category="Punctuation" subCategory="Fence" sortName="fence48" />
+    <glyph name="rightwigglyfence" unicode="29D9" production="uni29D9" script="" category="Punctuation" subCategory="Fence" sortName="fence49" />
+    <glyph name="leftdoublewigglyfence" unicode="29DA" production="uni29DA" script="" category="Punctuation" subCategory="Fence" sortName="fence50" />
+    <glyph name="rightdoublewigglyfence" unicode="29DB" production="uni29DB" script="" category="Punctuation" subCategory="Fence" sortName="fence51" />
+    <glyph name="leftpointingcurvedanglebracket" unicode="29FC" production="uni29FC" script="" category="Punctuation" subCategory="Fence" sortName="fence52" />
+    <glyph name="rightpointingcurvedanglebracket" unicode="29FD" production="uni29FD" script="" category="Punctuation" subCategory="Fence" sortName="fence53" />
+
+    <glyph name="braceleft.x" unicode="23AA" production="uni23AA" category="Punctuation" subCategory="Fence" />
+    <glyph name="braceleft.b" unicode="23A9" production="uni23A9" category="Punctuation" subCategory="Fence" />
+    <glyph name="braceleft.m" unicode="23A8" production="uni23A8" category="Punctuation" subCategory="Fence" />
+    <glyph name="braceleft.t" unicode="23A7" production="uni23A7" category="Punctuation" subCategory="Fence" />
+    <glyph name="bracketleft.x" unicode="23A2" production="uni23A2" category="Punctuation" subCategory="Fence" />
+    <glyph name="bracketleft.b" unicode="23A3" production="uni23A3" category="Punctuation" subCategory="Fence" />
+    <glyph name="bracketleft.t" unicode="23A1" production="uni23A1" category="Punctuation" subCategory="Fence" />
+    <glyph name="parenleft.x" unicode="239C" production="uni239C" category="Punctuation" subCategory="Fence" />
+    <glyph name="parenleft.b" unicode="239D" production="uni239D" category="Punctuation" subCategory="Fence" />
+    <glyph name="parenleft.t" unicode="239B" production="uni239B" category="Punctuation" subCategory="Fence" />
+    <glyph name="parenright.x" unicode="239F" production="uni239F" category="Punctuation" subCategory="Fence" />
+    <glyph name="parenright.b" unicode="23A0" production="uni23A0" category="Punctuation" subCategory="Fence" />
+    <glyph name="parenright.t" unicode="239E" production="uni239E" category="Punctuation" subCategory="Fence" />
+    <glyph name="braceright.b" unicode="23AD" production="uni23AD" category="Punctuation" subCategory="Fence" />
+    <glyph name="braceright.m" unicode="23AC" production="uni23AC" category="Punctuation" subCategory="Fence" />
+    <glyph name="braceright.t" unicode="23AB" production="uni23AB" category="Punctuation" subCategory="Fence" />
+    <glyph name="bracketright.x" unicode="23A5" production="uni23A5" category="Punctuation" subCategory="Fence" />
+    <glyph name="bracketright.b" unicode="23A6" production="uni23A6" category="Punctuation" subCategory="Fence" />
+    <glyph name="bracketright.t" unicode="23A4" production="uni23A4" category="Punctuation" subCategory="Fence" />
+
+
 </glyphData>

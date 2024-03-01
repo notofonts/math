@@ -1,6 +1,6 @@
 {
 color = 3;
-glyphname = quadrupleIntegralOperator.rtlm;
+glyphname = quadrupleintegral.rtlm;
 layers = (
 {
 anchors = (

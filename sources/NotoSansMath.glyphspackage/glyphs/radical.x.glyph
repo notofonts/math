@@ -23,6 +23,6 @@ nodes = (
 width = 866;
 }
 );
-metricRight = "=radicalsymbolbottom";
-metricWidth = "=radicalsymbolbottom";
+metricRight = "=radical.b";
+metricWidth = "=radical.b";
 }
