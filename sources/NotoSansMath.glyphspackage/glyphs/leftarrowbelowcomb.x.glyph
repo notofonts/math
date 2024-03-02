@@ -1,5 +1,5 @@
 {
-glyphname = horizontalbelow.x;
+glyphname = leftarrowbelowcomb.x;
 layers = (
 {
 layerId = master01;
@@ -7,7 +7,7 @@ shapes = (
 {
 alignment = -1;
 pos = (0,-828);
-ref = horizontalabove.x;
+ref = leftarrowabovecomb.x;
 }
 );
 width = 600;

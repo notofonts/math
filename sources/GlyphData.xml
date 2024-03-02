@@ -1093,6 +1093,8 @@
     <glyph name="rightarrowbelowcomb.s5" production="uni20EF.s5" category="Mark" subCategory="Spacing" sortName="s5.rightarrowbelowcomb" />
     <glyph name="rightharpoonabovecomb.s5" production="uni20D1.s5" category="Mark" subCategory="Spacing" sortName="s5.rightharpoonabovecomb" />
     <glyph name="rightharpoonwithbarbdowncomb.s5" production="uni20EC.s5" category="Mark" subCategory="Spacing" sortName="s5.rightharpoonwithbarbdowncomb" />
+    <glyph name="leftarrowabovecomb.x" production="uni20D6.x" category="Mark" subCategory="Spacing" sortName="x.leftarrowabovecomb" />
+    <glyph name="leftarrowbelowcomb.x" production="uni20EE.x" category="Mark" subCategory="Spacing" sortName="x.leftarrowbelowcomb" />
 
     <glyph name="bottomcurlybracket" unicode="23DF" production="uni23DF" category="Mark" subCategory="Spacing" />
     <glyph name="bottomsquarebracket" unicode="23B5" production="uni23B5" category="Mark" subCategory="Spacing" />

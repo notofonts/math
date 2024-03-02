@@ -45,7 +45,7 @@ userData = {
 com.nagwa.MATHPlugin.variants = {
 hAssembly = (
 (
-horizontal.x,
+leftArrow.x,
 1,
 500,
 500
