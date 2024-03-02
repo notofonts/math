@@ -3,6 +3,12 @@ color = 4;
 glyphname = Nabla.ssty1;
 layers = (
 {
+anchors = (
+{
+name = math.ta;
+pos = (340,0);
+}
+);
 layerId = master01;
 shapes = (
 {

@@ -3,6 +3,12 @@ color = 5;
 glyphname = Rscript.ssty2;
 layers = (
 {
+anchors = (
+{
+name = math.ta;
+pos = (641,0);
+}
+);
 layerId = master01;
 shapes = (
 {

@@ -3,6 +3,12 @@ color = 5;
 glyphname = Mscript.ssty2;
 layers = (
 {
+anchors = (
+{
+name = math.ta;
+pos = (967,0);
+}
+);
 layerId = master01;
 shapes = (
 {
