@@ -132,58 +132,6 @@
     <glyph name="Xboldscript-math" unicode="1D4E7" production="u1D4E7" script="Script" category="Letter" case="upper" sortName="bscrX" />
     <glyph name="Yboldscript-math" unicode="1D4E8" production="u1D4E8" script="Script" category="Letter" case="upper" sortName="bscrY" />
     <glyph name="Zboldscript-math" unicode="1D4E9" production="u1D4E9" script="Script" category="Letter" case="upper" sortName="bscrZ" />
-    <glyph name="Ascript-math.ssty1" production="u1D49C.ssty1" script="Script" category="Letter" case="upper" sortName="ssty1.ascrA" />
-    <glyph name="Bscript.ssty1" production="uni212C.ssty1" script="Script" category="Letter" case="upper" sortName="ssty1.ascrB" />
-    <glyph name="Cscript-math.ssty1" production="u1D49E.ssty1" script="Script" category="Letter" case="upper" sortName="ssty1.ascrC" />
-    <glyph name="Dscript-math.ssty1" production="u1D49F.ssty1" script="Script" category="Letter" case="upper" sortName="ssty1.ascrD" />
-    <glyph name="Escript.ssty1" production="uni2130.ssty1" script="Script" category="Letter" case="upper" sortName="ssty1.ascrE" />
-    <glyph name="Fscript.ssty1" production="uni2131.ssty1" script="Script" category="Letter" case="upper" sortName="ssty1.ascrF" />
-    <glyph name="Gscript-math.ssty1" production="u1D4A2.ssty1" script="Script" category="Letter" case="upper" sortName="ssty1.ascrG" />
-    <glyph name="Hscript.ssty1" production="uni210B.ssty1" script="Script" category="Letter" case="upper" sortName="ssty1.ascrH" />
-    <glyph name="Iscript.ssty1" production="uni2110.ssty1" script="Script" category="Letter" case="upper" sortName="ssty1.ascrI" />
-    <glyph name="Jscript-math.ssty1" production="u1D4A5.ssty1" script="Script" category="Letter" case="upper" sortName="ssty1.ascrJ" />
-    <glyph name="Kscript-math.ssty1" production="u1D4A6.ssty1" script="Script" category="Letter" case="upper" sortName="ssty1.ascrK" />
-    <glyph name="Lscript.ssty1" production="uni2112.ssty1" script="Script" category="Letter" case="upper" sortName="ssty1.ascrL" />
-    <glyph name="Mscript.ssty1" production="uni2133.ssty1" script="Script" category="Letter" case="upper" sortName="ssty1.ascrM" />
-    <glyph name="Nscript-math.ssty1" production="u1D4A9.ssty1" script="Script" category="Letter" case="upper" sortName="ssty1.ascrN" />
-    <glyph name="Oscript-math.ssty1" production="u1D4AA.ssty1" script="Script" category="Letter" case="upper" sortName="ssty1.ascrO" />
-    <glyph name="Pscript-math.ssty1" production="u1D4AB.ssty1" script="Script" category="Letter" case="upper" sortName="ssty1.ascrP" />
-    <glyph name="Qscript-math.ssty1" production="u1D4AC.ssty1" script="Script" category="Letter" case="upper" sortName="ssty1.ascrQ" />
-    <glyph name="Rscript.ssty1" production="uni211B.ssty1" script="Script" category="Letter" case="upper" sortName="ssty1.ascrR" />
-    <glyph name="Sscript-math.ssty1" production="u1D4AE.ssty1" script="Script" category="Letter" case="upper" sortName="ssty1.ascrS" />
-    <glyph name="Tscript-math.ssty1" production="u1D4AF.ssty1" script="Script" category="Letter" case="upper" sortName="ssty1.ascrT" />
-    <glyph name="Uscript-math.ssty1" production="u1D4B0.ssty1" script="Script" category="Letter" case="upper" sortName="ssty1.ascrU" />
-    <glyph name="Vscript-math.ssty1" production="u1D4B1.ssty1" script="Script" category="Letter" case="upper" sortName="ssty1.ascrV" />
-    <glyph name="Wscript-math.ssty1" production="u1D4B2.ssty1" script="Script" category="Letter" case="upper" sortName="ssty1.ascrW" />
-    <glyph name="Xscript-math.ssty1" production="u1D4B3.ssty1" script="Script" category="Letter" case="upper" sortName="ssty1.ascrX" />
-    <glyph name="Yscript-math.ssty1" production="u1D4B4.ssty1" script="Script" category="Letter" case="upper" sortName="ssty1.ascrY" />
-    <glyph name="Zscript-math.ssty1" production="u1D4B5.ssty1" script="Script" category="Letter" case="upper" sortName="ssty1.ascrZ" />
-    <glyph name="Ascript-math.ssty2" production="u1D49C.ssty2" script="Script" category="Letter" case="upper" sortName="ssty2.ascrA" />
-    <glyph name="Bscript.ssty2" production="uni212C.ssty2" script="Script" category="Letter" case="upper" sortName="ssty2.ascrB" />
-    <glyph name="Cscript-math.ssty2" production="u1D49E.ssty2" script="Script" category="Letter" case="upper" sortName="ssty2.ascrC" />
-    <glyph name="Dscript-math.ssty2" production="u1D49F.ssty2" script="Script" category="Letter" case="upper" sortName="ssty2.ascrD" />
-    <glyph name="Escript.ssty2" production="uni2130.ssty2" script="Script" category="Letter" case="upper" sortName="ssty2.ascrE" />
-    <glyph name="Fscript.ssty2" production="uni2131.ssty2" script="Script" category="Letter" case="upper" sortName="ssty2.ascrF" />
-    <glyph name="Gscript-math.ssty2" production="u1D4A2.ssty2" script="Script" category="Letter" case="upper" sortName="ssty2.ascrG" />
-    <glyph name="Hscript.ssty2" production="uni210B.ssty2" script="Script" category="Letter" case="upper" sortName="ssty2.ascrH" />
-    <glyph name="Iscript.ssty2" production="uni2110.ssty2" script="Script" category="Letter" case="upper" sortName="ssty2.ascrI" />
-    <glyph name="Jscript-math.ssty2" production="u1D4A5.ssty2" script="Script" category="Letter" case="upper" sortName="ssty2.ascrJ" />
-    <glyph name="Kscript-math.ssty2" production="u1D4A6.ssty2" script="Script" category="Letter" case="upper" sortName="ssty2.ascrK" />
-    <glyph name="Lscript.ssty2" production="uni2112.ssty2" script="Script" category="Letter" case="upper" sortName="ssty2.ascrL" />
-    <glyph name="Mscript.ssty2" production="uni2133.ssty2" script="Script" category="Letter" case="upper" sortName="ssty2.ascrM" />
-    <glyph name="Nscript-math.ssty2" production="u1D4A9.ssty2" script="Script" category="Letter" case="upper" sortName="ssty2.ascrN" />
-    <glyph name="Oscript-math.ssty2" production="u1D4AA.ssty2" script="Script" category="Letter" case="upper" sortName="ssty2.ascrO" />
-    <glyph name="Pscript-math.ssty2" production="u1D4AB.ssty2" script="Script" category="Letter" case="upper" sortName="ssty2.ascrP" />
-    <glyph name="Qscript-math.ssty2" production="u1D4AC.ssty2" script="Script" category="Letter" case="upper" sortName="ssty2.ascrQ" />
-    <glyph name="Rscript.ssty2" production="uni211B.ssty2" script="Script" category="Letter" case="upper" sortName="ssty2.ascrR" />
-    <glyph name="Sscript-math.ssty2" production="u1D4AE.ssty2" script="Script" category="Letter" case="upper" sortName="ssty2.ascrS" />
-    <glyph name="Tscript-math.ssty2" production="u1D4AF.ssty2" script="Script" category="Letter" case="upper" sortName="ssty2.ascrT" />
-    <glyph name="Uscript-math.ssty2" production="u1D4B0.ssty2" script="Script" category="Letter" case="upper" sortName="ssty2.ascrU" />
-    <glyph name="Vscript-math.ssty2" production="u1D4B1.ssty2" script="Script" category="Letter" case="upper" sortName="ssty2.ascrV" />
-    <glyph name="Wscript-math.ssty2" production="u1D4B2.ssty2" script="Script" category="Letter" case="upper" sortName="ssty2.ascrW" />
-    <glyph name="Xscript-math.ssty2" production="u1D4B3.ssty2" script="Script" category="Letter" case="upper" sortName="ssty2.ascrX" />
-    <glyph name="Yscript-math.ssty2" production="u1D4B4.ssty2" script="Script" category="Letter" case="upper" sortName="ssty2.ascrY" />
-    <glyph name="Zscript-math.ssty2" production="u1D4B5.ssty2" script="Script" category="Letter" case="upper" sortName="ssty2.ascrZ" />
     <glyph name="Ascript-math.uv001" production="u1D49C.uv001" script="Script" category="Letter" case="upper" sortName="uv001.ascrA" />
     <glyph name="Bscript.uv001" production="uni212C.uv001" script="Script" category="Letter" case="upper" sortName="uv001.ascrB" />
     <glyph name="Cscript-math.uv001" production="u1D49E.uv001" script="Script" category="Letter" case="upper" sortName="uv001.ascrC" />
@@ -288,66 +236,6 @@
     <glyph name="xboldscript-math" unicode="1D501" production="u1D501" script="Script" category="Letter" case="lower" sortName="bscrx" />
     <glyph name="yboldscript-math" unicode="1D502" production="u1D502" script="Script" category="Letter" case="lower" sortName="bscry" />
     <glyph name="zboldscript-math" unicode="1D503" production="u1D503" script="Script" category="Letter" case="lower" sortName="bscrz" />
-    <glyph name="imono-math.dtls" production="u1D692.dtls" script="Mono" category="Letter" case="lower" sortName="dtls.amonoi" />
-    <glyph name="jmono-math.dtls" production="u1D693.dtls" script="Mono" category="Letter" case="lower" sortName="dtls.amonoj" />
-    <glyph name="iscript-math.dtls" production="u1D4BE.dtls" script="Script" category="Letter" case="lower" sortName="dtls.ascri" />
-    <glyph name="jscript-math.dtls" production="u1D4BF.dtls" script="Script" category="Letter" case="lower" sortName="dtls.ascrj" />
-    <glyph name="ascript-math.ssty1" production="u1D4B6.ssty1" script="Script" category="Letter" case="lower" sortName="ssty1.ascra" />
-    <glyph name="bscript-math.ssty1" production="u1D4B7.ssty1" script="Script" category="Letter" case="lower" sortName="ssty1.ascrb" />
-    <glyph name="cscript-math.ssty1" production="u1D4B8.ssty1" script="Script" category="Letter" case="lower" sortName="ssty1.ascrc" />
-    <glyph name="dscript-math.ssty1" production="u1D4B9.ssty1" script="Script" category="Letter" case="lower" sortName="ssty1.ascrd" />
-    <glyph name="escript.ssty1" production="uni212F.ssty1" script="Script" category="Letter" case="lower" sortName="ssty1.ascre" />
-    <glyph name="fscript-math.ssty1" production="u1D4BB.ssty1" script="Script" category="Letter" case="lower" sortName="ssty1.ascrf" />
-    <glyph name="gscript.ssty1" production="uni210A.ssty1" script="Script" category="Letter" case="lower" sortName="ssty1.ascrg" />
-    <glyph name="hscript-math.ssty1" production="u1D4BD.ssty1" script="Script" category="Letter" case="lower" sortName="ssty1.ascrh" />
-    <glyph name="iscript-math.ssty1" production="u1D4BE.ssty1" script="Script" category="Letter" case="lower" sortName="ssty1.ascri" />
-    <glyph name="jscript-math.ssty1" production="u1D4BF.ssty1" script="Script" category="Letter" case="lower" sortName="ssty1.ascrj" />
-    <glyph name="kscript-math.ssty1" production="u1D4C0.ssty1" script="Script" category="Letter" case="lower" sortName="ssty1.ascrk" />
-    <glyph name="lscript-math.ssty1" production="u1D4C1.ssty1" script="Script" category="Letter" case="lower" sortName="ssty1.ascrl" />
-    <glyph name="mscript-math.ssty1" production="u1D4C2.ssty1" script="Script" category="Letter" case="lower" sortName="ssty1.ascrm" />
-    <glyph name="nscript-math.ssty1" production="u1D4C3.ssty1" script="Script" category="Letter" case="lower" sortName="ssty1.ascrn" />
-    <glyph name="oscript.ssty1" production="uni2134.ssty1" script="Script" category="Letter" case="lower" sortName="ssty1.ascro" />
-    <glyph name="pscript-math.ssty1" production="u1D4C5.ssty1" script="Script" category="Letter" case="lower" sortName="ssty1.ascrp" />
-    <glyph name="qscript-math.ssty1" production="u1D4C6.ssty1" script="Script" category="Letter" case="lower" sortName="ssty1.ascrq" />
-    <glyph name="rscript-math.ssty1" production="u1D4C7.ssty1" script="Script" category="Letter" case="lower" sortName="ssty1.ascrr" />
-    <glyph name="sscript-math.ssty1" production="u1D4C8.ssty1" script="Script" category="Letter" case="lower" sortName="ssty1.ascrs" />
-    <glyph name="tscript-math.ssty1" production="u1D4C9.ssty1" script="Script" category="Letter" case="lower" sortName="ssty1.ascrt" />
-    <glyph name="uscript-math.ssty1" production="u1D4CA.ssty1" script="Script" category="Letter" case="lower" sortName="ssty1.ascru" />
-    <glyph name="vscript-math.ssty1" production="u1D4CB.ssty1" script="Script" category="Letter" case="lower" sortName="ssty1.ascrv" />
-    <glyph name="wscript-math.ssty1" production="u1D4CC.ssty1" script="Script" category="Letter" case="lower" sortName="ssty1.ascrw" />
-    <glyph name="xscript-math.ssty1" production="u1D4CD.ssty1" script="Script" category="Letter" case="lower" sortName="ssty1.ascrx" />
-    <glyph name="yscript-math.ssty1" production="u1D4CE.ssty1" script="Script" category="Letter" case="lower" sortName="ssty1.ascry" />
-    <glyph name="zscript-math.ssty1" production="u1D4CF.ssty1" script="Script" category="Letter" case="lower" sortName="ssty1.ascrz" />
-    <glyph name="ascript-math.ssty2" production="u1D4B6.ssty2" script="Script" category="Letter" case="lower" sortName="ssty2.ascra" />
-    <glyph name="bscript-math.ssty2" production="u1D4B7.ssty2" script="Script" category="Letter" case="lower" sortName="ssty2.ascrb" />
-    <glyph name="cscript-math.ssty2" production="u1D4B8.ssty2" script="Script" category="Letter" case="lower" sortName="ssty2.ascrc" />
-    <glyph name="dscript-math.ssty2" production="u1D4B9.ssty2" script="Script" category="Letter" case="lower" sortName="ssty2.ascrd" />
-    <glyph name="escript.ssty2" production="uni212F.ssty2" script="Script" category="Letter" case="lower" sortName="ssty2.ascre" />
-    <glyph name="fscript-math.ssty2" production="u1D4BB.ssty2" script="Script" category="Letter" case="lower" sortName="ssty2.ascrf" />
-    <glyph name="gscript.ssty2" production="uni210A.ssty2" script="Script" category="Letter" case="lower" sortName="ssty2.ascrg" />
-    <glyph name="hscript-math.ssty2" production="u1D4BD.ssty2" script="Script" category="Letter" case="lower" sortName="ssty2.ascrh" />
-    <glyph name="iscript-math.ssty2" production="u1D4BE.ssty2" script="Script" category="Letter" case="lower" sortName="ssty2.ascri" />
-    <glyph name="jscript-math.ssty2" production="u1D4BF.ssty2" script="Script" category="Letter" case="lower" sortName="ssty2.ascrj" />
-    <glyph name="kscript-math.ssty2" production="u1D4C0.ssty2" script="Script" category="Letter" case="lower" sortName="ssty2.ascrk" />
-    <glyph name="lscript-math.ssty2" production="u1D4C1.ssty2" script="Script" category="Letter" case="lower" sortName="ssty2.ascrl" />
-    <glyph name="mscript-math.ssty2" production="u1D4C2.ssty2" script="Script" category="Letter" case="lower" sortName="ssty2.ascrm" />
-    <glyph name="nscript-math.ssty2" production="u1D4C3.ssty2" script="Script" category="Letter" case="lower" sortName="ssty2.ascrn" />
-    <glyph name="oscript.ssty2" production="uni2134.ssty2" script="Script" category="Letter" case="lower" sortName="ssty2.ascro" />
-    <glyph name="pscript-math.ssty2" production="u1D4C5.ssty2" script="Script" category="Letter" case="lower" sortName="ssty2.ascrp" />
-    <glyph name="qscript-math.ssty2" production="u1D4C6.ssty2" script="Script" category="Letter" case="lower" sortName="ssty2.ascrq" />
-    <glyph name="rscript-math.ssty2" production="u1D4C7.ssty2" script="Script" category="Letter" case="lower" sortName="ssty2.ascrr" />
-    <glyph name="sscript-math.ssty2" production="u1D4C8.ssty2" script="Script" category="Letter" case="lower" sortName="ssty2.ascrs" />
-    <glyph name="tscript-math.ssty2" production="u1D4C9.ssty2" script="Script" category="Letter" case="lower" sortName="ssty2.ascrt" />
-    <glyph name="uscript-math.ssty2" production="u1D4CA.ssty2" script="Script" category="Letter" case="lower" sortName="ssty2.ascru" />
-    <glyph name="vscript-math.ssty2" production="u1D4CB.ssty2" script="Script" category="Letter" case="lower" sortName="ssty2.ascrv" />
-    <glyph name="wscript-math.ssty2" production="u1D4CC.ssty2" script="Script" category="Letter" case="lower" sortName="ssty2.ascrw" />
-    <glyph name="xscript-math.ssty2" production="u1D4CD.ssty2" script="Script" category="Letter" case="lower" sortName="ssty2.ascrx" />
-    <glyph name="yscript-math.ssty2" production="u1D4CE.ssty2" script="Script" category="Letter" case="lower" sortName="ssty2.ascry" />
-    <glyph name="zscript-math.ssty2" production="u1D4CF.ssty2" script="Script" category="Letter" case="lower" sortName="ssty2.ascrz" />
-    <glyph name="iscript-math.dtls.ssty1" production="u1D4BE.dtls.ssty1" script="Script" category="Letter" case="lower" sortName="dtls.ssty1.ascri" />
-    <glyph name="jscript-math.dtls.ssty1" production="u1D4BF.dtls.ssty1" script="Script" category="Letter" case="lower" sortName="dtls.ssty1.ascrj" />
-    <glyph name="iscript-math.dtls.ssty2" production="u1D4BE.dtls.ssty2" script="Script" category="Letter" case="lower" sortName="dtls.ssty2.ascri" />
-    <glyph name="jscript-math.dtls.ssty2" production="u1D4BF.dtls.ssty2" script="Script" category="Letter" case="lower" sortName="dtls.ssty2.ascrj" />
     <glyph name="A-fraktur" unicode="1D504" production="u1D504" script="Black Letter" category="Letter" case="upper" sortName="afrakA" />
     <glyph name="B-fraktur" unicode="1D505" production="u1D505" script="Black Letter" category="Letter" case="upper" sortName="afrakB" />
     <glyph name="C-fraktur" unicode="212D" production="uni212D" script="Black Letter" category="Letter" case="upper" sortName="afrakC" />
@@ -400,58 +288,6 @@
     <glyph name="XBold-fraktur" unicode="1D583" production="u1D583" script="Black Letter" category="Letter" case="upper" sortName="bfrakX" />
     <glyph name="YBold-fraktur" unicode="1D584" production="u1D584" script="Black Letter" category="Letter" case="upper" sortName="bfrakY" />
     <glyph name="ZBold-fraktur" unicode="1D585" production="u1D585" script="Black Letter" category="Letter" case="upper" sortName="bfrakZ" />
-    <glyph name="A-fraktur.ssty1" production="u1D504.ssty1" script="Black Letter" category="Letter" case="upper" sortName="ssty1.afrakA" />
-    <glyph name="B-fraktur.ssty1" production="u1D505.ssty1" script="Black Letter" category="Letter" case="upper" sortName="ssty1.afrakB" />
-    <glyph name="C-fraktur.ssty1" production="uni212D.ssty1" script="Black Letter" category="Letter" case="upper" sortName="ssty1.afrakC" />
-    <glyph name="D-fraktur.ssty1" production="u1D507.ssty1" script="Black Letter" category="Letter" case="upper" sortName="ssty1.afrakD" />
-    <glyph name="E-fraktur.ssty1" production="u1D508.ssty1" script="Black Letter" category="Letter" case="upper" sortName="ssty1.afrakE" />
-    <glyph name="F-fraktur.ssty1" production="u1D509.ssty1" script="Black Letter" category="Letter" case="upper" sortName="ssty1.afrakF" />
-    <glyph name="G-fraktur.ssty1" production="u1D50A.ssty1" script="Black Letter" category="Letter" case="upper" sortName="ssty1.afrakG" />
-    <glyph name="H-fraktur.ssty1" production="uni210C.ssty1" script="Black Letter" category="Letter" case="upper" sortName="ssty1.afrakH" />
-    <glyph name="I-fraktur.ssty1" production="uni2111.ssty1" script="Black Letter" category="Letter" case="upper" sortName="ssty1.afrakI" />
-    <glyph name="J-fraktur.ssty1" production="u1D50D.ssty1" script="Black Letter" category="Letter" case="upper" sortName="ssty1.afrakJ" />
-    <glyph name="K-fraktur.ssty1" production="u1D50E.ssty1" script="Black Letter" category="Letter" case="upper" sortName="ssty1.afrakK" />
-    <glyph name="L-fraktur.ssty1" production="u1D50F.ssty1" script="Black Letter" category="Letter" case="upper" sortName="ssty1.afrakL" />
-    <glyph name="M-fraktur.ssty1" production="u1D510.ssty1" script="Black Letter" category="Letter" case="upper" sortName="ssty1.afrakM" />
-    <glyph name="N-fraktur.ssty1" production="u1D511.ssty1" script="Black Letter" category="Letter" case="upper" sortName="ssty1.afrakN" />
-    <glyph name="O-fraktur.ssty1" production="u1D512.ssty1" script="Black Letter" category="Letter" case="upper" sortName="ssty1.afrakO" />
-    <glyph name="P-fraktur.ssty1" production="u1D513.ssty1" script="Black Letter" category="Letter" case="upper" sortName="ssty1.afrakP" />
-    <glyph name="Q-fraktur.ssty1" production="u1D514.ssty1" script="Black Letter" category="Letter" case="upper" sortName="ssty1.afrakQ" />
-    <glyph name="R-fraktur.ssty1" production="uni211C.ssty1" script="Black Letter" category="Letter" case="upper" sortName="ssty1.afrakR" />
-    <glyph name="S-fraktur.ssty1" production="u1D516.ssty1" script="Black Letter" category="Letter" case="upper" sortName="ssty1.afrakS" />
-    <glyph name="T-fraktur.ssty1" production="u1D517.ssty1" script="Black Letter" category="Letter" case="upper" sortName="ssty1.afrakT" />
-    <glyph name="U-fraktur.ssty1" production="u1D518.ssty1" script="Black Letter" category="Letter" case="upper" sortName="ssty1.afrakU" />
-    <glyph name="V-fraktur.ssty1" production="u1D519.ssty1" script="Black Letter" category="Letter" case="upper" sortName="ssty1.afrakV" />
-    <glyph name="W-fraktur.ssty1" production="u1D51A.ssty1" script="Black Letter" category="Letter" case="upper" sortName="ssty1.afrakW" />
-    <glyph name="X-fraktur.ssty1" production="u1D51B.ssty1" script="Black Letter" category="Letter" case="upper" sortName="ssty1.afrakX" />
-    <glyph name="Y-fraktur.ssty1" production="u1D51C.ssty1" script="Black Letter" category="Letter" case="upper" sortName="ssty1.afrakY" />
-    <glyph name="Z-fraktur.ssty1" production="uni2128.ssty1" script="Black Letter" category="Letter" case="upper" sortName="ssty1.afrakZ" />
-    <glyph name="A-fraktur.ssty2" production="u1D504.ssty2" script="Black Letter" category="Letter" case="upper" sortName="ssty2.afrakA" />
-    <glyph name="B-fraktur.ssty2" production="u1D505.ssty2" script="Black Letter" category="Letter" case="upper" sortName="ssty2.afrakB" />
-    <glyph name="C-fraktur.ssty2" production="uni212D.ssty2" script="Black Letter" category="Letter" case="upper" sortName="ssty2.afrakC" />
-    <glyph name="D-fraktur.ssty2" production="u1D507.ssty2" script="Black Letter" category="Letter" case="upper" sortName="ssty2.afrakD" />
-    <glyph name="E-fraktur.ssty2" production="u1D508.ssty2" script="Black Letter" category="Letter" case="upper" sortName="ssty2.afrakE" />
-    <glyph name="F-fraktur.ssty2" production="u1D509.ssty2" script="Black Letter" category="Letter" case="upper" sortName="ssty2.afrakF" />
-    <glyph name="G-fraktur.ssty2" production="u1D50A.ssty2" script="Black Letter" category="Letter" case="upper" sortName="ssty2.afrakG" />
-    <glyph name="H-fraktur.ssty2" production="uni210C.ssty2" script="Black Letter" category="Letter" case="upper" sortName="ssty2.afrakH" />
-    <glyph name="I-fraktur.ssty2" production="uni2111.ssty2" script="Black Letter" category="Letter" case="upper" sortName="ssty2.afrakI" />
-    <glyph name="J-fraktur.ssty2" production="u1D50D.ssty2" script="Black Letter" category="Letter" case="upper" sortName="ssty2.afrakJ" />
-    <glyph name="K-fraktur.ssty2" production="u1D50E.ssty2" script="Black Letter" category="Letter" case="upper" sortName="ssty2.afrakK" />
-    <glyph name="L-fraktur.ssty2" production="u1D50F.ssty2" script="Black Letter" category="Letter" case="upper" sortName="ssty2.afrakL" />
-    <glyph name="M-fraktur.ssty2" production="u1D510.ssty2" script="Black Letter" category="Letter" case="upper" sortName="ssty2.afrakM" />
-    <glyph name="N-fraktur.ssty2" production="u1D511.ssty2" script="Black Letter" category="Letter" case="upper" sortName="ssty2.afrakN" />
-    <glyph name="O-fraktur.ssty2" production="u1D512.ssty2" script="Black Letter" category="Letter" case="upper" sortName="ssty2.afrakO" />
-    <glyph name="P-fraktur.ssty2" production="u1D513.ssty2" script="Black Letter" category="Letter" case="upper" sortName="ssty2.afrakP" />
-    <glyph name="Q-fraktur.ssty2" production="u1D514.ssty2" script="Black Letter" category="Letter" case="upper" sortName="ssty2.afrakQ" />
-    <glyph name="R-fraktur.ssty2" production="uni211C.ssty2" script="Black Letter" category="Letter" case="upper" sortName="ssty2.afrakR" />
-    <glyph name="S-fraktur.ssty2" production="u1D516.ssty2" script="Black Letter" category="Letter" case="upper" sortName="ssty2.afrakS" />
-    <glyph name="T-fraktur.ssty2" production="u1D517.ssty2" script="Black Letter" category="Letter" case="upper" sortName="ssty2.afrakT" />
-    <glyph name="U-fraktur.ssty2" production="u1D518.ssty2" script="Black Letter" category="Letter" case="upper" sortName="ssty2.afrakU" />
-    <glyph name="V-fraktur.ssty2" production="u1D519.ssty2" script="Black Letter" category="Letter" case="upper" sortName="ssty2.afrakV" />
-    <glyph name="W-fraktur.ssty2" production="u1D51A.ssty2" script="Black Letter" category="Letter" case="upper" sortName="ssty2.afrakW" />
-    <glyph name="X-fraktur.ssty2" production="u1D51B.ssty2" script="Black Letter" category="Letter" case="upper" sortName="ssty2.afrakX" />
-    <glyph name="Y-fraktur.ssty2" production="u1D51C.ssty2" script="Black Letter" category="Letter" case="upper" sortName="ssty2.afrakY" />
-    <glyph name="Z-fraktur.ssty2" production="uni2128.ssty2" script="Black Letter" category="Letter" case="upper" sortName="ssty2.afrakZ" />
     <glyph name="a-fraktur" unicode="1D51E" production="u1D51E" script="Black Letter" category="Letter" case="lower" sortName="afraka" />
     <glyph name="b-fraktur" unicode="1D51F" production="u1D51F" script="Black Letter" category="Letter" case="lower" sortName="afrakb" />
     <glyph name="c-fraktur" unicode="1D520" production="u1D520" script="Black Letter" category="Letter" case="lower" sortName="afrakc" />
@@ -504,66 +340,6 @@
     <glyph name="xBold-fraktur" unicode="1D59D" production="u1D59D" script="Black Letter" category="Letter" case="lower" sortName="bfrakx" />
     <glyph name="yBold-fraktur" unicode="1D59E" production="u1D59E" script="Black Letter" category="Letter" case="lower" sortName="bfraky" />
     <glyph name="zBold-fraktur" unicode="1D59F" production="u1D59F" script="Black Letter" category="Letter" case="lower" sortName="bfrakz" />
-    <glyph name="i-fraktur.dtls" production="u1D526.dtls" script="Black Letter" category="Letter" case="lower" sortName="dtls.afraki" />
-    <glyph name="j-fraktur.dtls" production="u1D527.dtls" script="Black Letter" category="Letter" case="lower" sortName="dtls.afrakj" />
-    <glyph name="iBold-fraktur.dtls" production="u1D58E.001" script="Black Letter" category="Letter" case="lower" sortName="dtls.bfraki" />
-    <glyph name="jBold-fraktur.dtls" production="u1D58F.001" script="Black Letter" category="Letter" case="lower" sortName="dtls.bfrakj" />
-    <glyph name="a-fraktur.ssty1" production="u1D51E.ssty1" script="Black Letter" category="Letter" case="lower" sortName="ssty1.afraka" />
-    <glyph name="b-fraktur.ssty1" production="u1D51F.ssty1" script="Black Letter" category="Letter" case="lower" sortName="ssty1.afrakb" />
-    <glyph name="c-fraktur.ssty1" production="u1D520.ssty1" script="Black Letter" category="Letter" case="lower" sortName="ssty1.afrakc" />
-    <glyph name="d-fraktur.ssty1" production="u1D521.ssty1" script="Black Letter" category="Letter" case="lower" sortName="ssty1.afrakd" />
-    <glyph name="e-fraktur.ssty1" production="u1D522.ssty1" script="Black Letter" category="Letter" case="lower" sortName="ssty1.afrake" />
-    <glyph name="f-fraktur.ssty1" production="u1D523.ssty1" script="Black Letter" category="Letter" case="lower" sortName="ssty1.afrakf" />
-    <glyph name="g-fraktur.ssty1" production="u1D524.ssty1" script="Black Letter" category="Letter" case="lower" sortName="ssty1.afrakg" />
-    <glyph name="h-fraktur.ssty1" production="u1D525.ssty1" script="Black Letter" category="Letter" case="lower" sortName="ssty1.afrakh" />
-    <glyph name="i-fraktur.ssty1" production="u1D526.ssty1" script="Black Letter" category="Letter" case="lower" sortName="ssty1.afraki" />
-    <glyph name="j-fraktur.ssty1" production="u1D527.ssty1" script="Black Letter" category="Letter" case="lower" sortName="ssty1.afrakj" />
-    <glyph name="k-fraktur.ssty1" production="u1D528.ssty1" script="Black Letter" category="Letter" case="lower" sortName="ssty1.afrakk" />
-    <glyph name="l-fraktur.ssty1" production="u1D529.ssty1" script="Black Letter" category="Letter" case="lower" sortName="ssty1.afrakl" />
-    <glyph name="m-fraktur.ssty1" production="u1D52A.ssty1" script="Black Letter" category="Letter" case="lower" sortName="ssty1.afrakm" />
-    <glyph name="n-fraktur.ssty1" production="u1D52B.ssty1" script="Black Letter" category="Letter" case="lower" sortName="ssty1.afrakn" />
-    <glyph name="o-fraktur.ssty1" production="u1D52C.ssty1" script="Black Letter" category="Letter" case="lower" sortName="ssty1.afrako" />
-    <glyph name="p-fraktur.ssty1" production="u1D52D.ssty1" script="Black Letter" category="Letter" case="lower" sortName="ssty1.afrakp" />
-    <glyph name="q-fraktur.ssty1" production="u1D52E.ssty1" script="Black Letter" category="Letter" case="lower" sortName="ssty1.afrakq" />
-    <glyph name="r-fraktur.ssty1" production="u1D52F.ssty1" script="Black Letter" category="Letter" case="lower" sortName="ssty1.afrakr" />
-    <glyph name="s-fraktur.ssty1" production="u1D530.ssty1" script="Black Letter" category="Letter" case="lower" sortName="ssty1.afraks" />
-    <glyph name="t-fraktur.ssty1" production="u1D531.ssty1" script="Black Letter" category="Letter" case="lower" sortName="ssty1.afrakt" />
-    <glyph name="u-fraktur.ssty1" production="u1D532.ssty1" script="Black Letter" category="Letter" case="lower" sortName="ssty1.afraku" />
-    <glyph name="v-fraktur.ssty1" production="u1D533.ssty1" script="Black Letter" category="Letter" case="lower" sortName="ssty1.afrakv" />
-    <glyph name="w-fraktur.ssty1" production="u1D534.ssty1" script="Black Letter" category="Letter" case="lower" sortName="ssty1.afrakw" />
-    <glyph name="x-fraktur.ssty1" production="u1D535.ssty1" script="Black Letter" category="Letter" case="lower" sortName="ssty1.afrakx" />
-    <glyph name="y-fraktur.ssty1" production="u1D536.ssty1" script="Black Letter" category="Letter" case="lower" sortName="ssty1.afraky" />
-    <glyph name="z-fraktur.ssty1" production="u1D537.ssty1" script="Black Letter" category="Letter" case="lower" sortName="ssty1.afrakz" />
-    <glyph name="a-fraktur.ssty2" production="u1D51E.ssty2" script="Black Letter" category="Letter" case="lower" sortName="ssty2.afraka" />
-    <glyph name="b-fraktur.ssty2" production="u1D51F.ssty2" script="Black Letter" category="Letter" case="lower" sortName="ssty2.afrakb" />
-    <glyph name="c-fraktur.ssty2" production="u1D520.ssty2" script="Black Letter" category="Letter" case="lower" sortName="ssty2.afrakc" />
-    <glyph name="d-fraktur.ssty2" production="u1D521.ssty2" script="Black Letter" category="Letter" case="lower" sortName="ssty2.afrakd" />
-    <glyph name="e-fraktur.ssty2" production="u1D522.ssty2" script="Black Letter" category="Letter" case="lower" sortName="ssty2.afrake" />
-    <glyph name="f-fraktur.ssty2" production="u1D523.ssty2" script="Black Letter" category="Letter" case="lower" sortName="ssty2.afrakf" />
-    <glyph name="g-fraktur.ssty2" production="u1D524.ssty2" script="Black Letter" category="Letter" case="lower" sortName="ssty2.afrakg" />
-    <glyph name="h-fraktur.ssty2" production="u1D525.ssty2" script="Black Letter" category="Letter" case="lower" sortName="ssty2.afrakh" />
-    <glyph name="i-fraktur.ssty2" production="u1D526.ssty2" script="Black Letter" category="Letter" case="lower" sortName="ssty2.afraki" />
-    <glyph name="j-fraktur.ssty2" production="u1D527.ssty2" script="Black Letter" category="Letter" case="lower" sortName="ssty2.afrakj" />
-    <glyph name="k-fraktur.ssty2" production="u1D528.ssty2" script="Black Letter" category="Letter" case="lower" sortName="ssty2.afrakk" />
-    <glyph name="l-fraktur.ssty2" production="u1D529.ssty2" script="Black Letter" category="Letter" case="lower" sortName="ssty2.afrakl" />
-    <glyph name="m-fraktur.ssty2" production="u1D52A.ssty2" script="Black Letter" category="Letter" case="lower" sortName="ssty2.afrakm" />
-    <glyph name="n-fraktur.ssty2" production="u1D52B.ssty2" script="Black Letter" category="Letter" case="lower" sortName="ssty2.afrakn" />
-    <glyph name="o-fraktur.ssty2" production="u1D52C.ssty2" script="Black Letter" category="Letter" case="lower" sortName="ssty2.afrako" />
-    <glyph name="p-fraktur.ssty2" production="u1D52D.ssty2" script="Black Letter" category="Letter" case="lower" sortName="ssty2.afrakp" />
-    <glyph name="q-fraktur.ssty2" production="u1D52E.ssty2" script="Black Letter" category="Letter" case="lower" sortName="ssty2.afrakq" />
-    <glyph name="r-fraktur.ssty2" production="u1D52F.ssty2" script="Black Letter" category="Letter" case="lower" sortName="ssty2.afrakr" />
-    <glyph name="s-fraktur.ssty2" production="u1D530.ssty2" script="Black Letter" category="Letter" case="lower" sortName="ssty2.afraks" />
-    <glyph name="t-fraktur.ssty2" production="u1D531.ssty2" script="Black Letter" category="Letter" case="lower" sortName="ssty2.afrakt" />
-    <glyph name="u-fraktur.ssty2" production="u1D532.ssty2" script="Black Letter" category="Letter" case="lower" sortName="ssty2.afraku" />
-    <glyph name="v-fraktur.ssty2" production="u1D533.ssty2" script="Black Letter" category="Letter" case="lower" sortName="ssty2.afrakv" />
-    <glyph name="w-fraktur.ssty2" production="u1D534.ssty2" script="Black Letter" category="Letter" case="lower" sortName="ssty2.afrakw" />
-    <glyph name="x-fraktur.ssty2" production="u1D535.ssty2" script="Black Letter" category="Letter" case="lower" sortName="ssty2.afrakx" />
-    <glyph name="y-fraktur.ssty2" production="u1D536.ssty2" script="Black Letter" category="Letter" case="lower" sortName="ssty2.afraky" />
-    <glyph name="z-fraktur.ssty2" production="u1D537.ssty2" script="Black Letter" category="Letter" case="lower" sortName="ssty2.afrakz" />
-    <glyph name="i-fraktur.dtls.ssty1" production="u1D526.dtls.ssty1" script="Black Letter" category="Letter" case="lower" sortName="dtls.ssty1.afraki" />
-    <glyph name="j-fraktur.dtls.ssty1" production="u1D527.dtls.ssty1" script="Black Letter" category="Letter" case="lower" sortName="dtls.ssty1.afrakj" />
-    <glyph name="i-fraktur.dtls.ssty2" production="u1D526.dtls.ssty2" script="Black Letter" category="Letter" case="lower" sortName="dtls.ssty2.afraki" />
-    <glyph name="j-fraktur.dtls.ssty2" production="u1D527.dtls.ssty2" script="Black Letter" category="Letter" case="lower" sortName="dtls.ssty2.afrakj" />
 
     <glyph name="Asans-math" unicode="1D5A0" production="u1D5A0" script="Sans" category="Letter" case="upper" sortName="a1sansA" />
     <glyph name="Bsans-math" unicode="1D5A1" production="u1D5A1" script="Sans" category="Letter" case="upper" sortName="a1sansB" />
@@ -773,14 +549,6 @@
     <glyph name="xsansbolditalic-math" unicode="1D66D" unicode2="1D499" production="u1D66D" script="Sans" category="Letter" case="lower" sortName="a4sansx" />
     <glyph name="ysansbolditalic-math" unicode="1D66E" unicode2="1D49A" production="u1D66E" script="Sans" category="Letter" case="lower" sortName="a4sansy" />
     <glyph name="zsansbolditalic-math" unicode="1D66F" unicode2="1D49B" production="u1D66F" script="Sans" category="Letter" case="lower" sortName="a4sansz" />
-    <glyph name="isans-math.dtls" production="u1D5C2.dtls" script="Sans" category="Letter" case="lower" sortName="adtls.1sansi" />
-    <glyph name="jsans-math.dtls" production="u1D5C3.dtls" script="Sans" category="Letter" case="lower" sortName="adtls.1sansj" />
-    <glyph name="isansitalic-math.dtls" unicode="1D6A4" production="u1D6A4" script="Sans" category="Letter" case="lower" sortName="adtls.2sansi" />
-    <glyph name="jsansitalic-math.dtls" unicode="1D6A5" production="u1D6A5" script="Sans" category="Letter" case="lower" sortName="adtls.2sansj" />
-    <glyph name="isansbold-math.dtls" production="u1D5F6.dtls" script="Sans" category="Letter" case="lower" sortName="adtls.3sansi" />
-    <glyph name="jsansbold-math.dtls" production="u1D5F7.dtls" script="Sans" category="Letter" case="lower" sortName="adtls.3sansj" />
-    <glyph name="isansbolditalic-math.dtls" production="u1D65E.dtls" script="Sans" category="Letter" case="lower" sortName="adtls.4sansi" />
-    <glyph name="jsansbolditalic-math.dtls" production="u1D65F.dtls" script="Sans" category="Letter" case="lower" sortName="adtls.4sansj" />
 
     <glyph name="Alphasansbold-math" unicode="1D756" unicode2="1D6A8" production="u1D756" script="Sans" category="Letter" case="upper" sortName="mt684" />
     <glyph name="Betasansbold-math" unicode="1D757" unicode2="1D6A9" production="u1D757" script="Sans" category="Letter" case="upper" sortName="mt685" />
@@ -961,6 +729,25 @@
     <glyph name="Nablaitalic-math" unicode="1D6FB" production="u1D6FB" script="Sans" category="Letter" case="upper" sortName="mt593" />
     <glyph name="Nablasansbold-math" unicode="1D76F" unicode2="1D6C1" production="u1D76F" script="Sans" category="Letter" case="upper" sortName="mt709" />
     <glyph name="Nablasansbolditalic-math" unicode="1D7A9" unicode2="1D735" production="u1D7A9" script="Sans" category="Letter" case="upper" sortName="mt767" />
+
+    <glyph name="i-fraktur.dtls" production="u1D526.dtls" script="Black Letter" category="Letter" case="lower" sortName="afraki_" />
+    <glyph name="j-fraktur.dtls" production="u1D527.dtls" script="Black Letter" category="Letter" case="lower" sortName="afrakj_" />
+    <glyph name="iBold-fraktur.dtls" production="u1D58E.001" script="Black Letter" category="Letter" case="lower" sortName="bfraki_" />
+    <glyph name="jBold-fraktur.dtls" production="u1D58F.001" script="Black Letter" category="Letter" case="lower" sortName="bfrakj_" />
+    <glyph name="imono-math.dtls" production="u1D692.dtls" script="Mono" category="Letter" case="lower" sortName="amonoi_" />
+    <glyph name="jmono-math.dtls" production="u1D693.dtls" script="Mono" category="Letter" case="lower" sortName="amonoj_" />
+    <glyph name="isansitalic-math.dtls" unicode="1D6A4" production="u1D6A4" script="Sans" category="Letter" case="lower" sortName="a2sansi_" />
+    <glyph name="jsansitalic-math.dtls" unicode="1D6A5" production="u1D6A5" script="Sans" category="Letter" case="lower" sortName="a2sansj_" />
+    <glyph name="isansbold-math.dtls" production="u1D5F6.dtls" script="Sans" category="Letter" case="lower" sortName="a3sansi_" />
+    <glyph name="jsansbold-math.dtls" production="u1D5F7.dtls" script="Sans" category="Letter" case="lower" sortName="a3sansj_" />
+    <glyph name="isansbolditalic-math.dtls" production="u1D65E.dtls" script="Sans" category="Letter" case="lower" sortName="a4sansi_" />
+    <glyph name="jsansbolditalic-math.dtls" production="u1D65F.dtls" script="Sans" category="Letter" case="lower" sortName="a4sansj_" />
+    <glyph name="iscript-math.dtls" production="u1D4BE.dtls" script="Script" category="Letter" case="lower" sortName="ascri_" />
+    <glyph name="jscript-math.dtls" production="u1D4BF.dtls" script="Script" category="Letter" case="lower" sortName="ascrj_" />
+    <glyph name="idoubleStruck.dtls" production="u1D55A.dtls" category="Letter" case="lower" sortName="dSi_" />
+    <glyph name="jdoubleStruck.dtls" production="u1D55B.dtls" category="Letter" case="lower" sortName="dSj_" />
+    <glyph name="iitalicDoubleStruck.dtls" production="uni2148.dtls" category="Letter" case="lower" sortName="dS~i_" />
+    <glyph name="jitalicDoubleStruck.dtls" production="uni2149.dtls" category="Letter" case="lower" sortName="dS~j_" />
 
     <glyph name="zero" unicode="0030" unicode2="1D7E2" category="Number" subCategory="Decimal Digit" sortName="Nu0" />
     <glyph name="one" unicode="0031" unicode2="1D7E3" category="Number" subCategory="Decimal Digit" sortName="Nu1" />
