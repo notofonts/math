@@ -7,7 +7,7 @@ layerId = master01;
 shapes = (
 {
 alignment = 3;
-pos = (0,-760);
+pos = (0,-654);
 ref = prime;
 scale = (1.6667,1.6667);
 }
