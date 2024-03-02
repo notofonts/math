@@ -34,11 +34,11 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 slashlongcomb,
-slashlong.s1,
-slashlong.s2,
-slashlong.s3,
-slashlong.s4,
-slashlong.s5
+slashlongcomb.s1,
+slashlongcomb.s2,
+slashlongcomb.s3,
+slashlongcomb.s4,
+slashlongcomb.s5
 );
 };
 };

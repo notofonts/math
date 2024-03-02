@@ -1,11 +1,11 @@
 {
-glyphname = slashlong.s2;
+glyphname = slashlongcomb.s3;
 layers = (
 {
 anchors = (
 {
 name = center;
-pos = (423,557);
+pos = (528,657);
 }
 );
 layerId = master01;
@@ -13,14 +13,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(94,-448,l),
-(846,1562,l),
-(752,1562,l),
-(0,-448,l)
+(98,-623,l),
+(1056,1937,l),
+(958,1937,l),
+(0,-623,l)
 );
 }
 );
-width = 846;
+width = 1056;
 }
 );
 }
