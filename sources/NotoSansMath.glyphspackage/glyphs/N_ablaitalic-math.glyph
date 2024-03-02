@@ -20,11 +20,11 @@ layerId = master01;
 shapes = (
 {
 angle = 180;
-pos = (591,714);
+pos = (637,714);
 ref = "Deltaitalic-math";
 }
 );
-width = 591;
+width = 637;
 }
 );
 unicode = 120571;

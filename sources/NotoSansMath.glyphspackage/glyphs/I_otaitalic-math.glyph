@@ -10,7 +10,7 @@ shapes = (
 ref = "Isansitalic-math";
 }
 );
-width = 324;
+width = 344;
 }
 );
 unicode = 120554;

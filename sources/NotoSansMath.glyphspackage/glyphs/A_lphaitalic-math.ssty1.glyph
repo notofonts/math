@@ -9,7 +9,7 @@ shapes = (
 ref = "Asansitalic-math.ssty1";
 }
 );
-width = 608;
+width = 667;
 }
 );
 metricLeft = "=Asansitalic-math.ssty1";

@@ -3,39 +3,17 @@ glyphname = j;
 kernRight = j;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (22,-240);
-},
-{
-name = center;
-pos = (63,248);
-},
-{
-name = math.ta;
-pos = (129,0);
-},
-{
-name = top;
-pos = (129,737);
-},
-{
-name = topright;
-pos = (238,737);
-}
-);
 layerId = master01;
 shapes = (
 {
 ref = jdotless;
 },
 {
-pos = (78,0);
+pos = (153,0);
 ref = dotaccentcomb;
 }
 );
-width = 258;
+width = 333;
 }
 );
 unicode = (106,120259);
