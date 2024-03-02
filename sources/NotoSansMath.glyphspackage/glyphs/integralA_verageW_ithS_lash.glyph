@@ -9,7 +9,7 @@ pos = (244,322);
 },
 {
 name = math.ic;
-pos = (689,-288);
+pos = (689,0);
 }
 );
 layerId = master01;

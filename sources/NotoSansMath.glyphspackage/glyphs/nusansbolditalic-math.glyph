@@ -9,7 +9,7 @@ pos = (262,266);
 },
 {
 name = math.ic;
-pos = (527,250);
+pos = (527,0);
 },
 {
 name = math.ta;
