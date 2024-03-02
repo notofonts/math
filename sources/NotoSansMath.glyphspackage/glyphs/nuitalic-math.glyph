@@ -10,6 +10,10 @@ name = center;
 pos = (262,268);
 },
 {
+name = math.ic;
+pos = (497,0);
+},
+{
 name = math.ta;
 pos = (262,0);
 }
@@ -37,7 +41,7 @@ nodes = (
 );
 }
 );
-width = 476;
+width = 427;
 }
 );
 unicode = 120584;

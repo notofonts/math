@@ -3,6 +3,12 @@ color = 5;
 glyphname = Hscript.ssty2;
 layers = (
 {
+anchors = (
+{
+name = math.ic;
+pos = (1137,0);
+}
+);
 layerId = master01;
 shapes = (
 {

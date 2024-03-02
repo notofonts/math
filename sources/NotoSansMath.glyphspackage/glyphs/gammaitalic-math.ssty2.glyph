@@ -11,6 +11,10 @@ name = center;
 pos = (281,168);
 },
 {
+name = math.ic;
+pos = (534,0);
+},
+{
 name = math.ta;
 pos = (281,0);
 }
@@ -40,7 +44,7 @@ nodes = (
 );
 }
 );
-width = 509;
+width = 474;
 }
 );
 }

@@ -5,6 +5,12 @@ kernLeft = GRK_Epsilon;
 kernRight = GRK_Rho;
 layers = (
 {
+anchors = (
+{
+name = math.ic;
+pos = (633,0);
+}
+);
 layerId = master01;
 shapes = (
 {
