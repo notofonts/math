@@ -3,25 +3,15 @@ color = 4;
 glyphname = Nabla.ssty1;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (330,357);
-},
-{
-name = math.ta;
-pos = (330,0);
-}
-);
 layerId = master01;
 shapes = (
 {
 angle = 180;
-pos = (661,714);
+pos = (681,714);
 ref = Delta.ssty1;
 }
 );
-width = 661;
+width = 681;
 }
 );
 }

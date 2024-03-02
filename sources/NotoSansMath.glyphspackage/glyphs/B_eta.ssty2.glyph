@@ -3,23 +3,13 @@ color = 5;
 glyphname = Beta.ssty2;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (366,357);
-},
-{
-name = math.ta;
-pos = (361,0);
-}
-);
 layerId = master01;
 shapes = (
 {
 ref = B.ssty2;
 }
 );
-width = 693;
+width = 760;
 }
 );
 }

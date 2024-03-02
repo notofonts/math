@@ -2,32 +2,9 @@
 glyphname = Mu;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (448,0);
-},
-{
-name = center;
-pos = (453,357);
-},
-{
-name = math.ta;
-pos = (454,0);
-},
-{
-name = top;
-pos = (454,714);
-},
-{
-name = topright;
-pos = (887,714);
-}
-);
 layerId = master01;
 shapes = (
 {
-alignment = -1;
 ref = M;
 }
 );

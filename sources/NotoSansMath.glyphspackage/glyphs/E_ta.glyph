@@ -2,36 +2,9 @@
 glyphname = Eta;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (368,0);
-},
-{
-name = center;
-pos = (371,357);
-},
-{
-name = math.ta;
-pos = (371,0);
-},
-{
-name = top;
-pos = (371,714);
-},
-{
-name = topleft;
-pos = (20,714);
-},
-{
-name = topright;
-pos = (721,714);
-}
-);
 layerId = master01;
 shapes = (
 {
-alignment = -1;
 ref = H;
 }
 );

@@ -3,23 +3,13 @@ color = 4;
 glyphname = Rho.ssty1;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (331,357);
-},
-{
-name = math.ta;
-pos = (429,0);
-}
-);
 layerId = master01;
 shapes = (
 {
 ref = P.ssty1;
 }
 );
-width = 619;
+width = 630;
 }
 );
 }

@@ -2,32 +2,9 @@
 glyphname = Rho;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (303,0);
-},
-{
-name = center;
-pos = (325,357);
-},
-{
-name = math.ta;
-pos = (317,0);
-},
-{
-name = top;
-pos = (317,714);
-},
-{
-name = topright;
-pos = (585,714);
-}
-);
 layerId = master01;
 shapes = (
 {
-alignment = -1;
 ref = P;
 }
 );

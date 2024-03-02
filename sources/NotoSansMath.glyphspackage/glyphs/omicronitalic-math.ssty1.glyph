@@ -5,20 +5,13 @@ kernLeft = GRK_omicron;
 kernRight = GRK_omicron;
 layers = (
 {
-anchors = (
-{
-name = math.ta;
-pos = (337,0);
-}
-);
 layerId = master01;
 shapes = (
 {
-alignment = -1;
 ref = "osansitalic-math.ssty1";
 }
 );
-width = 578;
+width = 621;
 }
 );
 }

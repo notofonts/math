@@ -2,36 +2,9 @@
 glyphname = Upsilon;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (283,0);
-},
-{
-name = center;
-pos = (283,357);
-},
-{
-name = math.ta;
-pos = (283,0);
-},
-{
-name = top;
-pos = (283,714);
-},
-{
-name = topleft;
-pos = (20,714);
-},
-{
-name = topright;
-pos = (546,714);
-}
-);
 layerId = master01;
 shapes = (
 {
-alignment = -1;
 ref = Y;
 }
 );

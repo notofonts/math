@@ -3,24 +3,13 @@ color = 5;
 glyphname = Kappa.ssty2;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (388,357);
-},
-{
-name = math.ta;
-pos = (378,0);
-}
-);
 layerId = master01;
 shapes = (
 {
-alignment = -1;
 ref = K.ssty2;
 }
 );
-width = 686;
+width = 729;
 }
 );
 }

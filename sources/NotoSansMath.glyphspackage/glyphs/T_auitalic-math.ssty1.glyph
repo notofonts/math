@@ -11,7 +11,7 @@ shapes = (
 ref = "Tsansitalic-math.ssty1";
 }
 );
-width = 522;
+width = 516;
 }
 );
 }

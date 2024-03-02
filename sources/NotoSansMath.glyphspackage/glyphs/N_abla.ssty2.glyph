@@ -6,22 +6,22 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (350,357);
+pos = (384,357);
 },
 {
 name = math.ta;
-pos = (352,0);
+pos = (386,0);
 }
 );
 layerId = master01;
 shapes = (
 {
 angle = 180;
-pos = (705,714);
+pos = (773,714);
 ref = Delta.ssty2;
 }
 );
-width = 705;
+width = 773;
 }
 );
 }

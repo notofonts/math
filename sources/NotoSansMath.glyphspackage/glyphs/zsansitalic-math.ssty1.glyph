@@ -11,7 +11,7 @@ pos = (242,272);
 },
 {
 name = math.ic;
-pos = (503,0);
+pos = (513,0);
 },
 {
 name = math.ta;
@@ -36,7 +36,7 @@ nodes = (
 );
 }
 );
-width = 473;
+width = 491;
 }
 );
 }

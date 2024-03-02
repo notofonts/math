@@ -3,23 +3,13 @@ color = 4;
 glyphname = Chi.ssty1;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (326,357);
-},
-{
-name = math.ta;
-pos = (328,0);
-}
-);
 layerId = master01;
 shapes = (
 {
 ref = X.ssty1;
 }
 );
-width = 653;
+width = 663;
 }
 );
 }

@@ -10,10 +10,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(486,308,l),
-(509,418,l),
-(274,418,l),
-(252,308,l)
+(499,308,l),
+(522,418,l),
+(287,418,l),
+(265,308,l)
 );
 },
 {
@@ -21,7 +21,10 @@ alignment = -1;
 ref = "Osansitalic-math.ssty1";
 }
 );
-width = 728;
+width = 737;
 }
 );
+metricLeft = "=Osansitalic-math.ssty1";
+metricRight = "=Osansitalic-math.ssty1";
+metricWidth = "=Osansitalic-math.ssty1";
 }

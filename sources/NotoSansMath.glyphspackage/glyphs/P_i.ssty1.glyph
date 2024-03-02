@@ -6,11 +6,11 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (371,357);
+pos = (378,357);
 },
 {
 name = math.ta;
-pos = (371,0);
+pos = (378,0);
 }
 );
 layerId = master01;
@@ -18,20 +18,20 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(222,0,l),
-(222,603,l),
-(521,603,l),
-(521,0,l),
-(653,0,l),
-(653,714,l),
-(90,714,l),
-(90,0,l)
+(229,0,l),
+(229,603,l),
+(528,603,l),
+(528,0,l),
+(660,0,l),
+(660,714,l),
+(97,714,l),
+(97,0,l)
 );
 }
 );
-width = 743;
+width = 758;
 }
 );
-metricLeft = B.ssty;
-metricRight = H.ssty;
+metricLeft = B.ssty1;
+metricRight = H.ssty1;
 }

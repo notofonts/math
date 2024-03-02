@@ -2,32 +2,9 @@
 glyphname = Beta;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (325,0);
-},
-{
-name = center;
-pos = (346,357);
-},
-{
-name = math.ta;
-pos = (325,0);
-},
-{
-name = top;
-pos = (325,714);
-},
-{
-name = topright;
-pos = (630,714);
-}
-);
 layerId = master01;
 shapes = (
 {
-alignment = -1;
 ref = B;
 }
 );

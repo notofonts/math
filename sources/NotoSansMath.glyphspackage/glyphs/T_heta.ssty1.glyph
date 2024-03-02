@@ -28,9 +28,9 @@ nodes = (
 );
 }
 );
-width = 802;
+width = 804;
 }
 );
-metricLeft = "=O.ssty";
-metricRight = "=O.ssty";
+metricLeft = "=O.ssty1";
+metricRight = "=O.ssty1";
 }

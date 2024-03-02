@@ -53,6 +53,6 @@ nodes = (
 width = 551;
 }
 );
-metricLeft = v.ssty;
-metricRight = v.ssty;
+metricLeft = v.ssty1;
+metricRight = v.ssty1;
 }

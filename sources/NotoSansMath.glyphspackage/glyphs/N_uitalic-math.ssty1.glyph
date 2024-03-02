@@ -11,7 +11,7 @@ shapes = (
 ref = "Nsansitalic-math.ssty1";
 }
 );
-width = 740;
+width = 765;
 }
 );
 }

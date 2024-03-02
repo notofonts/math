@@ -76,5 +76,6 @@ nodes = (
 width = 615;
 }
 );
+metricLeft = "=o";
 unicode = (113,120266);
 }

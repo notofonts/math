@@ -2,36 +2,9 @@
 glyphname = Epsilon;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (300,0);
-},
-{
-name = center;
-pos = (296,357);
-},
-{
-name = math.ta;
-pos = (305,0);
-},
-{
-name = top;
-pos = (305,714);
-},
-{
-name = topleft;
-pos = (20,714);
-},
-{
-name = topright;
-pos = (536,714);
-}
-);
 layerId = master01;
 shapes = (
 {
-alignment = -1;
 ref = E;
 }
 );

@@ -3,23 +3,13 @@ color = 4;
 glyphname = Zeta.ssty1;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (302,357);
-},
-{
-name = math.ta;
-pos = (338,0);
-}
-);
 layerId = master01;
 shapes = (
 {
 ref = Z.ssty1;
 }
 );
-width = 604;
+width = 648;
 }
 );
 }
