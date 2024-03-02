@@ -64,4 +64,7 @@ nodes = (
 width = 489;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
 }

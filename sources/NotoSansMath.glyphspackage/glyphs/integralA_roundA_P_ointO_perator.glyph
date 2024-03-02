@@ -104,4 +104,7 @@ width = 545;
 }
 );
 unicode = 10773;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
 }
