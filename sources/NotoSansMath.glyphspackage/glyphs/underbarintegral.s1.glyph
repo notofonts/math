@@ -1,26 +1,26 @@
 {
-glyphname = overbarintegral;
+glyphname = underbarintegral.s1;
 layers = (
 {
 anchors = (
 {
 name = center;
-pos = (255,394);
+pos = (251,251);
 },
 {
 name = math.ic;
-pos = (562,0);
+pos = (472,0);
 }
 );
 layerId = master01;
 shapes = (
 {
 alignment = 1;
-ref = integral;
+ref = integral.s1;
 },
 {
 alignment = -1;
-pos = (0,671);
+pos = (0,-1260);
 ref = _stroke.integral;
 }
 );
@@ -29,14 +29,7 @@ width = 472;
 );
 metricLeft = "=integral";
 metricRight = "=integral";
-unicode = 10779;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
-com.nagwa.MATHPlugin.variants = {
-vVariants = (
-overbarintegral,
-overbarintegral.s1
-);
-};
 };
 }

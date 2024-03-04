@@ -1,11 +1,11 @@
 {
-glyphname = timesintegral;
+glyphname = leftarrowhookintegral.s1;
 layers = (
 {
 anchors = (
 {
 name = center;
-pos = (239,323);
+pos = (240,322);
 },
 {
 name = math.ic;
@@ -16,25 +16,19 @@ layerId = master01;
 shapes = (
 {
 alignment = 1;
-ref = integral;
+ref = integral.s1;
 },
 {
-alignment = -1;
-pos = (-47,-30);
-ref = multiply;
+pos = (-90,0);
+ref = _arrowhook.integral;
 }
 );
 width = 472;
 }
 );
-unicode = 10776;
+metricLeft = "=51";
+metricRight = "=51";
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
-com.nagwa.MATHPlugin.variants = {
-vVariants = (
-timesintegral,
-timesintegral.s1
-);
-};
 };
 }

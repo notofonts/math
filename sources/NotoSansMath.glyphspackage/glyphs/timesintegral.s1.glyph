@@ -1,5 +1,5 @@
 {
-glyphname = timesintegral;
+glyphname = timesintegral.s1;
 layers = (
 {
 anchors = (
@@ -16,7 +16,7 @@ layerId = master01;
 shapes = (
 {
 alignment = 1;
-ref = integral;
+ref = integral.s1;
 },
 {
 alignment = -1;
@@ -27,14 +27,7 @@ ref = multiply;
 width = 472;
 }
 );
-unicode = 10776;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
-com.nagwa.MATHPlugin.variants = {
-vVariants = (
-timesintegral,
-timesintegral.s1
-);
-};
 };
 }

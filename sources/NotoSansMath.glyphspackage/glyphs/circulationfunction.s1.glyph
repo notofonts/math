@@ -1,5 +1,5 @@
 {
-glyphname = circulationfunction;
+glyphname = circulationfunction.s1;
 layers = (
 {
 anchors = (
@@ -16,9 +16,10 @@ layerId = master01;
 shapes = (
 {
 alignment = 1;
-ref = integral;
+ref = integral.s1;
 },
 {
+pos = (4,0);
 ref = _contour4.integral;
 }
 );
@@ -27,14 +28,7 @@ width = 472;
 );
 metricLeft = "=51@-180";
 metricRight = "=51@850";
-unicode = 10768;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
-com.nagwa.MATHPlugin.variants = {
-vVariants = (
-circulationfunction,
-circulationfunction.s1
-);
-};
 };
 }

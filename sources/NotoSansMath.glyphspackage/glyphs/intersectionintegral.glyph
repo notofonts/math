@@ -28,5 +28,11 @@ width = 566;
 unicode = 10777;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+intersectionintegral,
+intersectionintegral.s1
+);
+};
 };
 }

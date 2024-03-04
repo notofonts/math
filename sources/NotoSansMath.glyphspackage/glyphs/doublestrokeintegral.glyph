@@ -37,5 +37,11 @@ metricRight = "=51";
 unicode = 10766;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+doublestrokeintegral,
+doublestrokeintegral.s1
+);
+};
 };
 }

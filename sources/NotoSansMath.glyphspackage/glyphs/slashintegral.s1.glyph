@@ -1,12 +1,8 @@
 {
-glyphname = circulationfunction;
+glyphname = slashintegral.s1;
 layers = (
 {
 anchors = (
-{
-name = center;
-pos = (236,322);
-},
 {
 name = math.ic;
 pos = (562,0);
@@ -16,10 +12,11 @@ layerId = master01;
 shapes = (
 {
 alignment = 1;
-ref = integral;
+ref = integral.s1;
 },
 {
-ref = _contour4.integral;
+pos = (4,0);
+ref = _slash.integral;
 }
 );
 width = 472;
@@ -27,14 +24,7 @@ width = 472;
 );
 metricLeft = "=51@-180";
 metricRight = "=51@850";
-unicode = 10768;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
-com.nagwa.MATHPlugin.variants = {
-vVariants = (
-circulationfunction,
-circulationfunction.s1
-);
-};
 };
 }

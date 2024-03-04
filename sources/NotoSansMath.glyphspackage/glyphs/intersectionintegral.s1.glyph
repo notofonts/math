@@ -1,0 +1,28 @@
+{
+glyphname = intersectionintegral.s1;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (562,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = integral.s1;
+},
+{
+pos = (-43,0);
+ref = _intersection.integral;
+}
+);
+width = 472;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}
