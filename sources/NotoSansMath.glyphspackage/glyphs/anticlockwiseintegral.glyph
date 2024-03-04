@@ -1,0 +1,36 @@
+{
+glyphname = anticlockwiseintegral;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (236,322);
+},
+{
+name = math.ic;
+pos = (562,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = integral;
+},
+{
+pos = (0,644);
+ref = _clockwise.integral;
+scale = (1,-1);
+}
+);
+width = 472;
+}
+);
+metricLeft = "=51@-180";
+metricRight = "=51@850";
+unicode = 10769;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

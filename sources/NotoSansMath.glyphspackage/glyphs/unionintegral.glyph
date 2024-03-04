@@ -1,0 +1,75 @@
+{
+glyphname = unionintegral;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (283,322);
+},
+{
+name = math.ic;
+pos = (656,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (47,0);
+ref = integral;
+},
+{
+pos = (0,644);
+ref = _intersection.integral;
+scale = (1,-1);
+}
+);
+width = 566;
+},
+{
+anchors = (
+{
+name = center;
+pos = (283,322);
+}
+);
+associatedMasterId = master01;
+layerId = "9F6C1B5B-20B8-47F0-BDB7-74A9AAD6E2B4";
+name = "3 Mar 24 at 21:53";
+shapes = (
+{
+closed = 1;
+nodes = (
+(423,106,o),
+(515,187,o),
+(515,319,cs),
+(515,528,l),
+(437,528,l),
+(437,317,ls),
+(437,224,o),
+(387,181,o),
+(286,190,c),
+(180,178,o),
+(129,228,o),
+(129,317,cs),
+(129,528,l),
+(51,528,l),
+(51,319,ls),
+(51,185,o),
+(146,104,o),
+(285,118,c)
+);
+},
+{
+pos = (47,0);
+ref = integral;
+}
+);
+width = 566;
+}
+);
+unicode = 10778;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}
