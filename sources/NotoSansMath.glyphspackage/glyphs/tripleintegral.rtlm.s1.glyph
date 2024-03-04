@@ -1,6 +1,6 @@
 {
 color = 3;
-glyphname = tripleintegral.rtlm;
+glyphname = tripleintegral.rtlm.s1;
 layers = (
 {
 anchors = (
@@ -13,17 +13,17 @@ layerId = master01;
 shapes = (
 {
 alignment = 1;
-ref = integral.rtlm;
+ref = integral.rtlm.s1;
 },
 {
 alignment = 1;
 pos = (259,0);
-ref = integral.rtlm;
+ref = integral.rtlm.s1;
 },
 {
 alignment = 1;
 pos = (518,0);
-ref = integral.rtlm;
+ref = integral.rtlm.s1;
 }
 );
 width = 990;
@@ -31,11 +31,5 @@ width = 990;
 );
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
-com.nagwa.MATHPlugin.variants = {
-vVariants = (
-tripleintegral.rtlm,
-tripleintegral.rtlm.s1
-);
-};
 };
 }

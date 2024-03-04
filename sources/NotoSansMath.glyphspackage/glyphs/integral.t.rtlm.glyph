@@ -3,12 +3,6 @@ color = 3;
 glyphname = integral.t.rtlm;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (-15,388);
-}
-);
 layerId = master01;
 shapes = (
 {

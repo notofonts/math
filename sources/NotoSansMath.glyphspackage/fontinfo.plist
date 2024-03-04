@@ -219,6 +219,7 @@ sub zNotationSchemaComposition by zNotationSchemaComposition.rtlm;
 sub zNotationSchemaPiping by zNotationSchemaPiping.rtlm;
 sub integral.b by integral.b.rtlm;
 sub integral.t by integral.t.rtlm;
+sub integral.x by integral.x.rtlm;
 sub radical by radical.rtlm;
 sub cuberoot by cuberoot.rtlm;
 sub fourthroot by fourthroot.rtlm;

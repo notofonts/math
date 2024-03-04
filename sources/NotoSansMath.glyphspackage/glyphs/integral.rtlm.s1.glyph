@@ -1,9 +1,13 @@
 {
 color = 3;
-glyphname = doublestrokeintegral.rtlm;
+glyphname = integral.rtlm.s1;
 layers = (
 {
 anchors = (
+{
+name = center;
+pos = (236,322);
+},
 {
 name = math.ic;
 pos = (562,0);
@@ -14,7 +18,7 @@ shapes = (
 {
 alignment = 1;
 pos = (472,0);
-ref = doublestrokeintegral;
+ref = integral.s1;
 scale = (-1,1);
 }
 );
@@ -23,11 +27,5 @@ width = 472;
 );
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
-com.nagwa.MATHPlugin.variants = {
-vVariants = (
-doublestrokeintegral.rtlm,
-doublestrokeintegral.rtlm.s1
-);
-};
 };
 }

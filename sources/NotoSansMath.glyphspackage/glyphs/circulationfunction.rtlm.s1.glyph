@@ -1,5 +1,6 @@
 {
-glyphname = quaternionintegral.s1;
+color = 3;
+glyphname = circulationfunction.rtlm.s1;
 layers = (
 {
 anchors = (
@@ -16,18 +17,19 @@ layerId = master01;
 shapes = (
 {
 alignment = 1;
-ref = integral.s1;
+ref = integral.rtlm.s1;
 },
 {
-pos = (3,0);
-ref = _quaternion.integral;
+alignment = -1;
+pos = (30,0);
+ref = _contour4.integral;
 }
 );
 width = 472;
 }
 );
-metricLeft = "=51@-180";
-metricRight = "=51@850";
+metricLeft = "=51@1400";
+metricRight = "=51@-800";
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
 };

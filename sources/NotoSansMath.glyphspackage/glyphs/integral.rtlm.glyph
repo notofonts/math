@@ -22,10 +22,40 @@ ref = integral;
 scale = (-1,1);
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+integral.b.rtlm,
+0,
+0,
+1178
+),
+(
+integral.x.rtlm,
+1,
+1362,
+0
+),
+(
+integral.t.rtlm,
+0,
+1291,
+0
+)
+);
+};
+};
 width = 472;
 }
 );
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+integral.rtlm,
+integral.rtlm.s1
+);
+};
 };
 }

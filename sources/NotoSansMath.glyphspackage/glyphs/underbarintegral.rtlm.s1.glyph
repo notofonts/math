@@ -1,12 +1,12 @@
 {
 color = 3;
-glyphname = doublestrokeintegral.rtlm;
+glyphname = underbarintegral.rtlm.s1;
 layers = (
 {
 anchors = (
 {
 name = math.ic;
-pos = (562,0);
+pos = (472,0);
 }
 );
 layerId = master01;
@@ -14,7 +14,7 @@ shapes = (
 {
 alignment = 1;
 pos = (472,0);
-ref = doublestrokeintegral;
+ref = underbarintegral.s1;
 scale = (-1,1);
 }
 );
@@ -23,11 +23,5 @@ width = 472;
 );
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
-com.nagwa.MATHPlugin.variants = {
-vVariants = (
-doublestrokeintegral.rtlm,
-doublestrokeintegral.rtlm.s1
-);
-};
 };
 }

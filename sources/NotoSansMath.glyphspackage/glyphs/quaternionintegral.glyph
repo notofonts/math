@@ -19,6 +19,7 @@ alignment = 1;
 ref = integral;
 },
 {
+pos = (-1,0);
 ref = _quaternion.integral;
 }
 );

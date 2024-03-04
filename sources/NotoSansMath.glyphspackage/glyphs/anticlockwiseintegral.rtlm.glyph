@@ -32,5 +32,11 @@ metricLeft = "=51@850";
 metricRight = "=51@-180";
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+anticlockwiseintegral.rtlm,
+anticlockwiseintegral.rtlm.s1
+);
+};
 };
 }

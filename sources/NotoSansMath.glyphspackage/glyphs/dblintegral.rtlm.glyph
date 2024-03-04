@@ -26,5 +26,11 @@ width = 731;
 );
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+dblintegral.rtlm,
+dblintegral.rtlm.s1
+);
+};
 };
 }

@@ -1,6 +1,6 @@
 {
 color = 3;
-glyphname = surfaceintegral.rtlm;
+glyphname = dblintegral.rtlm.s1;
 layers = (
 {
 anchors = (
@@ -13,9 +13,12 @@ layerId = master01;
 shapes = (
 {
 alignment = 1;
-pos = (731,0);
-ref = surfaceintegral;
-scale = (-1,1);
+ref = integral.rtlm.s1;
+},
+{
+alignment = 1;
+pos = (259,0);
+ref = integral.rtlm.s1;
 }
 );
 width = 731;
@@ -23,11 +26,5 @@ width = 731;
 );
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
-com.nagwa.MATHPlugin.variants = {
-vVariants = (
-surfaceintegral.rtlm,
-surfaceintegral.rtlm.s1
-);
-};
 };
 }
