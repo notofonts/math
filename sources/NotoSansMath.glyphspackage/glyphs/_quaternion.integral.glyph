@@ -1,0 +1,35 @@
+{
+glyphname = _quaternion.integral;
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (236,322);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(437,134,l),
+(437,511,l),
+(36,511,l),
+(36,134,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(107,201,l),
+(107,444,l),
+(366,444,l),
+(366,201,l)
+);
+}
+);
+width = 472;
+}
+);
+}

@@ -1072,6 +1072,7 @@ UpperLimitBaselineRiseMin = 300;
 UpperLimitGapMin = 135;
 };
 };
+visible = 1;
 }
 );
 instances = (

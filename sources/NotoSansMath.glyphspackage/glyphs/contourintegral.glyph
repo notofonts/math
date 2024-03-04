@@ -4,11 +4,32 @@ layers = (
 {
 anchors = (
 {
+name = math.ic;
+pos = (562,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = integral;
+},
+{
+ref = _contour1.integral;
+}
+);
+width = 472;
+},
+{
+anchors = (
+{
 name = center;
 pos = (272,322);
 }
 );
-layerId = master01;
+associatedMasterId = master01;
+layerId = "09C8D289-6ACF-44EC-A5EB-B6806001BDBC";
+name = "3 Mar 24 at 20:05";
 shapes = (
 {
 closed = 1;
@@ -85,6 +106,8 @@ nodes = (
 width = 545;
 }
 );
+metricLeft = "=51@-180";
+metricRight = "=51@850";
 unicode = 8750;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
