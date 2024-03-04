@@ -1013,5 +1013,6 @@
     <glyph name="bracketright.b" unicode="23A6" production="uni23A6" category="Punctuation" subCategory="Fence" />
     <glyph name="bracketright.t" unicode="23A4" production="uni23A4" category="Punctuation" subCategory="Fence" />
 
+    <glyph name="smallerthanorequalto" unicode="2AAC" production="uni2AAC" category="Symbol" subCategory="Math" />
 
 </glyphData>
