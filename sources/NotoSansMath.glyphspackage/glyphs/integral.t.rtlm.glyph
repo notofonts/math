@@ -12,12 +12,13 @@ pos = (-15,388);
 layerId = master01;
 shapes = (
 {
-pos = (387,0);
+alignment = 1;
+pos = (472,0);
 ref = integral.t;
 scale = (-1,1);
 }
 );
-width = 387;
+width = 472;
 }
 );
 metricLeft = "=|integral.t";
