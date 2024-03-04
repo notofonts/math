@@ -783,9 +783,11 @@ sub wdoubleStruck from [wdoubleStruck.ssty1 wdoubleStruck.ssty2];
 sub xdoubleStruck from [xdoubleStruck.ssty1 xdoubleStruck.ssty2];
 sub ydoubleStruck from [ydoubleStruck.ssty1 ydoubleStruck.ssty2];
 sub zdoubleStruck from [zdoubleStruck.ssty1 zdoubleStruck.ssty2];
-sub planckconstantovertwopi from [planckconstantovertwopi.ssty1 planckconstantovertwopi.ssty2];
+sub iitalicDoubleStruck from [iitalicDoubleStruck.ssty1 iitalicDoubleStruck.ssty2];
 sub iitalicDoubleStruck.dtls from [iitalicDoubleStruck.dtls.ssty1 iitalicDoubleStruck.dtls.ssty2];
+sub jitalicDoubleStruck from [jitalicDoubleStruck.ssty1 jitalicDoubleStruck.ssty2];
 sub jitalicDoubleStruck.dtls from [jitalicDoubleStruck.dtls.ssty1 jitalicDoubleStruck.dtls.ssty2];
+sub planckconstantovertwopi from [planckconstantovertwopi.ssty1 planckconstantovertwopi.ssty2];
 sub aeTurnedmod from [aeTurnedmod.ssty1 aeTurnedmod.ssty2];
 sub zero from [zero.ssty1 zero.ssty2];
 sub one from [one.ssty1 one.ssty2];
@@ -1009,9 +1011,8 @@ stemValues = (
 );
 userData = {
 GSCornerRadius = 20;
-GSOffsetHorizontal = 35;
+GSOffsetHorizontal = 10;
 GSOffsetKeepCompatible = 1;
-GSOffsetMakeStroke = 1;
 GSOffsetProportional = 1;
 GSOffsetVertical = 16;
 com.nagwa.MATHPlugin.constants = {
