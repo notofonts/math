@@ -5,15 +5,15 @@ layers = (
 anchors = (
 {
 name = _top;
-pos = (209,536);
+pos = (169,536);
 },
 {
 name = math.ta;
-pos = (207,0);
+pos = (169,0);
 },
 {
 name = top;
-pos = (211,766);
+pos = (169,766);
 }
 );
 layerId = master01;
@@ -22,7 +22,7 @@ shapes = (
 ref = caroncomb.s0;
 }
 );
-width = 418;
+width = 338;
 }
 );
 unicode = 780;
