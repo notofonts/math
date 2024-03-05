@@ -2,7 +2,20 @@
 
 fontbakery version: 0.11.2
 
-<h2>Experimental checks</h2><p>These won't break the CI job for now, but will become effective after some time if nobody raises any concern.</p><details><summary><b>[1] NotoSansMath-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure the font supports case swapping for all its glyphs. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/case_mapping">com.google.fonts/check/case_mapping</a>)</summary><div>
+<h2>Experimental checks</h2><p>These won't break the CI job for now, but will become effective after some time if nobody raises any concern.</p><details><summary><b>[2] NotoSansMath-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check tabular widths don't have kerning. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/tabular_kerning">com.google.fonts/check/tabular_kerning</a>)</summary><div>
+
+
+* 🔥 **FAIL** Kerning between zero and u1D6E8.ssty2 is not zero [code: has-tabular-kerning]
+* 🔥 **FAIL** Kerning between one and u1D6E8.ssty2 is not zero [code: has-tabular-kerning]
+* 🔥 **FAIL** Kerning between two and u1D6E8.ssty2 is not zero [code: has-tabular-kerning]
+* 🔥 **FAIL** Kerning between three and u1D6E8.ssty2 is not zero [code: has-tabular-kerning]
+* 🔥 **FAIL** Kerning between four and u1D6E8.ssty2 is not zero [code: has-tabular-kerning]
+* 🔥 **FAIL** Kerning between five and u1D6E8.ssty2 is not zero [code: has-tabular-kerning]
+* 🔥 **FAIL** Kerning between six and u1D6E8.ssty2 is not zero [code: has-tabular-kerning]
+* 🔥 **FAIL** Kerning between seven and u1D6E8.ssty2 is not zero [code: has-tabular-kerning]
+* 🔥 **FAIL** Kerning between eight and u1D6E8.ssty2 is not zero [code: has-tabular-kerning]
+* 🔥 **FAIL** Kerning between nine and u1D6E8.ssty2 is not zero [code: has-tabular-kerning]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure the font supports case swapping for all its glyphs. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/case_mapping">com.google.fonts/check/case_mapping</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs lack their case-swapping counterparts:
@@ -584,9 +597,9 @@ fontbakery version: 0.11.2
 
  * U+02D4 MODIFIER LETTER UP TACK: not included in any glyphset definition
  * U+02D5 MODIFIER LETTER DOWN TACK: not included in any glyphset definition
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0311 COMBINING INVERTED BREVE: try adding coptic
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
@@ -596,7 +609,7 @@ fontbakery version: 0.11.2
  * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
  * U+032E COMBINING BREVE BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
- * U+0331 COMBINING MACRON BELOW: try adding one of: gothic, caucasian-albanian, cherokee, syriac, tifinagh
+ * U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, syriac, tifinagh, gothic, caucasian-albanian
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0333 COMBINING DOUBLE LOW LINE: not included in any glyphset definition
  * U+0338 COMBINING LONG SOLIDUS OVERLAY: not included in any glyphset definition
@@ -616,7 +629,7 @@ fontbakery version: 0.11.2
  * U+200A HAIR SPACE: not included in any glyphset definition
  * U+2016 DOUBLE VERTICAL LINE: not included in any glyphset definition
  * U+2021 DOUBLE DAGGER: try adding adlam
- * U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi
+ * U+202F NARROW NO-BREAK SPACE: try adding one of: yi, mongolian
  * U+205F MEDIUM MATHEMATICAL SPACE: not included in any glyphset definition
  * U+210F PLANCK CONSTANT OVER TWO PI: not included in any glyphset definition
  * U+2118 SCRIPT CAPITAL P: not included in any glyphset definition
@@ -830,161 +843,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* radical
-	* u1D400
-	* u1D401
-	* u1D402
-	* u1D403
-	* u1D404
-	* u1D405
-	* u1D406
-	* u1D407
-	* u1D408
-	* u1D409
-	* u1D40A
-	* u1D40B
-	* u1D40C
-	* u1D40D
-	* u1D40E
-	* u1D40F
-	* u1D410
-	* u1D411
-	* u1D412
-	* u1D413
-	* u1D414
-	* u1D415
-	* u1D416
-	* u1D417
-	* u1D418
-	* u1D419
-	* u1D41A
-	* u1D41B
-	* u1D41C
-	* u1D41D
-	* u1D41E
-	* u1D41F
-	* u1D420
-	* u1D421
-	* u1D422
-	* u1D423
-	* u1D424
-	* u1D425
-	* u1D426
-	* u1D427
-	* u1D428
-	* u1D429
-	* u1D42A
-	* u1D42B
-	* u1D42C
-	* u1D42D
-	* u1D42E
-	* u1D42F
-	* u1D430
-	* u1D431
-	* u1D432
-	* u1D433
-	* u1D434
-	* u1D435
-	* u1D436
-	* u1D437
-	* u1D438
-	* u1D439
-	* u1D43A
-	* u1D43B
-	* u1D43C
-	* u1D43D
-	* u1D43E
-	* u1D43F
-	* u1D440
-	* u1D441
-	* u1D442
-	* u1D443
-	* u1D445
-	* u1D446
-	* u1D447
-	* u1D448
-	* u1D449
-	* u1D44A
-	* u1D44B
-	* u1D44C
-	* u1D44D
-	* u1D44E
-	* u1D44F
-	* u1D450
-	* u1D451
-	* u1D452
-	* u1D453
-	* u1D454
-	* u1D456
-	* u1D457
-	* u1D458
-	* u1D459
-	* u1D45A
-	* u1D45B
-	* u1D45C
-	* u1D45D
-	* u1D45E
-	* u1D45F
-	* u1D460
-	* u1D461
-	* u1D462
-	* u1D463
-	* u1D464
-	* u1D465
-	* u1D466
-	* u1D467
-	* u1D468
-	* u1D469
-	* u1D46A
-	* u1D46B
-	* u1D46C
-	* u1D46D
-	* u1D46E
-	* u1D46F
-	* u1D470
-	* u1D471
-	* u1D472
-	* u1D473
-	* u1D474
-	* u1D475
-	* u1D476
-	* u1D477
-	* u1D478
-	* u1D479
-	* u1D47A
-	* u1D47B
-	* u1D47C
-	* u1D47D
-	* u1D47E
-	* u1D47F
-	* u1D480
-	* u1D481
-	* u1D482
-	* u1D483
-	* u1D484
-	* u1D485
-	* u1D486
-	* u1D487
-	* u1D488
-	* u1D489
-	* u1D48A
-	* u1D48B
-	* u1D48C
-	* u1D48D
-	* u1D48E
-	* u1D48F
-	* u1D490
-	* u1D491
-	* u1D492
-	* u1D493
-	* u1D494
-	* u1D495
-	* u1D496
-	* u1D497
-	* u1D498
-	* u1D499
-	* u1D49A
-	* u1D49B
+	* infinity
 	* u1D49C
 	* u1D49E
 	* u1D49F
@@ -1068,83 +927,20 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	* u1D69D
 	* u1D69E
 	* u1D6A0
-	* u1D6A4
 	* u1D6A5
-	* u1D6A8
-	* u1D6A9
-	* u1D6AA
-	* u1D6AB
-	* u1D6AC
-	* u1D6AD
-	* u1D6AE
-	* u1D6AF
-	* u1D6B0
-	* u1D6B1
-	* u1D6B2
-	* u1D6B3
-	* u1D6B4
-	* u1D6B5
-	* u1D6B6
-	* u1D6B7
-	* u1D6B8
-	* u1D6BA
-	* u1D6BB
-	* u1D6BC
-	* u1D6BD
-	* u1D6BE
-	* u1D6BF
-	* u1D6C0
-	* u1D6C1
-	* u1D6C2
-	* u1D6C3
-	* u1D6C4
-	* u1D6C5
-	* u1D6C6
-	* u1D6C7
-	* u1D6C8
-	* u1D6C9
-	* u1D6CA
-	* u1D6CB
-	* u1D6CC
-	* u1D6CD
-	* u1D6CE
-	* u1D6CF
-	* u1D6D0
-	* u1D6D1
-	* u1D6D2
-	* u1D6D3
-	* u1D6D4
-	* u1D6D5
-	* u1D6D6
-	* u1D6D7
-	* u1D6D8
-	* u1D6D9
-	* u1D6DA
-	* u1D6DC
-	* u1D6DD
-	* u1D6DE
-	* u1D6E0
-	* u1D6E1
-	* u1D6E3
-	* u1D6E4
-	* u1D6E5
-	* u1D6E6
+	* u1D6E7
 	* u1D6E8
 	* u1D6E9
 	* u1D6EB
-	* u1D6ED
-	* u1D6EE
+	* u1D6EC
 	* u1D6EF
 	* u1D6F1
-	* u1D6F2
 	* u1D6F3
-	* u1D6F5
+	* u1D6F4
 	* u1D6F6
-	* u1D6F7
 	* u1D6F8
 	* u1D6F9
-	* u1D6FB
-	* u1D6FC
+	* u1D6FA
 	* u1D6FD
 	* u1D6FE
 	* u1D6FF
@@ -1153,76 +949,21 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	* u1D702
 	* u1D703
 	* u1D705
+	* u1D706
 	* u1D707
 	* u1D709
-	* u1D70A
 	* u1D70C
 	* u1D70E
 	* u1D70F
 	* u1D711
 	* u1D712
+	* u1D713
+	* u1D714
+	* u1D715
 	* u1D716
 	* u1D717
-	* u1D718
 	* u1D719
 	* u1D71A
-	* u1D71C
-	* u1D71D
-	* u1D71E
-	* u1D71F
-	* u1D720
-	* u1D721
-	* u1D722
-	* u1D723
-	* u1D724
-	* u1D725
-	* u1D726
-	* u1D727
-	* u1D728
-	* u1D729
-	* u1D72A
-	* u1D72B
-	* u1D72C
-	* u1D72D
-	* u1D72E
-	* u1D72F
-	* u1D730
-	* u1D731
-	* u1D732
-	* u1D733
-	* u1D734
-	* u1D735
-	* u1D736
-	* u1D737
-	* u1D738
-	* u1D739
-	* u1D73A
-	* u1D73B
-	* u1D73C
-	* u1D73D
-	* u1D73E
-	* u1D73F
-	* u1D740
-	* u1D741
-	* u1D742
-	* u1D743
-	* u1D744
-	* u1D745
-	* u1D746
-	* u1D747
-	* u1D748
-	* u1D749
-	* u1D74A
-	* u1D74B
-	* u1D74C
-	* u1D74D
-	* u1D74E
-	* u1D750
-	* u1D751
-	* u1D752
-	* u1D753
-	* u1D754
-	* u1D755
 	* u1D7CA
 	* u1D7CB
 	* u1D7F6
@@ -1251,6 +992,12 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	* uni2134
 	* uni221B
 	* uni221C
+	* uni222E
+	* uni222F
+	* uni2230
+	* uni2231
+	* uni2232
+	* uni2233
 	* uni239C
 	* uni239F
 	* uni23A1
@@ -1264,8 +1011,12 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	* uni23AB
 	* uni23AC
 	* uni23AD
+	* uni23DC
+	* uni23DD
 	* uni23DE
 	* uni23DF
+	* uni23E0
+	* uni23E1
 	* uni25FB
 	* uni27E6
 	* uni27E7
@@ -1275,7 +1026,16 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	* uni2983
 	* uni2984
 	* uni2985
+	* uni29DC
+	* uni29DD
+	* uni29DE
 	* uni2A04
+	* uni2A0E
+	* uni2A0F
+	* uni2A10
+	* uni2A11
+	* uni2A16
+	* uni2A18
 	* uni2A3F
 	* uni2AF4 and uni2AFC
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -1290,6 +1050,8 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	- arrowdblup.x
 
 	- arrowleft.l
+
+	- arrowleft.x
 
 	- arrowright.r
 
@@ -1399,74 +1161,6 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	- bracketright.s9
 
-	- caron.s1
-
-	- caron.s2
-
-	- caron.s3
-
-	- caron.s4
-
-	- caron.s5
-
-	- circumflex.s1
-
-	- circumflex.s2
-
-	- circumflex.s3
-
-	- circumflex.s4
-
-	- circumflex.s5
-
-	- horizontal.x
-
-	- horizontalabove.x
-
-	- horizontalbelow.x
-
-	- integral.s1
-
-	- leftarrowabove.s1
-
-	- leftarrowabove.s2
-
-	- leftarrowabove.s3
-
-	- leftarrowabove.s4
-
-	- leftarrowabove.s5
-
-	- leftarrowbelow.s1
-
-	- leftarrowbelow.s2
-
-	- leftarrowbelow.s3
-
-	- leftarrowbelow.s4
-
-	- leftarrowbelow.s5
-
-	- leftharpoonabove.s1
-
-	- leftharpoonabove.s2
-
-	- leftharpoonabove.s3
-
-	- leftharpoonabove.s4
-
-	- leftharpoonabove.s5
-
-	- leftharpoonwithbarbdown.s1
-
-	- leftharpoonwithbarbdown.s2
-
-	- leftharpoonwithbarbdown.s3
-
-	- leftharpoonwithbarbdown.s4
-
-	- leftharpoonwithbarbdown.s5
-
 	- parenleft.s1
 
 	- parenleft.s10
@@ -1515,66 +1209,6 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	- parenright.s9
 
-	- product.s1
-
-	- quadrupleintegral.b
-
-	- quadrupleintegral.t
-
-	- quadrupleintegral.x
-
-	- radical.s1
-
-	- radical.s2
-
-	- radical.s3
-
-	- radical.s4
-
-	- radical.t
-
-	- radical.x
-
-	- rightarrowabove.s1
-
-	- rightarrowabove.s2
-
-	- rightarrowabove.s3
-
-	- rightarrowabove.s4
-
-	- rightarrowabove.s5
-
-	- rightarrowbelow.s1
-
-	- rightarrowbelow.s2
-
-	- rightarrowbelow.s3
-
-	- rightarrowbelow.s4
-
-	- rightarrowbelow.s5
-
-	- rightharpoonabove.s1
-
-	- rightharpoonabove.s2
-
-	- rightharpoonabove.s3
-
-	- rightharpoonabove.s4
-
-	- rightharpoonabove.s5
-
-	- rightharpoonwithbarbdown.s1
-
-	- rightharpoonwithbarbdown.s2
-
-	- rightharpoonwithbarbdown.s3
-
-	- rightharpoonwithbarbdown.s4
-
-	- rightharpoonwithbarbdown.s5
-
 	- slash.s1
 
 	- slash.s2
@@ -1583,39 +1217,15 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	- slash.s4
 
-	- slashlong.s1
+	- tildecomb.s1
 
-	- slashlong.s2
+	- tildecomb.s2
 
-	- slashlong.s3
+	- tildecomb.s3
 
-	- slashlong.s4
+	- tildecomb.s4
 
-	- slashlong.s5
-
-	- summation.s1
-
-	- tilde.s1
-
-	- tilde.s2
-
-	- tilde.s3
-
-	- tilde.s4
-
-	- tilde.s5
-
-	- tildebelow.s1
-
-	- tildebelow.s2
-
-	- tildebelow.s3
-
-	- tildebelow.s4
-
-	- tildebelow.s5
-
-	- u1D454.alt
+	- tildecomb.s5
 
 	- underscore.s1
 
@@ -1627,6 +1237,46 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	- underscore.s5
 
+	- uni0302.s1
+
+	- uni0302.s2
+
+	- uni0302.s3
+
+	- uni0302.s4
+
+	- uni0302.s5
+
+	- uni030C.s1
+
+	- uni030C.s2
+
+	- uni030C.s3
+
+	- uni030C.s4
+
+	- uni030C.s5
+
+	- uni0330.s1
+
+	- uni0330.s2
+
+	- uni0330.s3
+
+	- uni0330.s4
+
+	- uni0330.s5
+
+	- uni0338.s1
+
+	- uni0338.s2
+
+	- uni0338.s3
+
+	- uni0338.s4
+
+	- uni0338.s5
+
 	- uni203E.s1
 
 	- uni203E.s2
@@ -1637,7 +1287,109 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	- uni203E.s5
 
+	- uni20D0.s1
+
+	- uni20D0.s2
+
+	- uni20D0.s3
+
+	- uni20D0.s4
+
+	- uni20D0.s5
+
+	- uni20D1.s1
+
+	- uni20D1.s2
+
+	- uni20D1.s3
+
+	- uni20D1.s4
+
+	- uni20D1.s5
+
+	- uni20D6.s1
+
+	- uni20D6.s2
+
+	- uni20D6.s3
+
+	- uni20D6.s4
+
+	- uni20D6.s5
+
+	- uni20D6.x
+
+	- uni20D7.s1
+
+	- uni20D7.s2
+
+	- uni20D7.s3
+
+	- uni20D7.s4
+
+	- uni20D7.s5
+
+	- uni20EC.s1
+
+	- uni20EC.s2
+
+	- uni20EC.s3
+
+	- uni20EC.s4
+
+	- uni20EC.s5
+
+	- uni20ED.s1
+
+	- uni20ED.s2
+
+	- uni20ED.s3
+
+	- uni20ED.s4
+
+	- uni20ED.s5
+
+	- uni20EE.s1
+
+	- uni20EE.s2
+
+	- uni20EE.s3
+
+	- uni20EE.s4
+
+	- uni20EE.s5
+
+	- uni20EE.x
+
+	- uni20EF.s1
+
+	- uni20EF.s2
+
+	- uni20EF.s3
+
+	- uni20EF.s4
+
+	- uni20EF.s5
+
+	- uni220F.s1
+
 	- uni2210.s1
+
+	- uni2211.s1
+
+	- uni221A.s1
+
+	- uni221A.s2
+
+	- uni221A.s3
+
+	- uni221A.s4
+
+	- uni221A.s5
+
+	- uni221A.t
+
+	- uni221A.x
 
 	- uni221B.s1
 
@@ -1655,7 +1407,13 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	- uni221C.s4
 
+	- uni222B.rtlm.s1
+
+	- uni222B.s1
+
 	- uni222C.b
+
+	- uni222C.rtlm.s1
 
 	- uni222C.s1
 
@@ -1665,17 +1423,37 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	- uni222D.b
 
+	- uni222D.rtlm.s1
+
 	- uni222D.s1
 
 	- uni222D.t
 
 	- uni222D.x
 
+	- uni222E.rtlm.s1
+
 	- uni222E.s1
+
+	- uni222F.rtlm.s1
 
 	- uni222F.s1
 
+	- uni2230.rtlm.s1
+
 	- uni2230.s1
+
+	- uni2231.rtlm.s1
+
+	- uni2231.s1
+
+	- uni2232.rtlm.s1
+
+	- uni2232.s1
+
+	- uni2233.rtlm.s1
+
+	- uni2233.s1
 
 	- uni22C0.s1
 
@@ -1893,6 +1671,10 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	- uni23DF.x
 
+	- uni23E0.l
+
+	- uni23E0.r
+
 	- uni23E0.s1
 
 	- uni23E0.s2
@@ -1903,6 +1685,12 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	- uni23E0.s5
 
+	- uni23E0.x
+
+	- uni23E1.l
+
+	- uni23E1.r
+
 	- uni23E1.s1
 
 	- uni23E1.s2
@@ -1912,6 +1700,8 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	- uni23E1.s4
 
 	- uni23E1.s5
+
+	- uni23E1.x
 
 	- uni27E6.b
 
@@ -2245,7 +2035,79 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	- uni2A09.s1
 
+	- uni2A0C.b
+
+	- uni2A0C.rtlm.s1
+
 	- uni2A0C.s1
+
+	- uni2A0C.t
+
+	- uni2A0C.x
+
+	- uni2A0D.rtlm.s1
+
+	- uni2A0D.s1
+
+	- uni2A0E.rtlm.s1
+
+	- uni2A0E.s1
+
+	- uni2A0F.rtlm.s1
+
+	- uni2A0F.s1
+
+	- uni2A10.rtlm.s1
+
+	- uni2A10.s1
+
+	- uni2A11.rtlm.s1
+
+	- uni2A11.s1
+
+	- uni2A12.rtlm.s1
+
+	- uni2A12.s1
+
+	- uni2A13.rtlm.s1
+
+	- uni2A13.s1
+
+	- uni2A14.rtlm.s1
+
+	- uni2A14.s1
+
+	- uni2A15.rtlm.s1
+
+	- uni2A15.s1
+
+	- uni2A16.rtlm.s1
+
+	- uni2A16.s1
+
+	- uni2A17.rtlm.s1
+
+	- uni2A17.s1
+
+	- uni2A18.rtlm.s1
+
+	- uni2A18.s1
+
+	- uni2A19.rtlm.s1
+
+	- uni2A19.s1
+
+	- uni2A1A.rtlm.s1
+
+	- uni2A1A.s1
+
+	- uni2A1B.rtlm.s1
+
+	- uni2A1B.s1
+
+	- uni2A1C.rtlm.s1
+
+	- uni2A1C.s1
 
 	- uni2AFC.s1
 
@@ -2327,13 +2189,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 699:
-uni22F3, uni22F5, suchthat, uni22D0, uni22F6, uni2ABD, notsubset, element, uni220C, uni22FD, uni2289, uni22D1, propersuperset, uni22F9, uni22FB, uni2285, uni2AC8, reflexsubset, uni27C3, uni22F8, notelement, uni2AC7, uni2ABE, uni2288, uni27C4, uni228B, propersubset, uni228A, reflexsuperset
+suchthat, uni27C3, notelement, uni22FD, uni228B, propersuperset, uni22D0, uni22F6, uni2AC7, uni27C4, uni2ABD, uni22F5, uni22F8, reflexsuperset, propersubset, uni2AC8, uni220C, uni2ABE, uni22F9, uni2289, element, notsubset, uni228A, uni22FB, uni22F3, reflexsubset, uni22D1, uni2285, uni2288
 
 Width = 540:
 proportional
 
 Width = 652:
-uni27C0, uni29A8, angle, uni29A9, uni29A2, uni299F, uni27D4, uni299E, uni29A4, uni299B, uni27D3, uni22BE, uni29A3, uni29AA, uni29A5, uni299D, uni299C, uni2221, uni29AB, orthogonal
+uni29A3, uni29A4, angle, uni299C, orthogonal, uni29A8, uni299D, uni27D3, uni29AB, uni299E, uni2221, uni299B, uni27C0, uni22BE, uni29A2, uni27D4, uni29A5, uni29AA, uni299F, uni29A9
 
 Width = 617:
 uni2239, uni2A27
@@ -2345,13 +2207,13 @@ Width = 667:
 uni2A33, uni223F
 
 Width = 542:
-uni227C, uni227B, uni227D, uni22DE, uni22DF, uni2280, uni22E0, uni227A, uni2281, uni22E1
+uni227A, uni227D, uni227C, uni227B, uni22E1, uni22DF, uni2280, uni22DE, uni22E0, uni2281
 
 Width = 644:
 uni2291, uni2292, uni2290
 
 Width = 756:
-uni2AE7, uni22A3, uni2AEB, uni2AE4, uni2AEA, uni2AE2, uni2AE8, uni22A8, uni2ADF, uni2AE9, uni22A2, uni22A5, uni2AE0, uni22A4
+uni2AE9, uni22A3, uni2AE0, uni2AE2, uni2ADF, uni2AE7, uni2AE4, uni22A4, uni2AEB, uni2AE8, uni2AEA, uni22A5, uni22A8, uni22A2
 
 Width = 567:
 uni22B0, uni22B1
@@ -2363,19 +2225,19 @@ Width = 532:
 uni22D7, uni22D6
 
 Width = 775:
-uni297B, uni2979
+uni2979, uni297B
 
 Width = 634:
 uni297E, uni297F
 
 Width = 732:
-uni2994, uni2995, uni2996, uni2993
+uni2995, uni2993, uni2996, uni2994
 
 Width = 624:
 uni29A1
 
 Width = 689:
-uni29E3, uni29E5, uni29E4
+uni29E3, uni29E4, uni29E5
 
 Width = 744:
 uni29FA
@@ -2390,22 +2252,22 @@ Width = 762:
 uni2A78
 
 Width = 669:
-uni2A79, uni2A7A
+uni2A7A, uni2A79
 
 Width = 573:
 uni2A7B, uni2A7C
 
 Width = 798:
-uni2AA2, uni2AA1
+uni2AA1, uni2AA2
 
 Width = 760:
-uni2AA7, uni2AA9, uni2AA8, uni2AA6
+uni2AA8, uni2AA9, uni2AA7, uni2AA6
 
 Width = 681:
-smallerthan, uni2AAD, uni2AAB, smallerthanorequalto
+uni2AAB, uni2AAC, smallerthan, uni2AAD
 
 Width = 679:
-uni2AC1, uni2ACC, uni2AD2, uni2AC3, uni2AC0, uni2AC5, uni2ACA, uni2AC9, uni2ABF, uni2AC2, uni2AD3, uni2AC4, uni2ACF, uni2AD1, uni2AD6, uni2AD4, uni2AC6, uni2ACB, uni2AD5, uni2AD0
+uni2AD0, uni2AC6, uni2AD5, uni2AC4, uni2AC2, uni2AC1, uni2ACB, uni2AD3, uni2ACC, uni2AD6, uni2AD4, uni2ACF, uni2AC9, uni2AC3, uni2AC0, uni2ACA, uni2AD2, uni2AC5, uni2ABF, uni2AD1
 
 Width = 754:
 uni2AE1
@@ -2431,23 +2293,19 @@ uni2AF6
 
 	* doublestruckzainArabicmath (U+1EEA6): L<<232.0,323.0>--<262.0,266.0>> -> L<<262.0,266.0>--<282.0,231.0>>
 
+	* u1D604 (U+1D430): L<<425.0,432.0>--<369.0,189.0>> -> L<<369.0,189.0>--<325.0,0.0>>
+
 	* u1D604 (U+1D604): L<<425.0,432.0>--<369.0,189.0>> -> L<<369.0,189.0>--<325.0,0.0>>
+
+	* u1D612 (U+1D43E): L<<207.0,367.0>--<269.0,433.0>> -> L<<269.0,433.0>--<543.0,714.0>>
 
 	* u1D612 (U+1D612): L<<207.0,367.0>--<269.0,433.0>> -> L<<269.0,433.0>--<543.0,714.0>>
 
+	* u1D646 (U+1D472): L<<251.0,369.0>--<327.0,471.0>> -> L<<327.0,471.0>--<529.0,714.0>>
+
 	* u1D646 (U+1D646): L<<251.0,369.0>--<327.0,471.0>> -> L<<327.0,471.0>--<529.0,714.0>>
 
-	* u1D6FD (U+1D6FD): L<<-38.0,-240.0>--<42.0,126.0>> -> L<<42.0,126.0>--<127.0,543.0>>
-
-	* u1D707 (U+1D707): L<<-34.0,-240.0>--<45.0,126.0>> -> L<<45.0,126.0>--<126.0,536.0>>
-
-	* u1D70C (U+1D70C): L<<-59.0,-240.0>--<17.0,109.0>> -> L<<17.0,109.0>--<47.0,253.0>>
-
-	* u1D737 (U+1D737): L<<-48.0,-240.0>--<32.0,126.0>> -> L<<32.0,126.0>--<109.0,527.0>>
-
-	* u1D741 (U+1D741): L<<-48.0,-240.0>--<22.0,75.0>> -> L<<22.0,75.0>--<111.0,536.0>>
-
-	* u1D746 (U+1D746): L<<-74.0,-240.0>--<6.0,122.0>> -> L<<6.0,122.0>--<35.0,263.0>>
+	* u1D6EB (U+1D6EB): L<<207.0,367.0>--<269.0,433.0>> -> L<<269.0,433.0>--<543.0,714.0>>
 
 	* uni2983 (U+2983): L<<347.0,784.0>--<347.0,784.0>> -> L<<347.0,784.0>--<490.0,784.0>>
 
@@ -2456,8 +2314,6 @@ uni2AF6
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* u1D432 (U+1D432): B<<321.0,162.0>-<327.0,138.0>-<329.0,118.0>>/B<<329.0,118.0>-<331.0,139.0>-<339.5,165.0>> = 11.150925168505127
 
 	* u1D4A9 (U+1D4A9): B<<638.0,510.5>-<658.0,602.0>-<695.0,666.0>>/B<<695.0,666.0>-<653.0,623.0>-<607.0,551.5>> = 14.292682666020351
 
@@ -2511,7 +2367,13 @@ uni2AF6
 
 	* u1D502 (U+1D502): L<<244.0,-4.0>--<291.0,82.0>>/B<<291.0,82.0>-<216.0,-7.0>-<164.0,-7.0>> = 11.463608760435159
 
-	* u1D572 (U+1D572): B<<467.0,449.5>-<456.0,426.0>-<441.0,407.0>>/B<<441.0,407.0>-<451.0,415.0>-<462.5,422.0>> = 13.050028553666817
+	* u1D572 (U+1D572): B<<456.0,449.5>-<445.0,426.0>-<430.0,407.0>>/B<<430.0,407.0>-<440.0,415.0>-<451.5,422.0>> = 13.050028553666817
+
+	* u1D5EA (U+1D416): B<<266.0,196.0>-<272.0,161.0>-<275.0,137.0>>/B<<275.0,137.0>-<278.0,162.0>-<284.0,196.5>> = 13.967789761532726
+
+	* u1D5EA (U+1D416): B<<489.0,505.5>-<485.0,529.0>-<483.0,542.0>>/B<<483.0,542.0>-<482.0,529.0>-<477.5,505.5>> = 13.144867617550734
+
+	* u1D5EA (U+1D416): B<<683.0,196.0>-<689.0,161.0>-<692.0,137.0>>/B<<692.0,137.0>-<695.0,162.0>-<701.0,196.5>> = 13.967789761532726
 
 	* u1D5EA (U+1D5EA): B<<266.0,196.0>-<272.0,161.0>-<275.0,137.0>>/B<<275.0,137.0>-<278.0,162.0>-<284.0,196.5>> = 13.967789761532726
 
@@ -2519,13 +2381,17 @@ uni2AF6
 
 	* u1D5EA (U+1D5EA): B<<683.0,196.0>-<689.0,161.0>-<692.0,137.0>>/B<<692.0,137.0>-<695.0,162.0>-<701.0,196.5>> = 13.967789761532726
 
-	* u1D6DE (U+1D6DE): B<<231.5,219.0>-<218.0,180.0>-<206.0,155.0>>/L<<206.0,155.0>--<479.0,536.0>> = 9.981933481390366
+	* u1D709 (U+1D709): B<<235.5,675.0>-<265.0,691.0>-<291.0,699.0>>/B<<291.0,699.0>-<280.0,697.0>-<261.5,695.0>> = 6.79788250028636
 
-	* u1D752 (U+1D752): B<<282.5,231.5>-<262.0,182.0>-<240.0,135.0>>/L<<240.0,135.0>--<555.0,536.0>> = 13.067321778305404
+	* u1D761 (U+1D6B3): L<<361.0,0.0>--<213.0,580.0>>/L<<213.0,580.0>--<213.0,0.0>> = 14.314826910404852
+
+	* u1D761 (U+1D6B3): L<<658.0,0.0>--<658.0,580.0>>/L<<658.0,580.0>--<512.0,0.0>> = 14.129180579464611
 
 	* u1D761 (U+1D761): L<<361.0,0.0>--<213.0,580.0>>/L<<213.0,580.0>--<213.0,0.0>> = 14.314826910404852
 
 	* u1D761 (U+1D761): L<<658.0,0.0>--<658.0,580.0>>/L<<658.0,580.0>--<512.0,0.0>> = 14.129180579464611
+
+	* u1D79B (U+1D727): L<<594.0,0.0>--<706.0,584.0>>/L<<706.0,584.0>--<444.0,0.0>> = 13.306028360029698
 
 	* u1D79B (U+1D79B): L<<594.0,0.0>--<706.0,584.0>>/L<<706.0,584.0>--<444.0,0.0>> = 13.306028360029698
 
@@ -2557,11 +2423,11 @@ uni2AF6
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* u1D421 (U+1D421): L<<101.0,122.0>--<100.0,646.0>>
-
-	* u1D421 (U+1D421): L<<252.0,309.0>--<253.0,118.0>>
+	* u1D652 (U+1D47E): L<<230.0,714.0>--<233.0,324.0>>
 
 	* u1D652 (U+1D652): L<<230.0,714.0>--<233.0,324.0>>
+
+	* u1D66C (U+1D498): L<<198.0,546.0>--<200.0,304.0>>
 
 	* u1D66C (U+1D66C): L<<198.0,546.0>--<200.0,304.0>>
 
@@ -2573,17 +2439,17 @@ uni2AF6
 
 * ⚠ **WARN** The dot of soft dotted characters _should_ disappear in other cases, for example: i⃐ i⃑ i⃔ i⃕ i⃖ i⃗ i⃛ i⃜ i⃡ i⃧ i⃩ ị⃐ ị⃑ ị⃔ ị⃕ ị⃖ ị⃗ ị⃛ ị⃜ ị⃡
 
-Your font fully covers the following languages that require the soft-dotted feature: Igbo (Latn, 27,823,640 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Ekpeye (Latn, 226,000 speakers), Dutch (Latn, 31,709,104 speakers), Ebira (Latn, 2,200,000 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Ijo, Southeast (Latn, 2,471,000 speakers), Dutch (Latn, 31,709,104 speakers), Igbo (Latn, 27,823,640 speakers), Ebira (Latn, 2,200,000 speakers), Ekpeye (Latn, 226,000 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Bete-Bendi (Latn, 100,000 speakers), Nateni (Latn, 100,000 speakers), Basaa (Latn, 332,940 speakers), Ngbaka (Latn, 1,020,000 speakers), Navajo (Latn, 166,319 speakers), Mfumte (Latn, 79,000 speakers), Kom (Latn, 360,685 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Sar (Latn, 500,000 speakers), Cicipu (Latn, 44,000 speakers), Nzakara (Latn, 50,000 speakers), Mango (Latn, 77,000 speakers), Makaa (Latn, 221,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Bafut (Latn, 158,146 speakers), Lithuanian (Latn, 2,357,094 speakers), Gulay (Latn, 250,478 speakers), Koonzime (Latn, 40,000 speakers), Yala (Latn, 200,000 speakers), Dii (Latn, 71,000 speakers), Ejagham (Latn, 120,000 speakers), South Central Banda (Latn, 244,000 speakers), Ma’di (Latn, 584,000 speakers), Avokaya (Latn, 100,000 speakers), Aghem (Latn, 38,843 speakers), Zapotec (Latn, 490,000 speakers), Dan (Latn, 1,099,244 speakers), Lugbara (Latn, 2,200,000 speakers), Southern Kisi (Latn, 360,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Fur (Latn, 1,230,163 speakers), Mundani (Latn, 34,000 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Gulay (Latn, 250,478 speakers), Nzakara (Latn, 50,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Basaa (Latn, 332,940 speakers), Lugbara (Latn, 2,200,000 speakers), Aghem (Latn, 38,843 speakers), Kom (Latn, 360,685 speakers), Sar (Latn, 500,000 speakers), Zapotec (Latn, 490,000 speakers), Bafut (Latn, 158,146 speakers), South Central Banda (Latn, 244,000 speakers), Cicipu (Latn, 44,000 speakers), Southern Kisi (Latn, 360,000 speakers), Koonzime (Latn, 40,000 speakers), Avokaya (Latn, 100,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Mango (Latn, 77,000 speakers), Yala (Latn, 200,000 speakers), Mundani (Latn, 34,000 speakers), Mfumte (Latn, 79,000 speakers), Fur (Latn, 1,230,163 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ma’di (Latn, 584,000 speakers), Makaa (Latn, 221,000 speakers), Nateni (Latn, 100,000 speakers), Navajo (Latn, 166,319 speakers), Lithuanian (Latn, 2,357,094 speakers), Dii (Latn, 71,000 speakers), Ejagham (Latn, 120,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Dan (Latn, 1,099,244 speakers), Bete-Bendi (Latn, 100,000 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | ☠ FATAL | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| 0 | 0 | 6 | 10 | 123 | 7 | 114 | 0 |
-| 0% | 0% | 2% | 4% | 47% | 3% | 44% | 0% |
+| 0 | 0 | 7 | 10 | 123 | 7 | 113 | 0 |
+| 0% | 0% | 3% | 4% | 47% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
