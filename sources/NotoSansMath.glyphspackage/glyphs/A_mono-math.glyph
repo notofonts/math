@@ -1,32 +1,15 @@
 {
-color = 4;
 glyphname = "Amono-math";
 layers = (
 {
 anchors = (
-{
-name = bottom;
-pos = (300,0);
-},
 {
 name = center;
 pos = (300,358);
 },
 {
 name = math.ta;
-pos = (300,764);
-},
-{
-name = ogonek;
-pos = (540,10);
-},
-{
-name = top;
-pos = (300,714);
-},
-{
-name = topright;
-pos = (580,714);
+pos = (300,0);
 }
 );
 layerId = master01;
@@ -62,6 +45,5 @@ nodes = (
 width = 600;
 }
 );
-production = u1D670;
 unicode = 120432;
 }

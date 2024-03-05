@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "Ascript-math";
 layers = (
 {
@@ -10,15 +9,11 @@ pos = (498,350);
 },
 {
 name = math.ic;
-pos = (1037,250);
+pos = (1037,0);
 },
 {
 name = math.ta;
-pos = (999,764);
-},
-{
-name = top;
-pos = (999,764);
+pos = (999,0);
 }
 );
 layerId = master01;

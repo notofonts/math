@@ -1,31 +1,17 @@
 {
-color = 4;
 glyphname = "Alphaitalic-math";
+kernLeft = GRK_Alpha;
+kernRight = GRK_Alpha;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (300,357);
-},
-{
-name = math.ta;
-pos = (448,764);
-},
-{
-name = top;
-pos = (448,764);
-}
-);
 layerId = master01;
 shapes = (
 {
-ref = "Aitalic-math";
+ref = "Asansitalic-math";
 }
 );
-width = 705;
+width = 619;
 }
 );
-production = u1D6E2;
 unicode = 120546;
 }

@@ -13,7 +13,7 @@ pos = (129,368);
 },
 {
 name = math.ta;
-pos = (129,787);
+pos = (129,0);
 },
 {
 name = top;
@@ -37,5 +37,5 @@ ref = dotaccentcomb;
 width = 258;
 }
 );
-unicode = 105;
+unicode = (105,120258);
 }

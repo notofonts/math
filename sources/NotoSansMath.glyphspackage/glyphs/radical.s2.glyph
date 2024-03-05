@@ -17,7 +17,7 @@ Size = 2;
 ref = _part.radical;
 }
 );
-width = 875;
+width = 813;
 }
 );
 }

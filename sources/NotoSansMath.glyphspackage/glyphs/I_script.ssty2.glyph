@@ -1,16 +1,16 @@
 {
-color = 4;
+color = 5;
 glyphname = Iscript.ssty2;
 layers = (
 {
 anchors = (
 {
-name = center;
-pos = (415,357);
+name = math.ic;
+pos = (825,0);
 },
 {
-name = math.ic;
-pos = (825,250);
+name = math.ta;
+pos = (660,0);
 }
 );
 layerId = master01;

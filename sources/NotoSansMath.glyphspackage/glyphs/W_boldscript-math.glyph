@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "Wboldscript-math";
 layers = (
 {
@@ -10,15 +9,11 @@ pos = (602,357);
 },
 {
 name = math.ic;
-pos = (1190,250);
+pos = (1190,0);
 },
 {
 name = math.ta;
-pos = (679,764);
-},
-{
-name = top;
-pos = (679,764);
+pos = (679,0);
 }
 );
 layerId = master01;

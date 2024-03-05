@@ -1,28 +1,15 @@
 {
-color = 4;
 glyphname = "smono-math";
 layers = (
 {
 anchors = (
-{
-name = bottom;
-pos = (305,0);
-},
 {
 name = center;
 pos = (300,268);
 },
 {
 name = math.ta;
-pos = (305,586);
-},
-{
-name = top;
-pos = (305,536);
-},
-{
-name = topright;
-pos = (580,536);
+pos = (305,0);
 }
 );
 layerId = master01;
@@ -74,6 +61,5 @@ nodes = (
 width = 600;
 }
 );
-production = u1D69C;
 unicode = 120476;
 }

@@ -3,27 +3,13 @@ color = 4;
 glyphname = Epsilon.ssty1;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (298,357);
-},
-{
-name = math.ta;
-pos = (299,764);
-},
-{
-name = top;
-pos = (299,764);
-}
-);
 layerId = master01;
 shapes = (
 {
 ref = E.ssty1;
 }
 );
-width = 562;
+width = 573;
 }
 );
 }

@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "Sboldscript-math";
 layers = (
 {
@@ -10,11 +9,7 @@ pos = (492,356);
 },
 {
 name = math.ta;
-pos = (819,764);
-},
-{
-name = top;
-pos = (819,764);
+pos = (819,0);
 }
 );
 layerId = master01;

@@ -8,15 +8,11 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (310,357);
+pos = (317,357);
 },
 {
 name = math.ta;
-pos = (201,764);
-},
-{
-name = top;
-pos = (201,764);
+pos = (333,0);
 }
 );
 layerId = master01;
@@ -24,17 +20,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(531,0,l),
-(531,108,l),
-(222,108,l),
-(222,714,l),
-(90,714,l),
-(90,0,l)
+(538,0,l),
+(538,108,l),
+(229,108,l),
+(229,714,l),
+(97,714,l),
+(97,0,l)
 );
 }
 );
-width = 561;
+width = 563;
 }
 );
-metricLeft = B.ssty;
+metricLeft = B.ssty1;
 }

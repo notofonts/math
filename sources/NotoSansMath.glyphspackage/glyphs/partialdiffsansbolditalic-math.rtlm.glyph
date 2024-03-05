@@ -1,4 +1,5 @@
 {
+color = 3;
 glyphname = "partialdiffsansbolditalic-math.rtlm";
 layers = (
 {
@@ -6,6 +7,10 @@ anchors = (
 {
 name = center;
 pos = (289,359);
+},
+{
+name = math.ta;
+pos = (389,0);
 }
 );
 layerId = master01;
@@ -64,5 +69,4 @@ nodes = (
 width = 564;
 }
 );
-production = u1D7C3.rtlm;
 }

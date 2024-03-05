@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = "qscript-math.ssty2";
 layers = (
 {
@@ -10,11 +10,7 @@ pos = (249,3);
 },
 {
 name = math.ta;
-pos = (364,586);
-},
-{
-name = top;
-pos = (364,586);
+pos = (364,0);
 }
 );
 layerId = master01;
@@ -26,5 +22,4 @@ ref = "qboldscript-math";
 width = 520;
 }
 );
-production = u1D4C6.ssty2;
 }

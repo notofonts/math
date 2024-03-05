@@ -38,5 +38,4 @@ nodes = (
 width = 720;
 }
 );
-production = propersuperset.ssty1;
 }

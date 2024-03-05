@@ -1,28 +1,15 @@
 {
-color = 4;
 glyphname = "Rmono-math";
 layers = (
 {
 anchors = (
-{
-name = bottom;
-pos = (330,0);
-},
 {
 name = center;
 pos = (332,357);
 },
 {
 name = math.ta;
-pos = (300,764);
-},
-{
-name = top;
-pos = (300,714);
-},
-{
-name = topright;
-pos = (580,714);
+pos = (300,0);
 }
 );
 layerId = master01;
@@ -64,6 +51,5 @@ nodes = (
 width = 600;
 }
 );
-production = u1D681;
 unicode = 120449;
 }

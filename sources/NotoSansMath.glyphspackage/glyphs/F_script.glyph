@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = Fscript;
 layers = (
 {
@@ -10,15 +9,11 @@ pos = (455,359);
 },
 {
 name = math.ic;
-pos = (900,250);
+pos = (900,0);
 },
 {
 name = math.ta;
-pos = (689,764);
-},
-{
-name = top;
-pos = (689,764);
+pos = (689,0);
 }
 );
 layerId = master01;

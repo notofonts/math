@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = downtackmod.ssty2;
 layers = (
 {
@@ -28,5 +28,4 @@ nodes = (
 width = 310;
 }
 );
-production = uni02D5.ssty2;
 }

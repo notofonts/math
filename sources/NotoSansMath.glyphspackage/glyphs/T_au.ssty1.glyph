@@ -3,27 +3,13 @@ color = 4;
 glyphname = Tau.ssty1;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (288,357);
-},
-{
-name = math.ta;
-pos = (289,764);
-},
-{
-name = top;
-pos = (289,764);
-}
-);
 layerId = master01;
 shapes = (
 {
 ref = T.ssty1;
 }
 );
-width = 576;
+width = 571;
 }
 );
 }

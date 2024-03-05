@@ -1,0 +1,43 @@
+{
+color = 5;
+glyphname = "Zsansitalic-math.ssty2";
+kernLeft = Z.right;
+kernRight = Z.left;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (334,357);
+},
+{
+name = math.ic;
+pos = (661,0);
+},
+{
+name = math.ta;
+pos = (406,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(504,0,l),
+(530,123,l),
+(237,123,l),
+(622,616,l),
+(641,714,l),
+(186,714,l),
+(160,591,l),
+(427,591,l),
+(46,97,l),
+(27,0,l)
+);
+}
+);
+width = 592;
+}
+);
+}

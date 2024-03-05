@@ -1,0 +1,43 @@
+{
+color = 5;
+glyphname = "Isansitalic-math.ssty2";
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (259,357);
+},
+{
+name = math.ic;
+pos = (512,0);
+},
+{
+name = math.ta;
+pos = (377,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(341,0,l),
+(358,84,l),
+(282,124,l),
+(381,590,l),
+(474,629,l),
+(492,714,l),
+(178,714,l),
+(161,629,l),
+(235,590,l),
+(136,124,l),
+(45,84,l),
+(27,0,l)
+);
+}
+);
+width = 437;
+}
+);
+}

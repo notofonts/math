@@ -1,5 +1,5 @@
 {
-.appVersion = "3241";
+.appVersion = "3243";
 .formatVersion = 3;
 classes = (
 {
@@ -65,4136 +65,75 @@ Zscript-math.uv001
 name = MathScriptUpperVS1;
 },
 {
-code = "idotless jdotless idotless.ssty1 jdotless.ssty1 idotless.ssty2 jdotless.ssty2 i-fraktur.dotless j-fraktur.dotless i-fraktur.dotless.ssty1 j-fraktur.dotless.ssty1 i-fraktur.dotless.ssty2 j-fraktur.dotless.ssty2 idotlessitalic-math jdotlessitalic-math ibold-math.dotless imono-math.dotless isans-math.dotless isansbold-math.dotless isansbolditalic-math.dotless isansitalic-math.dotless iscript-math.dotless jbold-math.dotless jmono-math.dotless jsans-math.dotless jsansbold-math.dotless jsansbolditalic-math.dotless jsansitalic-math.dotless jscript-math.dotless idotlessitalic-math.ssty1 jdotlessitalic-math.ssty1 idotlessitalic-math.ssty2 jdotlessitalic-math.ssty2 ibold-math.dotless.ssty1 iscript-math.dotless.ssty1 jbold-math.dotless.ssty1 jscript-math.dotless.ssty1 ibold-math.dotless.ssty2 iscript-math.dotless.ssty2 jbold-math.dotless.ssty2 jscript-math.dotless.ssty2 idoubleStruck.dotless jdoubleStruck.dotless iitalicDoubleStruck.dotless jitalicDoubleStruck.dotless idoubleStruck.dotless.ssty1 jdoubleStruck.dotless.ssty1 idoubleStruck.dotless.ssty2 jdoubleStruck.dotless.ssty2 ibolditalic-math.dotless jbolditalic-math.dotless iBold-fraktur.dotless jBold-fraktur.dotless
+code = "idotless
+jdotless
+i-fraktur.dtls
+j-fraktur.dtls
+#idotlessitalic-math
+#jdotlessitalic-math
+#ibold-math.dtls
+imono-math.dtls
+#isans-math.dtls
+isansbold-math.dtls
+isansbolditalic-math.dtls
+isansitalic-math.dtls
+iscript-math.dtls
+#jbold-math.dtls
+jmono-math.dtls
+#jsans-math.dtls
+jsansbold-math.dtls
+jsansbolditalic-math.dtls
+jsansitalic-math.dtls
+jscript-math.dtls
+idoubleStruck.dtls
+jdoubleStruck.dtls
+iitalicDoubleStruck.dtls
+jitalicDoubleStruck.dtls
+#ibolditalic-math.dtls
+#jbolditalic-math.dtls
+iBold-fraktur.dtls
+jBold-fraktur.dtls
 ";
 name = ijDotless;
 },
 {
-code = "i j i.ssty1 j.ssty1 i.ssty2 j.ssty2 i-fraktur j-fraktur i-fraktur.ssty1 j-fraktur.ssty1 i-fraktur.ssty2 j-fraktur.ssty2 iitalic-math jitalic-math ibold-math imono-math isans-math isansbold-math isansbolditalic-math isansitalic-math iscript-math jbold-math jmono-math jsans-math jsansbold-math jsansbolditalic-math jsansitalic-math jscript-math iitalic-math.ssty1 jitalic-math.ssty1 iitalic-math.ssty2 jitalic-math.ssty2 ibold-math.ssty1 iscript-math.ssty1 jbold-math.ssty1 jscript-math.ssty1 ibold-math.ssty2 iscript-math.ssty2 jbold-math.ssty2 jscript-math.ssty2 idoubleStruck jdoubleStruck iitalicDoubleStruck jitalicDoubleStruck idoubleStruck.ssty1 jdoubleStruck.ssty1 idoubleStruck.ssty2 jdoubleStruck.ssty2 ibolditalic-math jbolditalic-math iBold-fraktur jBold-fraktur";
+code = "i
+j
+i-fraktur
+j-fraktur
+#iitalic-math
+#jitalic-math
+#ibold-math
+imono-math
+#isans-math
+isansbold-math
+isansbolditalic-math
+isansitalic-math
+iscript-math
+#jbold-math
+jmono-math
+#jsans-math
+jsansbold-math
+jsansbolditalic-math
+jsansitalic-math
+jscript-math
+idoubleStruck
+jdoubleStruck
+iitalicDoubleStruck
+jitalicDoubleStruck
+#ibolditalic-math
+#jbolditalic-math
+iBold-fraktur
+jBold-fraktur
+";
 name = ij;
 }
 );
 customParameters = (
 {
-disabled = 1;
-name = glyphOrder;
-value = (
-.notdef,
-A,
-"A-fraktur",
-APLIbeam,
-APLalpha,
-APLalphaunderbar,
-APLbackslashbar,
-APLcirclebackslash,
-APLcircledieresis,
-APLcirclejot,
-APLcirclestar,
-APLcirclestile,
-APLcircleunderbar,
-APLcommabar,
-APLdeldieresis,
-APLdelstile,
-APLdeltastile,
-APLdeltaunderbar,
-APLdeltilde,
-APLdiamondunderbar,
-APLdowncarettilde,
-APLdownshoestile,
-APLdowntackjot,
-APLdowntackunderbar,
-APLdownvane,
-APLepsilonunderbar,
-APLgreaterthandieresis,
-APLiota,
-APLiotaunderbar,
-APLjotdieresis,
-APLjotunderbar,
-APLleftshoestile,
-APLleftvane,
-APLomega,
-APLomegaunderbar,
-APLquad,
-APLquadbackslash,
-APLquadcircle,
-APLquadcolon,
-APLquaddel,
-APLquaddelta,
-APLquaddiamond,
-APLquaddivide,
-APLquaddownarrow,
-APLquaddowncaret,
-APLquadequal,
-"APLquadgreater-than",
-APLquadjot,
-APLquadleftarrow,
-"APLquadless-than",
-APLquadnotequal,
-APLquadquestion,
-APLquadrightarrow,
-APLquadslash,
-APLquaduparrow,
-APLquadupcaret,
-APLquotequad,
-APLquoteunderbar,
-APLrho,
-APLrightvane,
-APLsemicolonunderbar,
-APLslashbar,
-APLsquishquad,
-APLstardieresis,
-APLstiletilde,
-APLtildedieresis,
-APLupcarettilde,
-APLupshoejot,
-APLuptackdieresis,
-APLuptackjot,
-APLuptackoverbar,
-APLupvane,
-APLzilde,
-"Abold-math",
-"Abolditalic-math",
-"Aboldscript-math",
-AdoubleStruck,
-"Aitalic-math",
-Alpha,
-AnnuitySymbol,
-"Ascript-math",
-B,
-"B-fraktur",
-"BBold-fraktur",
-"Bbold-math",
-"Bbolditalic-math",
-"Bboldscript-math",
-BdoubleStruck,
-Beta,
-"Bitalic-math",
-Bscript,
-C,
-"C-fraktur",
-CR,
-"Cbold-math",
-"Cbolditalic-math",
-"Cboldscript-math",
-CdoubleStruck,
-Chi,
-"Citalic-math",
-"Cscript-math",
-D,
-"D-fraktur",
-"Dbold-math",
-"Dbolditalic-math",
-"Dboldscript-math",
-DdoubleStruck,
-Delta,
-DirectlyLeftWaveArrow,
-"Ditalic-math",
-DitalicDoubleStruck,
-"Dscript-math",
-E,
-"E-fraktur",
-"Ebold-math",
-"Ebolditalic-math",
-"Eboldscript-math",
-EdoubleStruck,
-"Eitalic-math",
-Epsilon,
-Escript,
-Eta,
-F,
-"F-fraktur",
-"Fbold-math",
-"Fbolditalic-math",
-"Fboldscript-math",
-FdoubleStruck,
-"Fitalic-math",
-Fscript,
-G,
-"G-fraktur",
-Gamma,
-GammadoubleStruck,
-"Gbold-math",
-"Gbolditalic-math",
-"Gboldscript-math",
-GdoubleStruck,
-"Gitalic-math",
-"Gscript-math",
-H,
-"H-fraktur",
-"Hbold-math",
-"Hbolditalic-math",
-"Hboldscript-math",
-HdoubleStruck,
-"Hitalic-math",
-Hscript,
-I,
-"I-fraktur",
-"Ibold-math",
-"Ibolditalic-math",
-"Iboldscript-math",
-IdoubleStruck,
-"Iitalic-math",
-Iota,
-Iscript,
-J,
-"J-fraktur",
-"Jbold-math",
-"Jbolditalic-math",
-"Jboldscript-math",
-JdoubleStruck,
-"Jitalic-math",
-"Jscript-math",
-K,
-"K-fraktur",
-Kappa,
-"Kbold-math",
-"Kbolditalic-math",
-"Kboldscript-math",
-KdoubleStruck,
-"Kitalic-math",
-"Kscript-math",
-L,
-"L-fraktur",
-Lambda,
-"Lbold-math",
-"Lbolditalic-math",
-"Lboldscript-math",
-LdoubleStruck,
-"Litalic-math",
-Lscript,
-M,
-"M-fraktur",
-"Mbold-math",
-"Mbolditalic-math",
-"Mboldscript-math",
-MdoubleStruck,
-"Mitalic-math",
-Mscript,
-Mu,
-N,
-"N-fraktur",
-"NBold-fraktur",
-NULL,
-"Nbold-math",
-"Nbolditalic-math",
-"Nboldscript-math",
-NdoubleStruck,
-"Nitalic-math",
-"Nscript-math",
-Nu,
-O,
-"O-fraktur",
-"Obold-math",
-"Obolditalic-math",
-"Oboldscript-math",
-OdoubleStruck,
-"Oitalic-math",
-Omega,
-Omicron,
-"OperatorHahWithDalArabic-math",
-"OperatorMeemWithHahWithTatweelArabic-math",
-"Oscript-math",
-P,
-"P-fraktur",
-"Pbold-math",
-"Pbolditalic-math",
-"Pboldscript-math",
-PdoubleStruck,
-Phi,
-Pi,
-PidoubleStruck,
-"Pitalic-math",
-"Pscript-math",
-Psi,
-Q,
-"Q-fraktur",
-"Qbold-math",
-"Qbolditalic-math",
-"Qboldscript-math",
-QdoubleStruck,
-"Qitalic-math",
-"Qscript-math",
-R,
-"R-fraktur",
-"RBold-fraktur",
-"Rbold-math",
-"Rbolditalic-math",
-"Rboldscript-math",
-RdoubleStruck,
-Rho,
-"Ritalic-math",
-Rscript,
-S,
-"S-fraktur",
-"Sbold-math",
-"Sbolditalic-math",
-"Sboldscript-math",
-SdoubleStruck,
-Sigma,
-"Sitalic-math",
-"Sscript-math",
-T,
-"T-fraktur",
-Tau,
-"Tbold-math",
-"Tbolditalic-math",
-"Tboldscript-math",
-TdoubleStruck,
-Theta,
-ThetaSymbol,
-"Titalic-math",
-"Tscript-math",
-U,
-"U-fraktur",
-"Ubold-math",
-"Ubolditalic-math",
-"Uboldscript-math",
-UdoubleStruck,
-"Uitalic-math",
-Upsilon,
-"Uscript-math",
-V,
-"V-fraktur",
-"Vbold-math",
-"Vbolditalic-math",
-"Vboldscript-math",
-VdoubleStruck,
-"Vitalic-math",
-"Vscript-math",
-W,
-"W-fraktur",
-"Wbold-math",
-"Wbolditalic-math",
-"Wboldscript-math",
-WdoubleStruck,
-"Witalic-math",
-"Wscript-math",
-X,
-"X-fraktur",
-"Xbold-math",
-"Xbolditalic-math",
-"Xboldscript-math",
-XdoubleStruck,
-Xi,
-"Xitalic-math",
-"Xscript-math",
-Y,
-"Y-fraktur",
-"Ybold-math",
-"Ybolditalic-math",
-"Yboldscript-math",
-YdoubleStruck,
-"Yitalic-math",
-"Yscript-math",
-Z,
-"Z-fraktur",
-"ZBold-fraktur",
-"Zbold-math",
-"Zbolditalic-math",
-"Zboldscript-math",
-ZdoubleStruck,
-Zeta,
-"Zitalic-math",
-"Zscript-math",
-a,
-"a-fraktur",
-"abold-math",
-"abolditalic-math",
-"aboldscript-math",
-acuteAngle,
-acuteAngle.rtlm,
-adoubleStruck,
-"ainArabic-math",
-"aitalic-math",
-"alefArabic-math",
-alephsymbol,
-allequal,
-allequal.rtlm,
-almostEqualToWithCircumflexAccent,
-almostEqualToWithCircumflexAccent.rtlm,
-almostequalorequalto,
-almostequalorequalto.rtlm,
-alpha,
-amalgamationOrCoproduct,
-ampersand,
-andWithDot,
-angle,
-angle.rtlm,
-angleWithSInside,
-angleWithSInside.rtlm,
-angleWithUnderbar,
-angleWithUnderbar.rtlm,
-anticlockwiseClosedCircleArrow,
-anticlockwiseGappedCircleArrow,
-anticlockwiseIntegration,
-anticlockwiseIntegration.rtlm,
-anticlockwiseOpenCircleArrow,
-anticlockwiseRotatedDivisionSign.circled,
-anticlockwisearrowabovecomb,
-anticlockwisecontourintegral,
-anticlockwisecontourintegral.rtlm,
-anticlockwiseringoverlaycomb,
-approaches,
-approxequal,
-approxequal.rtlm,
-approxequalorimage,
-approximatelyEqualOrEqualTo,
-approximatelyEqualOrEqualTo.rtlm,
-approximatelybutnotactuallyequalto,
-approximatelybutnotactuallyequalto.rtlm,
-asciicircum,
-asciitilde,
-"ascript-math",
-assertion,
-asterisk,
-asteriskmath,
-asteriskoperator.circled,
-asymptoticallyequal,
-at,
-b,
-"b-fraktur",
-backslash,
-bar,
-bar.circled,
-"bbold-math",
-"bbolditalic-math",
-"bboldscript-math",
-bdoubleStruck,
-because,
-"behArabic-math",
-"behDotlessArabic-math",
-beta,
-betsymbol,
-between,
-bigReverseSolidus,
-bigSolidus,
-"bitalic-math",
-blackBowtie,
-blackCircleWithDownArrow,
-blackDiamondWithDownArrow,
-blackHourglass,
-blackLozenge,
-bottomArcAnticlockwiseArrow,
-bottomLeftCorner,
-bottomRightCorner,
-bottomcurlybracket,
-bottomparenthesis,
-bottomsquarebracket,
-bottomsquarebracketovertopsquarebracket,
-bottomtortoiseshellbracket,
-bowtie,
-bowtieWithLeftHalfBlack,
-bowtieWithRightHalfBlack,
-braceleft,
-braceleft.full,
-braceright,
-braceright.full,
-bracketleft,
-bracketright,
-"bscript-math",
-bullet.circled,
-bulletoperator,
-c,
-"c-fraktur",
-carriagereturn,
-"cbold-math",
-"cbolditalic-math",
-"cboldscript-math",
-cdoubleStruck,
-chi,
-circleDividedByHorizontalBarAndTopHalfDividedByVerticalBar,
-circleSmallCircleRight,
-circleSmallCircleRight.rtlm,
-circleTwoHorizontalStrokesRight,
-circleTwoHorizontalStrokesRight.rtlm,
-circleWithHorizontalBar,
-circleWithSuperimposedX,
-circulationFunction,
-circulationFunction.rtlm,
-circumflexcomb,
-"citalic-math",
-clockwiseClosedCircleArrow,
-clockwiseGappedCircleArrow,
-clockwiseOpenCircleArrow,
-clockwisearrowabovecomb,
-clockwisecontourintegral,
-clockwisecontourintegral.rtlm,
-clockwiseintegral,
-clockwiseintegral.rtlm,
-clockwiseringoverlaycomb,
-closedIntersectionWithSerifs,
-closedSubset,
-closedSubsetOrEqualTo,
-closedSuperset,
-closedSupersetOrEqualTo,
-closedUnionWithSerifs,
-closedUnionWithSerifsAndSmashProduct,
-colon,
-colonequals,
-comma,
-complement,
-complement.rtlm,
-congruent,
-congruent.rtlm,
-congruentWithDotAbove,
-congruentWithDotAbove.rtlm,
-containsasmemberSmall,
-containsasnormalsubgroup,
-containsasnormalsubgrouporequalto,
-containslonghorizontalstroke,
-containsoverbar,
-containsverticalbaratendofhorizontalstroke,
-contourintegral,
-contourintegral.rtlm,
-coproduct,
-correspondsto,
-"cscript-math",
-cuberoot,
-cuberoot.rtlm,
-curlyand,
-curlybracketextension,
-curlyor,
-d,
-"d-fraktur",
-"dadArabic-math",
-"dalArabic-math",
-daletsymbol,
-dash.circled,
-dashdownArrow,
-dblintegral,
-dblintegral.rtlm,
-"dbold-math",
-"dbolditalic-math",
-"dboldscript-math",
-ddoubleStruck,
-delta,
-deltaequalto,
-diamondoperator,
-dieresiscomb,
-differencebetween,
-"ditalic-math",
-ditalicDoubleStruck,
-divide,
-divide.circled,
-divides,
-divisionslash,
-divisiontimes,
-doesNotDivideWithReversedNegationSlash,
-doesNotDivideWithReversedNegationSlash.rtlm,
-doesnotcontainasnormalsubgroup,
-doesnotcontainasnormalsubgrouporequal,
-doesnotdivide,
-doesnotdivide.rtlm,
-doesnotforce,
-doesnotforce.rtlm,
-doesnotprecedeorequal,
-doesnotprove,
-doesnotprove.rtlm,
-doesnotsucceedorequal,
-dollar,
-dotaccentcomb,
-dotmath,
-dotminus,
-dotplus,
-dottedCircle,
-dottedFence,
-doubleColonEqual,
-doubleColonEqual.rtlm,
-doubleDownTack,
-doubleEndedMultimap,
-doubleLineEqualToOrGreaterThan,
-doubleLineEqualToOrLessThan,
-doubleLineSlantedEqualToOrGreaterThan,
-doubleLineSlantedEqualToOrLessThan,
-doubleLineSlantedGreaterThanOrEqualTo,
-doubleLineSlantedLessThanOrEqualTo,
-doubleLogicalAnd,
-doubleLogicalOr,
-doubleNestedGreaterThan,
-doubleNestedLessThan,
-doubleNestedLessThanWithUnderbar,
-doubleNestedLessThanWithUnderbar.rtlm,
-doublePlus,
-doublePrecedes,
-doubleSolidusOperator,
-doubleSolidusOperator.rtlm,
-doubleSquareIntersection,
-doubleSquareUnion,
-doubleStrokeNotSign,
-doubleSucceeds,
-doubleUpTack,
-doubleVerticalBarDoubleLeftTurnstile,
-doubleVerticalBarLeftTurnstile,
-doubleintersection,
-doubleleftarcgreaterthanbracket,
-doubleprimeReversed,
-doublerightarclessthanbracket,
-"doublestruckainArabic-math",
-"doublestruckbehArabic-math",
-"doublestruckdadArabic-math",
-"doublestruckdalArabic-math",
-"doublestruckfehArabic-math",
-"doublestruckghainArabic-math",
-"doublestruckhahArabic-math",
-"doublestruckjeemArabic-math",
-"doublestruckkhahArabic-math",
-"doublestrucklamArabic-math",
-"doublestruckmeemArabic-math",
-"doublestrucknoonArabic-math",
-"doublestruckqafArabic-math",
-"doublestruckrehArabic-math",
-"doublestrucksadArabic-math",
-"doublestruckseenArabic-math",
-"doublestrucksheenArabic-math",
-"doublestrucktahArabic-math",
-"doublestrucktehArabic-math",
-"doublestruckthalArabic-math",
-"doublestruckthehArabic-math",
-"doublestruckwawArabic-math",
-"doublestruckyehArabic-math",
-"doublestruckzahArabic-math",
-"doublestruckzainArabic-math",
-doublesubset,
-doublesuperset,
-doubleunion,
-doubleverticalbardoublerightturnstile,
-doubleverticalstrokeoverlaycomb,
-downAndUpArrow,
-downArrow,
-downArrowToBar,
-downArrowWithHorizontalStroke,
-downBarbLeftHarpoon,
-downBarbRightHarpoon,
-downDoubleArrow,
-downDoublePairedArrow,
-downFishTail,
-downFrombarArrow,
-downHarpoonWithBarbLeftBesideDownHarpoonWithBarbRight,
-downHarpoonWithBarbLeftBesideUpHarpoonWithBarbRight,
-downHarpoonWithBarbLeftFromBar,
-downHarpoonWithBarbLeftToBar,
-downHarpoonWithBarbRightFromBar,
-downHarpoonWithBarbRightToBar,
-downQuadrupleArrow,
-downTackWithCircleBelow,
-downThenCurvingLeftArrow,
-downThenCurvingRightArrow,
-downTipLeftArrow,
-downTipRightArrow,
-downTriangleWithLeftHalfBlack,
-downTriangleWithLeftHalfBlack.rtlm,
-downTriangleWithRightHalfBlack,
-downTriangleWithRightHalfBlack.rtlm,
-downTripleArrow,
-downTwoheadedArrow,
-downWhiteTriangle,
-downrightdiagonalellipsis,
-"dscript-math",
-e,
-"e-fraktur",
-"ebold-math",
-"ebolditalic-math",
-"eboldscript-math",
-edoubleStruck,
-eight,
-"eitalic-math",
-eitalicDoubleStruck,
-element,
-elementOfOpeningDown,
-elementOfOpeningUp,
-elementSmall,
-elementofdotabove,
-elementofdotabove.rtlm,
-elementoflonghorizontalstroke,
-elementofoverbar,
-elementoftwohorizontalstrokes,
-elementoftwohorizontalstrokes.rtlm,
-elementofunderbar,
-elementofunderbar.rtlm,
-elementofverticalbaratendofhorizontalstroke,
-ellipsisvertical,
-emptySetWithLeftArrowAbove,
-emptySetWithOverbar,
-emptySetWithRightArrowAbove,
-emptyset,
-emptysetcircleabove,
-endofproof,
-epsilon,
-epsilonLunateSymbol,
-equal,
-equalandparallelto,
-equals.circled,
-equalsSignAboveLeftArrow,
-equalsSignAbovePlusSign,
-equalsSignAboveRightArrow,
-equalsSignAboveTildeOperator,
-equalsSignAboveTildeOperator.rtlm,
-equalsSignAndSlantedParallel,
-equalsSignAndSlantedParallel.rtlm,
-equalsSignAndSlantedParallelWithTildeAbove,
-equalsSignAndSlantedParallelWithTildeAbove.rtlm,
-equalsSignWithBumpyAbove,
-equalsSignWithDotBelow,
-equalsSignWithTwoDotsAboveAndTwoDotsBelow,
-equalsWithAsterisk,
-equalscolon,
-equaltobydefinition,
-"equaltoorgreater-than",
-"equaltoorless-than",
-equaltoorprecedes,
-equaltoorsucceeds,
-equiangularTo,
-equivalence,
-equivalentWithFourDotsAbove,
-equivalentto,
-errorBarredBlack.circled,
-errorBarredBlackDiamond,
-errorBarredBlackSquare,
-errorBarredWhite.circled,
-errorBarredWhiteDiamond,
-errorBarredWhiteSquare,
-erthan,
-erthanorequalto,
-escript,
-estimates,
-eta,
-excess,
-excess.rtlm,
-exclam,
-existential,
-existential.rtlm,
-f,
-"f-fraktur",
-"fallingDiagonal-math",
-"fallingDiagonal-math.rtlm",
-fallingDiagonalCrossingNorthEastArrow,
-fallingDiagonalCrossingRisingDiagonal,
-"fbold-math",
-"fbolditalic-math",
-"fboldscript-math",
-fdoubleStruck,
-"fehArabic-math",
-"fehDotlessArabic-math",
-finitePartIntegral,
-finitePartIntegral.rtlm,
-"fitalic-math",
-five,
-"flat-musical",
-forces,
-forking,
-forking.rtlm,
-four,
-fourdotsabovecomb,
-fourthroot,
-fourthroot.rtlm,
-fraction.circled,
-"fscript-math",
-fullOuterJoin,
-g,
-"g-fraktur",
-gamma,
-gammadoubleStruck,
-"gbold-math",
-"gbolditalic-math",
-"gboldscript-math",
-gdoubleStruck,
-geometricallyequal,
-geometricallyequivalentto,
-geometricproportion,
-"ghainArabic-math",
-gimelsymbol,
-"gitalic-math",
-gleichStark,
-gradient,
-grave,
-greater,
-"greater-thanbutnotequalto",
-"greater-thanbutnotequivalentto",
-"greater-thandot",
-greaterThan.circled,
-greaterThanAboveDoubleLineEqualAboveLessThan,
-greaterThanAboveLessThanAboveDoubleLineEqual,
-greaterThanAboveRightArrow,
-greaterThanAboveSimilarAboveLessThan,
-greaterThanAboveSimilarAboveLessThan.rtlm,
-greaterThanAboveSimilarOrEqual,
-greaterThanAboveSimilarOrEqual.rtlm,
-greaterThanAboveSlantedEqualAboveLessThanAboveSlantedEqual,
-greaterThanAndNotApproximate,
-greaterThanAndNotApproximate.rtlm,
-greaterThanAndSingleLineNotEqualTo,
-greaterThanAndSingleLineNotEqualTo.rtlm,
-greaterThanBesideLessThan,
-greaterThanClosedByCurve,
-greaterThanClosedByCurveAboveSlantedEqual,
-greaterThanOrApproximate,
-greaterThanOrApproximate.rtlm,
-greaterThanOrSlantedEqualTo,
-greaterThanOrSlantedEqualToWithDotAbove,
-greaterThanOrSlantedEqualToWithDotAboveLeft,
-greaterThanOrSlantedEqualToWithDotInside,
-greaterThanOverlappingLessThan,
-greaterThanWithCircleInside,
-greaterThanWithQuestionMarkAbove,
-greaterThanWithQuestionMarkAbove.rtlm,
-greaterequal,
-greaterequalorless,
-greaterorequivalent,
-greaterorless,
-greateroverequal,
-gscript,
-h,
-"h-fraktur",
-"hahArabic-math",
-"hbold-math",
-"hbolditalic-math",
-"hboldscript-math",
-hdoubleStruck,
-hermitianconjugatematrix,
-homothetic,
-homothetic.rtlm,
-horizontallineextension,
-"hscript-math",
-hyphen,
-i,
-"i-fraktur",
-"ibold-math",
-"ibolditalic-math",
-"iboldscript-math",
-identicalToAndSlantedParallel,
-identicalToAndSlantedParallel.rtlm,
-identicalWithDotAbove,
-idoubleStruck,
-"iitalic-math",
-iitalicDoubleStruck,
-imageof,
-imageorapproximatelyequal,
-incompleteInfinity,
-incompleteInfinity.rtlm,
-increasesAs,
-increasesAs.rtlm,
-increment,
-infinity,
-infinityNegatedWithVerticalBar,
-"initialainArabic-math",
-"initialbehArabic-math",
-"initialdadArabic-math",
-"initialfehArabic-math",
-"initialghainArabic-math",
-"initialhahArabic-math",
-"initialhehArabic-math",
-"initialjeemArabic-math",
-"initialkafArabic-math",
-"initialkhahArabic-math",
-"initiallamArabic-math",
-"initialmeemArabic-math",
-"initialnoonArabic-math",
-"initialqafArabic-math",
-"initialsadArabic-math",
-"initialseenArabic-math",
-"initialsheenArabic-math",
-"initialtehArabic-math",
-"initialthehArabic-math",
-"initialyehArabic-math",
-integral,
-integral.rtlm,
-integralAroundAPointOperator,
-integralAroundAPointOperator.rtlm,
-integralAverageWithSlash,
-integralAverageWithSlash.rtlm,
-integralWithDoubleStroke,
-integralWithDoubleStroke.rtlm,
-integralWithIntersection,
-integralWithIntersection.rtlm,
-integralWithLeftArrowWithHook,
-integralWithLeftArrowWithHook.rtlm,
-integralWithOverbar,
-integralWithOverbar.rtlm,
-integralWithTimesSign,
-integralWithTimesSign.rtlm,
-integralWithUnderbar,
-integralWithUnderbar.rtlm,
-integralWithUnion,
-integralWithUnion.rtlm,
-integralbt,
-integralbt.rtlm,
-integralextension,
-integraltp,
-integraltp.rtlm,
-intercalate,
-interiorProduct,
-intersection,
-intersectionAboveBarAboveUnion,
-intersectionAboveUnion,
-intersectionBesideAndJoinedWithIntersection,
-intersectionWithDot,
-intersectionWithLogicalAnd,
-intersectionWithOverbar,
-invertedlazys,
-invertedlazys.rtlm,
-iota,
-"iscript-math",
-j,
-"j-fraktur",
-"jbold-math",
-"jbolditalic-math",
-"jboldscript-math",
-jdoubleStruck,
-"jeemArabic-math",
-"jitalic-math",
-jitalicDoubleStruck,
-join,
-"jscript-math",
-k,
-"k-fraktur",
-"kafArabic-math",
-kappa,
-kappaSymbol,
-"kbold-math",
-"kbolditalic-math",
-"kboldscript-math",
-kdoubleStruck,
-"khahArabic-math",
-"kitalic-math",
-"kscript-math",
-l,
-"l-fraktur",
-"lamArabic-math",
-lambda,
-largeDownTack,
-largeLeftTriangleOperator,
-largeLeftTriangleOperator.rtlm,
-largeTripleVerticalBarOperator,
-largeUpTack,
-largerThan,
-largerThanOrEqualTo,
-"lbold-math",
-"lbolditalic-math",
-"lboldscript-math",
-ldoubleStruck,
-leftAndRightArrow,
-leftAndRightDoubleTurnstile,
-leftAndRightTack,
-leftArrow,
-leftArrowAboveAlmostEqualTo,
-leftArrowAboveReverseAlmostEqualTo,
-leftArrowAboveReverseTildeOperator,
-leftArrowAboveShortRightArrow,
-leftArrowAboveTildeOperator,
-leftArrowFromBarToBlackDiamond,
-leftArrowTail,
-leftArrowThroughLessThan,
-leftArrowThroughSubset,
-leftArrowThroughX,
-leftArrowTipDown,
-leftArrowTipUp,
-leftArrowToBlackDiamond,
-leftArrowWithCircledPlus,
-leftArrowWithDottedStem,
-leftArrowWithPlusBelow,
-leftArrowWithTailWithDoubleVerticalStroke,
-leftArrowWithTailWithVerticalStroke,
-leftBarbDownHarpoon,
-leftBarbDownRightBarbDownHarpoon,
-leftBarbDownRightBarbUpHarpoon,
-leftBarbUpHarpoon,
-leftBarbUpRightBarbDownHarpoon,
-leftBarbUpRightBarbUpHarpoon,
-leftCeiling,
-leftDashArrow,
-leftDoubleArrow,
-leftDoubleArrowFromBar,
-leftDoubleArrowTail,
-leftDoubleArrowWithVerticalStroke,
-leftDoubleDashArrow,
-leftDoublePairedArrow,
-leftDoubleStrokeArrow,
-leftDoubleVerticalStrokeArrow,
-leftFishTail,
-leftFloor,
-leftFrombarArrow,
-leftHarpoonWithBarbDownAboveRightHarpoonWithBarbDown,
-leftHarpoonWithBarbDownBelowLongDash,
-leftHarpoonWithBarbDownFromBar,
-leftHarpoonWithBarbDownToBar,
-leftHarpoonWithBarbUpAboveLeftHarpoonWithBarbDown,
-leftHarpoonWithBarbUpAboveLongDash,
-leftHarpoonWithBarbUpAboveRightHarpoonWithBarbUp,
-leftHarpoonWithBarbUpFromBar,
-leftHarpoonWithBarbUpToBar,
-leftHookArrow,
-leftLongArrow,
-leftLongDoubleArrow,
-leftLongDoubleFromBarArrow,
-leftLongFromBarArrow,
-leftLoopArrow,
-leftMultimap,
-leftMultimap.rtlm,
-leftOpenHeadedArrow,
-leftOuterJoin,
-leftOverRightHarpoon,
-leftQuadrupleArrow,
-leftRightArrow,
-leftRightDoubleArrow,
-leftRightDoubleArrowWithVerticalStroke,
-leftRightDoubleStrokeArrow,
-leftRightDoubleVerticalStrokeArrow,
-leftRightLongArrow,
-leftRightLongDoubleArrow,
-leftRightOpenHeadedArrow,
-leftRightStrokeArrow,
-leftRightVerticalStrokeArrow,
-leftRightWaveArrow,
-leftSideArcAnticlockwiseArrow,
-leftSquiggleArrow,
-leftStrokeArrow,
-leftTabArrow,
-leftTailArrow,
-leftToBarOverRightToBarArrow,
-leftTriangleBesideVerticalBar,
-leftTripleArrow,
-leftTripleDashArrow,
-leftTwoHeadedArrowFromBar,
-leftTwoHeadedArrowWithDoubleVerticalStroke,
-leftTwoHeadedArrowWithTail,
-leftTwoHeadedArrowWithTailWithDoubleVerticalStroke,
-leftTwoHeadedArrowWithTailWithVerticalStroke,
-leftTwoHeadedArrowWithVerticalStroke,
-leftTwoHeadedTripleDashArrow,
-leftTwoheadedArrow,
-leftVerticalStrokeArrow,
-leftWaveArrow,
-leftWhiteTriangle,
-"leftanglebracket-math",
-leftanglebracketdot,
-leftarclessthanbracket,
-leftarrowabovecomb,
-leftarrowbelowcomb,
-leftarrowoverlaycomb,
-leftarrowwithcircle,
-leftblacktortoiseshellbracket,
-leftcurlybracketlowerhook,
-leftcurlybracketmiddlepiece,
-leftcurlybracketupperhook,
-"leftdoubleanglebracket-math",
-leftdoublewigglyfence,
-"leftflattenedparenthesis-math",
-leftharpoonabovecomb,
-leftharpoonwithbarbdowncomb,
-leftnormalfactorsemidirectproduct,
-leftpointingcurvedanglebracket,
-leftrightarrowabovecomb,
-leftrightarrowthroughcircle,
-leftsemidirectproduct,
-leftsquarebracketextension,
-leftsquarebracketlowercorner,
-leftsquarebrackettickinbottomcorner,
-leftsquarebrackettickintopcorner,
-leftsquarebracketunderbar,
-leftsquarebracketuppercorner,
-leftsshapedbagdelimiter,
-leftwhitecurlybracket,
-"leftwhitesquarebracket-math",
-"leftwhitetortoiseshellbracket-math",
-leftwigglyfence,
-less,
-"less-thanbutnotequalto",
-"less-thanbutnotequivalentto",
-"less-thandot",
-lessThan.circled,
-lessThanAboveDoubleLineEqualAboveGreaterThan,
-lessThanAboveGreaterThanAboveDoubleLineEqual,
-lessThanAboveLeftArrow,
-lessThanAboveSimilarAboveGreaterThan,
-lessThanAboveSimilarAboveGreaterThan.rtlm,
-lessThanAboveSimilarOrEqual,
-lessThanAboveSimilarOrEqual.rtlm,
-lessThanAboveSlantedEqualAboveGreaterThanAboveSlantedEqual,
-lessThanAndNotApproximate,
-lessThanAndNotApproximate.rtlm,
-lessThanAndSingleLineNotEqualTo,
-lessThanAndSingleLineNotEqualTo.rtlm,
-lessThanClosedByCurve,
-lessThanClosedByCurveAboveSlantedEqual,
-lessThanOrApproximate,
-lessThanOrApproximate.rtlm,
-lessThanOrSlantedEqualTo,
-lessThanOrSlantedEqualToWithDotAbove,
-lessThanOrSlantedEqualToWithDotAboveRight,
-lessThanOrSlantedEqualToWithDotInside,
-lessThanWithCircleInside,
-lessThanWithQuestionMarkAbove,
-lessThanWithQuestionMarkAbove.rtlm,
-lessequal,
-lessequalorgreater,
-lessorequivalent,
-lessorequivalent.rtlm,
-lessorgreater,
-lessoverequal,
-lineIntegrationNotIncludingThePole,
-lineIntegrationNotIncludingThePole.rtlm,
-lineIntegrationWithRectangularPathAroundPole,
-lineIntegrationWithRectangularPathAroundPole.rtlm,
-lineIntegrationWithSemicircularPathAroundPole,
-lineIntegrationWithSemicircularPathAroundPole.rtlm,
-"litalic-math",
-logicalAndWithDotAbove,
-logicalAndWithDoubleOverbar,
-logicalAndWithDoubleUnderbar,
-logicalAndWithHorizontalDash,
-logicalAndWithMiddleStem,
-logicalAndWithUnderbar,
-logicalOrOverlappingLogicalAnd,
-logicalOrWithDotAbove,
-logicalOrWithDoubleOverbar,
-logicalOrWithDoubleUnderbar,
-logicalOrWithHorizontalDash,
-logicalOrWithMiddleStem,
-logicaland,
-logicalnot,
-logicalnotReversed,
-logicalor,
-longDashFromLeftMemberOfDoubleVertical,
-longDashFromLeftMemberOfDoubleVertical.rtlm,
-longDivision,
-longDivision.rtlm,
-longLeftSquiggleArrow,
-longLeftTack,
-longRightTack,
-longdoublesolidusoverlaycomb,
-longverticallineoverlaycomb,
-"loopedainArabic-math",
-"loopedalefArabic-math",
-"loopedbehArabic-math",
-"loopeddadArabic-math",
-"loopeddalArabic-math",
-"loopedfehArabic-math",
-"loopedghainArabic-math",
-"loopedhahArabic-math",
-"loopedhehArabic-math",
-"loopedjeemArabic-math",
-"loopedkhahArabic-math",
-"loopedlamArabic-math",
-"loopedmeemArabic-math",
-"loopednoonArabic-math",
-"loopedqafArabic-math",
-"loopedrehArabic-math",
-"loopedsadArabic-math",
-"loopedseenArabic-math",
-"loopedsheenArabic-math",
-"loopedtahArabic-math",
-"loopedtehArabic-math",
-"loopedthalArabic-math",
-"loopedthehArabic-math",
-"loopedwawArabic-math",
-"loopedyehArabic-math",
-"loopedzahArabic-math",
-"loopedzainArabic-math",
-lowerLeftSemicircularAnticlockwiseArrow,
-lowerRightCornerWithDot,
-lowerRightCornerWithDot.rtlm,
-lowerRightSemicircularClockwiseArrow,
-lozenge,
-lozengeDividedByHorizontalRule,
-"lscript-math",
-m,
-"m-fraktur",
-"mbold-math",
-"mbolditalic-math",
-"mboldscript-math",
-mdoubleStruck,
-measuredAngleOpeningLeft,
-measuredAngleOpeningLeft.rtlm,
-measuredAngleWithOpenArmEndingInArrowPointingDownAndLeft,
-measuredAngleWithOpenArmEndingInArrowPointingDownAndLeft.rtlm,
-measuredAngleWithOpenArmEndingInArrowPointingDownAndRight,
-measuredAngleWithOpenArmEndingInArrowPointingDownAndRight.rtlm,
-measuredAngleWithOpenArmEndingInArrowPointingLeftAndDown,
-measuredAngleWithOpenArmEndingInArrowPointingLeftAndDown.rtlm,
-measuredAngleWithOpenArmEndingInArrowPointingLeftAndUp,
-measuredAngleWithOpenArmEndingInArrowPointingLeftAndUp.rtlm,
-measuredAngleWithOpenArmEndingInArrowPointingRightAndDown,
-measuredAngleWithOpenArmEndingInArrowPointingRightAndDown.rtlm,
-measuredAngleWithOpenArmEndingInArrowPointingRightAndUp,
-measuredAngleWithOpenArmEndingInArrowPointingRightAndUp.rtlm,
-measuredAngleWithOpenArmEndingInArrowPointingUpAndLeft,
-measuredAngleWithOpenArmEndingInArrowPointingUpAndLeft.rtlm,
-measuredAngleWithOpenArmEndingInArrowPointingUpAndRight,
-measuredAngleWithOpenArmEndingInArrowPointingUpAndRight.rtlm,
-measuredRightAngleWithDot,
-measuredRightAngleWithDot.rtlm,
-measuredangle,
-measuredangle.rtlm,
-measuredby,
-mediumWhiteSquare,
-"meemArabic-math",
-midlinehorizontalellipsis,
-minus,
-minus.circled,
-minusSignInTriangle,
-minusSignWithCommaAbove,
-minusSignWithCommaAbove.rtlm,
-minusSignWithDotBelow,
-minusSignWithFallingDots,
-minusSignWithRisingDots,
-minusplus,
-minustilde,
-minustilde.rtlm,
-minute,
-miny,
-"mitalic-math",
-models,
-models.rtlm,
-moduloTwoSum,
-moduloTwoSum.rtlm,
-"mscript-math",
-mu,
-muchgreater,
-muchless,
-multimap,
-multimap.rtlm,
-multiply,
-multiply.circled,
-multiplyInDoubleCircled,
-multiplyInLeftHalfCircled,
-multiplyInRightHalfCircled,
-multiplyInTriangle,
-multiplyWithCircumflexAccentCircled,
-multiplyWithDotAbove,
-multiplyWithUnderbar,
-multiset,
-multiset.rtlm,
-multisetmultiplication,
-multisetunion,
-n,
-"n-aryintersection",
-"n-arylogicaland",
-"n-arylogicalor",
-"n-aryunion",
-"n-fraktur",
-nAryCircledDotOperator,
-nAryCircledPlusOperator,
-nAryCircledTimesOperator,
-nArySquareIntersectionOperator,
-nArySquareUnionOperator,
-nAryTimesOperator,
-nAryUnionOperatorWithDot,
-nAryUnionOperatorWithPlus,
-nAryWhiteVerticalBar,
-nand,
-"natural-musical",
-"nbold-math",
-"nbolditalic-math",
-"nboldscript-math",
-nbspace,
-ndoubleStruck,
-negateddoubleverticalbardoublerightturnstile,
-negateddoubleverticalbardoublerightturnstile.rtlm,
-neitherapproximatelynoractuallyequalto,
-neitherapproximatelynoractuallyequalto.rtlm,
-neitherasubsetofnorequalto,
-neitherasupersetofnorequalto,
-"neithergreater-thannorequivalentto",
-"neitherless-thannorequivalentto",
-"neitherless-thannorgreater-than",
-nine,
-"nitalic-math",
-nonforking,
-"noonArabic-math",
-"noonDotlessArabic-math",
-nor,
-normalsubgroupof,
-normalsubgroupoforequalto,
-northEastAndSouthWestArrow,
-northEastArrow,
-northEastArrowAndSouthEastArrow,
-northEastArrowCrossingNorthWestArrow,
-northEastArrowCrossingSouthEastArrow,
-northEastArrowWithHook,
-northEastDoubleArrow,
-northWestAndSouthEastArrow,
-northWestArrow,
-northWestArrowAndNorthEastArrow,
-northWestArrowCrossingNorthEastArrow,
-northWestArrowToCorner,
-northWestArrowWithHook,
-northWestDoubleArrow,
-northWestToLongbarArrow,
-notalmostequalto,
-notalmostequalto.rtlm,
-notasymptoticallyequalto,
-notasymptoticallyequalto.rtlm,
-notcontains,
-notelement,
-notequal,
-notequal.rtlm,
-notequivalentto,
-notgreater,
-notgreaternorequal,
-notgreaternorless,
-notidentical,
-notidentical.rtlm,
-notless,
-notlessnorequal,
-notnormalsubgroupof,
-notnormalsubgroupoforequalto,
-notparallel,
-notparallel.rtlm,
-notprecedes,
-notsimilar,
-notsimilar.rtlm,
-notsquareimageoforequalto,
-notsquareoriginaloforequalto,
-notsubset,
-notsucceeds,
-notsuperset,
-nottrue,
-nottrue.rtlm,
-"nscript-math",
-nu,
-numbersign,
-o,
-"o-fraktur",
-obliqueAngleOpeningDown,
-obliqueAngleOpeningDown.rtlm,
-obliqueAngleOpeningUp,
-obliqueAngleOpeningUp.rtlm,
-"obold-math",
-"obolditalic-math",
-"oboldscript-math",
-odoubleStruck,
-"oitalic-math",
-omega,
-omicron,
-one,
-one.paren,
-openSubset,
-openSuperset,
-operator.circled,
-orWithDotInside,
-originalof,
-orthogonal,
-orthogonal.rtlm,
-oscript,
-overlinecomb,
-p,
-"p-fraktur",
-pagedown,
-pageup,
-parallel,
-parallel.circled,
-parallelWithHorizontalStroke,
-parallelWithTildeOperator,
-parallelWithTildeOperator.rtlm,
-parenleft,
-parenleftextension,
-parenleftlowerhook,
-parenleftupperhook,
-parenright,
-parenrightextension,
-parenrightlowerhook,
-parenrightupperhook,
-partialdiff,
-partialdiff.rtlm,
-"pbold-math",
-"pbolditalic-math",
-"pboldscript-math",
-pdoubleStruck,
-percent,
-period,
-perpendicular,
-perpendicular.circled,
-perpendicularWithS,
-phi,
-phiSymbol,
-pi,
-piSymbol,
-pidoubleStruck,
-"pitalic-math",
-pitchfork,
-pitchforkWithTeeTop,
-planckconstant,
-plus,
-plus.circled,
-plusSignAboveEqualsSign,
-plusSignInLeftHalfCircled,
-plusSignInRightHalfCircled,
-plusSignInTriangle,
-plusSignWithBlackTriangle,
-plusSignWithCircumflexAccentAbove,
-plusSignWithDotBelow,
-plusSignWithSubscriptTwo,
-plusSignWithTildeAbove,
-plusSignWithTildeAbove.rtlm,
-plusSignWithTildeBelow,
-plusSignWithTildeBelow.rtlm,
-pluscircleabove,
-plusminus,
-precedes,
-precedesAboveAlmostEqualTo,
-precedesAboveAlmostEqualTo.rtlm,
-precedesAboveEqualsSign,
-precedesAboveNotAlmostEqualTo,
-precedesAboveNotAlmostEqualTo.rtlm,
-precedesAboveNotEqualTo,
-precedesAboveNotEqualTo.rtlm,
-precedesAboveSingleLineEqualsSign,
-precedesAboveSingleLineNotEqualTo,
-precedesAboveSingleLineNotEqualTo.rtlm,
-precedesbutnotequivalentto,
-precedesorequalto,
-precedesorequivalentto,
-precedesunderrelation,
-primeReversed,
-product,
-proportion,
-proportional,
-proportional.rtlm,
-"pscript-math",
-psi,
-q,
-"q-fraktur",
-"qafArabic-math",
-"qafDotlessArabic-math",
-"qbold-math",
-"qbolditalic-math",
-"qboldscript-math",
-qdoubleStruck,
-"qitalic-math",
-"qscript-math",
-quadrupleIntegralOperator,
-quadrupleIntegralOperator.rtlm,
-quadrupleprime,
-quaternionIntegralOperator,
-quaternionIntegralOperator.rtlm,
-question,
-questionedequalto,
-questionedequalto.rtlm,
-quotedbl,
-quotesingle,
-r,
-"r-fraktur",
-radical,
-radical.rtlm,
-ratio,
-"rbold-math",
-"rbolditalic-math",
-"rboldscript-math",
-rdoubleStruck,
-reflexsubset,
-reflexsuperset,
-"rehArabic-math",
-reverseSolidus.circled,
-reverseSolidusOperator,
-reverseSolidusPrecedingSubset,
-reverseSolidusWithHorizontalStroke,
-reverseSolidusWithHorizontalStroke.rtlm,
-reverseTildeOperatorAboveLeftArrow,
-reverseTildeOperatorAboveRightArrow,
-reversedAngle,
-reversedAngle.rtlm,
-reversedAngleWithUnderbar,
-reversedAngleWithUnderbar.rtlm,
-reversedDoubleStrokeNotSign,
-reversedEmptySet,
-reversedtilde,
-reversedtildeequals,
-reversesolidusoverlaycomb,
-rho,
-rhoSymbol,
-rightAngleVariantWithSquare,
-rightAngleVariantWithSquare.rtlm,
-rightArrow,
-rightArrowAboveAlmostEqualTo,
-rightArrowAboveReverseAlmostEqualTo,
-rightArrowAboveReverseTildeOperator,
-rightArrowAboveShortLeftArrow,
-rightArrowAboveTildeOperator,
-rightArrowFromBarToBlackDiamond,
-rightArrowTail,
-rightArrowThroughGreaterThan,
-rightArrowThroughSuperset,
-rightArrowThroughX,
-rightArrowToBlackDiamond,
-rightArrowWithDottedStem,
-rightArrowWithPlusBelow,
-rightArrowWithTailWithDoubleVerticalStroke,
-rightArrowWithTailWithVerticalStroke,
-rightBarbUpHarpoon,
-rightBarbdownHarpoon,
-rightCeiling,
-rightCircleArrow,
-rightCircledPlusArrow,
-rightCornerDownArrow,
-rightDashArrow,
-rightDoubleArrow,
-rightDoubleArrowFromBar,
-rightDoubleArrowTail,
-rightDoubleArrowWithRoundedHead,
-rightDoubleArrowWithVerticalStroke,
-rightDoubleDashArrow,
-rightDoublePairedArrow,
-rightDoubleStrokeArrow,
-rightDoubleVerticalStrokeArrow,
-rightFishTail,
-rightFloor,
-rightFrombarArrow,
-rightHarpoonWithBarbDownAboveLeftHarpoonWithBarbDown,
-rightHarpoonWithBarbDownBelowLongDash,
-rightHarpoonWithBarbDownFromBar,
-rightHarpoonWithBarbDownToBar,
-rightHarpoonWithBarbUpAboveLeftHarpoonWithBarbUp,
-rightHarpoonWithBarbUpAboveLongDash,
-rightHarpoonWithBarbUpAboveRightHarpoonWithBarbDown,
-rightHarpoonWithBarbUpFromBar,
-rightHarpoonWithBarbUpToBar,
-rightHookArrow,
-rightLongDoubleArrow,
-rightLongDoubleFromBarArrow,
-rightLongFromBarArrow,
-rightLongSquiggleArrow,
-rightLoopArrow,
-rightOpenHeadedArrow,
-rightOuterJoin,
-rightOverLeftArrow,
-rightOverLeftHarpoon,
-rightQuadrupleArrow,
-rightSideArcClockwiseArrow,
-rightSquiggleArrow,
-rightStrokeArrow,
-rightTabArrow,
-rightTailArrow,
-rightThenCurvingDownArrow,
-rightThenCurvingUpArrow,
-rightTipDownArrow,
-rightTipUpArrow,
-rightTriangleAboveLeftTriangle,
-rightTriangleAboveLeftTriangle.rtlm,
-rightTripleArrow,
-rightTripleDashArrow,
-rightTwoHeadedArrowFromBar,
-rightTwoHeadedArrowWithDoubleVerticalStroke,
-rightTwoHeadedArrowWithTail,
-rightTwoHeadedArrowWithTailWithDoubleVerticalStroke,
-rightTwoHeadedArrowWithTailWithVerticalStroke,
-rightTwoHeadedArrowWithVerticalStroke,
-rightTwoHeadedTripleDashArrow,
-rightTwoheadedArrow,
-rightVerticalStrokeArrow,
-rightWaveArrow,
-rightWhiteTriangle,
-rightanglearc,
-rightanglearc.rtlm,
-"rightanglebracket-math",
-rightanglebracketdot,
-rightangledownzigzagArrow,
-rightarcgreaterthanbracket,
-rightarrowabovecomb,
-rightarrowbelowcomb,
-rightblacktortoiseshellbracket,
-rightcurlybracketlowerhook,
-rightcurlybracketmiddlepiece,
-rightcurlybracketupperhook,
-"rightdoubleanglebracket-math",
-rightdoublewigglyfence,
-"rightflattenedparenthesis-math",
-righthandInteriorProduct,
-rightharpoonabovecomb,
-rightharpoonwithbarbdowncomb,
-rightlongArrow,
-rightnormalfactorsemidirectproduct,
-rightpointingcurvedanglebracket,
-rightsemidirectproduct,
-rightsquarebracketextension,
-rightsquarebracketlowercorner,
-rightsquarebrackettickinbottomcorner,
-rightsquarebrackettickintopcorner,
-rightsquarebracketunderbar,
-rightsquarebracketuppercorner,
-rightsshapedbagdelimiter,
-righttack,
-righttriangle,
-righttriangle.rtlm,
-rightwhitecurlybracket,
-"rightwhitesquarebracket-math",
-"rightwhitetortoiseshellbracket-math",
-rightwigglyfence,
-ringequalto,
-ringinequalto,
-ringoperator,
-ringoperator.circled,
-ringoverlaycomb,
-"risingDiagonal-math",
-"risingDiagonal-math.rtlm",
-risingDiagonalCrossingFallingDiagonal,
-risingDiagonalCrossingSouthEastArrow,
-"ritalic-math",
-"rscript-math",
-ruleDelayed,
-ruleDelayed.rtlm,
-s,
-"s-fraktur",
-sInTriangle,
-"sadArabic-math",
-"sbold-math",
-"sbolditalic-math",
-"sboldscript-math",
-sdoubleStruck,
-second,
-section,
-"seenArabic-math",
-semicolon,
-semidirectProductWithBottomClosed,
-setminus,
-setminus.rtlm,
-seven,
-"sharp-musical",
-"sheenArabic-math",
-shortDownTack,
-shortDownTackWithOverbar,
-shortLeftTack,
-shortRightArrowAboveLeftArrow,
-shortUpTack,
-shortUpTackAboveShortDownTack,
-shortUpTackWithUnderbar,
-shortverticallineoverlaycomb,
-shuffleProduct,
-sigma,
-sigmafinal,
-similar,
-similarAboveGreaterThanAboveEqualsSign,
-similarAboveGreaterThanAboveEqualsSign.rtlm,
-similarAboveLessThanAboveEqualsSign,
-similarAboveLessThanAboveEqualsSign.rtlm,
-similarMinusSimilar,
-similarMinusSimilar.rtlm,
-similarOrGreaterThan,
-similarOrGreaterThan.rtlm,
-similarOrLessThan,
-similarOrLessThan.rtlm,
-sinewave,
-sinewave.rtlm,
-"sitalic-math",
-six,
-slantedEqualToOrGreaterThan,
-slantedEqualToOrGreaterThanWithDotInside,
-slantedEqualToOrLessThan,
-slantedEqualToOrLessThanWithDotInside,
-slash,
-slopingLargeAnd,
-slopingLargeAnd.rtlm,
-slopingLargeOr,
-slopingLargeOr.rtlm,
-smallcontainsoverbar,
-smallcontainsverticalbaratendofhorizontalstroke,
-smallelementofoverbar,
-smallelementofverticalbaratendofhorizontalstroke,
-smashProduct,
-solidusWithOverbar,
-solidusWithOverbar.rtlm,
-southEastArrow,
-southEastArrowAndSouthWestArrow,
-southEastArrowCrossingNorthEastArrow,
-southEastArrowToCorner,
-southEastArrowWithHook,
-southEastDoubleArrow,
-southWestArrow,
-southWestArrowAndNorthWestArrow,
-southWestArrowWithHook,
-southWestDoubleArrow,
-space,
-sphericalAngleOpeningLeft,
-sphericalAngleOpeningLeft.rtlm,
-sphericalAngleOpeningUp,
-sphericalangle,
-sphericalangle.rtlm,
-squareLeftOpenBoxOperator,
-squareRightOpenBoxOperator,
-squareWithContouredOutline,
-squarecap,
-squarecup,
-squaredAsterisk,
-squaredFallingDiagonalSlash,
-squaredLogicalAnd,
-squaredLogicalOr,
-squaredRisingDiagonalSlash,
-squaredSquare,
-squaredcircle,
-squareddotoperator,
-squaredminus,
-squaredplus,
-squaredtimes,
-squareimageof,
-squareimageoforequalto,
-squareimageofornotequalto,
-squareoriginalof,
-squareoriginaloforequalto,
-squareoriginalofornotequalto,
-"sscript-math",
-starequals,
-staroperator,
-"stretchedainArabic-math",
-"stretchedbehArabic-math",
-"stretcheddadArabic-math",
-"stretcheddotlessbehArabic-math",
-"stretcheddotlessfehArabic-math",
-"stretchedfehArabic-math",
-"stretchedghainArabic-math",
-"stretchedhahArabic-math",
-"stretchedhehArabic-math",
-"stretchedjeemArabic-math",
-"stretchedkafArabic-math",
-"stretchedkhahArabic-math",
-"stretchedmeemArabic-math",
-"stretchednoonArabic-math",
-"stretchedqafArabic-math",
-"stretchedsadArabic-math",
-"stretchedseenArabic-math",
-"stretchedsheenArabic-math",
-"stretchedtahArabic-math",
-"stretchedtehArabic-math",
-"stretchedthehArabic-math",
-"stretchedyehArabic-math",
-"stretchedzahArabic-math",
-strictlyequivalentto,
-subset,
-subsetAboveRightArrow,
-subsetAboveSubset,
-subsetAboveSuperset,
-subsetOfAboveAlmostEqualTo,
-subsetOfAboveAlmostEqualTo.rtlm,
-subsetOfAboveEqualsSign,
-subsetOfAboveNotEqualTo,
-subsetOfAboveNotEqualTo.rtlm,
-subsetOfAboveTildeOperator,
-subsetOfAboveTildeOperator.rtlm,
-subsetOfOrEqualToWithDotAbove,
-subsetWithDot,
-subsetWithMultiplicationSignBelow,
-subsetWithPlusSignBelow,
-subsetnotequal,
-succeeds,
-succeedsAboveAlmostEqualTo,
-succeedsAboveAlmostEqualTo.rtlm,
-succeedsAboveEqualsSign,
-succeedsAboveNotAlmostEqualTo,
-succeedsAboveNotAlmostEqualTo.rtlm,
-succeedsAboveNotEqualTo,
-succeedsAboveNotEqualTo.rtlm,
-succeedsAboveSingleLineEqualsSign,
-succeedsAboveSingleLineNotEqualTo,
-succeedsAboveSingleLineNotEqualTo.rtlm,
-succeedsbutnotequivalentto,
-succeedsorequalto,
-succeedsorequivalentto,
-succeedsunderrelation,
-suchthat,
-summation,
-summation.rtlm,
-summationWithIntegral,
-summationWithIntegral.rtlm,
-summationbottom,
-summationdoubleStruck,
-summationdoubleStruck.rtlm,
-summationtop,
-superset,
-supersetAboveLeftArrow,
-supersetAboveSubset,
-supersetAboveSuperset,
-supersetBesideAndJoinedByDashWithSubset,
-supersetBesideSubset,
-supersetOfAboveAlmostEqualTo,
-supersetOfAboveAlmostEqualTo.rtlm,
-supersetOfAboveEqualsSign,
-supersetOfAboveNotEqualTo,
-supersetOfAboveNotEqualTo.rtlm,
-supersetOfAboveTildeOperator,
-supersetOfAboveTildeOperator.rtlm,
-supersetOfOrEqualToWithDotAbove,
-supersetPrecedingSolidus,
-supersetWithDot,
-supersetWithMultiplicationSignBelow,
-supersetWithPlusSignBelow,
-supersetnotequal,
-surfaceintegral,
-surfaceintegral.rtlm,
-t,
-"t-fraktur",
-tackdown,
-tackleft,
-"tahArabic-math",
-"tailedainArabic-math",
-"taileddadArabic-math",
-"taileddotlessnoonArabic-math",
-"taileddotlessqafArabic-math",
-"tailedghainArabic-math",
-"tailedhahArabic-math",
-"tailedjeemArabic-math",
-"tailedkhahArabic-math",
-"tailedlamArabic-math",
-"tailednoonArabic-math",
-"tailedqafArabic-math",
-"tailedsadArabic-math",
-"tailedseenArabic-math",
-"tailedsheenArabic-math",
-"tailedyehArabic-math",
-tau,
-"tbold-math",
-"tbolditalic-math",
-"tboldscript-math",
-tdoubleStruck,
-"tehArabic-math",
-"thalArabic-math",
-"thehArabic-math",
-theredoesnotexist,
-theredoesnotexist.rtlm,
-therefore,
-thermodynamic,
-theta,
-thetaSymbol,
-three,
-threeConsecutiveEqualsSigns,
-threeDimensionalAngle,
-threeDimensionalAngle.rtlm,
-threeLeftArrows,
-threeRightArrow,
-threedotsabovecomb,
-tieOverInfinity,
-tildeOperatorAboveLeftArrow,
-tildeOperatorAboveRightArrow,
-tildeOperatorWithDotAbove,
-tildeOperatorWithDotAbove.rtlm,
-tildeOperatorWithRisingDots,
-tildeOperatorWithRisingDots.rtlm,
-tildebelowcomb,
-tildecomb,
-timesWithLeftHalfBlack,
-timesWithRightHalfBlack,
-tiny,
-"titalic-math",
-topArcAnticlockwiseArrow,
-topArcAnticlockwiseArrowWithPlus,
-topArcClockwiseArrowWithMinus,
-topCircleLeftArrow,
-topCircleRightArrow,
-topLeftCorner,
-topRightcorner,
-topcurlybracket,
-topparenthesis,
-topsquarebracket,
-toptortoiseshellbracket,
-transversalIntersection,
-triangleWithDotAbove,
-triangleWithSerifsAtBottom,
-triangleWithUnderbar,
-tripleColonOperator,
-tripleHorizontalBarWithDoubleVerticalStroke,
-tripleHorizontalBarWithTripleVerticalStroke,
-tripleNestedGreaterThan,
-tripleNestedLessThan,
-triplePlus,
-tripleSolidusBinaryRelation,
-tripleSolidusBinaryRelation.rtlm,
-tripleVerticalBarBinaryRelation,
-tripleVerticalBarDelimiter,
-tripleVerticalBarWithHorizontalStroke,
-tripleintegral,
-tripleintegral.rtlm,
-tripleprime,
-tripleprimeReversed,
-tripletilde,
-tripletilde.rtlm,
-tripleunderdotcomb,
-tripleverticalbarrightturnstile,
-tripleverticalbarrightturnstile.rtlm,
-true,
-"tscript-math",
-turnedAngle,
-turnedAngle.rtlm,
-turnedNotSign,
-two,
-two.paren,
-twoConsecutiveEqualsSigns,
-twoIntersectingLogicalAnd,
-twoIntersectingLogicalOr,
-twoJoinedSquares,
-twoJoinedSquares.rtlm,
-twoLogicalAndOperator,
-twoLogicalOrOperator,
-u,
-"u-fraktur",
-"ABold-fraktur",
-"CBold-fraktur",
-"DBold-fraktur",
-"EBold-fraktur",
-"FBold-fraktur",
-"GBold-fraktur",
-"HBold-fraktur",
-"IBold-fraktur",
-"JBold-fraktur",
-"KBold-fraktur",
-"LBold-fraktur",
-"MBold-fraktur",
-"OBold-fraktur",
-"PBold-fraktur",
-"QBold-fraktur",
-"SBold-fraktur",
-"TBold-fraktur",
-"UBold-fraktur",
-"VBold-fraktur",
-"WBold-fraktur",
-"XBold-fraktur",
-"YBold-fraktur",
-"aBold-fraktur",
-"bBold-fraktur",
-"cBold-fraktur",
-"dBold-fraktur",
-"eBold-fraktur",
-"fBold-fraktur",
-"gBold-fraktur",
-"hBold-fraktur",
-"iBold-fraktur",
-"jBold-fraktur",
-"kBold-fraktur",
-"lBold-fraktur",
-"mBold-fraktur",
-"nBold-fraktur",
-"oBold-fraktur",
-"pBold-fraktur",
-"qBold-fraktur",
-"rBold-fraktur",
-"sBold-fraktur",
-"tBold-fraktur",
-"uBold-fraktur",
-"vBold-fraktur",
-"wBold-fraktur",
-"xBold-fraktur",
-"yBold-fraktur",
-"zBold-fraktur",
-"Asans-math",
-"Bsans-math",
-"Csans-math",
-"Dsans-math",
-"Esans-math",
-"Fsans-math",
-"Gsans-math",
-"Hsans-math",
-"Isans-math",
-"Jsans-math",
-"Ksans-math",
-"Lsans-math",
-"Msans-math",
-"Nsans-math",
-"Osans-math",
-"Psans-math",
-"Qsans-math",
-"Rsans-math",
-"Ssans-math",
-"Tsans-math",
-"Usans-math",
-"Vsans-math",
-"Wsans-math",
-"Xsans-math",
-"Ysans-math",
-"Zsans-math",
-"asans-math",
-"bsans-math",
-"csans-math",
-"dsans-math",
-"esans-math",
-"fsans-math",
-"gsans-math",
-"hsans-math",
-"isans-math",
-"jsans-math",
-"ksans-math",
-"lsans-math",
-"msans-math",
-"nsans-math",
-"osans-math",
-"psans-math",
-"qsans-math",
-"rsans-math",
-"ssans-math",
-"tsans-math",
-"usans-math",
-"vsans-math",
-"wsans-math",
-"xsans-math",
-"ysans-math",
-"zsans-math",
-"Asansbold-math",
-"Bsansbold-math",
-"Csansbold-math",
-"Dsansbold-math",
-"Esansbold-math",
-"Fsansbold-math",
-"Gsansbold-math",
-"Hsansbold-math",
-"Isansbold-math",
-"Jsansbold-math",
-"Ksansbold-math",
-"Lsansbold-math",
-"Msansbold-math",
-"Nsansbold-math",
-"Osansbold-math",
-"Psansbold-math",
-"Qsansbold-math",
-"Rsansbold-math",
-"Ssansbold-math",
-"Tsansbold-math",
-"Usansbold-math",
-"Vsansbold-math",
-"Wsansbold-math",
-"Xsansbold-math",
-"Ysansbold-math",
-"Zsansbold-math",
-"asansbold-math",
-"bsansbold-math",
-"csansbold-math",
-"dsansbold-math",
-"esansbold-math",
-"fsansbold-math",
-"gsansbold-math",
-"hsansbold-math",
-"isansbold-math",
-"jsansbold-math",
-"ksansbold-math",
-"lsansbold-math",
-"msansbold-math",
-"nsansbold-math",
-"osansbold-math",
-"psansbold-math",
-"qsansbold-math",
-"rsansbold-math",
-"ssansbold-math",
-"tsansbold-math",
-"usansbold-math",
-"vsansbold-math",
-"wsansbold-math",
-"xsansbold-math",
-"ysansbold-math",
-"zsansbold-math",
-"Asansitalic-math",
-"Bsansitalic-math",
-"Csansitalic-math",
-"Dsansitalic-math",
-"Esansitalic-math",
-"Fsansitalic-math",
-"Gsansitalic-math",
-"Hsansitalic-math",
-"Isansitalic-math",
-"Jsansitalic-math",
-"Ksansitalic-math",
-"Lsansitalic-math",
-"Msansitalic-math",
-"Nsansitalic-math",
-"Osansitalic-math",
-"Psansitalic-math",
-"Qsansitalic-math",
-"Rsansitalic-math",
-"Ssansitalic-math",
-"Tsansitalic-math",
-"Usansitalic-math",
-"Vsansitalic-math",
-"Wsansitalic-math",
-"Xsansitalic-math",
-"Ysansitalic-math",
-"Zsansitalic-math",
-"asansitalic-math",
-"bsansitalic-math",
-"csansitalic-math",
-"dsansitalic-math",
-"esansitalic-math",
-"fsansitalic-math",
-"gsansitalic-math",
-"hsansitalic-math",
-"isansitalic-math",
-"jsansitalic-math",
-"ksansitalic-math",
-"lsansitalic-math",
-"msansitalic-math",
-"nsansitalic-math",
-"osansitalic-math",
-"psansitalic-math",
-"qsansitalic-math",
-"rsansitalic-math",
-"ssansitalic-math",
-"tsansitalic-math",
-"usansitalic-math",
-"vsansitalic-math",
-"wsansitalic-math",
-"xsansitalic-math",
-"ysansitalic-math",
-"zsansitalic-math",
-"Asansbolditalic-math",
-"Bsansbolditalic-math",
-"Csansbolditalic-math",
-"Dsansbolditalic-math",
-"Esansbolditalic-math",
-"Fsansbolditalic-math",
-"Gsansbolditalic-math",
-"Hsansbolditalic-math",
-"Isansbolditalic-math",
-"Jsansbolditalic-math",
-"Ksansbolditalic-math",
-"Lsansbolditalic-math",
-"Msansbolditalic-math",
-"Nsansbolditalic-math",
-"Osansbolditalic-math",
-"Psansbolditalic-math",
-"Qsansbolditalic-math",
-"Rsansbolditalic-math",
-"Ssansbolditalic-math",
-"Tsansbolditalic-math",
-"Usansbolditalic-math",
-"Vsansbolditalic-math",
-"Wsansbolditalic-math",
-"Xsansbolditalic-math",
-"Ysansbolditalic-math",
-"Zsansbolditalic-math",
-"asansbolditalic-math",
-"bsansbolditalic-math",
-"csansbolditalic-math",
-"dsansbolditalic-math",
-"esansbolditalic-math",
-"fsansbolditalic-math",
-"gsansbolditalic-math",
-"hsansbolditalic-math",
-"isansbolditalic-math",
-"jsansbolditalic-math",
-"ksansbolditalic-math",
-"lsansbolditalic-math",
-"msansbolditalic-math",
-"nsansbolditalic-math",
-"osansbolditalic-math",
-"psansbolditalic-math",
-"qsansbolditalic-math",
-"rsansbolditalic-math",
-"ssansbolditalic-math",
-"tsansbolditalic-math",
-"usansbolditalic-math",
-"vsansbolditalic-math",
-"wsansbolditalic-math",
-"xsansbolditalic-math",
-"ysansbolditalic-math",
-"zsansbolditalic-math",
-"Amono-math",
-"Bmono-math",
-"Cmono-math",
-"Dmono-math",
-"Emono-math",
-"Fmono-math",
-"Gmono-math",
-"Hmono-math",
-"Imono-math",
-"Jmono-math",
-"Kmono-math",
-"Lmono-math",
-"Mmono-math",
-"Nmono-math",
-"Omono-math",
-"Pmono-math",
-"Qmono-math",
-"Rmono-math",
-"Smono-math",
-"Tmono-math",
-"Umono-math",
-"Vmono-math",
-"Wmono-math",
-"Xmono-math",
-"Ymono-math",
-"Zmono-math",
-"amono-math",
-"bmono-math",
-"cmono-math",
-"dmono-math",
-"emono-math",
-"fmono-math",
-"gmono-math",
-"hmono-math",
-"imono-math",
-"jmono-math",
-"kmono-math",
-"lmono-math",
-"mmono-math",
-"nmono-math",
-"omono-math",
-"pmono-math",
-"qmono-math",
-"rmono-math",
-"smono-math",
-"tmono-math",
-"umono-math",
-"vmono-math",
-"wmono-math",
-"xmono-math",
-"ymono-math",
-"zmono-math",
-"idotlessitalic-math",
-"jdotlessitalic-math",
-"Alphabold-math",
-"Betabold-math",
-"Gammabold-math",
-"Deltabold-math",
-"Epsilonbold-math",
-"Zetabold-math",
-"Etabold-math",
-"Thetabold-math",
-"Iotabold-math",
-"Kappabold-math",
-"Lambdabold-math",
-"Mubold-math",
-"Nubold-math",
-"Xibold-math",
-"Omicronbold-math",
-"Pibold-math",
-"Rhobold-math",
-"ThetaSymbolbold-math",
-"Sigmabold-math",
-"Taubold-math",
-"Upsilonbold-math",
-"Phibold-math",
-"Chibold-math",
-"Psibold-math",
-"Omegabold-math",
-"gradientbold-math",
-"alphabold-math",
-"betabold-math",
-"gammabold-math",
-"deltabold-math",
-"epsilonbold-math",
-"zetabold-math",
-"etabold-math",
-"thetabold-math",
-"iotabold-math",
-"kappabold-math",
-"lambdabold-math",
-"mubold-math",
-"nubold-math",
-"xibold-math",
-"omicronbold-math",
-"pibold-math",
-"rhobold-math",
-"sigmafinalbold-math",
-"sigmabold-math",
-"taubold-math",
-"upsilonbold-math",
-"phibold-math",
-"chibold-math",
-"psibold-math",
-"omegabold-math",
-"partialdiffbold-math",
-"partialdiffbold-math.rtlm",
-"epsilonLunateSymbolbold-math",
-"thetaSymbolbold-math",
-"kappaSymbolbold-math",
-"phiSymbolbold-math",
-"rhoSymbolbold-math",
-"piSymbolbold-math",
-"Alphaitalic-math",
-"Betaitalic-math",
-"Gammaitalic-math",
-"Deltaitalic-math",
-"Epsilonitalic-math",
-"Zetaitalic-math",
-"Etaitalic-math",
-"Thetaitalic-math",
-"Iotaitalic-math",
-"Kappaitalic-math",
-"Lambdaitalic-math",
-"Muitalic-math",
-"Nuitalic-math",
-"Xiitalic-math",
-"Omicronitalic-math",
-"Piitalic-math",
-"Rhoitalic-math",
-"ThetaSymbolitalic-math",
-"Sigmaitalic-math",
-"Tauitalic-math",
-"Upsilonitalic-math",
-"Phiitalic-math",
-"Chiitalic-math",
-"Psiitalic-math",
-"Omegaitalic-math",
-"gradientitalic-math",
-"alphaitalic-math",
-"betaitalic-math",
-"gammaitalic-math",
-"deltaitalic-math",
-"epsilonitalic-math",
-"zetaitalic-math",
-"etaitalic-math",
-"thetaitalic-math",
-"iotaitalic-math",
-"kappaitalic-math",
-"lambdaitalic-math",
-"muitalic-math",
-"nuitalic-math",
-"xiitalic-math",
-"omicronitalic-math",
-"piitalic-math",
-"rhoitalic-math",
-"sigmafinalitalic-math",
-"sigmaitalic-math",
-"tauitalic-math",
-"upsilonitalic-math",
-"phiitalic-math",
-"chiitalic-math",
-"psiitalic-math",
-"omegaitalic-math",
-"partialdiffitalic-math",
-"partialdiffitalic-math.rtlm",
-"epsilonLunateSymbolitalic-math",
-"thetaSymbolitalic-math",
-"kappaSymbolitalic-math",
-"phiSymbolitalic-math",
-"rhoSymbolitalic-math",
-"piSymbolitalic-math",
-"Alphabolditalic-math",
-"Betabolditalic-math",
-"Gammabolditalic-math",
-"Deltabolditalic-math",
-"Epsilonbolditalic-math",
-"Zetabolditalic-math",
-"Etabolditalic-math",
-"Thetabolditalic-math",
-"Iotabolditalic-math",
-"Kappabolditalic-math",
-"Lambdabolditalic-math",
-"Mubolditalic-math",
-"Nubolditalic-math",
-"Xibolditalic-math",
-"Omicronbolditalic-math",
-"Pibolditalic-math",
-"Rhobolditalic-math",
-"ThetaSymbolbolditalic-math",
-"Sigmabolditalic-math",
-"Taubolditalic-math",
-"Upsilonbolditalic-math",
-"Phibolditalic-math",
-"Chibolditalic-math",
-"Psibolditalic-math",
-"Omegabolditalic-math",
-"gradientbolditalic-math",
-"alphabolditalic-math",
-"betabolditalic-math",
-"gammabolditalic-math",
-"deltabolditalic-math",
-"epsilonbolditalic-math",
-"zetabolditalic-math",
-"etabolditalic-math",
-"thetabolditalic-math",
-"iotabolditalic-math",
-"kappabolditalic-math",
-"lambdabolditalic-math",
-"mubolditalic-math",
-"nubolditalic-math",
-"xibolditalic-math",
-"omicronbolditalic-math",
-"pibolditalic-math",
-"rhobolditalic-math",
-"sigmafinalbolditalic-math",
-"sigmabolditalic-math",
-"taubolditalic-math",
-"upsilonbolditalic-math",
-"phibolditalic-math",
-"chibolditalic-math",
-"psibolditalic-math",
-"omegabolditalic-math",
-"partialdiffbolditalic-math",
-"partialdiffbolditalic-math.rtlm",
-"epsilonLunateSymbolbolditalic-math",
-"thetaSymbolbolditalic-math",
-"kappaSymbolbolditalic-math",
-"phiSymbolbolditalic-math",
-"rhoSymbolbolditalic-math",
-"piSymbolbolditalic-math",
-"Alphasansbold-math",
-"Betasansbold-math",
-"Gammasansbold-math",
-"Deltasansbold-math",
-"Epsilonsansbold-math",
-"Zetasansbold-math",
-"Etasansbold-math",
-"Thetasansbold-math",
-"Iotasansbold-math",
-"Kappasansbold-math",
-"Lambdasansbold-math",
-"Musansbold-math",
-"Nusansbold-math",
-"Xisansbold-math",
-"Omicronsansbold-math",
-"Pisansbold-math",
-"Rhosansbold-math",
-"ThetaSymbolsansbold-math",
-"Sigmasansbold-math",
-"Tausansbold-math",
-"Upsilonsansbold-math",
-"Phisansbold-math",
-"Chisansbold-math",
-"Psisansbold-math",
-"Omegasansbold-math",
-"gradientsansbold-math",
-"alphasansbold-math",
-"betasansbold-math",
-"gammasansbold-math",
-"deltasansbold-math",
-"epsilonsansbold-math",
-"zetasansbold-math",
-"etasansbold-math",
-"thetasansbold-math",
-"iotasansbold-math",
-"kappasansbold-math",
-"lambdasansbold-math",
-"musansbold-math",
-"nusansbold-math",
-"xisansbold-math",
-"omicronsansbold-math",
-"pisansbold-math",
-"rhosansbold-math",
-"sigmafinalsansbold-math",
-"sigmasansbold-math",
-"tausansbold-math",
-"upsilonsansbold-math",
-"phisansbold-math",
-"chisansbold-math",
-"psisansbold-math",
-"omegasansbold-math",
-"partialdiffsansbold-math",
-"partialdiffsansbold-math.rtlm",
-"epsilonLunateSymbolsansbold-math",
-"thetaSymbolsansbold-math",
-"kappaSymbolsansbold-math",
-"phiSymbolsansbold-math",
-"rhoSymbolsansbold-math",
-"piSymbolsansbold-math",
-"Alphasansbolditalic-math",
-"Betasansbolditalic-math",
-"Gammasansbolditalic-math",
-"Deltasansbolditalic-math",
-"Epsilonsansbolditalic-math",
-"Zetasansbolditalic-math",
-"Etasansbolditalic-math",
-"Thetasansbolditalic-math",
-"Iotasansbolditalic-math",
-"Kappasansbolditalic-math",
-"Lambdasansbolditalic-math",
-"Musansbolditalic-math",
-"Nusansbolditalic-math",
-"Xisansbolditalic-math",
-"Omicronsansbolditalic-math",
-"Pisansbolditalic-math",
-"Rhosansbolditalic-math",
-"ThetaSymbolsansbolditalic-math",
-"Sigmasansbolditalic-math",
-"Tausansbolditalic-math",
-"Upsilonsansbolditalic-math",
-"Phisansbolditalic-math",
-"Chisansbolditalic-math",
-"Psisansbolditalic-math",
-"Omegasansbolditalic-math",
-"gradientsansbolditalic-math",
-"alphasansbolditalic-math",
-"betasansbolditalic-math",
-"gammasansbolditalic-math",
-"deltasansbolditalic-math",
-"epsilonsansbolditalic-math",
-"zetasansbolditalic-math",
-"etasansbolditalic-math",
-"thetasansbolditalic-math",
-"iotasansbolditalic-math",
-"kappasansbolditalic-math",
-"lambdasansbolditalic-math",
-"musansbolditalic-math",
-"nusansbolditalic-math",
-"xisansbolditalic-math",
-"omicronsansbolditalic-math",
-"pisansbolditalic-math",
-"rhosansbolditalic-math",
-"sigmafinalsansbolditalic-math",
-"sigmasansbolditalic-math",
-"tausansbolditalic-math",
-"upsilonsansbolditalic-math",
-"phisansbolditalic-math",
-"chisansbolditalic-math",
-"psisansbolditalic-math",
-"omegasansbolditalic-math",
-"partialdiffsansbolditalic-math",
-"partialdiffsansbolditalic-math.rtlm",
-"epsilonLunateSymbolsansbolditalic-math",
-"thetaSymbolsansbolditalic-math",
-"kappaSymbolsansbolditalic-math",
-"phiSymbolsansbolditalic-math",
-"rhoSymbolsansbolditalic-math",
-"piSymbolsansbolditalic-math",
-"Digammabold-math",
-"digammabold-math",
-"zerobold-math",
-"onebold-math",
-"twobold-math",
-"threebold-math",
-"fourbold-math",
-"fivebold-math",
-"sixbold-math",
-"sevenbold-math",
-"eightbold-math",
-"ninebold-math",
-zerodoubleStruck,
-onedoubleStruck,
-twodoubleStruck,
-threedoubleStruck,
-fourdoubleStruck,
-fivedoubleStruck,
-sixdoubleStruck,
-sevendoubleStruck,
-eightdoubleStruck,
-ninedoubleStruck,
-"zerosans-math",
-"onesans-math",
-"twosans-math",
-"threesans-math",
-"foursans-math",
-"fivesans-math",
-"sixsans-math",
-"sevensans-math",
-"eightsans-math",
-"ninesans-math",
-"zerosansbold-math",
-"onesansbold-math",
-"twosansbold-math",
-"threesansbold-math",
-"foursansbold-math",
-"fivesansbold-math",
-"sixsansbold-math",
-"sevensansbold-math",
-"eightsansbold-math",
-"ninesansbold-math",
-"zeromono-math",
-"onemono-math",
-"twomono-math",
-"threemono-math",
-"fourmono-math",
-"fivemono-math",
-"sixmono-math",
-"sevenmono-math",
-"eightmono-math",
-"ninemono-math",
-"ubold-math",
-"ubolditalic-math",
-"uboldscript-math",
-udoubleStruck,
-"uitalic-math",
-underscore,
-union,
-unionAboveBarAboveIntersection,
-unionAboveIntersection,
-unionBesideAndJoinedWithUnion,
-unionWithLogicalOr,
-unionWithMinusSign,
-unionWithOverbar,
-universal,
-upAndDownArrow,
-upArrow,
-upArrowThrough.circled,
-upArrowToBar,
-upArrowWithHorizontalStroke,
-upBarbLeftDownBarbLeftHarpoon,
-upBarbLeftDownBarbRightHarpoon,
-upBarbLeftharpoon,
-upBarbRightDownBarbLeftHarpoon,
-upBarbRightDownBarbRightHarpoon,
-upBarbRightharpoon,
-upDashArrow,
-upDoubleArrow,
-upDoublePairedArrow,
-upDownArrow,
-upDownDoubleArrow,
-upDownbaseArrow,
-upFishTail,
-upFrombarArrow,
-upHarpoonWithBarbLeftBesideDownHarpoonWithBarbRight,
-upHarpoonWithBarbLeftBesideUpHarpoonWithBarbRight,
-upHarpoonWithBarbLeftFromBar,
-upHarpoonWithBarbLeftToBar,
-upHarpoonWithBarbRightFromBar,
-upHarpoonWithBarbRightToBar,
-upQuadrupleArrow,
-upTackWithCircleAbove,
-upTipLeftArrow,
-upTipRightArrow,
-upTripleArrow,
-upTwoHeadedArrow,
-upWhiteTriangle,
-upperLeftCornerWithDot,
-upperLeftCornerWithDot.rtlm,
-upperleftorlowerrightcurlybracketsection,
-upperrightorlowerleftcurlybracketsection,
-uprightdiagonalellipsis,
-upsilon,
-uptack,
-uptwoheadedarrowfromcircle,
-"uscript-math",
-v,
-"v-fraktur",
-"vbold-math",
-"vbolditalic-math",
-"vboldscript-math",
-vdoubleStruck,
-vectorOrCrossProduct,
-veeunderbar,
-verticalBarBesideRightTriangle,
-verticalBarDoubleLeftTurnstile,
-verticalBarTripleRightTurnstile,
-verticalBarTripleRightTurnstile.rtlm,
-verticalBarWithHorizontalStroke,
-verticalLineWithCircleAbove,
-verticalLineWithCircleBelow,
-verticalZigzagLine,
-verticallineextension,
-"verymuchgreater-than",
-"verymuchless-than",
-"vitalic-math",
-volumeintegral,
-volumeintegral.rtlm,
-"vscript-math",
-w,
-"w-fraktur",
-waveArrowDirectlyRight,
-"wawArabic-math",
-"wbold-math",
-"wbolditalic-math",
-"wboldscript-math",
-wdoubleStruck,
-whiteBullet.circled,
-whiteCircleWithDownArrow,
-whiteConcaveSidedDiamond,
-whiteConcaveSidedDiamondWithLeftTick,
-whiteConcaveSidedDiamondWithRightTick,
-whiteDiamondWithCentredDot,
-whiteHourglass,
-whiteSquareWithLeftTick,
-whiteSquareWithRightTick,
-whiteVerticalBar,
-whiteVerticalRect,
-whiteparenleft,
-whiteparenright,
-whitetrianglecontainingwhitetriangle,
-widebridgeabovecomb,
-"witalic-math",
-wreathproduct,
-wreathproduct.rtlm,
-"wscript-math",
-x,
-"x-fraktur",
-"xbold-math",
-"xbolditalic-math",
-"xboldscript-math",
-xdoubleStruck,
-xi,
-"xitalic-math",
-xor,
-"xscript-math",
-y,
-"y-fraktur",
-"ybold-math",
-"ybolditalic-math",
-"yboldscript-math",
-ydoubleStruck,
-"yehArabic-math",
-"yitalic-math",
-"yscript-math",
-z,
-"z-fraktur",
-zNotationDomainAntirestriction,
-zNotationRangeAntirestriction,
-zNotationRelationalComposition,
-zNotationRelationalComposition.rtlm,
-zNotationSchemaComposition,
-zNotationSchemaComposition.rtlm,
-zNotationSchemaPiping,
-zNotationSchemaPiping.rtlm,
-zNotationSchemaProjection,
-zNotationSchemaProjection.rtlm,
-zNotationSpot,
-zNotationTypeColon,
-"zahArabic-math",
-"zainArabic-math",
-"zbold-math",
-"zbolditalic-math",
-"zboldscript-math",
-zdoubleStruck,
-zero,
-zeta,
-"zitalic-math",
-znotationbagmembership,
-znotationbagmembership.rtlm,
-znotationleftbindingbracket,
-znotationleftimagebracket,
-znotationrightbindingbracket,
-znotationrightimagebracket,
-"zscript-math",
-"Ascript-math.uv001",
-Bscript.uv001,
-"Cscript-math.uv001",
-"Dscript-math.uv001",
-Escript.uv001,
-Fscript.uv001,
-"Gscript-math.uv001",
-Hscript.uv001,
-Iscript.uv001,
-"Jscript-math.uv001",
-"Kscript-math.uv001",
-Lscript.uv001,
-Mscript.uv001,
-"Nscript-math.uv001",
-"Oscript-math.uv001",
-"Pscript-math.uv001",
-"Qscript-math.uv001",
-Rscript.uv001,
-"Sscript-math.uv001",
-"Tscript-math.uv001",
-"Uscript-math.uv001",
-"Vscript-math.uv001",
-"Wscript-math.uv001",
-"Xscript-math.uv001",
-"Yscript-math.uv001",
-"Zscript-math.uv001",
-slashlongcomb,
-radicalsymbolbottom,
-blackSquare,
-whiteSquare,
-whiteRoundedCornersSquare,
-whiteInBlackSquare,
-horizontalFillSquare,
-verticalFillSquare,
-crosshatchFillSquare,
-upperlefttolowerrightFillSquare,
-upperrighttolowerleftFillSquare,
-diagonalcrosshatchFillSquare,
-blackSmallSquare,
-whiteSmallSquare,
-filledRect,
-whiteRect,
-blackVerticalRect,
-blackParallelogram,
-whiteParallelogram,
-upBlackTriangle,
-upBlackSmallTriangle,
-upWhiteSmallTriangle,
-rightBlackTriangle,
-rightBlackSmallTriangle,
-rightWhiteSmallTriangle,
-downBlackTriangle,
-downBlackSmallTriangle,
-downWhiteSmallTriangle,
-leftBlackTriangle,
-leftBlackSmallTriangle,
-leftWhiteSmallTriangle,
-leftBlackPointer,
-leftWhitePointer,
-blackDiamond,
-whiteDiamond,
-blackInWhiteDiamond,
-fisheye,
-whiteCircle,
-verticalFillCircle,
-bullseye,
-blackCircle,
-leftHalfBlackWhiteCircle,
-rightHalfBlackWhiteCircle,
-lowerHalfBlackWhiteCircle,
-upperHalfBlackWhiteCircle,
-upperRightBlackCircle,
-upperLeftWhiteCircle,
-leftHalfBlackCircle,
-rightHalfBlackCircle,
-inverseBullet,
-inverseWhiteCircle,
-upperLeftArc,
-upperRightArc,
-lowerRightArc,
-lowerLeftArc,
-upperHalfArc,
-lowerHalfArc,
-lowerRightBlackTriangle,
-lowerLeftBlackTriangle,
-upperLeftBlackTriangle,
-upperRightBlackTriangle,
-whiteBullet,
-leftHalfBlackSquare,
-rightHalfBlackSquare,
-upperLeftDiagonalHalfBlackSquare,
-lowerRightDiagonalHalfBlackSquare,
-verticalBisectingLineWhiteSquare,
-upWhiteTriangleWithDot,
-upLeftHalfBlackTriangle,
-upRightHalfBlackTriangle,
-largeCircle,
-whiteUpperLeftQuadrantSquare,
-whiteLowerLeftQuadrantSquare,
-whiteLowerRightQuadrantSquare,
-whiteUpperRightQuadrantSquare,
-upperLeftQuadrantWhiteCircle,
-lowerLeftQuadrantWhiteCircle,
-lowerRightQuadrantWhiteCircle,
-upperRightQuadrantWhiteCircle,
-upperLeftTriangle,
-upperRightTriangle,
-mediumBlackSquare,
-mediumWhiteSmallSquare,
-mediumBlackSmallSquare,
-lowerRightTriangle,
-blackLeftPointingIsoscelesRightTriangle,
-blackUpPointingIsoscelesRightTriangle,
-blackRightPointingIsoscelesRightTriangle,
-blackDownPointingIsoscelesRightTriangle,
-blackSlightlySmallCircle,
-mediumBoldWhiteCircle,
-boldWhiteCircle,
-heavyWhiteCircle,
-veryHeavyWhiteCircle,
-extremelyHeavyWhiteCircle,
-whiteCircleWithBlackCircle,
-roundTarget,
-blackTinySquare,
-blackSlightlySmallSquare,
-lightWhiteSquare,
-mediumWhiteSquareDuplicate,
-boldWhiteSquare,
-heavyWhiteSquare,
-veryHeavyWhiteSquare,
-extremelyHeavyWhiteSquare,
-whiteSquareWithBlackSmallSquare,
-whiteSquareWithBlackMediumSquare,
-squareTarget,
-blackTinyDiamond,
-blackVerySmallDiamond,
-blackMediumSmallDiamond,
-whiteDiamondWithBlackVerySmallDiamond,
-whiteDiamondWithBlackMediumDiamond,
-diamondTarget,
-blackTinyLozenge,
-blackVerySmallLozenge,
-blackMediumSmallLozenge,
-whiteLozengeWithBlackSmallLozenge,
-thinGreekCross,
-lightGreekCross,
-mediumGreekCross,
-boldGreekCross,
-veryBoldGreekCross,
-veryHeavyGreekCross,
-extremelyHeavyGreekCross,
-thinSaltire,
-lightSaltire,
-mediumSaltire,
-boldSaltire,
-heavySaltire,
-veryHeavySaltire,
-extremelyHeavySaltire,
-lightFiveSpokedAsterisk,
-mediumFiveSpokedAsterisk,
-boldFiveSpokedAsterisk,
-heavyFiveSpokedAsterisk,
-veryHeavyFiveSpokedAsterisk,
-extremelyHeavyFiveSpokedAsterisk,
-lightSixSpokedAsterisk,
-mediumSixSpokedAsterisk,
-boldSixSpokedAsterisk,
-heavySixSpokedAsterisk,
-veryHeavySixSpokedAsterisk,
-extremelyHeavySixSpokedAsterisk,
-lightEightSpokedAsterisk,
-mediumEightSpokedAsterisk,
-boldEightSpokedAsterisk,
-heavyEightSpokedAsterisk,
-veryHeavyEightSpokedAsterisk,
-lightThreePointedBlackStar,
-mediumThreePointedBlackStar,
-threePointedBlackStar,
-mediumThreePointedPinwheelStar,
-lightFourPointedBlackStar,
-mediumFourPointedBlackStar,
-fourPointedBlackStar,
-mediumFourPointedPinwheelStar,
-reverseLightFourPointedPinwheelStar,
-lightFivePointedBlackStar,
-heavyFivePointedBlackStar,
-mediumSixPointedBlackStar,
-heavySixPointedBlackStar,
-sixPointedPinwheelStar,
-mediumEightPointedBlackStar,
-heavyEightPointedBlackStar,
-veryHeavyEightPointedBlackStar,
-heavyEightPointedPinwheelStar,
-lightTwelvePointedBlackStar,
-heavyTwelvePointedBlackStar,
-heavyTwelvePointedPinwheelStar,
-circledTriangle,
-negativeCircledTriangle,
-circledSquare,
-negativeCircledSquare,
-fraction,
-mediumWhiteCircle,
-mediumBlackCircle,
-twelvePointedBlackStar,
-blackLargeCircle,
-blackLargeSquare,
-blackMediumDiamond,
-blackVerysmallSquare,
-upWhiteMediumTriangle,
-verySmallBlackCircle,
-whiteMediumSmallDiamond,
-upperHalfInverseWhiteCircle,
-lowerHalfInverseWhiteCircle,
-leftHalfBlackDiamond,
-rightHalfBlackDiamond,
-topHalfBlackDiamond,
-bottomHalfBlackDiamond,
-rightBlackPointer,
-rightWhitePointer,
-lowerLeftTriangle,
-zero.ss01,
-erthanorequalto.ss01,
-greaterequalorless.ss01,
-largerThanOrEqualTo.ss01,
-lessequalorgreater.ss01,
-lessorequivalent.ss01,
-emptyset.ss01,
-intersection.ss01,
-union.ss01,
-righthandInteriorProduct.ss01,
-similarOrGreaterThan.ss01,
-similarOrLessThan.ss01,
-squarecap.ss01,
-squarecup.ss01,
-subsetOfAboveNotEqualTo.ss01,
-subsetnotequal.ss01,
-supersetOfAboveNotEqualTo.ss01,
-supersetnotequal.ss01,
-equals.circled.vs1,
-multiply.circled.vs1,
-plus.circled.vs1,
-"greater-thanbutnotequalto.ss01",
-"less-thanbutnotequalto.ss01",
-zero.ssty,
-one.ssty,
-two.ssty,
-three.ssty,
-four.ssty,
-five.ssty,
-six.ssty,
-seven.ssty,
-eight.ssty,
-nine.ssty,
-plus.ssty,
-minus.ssty,
-equal.ssty,
-parenleft.ssty,
-parenright.ssty,
-tackdown.ssty,
-tackdown.ssty,
-tackup.ssty,
-A.ssty,
-B.ssty,
-C.ssty,
-D.ssty,
-E.ssty,
-F.ssty,
-G.ssty,
-H.ssty,
-I.ssty,
-J.ssty,
-K.ssty,
-L.ssty,
-M.ssty,
-N.ssty,
-O.ssty,
-P.ssty,
-Q.ssty,
-R.ssty,
-S.ssty,
-T.ssty,
-U.ssty,
-V.ssty,
-W.ssty,
-X.ssty,
-Y.ssty,
-Z.ssty,
-a.ssty,
-b.ssty,
-c.ssty,
-d.ssty,
-e.ssty,
-f.ssty,
-g.ssty,
-h.ssty,
-i.ssty,
-i.dotless.ssty,
-j.ssty,
-j.dotless.ssty,
-k.ssty,
-l.ssty,
-m.ssty,
-n.ssty,
-o.ssty,
-p.ssty,
-q.ssty,
-r.ssty,
-s.ssty,
-t.ssty,
-u.ssty,
-v.ssty,
-w.ssty,
-x.ssty,
-y.ssty,
-z.ssty,
-Alpha.ssty,
-Beta.ssty,
-Gamma.ssty,
-Delta.ssty,
-Epsilon.ssty,
-Zeta.ssty,
-Eta.ssty,
-Theta.ssty,
-Iota.ssty,
-Kappa.ssty,
-Lambda.ssty,
-Mu.ssty,
-Nu.ssty,
-Xi.ssty,
-Omicron.ssty,
-Pi.ssty,
-Rho.ssty,
-Sigma.ssty,
-Tau.ssty,
-Upsilon.ssty,
-Phi.ssty,
-Chi.ssty,
-Psi.ssty,
-Omega.ssty,
-alpha.ssty,
-beta.ssty,
-gamma.ssty,
-delta.ssty,
-epsilon.ssty,
-zeta.ssty,
-eta.ssty,
-theta.ssty,
-iota.ssty,
-kappa.ssty,
-lambda.ssty,
-mu.ssty,
-nu.ssty,
-xi.ssty,
-omicron.ssty,
-pi.ssty,
-rho.ssty,
-sigma.ssty,
-sigmafinal.ssty,
-tau.ssty,
-upsilon.ssty,
-phi.ssty,
-chi.ssty,
-psi.ssty,
-omega.ssty,
-u1D6E2.ssty,
-u1D6E3.ssty,
-u1D6E4.ssty,
-u1D6E5.ssty,
-u1D6E6.ssty,
-u1D6E7.ssty,
-u1D6E8.ssty,
-u1D6E9.ssty,
-u1D6EA.ssty,
-u1D6EB.ssty,
-u1D6EC.ssty,
-u1D6ED.ssty,
-u1D6EE.ssty,
-u1D6EF.ssty,
-u1D6F0.ssty,
-u1D6F1.ssty,
-u1D6F2.ssty,
-u1D6F3.ssty,
-u1D6F4.ssty,
-u1D6F5.ssty,
-u1D6F6.ssty,
-u1D6F7.ssty,
-u1D6F8.ssty,
-u1D6F9.ssty,
-u1D6FA.ssty,
-u1D6FB.ssty,
-u1D6FC.ssty,
-u1D6FD.ssty,
-u1D6FE.ssty,
-u1D6FF.ssty,
-u1D700.ssty,
-u1D701.ssty,
-u1D702.ssty,
-u1D703.ssty,
-u1D704.ssty,
-u1D705.ssty,
-u1D706.ssty,
-u1D707.ssty,
-u1D708.ssty,
-u1D709.ssty,
-u1D70A.ssty,
-u1D70B.ssty,
-u1D70C.ssty,
-u1D70D.ssty,
-u1D70E.ssty,
-u1D70F.ssty,
-u1D710.ssty,
-u1D711.ssty,
-u1D712.ssty,
-u1D713.ssty,
-u1D714.ssty,
-u1D715.ssty,
-u1D716.ssty,
-u1D717.ssty,
-u1D718.ssty,
-u1D719.ssty,
-u1D71A.ssty,
-u1D71B.ssty,
-comma.ssty,
-period.ssty,
-hyphen.ssty,
-minute.ssty,
-second.ssty,
-zero.ssty2,
-one.ssty2,
-two.ssty2,
-three.ssty2,
-four.ssty2,
-five.ssty2,
-six.ssty2,
-seven.ssty2,
-eight.ssty2,
-nine.ssty2,
-plus.ssty2,
-minus.ssty2,
-equal.ssty2,
-parenleft.ssty2,
-parenright.ssty2,
-tackdown.ssty2,
-tackdown.ssty2,
-tackup.ssty2,
-A.ssty2,
-B.ssty2,
-C.ssty2,
-D.ssty2,
-E.ssty2,
-F.ssty2,
-G.ssty2,
-H.ssty2,
-I.ssty2,
-J.ssty2,
-K.ssty2,
-L.ssty2,
-M.ssty2,
-N.ssty2,
-O.ssty2,
-P.ssty2,
-Q.ssty2,
-R.ssty2,
-S.ssty2,
-T.ssty2,
-U.ssty2,
-V.ssty2,
-W.ssty2,
-X.ssty2,
-Y.ssty2,
-Z.ssty2,
-a.ssty2,
-b.ssty2,
-c.ssty2,
-d.ssty2,
-e.ssty2,
-f.ssty2,
-g.ssty2,
-h.ssty2,
-i.ssty2,
-i.dotless.ssty2,
-j.ssty2,
-j.dotless.ssty2,
-k.ssty2,
-l.ssty2,
-m.ssty2,
-n.ssty2,
-o.ssty2,
-p.ssty2,
-q.ssty2,
-r.ssty2,
-s.ssty2,
-t.ssty2,
-u.ssty2,
-v.ssty2,
-w.ssty2,
-x.ssty2,
-y.ssty2,
-z.ssty2,
-Alpha.ssty2,
-Beta.ssty2,
-Gamma.ssty2,
-Delta.ssty2,
-Epsilon.ssty2,
-Zeta.ssty2,
-Eta.ssty2,
-Theta.ssty2,
-Iota.ssty2,
-Kappa.ssty2,
-Lambda.ssty2,
-Mu.ssty2,
-Nu.ssty2,
-Xi.ssty2,
-Omicron.ssty2,
-Pi.ssty2,
-Rho.ssty2,
-Sigma.ssty2,
-Tau.ssty2,
-Upsilon.ssty2,
-Phi.ssty2,
-Chi.ssty2,
-Psi.ssty2,
-Omega.ssty2,
-alpha.ssty2,
-beta.ssty2,
-gamma.ssty2,
-delta.ssty2,
-epsilon.ssty2,
-zeta.ssty2,
-eta.ssty2,
-theta.ssty2,
-iota.ssty2,
-kappa.ssty2,
-lambda.ssty2,
-mu.ssty2,
-nu.ssty2,
-xi.ssty2,
-omicron.ssty2,
-pi.ssty2,
-rho.ssty2,
-sigma.ssty2,
-sigmafinal.ssty2,
-tau.ssty2,
-upsilon.ssty2,
-phi.ssty2,
-chi.ssty2,
-psi.ssty2,
-omega.ssty2,
-u1D6E2.ssty2,
-u1D6E3.ssty2,
-u1D6E4.ssty2,
-u1D6E5.ssty2,
-u1D6E6.ssty2,
-u1D6E7.ssty2,
-u1D6E8.ssty2,
-u1D6E9.ssty2,
-u1D6EA.ssty2,
-u1D6EB.ssty2,
-u1D6EC.ssty2,
-u1D6ED.ssty2,
-u1D6EE.ssty2,
-u1D6EF.ssty2,
-u1D6F0.ssty2,
-u1D6F1.ssty2,
-u1D6F2.ssty2,
-u1D6F3.ssty2,
-u1D6F4.ssty2,
-u1D6F5.ssty2,
-u1D6F6.ssty2,
-u1D6F7.ssty2,
-u1D6F8.ssty2,
-u1D6F9.ssty2,
-u1D6FA.ssty2,
-u1D6FB.ssty2,
-u1D6FC.ssty2,
-u1D6FD.ssty2,
-u1D6FE.ssty2,
-u1D6FF.ssty2,
-u1D700.ssty2,
-u1D701.ssty2,
-u1D702.ssty2,
-u1D703.ssty2,
-u1D704.ssty2,
-u1D705.ssty2,
-u1D706.ssty2,
-u1D707.ssty2,
-u1D708.ssty2,
-u1D709.ssty2,
-u1D70A.ssty2,
-u1D70B.ssty2,
-u1D70C.ssty2,
-u1D70D.ssty2,
-u1D70E.ssty2,
-u1D70F.ssty2,
-u1D710.ssty2,
-u1D711.ssty2,
-u1D712.ssty2,
-u1D713.ssty2,
-u1D714.ssty2,
-u1D715.ssty2,
-u1D716.ssty2,
-u1D717.ssty2,
-u1D718.ssty2,
-u1D719.ssty2,
-u1D71A.ssty2,
-u1D71B.ssty2,
-comma.ssty2,
-period.ssty2,
-hyphen.ssty2,
-minute.ssty2,
-second.ssty2,
-zero.VS1.ssty,
-zero.VS1.ssty2,
-colon.ssty,
-semicolon.ssty,
-ellipsis.ssty,
-exclam.ssty,
-slash.ssty,
-backslash.ssty,
-bar.ssty,
-bracketleft.ssty,
-bracketright.ssty,
-braceleft.ssty,
-braceright.ssty,
-quoteright.ssty,
-quotedblright.ssty,
-dagger.ssty,
-numbersign.ssty,
-plusminus.ssty,
-multiply.ssty,
-less.ssty,
-greater.ssty,
-colon.ssty2,
-semicolon.ssty2,
-ellipsis.ssty2,
-exclam.ssty2,
-slash.ssty2,
-backslash.ssty2,
-bar.ssty2,
-bracketleft.ssty2,
-bracketright.ssty2,
-braceleft.ssty2,
-braceright.ssty2,
-quoteright.ssty2,
-quotedblright.ssty2,
-dagger.ssty2,
-numbersign.ssty2,
-plusminus.ssty2,
-multiply.ssty2,
-less.ssty2,
-greater.ssty2,
-idotless.ssty,
-jdotless.ssty,
-idotless.ssty2,
-jdotless.ssty2,
-"A-fraktur.ssty",
-"B-fraktur.ssty",
-"C-fraktur.ssty",
-"D-fraktur.ssty",
-"E-fraktur.ssty",
-"F-fraktur.ssty",
-"G-fraktur.ssty",
-"H-fraktur.ssty",
-"I-fraktur.ssty",
-"J-fraktur.ssty",
-"K-fraktur.ssty",
-"L-fraktur.ssty",
-"M-fraktur.ssty",
-"N-fraktur.ssty",
-"O-fraktur.ssty",
-"P-fraktur.ssty",
-"Q-fraktur.ssty",
-"R-fraktur.ssty",
-"S-fraktur.ssty",
-"T-fraktur.ssty",
-"U-fraktur.ssty",
-"V-fraktur.ssty",
-"W-fraktur.ssty",
-"X-fraktur.ssty",
-"Y-fraktur.ssty",
-"Z-fraktur.ssty",
-"A-fraktur.ssty2",
-"B-fraktur.ssty2",
-"C-fraktur.ssty2",
-"D-fraktur.ssty2",
-"E-fraktur.ssty2",
-"F-fraktur.ssty2",
-"G-fraktur.ssty2",
-"H-fraktur.ssty2",
-"I-fraktur.ssty2",
-"J-fraktur.ssty2",
-"K-fraktur.ssty2",
-"L-fraktur.ssty2",
-"M-fraktur.ssty2",
-"N-fraktur.ssty2",
-"O-fraktur.ssty2",
-"P-fraktur.ssty2",
-"Q-fraktur.ssty2",
-"R-fraktur.ssty2",
-"S-fraktur.ssty2",
-"T-fraktur.ssty2",
-"U-fraktur.ssty2",
-"V-fraktur.ssty2",
-"W-fraktur.ssty2",
-"X-fraktur.ssty2",
-"Y-fraktur.ssty2",
-"Z-fraktur.ssty2",
-"a-fraktur.ssty",
-"b-fraktur.ssty",
-"c-fraktur.ssty",
-"d-fraktur.ssty",
-"e-fraktur.ssty",
-"f-fraktur.ssty",
-"g-fraktur.ssty",
-"h-fraktur.ssty",
-"i-fraktur.ssty",
-"j-fraktur.ssty",
-"k-fraktur.ssty",
-"l-fraktur.ssty",
-"m-fraktur.ssty",
-"n-fraktur.ssty",
-"o-fraktur.ssty",
-"p-fraktur.ssty",
-"q-fraktur.ssty",
-"r-fraktur.ssty",
-"s-fraktur.ssty",
-"t-fraktur.ssty",
-"u-fraktur.ssty",
-"v-fraktur.ssty",
-"w-fraktur.ssty",
-"x-fraktur.ssty",
-"y-fraktur.ssty",
-"z-fraktur.ssty",
-"a-fraktur.ssty2",
-"b-fraktur.ssty2",
-"c-fraktur.ssty2",
-"d-fraktur.ssty2",
-"e-fraktur.ssty2",
-"f-fraktur.ssty2",
-"g-fraktur.ssty2",
-"h-fraktur.ssty2",
-"i-fraktur.ssty2",
-"j-fraktur.ssty2",
-"k-fraktur.ssty2",
-"l-fraktur.ssty2",
-"m-fraktur.ssty2",
-"n-fraktur.ssty2",
-"o-fraktur.ssty2",
-"p-fraktur.ssty2",
-"q-fraktur.ssty2",
-"r-fraktur.ssty2",
-"s-fraktur.ssty2",
-"t-fraktur.ssty2",
-"u-fraktur.ssty2",
-"v-fraktur.ssty2",
-"w-fraktur.ssty2",
-"x-fraktur.ssty2",
-"y-fraktur.ssty2",
-"z-fraktur.ssty2",
-"i-fraktur.dotless.ssty",
-"j-fraktur.dotless.ssty",
-"i-fraktur.dotless.ssty2",
-"j-fraktur.dotless.ssty2",
-"Abold-math.ssty",
-"Aitalic-math.ssty",
-"Ascript-math.ssty",
-"Bbold-math.ssty",
-"Bitalic-math.ssty",
-"Cbold-math.ssty",
-"Citalic-math.ssty",
-"Cscript-math.ssty",
-"Dbold-math.ssty",
-"Ditalic-math.ssty",
-"Dscript-math.ssty",
-"Ebold-math.ssty",
-"Eitalic-math.ssty",
-"Fbold-math.ssty",
-"Fitalic-math.ssty",
-"Gbold-math.ssty",
-"Gitalic-math.ssty",
-"Gscript-math.ssty",
-"Hbold-math.ssty",
-"Hitalic-math.ssty",
-"Ibold-math.ssty",
-"Iitalic-math.ssty",
-"Jbold-math.ssty",
-"Jitalic-math.ssty",
-"Jscript-math.ssty",
-"Kbold-math.ssty",
-"Kitalic-math.ssty",
-"Kscript-math.ssty",
-"Lbold-math.ssty",
-"Litalic-math.ssty",
-"Mbold-math.ssty",
-"Mitalic-math.ssty",
-"Nbold-math.ssty",
-"Nitalic-math.ssty",
-"Nscript-math.ssty",
-"Obold-math.ssty",
-"Oitalic-math.ssty",
-"Oscript-math.ssty",
-"Pbold-math.ssty",
-"Pitalic-math.ssty",
-"Pscript-math.ssty",
-"Qbold-math.ssty",
-"Qitalic-math.ssty",
-"Qscript-math.ssty",
-"Rbold-math.ssty",
-"Ritalic-math.ssty",
-"Sbold-math.ssty",
-"Sitalic-math.ssty",
-"Sscript-math.ssty",
-"Tbold-math.ssty",
-"Titalic-math.ssty",
-"Tscript-math.ssty",
-"Ubold-math.ssty",
-"Uitalic-math.ssty",
-"Uscript-math.ssty",
-"Vbold-math.ssty",
-"Vitalic-math.ssty",
-"Vscript-math.ssty",
-"Wbold-math.ssty",
-"Witalic-math.ssty",
-"Wscript-math.ssty",
-"Xbold-math.ssty",
-"Xitalic-math.ssty",
-"Xscript-math.ssty",
-"Ybold-math.ssty",
-"Yitalic-math.ssty",
-"Yscript-math.ssty",
-"Zbold-math.ssty",
-"Zitalic-math.ssty",
-"Zscript-math.ssty",
-"Abold-math.ssty2",
-"Aitalic-math.ssty2",
-"Ascript-math.ssty2",
-"Bbold-math.ssty2",
-"Bitalic-math.ssty2",
-"Cbold-math.ssty2",
-"Citalic-math.ssty2",
-"Cscript-math.ssty2",
-"Dbold-math.ssty2",
-"Ditalic-math.ssty2",
-"Dscript-math.ssty2",
-"Ebold-math.ssty2",
-"Eitalic-math.ssty2",
-"Fbold-math.ssty2",
-"Fitalic-math.ssty2",
-"Gbold-math.ssty2",
-"Gitalic-math.ssty2",
-"Gscript-math.ssty2",
-"Hbold-math.ssty2",
-"Hitalic-math.ssty2",
-"Ibold-math.ssty2",
-"Iitalic-math.ssty2",
-"Jbold-math.ssty2",
-"Jitalic-math.ssty2",
-"Jscript-math.ssty2",
-"Kbold-math.ssty2",
-"Kitalic-math.ssty2",
-"Kscript-math.ssty2",
-"Lbold-math.ssty2",
-"Litalic-math.ssty2",
-"Mbold-math.ssty2",
-"Mitalic-math.ssty2",
-"Nbold-math.ssty2",
-"Nitalic-math.ssty2",
-"Nscript-math.ssty2",
-"Obold-math.ssty2",
-"Oitalic-math.ssty2",
-"Oscript-math.ssty2",
-"Pbold-math.ssty2",
-"Pitalic-math.ssty2",
-"Pscript-math.ssty2",
-"Qbold-math.ssty2",
-"Qitalic-math.ssty2",
-"Qscript-math.ssty2",
-"Rbold-math.ssty2",
-"Ritalic-math.ssty2",
-"Sbold-math.ssty2",
-"Sitalic-math.ssty2",
-"Sscript-math.ssty2",
-"Tbold-math.ssty2",
-"Titalic-math.ssty2",
-"Tscript-math.ssty2",
-"Ubold-math.ssty2",
-"Uitalic-math.ssty2",
-"Uscript-math.ssty2",
-"Vbold-math.ssty2",
-"Vitalic-math.ssty2",
-"Vscript-math.ssty2",
-"Wbold-math.ssty2",
-"Witalic-math.ssty2",
-"Wscript-math.ssty2",
-"Xbold-math.ssty2",
-"Xitalic-math.ssty2",
-"Xscript-math.ssty2",
-"Ybold-math.ssty2",
-"Yitalic-math.ssty2",
-"Yscript-math.ssty2",
-"Zbold-math.ssty2",
-"Zitalic-math.ssty2",
-"Zscript-math.ssty2",
-"Ascript-math.ssty.ss01",
-"Cscript-math.ssty.ss01",
-"Dscript-math.ssty.ss01",
-"Gscript-math.ssty.ss01",
-"Jscript-math.ssty.ss01",
-"Kscript-math.ssty.ss01",
-"Nscript-math.ssty.ss01",
-"Oscript-math.ssty.ss01",
-"Pscript-math.ssty.ss01",
-"Qscript-math.ssty.ss01",
-"Sscript-math.ssty.ss01",
-"Tscript-math.ssty.ss01",
-"Uscript-math.ssty.ss01",
-"Vscript-math.ssty.ss01",
-"Wscript-math.ssty.ss01",
-"Xscript-math.ssty.ss01",
-"Yscript-math.ssty.ss01",
-"Zscript-math.ssty.ss01",
-"Ascript-math.ssty2.ss01",
-"Cscript-math.ssty2.ss01",
-"Dscript-math.ssty2.ss01",
-"Gscript-math.ssty2.ss01",
-"Jscript-math.ssty2.ss01",
-"Kscript-math.ssty2.ss01",
-"Nscript-math.ssty2.ss01",
-"Oscript-math.ssty2.ss01",
-"Pscript-math.ssty2.ss01",
-"Qscript-math.ssty2.ss01",
-"Sscript-math.ssty2.ss01",
-"Tscript-math.ssty2.ss01",
-"Uscript-math.ssty2.ss01",
-"Vscript-math.ssty2.ss01",
-"Wscript-math.ssty2.ss01",
-"Xscript-math.ssty2.ss01",
-"Yscript-math.ssty2.ss01",
-"Zscript-math.ssty2.ss01",
-"abold-math.ssty",
-"aitalic-math.ssty",
-"ascript-math.ssty",
-"bbold-math.ssty",
-"bitalic-math.ssty",
-"bscript-math.ssty",
-"cbold-math.ssty",
-"citalic-math.ssty",
-"cscript-math.ssty",
-"dbold-math.ssty",
-"ditalic-math.ssty",
-"dscript-math.ssty",
-"ebold-math.ssty",
-"eitalic-math.ssty",
-"fbold-math.ssty",
-"fitalic-math.ssty",
-"fscript-math.ssty",
-"gbold-math.ssty",
-"gitalic-math.ssty",
-"hbold-math.ssty",
-"hscript-math.ssty",
-"ibold-math.ssty",
-"iitalic-math.ssty",
-"iscript-math.ssty",
-"jbold-math.ssty",
-"jitalic-math.ssty",
-"jscript-math.ssty",
-"kbold-math.ssty",
-"kitalic-math.ssty",
-"kscript-math.ssty",
-"lbold-math.ssty",
-"litalic-math.ssty",
-"lscript-math.ssty",
-"mbold-math.ssty",
-"mitalic-math.ssty",
-"mscript-math.ssty",
-"nbold-math.ssty",
-"nitalic-math.ssty",
-"nscript-math.ssty",
-"obold-math.ssty",
-"oitalic-math.ssty",
-"pbold-math.ssty",
-"pitalic-math.ssty",
-"pscript-math.ssty",
-"qbold-math.ssty",
-"qitalic-math.ssty",
-"qscript-math.ssty",
-"rbold-math.ssty",
-"ritalic-math.ssty",
-"rscript-math.ssty",
-"sbold-math.ssty",
-"sitalic-math.ssty",
-"sscript-math.ssty",
-"tbold-math.ssty",
-"titalic-math.ssty",
-"tscript-math.ssty",
-"ubold-math.ssty",
-"uscript-math.ssty",
-"vbold-math.ssty",
-"vitalic-math.ssty",
-"vscript-math.ssty",
-"wbold-math.ssty",
-"witalic-math.ssty",
-"wscript-math.ssty",
-"xbold-math.ssty",
-"xitalic-math.ssty",
-"xscript-math.ssty",
-"ybold-math.ssty",
-"yitalic-math.ssty",
-"yscript-math.ssty",
-"zbold-math.ssty",
-"zitalic-math.ssty",
-"zscript-math.ssty",
-"abold-math.ssty2",
-"aitalic-math.ssty2",
-"ascript-math.ssty2",
-"bbold-math.ssty2",
-"bitalic-math.ssty2",
-"bscript-math.ssty2",
-"cbold-math.ssty2",
-"citalic-math.ssty2",
-"cscript-math.ssty2",
-"dbold-math.ssty2",
-"ditalic-math.ssty2",
-"dscript-math.ssty2",
-"ebold-math.ssty2",
-"eitalic-math.ssty2",
-"fbold-math.ssty2",
-"fitalic-math.ssty2",
-"fscript-math.ssty2",
-"gbold-math.ssty2",
-"gitalic-math.ssty2",
-"hbold-math.ssty2",
-"hscript-math.ssty2",
-"ibold-math.ssty2",
-"iitalic-math.ssty2",
-"iscript-math.ssty2",
-"jbold-math.ssty2",
-"jitalic-math.ssty2",
-"jscript-math.ssty2",
-"kbold-math.ssty2",
-"kitalic-math.ssty2",
-"kscript-math.ssty2",
-"lbold-math.ssty2",
-"litalic-math.ssty2",
-"lscript-math.ssty2",
-"mbold-math.ssty2",
-"mitalic-math.ssty2",
-"mscript-math.ssty2",
-"nbold-math.ssty2",
-"nitalic-math.ssty2",
-"nscript-math.ssty2",
-"obold-math.ssty2",
-"oitalic-math.ssty2",
-"pbold-math.ssty2",
-"pitalic-math.ssty2",
-"pscript-math.ssty2",
-"qbold-math.ssty2",
-"qitalic-math.ssty2",
-"qscript-math.ssty2",
-"rbold-math.ssty2",
-"ritalic-math.ssty2",
-"rscript-math.ssty2",
-"sbold-math.ssty2",
-"sitalic-math.ssty2",
-"sscript-math.ssty2",
-"tbold-math.ssty2",
-"titalic-math.ssty2",
-"tscript-math.ssty2",
-"ubold-math.ssty2",
-"uitalic-math.ssty2",
-"uscript-math.ssty2",
-"vbold-math.ssty2",
-"vitalic-math.ssty2",
-"vscript-math.ssty2",
-"wbold-math.ssty2",
-"witalic-math.ssty2",
-"wscript-math.ssty2",
-"xbold-math.ssty2",
-"xitalic-math.ssty2",
-"xscript-math.ssty2",
-"ybold-math.ssty2",
-"yitalic-math.ssty2",
-"yscript-math.ssty2",
-"zbold-math.ssty2",
-"zitalic-math.ssty2",
-"zscript-math.ssty2",
-"ascript-math.ssty.ss01",
-"bscript-math.ssty.ss01",
-"cscript-math.ssty.ss01",
-"dscript-math.ssty.ss01",
-"fscript-math.ssty.ss01",
-"hscript-math.ssty.ss01",
-"iscript-math.ssty.ss01",
-"jscript-math.ssty.ss01",
-"kscript-math.ssty.ss01",
-"lscript-math.ssty.ss01",
-"mscript-math.ssty.ss01",
-"nscript-math.ssty.ss01",
-"pscript-math.ssty.ss01",
-"qscript-math.ssty.ss01",
-"rscript-math.ssty.ss01",
-"sscript-math.ssty.ss01",
-"tscript-math.ssty.ss01",
-"uscript-math.ssty.ss01",
-"vscript-math.ssty.ss01",
-"wscript-math.ssty.ss01",
-"xscript-math.ssty.ss01",
-"yscript-math.ssty.ss01",
-"zscript-math.ssty.ss01",
-"ascript-math.ssty2.ss01",
-"bscript-math.ssty2.ss01",
-"cscript-math.ssty2.ss01",
-"dscript-math.ssty2.ss01",
-"fscript-math.ssty2.ss01",
-"hscript-math.ssty2.ss01",
-"iscript-math.ssty2.ss01",
-"jscript-math.ssty2.ss01",
-"kscript-math.ssty2.ss01",
-"lscript-math.ssty2.ss01",
-"mscript-math.ssty2.ss01",
-"nscript-math.ssty2.ss01",
-"pscript-math.ssty2.ss01",
-"qscript-math.ssty2.ss01",
-"rscript-math.ssty2.ss01",
-"sscript-math.ssty2.ss01",
-"tscript-math.ssty2.ss01",
-"uscript-math.ssty2.ss01",
-"vscript-math.ssty2.ss01",
-"wscript-math.ssty2.ss01",
-"xscript-math.ssty2.ss01",
-"yscript-math.ssty2.ss01",
-"zscript-math.ssty2.ss01",
-"gitalic-math.alt.ssty",
-"vitalic-math.alt.ssty",
-"witalic-math.alt.ssty",
-"zitalic-math.alt.ssty",
-"ibold-math.dotless.ssty",
-"iitalic-math.dotless.ssty",
-"iscript-math.dotless.ssty",
-"jbold-math.dotless.ssty",
-"jitalic-math.dotless.ssty",
-"jscript-math.dotless.ssty",
-"gitalic-math.alt.ssty2",
-"uitalic-math.alt.ssty2",
-"vitalic-math.alt.ssty2",
-"witalic-math.alt.ssty2",
-"zitalic-math.alt.ssty2",
-"ibold-math.dotless.ssty2",
-"iitalic-math.dotless.ssty2",
-"iscript-math.dotless.ssty2",
-"jbold-math.dotless.ssty2",
-"jitalic-math.dotless.ssty2",
-"jscript-math.dotless.ssty2",
-"iscript-math.dotless.ssty.ss01",
-"jscript-math.dotless.ssty.ss01",
-"iscript-math.dotless.ssty2.ss01",
-"jscript-math.dotless.ssty2.ss01",
-Bscript.ssty,
-Hscript.ssty,
-Iscript.ssty,
-Lscript.ssty,
-Rscript.ssty,
-AdoubleStruck.ssty,
-BdoubleStruck.ssty,
-CdoubleStruck.ssty,
-DdoubleStruck.ssty,
-EdoubleStruck.ssty,
-FdoubleStruck.ssty,
-GdoubleStruck.ssty,
-HdoubleStruck.ssty,
-IdoubleStruck.ssty,
-JdoubleStruck.ssty,
-KdoubleStruck.ssty,
-LdoubleStruck.ssty,
-MdoubleStruck.ssty,
-NdoubleStruck.ssty,
-OdoubleStruck.ssty,
-PdoubleStruck.ssty,
-QdoubleStruck.ssty,
-RdoubleStruck.ssty,
-SdoubleStruck.ssty,
-TdoubleStruck.ssty,
-UdoubleStruck.ssty,
-VdoubleStruck.ssty,
-WdoubleStruck.ssty,
-XdoubleStruck.ssty,
-YdoubleStruck.ssty,
-ZdoubleStruck.ssty,
-Escript.ssty,
-Fscript.ssty,
-Mscript.ssty,
-Bscript.ssty2,
-Hscript.ssty2,
-Iscript.ssty2,
-Lscript.ssty2,
-Rscript.ssty2,
-AdoubleStruck.ssty2,
-BdoubleStruck.ssty2,
-CdoubleStruck.ssty2,
-DdoubleStruck.ssty2,
-EdoubleStruck.ssty2,
-FdoubleStruck.ssty2,
-GdoubleStruck.ssty2,
-HdoubleStruck.ssty2,
-IdoubleStruck.ssty2,
-JdoubleStruck.ssty2,
-KdoubleStruck.ssty2,
-LdoubleStruck.ssty2,
-MdoubleStruck.ssty2,
-NdoubleStruck.ssty2,
-OdoubleStruck.ssty2,
-PdoubleStruck.ssty2,
-QdoubleStruck.ssty2,
-RdoubleStruck.ssty2,
-SdoubleStruck.ssty2,
-TdoubleStruck.ssty2,
-UdoubleStruck.ssty2,
-VdoubleStruck.ssty2,
-WdoubleStruck.ssty2,
-XdoubleStruck.ssty2,
-YdoubleStruck.ssty2,
-ZdoubleStruck.ssty2,
-Escript.ssty2,
-Fscript.ssty2,
-Mscript.ssty2,
-Bscript.ssty.ss01,
-Hscript.ssty.ss01,
-Iscript.ssty.ss01,
-Lscript.ssty.ss01,
-Rscript.ssty.ss01,
-Escript.ssty.ss01,
-Fscript.ssty.ss01,
-Mscript.ssty.ss01,
-Bscript.ssty2.ss01,
-Hscript.ssty2.ss01,
-Iscript.ssty2.ss01,
-Lscript.ssty2.ss01,
-Rscript.ssty2.ss01,
-Escript.ssty2.ss01,
-Fscript.ssty2.ss01,
-Mscript.ssty2.ss01,
-adoubleStruck.ssty,
-bdoubleStruck.ssty,
-cdoubleStruck.ssty,
-ddoubleStruck.ssty,
-edoubleStruck.ssty,
-fdoubleStruck.ssty,
-gdoubleStruck.ssty,
-hdoubleStruck.ssty,
-idoubleStruck.ssty,
-jdoubleStruck.ssty,
-kdoubleStruck.ssty,
-ldoubleStruck.ssty,
-mdoubleStruck.ssty,
-ndoubleStruck.ssty,
-odoubleStruck.ssty,
-pdoubleStruck.ssty,
-qdoubleStruck.ssty,
-rdoubleStruck.ssty,
-sdoubleStruck.ssty,
-tdoubleStruck.ssty,
-udoubleStruck.ssty,
-vdoubleStruck.ssty,
-wdoubleStruck.ssty,
-xdoubleStruck.ssty,
-ydoubleStruck.ssty,
-zdoubleStruck.ssty,
-gscript.ssty,
-planckconstant.ssty,
-planckconstantovertwopi.ssty,
-escript.ssty,
-oscript.ssty,
-adoubleStruck.ssty2,
-bdoubleStruck.ssty2,
-cdoubleStruck.ssty2,
-ddoubleStruck.ssty2,
-edoubleStruck.ssty2,
-fdoubleStruck.ssty2,
-gdoubleStruck.ssty2,
-hdoubleStruck.ssty2,
-idoubleStruck.ssty2,
-jdoubleStruck.ssty2,
-kdoubleStruck.ssty2,
-ldoubleStruck.ssty2,
-mdoubleStruck.ssty2,
-ndoubleStruck.ssty2,
-odoubleStruck.ssty2,
-pdoubleStruck.ssty2,
-qdoubleStruck.ssty2,
-rdoubleStruck.ssty2,
-sdoubleStruck.ssty2,
-tdoubleStruck.ssty2,
-udoubleStruck.ssty2,
-vdoubleStruck.ssty2,
-wdoubleStruck.ssty2,
-xdoubleStruck.ssty2,
-ydoubleStruck.ssty2,
-zdoubleStruck.ssty2,
-gscript.ssty2,
-planckconstant.ssty2,
-planckconstantovertwopi.ssty2,
-escript.ssty2,
-oscript.ssty2,
-gscript.ssty.ss01,
-escript.ssty.ss01,
-oscript.ssty.ss01,
-gscript.ssty2.ss01,
-escript.ssty2.ss01,
-oscript.ssty2.ss01,
-idoubleStruck.dotless.ssty,
-jdoubleStruck.dotless.ssty,
-idoubleStruck.dotless.ssty2,
-jdoubleStruck.dotless.ssty2,
-aeTurnedmod.ssty,
-aeTurnedmod.alt.ssty,
-"leftanglebracket-math.ssty",
-"rightanglebracket-math.ssty",
-"leftanglebracket-math.ssty2",
-"rightanglebracket-math.ssty2",
-doubleprimeReversed.ssty,
-primeReversed.ssty,
-quadrupleprime.ssty,
-tripleprime.ssty,
-tripleprimeReversed.ssty,
-doubleprimeReversed.ssty2,
-primeReversed.ssty2,
-quadrupleprime.ssty2,
-tripleprime.ssty2,
-tripleprimeReversed.ssty2,
-"natural-musical.ssty",
-"sharp-musical.ssty",
-"natural-musical.ssty2",
-"sharp-musical.ssty2",
-literSign.ssty,
-literSign.ssty2,
-asteriskmath.ssty,
-bulletoperator.ssty,
-dotmath.ssty,
-element.ssty,
-greaterThanOrSlantedEqualTo.ssty,
-lessThanOrSlantedEqualTo.ssty,
-midlinehorizontalellipsis.ssty,
-minusplus.ssty,
-notequal.ssty,
-greaterequal.ssty,
-lessequal.ssty,
-emptyset.ssty,
-infinity.ssty,
-logicaland.ssty,
-logicalor.ssty,
-intersection.ssty,
-union.ssty,
-integral.ssty,
-summation.ssty,
-radical.ssty,
-partialdiff.ssty,
-ringoperator.ssty,
-setminus.ssty,
-similar.ssty,
-staroperator.ssty,
-subset.ssty,
-suchthat.ssty,
-superset.ssty,
-uptack.ssty,
-asteriskmath.ssty2,
-bulletoperator.ssty2,
-dotmath.ssty2,
-element.ssty2,
-greaterThanOrSlantedEqualTo.ssty2,
-lessThanOrSlantedEqualTo.ssty2,
-midlinehorizontalellipsis.ssty2,
-minusplus.ssty2,
-notequal.ssty2,
-greaterequal.ssty2,
-lessequal.ssty2,
-emptyset.ssty2,
-infinity.ssty2,
-logicaland.ssty2,
-logicalor.ssty2,
-intersection.ssty2,
-union.ssty2,
-integral.ssty2,
-summation.ssty2,
-radical.ssty2,
-partialdiff.ssty2,
-ringoperator.ssty2,
-setminus.ssty2,
-similar.ssty2,
-staroperator.ssty2,
-subset.ssty2,
-suchthat.ssty2,
-superset.ssty2,
-uptack.ssty2,
-multiply.circled.ssty,
-plus.circled.ssty,
-intersection.var.ssty,
-union.var.ssty,
-setminus.var.ssty,
-multiply.circled.ssty2,
-plus.circled.ssty2,
-intersection.var.ssty2,
-union.var.ssty2,
-setminus.var.ssty2,
-upArrow.ssty,
-rightArrow.ssty,
-downArrow.ssty,
-leftArrow.ssty,
-upArrow.ssty2,
-rightArrow.ssty2,
-downArrow.ssty2,
-leftArrow.ssty2,
-rightarrowabovecomb.ssty,
-rightarrowabovecomb.ssty2
-);
-},
-{
-name = codePageRanges;
-value = (
-"1252"
-);
-},
-{
-name = openTypeOS2Selection;
-value = (
-8
-);
-},
-{
 name = fsType;
 value = (
 );
-},
-{
-name = unicodeRanges;
-value = (
-0,
-1,
-6,
-7,
-31,
-34,
-35,
-37,
-38,
-39,
-42,
-45,
-46,
-57,
-68,
-89
-);
-},
-{
-name = "Guides Palette Config";
-value = {
-showAngle = 1;
-showCoordinates = 1;
-sortBy = "";
-tagPrefix = guide_;
-};
 },
 {
 name = "Write DisplayStrings";
@@ -4209,18 +148,22 @@ date = "2023-02-15 06:20:46 +0000";
 familyName = "Noto Sans Math";
 featurePrefixes = (
 {
+automatic = 1;
 code = "languagesystem DFLT dflt;
+
+languagesystem math dflt;
 ";
 name = Languagesystems;
 }
 );
 features = (
 {
-code = "feature fwid;
-feature rtla;
+automatic = 1;
+code = "feature rtlm;
 feature ss01;
 feature dtls;
 feature ssty;
+feature fwid;
 ";
 tag = aalt;
 },
@@ -4235,36 +178,66 @@ tag = ccmp;
 },
 {
 automatic = 1;
-code = "sub space by emspace;
-sub braceleft by braceleft.full;
-sub braceright by braceright.full;
-";
-tag = fwid;
-},
-{
-code = "sub acuteAngle by acuteAngle.rtlm;
+code = "sub partialdiff by partialdiff.rtlm;
+sub partialdiffitalic-math by partialdiffitalic-math.rtlm;
+sub partialdiffsansbold-math by partialdiffsansbold-math.rtlm;
+sub partialdiffsansbolditalic-math by partialdiffsansbolditalic-math.rtlm;
+sub risingDiagonal-math by risingDiagonal-math.rtlm;
+sub fallingDiagonal-math by fallingDiagonal-math.rtlm;
+sub integral by integral.rtlm;
+sub dblintegral by dblintegral.rtlm;
+sub tripleintegral by tripleintegral.rtlm;
+sub quadrupleintegral by quadrupleintegral.rtlm;
+sub contourintegral by contourintegral.rtlm;
+sub surfaceintegral by surfaceintegral.rtlm;
+sub volumeintegral by volumeintegral.rtlm;
+sub clockwiseintegral by clockwiseintegral.rtlm;
+sub clockwisecontourintegral by clockwisecontourintegral.rtlm;
+sub anticlockwisecontourintegral by anticlockwisecontourintegral.rtlm;
+sub finitePartIntegral by finitePartIntegral.rtlm;
+sub doublestrokeintegral by doublestrokeintegral.rtlm;
+sub slashintegral by slashintegral.rtlm;
+sub circulationfunction by circulationfunction.rtlm;
+sub anticlockwiseintegral by anticlockwiseintegral.rtlm;
+sub rectangularlineintegral by rectangularlineintegral.rtlm;
+sub semicircularlineintegral by semicircularlineintegral.rtlm;
+sub nopolelineintegral by nopolelineintegral.rtlm;
+sub pointoperatorintegral by pointoperatorintegral.rtlm;
+sub quaternionintegral by quaternionintegral.rtlm;
+sub leftarrowhookintegral by leftarrowhookintegral.rtlm;
+sub timesintegral by timesintegral.rtlm;
+sub intersectionintegral by intersectionintegral.rtlm;
+sub unionintegral by unionintegral.rtlm;
+sub overbarintegral by overbarintegral.rtlm;
+sub underbarintegral by underbarintegral.rtlm;
+sub summation by summation.rtlm;
+sub moduloTwoSum by moduloTwoSum.rtlm;
+sub summationintegral by summationintegral.rtlm;
+sub summationdoubleStruck by summationdoubleStruck.rtlm;
+sub largeLeftTriangleOperator by largeLeftTriangleOperator.rtlm;
+sub zNotationSchemaComposition by zNotationSchemaComposition.rtlm;
+sub zNotationSchemaPiping by zNotationSchemaPiping.rtlm;
+sub integral.b by integral.b.rtlm;
+sub integral.t by integral.t.rtlm;
+sub integral.x by integral.x.rtlm;
+sub radical by radical.rtlm;
+sub cuberoot by cuberoot.rtlm;
+sub fourthroot by fourthroot.rtlm;
+sub longDivision by longDivision.rtlm;
+sub acuteAngle by acuteAngle.rtlm;
 sub allequal by allequal.rtlm;
 sub almostEqualToWithCircumflexAccent by almostEqualToWithCircumflexAccent.rtlm;
 sub almostequalorequalto by almostequalorequalto.rtlm;
 sub angle by angle.rtlm;
 sub angleWithSInside by angleWithSInside.rtlm;
 sub angleWithUnderbar by angleWithUnderbar.rtlm;
-sub anticlockwiseIntegration by anticlockwiseIntegration.rtlm;
-sub anticlockwisecontourintegral by anticlockwisecontourintegral.rtlm;
-sub approxequal by approxequal.rtlm;
 sub approximatelyEqualOrEqualTo by approximatelyEqualOrEqualTo.rtlm;
 sub approximatelybutnotactuallyequalto by approximatelybutnotactuallyequalto.rtlm;
 sub circleSmallCircleRight by circleSmallCircleRight.rtlm;
 sub circleTwoHorizontalStrokesRight by circleTwoHorizontalStrokesRight.rtlm;
-sub circulationFunction by circulationFunction.rtlm;
-sub clockwisecontourintegral by clockwisecontourintegral.rtlm;
-sub clockwiseintegral by clockwiseintegral.rtlm;
 sub complement by complement.rtlm;
 sub congruent by congruent.rtlm;
 sub congruentWithDotAbove by congruentWithDotAbove.rtlm;
-sub contourintegral by contourintegral.rtlm;
-sub cuberoot by cuberoot.rtlm;
-sub dblintegral by dblintegral.rtlm;
 sub doesNotDivideWithReversedNegationSlash by doesNotDivideWithReversedNegationSlash.rtlm;
 sub doesnotdivide by doesnotdivide.rtlm;
 sub doesnotforce by doesnotforce.rtlm;
@@ -4282,10 +255,7 @@ sub equalsSignAndSlantedParallel by equalsSignAndSlantedParallel.rtlm;
 sub equalsSignAndSlantedParallelWithTildeAbove by equalsSignAndSlantedParallelWithTildeAbove.rtlm;
 sub excess by excess.rtlm;
 sub existential by existential.rtlm;
-sub fallingDiagonal-math by fallingDiagonal-math.rtlm;
-sub finitePartIntegral by finitePartIntegral.rtlm;
 sub forking by forking.rtlm;
-sub fourthroot by fourthroot.rtlm;
 sub greaterThanAboveSimilarAboveLessThan by greaterThanAboveSimilarAboveLessThan.rtlm;
 sub greaterThanAboveSimilarOrEqual by greaterThanAboveSimilarOrEqual.rtlm;
 sub greaterThanAndNotApproximate by greaterThanAndNotApproximate.rtlm;
@@ -4296,20 +266,7 @@ sub homothetic by homothetic.rtlm;
 sub identicalToAndSlantedParallel by identicalToAndSlantedParallel.rtlm;
 sub incompleteInfinity by incompleteInfinity.rtlm;
 sub increasesAs by increasesAs.rtlm;
-sub integral by integral.rtlm;
-sub integralAroundAPointOperator by integralAroundAPointOperator.rtlm;
-sub integralAverageWithSlash by integralAverageWithSlash.rtlm;
-sub integralWithDoubleStroke by integralWithDoubleStroke.rtlm;
-sub integralWithIntersection by integralWithIntersection.rtlm;
-sub integralWithLeftArrowWithHook by integralWithLeftArrowWithHook.rtlm;
-sub integralWithOverbar by integralWithOverbar.rtlm;
-sub integralWithTimesSign by integralWithTimesSign.rtlm;
-sub integralWithUnderbar by integralWithUnderbar.rtlm;
-sub integralWithUnion by integralWithUnion.rtlm;
-sub integralbt by integralbt.rtlm;
-sub integraltp by integraltp.rtlm;
 sub invertedlazys by invertedlazys.rtlm;
-sub largeLeftTriangleOperator by largeLeftTriangleOperator.rtlm;
 sub leftMultimap by leftMultimap.rtlm;
 sub lessThanAboveSimilarAboveGreaterThan by lessThanAboveSimilarAboveGreaterThan.rtlm;
 sub lessThanAboveSimilarOrEqual by lessThanAboveSimilarOrEqual.rtlm;
@@ -4318,11 +275,7 @@ sub lessThanAndSingleLineNotEqualTo by lessThanAndSingleLineNotEqualTo.rtlm;
 sub lessThanOrApproximate by lessThanOrApproximate.rtlm;
 sub lessThanWithQuestionMarkAbove by lessThanWithQuestionMarkAbove.rtlm;
 sub lessorequivalent by lessorequivalent.rtlm;
-sub lineIntegrationNotIncludingThePole by lineIntegrationNotIncludingThePole.rtlm;
-sub lineIntegrationWithRectangularPathAroundPole by lineIntegrationWithRectangularPathAroundPole.rtlm;
-sub lineIntegrationWithSemicircularPathAroundPole by lineIntegrationWithSemicircularPathAroundPole.rtlm;
 sub longDashFromLeftMemberOfDoubleVertical by longDashFromLeftMemberOfDoubleVertical.rtlm;
-sub longDivision by longDivision.rtlm;
 sub lowerRightCornerWithDot by lowerRightCornerWithDot.rtlm;
 sub measuredAngleOpeningLeft by measuredAngleOpeningLeft.rtlm;
 sub measuredAngleWithOpenArmEndingInArrowPointingDownAndLeft by measuredAngleWithOpenArmEndingInArrowPointingDownAndLeft.rtlm;
@@ -4338,23 +291,21 @@ sub measuredangle by measuredangle.rtlm;
 sub minusSignWithCommaAbove by minusSignWithCommaAbove.rtlm;
 sub minustilde by minustilde.rtlm;
 sub models by models.rtlm;
-sub moduloTwoSum by moduloTwoSum.rtlm;
 sub multimap by multimap.rtlm;
 sub multiset by multiset.rtlm;
 sub negateddoubleverticalbardoublerightturnstile by negateddoubleverticalbardoublerightturnstile.rtlm;
 sub neitherapproximatelynoractuallyequalto by neitherapproximatelynoractuallyequalto.rtlm;
 sub notalmostequalto by notalmostequalto.rtlm;
 sub notasymptoticallyequalto by notasymptoticallyequalto.rtlm;
-sub notequal by notequal.rtlm;
 sub notidentical by notidentical.rtlm;
 sub notparallel by notparallel.rtlm;
 sub notsimilar by notsimilar.rtlm;
 sub nottrue by nottrue.rtlm;
 sub obliqueAngleOpeningDown by obliqueAngleOpeningDown.rtlm;
 sub obliqueAngleOpeningUp by obliqueAngleOpeningUp.rtlm;
-sub orthogonal by orthogonal.rtlm;
+sub notequal by notequal.rtlm;
+sub approxequal by approxequal.rtlm;
 sub parallelWithTildeOperator by parallelWithTildeOperator.rtlm;
-sub partialdiff by partialdiff.rtlm;
 sub plusSignWithTildeAbove by plusSignWithTildeAbove.rtlm;
 sub plusSignWithTildeBelow by plusSignWithTildeBelow.rtlm;
 sub precedesAboveAlmostEqualTo by precedesAboveAlmostEqualTo.rtlm;
@@ -4362,10 +313,7 @@ sub precedesAboveNotAlmostEqualTo by precedesAboveNotAlmostEqualTo.rtlm;
 sub precedesAboveNotEqualTo by precedesAboveNotEqualTo.rtlm;
 sub precedesAboveSingleLineNotEqualTo by precedesAboveSingleLineNotEqualTo.rtlm;
 sub proportional by proportional.rtlm;
-sub quadrupleIntegralOperator by quadrupleIntegralOperator.rtlm;
-sub quaternionIntegralOperator by quaternionIntegralOperator.rtlm;
 sub questionedequalto by questionedequalto.rtlm;
-sub radical by radical.rtlm;
 sub reverseSolidusWithHorizontalStroke by reverseSolidusWithHorizontalStroke.rtlm;
 sub reversedAngle by reversedAngle.rtlm;
 sub reversedAngleWithUnderbar by reversedAngleWithUnderbar.rtlm;
@@ -4373,7 +321,6 @@ sub rightAngleVariantWithSquare by rightAngleVariantWithSquare.rtlm;
 sub rightTriangleAboveLeftTriangle by rightTriangleAboveLeftTriangle.rtlm;
 sub rightanglearc by rightanglearc.rtlm;
 sub righttriangle by righttriangle.rtlm;
-sub risingDiagonal-math by risingDiagonal-math.rtlm;
 sub ruleDelayed by ruleDelayed.rtlm;
 sub setminus by setminus.rtlm;
 sub similarAboveGreaterThanAboveEqualsSign by similarAboveGreaterThanAboveEqualsSign.rtlm;
@@ -4394,39 +341,27 @@ sub succeedsAboveAlmostEqualTo by succeedsAboveAlmostEqualTo.rtlm;
 sub succeedsAboveNotAlmostEqualTo by succeedsAboveNotAlmostEqualTo.rtlm;
 sub succeedsAboveNotEqualTo by succeedsAboveNotEqualTo.rtlm;
 sub succeedsAboveSingleLineNotEqualTo by succeedsAboveSingleLineNotEqualTo.rtlm;
-sub summation by summation.rtlm;
-sub summationWithIntegral by summationWithIntegral.rtlm;
-sub summationdoubleStruck by summationdoubleStruck.rtlm;
 sub supersetOfAboveAlmostEqualTo by supersetOfAboveAlmostEqualTo.rtlm;
 sub supersetOfAboveNotEqualTo by supersetOfAboveNotEqualTo.rtlm;
 sub supersetOfAboveTildeOperator by supersetOfAboveTildeOperator.rtlm;
-sub surfaceintegral by surfaceintegral.rtlm;
 sub theredoesnotexist by theredoesnotexist.rtlm;
 sub threeDimensionalAngle by threeDimensionalAngle.rtlm;
 sub tildeOperatorWithDotAbove by tildeOperatorWithDotAbove.rtlm;
 sub tildeOperatorWithRisingDots by tildeOperatorWithRisingDots.rtlm;
 sub tripleSolidusBinaryRelation by tripleSolidusBinaryRelation.rtlm;
-sub tripleintegral by tripleintegral.rtlm;
 sub tripletilde by tripletilde.rtlm;
 sub tripleverticalbarrightturnstile by tripleverticalbarrightturnstile.rtlm;
 sub turnedAngle by turnedAngle.rtlm;
 sub twoJoinedSquares by twoJoinedSquares.rtlm;
-sub partialdiffbold-math by partialdiffbold-math.rtlm;
-sub partialdiffitalic-math by partialdiffitalic-math.rtlm;
-sub partialdiffbolditalic-math by partialdiffbolditalic-math.rtlm;
-sub partialdiffsansbold-math by partialdiffsansbold-math.rtlm;
-sub partialdiffsansbolditalic-math by partialdiffsansbolditalic-math.rtlm;
 sub upperLeftCornerWithDot by upperLeftCornerWithDot.rtlm;
 sub verticalBarTripleRightTurnstile by verticalBarTripleRightTurnstile.rtlm;
-sub volumeintegral by volumeintegral.rtlm;
 sub wreathproduct by wreathproduct.rtlm;
 sub zNotationRelationalComposition by zNotationRelationalComposition.rtlm;
-sub zNotationSchemaComposition by zNotationSchemaComposition.rtlm;
-sub zNotationSchemaPiping by zNotationSchemaPiping.rtlm;
 sub zNotationSchemaProjection by zNotationSchemaProjection.rtlm;
 sub znotationbagmembership by znotationbagmembership.rtlm;
+sub orthogonal by orthogonal.rtlm;
 ";
-tag = rtla;
+tag = rtlm;
 },
 {
 code = "# FIXME:TODO:REVIEW: for completeness toward end of design -- make sure to update classes to match
@@ -4442,15 +377,35 @@ notes = "An alternate way to access the Chancery Style variants of the script-ma
 tag = ss01;
 },
 {
-code = "script math;
-
-sub @ij by @ijDotless;";
+automatic = 1;
+code = "sub i by idotless;
+sub j by jdotless;
+sub isansitalic-math by isansitalic-math.dtls;
+sub jsansitalic-math by jsansitalic-math.dtls;
+sub i-fraktur by i-fraktur.dtls;
+sub j-fraktur by j-fraktur.dtls;
+sub iBold-fraktur by iBold-fraktur.dtls;
+sub jBold-fraktur by jBold-fraktur.dtls;
+sub imono-math by imono-math.dtls;
+sub jmono-math by jmono-math.dtls;
+sub isansitalic-math by isansitalic-math.dtls;
+sub jsansitalic-math by jsansitalic-math.dtls;
+sub isansbold-math by isansbold-math.dtls;
+sub jsansbold-math by jsansbold-math.dtls;
+sub isansbolditalic-math by isansbolditalic-math.dtls;
+sub jsansbolditalic-math by jsansbolditalic-math.dtls;
+sub iscript-math by iscript-math.dtls;
+sub jscript-math by jscript-math.dtls;
+sub idoubleStruck by idoubleStruck.dtls;
+sub jdoubleStruck by jdoubleStruck.dtls;
+sub iitalicDoubleStruck by iitalicDoubleStruck.dtls;
+sub jitalicDoubleStruck by jitalicDoubleStruck.dtls;
+";
 tag = dtls;
 },
 {
-code = "script math;
-
-sub A from [A.ssty1 A.ssty2];
+automatic = 1;
+code = "sub A from [A.ssty1 A.ssty2];
 sub B from [B.ssty1 B.ssty2];
 sub C from [C.ssty1 C.ssty2];
 sub D from [D.ssty1 D.ssty2];
@@ -4528,12 +483,13 @@ sub Phi from [Phi.ssty1 Phi.ssty2];
 sub Chi from [Chi.ssty1 Chi.ssty2];
 sub Psi from [Psi.ssty1 Psi.ssty2];
 sub Omega from [Omega.ssty1 Omega.ssty2];
+sub Nabla from [Nabla.ssty1 Nabla.ssty2];
 sub alpha from [alpha.ssty1 alpha.ssty2];
 sub beta from [beta.ssty1 beta.ssty2];
 sub gamma from [gamma.ssty1 gamma.ssty2];
 sub delta from [delta.ssty1 delta.ssty2];
 sub epsilon from [epsilon.ssty1 epsilon.ssty2];
-sub zeta from [zeta.ssty1];
+sub zeta from [zeta.ssty1 zeta.ssty1];
 sub eta from [eta.ssty1 eta.ssty2];
 sub theta from [theta.ssty1 theta.ssty2];
 sub iota from [iota.ssty1 iota.ssty2];
@@ -4553,6 +509,7 @@ sub phi from [phi.ssty1 phi.ssty2];
 sub chi from [chi.ssty1 chi.ssty2];
 sub psi from [psi.ssty1 psi.ssty2];
 sub omega from [omega.ssty1 omega.ssty2];
+sub partialdiff from [partialdiff.ssty1 partialdiff.ssty2];
 sub A-fraktur from [A-fraktur.ssty1 A-fraktur.ssty2];
 sub B-fraktur from [B-fraktur.ssty1 B-fraktur.ssty2];
 sub C-fraktur from [C-fraktur.ssty1 C-fraktur.ssty2];
@@ -4588,7 +545,9 @@ sub f-fraktur from [f-fraktur.ssty1 f-fraktur.ssty2];
 sub g-fraktur from [g-fraktur.ssty1 g-fraktur.ssty2];
 sub h-fraktur from [h-fraktur.ssty1 h-fraktur.ssty2];
 sub i-fraktur from [i-fraktur.ssty1 i-fraktur.ssty2];
+sub i-fraktur.dtls from [i-fraktur.dtls.ssty1 i-fraktur.dtls.ssty2];
 sub j-fraktur from [j-fraktur.ssty1 j-fraktur.ssty2];
+sub j-fraktur.dtls from [j-fraktur.dtls.ssty1 j-fraktur.dtls.ssty2];
 sub k-fraktur from [k-fraktur.ssty1 k-fraktur.ssty2];
 sub l-fraktur from [l-fraktur.ssty1 l-fraktur.ssty2];
 sub m-fraktur from [m-fraktur.ssty1 m-fraktur.ssty2];
@@ -4605,219 +564,171 @@ sub w-fraktur from [w-fraktur.ssty1 w-fraktur.ssty2];
 sub x-fraktur from [x-fraktur.ssty1 x-fraktur.ssty2];
 sub y-fraktur from [y-fraktur.ssty1 y-fraktur.ssty2];
 sub z-fraktur from [z-fraktur.ssty1 z-fraktur.ssty2];
-sub i-fraktur.dotless from [i-fraktur.dotless.ssty1 i-fraktur.dotless.ssty2];
-sub j-fraktur.dotless from [j-fraktur.dotless.ssty1 j-fraktur.dotless.ssty2];
-sub Abold-math from [Abold-math.ssty1 Abold-math.ssty2];
-sub Aitalic-math from [Aitalic-math.ssty1 Aitalic-math.ssty2];
+sub Asansitalic-math from [Asansitalic-math.ssty1 Asansitalic-math.ssty2];
+sub Bsansitalic-math from [Bsansitalic-math.ssty1 Bsansitalic-math.ssty2];
+sub Csansitalic-math from [Csansitalic-math.ssty1 Csansitalic-math.ssty2];
+sub Dsansitalic-math from [Dsansitalic-math.ssty1 Dsansitalic-math.ssty2];
+sub Esansitalic-math from [Esansitalic-math.ssty1 Esansitalic-math.ssty2];
+sub Fsansitalic-math from [Fsansitalic-math.ssty1 Fsansitalic-math.ssty2];
+sub Gsansitalic-math from [Gsansitalic-math.ssty1 Gsansitalic-math.ssty2];
+sub Hsansitalic-math from [Hsansitalic-math.ssty1 Hsansitalic-math.ssty2];
+sub Isansitalic-math from [Isansitalic-math.ssty1 Isansitalic-math.ssty2];
+sub Jsansitalic-math from [Jsansitalic-math.ssty1 Jsansitalic-math.ssty2];
+sub Ksansitalic-math from [Ksansitalic-math.ssty1 Ksansitalic-math.ssty2];
+sub Lsansitalic-math from [Lsansitalic-math.ssty1 Lsansitalic-math.ssty2];
+sub Msansitalic-math from [Msansitalic-math.ssty1 Msansitalic-math.ssty2];
+sub Nsansitalic-math from [Nsansitalic-math.ssty1 Nsansitalic-math.ssty2];
+sub Osansitalic-math from [Osansitalic-math.ssty1 Osansitalic-math.ssty2];
+sub Psansitalic-math from [Psansitalic-math.ssty1 Psansitalic-math.ssty2];
+sub Qsansitalic-math from [Qsansitalic-math.ssty1 Qsansitalic-math.ssty2];
+sub Rsansitalic-math from [Rsansitalic-math.ssty1 Rsansitalic-math.ssty2];
+sub Ssansitalic-math from [Ssansitalic-math.ssty1 Ssansitalic-math.ssty2];
+sub Tsansitalic-math from [Tsansitalic-math.ssty1 Tsansitalic-math.ssty2];
+sub Usansitalic-math from [Usansitalic-math.ssty1 Usansitalic-math.ssty2];
+sub Vsansitalic-math from [Vsansitalic-math.ssty1 Vsansitalic-math.ssty2];
+sub Wsansitalic-math from [Wsansitalic-math.ssty1 Wsansitalic-math.ssty2];
+sub Xsansitalic-math from [Xsansitalic-math.ssty1 Xsansitalic-math.ssty2];
+sub Ysansitalic-math from [Ysansitalic-math.ssty1 Ysansitalic-math.ssty2];
+sub Zsansitalic-math from [Zsansitalic-math.ssty1 Zsansitalic-math.ssty2];
 sub Alphaitalic-math from [Alphaitalic-math.ssty1 Alphaitalic-math.ssty2];
-sub Ascript-math from [Ascript-math.ssty1 Ascript-math.ssty2];
-sub Bbold-math from [Bbold-math.ssty1 Bbold-math.ssty2];
 sub Betaitalic-math from [Betaitalic-math.ssty1 Betaitalic-math.ssty2];
-sub Bitalic-math from [Bitalic-math.ssty1 Bitalic-math.ssty2];
-sub Cbold-math from [Cbold-math.ssty1 Cbold-math.ssty2];
-sub Chiitalic-math from [Chiitalic-math.ssty1 Chiitalic-math.ssty2];
-sub Citalic-math from [Citalic-math.ssty1 Citalic-math.ssty2];
-sub Cscript-math from [Cscript-math.ssty1 Cscript-math.ssty2];
-sub Dbold-math from [Dbold-math.ssty1 Dbold-math.ssty2];
-sub Deltaitalic-math from [Deltaitalic-math.ssty1 Deltaitalic-math.ssty2];
-sub Ditalic-math from [Ditalic-math.ssty1 Ditalic-math.ssty2];
-sub Dscript-math from [Dscript-math.ssty1 Dscript-math.ssty2];
-sub Ebold-math from [Ebold-math.ssty1 Ebold-math.ssty2];
-sub Eitalic-math from [Eitalic-math.ssty1 Eitalic-math.ssty2];
-sub Epsilonitalic-math from [Epsilonitalic-math.ssty1 Epsilonitalic-math.ssty2];
-sub Etaitalic-math from [Etaitalic-math.ssty1 Etaitalic-math.ssty2];
-sub Fbold-math from [Fbold-math.ssty1 Fbold-math.ssty2];
-sub Fitalic-math from [Fitalic-math.ssty1 Fitalic-math.ssty2];
 sub Gammaitalic-math from [Gammaitalic-math.ssty1 Gammaitalic-math.ssty2];
-sub Gbold-math from [Gbold-math.ssty1 Gbold-math.ssty2];
-sub Gitalic-math from [Gitalic-math.ssty1 Gitalic-math.ssty2];
-sub Gscript-math from [Gscript-math.ssty1 Gscript-math.ssty2];
-sub Hbold-math from [Hbold-math.ssty1 Hbold-math.ssty2];
-sub Hitalic-math from [Hitalic-math.ssty1 Hitalic-math.ssty2];
-sub Ibold-math from [Ibold-math.ssty1 Ibold-math.ssty2];
-sub Iitalic-math from [Iitalic-math.ssty1 Iitalic-math.ssty2];
-sub Iotaitalic-math from [Iotaitalic-math.ssty1 Iotaitalic-math.ssty2];
-sub Jbold-math from [Jbold-math.ssty1 Jbold-math.ssty2];
-sub Jitalic-math from [Jitalic-math.ssty1 Jitalic-math.ssty2];
-sub Jscript-math from [Jscript-math.ssty1 Jscript-math.ssty2];
-sub Kappaitalic-math from [Kappaitalic-math.ssty1 Kappaitalic-math.ssty2];
-sub Kbold-math from [Kbold-math.ssty1 Kbold-math.ssty2];
-sub Kitalic-math from [Kitalic-math.ssty1 Kitalic-math.ssty2];
-sub Kscript-math from [Kscript-math.ssty1 Kscript-math.ssty2];
-sub Lambdaitalic-math from [Lambdaitalic-math.ssty1 Lambdaitalic-math.ssty2];
-sub Lbold-math from [Lbold-math.ssty1 Lbold-math.ssty2];
-sub Litalic-math from [Litalic-math.ssty1 Litalic-math.ssty2];
-sub Mbold-math from [Mbold-math.ssty1 Mbold-math.ssty2];
-sub Mitalic-math from [Mitalic-math.ssty1 Mitalic-math.ssty2];
-sub Muitalic-math from [Muitalic-math.ssty1 Muitalic-math.ssty2];
-sub Nbold-math from [Nbold-math.ssty1 Nbold-math.ssty2];
-sub Nitalic-math from [Nitalic-math.ssty1 Nitalic-math.ssty2];
-sub Nscript-math from [Nscript-math.ssty1 Nscript-math.ssty2];
-sub Nuitalic-math from [Nuitalic-math.ssty1 Nuitalic-math.ssty2];
-sub Obold-math from [Obold-math.ssty1 Obold-math.ssty2];
-sub Oitalic-math from [Oitalic-math.ssty1 Oitalic-math.ssty2];
-sub Omegaitalic-math from [Omegaitalic-math.ssty1 Omegaitalic-math.ssty2];
-sub Omicronitalic-math from [Omicronitalic-math.ssty1 Omicronitalic-math.ssty2];
-sub Oscript-math from [Oscript-math.ssty1 Oscript-math.ssty2];
-sub Pbold-math from [Pbold-math.ssty1 Pbold-math.ssty2];
-sub Phiitalic-math from [Phiitalic-math.ssty1 Phiitalic-math.ssty2];
-sub Piitalic-math from [Piitalic-math.ssty1 Piitalic-math.ssty2];
-sub Pitalic-math from [Pitalic-math.ssty1 Pitalic-math.ssty2];
-sub Pscript-math from [Pscript-math.ssty1 Pscript-math.ssty2];
-sub Psiitalic-math from [Psiitalic-math.ssty1 Psiitalic-math.ssty2];
-sub Qbold-math from [Qbold-math.ssty1 Qbold-math.ssty2];
-sub Qitalic-math from [Qitalic-math.ssty1 Qitalic-math.ssty2];
-sub Qscript-math from [Qscript-math.ssty1 Qscript-math.ssty2];
-sub Rbold-math from [Rbold-math.ssty1 Rbold-math.ssty2];
-sub Rhoitalic-math from [Rhoitalic-math.ssty1 Rhoitalic-math.ssty2];
-sub Ritalic-math from [Ritalic-math.ssty1 Ritalic-math.ssty2];
-sub Sbold-math from [Sbold-math.ssty1 Sbold-math.ssty2];
-sub Sigmaitalic-math from [Sigmaitalic-math.ssty1 Sigmaitalic-math.ssty2];
-sub Sitalic-math from [Sitalic-math.ssty1 Sitalic-math.ssty2];
-sub Sscript-math from [Sscript-math.ssty1 Sscript-math.ssty2];
-sub Tauitalic-math from [Tauitalic-math.ssty1 Tauitalic-math.ssty2];
-sub Tbold-math from [Tbold-math.ssty1 Tbold-math.ssty2];
-sub Thetaitalic-math from [Thetaitalic-math.ssty1 Thetaitalic-math.ssty2];
-sub Titalic-math from [Titalic-math.ssty1 Titalic-math.ssty2];
-sub Tscript-math from [Tscript-math.ssty1 Tscript-math.ssty2];
-sub Ubold-math from [Ubold-math.ssty1 Ubold-math.ssty2];
-sub Uitalic-math from [Uitalic-math.ssty1 Uitalic-math.ssty2];
-sub Upsilonitalic-math from [Upsilonitalic-math.ssty1 Upsilonitalic-math.ssty2];
-sub Uscript-math from [Uscript-math.ssty1 Uscript-math.ssty2];
-sub Vbold-math from [Vbold-math.ssty1 Vbold-math.ssty2];
-sub Vitalic-math from [Vitalic-math.ssty1 Vitalic-math.ssty2];
-sub Vscript-math from [Vscript-math.ssty1 Vscript-math.ssty2];
-sub Wbold-math from [Wbold-math.ssty1 Wbold-math.ssty2];
-sub Witalic-math from [Witalic-math.ssty1 Witalic-math.ssty2];
-sub Wscript-math from [Wscript-math.ssty1 Wscript-math.ssty2];
-sub Xbold-math from [Xbold-math.ssty1 Xbold-math.ssty2];
-sub Xiitalic-math from [Xiitalic-math.ssty1 Xiitalic-math.ssty2];
-sub Xitalic-math from [Xitalic-math.ssty1 Xitalic-math.ssty2];
-sub Xscript-math from [Xscript-math.ssty1 Xscript-math.ssty2];
-sub Ybold-math from [Ybold-math.ssty1 Ybold-math.ssty2];
-sub Yitalic-math from [Yitalic-math.ssty1 Yitalic-math.ssty2];
-sub Yscript-math from [Yscript-math.ssty1 Yscript-math.ssty2];
-sub Zbold-math from [Zbold-math.ssty1 Zbold-math.ssty2];
+sub Deltaitalic-math from [Deltaitalic-math.ssty1 Deltaitalic-math.ssty2];
+sub Epsilonitalic-math from [Epsilonitalic-math.ssty1 Epsilonitalic-math.ssty2];
 sub Zetaitalic-math from [Zetaitalic-math.ssty1 Zetaitalic-math.ssty2];
-sub Zitalic-math from [Zitalic-math.ssty1 Zitalic-math.ssty2];
-sub Zscript-math from [Zscript-math.ssty1 Zscript-math.ssty2];
-sub abold-math from [abold-math.ssty1 abold-math.ssty2];
-sub aitalic-math from [aitalic-math.ssty1 aitalic-math.ssty2];
+sub Etaitalic-math from [Etaitalic-math.ssty1 Etaitalic-math.ssty2];
+sub Thetaitalic-math from [Thetaitalic-math.ssty1 Thetaitalic-math.ssty2];
+sub Iotaitalic-math from [Iotaitalic-math.ssty1 Iotaitalic-math.ssty2];
+sub Kappaitalic-math from [Kappaitalic-math.ssty1 Kappaitalic-math.ssty2];
+sub Lambdaitalic-math from [Lambdaitalic-math.ssty1 Lambdaitalic-math.ssty2];
+sub Muitalic-math from [Muitalic-math.ssty1 Muitalic-math.ssty2];
+sub Nuitalic-math from [Nuitalic-math.ssty1 Nuitalic-math.ssty2];
+sub Xiitalic-math from [Xiitalic-math.ssty1 Xiitalic-math.ssty2];
+sub Omicronitalic-math from [Omicronitalic-math.ssty1 Omicronitalic-math.ssty2];
+sub Piitalic-math from [Piitalic-math.ssty1 Piitalic-math.ssty2];
+sub Rhoitalic-math from [Rhoitalic-math.ssty1 Rhoitalic-math.ssty2];
+sub Sigmaitalic-math from [Sigmaitalic-math.ssty1 Sigmaitalic-math.ssty2];
+sub Tauitalic-math from [Tauitalic-math.ssty1 Tauitalic-math.ssty2];
+sub Upsilonitalic-math from [Upsilonitalic-math.ssty1 Upsilonitalic-math.ssty2];
+sub Phiitalic-math from [Phiitalic-math.ssty1 Phiitalic-math.ssty2];
+sub Chiitalic-math from [Chiitalic-math.ssty1 Chiitalic-math.ssty2];
+sub Psiitalic-math from [Psiitalic-math.ssty1 Psiitalic-math.ssty2];
+sub Omegaitalic-math from [Omegaitalic-math.ssty1 Omegaitalic-math.ssty2];
+sub Nablaitalic-math from [Nablaitalic-math.ssty1 Nablaitalic-math.ssty2];
+sub asansitalic-math from [asansitalic-math.ssty1 asansitalic-math.ssty2];
+sub bsansitalic-math from [bsansitalic-math.ssty1 bsansitalic-math.ssty2];
+sub csansitalic-math from [csansitalic-math.ssty1 csansitalic-math.ssty2];
+sub dsansitalic-math from [dsansitalic-math.ssty1 dsansitalic-math.ssty2];
+sub esansitalic-math from [esansitalic-math.ssty1 esansitalic-math.ssty2];
+sub fsansitalic-math from [fsansitalic-math.ssty1 fsansitalic-math.ssty2];
+sub gsansitalic-math from [gsansitalic-math.ssty1 gsansitalic-math.ssty2];
+sub hsansitalic-math from [hsansitalic-math.ssty1 hsansitalic-math.ssty2];
+sub isansitalic-math from [isansitalic-math.ssty1 isansitalic-math.ssty2];
+sub isansitalic-math.dtls from [isansitalic-math.dtls.ssty1 isansitalic-math.dtls.ssty2];
+sub jsansitalic-math from [jsansitalic-math.ssty1 jsansitalic-math.ssty2];
+sub jsansitalic-math.dtls from [jsansitalic-math.dtls.ssty1 jsansitalic-math.dtls.ssty2];
+sub ksansitalic-math from [ksansitalic-math.ssty1 ksansitalic-math.ssty2];
+sub lsansitalic-math from [lsansitalic-math.ssty1 lsansitalic-math.ssty2];
+sub msansitalic-math from [msansitalic-math.ssty1 msansitalic-math.ssty2];
+sub nsansitalic-math from [nsansitalic-math.ssty1 nsansitalic-math.ssty2];
+sub osansitalic-math from [osansitalic-math.ssty1 osansitalic-math.ssty2];
+sub psansitalic-math from [psansitalic-math.ssty1 psansitalic-math.ssty2];
+sub qsansitalic-math from [qsansitalic-math.ssty1 qsansitalic-math.ssty2];
+sub rsansitalic-math from [rsansitalic-math.ssty1 rsansitalic-math.ssty2];
+sub ssansitalic-math from [ssansitalic-math.ssty1 ssansitalic-math.ssty2];
+sub tsansitalic-math from [tsansitalic-math.ssty1 tsansitalic-math.ssty2];
+sub usansitalic-math from [usansitalic-math.ssty1 usansitalic-math.ssty2];
+sub vsansitalic-math from [vsansitalic-math.ssty1 vsansitalic-math.ssty2];
+sub wsansitalic-math from [wsansitalic-math.ssty1 wsansitalic-math.ssty2];
+sub xsansitalic-math from [xsansitalic-math.ssty1 xsansitalic-math.ssty2];
+sub ysansitalic-math from [ysansitalic-math.ssty1 ysansitalic-math.ssty2];
+sub zsansitalic-math from [zsansitalic-math.ssty1 zsansitalic-math.ssty2];
 sub alphaitalic-math from [alphaitalic-math.ssty1 alphaitalic-math.ssty2];
-sub ascript-math from [ascript-math.ssty1 ascript-math.ssty2];
-sub bbold-math from [bbold-math.ssty1 bbold-math.ssty2];
 sub betaitalic-math from [betaitalic-math.ssty1 betaitalic-math.ssty2];
-sub bitalic-math from [bitalic-math.ssty1 bitalic-math.ssty2];
-sub bscript-math from [bscript-math.ssty1 bscript-math.ssty2];
-sub cbold-math from [cbold-math.ssty1 cbold-math.ssty2];
-sub chiitalic-math from [chiitalic-math.ssty1 chiitalic-math.ssty2];
-sub citalic-math from [citalic-math.ssty1 citalic-math.ssty2];
-sub cscript-math from [cscript-math.ssty1 cscript-math.ssty2];
-sub dbold-math from [dbold-math.ssty1 dbold-math.ssty2];
-sub deltaitalic-math from [deltaitalic-math.ssty1 deltaitalic-math.ssty2];
-sub ditalic-math from [ditalic-math.ssty1 ditalic-math.ssty2];
-sub dscript-math from [dscript-math.ssty1 dscript-math.ssty2];
-sub ebold-math from [ebold-math.ssty1 ebold-math.ssty2];
-sub eitalic-math from [eitalic-math.ssty1 eitalic-math.ssty2];
-sub epsilonLunateSymbolitalic-math from [epsilonLunateSymbolitalic-math.ssty1];
-sub epsilonitalic-math from [epsilonitalic-math.ssty1 epsilonitalic-math.ssty2];
-sub etaitalic-math from [etaitalic-math.ssty1 etaitalic-math.ssty2];
-sub fbold-math from [fbold-math.ssty1 fbold-math.ssty2];
-sub fitalic-math from [fitalic-math.ssty1 fitalic-math.ssty2];
-sub fscript-math from [fscript-math.ssty1 fscript-math.ssty2];
 sub gammaitalic-math from [gammaitalic-math.ssty1 gammaitalic-math.ssty2];
-sub gbold-math from [gbold-math.ssty1 gbold-math.ssty2];
-sub gitalic-math from [gitalic-math.ssty1 gitalic-math.ssty2];
-sub hbold-math from [hbold-math.ssty1 hbold-math.ssty2];
-sub hscript-math from [hscript-math.ssty1 hscript-math.ssty2];
-sub ibold-math from [ibold-math.ssty1 ibold-math.ssty2];
-sub idotlessitalic-math from [idotlessitalic-math.ssty1 idotlessitalic-math.ssty2];
-sub iitalic-math from [iitalic-math.ssty1 iitalic-math.ssty2];
+sub deltaitalic-math from [deltaitalic-math.ssty1 deltaitalic-math.ssty2];
+sub epsilonitalic-math from [epsilonitalic-math.ssty1 epsilonitalic-math.ssty2];
+sub zetaitalic-math from [zetaitalic-math.ssty1 zetaitalic-math.ssty2];
+sub etaitalic-math from [etaitalic-math.ssty1 etaitalic-math.ssty2];
+sub thetaitalic-math from [thetaitalic-math.ssty1 thetaitalic-math.ssty2];
 sub iotaitalic-math from [iotaitalic-math.ssty1 iotaitalic-math.ssty2];
-sub iscript-math from [iscript-math.ssty1 iscript-math.ssty2];
-sub jbold-math from [jbold-math.ssty1 jbold-math.ssty2];
-sub jdotlessitalic-math from [jdotlessitalic-math.ssty1 jdotlessitalic-math.ssty2];
-sub jitalic-math from [jitalic-math.ssty1 jitalic-math.ssty2];
-sub jscript-math from [jscript-math.ssty1 jscript-math.ssty2];
-sub kappaSymbolitalic-math from [kappaSymbolitalic-math.ssty1];
 sub kappaitalic-math from [kappaitalic-math.ssty1 kappaitalic-math.ssty2];
-sub kbold-math from [kbold-math.ssty1 kbold-math.ssty2];
-sub kitalic-math from [kitalic-math.ssty1 kitalic-math.ssty2];
-sub kscript-math from [kscript-math.ssty1 kscript-math.ssty2];
 sub lambdaitalic-math from [lambdaitalic-math.ssty1 lambdaitalic-math.ssty2];
-sub lbold-math from [lbold-math.ssty1 lbold-math.ssty2];
-sub litalic-math from [litalic-math.ssty1 litalic-math.ssty2];
-sub lscript-math from [lscript-math.ssty1 lscript-math.ssty2];
-sub mbold-math from [mbold-math.ssty1 mbold-math.ssty2];
-sub mitalic-math from [mitalic-math.ssty1 mitalic-math.ssty2];
-sub mscript-math from [mscript-math.ssty1 mscript-math.ssty2];
 sub muitalic-math from [muitalic-math.ssty1 muitalic-math.ssty2];
-sub nbold-math from [nbold-math.ssty1 nbold-math.ssty2];
-sub nitalic-math from [nitalic-math.ssty1 nitalic-math.ssty2];
-sub nscript-math from [nscript-math.ssty1 nscript-math.ssty2];
 sub nuitalic-math from [nuitalic-math.ssty1 nuitalic-math.ssty2];
-sub obold-math from [obold-math.ssty1 obold-math.ssty2];
-sub oitalic-math from [oitalic-math.ssty1 oitalic-math.ssty2];
-sub omegaitalic-math from [omegaitalic-math.ssty1 omegaitalic-math.ssty2];
+sub xiitalic-math from [xiitalic-math.ssty1 xiitalic-math.ssty2];
 sub omicronitalic-math from [omicronitalic-math.ssty1 omicronitalic-math.ssty2];
-sub pbold-math from [pbold-math.ssty1 pbold-math.ssty2];
-sub phiSymbolitalic-math from [phiSymbolitalic-math.ssty1];
-sub phiitalic-math from [phiitalic-math.ssty1 phiitalic-math.ssty2];
-sub piSymbolitalic-math from [piSymbolitalic-math.ssty1];
 sub piitalic-math from [piitalic-math.ssty1 piitalic-math.ssty2];
-sub pitalic-math from [pitalic-math.ssty1 pitalic-math.ssty2];
-sub pscript-math from [pscript-math.ssty1 pscript-math.ssty2];
-sub psiitalic-math from [psiitalic-math.ssty1 psiitalic-math.ssty2];
-sub qbold-math from [qbold-math.ssty1 qbold-math.ssty2];
-sub qitalic-math from [qitalic-math.ssty1 qitalic-math.ssty2];
-sub qscript-math from [qscript-math.ssty1 qscript-math.ssty2];
-sub rbold-math from [rbold-math.ssty1 rbold-math.ssty2];
-sub rhoSymbolitalic-math from [rhoSymbolitalic-math.ssty1];
 sub rhoitalic-math from [rhoitalic-math.ssty1 rhoitalic-math.ssty2];
-sub ritalic-math from [ritalic-math.ssty1 ritalic-math.ssty2];
-sub rscript-math from [rscript-math.ssty1 rscript-math.ssty2];
-sub sbold-math from [sbold-math.ssty1 sbold-math.ssty2];
 sub sigmafinalitalic-math from [sigmafinalitalic-math.ssty1 sigmafinalitalic-math.ssty2];
 sub sigmaitalic-math from [sigmaitalic-math.ssty1 sigmaitalic-math.ssty2];
-sub sitalic-math from [sitalic-math.ssty1 sitalic-math.ssty2];
-sub sscript-math from [sscript-math.ssty1 sscript-math.ssty2];
 sub tauitalic-math from [tauitalic-math.ssty1 tauitalic-math.ssty2];
-sub tbold-math from [tbold-math.ssty1 tbold-math.ssty2];
-sub thetaSymbolitalic-math from [thetaSymbolitalic-math.ssty1];
-sub thetaitalic-math from [thetaitalic-math.ssty1 thetaitalic-math.ssty2];
-sub titalic-math from [titalic-math.ssty1 titalic-math.ssty2];
-sub tscript-math from [tscript-math.ssty1 tscript-math.ssty2];
-sub ubold-math from [ubold-math.ssty1 ubold-math.ssty2];
-sub uitalic-math from [uitalic-math.ssty1 uitalic-math.ssty2];
 sub upsilonitalic-math from [upsilonitalic-math.ssty1 upsilonitalic-math.ssty2];
-sub uscript-math from [uscript-math.ssty1 uscript-math.ssty2];
-sub vbold-math from [vbold-math.ssty1 vbold-math.ssty2];
-sub vitalic-math from [vitalic-math.ssty1 vitalic-math.ssty2];
-sub vscript-math from [vscript-math.ssty1 vscript-math.ssty2];
-sub wbold-math from [wbold-math.ssty1 wbold-math.ssty2];
-sub witalic-math from [witalic-math.ssty1 witalic-math.ssty2];
-sub wscript-math from [wscript-math.ssty1 wscript-math.ssty2];
-sub xbold-math from [xbold-math.ssty1 xbold-math.ssty2];
-sub xiitalic-math from [xiitalic-math.ssty1 xiitalic-math.ssty2];
-sub xitalic-math from [xitalic-math.ssty1 xitalic-math.ssty2];
-sub xscript-math from [xscript-math.ssty1 xscript-math.ssty2];
-sub ybold-math from [ybold-math.ssty1 ybold-math.ssty2];
-sub yitalic-math from [yitalic-math.ssty1 yitalic-math.ssty2];
-sub yscript-math from [yscript-math.ssty1 yscript-math.ssty2];
-sub zbold-math from [zbold-math.ssty1 zbold-math.ssty2];
-sub zetaitalic-math from [zetaitalic-math.ssty1 zetaitalic-math.ssty2];
-sub zitalic-math from [zitalic-math.ssty1 zitalic-math.ssty2];
-sub zscript-math from [zscript-math.ssty1 zscript-math.ssty2];
-sub gitalic-math.alt from [gitalic-math.alt.ssty1 gitalic-math.alt.ssty2];
-sub ibold-math.dotless from [ibold-math.dotless.ssty1 ibold-math.dotless.ssty2];
-sub iscript-math.dotless from [iscript-math.dotless.ssty1 iscript-math.dotless.ssty2];
-sub jbold-math.dotless from [jbold-math.dotless.ssty1 jbold-math.dotless.ssty2];
-sub jscript-math.dotless from [jscript-math.dotless.ssty1 jscript-math.dotless.ssty2];
+sub phiitalic-math from [phiitalic-math.ssty1 phiitalic-math.ssty2];
+sub chiitalic-math from [chiitalic-math.ssty1 chiitalic-math.ssty2];
+sub psiitalic-math from [psiitalic-math.ssty1 psiitalic-math.ssty2];
+sub omegaitalic-math from [omegaitalic-math.ssty1 omegaitalic-math.ssty2];
+sub partialdiffitalic-math from [partialdiffitalic-math.ssty1 partialdiffitalic-math.ssty2];
+sub epsilonLunateSymbolitalic-math from [epsilonLunateSymbolitalic-math.ssty1 epsilonLunateSymbolitalic-math.ssty2];
+sub thetaSymbolitalic-math from [thetaSymbolitalic-math.ssty1 thetaSymbolitalic-math.ssty2];
+sub kappaSymbolitalic-math from [kappaSymbolitalic-math.ssty1 kappaSymbolitalic-math.ssty2];
+sub phiSymbolitalic-math from [phiSymbolitalic-math.ssty1 phiSymbolitalic-math.ssty2];
+sub rhoSymbolitalic-math from [rhoSymbolitalic-math.ssty1 rhoSymbolitalic-math.ssty1];
+sub piSymbolitalic-math from [piSymbolitalic-math.ssty1 piSymbolitalic-math.ssty2];
+sub Ascript-math from [Ascript-math.ssty1 Ascript-math.ssty2];
 sub Bscript from [Bscript.ssty1 Bscript.ssty2];
+sub Cscript-math from [Cscript-math.ssty1 Cscript-math.ssty2];
+sub Dscript-math from [Dscript-math.ssty1 Dscript-math.ssty2];
+sub Escript from [Escript.ssty1 Escript.ssty2];
+sub Fscript from [Fscript.ssty1 Fscript.ssty2];
+sub Gscript-math from [Gscript-math.ssty1 Gscript-math.ssty2];
 sub Hscript from [Hscript.ssty1 Hscript.ssty2];
 sub Iscript from [Iscript.ssty1 Iscript.ssty2];
+sub Jscript-math from [Jscript-math.ssty1 Jscript-math.ssty2];
+sub Kscript-math from [Kscript-math.ssty1 Kscript-math.ssty2];
 sub Lscript from [Lscript.ssty1 Lscript.ssty2];
+sub Mscript from [Mscript.ssty1 Mscript.ssty2];
+sub Nscript-math from [Nscript-math.ssty1 Nscript-math.ssty2];
+sub Oscript-math from [Oscript-math.ssty1 Oscript-math.ssty2];
+sub Pscript-math from [Pscript-math.ssty1 Pscript-math.ssty2];
+sub Qscript-math from [Qscript-math.ssty1 Qscript-math.ssty2];
 sub Rscript from [Rscript.ssty1 Rscript.ssty2];
+sub Sscript-math from [Sscript-math.ssty1 Sscript-math.ssty2];
+sub Tscript-math from [Tscript-math.ssty1 Tscript-math.ssty2];
+sub Uscript-math from [Uscript-math.ssty1 Uscript-math.ssty2];
+sub Vscript-math from [Vscript-math.ssty1 Vscript-math.ssty2];
+sub Wscript-math from [Wscript-math.ssty1 Wscript-math.ssty2];
+sub Xscript-math from [Xscript-math.ssty1 Xscript-math.ssty2];
+sub Yscript-math from [Yscript-math.ssty1 Yscript-math.ssty2];
+sub Zscript-math from [Zscript-math.ssty1 Zscript-math.ssty2];
+sub ascript-math from [ascript-math.ssty1 ascript-math.ssty2];
+sub bscript-math from [bscript-math.ssty1 bscript-math.ssty2];
+sub cscript-math from [cscript-math.ssty1 cscript-math.ssty2];
+sub dscript-math from [dscript-math.ssty1 dscript-math.ssty2];
+sub escript from [escript.ssty1 escript.ssty2];
+sub fscript-math from [fscript-math.ssty1 fscript-math.ssty2];
+sub gscript from [gscript.ssty1 gscript.ssty2];
+sub hscript-math from [hscript-math.ssty1 hscript-math.ssty2];
+sub iscript-math from [iscript-math.ssty1 iscript-math.ssty2];
+sub iscript-math.dtls from [iscript-math.dtls.ssty1 iscript-math.dtls.ssty2];
+sub jscript-math from [jscript-math.ssty1 jscript-math.ssty2];
+sub jscript-math.dtls from [jscript-math.dtls.ssty1 jscript-math.dtls.ssty2];
+sub kscript-math from [kscript-math.ssty1 kscript-math.ssty2];
+sub lscript-math from [lscript-math.ssty1 lscript-math.ssty2];
+sub mscript-math from [mscript-math.ssty1 mscript-math.ssty2];
+sub nscript-math from [nscript-math.ssty1 nscript-math.ssty2];
+sub oscript from [oscript.ssty1 oscript.ssty2];
+sub pscript-math from [pscript-math.ssty1 pscript-math.ssty2];
+sub qscript-math from [qscript-math.ssty1 qscript-math.ssty2];
+sub rscript-math from [rscript-math.ssty1 rscript-math.ssty2];
+sub sscript-math from [sscript-math.ssty1 sscript-math.ssty2];
+sub tscript-math from [tscript-math.ssty1 tscript-math.ssty2];
+sub uscript-math from [uscript-math.ssty1 uscript-math.ssty2];
+sub vscript-math from [vscript-math.ssty1 vscript-math.ssty2];
+sub wscript-math from [wscript-math.ssty1 wscript-math.ssty2];
+sub xscript-math from [xscript-math.ssty1 xscript-math.ssty2];
+sub yscript-math from [yscript-math.ssty1 yscript-math.ssty2];
+sub zscript-math from [zscript-math.ssty1 zscript-math.ssty2];
 sub AdoubleStruck from [AdoubleStruck.ssty1 AdoubleStruck.ssty2];
 sub BdoubleStruck from [BdoubleStruck.ssty1 BdoubleStruck.ssty2];
 sub CdoubleStruck from [CdoubleStruck.ssty1 CdoubleStruck.ssty2];
@@ -4844,9 +755,6 @@ sub WdoubleStruck from [WdoubleStruck.ssty1 WdoubleStruck.ssty2];
 sub XdoubleStruck from [XdoubleStruck.ssty1 XdoubleStruck.ssty2];
 sub YdoubleStruck from [YdoubleStruck.ssty1 YdoubleStruck.ssty2];
 sub ZdoubleStruck from [ZdoubleStruck.ssty1 ZdoubleStruck.ssty2];
-sub Escript from [Escript.ssty1 Escript.ssty2];
-sub Fscript from [Fscript.ssty1 Fscript.ssty2];
-sub Mscript from [Mscript.ssty1 Mscript.ssty2];
 sub adoubleStruck from [adoubleStruck.ssty1 adoubleStruck.ssty2];
 sub bdoubleStruck from [bdoubleStruck.ssty1 bdoubleStruck.ssty2];
 sub cdoubleStruck from [cdoubleStruck.ssty1 cdoubleStruck.ssty2];
@@ -4856,7 +764,9 @@ sub fdoubleStruck from [fdoubleStruck.ssty1 fdoubleStruck.ssty2];
 sub gdoubleStruck from [gdoubleStruck.ssty1 gdoubleStruck.ssty2];
 sub hdoubleStruck from [hdoubleStruck.ssty1 hdoubleStruck.ssty2];
 sub idoubleStruck from [idoubleStruck.ssty1 idoubleStruck.ssty2];
+sub idoubleStruck.dtls from [idoubleStruck.dtls.ssty1 idoubleStruck.dtls.ssty2];
 sub jdoubleStruck from [jdoubleStruck.ssty1 jdoubleStruck.ssty2];
+sub jdoubleStruck.dtls from [jdoubleStruck.dtls.ssty1 jdoubleStruck.dtls.ssty2];
 sub kdoubleStruck from [kdoubleStruck.ssty1 kdoubleStruck.ssty2];
 sub ldoubleStruck from [ldoubleStruck.ssty1 ldoubleStruck.ssty2];
 sub mdoubleStruck from [mdoubleStruck.ssty1 mdoubleStruck.ssty2];
@@ -4873,13 +783,11 @@ sub wdoubleStruck from [wdoubleStruck.ssty1 wdoubleStruck.ssty2];
 sub xdoubleStruck from [xdoubleStruck.ssty1 xdoubleStruck.ssty2];
 sub ydoubleStruck from [ydoubleStruck.ssty1 ydoubleStruck.ssty2];
 sub zdoubleStruck from [zdoubleStruck.ssty1 zdoubleStruck.ssty2];
-sub gscript from [gscript.ssty1 gscript.ssty2];
-sub planckconstant from [planckconstant.ssty1 planckconstant.ssty2];
+sub iitalicDoubleStruck from [iitalicDoubleStruck.ssty1 iitalicDoubleStruck.ssty2];
+sub iitalicDoubleStruck.dtls from [iitalicDoubleStruck.dtls.ssty1 iitalicDoubleStruck.dtls.ssty2];
+sub jitalicDoubleStruck from [jitalicDoubleStruck.ssty1 jitalicDoubleStruck.ssty2];
+sub jitalicDoubleStruck.dtls from [jitalicDoubleStruck.dtls.ssty1 jitalicDoubleStruck.dtls.ssty2];
 sub planckconstantovertwopi from [planckconstantovertwopi.ssty1 planckconstantovertwopi.ssty2];
-sub escript from [escript.ssty1 escript.ssty2];
-sub oscript from [oscript.ssty1 oscript.ssty2];
-sub idoubleStruck.dotless from [idoubleStruck.dotless.ssty1 idoubleStruck.dotless.ssty2];
-sub jdoubleStruck.dotless from [jdoubleStruck.dotless.ssty1 jdoubleStruck.dotless.ssty2];
 sub aeTurnedmod from [aeTurnedmod.ssty1 aeTurnedmod.ssty2];
 sub zero from [zero.ssty1 zero.ssty2];
 sub one from [one.ssty1 one.ssty2];
@@ -4892,6 +800,13 @@ sub seven from [seven.ssty1 seven.ssty2];
 sub eight from [eight.ssty1 eight.ssty2];
 sub nine from [nine.ssty1 nine.ssty2];
 sub zero.uv001 from [zero.uv001.ssty1 zero.uv001.ssty2];
+sub bar from [bar.ssty1 bar.ssty2];
+sub parenleft from [parenleft.ssty1 parenleft.ssty2];
+sub parenright from [parenright.ssty1 parenright.ssty2];
+sub bracketleft from [bracketleft.ssty1 bracketleft.ssty2];
+sub bracketright from [bracketright.ssty1 bracketright.ssty2];
+sub braceleft from [braceleft.ssty1 braceleft.ssty2];
+sub braceright from [braceright.ssty1 braceright.ssty2];
 sub leftanglebracket-math from [leftanglebracket-math.ssty1 leftanglebracket-math.ssty2];
 sub rightanglebracket-math from [rightanglebracket-math.ssty1 rightanglebracket-math.ssty2];
 sub period from [period.ssty1 period.ssty2];
@@ -4904,30 +819,24 @@ sub numbersign from [numbersign.ssty1 numbersign.ssty2];
 sub slash from [slash.ssty1 slash.ssty2];
 sub backslash from [backslash.ssty1 backslash.ssty2];
 sub hyphen from [hyphen.ssty1 hyphen.ssty2];
-sub parenleft from [parenleft.ssty1 parenleft.ssty2];
-sub parenright from [parenright.ssty1 parenright.ssty2];
-sub braceleft from [braceleft.ssty1 braceleft.ssty2];
-sub braceright from [braceright.ssty1 braceright.ssty2];
-sub bracketleft from [bracketleft.ssty1 bracketleft.ssty2];
-sub bracketright from [bracketright.ssty1 bracketright.ssty2];
 sub quotedblleft from [quotedblleft.ssty1 quotedblleft.ssty2];
 sub quotedblright from [quotedblright.ssty1 quotedblright.ssty2];
 sub quoteleft from [quoteleft.ssty1 quoteleft.ssty2];
 sub quoteright from [quoteright.ssty1 quoteright.ssty2];
-sub doubleprimeReversed from [doubleprimeReversed.ssty1 doubleprimeReversed.ssty2];
-sub primeReversed from [primeReversed.ssty1 primeReversed.ssty2];
-sub quadrupleprime from [quadrupleprime.ssty1 quadrupleprime.ssty2];
-sub tripleprime from [tripleprime.ssty1 tripleprime.ssty2];
-sub tripleprimeReversed from [tripleprimeReversed.ssty1 tripleprimeReversed.ssty2];
-sub gradientitalic-math from [gradientitalic-math.ssty1 gradientitalic-math.ssty2];
-sub partialdiffitalic-math from [partialdiffitalic-math.ssty1 partialdiffitalic-math.ssty2];
 sub natural-musical from [natural-musical.ssty1 natural-musical.ssty2];
 sub sharp-musical from [sharp-musical.ssty1 sharp-musical.ssty2];
+sub integral from [integral.ssty1 integral.ssty2];
+sub summation from [summation.ssty1 summation.ssty2];
 sub downtackmod from [downtackmod.ssty1 downtackmod.ssty2];
 sub uptackmod from [uptackmod.ssty1 uptackmod.ssty2];
-sub minute from [minute.ssty1 minute.ssty2];
-sub second from [second.ssty1 second.ssty2];
-sub bar from [bar.ssty1 bar.ssty2];
+sub prime from [prime.ssty1 prime.ssty2];
+sub doubleprime from [doubleprime.ssty1 doubleprime.ssty2];
+sub tripleprime from [tripleprime.ssty1 tripleprime.ssty2];
+sub quadrupleprime from [quadrupleprime.ssty1 quadrupleprime.ssty2];
+sub primeReversed from [primeReversed.ssty1 primeReversed.ssty2];
+sub doubleprimeReversed from [doubleprimeReversed.ssty1 doubleprimeReversed.ssty2];
+sub tripleprimeReversed from [tripleprimeReversed.ssty1 tripleprimeReversed.ssty2];
+sub radical from [radical.ssty1 radical.ssty2];
 sub literSign from [literSign.ssty1 literSign.ssty2];
 sub dagger from [dagger.ssty1 dagger.ssty2];
 sub asteriskmath from [asteriskmath.ssty1 asteriskmath.ssty2];
@@ -4954,10 +863,6 @@ sub logicaland from [logicaland.ssty1 logicaland.ssty2];
 sub logicalor from [logicalor.ssty1 logicalor.ssty2];
 sub intersection from [intersection.ssty1 intersection.ssty2];
 sub union from [union.ssty1 union.ssty2];
-sub integral from [integral.ssty1 integral.ssty2];
-sub summation from [summation.ssty1 summation.ssty2];
-sub radical from [radical.ssty1 radical.ssty2];
-sub partialdiff from [partialdiff.ssty1 partialdiff.ssty2];
 sub ringoperator from [ringoperator.ssty1 ringoperator.ssty2];
 sub setminus from [setminus.ssty1 setminus.ssty2];
 sub similar from [similar.ssty1 similar.ssty2];
@@ -4971,10 +876,6 @@ sub multiply.circled from [multiply.circled.ssty1 multiply.circled.ssty2];
 sub plus.circled from [plus.circled.ssty1 plus.circled.ssty2];
 sub intersection.uv001 from [intersection.uv001.ssty1 intersection.uv001.ssty2];
 sub union.uv001 from [union.uv001.ssty1 union.uv001.ssty2];
-
-# Disabling as per #40
-#sub setminus.uv001 from [setminus.uv001.ssty1 setminus.uv001.ssty2];
-
 sub upArrow from [upArrow.ssty1 upArrow.ssty2];
 sub rightArrow from [rightArrow.ssty1 rightArrow.ssty2];
 sub downArrow from [downArrow.ssty1 downArrow.ssty2];
@@ -5028,15 +929,19 @@ value = -175;
 );
 guides = (
 {
+locked = 1;
 pos = (309,844);
 },
 {
+locked = 1;
 pos = (309,853);
 },
 {
+locked = 1;
 pos = (309,1062);
 },
 {
+locked = 1;
 pos = (309,1071);
 },
 {
@@ -5049,21 +954,30 @@ pos = (254,428);
 },
 {
 angle = 90;
+locked = 1;
 name = ".s12 top";
 pos = (-50,2162);
 },
 {
+locked = 1;
 name = ".s12 bottom";
 pos = (-495,-1606);
 },
 {
+locked = 1;
 name = "bracket-base-regular";
 pos = (-35,-158);
 },
 {
 angle = 180;
+locked = 1;
 name = "bracket-top-regular";
 pos = (-51,784);
+},
+{
+locked = 1;
+name = "bottom-brackets";
+pos = (0,-60);
 }
 );
 id = master01;
@@ -5097,28 +1011,27 @@ stemValues = (
 );
 userData = {
 GSCornerRadius = 20;
-GSOffsetHorizontal = -51;
+GSOffsetHorizontal = 10;
 GSOffsetKeepCompatible = 1;
-GSOffsetPosition = 1;
 GSOffsetProportional = 1;
-GSOffsetVertical = 4;
+GSOffsetVertical = 16;
 com.nagwa.MATHPlugin.constants = {
-AccentBaseHeight = 546;
-AxisHeight = 350;
-DelimitedSubFormulaMinHeight = 1200;
-DisplayOperatorMinHeight = 1650;
+AccentBaseHeight = 556;
+AxisHeight = 352;
+DelimitedSubFormulaMinHeight = 2400;
+DisplayOperatorMinHeight = 2400;
 FlattenedAccentBaseHeight = 714;
 FractionDenomDisplayStyleGapMin = 210;
-FractionDenominatorDisplayStyleShiftDown = 640;
+FractionDenominatorDisplayStyleShiftDown = 690;
 FractionDenominatorGapMin = 71;
 FractionDenominatorShiftDown = 320;
 FractionNumDisplayStyleGapMin = 210;
-FractionNumeratorDisplayStyleShiftUp = 640;
+FractionNumeratorDisplayStyleShiftUp = 780;
 FractionNumeratorGapMin = 71;
 FractionNumeratorShiftUp = 580;
 FractionRuleThickness = 71;
-LowerLimitBaselineDropMin = 670;
-LowerLimitGapMin = 135;
+LowerLimitBaselineDropMin = 636;
+LowerLimitGapMin = 100;
 MathLeading = 150;
 MinConnectorOverlap = 100;
 OverbarExtraAscender = 71;
@@ -5126,10 +1039,10 @@ OverbarRuleThickness = 71;
 OverbarVerticalGap = 200;
 RadicalDegreeBottomRaisePercent = 56;
 RadicalDisplayStyleVerticalGap = 190;
-RadicalExtraAscender = 90;
+RadicalExtraAscender = 71;
 RadicalKernAfterDegree = -450;
 RadicalKernBeforeDegree = 277;
-RadicalRuleThickness = 90;
+RadicalRuleThickness = 71;
 RadicalVerticalGap = 89;
 ScriptPercentScaleDown = 60;
 ScriptScriptPercentScaleDown = 50;
@@ -5138,19 +1051,19 @@ SkewedFractionVerticalGap = 71;
 SpaceAfterScript = 40;
 StackBottomDisplayStyleShiftDown = 690;
 StackBottomShiftDown = 385;
-StackDisplayStyleGapMin = 500;
+StackDisplayStyleGapMin = 300;
 StackGapMin = 210;
 StackTopDisplayStyleShiftUp = 780;
 StackTopShiftUp = 470;
 StretchStackBottomShiftDown = 590;
-StretchStackGapAboveMin = 135;
-StretchStackGapBelowMin = 135;
+StretchStackGapAboveMin = 100;
+StretchStackGapBelowMin = 100;
 StretchStackTopShiftUp = 800;
-SubSuperscriptGapMin = 250;
-SubscriptBaselineDropMin = 160;
+SubSuperscriptGapMin = 160;
+SubscriptBaselineDropMin = 140;
 SubscriptShiftDown = 210;
 SubscriptTopMax = 430;
-SuperscriptBaselineDropMax = 290;
+SuperscriptBaselineDropMax = 240;
 SuperscriptBottomMaxWithSubscript = 430;
 SuperscriptBottomMin = 134;
 SuperscriptShiftUp = 390;
@@ -5158,10 +1071,11 @@ SuperscriptShiftUpCramped = 280;
 UnderbarExtraDescender = 71;
 UnderbarRuleThickness = 71;
 UnderbarVerticalGap = 200;
-UpperLimitBaselineRiseMin = 300;
-UpperLimitGapMin = 135;
+UpperLimitBaselineRiseMin = 200;
+UpperLimitGapMin = 100;
 };
 };
+visible = 1;
 }
 );
 instances = (
@@ -5180,14 +1094,14 @@ value = "Noto Sans Math";
 );
 kerningLTR = {
 master01 = {
-minute = {
-minute = -62;
+prime = {
+prime = -62;
 };
-minute.ssty1 = {
-minute.ssty1 = -74;
+prime.ssty1 = {
+prime.ssty1 = -74;
 };
-minute.ssty2 = {
-minute.ssty2 = -65;
+prime.ssty2 = {
+prime.ssty2 = -65;
 };
 primeReversed = {
 primeReversed = -62;

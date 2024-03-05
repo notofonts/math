@@ -1,0 +1,39 @@
+{
+glyphname = idoubleStruck.dtls;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (161,268);
+},
+{
+name = math.ta;
+pos = (161,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(248,0,l),
+(248,536,l),
+(75,536,l),
+(75,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(128,483,l),
+(195,483,l),
+(195,53,l),
+(128,53,l)
+);
+}
+);
+width = 323;
+}
+);
+}

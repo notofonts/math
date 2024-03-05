@@ -1,32 +1,17 @@
 {
 color = 4;
 glyphname = "Epsilonitalic-math.ssty1";
+kernLeft = GRK_Epsilon;
+kernRight = GRK_Epsilon;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (367,357);
-},
-{
-name = math.ta;
-pos = (444,764);
-},
-{
-name = top;
-pos = (444,764);
-}
-);
 layerId = master01;
 shapes = (
 {
-ref = "Eitalic-math.ssty1";
+ref = "Esansitalic-math.ssty1";
 }
 );
-width = 760;
+width = 555;
 }
 );
-metricLeft = "Bitalic-math.ssty";
-metricRight = "Eitalic-math.ssty";
-production = u1D6E6.ssty1;
 }

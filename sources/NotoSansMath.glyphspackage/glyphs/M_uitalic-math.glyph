@@ -1,35 +1,17 @@
 {
-color = 4;
 glyphname = "Muitalic-math";
+kernLeft = GRK_Epsilon;
+kernRight = GRK_Eta;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (486,357);
-},
-{
-name = math.ic;
-pos = (1012,250);
-},
-{
-name = math.ta;
-pos = (564,764);
-},
-{
-name = top;
-pos = (564,764);
-}
-);
 layerId = master01;
 shapes = (
 {
-ref = "Mitalic-math";
+ref = "Msansitalic-math";
 }
 );
-width = 938;
+width = 841;
 }
 );
-production = u1D6ED;
 unicode = 120557;
 }

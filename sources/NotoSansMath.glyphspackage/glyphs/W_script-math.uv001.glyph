@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 1;
 glyphname = "Wscript-math.uv001";
 layers = (
 {
@@ -10,11 +10,7 @@ pos = (552,411);
 },
 {
 name = math.ta;
-pos = (578,764);
-},
-{
-name = top;
-pos = (578,764);
+pos = (578,0);
 }
 );
 layerId = master01;

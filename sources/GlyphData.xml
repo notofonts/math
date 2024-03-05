@@ -1,0 +1,1018 @@
+<?xml version="1.0"?>
+<glyphData>
+
+    <glyph name="A" unicode="0041" unicode2="1D5A0" script="latin" category="Letter" case="upper" />
+    <glyph name="B" unicode="0042" unicode2="1D5A1" script="latin" category="Letter" case="upper" />
+    <glyph name="C" unicode="0043" unicode2="1D5A2" script="latin" category="Letter" case="upper" />
+    <glyph name="D" unicode="0044" unicode2="1D5A3" script="latin" category="Letter" case="upper" />
+    <glyph name="E" unicode="0045" unicode2="1D5A4" script="latin" category="Letter" case="upper" />
+    <glyph name="F" unicode="0046" unicode2="1D5A5" script="latin" category="Letter" case="upper" />
+    <glyph name="G" unicode="0047" unicode2="1D5A6" script="latin" category="Letter" case="upper" />
+    <glyph name="H" unicode="0048" unicode2="1D5A7" script="latin" category="Letter" case="upper" />
+    <glyph name="I" unicode="0049" unicode2="1D5A8" script="latin" category="Letter" case="upper" />
+    <glyph name="J" unicode="004A" unicode2="1D5A9" script="latin" category="Letter" case="upper" />
+    <glyph name="K" unicode="004B" unicode2="1D5AA" script="latin" category="Letter" case="upper" />
+    <glyph name="L" unicode="004C" unicode2="1D5AB" script="latin" category="Letter" case="upper" />
+    <glyph name="M" unicode="004D" unicode2="1D5AC" script="latin" category="Letter" case="upper" />
+    <glyph name="N" unicode="004E" unicode2="1D5AD" script="latin" category="Letter" case="upper" />
+    <glyph name="O" unicode="004F" unicode2="1D5AE" script="latin" category="Letter" case="upper" />
+    <glyph name="P" unicode="0050" unicode2="1D5AF" script="latin" category="Letter" case="upper" />
+    <glyph name="Q" unicode="0051" unicode2="1D5B0" script="latin" category="Letter" case="upper" />
+    <glyph name="R" unicode="0052" unicode2="1D5B1" script="latin" category="Letter" case="upper" />
+    <glyph name="S" unicode="0053" unicode2="1D5B2" script="latin" category="Letter" case="upper" />
+    <glyph name="T" unicode="0054" unicode2="1D5B3" script="latin" category="Letter" case="upper" />
+    <glyph name="U" unicode="0055" unicode2="1D5B4" script="latin" category="Letter" case="upper" />
+    <glyph name="V" unicode="0056" unicode2="1D5B5" script="latin" category="Letter" case="upper" />
+    <glyph name="W" unicode="0057" unicode2="1D5B6" script="latin" category="Letter" case="upper" />
+    <glyph name="X" unicode="0058" unicode2="1D5B7" script="latin" category="Letter" case="upper" />
+    <glyph name="Y" unicode="0059" unicode2="1D5B8" script="latin" category="Letter" case="upper" />
+    <glyph name="Z" unicode="005A" unicode2="1D5B9" script="latin" category="Letter" case="upper" />
+    <glyph name="a" unicode="0061" unicode2="1D5BA" script="latin" category="Letter" case="lower" />
+    <glyph name="b" unicode="0062" unicode2="1D5BB" script="latin" category="Letter" case="lower" />
+    <glyph name="c" unicode="0063" unicode2="1D5BC" script="latin" category="Letter" case="lower" />
+    <glyph name="d" unicode="0064" unicode2="1D5BD" script="latin" category="Letter" case="lower" />
+    <glyph name="e" unicode="0065" unicode2="1D5BE" script="latin" category="Letter" case="lower" />
+    <glyph name="f" unicode="0066" unicode2="1D5BF" script="latin" category="Letter" case="lower" />
+    <glyph name="g" unicode="0067" unicode2="1D5C0" script="latin" category="Letter" case="lower" />
+    <glyph name="h" unicode="0068" unicode2="1D5C1" script="latin" category="Letter" case="lower" />
+    <glyph name="i" unicode="0069" unicode2="1D5C2" script="latin" category="Letter" case="lower" />
+    <glyph name="j" unicode="006A" unicode2="1D5C3" script="latin" category="Letter" case="lower" />
+    <glyph name="k" unicode="006B" unicode2="1D5C4" script="latin" category="Letter" case="lower" />
+    <glyph name="l" unicode="006C" unicode2="1D5C5" script="latin" category="Letter" case="lower" />
+    <glyph name="m" unicode="006D" unicode2="1D5C6" script="latin" category="Letter" case="lower" />
+    <glyph name="n" unicode="006E" unicode2="1D5C7" script="latin" category="Letter" case="lower" />
+    <glyph name="o" unicode="006F" unicode2="1D5C8" script="latin" category="Letter" case="lower" />
+    <glyph name="p" unicode="0070" unicode2="1D5C9" script="latin" category="Letter" case="lower" />
+    <glyph name="q" unicode="0071" unicode2="1D5CA" script="latin" category="Letter" case="lower" />
+    <glyph name="r" unicode="0072" unicode2="1D5CB" script="latin" category="Letter" case="lower" />
+    <glyph name="s" unicode="0073" unicode2="1D5CC" script="latin" category="Letter" case="lower" />
+    <glyph name="t" unicode="0074" unicode2="1D5CD" script="latin" category="Letter" case="lower" />
+    <glyph name="u" unicode="0075" unicode2="1D5CE" script="latin" category="Letter" case="lower" />
+    <glyph name="v" unicode="0076" unicode2="1D5CF" script="latin" category="Letter" case="lower" />
+    <glyph name="w" unicode="0077" unicode2="1D5D0" script="latin" category="Letter" case="lower" />
+    <glyph name="x" unicode="0078" unicode2="1D5D1" script="latin" category="Letter" case="lower" />
+    <glyph name="y" unicode="0079" unicode2="1D5D2" script="latin" category="Letter" case="lower" />
+    <glyph name="z" unicode="007A" unicode2="1D5D3" script="latin" category="Letter" case="lower" />
+
+    <glyph name="Amono-math" unicode="1D670" production="u1D670" script="Mono" category="Letter" case="upper" sortName="amonoA" />
+    <glyph name="Bmono-math" unicode="1D671" production="u1D671" script="Mono" category="Letter" case="upper" sortName="amonoB" />
+    <glyph name="Cmono-math" unicode="1D672" production="u1D672" script="Mono" category="Letter" case="upper" sortName="amonoC" />
+    <glyph name="Dmono-math" unicode="1D673" production="u1D673" script="Mono" category="Letter" case="upper" sortName="amonoD" />
+    <glyph name="Emono-math" unicode="1D674" production="u1D674" script="Mono" category="Letter" case="upper" sortName="amonoE" />
+    <glyph name="Fmono-math" unicode="1D675" production="u1D675" script="Mono" category="Letter" case="upper" sortName="amonoF" />
+    <glyph name="Gmono-math" unicode="1D676" production="u1D676" script="Mono" category="Letter" case="upper" sortName="amonoG" />
+    <glyph name="Hmono-math" unicode="1D677" production="u1D677" script="Mono" category="Letter" case="upper" sortName="amonoH" />
+    <glyph name="Imono-math" unicode="1D678" production="u1D678" script="Mono" category="Letter" case="upper" sortName="amonoI" />
+    <glyph name="Jmono-math" unicode="1D679" production="u1D679" script="Mono" category="Letter" case="upper" sortName="amonoJ" />
+    <glyph name="Kmono-math" unicode="1D67A" production="u1D67A" script="Mono" category="Letter" case="upper" sortName="amonoK" />
+    <glyph name="Lmono-math" unicode="1D67B" production="u1D67B" script="Mono" category="Letter" case="upper" sortName="amonoL" />
+    <glyph name="Mmono-math" unicode="1D67C" production="u1D67C" script="Mono" category="Letter" case="upper" sortName="amonoM" />
+    <glyph name="Nmono-math" unicode="1D67D" production="u1D67D" script="Mono" category="Letter" case="upper" sortName="amonoN" />
+    <glyph name="Omono-math" unicode="1D67E" production="u1D67E" script="Mono" category="Letter" case="upper" sortName="amonoO" />
+    <glyph name="Pmono-math" unicode="1D67F" production="u1D67F" script="Mono" category="Letter" case="upper" sortName="amonoP" />
+    <glyph name="Qmono-math" unicode="1D680" production="u1D680" script="Mono" category="Letter" case="upper" sortName="amonoQ" />
+    <glyph name="Rmono-math" unicode="1D681" production="u1D681" script="Mono" category="Letter" case="upper" sortName="amonoR" />
+    <glyph name="Smono-math" unicode="1D682" production="u1D682" script="Mono" category="Letter" case="upper" sortName="amonoS" />
+    <glyph name="Tmono-math" unicode="1D683" production="u1D683" script="Mono" category="Letter" case="upper" sortName="amonoT" />
+    <glyph name="Umono-math" unicode="1D684" production="u1D684" script="Mono" category="Letter" case="upper" sortName="amonoU" />
+    <glyph name="Vmono-math" unicode="1D685" production="u1D685" script="Mono" category="Letter" case="upper" sortName="amonoV" />
+    <glyph name="Wmono-math" unicode="1D686" production="u1D686" script="Mono" category="Letter" case="upper" sortName="amonoW" />
+    <glyph name="Xmono-math" unicode="1D687" production="u1D687" script="Mono" category="Letter" case="upper" sortName="amonoX" />
+    <glyph name="Ymono-math" unicode="1D688" production="u1D688" script="Mono" category="Letter" case="upper" sortName="amonoY" />
+    <glyph name="Zmono-math" unicode="1D689" production="u1D689" script="Mono" category="Letter" case="upper" sortName="amonoZ" />
+    <glyph name="Ascript-math" unicode="1D49C" production="u1D49C" script="Script" category="Letter" case="upper" sortName="ascrA" />
+    <glyph name="Bscript" unicode="212C" production="uni212C" script="Script" category="Letter" case="upper" sortName="ascrB" />
+    <glyph name="Cscript-math" unicode="1D49E" production="u1D49E" script="Script" category="Letter" case="upper" sortName="ascrC" />
+    <glyph name="Dscript-math" unicode="1D49F" production="u1D49F" script="Script" category="Letter" case="upper" sortName="ascrD" />
+    <glyph name="Escript" unicode="2130" production="uni2130" script="Script" category="Letter" case="upper" sortName="ascrE" />
+    <glyph name="Fscript" unicode="2131" production="uni2131" script="Script" category="Letter" case="upper" sortName="ascrF" />
+    <glyph name="Gscript-math" unicode="1D4A2" production="u1D4A2" script="Script" category="Letter" case="upper" sortName="ascrG" />
+    <glyph name="Hscript" unicode="210B" production="uni210B" script="Script" category="Letter" case="upper" sortName="ascrH" />
+    <glyph name="Iscript" unicode="2110" production="uni2110" script="Script" category="Letter" case="upper" sortName="ascrI" />
+    <glyph name="Jscript-math" unicode="1D4A5" production="u1D4A5" script="Script" category="Letter" case="upper" sortName="ascrJ" />
+    <glyph name="Kscript-math" unicode="1D4A6" production="u1D4A6" script="Script" category="Letter" case="upper" sortName="ascrK" />
+    <glyph name="Lscript" unicode="2112" production="uni2112" script="Script" category="Letter" case="upper" sortName="ascrL" />
+    <glyph name="Mscript" unicode="2133" production="uni2133" script="Script" category="Letter" case="upper" sortName="ascrM" />
+    <glyph name="Nscript-math" unicode="1D4A9" production="u1D4A9" script="Script" category="Letter" case="upper" sortName="ascrN" />
+    <glyph name="Oscript-math" unicode="1D4AA" production="u1D4AA" script="Script" category="Letter" case="upper" sortName="ascrO" />
+    <glyph name="Pscript-math" unicode="1D4AB" production="u1D4AB" script="Script" category="Letter" case="upper" sortName="ascrP" />
+    <glyph name="Qscript-math" unicode="1D4AC" production="u1D4AC" script="Script" category="Letter" case="upper" sortName="ascrQ" />
+    <glyph name="Rscript" unicode="211B" production="uni211B" script="Script" category="Letter" case="upper" sortName="ascrR" />
+    <glyph name="Sscript-math" unicode="1D4AE" production="u1D4AE" script="Script" category="Letter" case="upper" sortName="ascrS" />
+    <glyph name="Tscript-math" unicode="1D4AF" production="u1D4AF" script="Script" category="Letter" case="upper" sortName="ascrT" />
+    <glyph name="Uscript-math" unicode="1D4B0" production="u1D4B0" script="Script" category="Letter" case="upper" sortName="ascrU" />
+    <glyph name="Vscript-math" unicode="1D4B1" production="u1D4B1" script="Script" category="Letter" case="upper" sortName="ascrV" />
+    <glyph name="Wscript-math" unicode="1D4B2" production="u1D4B2" script="Script" category="Letter" case="upper" sortName="ascrW" />
+    <glyph name="Xscript-math" unicode="1D4B3" production="u1D4B3" script="Script" category="Letter" case="upper" sortName="ascrX" />
+    <glyph name="Yscript-math" unicode="1D4B4" production="u1D4B4" script="Script" category="Letter" case="upper" sortName="ascrY" />
+    <glyph name="Zscript-math" unicode="1D4B5" production="u1D4B5" script="Script" category="Letter" case="upper" sortName="ascrZ" />
+    <glyph name="Aboldscript-math" unicode="1D4D0" production="u1D4D0" script="Script" category="Letter" case="upper" sortName="bscrA" />
+    <glyph name="Bboldscript-math" unicode="1D4D1" production="u1D4D1" script="Script" category="Letter" case="upper" sortName="bscrB" />
+    <glyph name="Cboldscript-math" unicode="1D4D2" production="u1D4D2" script="Script" category="Letter" case="upper" sortName="bscrC" />
+    <glyph name="Dboldscript-math" unicode="1D4D3" production="u1D4D3" script="Script" category="Letter" case="upper" sortName="bscrD" />
+    <glyph name="Eboldscript-math" unicode="1D4D4" production="u1D4D4" script="Script" category="Letter" case="upper" sortName="bscrE" />
+    <glyph name="Fboldscript-math" unicode="1D4D5" production="u1D4D5" script="Script" category="Letter" case="upper" sortName="bscrF" />
+    <glyph name="Gboldscript-math" unicode="1D4D6" production="u1D4D6" script="Script" category="Letter" case="upper" sortName="bscrG" />
+    <glyph name="Hboldscript-math" unicode="1D4D7" production="u1D4D7" script="Script" category="Letter" case="upper" sortName="bscrH" />
+    <glyph name="Iboldscript-math" unicode="1D4D8" production="u1D4D8" script="Script" category="Letter" case="upper" sortName="bscrI" />
+    <glyph name="Jboldscript-math" unicode="1D4D9" production="u1D4D9" script="Script" category="Letter" case="upper" sortName="bscrJ" />
+    <glyph name="Kboldscript-math" unicode="1D4DA" production="u1D4DA" script="Script" category="Letter" case="upper" sortName="bscrK" />
+    <glyph name="Lboldscript-math" unicode="1D4DB" production="u1D4DB" script="Script" category="Letter" case="upper" sortName="bscrL" />
+    <glyph name="Mboldscript-math" unicode="1D4DC" production="u1D4DC" script="Script" category="Letter" case="upper" sortName="bscrM" />
+    <glyph name="Nboldscript-math" unicode="1D4DD" production="u1D4DD" script="Script" category="Letter" case="upper" sortName="bscrN" />
+    <glyph name="Oboldscript-math" unicode="1D4DE" production="u1D4DE" script="Script" category="Letter" case="upper" sortName="bscrO" />
+    <glyph name="Pboldscript-math" unicode="1D4DF" production="u1D4DF" script="Script" category="Letter" case="upper" sortName="bscrP" />
+    <glyph name="Qboldscript-math" unicode="1D4E0" production="u1D4E0" script="Script" category="Letter" case="upper" sortName="bscrQ" />
+    <glyph name="Rboldscript-math" unicode="1D4E1" production="u1D4E1" script="Script" category="Letter" case="upper" sortName="bscrR" />
+    <glyph name="Sboldscript-math" unicode="1D4E2" production="u1D4E2" script="Script" category="Letter" case="upper" sortName="bscrS" />
+    <glyph name="Tboldscript-math" unicode="1D4E3" production="u1D4E3" script="Script" category="Letter" case="upper" sortName="bscrT" />
+    <glyph name="Uboldscript-math" unicode="1D4E4" production="u1D4E4" script="Script" category="Letter" case="upper" sortName="bscrU" />
+    <glyph name="Vboldscript-math" unicode="1D4E5" production="u1D4E5" script="Script" category="Letter" case="upper" sortName="bscrV" />
+    <glyph name="Wboldscript-math" unicode="1D4E6" production="u1D4E6" script="Script" category="Letter" case="upper" sortName="bscrW" />
+    <glyph name="Xboldscript-math" unicode="1D4E7" production="u1D4E7" script="Script" category="Letter" case="upper" sortName="bscrX" />
+    <glyph name="Yboldscript-math" unicode="1D4E8" production="u1D4E8" script="Script" category="Letter" case="upper" sortName="bscrY" />
+    <glyph name="Zboldscript-math" unicode="1D4E9" production="u1D4E9" script="Script" category="Letter" case="upper" sortName="bscrZ" />
+    <glyph name="amono-math" unicode="1D68A" production="u1D68A" script="Mono" category="Letter" case="lower" sortName="amonoa" />
+    <glyph name="bmono-math" unicode="1D68B" production="u1D68B" script="Mono" category="Letter" case="lower" sortName="amonob" />
+    <glyph name="cmono-math" unicode="1D68C" production="u1D68C" script="Mono" category="Letter" case="lower" sortName="amonoc" />
+    <glyph name="dmono-math" unicode="1D68D" production="u1D68D" script="Mono" category="Letter" case="lower" sortName="amonod" />
+    <glyph name="emono-math" unicode="1D68E" production="u1D68E" script="Mono" category="Letter" case="lower" sortName="amonoe" />
+    <glyph name="fmono-math" unicode="1D68F" production="u1D68F" script="Mono" category="Letter" case="lower" sortName="amonof" />
+    <glyph name="gmono-math" unicode="1D690" production="u1D690" script="Mono" category="Letter" case="lower" sortName="amonog" />
+    <glyph name="hmono-math" unicode="1D691" production="u1D691" script="Mono" category="Letter" case="lower" sortName="amonoh" />
+    <glyph name="imono-math" unicode="1D692" production="u1D692" script="Mono" category="Letter" case="lower" sortName="amonoi" />
+    <glyph name="jmono-math" unicode="1D693" production="u1D693" script="Mono" category="Letter" case="lower" sortName="amonoj" />
+    <glyph name="kmono-math" unicode="1D694" production="u1D694" script="Mono" category="Letter" case="lower" sortName="amonok" />
+    <glyph name="lmono-math" unicode="1D695" production="u1D695" script="Mono" category="Letter" case="lower" sortName="amonol" />
+    <glyph name="mmono-math" unicode="1D696" production="u1D696" script="Mono" category="Letter" case="lower" sortName="amonom" />
+    <glyph name="nmono-math" unicode="1D697" production="u1D697" script="Mono" category="Letter" case="lower" sortName="amonon" />
+    <glyph name="omono-math" unicode="1D698" production="u1D698" script="Mono" category="Letter" case="lower" sortName="amonoo" />
+    <glyph name="pmono-math" unicode="1D699" production="u1D699" script="Mono" category="Letter" case="lower" sortName="amonop" />
+    <glyph name="qmono-math" unicode="1D69A" production="u1D69A" script="Mono" category="Letter" case="lower" sortName="amonoq" />
+    <glyph name="rmono-math" unicode="1D69B" production="u1D69B" script="Mono" category="Letter" case="lower" sortName="amonor" />
+    <glyph name="smono-math" unicode="1D69C" production="u1D69C" script="Mono" category="Letter" case="lower" sortName="amonos" />
+    <glyph name="tmono-math" unicode="1D69D" production="u1D69D" script="Mono" category="Letter" case="lower" sortName="amonot" />
+    <glyph name="umono-math" unicode="1D69E" production="u1D69E" script="Mono" category="Letter" case="lower" sortName="amonou" />
+    <glyph name="vmono-math" unicode="1D69F" production="u1D69F" script="Mono" category="Letter" case="lower" sortName="amonov" />
+    <glyph name="wmono-math" unicode="1D6A0" production="u1D6A0" script="Mono" category="Letter" case="lower" sortName="amonow" />
+    <glyph name="xmono-math" unicode="1D6A1" production="u1D6A1" script="Mono" category="Letter" case="lower" sortName="amonox" />
+    <glyph name="ymono-math" unicode="1D6A2" production="u1D6A2" script="Mono" category="Letter" case="lower" sortName="amonoy" />
+    <glyph name="zmono-math" unicode="1D6A3" production="u1D6A3" script="Mono" category="Letter" case="lower" sortName="amonoz" />
+    <glyph name="ascript-math" unicode="1D4B6" production="u1D4B6" script="Script" category="Letter" case="lower" sortName="ascra" />
+    <glyph name="bscript-math" unicode="1D4B7" production="u1D4B7" script="Script" category="Letter" case="lower" sortName="ascrb" />
+    <glyph name="cscript-math" unicode="1D4B8" production="u1D4B8" script="Script" category="Letter" case="lower" sortName="ascrc" />
+    <glyph name="dscript-math" unicode="1D4B9" production="u1D4B9" script="Script" category="Letter" case="lower" sortName="ascrd" />
+    <glyph name="escript" unicode="212F" production="uni212F" script="Script" category="Letter" case="lower" sortName="ascre" />
+    <glyph name="fscript-math" unicode="1D4BB" production="u1D4BB" script="Script" category="Letter" case="lower" sortName="ascrf" />
+    <glyph name="gscript" unicode="210A" production="uni210A" script="Script" category="Letter" case="lower" sortName="ascrg" />
+    <glyph name="hscript-math" unicode="1D4BD" production="u1D4BD" script="Script" category="Letter" case="lower" sortName="ascrh" />
+    <glyph name="iscript-math" unicode="1D4BE" production="u1D4BE" script="Script" category="Letter" case="lower" sortName="ascri" />
+    <glyph name="jscript-math" unicode="1D4BF" production="u1D4BF" script="Script" category="Letter" case="lower" sortName="ascrj" />
+    <glyph name="kscript-math" unicode="1D4C0" production="u1D4C0" script="Script" category="Letter" case="lower" sortName="ascrk" />
+    <glyph name="lscript-math" unicode="1D4C1" production="u1D4C1" script="Script" category="Letter" case="lower" sortName="ascrl" />
+    <glyph name="mscript-math" unicode="1D4C2" production="u1D4C2" script="Script" category="Letter" case="lower" sortName="ascrm" />
+    <glyph name="nscript-math" unicode="1D4C3" production="u1D4C3" script="Script" category="Letter" case="lower" sortName="ascrn" />
+    <glyph name="oscript" unicode="2134" production="uni2134" script="Script" category="Letter" case="lower" sortName="ascro" />
+    <glyph name="pscript-math" unicode="1D4C5" production="u1D4C5" script="Script" category="Letter" case="lower" sortName="ascrp" />
+    <glyph name="qscript-math" unicode="1D4C6" production="u1D4C6" script="Script" category="Letter" case="lower" sortName="ascrq" />
+    <glyph name="rscript-math" unicode="1D4C7" production="u1D4C7" script="Script" category="Letter" case="lower" sortName="ascrr" />
+    <glyph name="sscript-math" unicode="1D4C8" production="u1D4C8" script="Script" category="Letter" case="lower" sortName="ascrs" />
+    <glyph name="tscript-math" unicode="1D4C9" production="u1D4C9" script="Script" category="Letter" case="lower" sortName="ascrt" />
+    <glyph name="uscript-math" unicode="1D4CA" production="u1D4CA" script="Script" category="Letter" case="lower" sortName="ascru" />
+    <glyph name="vscript-math" unicode="1D4CB" production="u1D4CB" script="Script" category="Letter" case="lower" sortName="ascrv" />
+    <glyph name="wscript-math" unicode="1D4CC" production="u1D4CC" script="Script" category="Letter" case="lower" sortName="ascrw" />
+    <glyph name="xscript-math" unicode="1D4CD" production="u1D4CD" script="Script" category="Letter" case="lower" sortName="ascrx" />
+    <glyph name="yscript-math" unicode="1D4CE" production="u1D4CE" script="Script" category="Letter" case="lower" sortName="ascry" />
+    <glyph name="zscript-math" unicode="1D4CF" production="u1D4CF" script="Script" category="Letter" case="lower" sortName="ascrz" />
+    <glyph name="aboldscript-math" unicode="1D4EA" production="u1D4EA" script="Script" category="Letter" case="lower" sortName="bscra" />
+    <glyph name="bboldscript-math" unicode="1D4EB" production="u1D4EB" script="Script" category="Letter" case="lower" sortName="bscrb" />
+    <glyph name="cboldscript-math" unicode="1D4EC" production="u1D4EC" script="Script" category="Letter" case="lower" sortName="bscrc" />
+    <glyph name="dboldscript-math" unicode="1D4ED" production="u1D4ED" script="Script" category="Letter" case="lower" sortName="bscrd" />
+    <glyph name="eboldscript-math" unicode="1D4EE" production="u1D4EE" script="Script" category="Letter" case="lower" sortName="bscre" />
+    <glyph name="fboldscript-math" unicode="1D4EF" production="u1D4EF" script="Script" category="Letter" case="lower" sortName="bscrf" />
+    <glyph name="gboldscript-math" unicode="1D4F0" production="u1D4F0" script="Script" category="Letter" case="lower" sortName="bscrg" />
+    <glyph name="hboldscript-math" unicode="1D4F1" production="u1D4F1" script="Script" category="Letter" case="lower" sortName="bscrh" />
+    <glyph name="iboldscript-math" unicode="1D4F2" production="u1D4F2" script="Script" category="Letter" case="lower" sortName="bscri" />
+    <glyph name="jboldscript-math" unicode="1D4F3" production="u1D4F3" script="Script" category="Letter" case="lower" sortName="bscrj" />
+    <glyph name="kboldscript-math" unicode="1D4F4" production="u1D4F4" script="Script" category="Letter" case="lower" sortName="bscrk" />
+    <glyph name="lboldscript-math" unicode="1D4F5" production="u1D4F5" script="Script" category="Letter" case="lower" sortName="bscrl" />
+    <glyph name="mboldscript-math" unicode="1D4F6" production="u1D4F6" script="Script" category="Letter" case="lower" sortName="bscrm" />
+    <glyph name="nboldscript-math" unicode="1D4F7" production="u1D4F7" script="Script" category="Letter" case="lower" sortName="bscrn" />
+    <glyph name="oboldscript-math" unicode="1D4F8" production="u1D4F8" script="Script" category="Letter" case="lower" sortName="bscro" />
+    <glyph name="pboldscript-math" unicode="1D4F9" production="u1D4F9" script="Script" category="Letter" case="lower" sortName="bscrp" />
+    <glyph name="qboldscript-math" unicode="1D4FA" production="u1D4FA" script="Script" category="Letter" case="lower" sortName="bscrq" />
+    <glyph name="rboldscript-math" unicode="1D4FB" production="u1D4FB" script="Script" category="Letter" case="lower" sortName="bscrr" />
+    <glyph name="sboldscript-math" unicode="1D4FC" production="u1D4FC" script="Script" category="Letter" case="lower" sortName="bscrs" />
+    <glyph name="tboldscript-math" unicode="1D4FD" production="u1D4FD" script="Script" category="Letter" case="lower" sortName="bscrt" />
+    <glyph name="uboldscript-math" unicode="1D4FE" production="u1D4FE" script="Script" category="Letter" case="lower" sortName="bscru" />
+    <glyph name="vboldscript-math" unicode="1D4FF" production="u1D4FF" script="Script" category="Letter" case="lower" sortName="bscrv" />
+    <glyph name="wboldscript-math" unicode="1D500" production="u1D500" script="Script" category="Letter" case="lower" sortName="bscrw" />
+    <glyph name="xboldscript-math" unicode="1D501" production="u1D501" script="Script" category="Letter" case="lower" sortName="bscrx" />
+    <glyph name="yboldscript-math" unicode="1D502" production="u1D502" script="Script" category="Letter" case="lower" sortName="bscry" />
+    <glyph name="zboldscript-math" unicode="1D503" production="u1D503" script="Script" category="Letter" case="lower" sortName="bscrz" />
+    <glyph name="A-fraktur" unicode="1D504" production="u1D504" script="Black Letter" category="Letter" case="upper" sortName="afrakA" />
+    <glyph name="B-fraktur" unicode="1D505" production="u1D505" script="Black Letter" category="Letter" case="upper" sortName="afrakB" />
+    <glyph name="C-fraktur" unicode="212D" production="uni212D" script="Black Letter" category="Letter" case="upper" sortName="afrakC" />
+    <glyph name="D-fraktur" unicode="1D507" production="u1D507" script="Black Letter" category="Letter" case="upper" sortName="afrakD" />
+    <glyph name="E-fraktur" unicode="1D508" production="u1D508" script="Black Letter" category="Letter" case="upper" sortName="afrakE" />
+    <glyph name="F-fraktur" unicode="1D509" production="u1D509" script="Black Letter" category="Letter" case="upper" sortName="afrakF" />
+    <glyph name="G-fraktur" unicode="1D50A" production="u1D50A" script="Black Letter" category="Letter" case="upper" sortName="afrakG" />
+    <glyph name="H-fraktur" unicode="210C" production="uni210C" script="Black Letter" category="Letter" case="upper" sortName="afrakH" />
+    <glyph name="I-fraktur" unicode="2111" production="uni2111" script="Black Letter" category="Letter" case="upper" sortName="afrakI" />
+    <glyph name="J-fraktur" unicode="1D50D" production="u1D50D" script="Black Letter" category="Letter" case="upper" sortName="afrakJ" />
+    <glyph name="K-fraktur" unicode="1D50E" production="u1D50E" script="Black Letter" category="Letter" case="upper" sortName="afrakK" />
+    <glyph name="L-fraktur" unicode="1D50F" production="u1D50F" script="Black Letter" category="Letter" case="upper" sortName="afrakL" />
+    <glyph name="M-fraktur" unicode="1D510" production="u1D510" script="Black Letter" category="Letter" case="upper" sortName="afrakM" />
+    <glyph name="N-fraktur" unicode="1D511" production="u1D511" script="Black Letter" category="Letter" case="upper" sortName="afrakN" />
+    <glyph name="O-fraktur" unicode="1D512" production="u1D512" script="Black Letter" category="Letter" case="upper" sortName="afrakO" />
+    <glyph name="P-fraktur" unicode="1D513" production="u1D513" script="Black Letter" category="Letter" case="upper" sortName="afrakP" />
+    <glyph name="Q-fraktur" unicode="1D514" production="u1D514" script="Black Letter" category="Letter" case="upper" sortName="afrakQ" />
+    <glyph name="R-fraktur" unicode="211C" production="uni211C" script="Black Letter" category="Letter" case="upper" sortName="afrakR" />
+    <glyph name="S-fraktur" unicode="1D516" production="u1D516" script="Black Letter" category="Letter" case="upper" sortName="afrakS" />
+    <glyph name="T-fraktur" unicode="1D517" production="u1D517" script="Black Letter" category="Letter" case="upper" sortName="afrakT" />
+    <glyph name="U-fraktur" unicode="1D518" production="u1D518" script="Black Letter" category="Letter" case="upper" sortName="afrakU" />
+    <glyph name="V-fraktur" unicode="1D519" production="u1D519" script="Black Letter" category="Letter" case="upper" sortName="afrakV" />
+    <glyph name="W-fraktur" unicode="1D51A" production="u1D51A" script="Black Letter" category="Letter" case="upper" sortName="afrakW" />
+    <glyph name="X-fraktur" unicode="1D51B" production="u1D51B" script="Black Letter" category="Letter" case="upper" sortName="afrakX" />
+    <glyph name="Y-fraktur" unicode="1D51C" production="u1D51C" script="Black Letter" category="Letter" case="upper" sortName="afrakY" />
+    <glyph name="Z-fraktur" unicode="2128" production="uni2128" script="Black Letter" category="Letter" case="upper" sortName="afrakZ" />
+    <glyph name="ABold-fraktur" unicode="1D56C" production="u1D56C" script="Black Letter" category="Letter" case="upper" sortName="bfrakA" />
+    <glyph name="BBold-fraktur" unicode="1D56D" production="u1D56D" script="Black Letter" category="Letter" case="upper" sortName="bfrakB" />
+    <glyph name="CBold-fraktur" unicode="1D56E" production="u1D56E" script="Black Letter" category="Letter" case="upper" sortName="bfrakC" />
+    <glyph name="DBold-fraktur" unicode="1D56F" production="u1D56F" script="Black Letter" category="Letter" case="upper" sortName="bfrakD" />
+    <glyph name="EBold-fraktur" unicode="1D570" production="u1D570" script="Black Letter" category="Letter" case="upper" sortName="bfrakE" />
+    <glyph name="FBold-fraktur" unicode="1D571" production="u1D571" script="Black Letter" category="Letter" case="upper" sortName="bfrakF" />
+    <glyph name="GBold-fraktur" unicode="1D572" production="u1D572" script="Black Letter" category="Letter" case="upper" sortName="bfrakG" />
+    <glyph name="HBold-fraktur" unicode="1D573" production="u1D573" script="Black Letter" category="Letter" case="upper" sortName="bfrakH" />
+    <glyph name="IBold-fraktur" unicode="1D574" production="u1D574" script="Black Letter" category="Letter" case="upper" sortName="bfrakI" />
+    <glyph name="JBold-fraktur" unicode="1D575" production="u1D575" script="Black Letter" category="Letter" case="upper" sortName="bfrakJ" />
+    <glyph name="KBold-fraktur" unicode="1D576" production="u1D576" script="Black Letter" category="Letter" case="upper" sortName="bfrakK" />
+    <glyph name="LBold-fraktur" unicode="1D577" production="u1D577" script="Black Letter" category="Letter" case="upper" sortName="bfrakL" />
+    <glyph name="MBold-fraktur" unicode="1D578" production="u1D578" script="Black Letter" category="Letter" case="upper" sortName="bfrakM" />
+    <glyph name="NBold-fraktur" unicode="1D579" production="u1D579" script="Black Letter" category="Letter" case="upper" sortName="bfrakN" />
+    <glyph name="OBold-fraktur" unicode="1D57A" production="u1D57A" script="Black Letter" category="Letter" case="upper" sortName="bfrakO" />
+    <glyph name="PBold-fraktur" unicode="1D57B" production="u1D57B" script="Black Letter" category="Letter" case="upper" sortName="bfrakP" />
+    <glyph name="QBold-fraktur" unicode="1D57C" production="u1D57C" script="Black Letter" category="Letter" case="upper" sortName="bfrakQ" />
+    <glyph name="RBold-fraktur" unicode="1D57D" production="u1D57D" script="Black Letter" category="Letter" case="upper" sortName="bfrakR" />
+    <glyph name="SBold-fraktur" unicode="1D57E" production="u1D57E" script="Black Letter" category="Letter" case="upper" sortName="bfrakS" />
+    <glyph name="TBold-fraktur" unicode="1D57F" production="u1D57F" script="Black Letter" category="Letter" case="upper" sortName="bfrakT" />
+    <glyph name="UBold-fraktur" unicode="1D580" production="u1D580" script="Black Letter" category="Letter" case="upper" sortName="bfrakU" />
+    <glyph name="VBold-fraktur" unicode="1D581" production="u1D581" script="Black Letter" category="Letter" case="upper" sortName="bfrakV" />
+    <glyph name="WBold-fraktur" unicode="1D582" production="u1D582" script="Black Letter" category="Letter" case="upper" sortName="bfrakW" />
+    <glyph name="XBold-fraktur" unicode="1D583" production="u1D583" script="Black Letter" category="Letter" case="upper" sortName="bfrakX" />
+    <glyph name="YBold-fraktur" unicode="1D584" production="u1D584" script="Black Letter" category="Letter" case="upper" sortName="bfrakY" />
+    <glyph name="ZBold-fraktur" unicode="1D585" production="u1D585" script="Black Letter" category="Letter" case="upper" sortName="bfrakZ" />
+    <glyph name="a-fraktur" unicode="1D51E" production="u1D51E" script="Black Letter" category="Letter" case="lower" sortName="afraka" />
+    <glyph name="b-fraktur" unicode="1D51F" production="u1D51F" script="Black Letter" category="Letter" case="lower" sortName="afrakb" />
+    <glyph name="c-fraktur" unicode="1D520" production="u1D520" script="Black Letter" category="Letter" case="lower" sortName="afrakc" />
+    <glyph name="d-fraktur" unicode="1D521" production="u1D521" script="Black Letter" category="Letter" case="lower" sortName="afrakd" />
+    <glyph name="e-fraktur" unicode="1D522" production="u1D522" script="Black Letter" category="Letter" case="lower" sortName="afrake" />
+    <glyph name="f-fraktur" unicode="1D523" production="u1D523" script="Black Letter" category="Letter" case="lower" sortName="afrakf" />
+    <glyph name="g-fraktur" unicode="1D524" production="u1D524" script="Black Letter" category="Letter" case="lower" sortName="afrakg" />
+    <glyph name="h-fraktur" unicode="1D525" production="u1D525" script="Black Letter" category="Letter" case="lower" sortName="afrakh" />
+    <glyph name="i-fraktur" unicode="1D526" production="u1D526" script="Black Letter" category="Letter" case="lower" sortName="afraki" />
+    <glyph name="j-fraktur" unicode="1D527" production="u1D527" script="Black Letter" category="Letter" case="lower" sortName="afrakj" />
+    <glyph name="k-fraktur" unicode="1D528" production="u1D528" script="Black Letter" category="Letter" case="lower" sortName="afrakk" />
+    <glyph name="l-fraktur" unicode="1D529" production="u1D529" script="Black Letter" category="Letter" case="lower" sortName="afrakl" />
+    <glyph name="m-fraktur" unicode="1D52A" production="u1D52A" script="Black Letter" category="Letter" case="lower" sortName="afrakm" />
+    <glyph name="n-fraktur" unicode="1D52B" production="u1D52B" script="Black Letter" category="Letter" case="lower" sortName="afrakn" />
+    <glyph name="o-fraktur" unicode="1D52C" production="u1D52C" script="Black Letter" category="Letter" case="lower" sortName="afrako" />
+    <glyph name="p-fraktur" unicode="1D52D" production="u1D52D" script="Black Letter" category="Letter" case="lower" sortName="afrakp" />
+    <glyph name="q-fraktur" unicode="1D52E" production="u1D52E" script="Black Letter" category="Letter" case="lower" sortName="afrakq" />
+    <glyph name="r-fraktur" unicode="1D52F" production="u1D52F" script="Black Letter" category="Letter" case="lower" sortName="afrakr" />
+    <glyph name="s-fraktur" unicode="1D530" production="u1D530" script="Black Letter" category="Letter" case="lower" sortName="afraks" />
+    <glyph name="t-fraktur" unicode="1D531" production="u1D531" script="Black Letter" category="Letter" case="lower" sortName="afrakt" />
+    <glyph name="u-fraktur" unicode="1D532" production="u1D532" script="Black Letter" category="Letter" case="lower" sortName="afraku" />
+    <glyph name="v-fraktur" unicode="1D533" production="u1D533" script="Black Letter" category="Letter" case="lower" sortName="afrakv" />
+    <glyph name="w-fraktur" unicode="1D534" production="u1D534" script="Black Letter" category="Letter" case="lower" sortName="afrakw" />
+    <glyph name="x-fraktur" unicode="1D535" production="u1D535" script="Black Letter" category="Letter" case="lower" sortName="afrakx" />
+    <glyph name="y-fraktur" unicode="1D536" production="u1D536" script="Black Letter" category="Letter" case="lower" sortName="afraky" />
+    <glyph name="z-fraktur" unicode="1D537" production="u1D537" script="Black Letter" category="Letter" case="lower" sortName="afrakz" />
+    <glyph name="aBold-fraktur" unicode="1D586" production="u1D586" script="Black Letter" category="Letter" case="lower" sortName="bfraka" />
+    <glyph name="bBold-fraktur" unicode="1D587" production="u1D587" script="Black Letter" category="Letter" case="lower" sortName="bfrakb" />
+    <glyph name="cBold-fraktur" unicode="1D588" production="u1D588" script="Black Letter" category="Letter" case="lower" sortName="bfrakc" />
+    <glyph name="dBold-fraktur" unicode="1D589" production="u1D589" script="Black Letter" category="Letter" case="lower" sortName="bfrakd" />
+    <glyph name="eBold-fraktur" unicode="1D58A" production="u1D58A" script="Black Letter" category="Letter" case="lower" sortName="bfrake" />
+    <glyph name="fBold-fraktur" unicode="1D58B" production="u1D58B" script="Black Letter" category="Letter" case="lower" sortName="bfrakf" />
+    <glyph name="gBold-fraktur" unicode="1D58C" production="u1D58C" script="Black Letter" category="Letter" case="lower" sortName="bfrakg" />
+    <glyph name="hBold-fraktur" unicode="1D58D" production="u1D58D" script="Black Letter" category="Letter" case="lower" sortName="bfrakh" />
+    <glyph name="iBold-fraktur" unicode="1D58E" production="u1D58E" script="Black Letter" category="Letter" case="lower" sortName="bfraki" />
+    <glyph name="jBold-fraktur" unicode="1D58F" production="u1D58F" script="Black Letter" category="Letter" case="lower" sortName="bfrakj" />
+    <glyph name="kBold-fraktur" unicode="1D590" production="u1D590" script="Black Letter" category="Letter" case="lower" sortName="bfrakk" />
+    <glyph name="lBold-fraktur" unicode="1D591" production="u1D591" script="Black Letter" category="Letter" case="lower" sortName="bfrakl" />
+    <glyph name="mBold-fraktur" unicode="1D592" production="u1D592" script="Black Letter" category="Letter" case="lower" sortName="bfrakm" />
+    <glyph name="nBold-fraktur" unicode="1D593" production="u1D593" script="Black Letter" category="Letter" case="lower" sortName="bfrakn" />
+    <glyph name="oBold-fraktur" unicode="1D594" production="u1D594" script="Black Letter" category="Letter" case="lower" sortName="bfrako" />
+    <glyph name="pBold-fraktur" unicode="1D595" production="u1D595" script="Black Letter" category="Letter" case="lower" sortName="bfrakp" />
+    <glyph name="qBold-fraktur" unicode="1D596" production="u1D596" script="Black Letter" category="Letter" case="lower" sortName="bfrakq" />
+    <glyph name="rBold-fraktur" unicode="1D597" production="u1D597" script="Black Letter" category="Letter" case="lower" sortName="bfrakr" />
+    <glyph name="sBold-fraktur" unicode="1D598" production="u1D598" script="Black Letter" category="Letter" case="lower" sortName="bfraks" />
+    <glyph name="tBold-fraktur" unicode="1D599" production="u1D599" script="Black Letter" category="Letter" case="lower" sortName="bfrakt" />
+    <glyph name="uBold-fraktur" unicode="1D59A" production="u1D59A" script="Black Letter" category="Letter" case="lower" sortName="bfraku" />
+    <glyph name="vBold-fraktur" unicode="1D59B" production="u1D59B" script="Black Letter" category="Letter" case="lower" sortName="bfrakv" />
+    <glyph name="wBold-fraktur" unicode="1D59C" production="u1D59C" script="Black Letter" category="Letter" case="lower" sortName="bfrakw" />
+    <glyph name="xBold-fraktur" unicode="1D59D" production="u1D59D" script="Black Letter" category="Letter" case="lower" sortName="bfrakx" />
+    <glyph name="yBold-fraktur" unicode="1D59E" production="u1D59E" script="Black Letter" category="Letter" case="lower" sortName="bfraky" />
+    <glyph name="zBold-fraktur" unicode="1D59F" production="u1D59F" script="Black Letter" category="Letter" case="lower" sortName="bfrakz" />
+
+    <glyph name="Asans-math" unicode="1D5A0" production="u1D5A0" script="Sans" category="Letter" case="upper" sortName="a1sansA" />
+    <glyph name="Bsans-math" unicode="1D5A1" production="u1D5A1" script="Sans" category="Letter" case="upper" sortName="a1sansB" />
+    <glyph name="Csans-math" unicode="1D5A2" production="u1D5A2" script="Sans" category="Letter" case="upper" sortName="a1sansC" />
+    <glyph name="Dsans-math" unicode="1D5A3" production="u1D5A3" script="Sans" category="Letter" case="upper" sortName="a1sansD" />
+    <glyph name="Esans-math" unicode="1D5A4" production="u1D5A4" script="Sans" category="Letter" case="upper" sortName="a1sansE" />
+    <glyph name="Fsans-math" unicode="1D5A5" production="u1D5A5" script="Sans" category="Letter" case="upper" sortName="a1sansF" />
+    <glyph name="Gsans-math" unicode="1D5A6" production="u1D5A6" script="Sans" category="Letter" case="upper" sortName="a1sansG" />
+    <glyph name="Hsans-math" unicode="1D5A7" production="u1D5A7" script="Sans" category="Letter" case="upper" sortName="a1sansH" />
+    <glyph name="Isans-math" unicode="1D5A8" production="u1D5A8" script="Sans" category="Letter" case="upper" sortName="a1sansI" />
+    <glyph name="Jsans-math" unicode="1D5A9" production="u1D5A9" script="Sans" category="Letter" case="upper" sortName="a1sansJ" />
+    <glyph name="Ksans-math" unicode="1D5AA" production="u1D5AA" script="Sans" category="Letter" case="upper" sortName="a1sansK" />
+    <glyph name="Lsans-math" unicode="1D5AB" production="u1D5AB" script="Sans" category="Letter" case="upper" sortName="a1sansL" />
+    <glyph name="Msans-math" unicode="1D5AC" production="u1D5AC" script="Sans" category="Letter" case="upper" sortName="a1sansM" />
+    <glyph name="Nsans-math" unicode="1D5AD" production="u1D5AD" script="Sans" category="Letter" case="upper" sortName="a1sansN" />
+    <glyph name="Osans-math" unicode="1D5AE" production="u1D5AE" script="Sans" category="Letter" case="upper" sortName="a1sansO" />
+    <glyph name="Psans-math" unicode="1D5AF" production="u1D5AF" script="Sans" category="Letter" case="upper" sortName="a1sansP" />
+    <glyph name="Qsans-math" unicode="1D5B0" production="u1D5B0" script="Sans" category="Letter" case="upper" sortName="a1sansQ" />
+    <glyph name="Rsans-math" unicode="1D5B1" production="u1D5B1" script="Sans" category="Letter" case="upper" sortName="a1sansR" />
+    <glyph name="Ssans-math" unicode="1D5B2" production="u1D5B2" script="Sans" category="Letter" case="upper" sortName="a1sansS" />
+    <glyph name="Tsans-math" unicode="1D5B3" production="u1D5B3" script="Sans" category="Letter" case="upper" sortName="a1sansT" />
+    <glyph name="Usans-math" unicode="1D5B4" production="u1D5B4" script="Sans" category="Letter" case="upper" sortName="a1sansU" />
+    <glyph name="Vsans-math" unicode="1D5B5" production="u1D5B5" script="Sans" category="Letter" case="upper" sortName="a1sansV" />
+    <glyph name="Wsans-math" unicode="1D5B6" production="u1D5B6" script="Sans" category="Letter" case="upper" sortName="a1sansW" />
+    <glyph name="Xsans-math" unicode="1D5B7" production="u1D5B7" script="Sans" category="Letter" case="upper" sortName="a1sansX" />
+    <glyph name="Ysans-math" unicode="1D5B8" production="u1D5B8" script="Sans" category="Letter" case="upper" sortName="a1sansY" />
+    <glyph name="Zsans-math" unicode="1D5B9" production="u1D5B9" script="Sans" category="Letter" case="upper" sortName="a1sansZ" />
+    <glyph name="Asansitalic-math" unicode="1D608" unicode2="1D434" production="u1D608" script="Sans" category="Letter" case="upper" sortName="a2sansA" />
+    <glyph name="Bsansitalic-math" unicode="1D609" unicode2="1D435" production="u1D609" script="Sans" category="Letter" case="upper" sortName="a2sansB" />
+    <glyph name="Csansitalic-math" unicode="1D60A" unicode2="1D436" production="u1D60A" script="Sans" category="Letter" case="upper" sortName="a2sansC" />
+    <glyph name="Dsansitalic-math" unicode="1D60B" unicode2="1D437" production="u1D60B" script="Sans" category="Letter" case="upper" sortName="a2sansD" />
+    <glyph name="Esansitalic-math" unicode="1D60C" unicode2="1D438" production="u1D60C" script="Sans" category="Letter" case="upper" sortName="a2sansE" />
+    <glyph name="Fsansitalic-math" unicode="1D60D" unicode2="1D439" production="u1D60D" script="Sans" category="Letter" case="upper" sortName="a2sansF" />
+    <glyph name="Gsansitalic-math" unicode="1D60E" unicode2="1D43A" production="u1D60E" script="Sans" category="Letter" case="upper" sortName="a2sansG" />
+    <glyph name="Hsansitalic-math" unicode="1D60F" unicode2="1D43B" production="u1D60F" script="Sans" category="Letter" case="upper" sortName="a2sansH" />
+    <glyph name="Isansitalic-math" unicode="1D610" unicode2="1D43C" production="u1D610" script="Sans" category="Letter" case="upper" sortName="a2sansI" />
+    <glyph name="Jsansitalic-math" unicode="1D611" unicode2="1D43D" production="u1D611" script="Sans" category="Letter" case="upper" sortName="a2sansJ" />
+    <glyph name="Ksansitalic-math" unicode="1D612" unicode2="1D43E" production="u1D612" script="Sans" category="Letter" case="upper" sortName="a2sansK" />
+    <glyph name="Lsansitalic-math" unicode="1D613" unicode2="1D43F" production="u1D613" script="Sans" category="Letter" case="upper" sortName="a2sansL" />
+    <glyph name="Msansitalic-math" unicode="1D614" unicode2="1D440" production="u1D614" script="Sans" category="Letter" case="upper" sortName="a2sansM" />
+    <glyph name="Nsansitalic-math" unicode="1D615" unicode2="1D441" production="u1D615" script="Sans" category="Letter" case="upper" sortName="a2sansN" />
+    <glyph name="Osansitalic-math" unicode="1D616" unicode2="1D442" production="u1D616" script="Sans" category="Letter" case="upper" sortName="a2sansO" />
+    <glyph name="Psansitalic-math" unicode="1D617" unicode2="1D443" production="u1D617" script="Sans" category="Letter" case="upper" sortName="a2sansP" />
+    <glyph name="Qsansitalic-math" unicode="1D618" unicode2="1D444" production="u1D618" script="Sans" category="Letter" case="upper" sortName="a2sansQ" />
+    <glyph name="Rsansitalic-math" unicode="1D619" unicode2="1D445" production="u1D619" script="Sans" category="Letter" case="upper" sortName="a2sansR" />
+    <glyph name="Ssansitalic-math" unicode="1D61A" unicode2="1D446" production="u1D61A" script="Sans" category="Letter" case="upper" sortName="a2sansS" />
+    <glyph name="Tsansitalic-math" unicode="1D61B" unicode2="1D447" production="u1D61B" script="Sans" category="Letter" case="upper" sortName="a2sansT" />
+    <glyph name="Usansitalic-math" unicode="1D61C" unicode2="1D448" production="u1D61C" script="Sans" category="Letter" case="upper" sortName="a2sansU" />
+    <glyph name="Vsansitalic-math" unicode="1D61D" unicode2="1D449" production="u1D61D" script="Sans" category="Letter" case="upper" sortName="a2sansV" />
+    <glyph name="Wsansitalic-math" unicode="1D61E" unicode2="1D44A" production="u1D61E" script="Sans" category="Letter" case="upper" sortName="a2sansW" />
+    <glyph name="Xsansitalic-math" unicode="1D61F" unicode2="1D44B" production="u1D61F" script="Sans" category="Letter" case="upper" sortName="a2sansX" />
+    <glyph name="Ysansitalic-math" unicode="1D620" unicode2="1D44C" production="u1D620" script="Sans" category="Letter" case="upper" sortName="a2sansY" />
+    <glyph name="Zsansitalic-math" unicode="1D621" unicode2="1D44D" production="u1D621" script="Sans" category="Letter" case="upper" sortName="a2sansZ" />
+    <glyph name="Asansbold-math" unicode="1D5D4" unicode2="1D400" production="u1D5D4" script="Sans" category="Letter" case="upper" sortName="a3sansA" />
+    <glyph name="Bsansbold-math" unicode="1D5D5" unicode2="1D401" production="u1D5D5" script="Sans" category="Letter" case="upper" sortName="a3sansB" />
+    <glyph name="Csansbold-math" unicode="1D5D6" unicode2="1D402" production="u1D5D6" script="Sans" category="Letter" case="upper" sortName="a3sansC" />
+    <glyph name="Dsansbold-math" unicode="1D5D7" unicode2="1D403" production="u1D5D7" script="Sans" category="Letter" case="upper" sortName="a3sansD" />
+    <glyph name="Esansbold-math" unicode="1D5D8" unicode2="1D404" production="u1D5D8" script="Sans" category="Letter" case="upper" sortName="a3sansE" />
+    <glyph name="Fsansbold-math" unicode="1D5D9" unicode2="1D405" production="u1D5D9" script="Sans" category="Letter" case="upper" sortName="a3sansF" />
+    <glyph name="Gsansbold-math" unicode="1D5DA" unicode2="1D406" production="u1D5DA" script="Sans" category="Letter" case="upper" sortName="a3sansG" />
+    <glyph name="Hsansbold-math" unicode="1D5DB" unicode2="1D407" production="u1D5DB" script="Sans" category="Letter" case="upper" sortName="a3sansH" />
+    <glyph name="Isansbold-math" unicode="1D5DC" unicode2="1D408" production="u1D5DC" script="Sans" category="Letter" case="upper" sortName="a3sansI" />
+    <glyph name="Jsansbold-math" unicode="1D5DD" unicode2="1D409" production="u1D5DD" script="Sans" category="Letter" case="upper" sortName="a3sansJ" />
+    <glyph name="Ksansbold-math" unicode="1D5DE" unicode2="1D40A" production="u1D5DE" script="Sans" category="Letter" case="upper" sortName="a3sansK" />
+    <glyph name="Lsansbold-math" unicode="1D5DF" unicode2="1D40B" production="u1D5DF" script="Sans" category="Letter" case="upper" sortName="a3sansL" />
+    <glyph name="Msansbold-math" unicode="1D5E0" unicode2="1D40C" production="u1D5E0" script="Sans" category="Letter" case="upper" sortName="a3sansM" />
+    <glyph name="Nsansbold-math" unicode="1D5E1" unicode2="1D40D" production="u1D5E1" script="Sans" category="Letter" case="upper" sortName="a3sansN" />
+    <glyph name="Osansbold-math" unicode="1D5E2" unicode2="1D40E" production="u1D5E2" script="Sans" category="Letter" case="upper" sortName="a3sansO" />
+    <glyph name="Psansbold-math" unicode="1D5E3" unicode2="1D40F" production="u1D5E3" script="Sans" category="Letter" case="upper" sortName="a3sansP" />
+    <glyph name="Qsansbold-math" unicode="1D5E4" unicode2="1D410" production="u1D5E4" script="Sans" category="Letter" case="upper" sortName="a3sansQ" />
+    <glyph name="Rsansbold-math" unicode="1D5E5" unicode2="1D411" production="u1D5E5" script="Sans" category="Letter" case="upper" sortName="a3sansR" />
+    <glyph name="Ssansbold-math" unicode="1D5E6" unicode2="1D412" production="u1D5E6" script="Sans" category="Letter" case="upper" sortName="a3sansS" />
+    <glyph name="Tsansbold-math" unicode="1D5E7" unicode2="1D413" production="u1D5E7" script="Sans" category="Letter" case="upper" sortName="a3sansT" />
+    <glyph name="Usansbold-math" unicode="1D5E8" unicode2="1D414" production="u1D5E8" script="Sans" category="Letter" case="upper" sortName="a3sansU" />
+    <glyph name="Vsansbold-math" unicode="1D5E9" unicode2="1D415" production="u1D5E9" script="Sans" category="Letter" case="upper" sortName="a3sansV" />
+    <glyph name="Wsansbold-math" unicode="1D5EA" unicode2="1D416" production="u1D5EA" script="Sans" category="Letter" case="upper" sortName="a3sansW" />
+    <glyph name="Xsansbold-math" unicode="1D5EB" unicode2="1D417" production="u1D5EB" script="Sans" category="Letter" case="upper" sortName="a3sansX" />
+    <glyph name="Ysansbold-math" unicode="1D5EC" unicode2="1D418" production="u1D5EC" script="Sans" category="Letter" case="upper" sortName="a3sansY" />
+    <glyph name="Zsansbold-math" unicode="1D5ED" unicode2="1D419" production="u1D5ED" script="Sans" category="Letter" case="upper" sortName="a3sansZ" />
+    <glyph name="Asansbolditalic-math" unicode="1D63C" unicode2="1D468" production="u1D63C" script="Sans" category="Letter" case="upper" sortName="a4sansA" />
+    <glyph name="Bsansbolditalic-math" unicode="1D63D" unicode2="1D469" production="u1D63D" script="Sans" category="Letter" case="upper" sortName="a4sansB" />
+    <glyph name="Csansbolditalic-math" unicode="1D63E" unicode2="1D46A" production="u1D63E" script="Sans" category="Letter" case="upper" sortName="a4sansC" />
+    <glyph name="Dsansbolditalic-math" unicode="1D63F" unicode2="1D46B" production="u1D63F" script="Sans" category="Letter" case="upper" sortName="a4sansD" />
+    <glyph name="Esansbolditalic-math" unicode="1D640" unicode2="1D46C" production="u1D640" script="Sans" category="Letter" case="upper" sortName="a4sansE" />
+    <glyph name="Fsansbolditalic-math" unicode="1D641" unicode2="1D46D" production="u1D641" script="Sans" category="Letter" case="upper" sortName="a4sansF" />
+    <glyph name="Gsansbolditalic-math" unicode="1D642" unicode2="1D46E" production="u1D642" script="Sans" category="Letter" case="upper" sortName="a4sansG" />
+    <glyph name="Hsansbolditalic-math" unicode="1D643" unicode2="1D46F" production="u1D643" script="Sans" category="Letter" case="upper" sortName="a4sansH" />
+    <glyph name="Isansbolditalic-math" unicode="1D644" unicode2="1D470" production="u1D644" script="Sans" category="Letter" case="upper" sortName="a4sansI" />
+    <glyph name="Jsansbolditalic-math" unicode="1D645" unicode2="1D471" production="u1D645" script="Sans" category="Letter" case="upper" sortName="a4sansJ" />
+    <glyph name="Ksansbolditalic-math" unicode="1D646" unicode2="1D472" production="u1D646" script="Sans" category="Letter" case="upper" sortName="a4sansK" />
+    <glyph name="Lsansbolditalic-math" unicode="1D647" unicode2="1D473" production="u1D647" script="Sans" category="Letter" case="upper" sortName="a4sansL" />
+    <glyph name="Msansbolditalic-math" unicode="1D648" unicode2="1D474" production="u1D648" script="Sans" category="Letter" case="upper" sortName="a4sansM" />
+    <glyph name="Nsansbolditalic-math" unicode="1D649" unicode2="1D475" production="u1D649" script="Sans" category="Letter" case="upper" sortName="a4sansN" />
+    <glyph name="Osansbolditalic-math" unicode="1D64A" unicode2="1D476" production="u1D64A" script="Sans" category="Letter" case="upper" sortName="a4sansO" />
+    <glyph name="Psansbolditalic-math" unicode="1D64B" unicode2="1D477" production="u1D64B" script="Sans" category="Letter" case="upper" sortName="a4sansP" />
+    <glyph name="Qsansbolditalic-math" unicode="1D64C" unicode2="1D478" production="u1D64C" script="Sans" category="Letter" case="upper" sortName="a4sansQ" />
+    <glyph name="Rsansbolditalic-math" unicode="1D64D" unicode2="1D479" production="u1D64D" script="Sans" category="Letter" case="upper" sortName="a4sansR" />
+    <glyph name="Ssansbolditalic-math" unicode="1D64E" unicode2="1D47A" production="u1D64E" script="Sans" category="Letter" case="upper" sortName="a4sansS" />
+    <glyph name="Tsansbolditalic-math" unicode="1D64F" unicode2="1D47B" production="u1D64F" script="Sans" category="Letter" case="upper" sortName="a4sansT" />
+    <glyph name="Usansbolditalic-math" unicode="1D650" unicode2="1D47C" production="u1D650" script="Sans" category="Letter" case="upper" sortName="a4sansU" />
+    <glyph name="Vsansbolditalic-math" unicode="1D651" unicode2="1D47D" production="u1D651" script="Sans" category="Letter" case="upper" sortName="a4sansV" />
+    <glyph name="Wsansbolditalic-math" unicode="1D652" unicode2="1D47E" production="u1D652" script="Sans" category="Letter" case="upper" sortName="a4sansW" />
+    <glyph name="Xsansbolditalic-math" unicode="1D653" unicode2="1D47F" production="u1D653" script="Sans" category="Letter" case="upper" sortName="a4sansX" />
+    <glyph name="Ysansbolditalic-math" unicode="1D654" unicode2="1D480" production="u1D654" script="Sans" category="Letter" case="upper" sortName="a4sansY" />
+    <glyph name="Zsansbolditalic-math" unicode="1D655" unicode2="1D481" production="u1D655" script="Sans" category="Letter" case="upper" sortName="a4sansZ" />
+    <glyph name="asans-math" unicode="1D5BA" production="u1D5BA" script="Sans" category="Letter" case="lower" sortName="a1sansa" />
+    <glyph name="bsans-math" unicode="1D5BB" production="u1D5BB" script="Sans" category="Letter" case="lower" sortName="a1sansb" />
+    <glyph name="csans-math" unicode="1D5BC" production="u1D5BC" script="Sans" category="Letter" case="lower" sortName="a1sansc" />
+    <glyph name="dsans-math" unicode="1D5BD" production="u1D5BD" script="Sans" category="Letter" case="lower" sortName="a1sansd" />
+    <glyph name="esans-math" unicode="1D5BE" production="u1D5BE" script="Sans" category="Letter" case="lower" sortName="a1sanse" />
+    <glyph name="fsans-math" unicode="1D5BF" production="u1D5BF" script="Sans" category="Letter" case="lower" sortName="a1sansf" />
+    <glyph name="gsans-math" unicode="1D5C0" production="u1D5C0" script="Sans" category="Letter" case="lower" sortName="a1sansg" />
+    <glyph name="hsans-math" unicode="1D5C1" production="u1D5C1" script="Sans" category="Letter" case="lower" sortName="a1sansh" />
+    <glyph name="isans-math" unicode="1D5C2" production="u1D5C2" script="Sans" category="Letter" case="lower" sortName="a1sansi" />
+    <glyph name="jsans-math" unicode="1D5C3" production="u1D5C3" script="Sans" category="Letter" case="lower" sortName="a1sansj" />
+    <glyph name="ksans-math" unicode="1D5C4" production="u1D5C4" script="Sans" category="Letter" case="lower" sortName="a1sansk" />
+    <glyph name="lsans-math" unicode="1D5C5" production="u1D5C5" script="Sans" category="Letter" case="lower" sortName="a1sansl" />
+    <glyph name="msans-math" unicode="1D5C6" production="u1D5C6" script="Sans" category="Letter" case="lower" sortName="a1sansm" />
+    <glyph name="nsans-math" unicode="1D5C7" production="u1D5C7" script="Sans" category="Letter" case="lower" sortName="a1sansn" />
+    <glyph name="osans-math" unicode="1D5C8" production="u1D5C8" script="Sans" category="Letter" case="lower" sortName="a1sanso" />
+    <glyph name="psans-math" unicode="1D5C9" production="u1D5C9" script="Sans" category="Letter" case="lower" sortName="a1sansp" />
+    <glyph name="qsans-math" unicode="1D5CA" production="u1D5CA" script="Sans" category="Letter" case="lower" sortName="a1sansq" />
+    <glyph name="rsans-math" unicode="1D5CB" production="u1D5CB" script="Sans" category="Letter" case="lower" sortName="a1sansr" />
+    <glyph name="ssans-math" unicode="1D5CC" production="u1D5CC" script="Sans" category="Letter" case="lower" sortName="a1sanss" />
+    <glyph name="tsans-math" unicode="1D5CD" production="u1D5CD" script="Sans" category="Letter" case="lower" sortName="a1sanst" />
+    <glyph name="usans-math" unicode="1D5CE" production="u1D5CE" script="Sans" category="Letter" case="lower" sortName="a1sansu" />
+    <glyph name="vsans-math" unicode="1D5CF" production="u1D5CF" script="Sans" category="Letter" case="lower" sortName="a1sansv" />
+    <glyph name="wsans-math" unicode="1D5D0" production="u1D5D0" script="Sans" category="Letter" case="lower" sortName="a1sansw" />
+    <glyph name="xsans-math" unicode="1D5D1" production="u1D5D1" script="Sans" category="Letter" case="lower" sortName="a1sansx" />
+    <glyph name="ysans-math" unicode="1D5D2" production="u1D5D2" script="Sans" category="Letter" case="lower" sortName="a1sansy" />
+    <glyph name="zsans-math" unicode="1D5D3" production="u1D5D3" script="Sans" category="Letter" case="lower" sortName="a1sansz" />
+    <glyph name="asansitalic-math" unicode="1D622" unicode2="1D44E" production="u1D622" script="Sans" category="Letter" case="lower" sortName="a2sansa" />
+    <glyph name="bsansitalic-math" unicode="1D623" unicode2="1D44F" production="u1D623" script="Sans" category="Letter" case="lower" sortName="a2sansb" />
+    <glyph name="csansitalic-math" unicode="1D624" unicode2="1D450" production="u1D624" script="Sans" category="Letter" case="lower" sortName="a2sansc" />
+    <glyph name="dsansitalic-math" unicode="1D625" unicode2="1D451" production="u1D625" script="Sans" category="Letter" case="lower" sortName="a2sansd" />
+    <glyph name="esansitalic-math" unicode="1D626" unicode2="1D452" production="u1D626" script="Sans" category="Letter" case="lower" sortName="a2sanse" />
+    <glyph name="fsansitalic-math" unicode="1D627" unicode2="1D453" production="u1D627" script="Sans" category="Letter" case="lower" sortName="a2sansf" />
+    <glyph name="gsansitalic-math" unicode="1D628" unicode2="1D454" production="u1D628" script="Sans" category="Letter" case="lower" sortName="a2sansg" />
+    <glyph name="hsansitalic-math" unicode="1D629" unicode2="210E" production="u1D629" script="Sans" category="Letter" case="lower" sortName="a2sansh" />
+    <glyph name="isansitalic-math" unicode="1D62A" unicode2="1D456" production="u1D62A" script="Sans" category="Letter" case="lower" sortName="a2sansi" />
+    <glyph name="jsansitalic-math" unicode="1D62B" unicode2="1D457" production="u1D62B" script="Sans" category="Letter" case="lower" sortName="a2sansj" />
+    <glyph name="ksansitalic-math" unicode="1D62C" unicode2="1D458" production="u1D62C" script="Sans" category="Letter" case="lower" sortName="a2sansk" />
+    <glyph name="lsansitalic-math" unicode="1D62D" unicode2="1D459" production="u1D62D" script="Sans" category="Letter" case="lower" sortName="a2sansl" />
+    <glyph name="msansitalic-math" unicode="1D62E" unicode2="1D45A" production="u1D62E" script="Sans" category="Letter" case="lower" sortName="a2sansm" />
+    <glyph name="nsansitalic-math" unicode="1D62F" unicode2="1D45B" production="u1D62F" script="Sans" category="Letter" case="lower" sortName="a2sansn" />
+    <glyph name="osansitalic-math" unicode="1D630" unicode2="1D45C" production="u1D630" script="Sans" category="Letter" case="lower" sortName="a2sanso" />
+    <glyph name="psansitalic-math" unicode="1D631" unicode2="1D45D" production="u1D631" script="Sans" category="Letter" case="lower" sortName="a2sansp" />
+    <glyph name="qsansitalic-math" unicode="1D632" unicode2="1D45E" production="u1D632" script="Sans" category="Letter" case="lower" sortName="a2sansq" />
+    <glyph name="rsansitalic-math" unicode="1D633" unicode2="1D45F" production="u1D633" script="Sans" category="Letter" case="lower" sortName="a2sansr" />
+    <glyph name="ssansitalic-math" unicode="1D634" unicode2="1D460" production="u1D634" script="Sans" category="Letter" case="lower" sortName="a2sanss" />
+    <glyph name="tsansitalic-math" unicode="1D635" unicode2="1D461" production="u1D635" script="Sans" category="Letter" case="lower" sortName="a2sanst" />
+    <glyph name="usansitalic-math" unicode="1D636" unicode2="1D462" production="u1D636" script="Sans" category="Letter" case="lower" sortName="a2sansu" />
+    <glyph name="vsansitalic-math" unicode="1D637" unicode2="1D463" production="u1D637" script="Sans" category="Letter" case="lower" sortName="a2sansv" />
+    <glyph name="wsansitalic-math" unicode="1D638" unicode2="1D464" production="u1D638" script="Sans" category="Letter" case="lower" sortName="a2sansw" />
+    <glyph name="xsansitalic-math" unicode="1D639" unicode2="1D465" production="u1D639" script="Sans" category="Letter" case="lower" sortName="a2sansx" />
+    <glyph name="ysansitalic-math" unicode="1D63A" unicode2="1D466" production="u1D63A" script="Sans" category="Letter" case="lower" sortName="a2sansy" />
+    <glyph name="zsansitalic-math" unicode="1D63B" unicode2="1D467" production="u1D63B" script="Sans" category="Letter" case="lower" sortName="a2sansz" />
+    <glyph name="asansbold-math" unicode="1D5EE" unicode2="1D41A" production="u1D5EE" script="Sans" category="Letter" case="lower" sortName="a3sansa" />
+    <glyph name="bsansbold-math" unicode="1D5EF" unicode2="1D41B" production="u1D5EF" script="Sans" category="Letter" case="lower" sortName="a3sansb" />
+    <glyph name="csansbold-math" unicode="1D5F0" unicode2="1D41C" production="u1D5F0" script="Sans" category="Letter" case="lower" sortName="a3sansc" />
+    <glyph name="dsansbold-math" unicode="1D5F1" unicode2="1D41D" production="u1D5F1" script="Sans" category="Letter" case="lower" sortName="a3sansd" />
+    <glyph name="esansbold-math" unicode="1D5F2" unicode2="1D41E" production="u1D5F2" script="Sans" category="Letter" case="lower" sortName="a3sanse" />
+    <glyph name="fsansbold-math" unicode="1D5F3" unicode2="1D41F" production="u1D5F3" script="Sans" category="Letter" case="lower" sortName="a3sansf" />
+    <glyph name="gsansbold-math" unicode="1D5F4" unicode2="1D420" production="u1D5F4" script="Sans" category="Letter" case="lower" sortName="a3sansg" />
+    <glyph name="hsansbold-math" unicode="1D5F5" unicode2="1D421" production="u1D5F5" script="Sans" category="Letter" case="lower" sortName="a3sansh" />
+    <glyph name="isansbold-math" unicode="1D5F6" unicode2="1D422" production="u1D5F6" script="Sans" category="Letter" case="lower" sortName="a3sansi" />
+    <glyph name="jsansbold-math" unicode="1D5F7" unicode2="1D423" production="u1D5F7" script="Sans" category="Letter" case="lower" sortName="a3sansj" />
+    <glyph name="ksansbold-math" unicode="1D5F8" unicode2="1D424" production="u1D5F8" script="Sans" category="Letter" case="lower" sortName="a3sansk" />
+    <glyph name="lsansbold-math" unicode="1D5F9" unicode2="1D425" production="u1D5F9" script="Sans" category="Letter" case="lower" sortName="a3sansl" />
+    <glyph name="msansbold-math" unicode="1D5FA" unicode2="1D426" production="u1D5FA" script="Sans" category="Letter" case="lower" sortName="a3sansm" />
+    <glyph name="nsansbold-math" unicode="1D5FB" unicode2="1D427" production="u1D5FB" script="Sans" category="Letter" case="lower" sortName="a3sansn" />
+    <glyph name="osansbold-math" unicode="1D5FC" unicode2="1D428" production="u1D5FC" script="Sans" category="Letter" case="lower" sortName="a3sanso" />
+    <glyph name="psansbold-math" unicode="1D5FD" unicode2="1D429" production="u1D5FD" script="Sans" category="Letter" case="lower" sortName="a3sansp" />
+    <glyph name="qsansbold-math" unicode="1D5FE" unicode2="1D42A" production="u1D5FE" script="Sans" category="Letter" case="lower" sortName="a3sansq" />
+    <glyph name="rsansbold-math" unicode="1D5FF" unicode2="1D42B" production="u1D5FF" script="Sans" category="Letter" case="lower" sortName="a3sansr" />
+    <glyph name="ssansbold-math" unicode="1D600" unicode2="1D42C" production="u1D600" script="Sans" category="Letter" case="lower" sortName="a3sanss" />
+    <glyph name="tsansbold-math" unicode="1D601" unicode2="1D42D" production="u1D601" script="Sans" category="Letter" case="lower" sortName="a3sanst" />
+    <glyph name="usansbold-math" unicode="1D602" unicode2="1D42E" production="u1D602" script="Sans" category="Letter" case="lower" sortName="a3sansu" />
+    <glyph name="vsansbold-math" unicode="1D603" unicode2="1D42F" production="u1D603" script="Sans" category="Letter" case="lower" sortName="a3sansv" />
+    <glyph name="wsansbold-math" unicode="1D604" unicode2="1D430" production="u1D604" script="Sans" category="Letter" case="lower" sortName="a3sansw" />
+    <glyph name="xsansbold-math" unicode="1D605" unicode2="1D431" production="u1D605" script="Sans" category="Letter" case="lower" sortName="a3sansx" />
+    <glyph name="ysansbold-math" unicode="1D606" unicode2="1D432" production="u1D606" script="Sans" category="Letter" case="lower" sortName="a3sansy" />
+    <glyph name="zsansbold-math" unicode="1D607" unicode2="1D433" production="u1D607" script="Sans" category="Letter" case="lower" sortName="a3sansz" />
+    <glyph name="asansbolditalic-math" unicode="1D656" unicode2="1D482" production="u1D656" script="Sans" category="Letter" case="lower" sortName="a4sansa" />
+    <glyph name="bsansbolditalic-math" unicode="1D657" unicode2="1D483" production="u1D657" script="Sans" category="Letter" case="lower" sortName="a4sansb" />
+    <glyph name="csansbolditalic-math" unicode="1D658" unicode2="1D484" production="u1D658" script="Sans" category="Letter" case="lower" sortName="a4sansc" />
+    <glyph name="dsansbolditalic-math" unicode="1D659" unicode2="1D485" production="u1D659" script="Sans" category="Letter" case="lower" sortName="a4sansd" />
+    <glyph name="esansbolditalic-math" unicode="1D65A" unicode2="1D486" production="u1D65A" script="Sans" category="Letter" case="lower" sortName="a4sanse" />
+    <glyph name="fsansbolditalic-math" unicode="1D65B" unicode2="1D487" production="u1D65B" script="Sans" category="Letter" case="lower" sortName="a4sansf" />
+    <glyph name="gsansbolditalic-math" unicode="1D65C" unicode2="1D488" production="u1D65C" script="Sans" category="Letter" case="lower" sortName="a4sansg" />
+    <glyph name="hsansbolditalic-math" unicode="1D65D" unicode2="1D489" production="u1D65D" script="Sans" category="Letter" case="lower" sortName="a4sansh" />
+    <glyph name="isansbolditalic-math" unicode="1D65E" unicode2="1D48A" production="u1D65E" script="Sans" category="Letter" case="lower" sortName="a4sansi" />
+    <glyph name="jsansbolditalic-math" unicode="1D65F" unicode2="1D48B" production="u1D65F" script="Sans" category="Letter" case="lower" sortName="a4sansj" />
+    <glyph name="ksansbolditalic-math" unicode="1D660" unicode2="1D48C" production="u1D660" script="Sans" category="Letter" case="lower" sortName="a4sansk" />
+    <glyph name="lsansbolditalic-math" unicode="1D661" unicode2="1D48D" production="u1D661" script="Sans" category="Letter" case="lower" sortName="a4sansl" />
+    <glyph name="msansbolditalic-math" unicode="1D662" unicode2="1D48E" production="u1D662" script="Sans" category="Letter" case="lower" sortName="a4sansm" />
+    <glyph name="nsansbolditalic-math" unicode="1D663" unicode2="1D48F" production="u1D663" script="Sans" category="Letter" case="lower" sortName="a4sansn" />
+    <glyph name="osansbolditalic-math" unicode="1D664" unicode2="1D490" production="u1D664" script="Sans" category="Letter" case="lower" sortName="a4sanso" />
+    <glyph name="psansbolditalic-math" unicode="1D665" unicode2="1D491" production="u1D665" script="Sans" category="Letter" case="lower" sortName="a4sansp" />
+    <glyph name="qsansbolditalic-math" unicode="1D666" unicode2="1D492" production="u1D666" script="Sans" category="Letter" case="lower" sortName="a4sansq" />
+    <glyph name="rsansbolditalic-math" unicode="1D667" unicode2="1D493" production="u1D667" script="Sans" category="Letter" case="lower" sortName="a4sansr" />
+    <glyph name="ssansbolditalic-math" unicode="1D668" unicode2="1D494" production="u1D668" script="Sans" category="Letter" case="lower" sortName="a4sanss" />
+    <glyph name="tsansbolditalic-math" unicode="1D669" unicode2="1D495" production="u1D669" script="Sans" category="Letter" case="lower" sortName="a4sanst" />
+    <glyph name="usansbolditalic-math" unicode="1D66A" unicode2="1D496" production="u1D66A" script="Sans" category="Letter" case="lower" sortName="a4sansu" />
+    <glyph name="vsansbolditalic-math" unicode="1D66B" unicode2="1D497" production="u1D66B" script="Sans" category="Letter" case="lower" sortName="a4sansv" />
+    <glyph name="wsansbolditalic-math" unicode="1D66C" unicode2="1D498" production="u1D66C" script="Sans" category="Letter" case="lower" sortName="a4sansw" />
+    <glyph name="xsansbolditalic-math" unicode="1D66D" unicode2="1D499" production="u1D66D" script="Sans" category="Letter" case="lower" sortName="a4sansx" />
+    <glyph name="ysansbolditalic-math" unicode="1D66E" unicode2="1D49A" production="u1D66E" script="Sans" category="Letter" case="lower" sortName="a4sansy" />
+    <glyph name="zsansbolditalic-math" unicode="1D66F" unicode2="1D49B" production="u1D66F" script="Sans" category="Letter" case="lower" sortName="a4sansz" />
+
+    <glyph name="Alphasansbold-math" unicode="1D756" unicode2="1D6A8" production="u1D756" script="Sans" category="Letter" case="upper" sortName="mt684" />
+    <glyph name="Betasansbold-math" unicode="1D757" unicode2="1D6A9" production="u1D757" script="Sans" category="Letter" case="upper" sortName="mt685" />
+    <glyph name="Gammasansbold-math" unicode="1D758" unicode2="1D6AA" production="u1D758" script="Sans" category="Letter" case="upper" sortName="mt686" />
+    <glyph name="Deltasansbold-math" unicode="1D759" unicode2="1D6AB" production="u1D759" script="Sans" category="Letter" case="upper" sortName="mt687" />
+    <glyph name="Epsilonsansbold-math" unicode="1D75A" unicode2="1D6AC" production="u1D75A" script="Sans" category="Letter" case="upper" sortName="mt688" />
+    <glyph name="Zetasansbold-math" unicode="1D75B" unicode2="1D6AD" production="u1D75B" script="Sans" category="Letter" case="upper" sortName="mt689" />
+    <glyph name="Etasansbold-math" unicode="1D75C" unicode2="1D6AE" production="u1D75C" script="Sans" category="Letter" case="upper" sortName="mt690" />
+    <glyph name="Thetasansbold-math" unicode="1D75D" unicode2="1D6AF" production="u1D75D" script="Sans" category="Letter" case="upper" sortName="mt691" />
+    <glyph name="Iotasansbold-math" unicode="1D75E" unicode2="1D6B0" production="u1D75E" script="Sans" category="Letter" case="upper" sortName="mt692" />
+    <glyph name="Kappasansbold-math" unicode="1D75F" unicode2="1D6B1" production="u1D75F" script="Sans" category="Letter" case="upper" sortName="mt693" />
+    <glyph name="Lambdasansbold-math" unicode="1D760" unicode2="1D6B2" production="u1D760" script="Sans" category="Letter" case="upper" sortName="mt694" />
+    <glyph name="Musansbold-math" unicode="1D761" unicode2="1D6B3" production="u1D761" script="Sans" category="Letter" case="upper" sortName="mt695" />
+    <glyph name="Nusansbold-math" unicode="1D762" unicode2="1D6B4" production="u1D762" script="Sans" category="Letter" case="upper" sortName="mt696" />
+    <glyph name="Xisansbold-math" unicode="1D763" unicode2="1D6B5" production="u1D763" script="Sans" category="Letter" case="upper" sortName="mt697" />
+    <glyph name="Omicronsansbold-math" unicode="1D764" unicode2="1D6B6" production="u1D764" script="Sans" category="Letter" case="upper" sortName="mt698" />
+    <glyph name="Pisansbold-math" unicode="1D765" unicode2="1D6B7" production="u1D765" script="Sans" category="Letter" case="upper" sortName="mt699" />
+    <glyph name="Rhosansbold-math" unicode="1D766" unicode2="1D6B8" production="u1D766" script="Sans" category="Letter" case="upper" sortName="mt700" />
+    <glyph name="ThetaSymbolsansbold-math" unicode="1D767" unicode2="1D6B9" production="u1D767" script="Sans" category="Letter" case="upper" sortName="mt701" />
+    <glyph name="Sigmasansbold-math" unicode="1D768" unicode2="1D6BA" production="u1D768" script="Sans" category="Letter" case="upper" sortName="mt702" />
+    <glyph name="Tausansbold-math" unicode="1D769" unicode2="1D6BB" production="u1D769" script="Sans" category="Letter" case="upper" sortName="mt703" />
+    <glyph name="Upsilonsansbold-math" unicode="1D76A" unicode2="1D6BC" production="u1D76A" script="Sans" category="Letter" case="upper" sortName="mt704" />
+    <glyph name="Phisansbold-math" unicode="1D76B" unicode2="1D6BD" production="u1D76B" script="Sans" category="Letter" case="upper" sortName="mt705" />
+    <glyph name="Chisansbold-math" unicode="1D76C" unicode2="1D6BE" production="u1D76C" script="Sans" category="Letter" case="upper" sortName="mt706" />
+    <glyph name="Psisansbold-math" unicode="1D76D" unicode2="1D6BF" production="u1D76D" script="Sans" category="Letter" case="upper" sortName="mt707" />
+    <glyph name="Omegasansbold-math" unicode="1D76E" unicode2="1D6C0" production="u1D76E" script="Sans" category="Letter" case="upper" sortName="mt708" />
+    <glyph name="Alphasansbolditalic-math" unicode="1D790" unicode2="1D71C" production="u1D790" script="Sans" category="Letter" case="upper" sortName="mt742" />
+    <glyph name="Betasansbolditalic-math" unicode="1D791" unicode2="1D71D" production="u1D791" script="Sans" category="Letter" case="upper" sortName="mt743" />
+    <glyph name="Gammasansbolditalic-math" unicode="1D792" unicode2="1D71E" production="u1D792" script="Sans" category="Letter" case="upper" sortName="mt744" />
+    <glyph name="Deltasansbolditalic-math" unicode="1D793" unicode2="1D71F" production="u1D793" script="Sans" category="Letter" case="upper" sortName="mt745" />
+    <glyph name="Epsilonsansbolditalic-math" unicode="1D794" unicode2="1D720" production="u1D794" script="Sans" category="Letter" case="upper" sortName="mt746" />
+    <glyph name="Zetasansbolditalic-math" unicode="1D795" unicode2="1D721" production="u1D795" script="Sans" category="Letter" case="upper" sortName="mt747" />
+    <glyph name="Etasansbolditalic-math" unicode="1D796" unicode2="1D722" production="u1D796" script="Sans" category="Letter" case="upper" sortName="mt748" />
+    <glyph name="Thetasansbolditalic-math" unicode="1D797" unicode2="1D723" production="u1D797" script="Sans" category="Letter" case="upper" sortName="mt749" />
+    <glyph name="Iotasansbolditalic-math" unicode="1D798" unicode2="1D724" production="u1D798" script="Sans" category="Letter" case="upper" sortName="mt750" />
+    <glyph name="Kappasansbolditalic-math" unicode="1D799" unicode2="1D725" production="u1D799" script="Sans" category="Letter" case="upper" sortName="mt751" />
+    <glyph name="Lambdasansbolditalic-math" unicode="1D79A" unicode2="1D726" production="u1D79A" script="Sans" category="Letter" case="upper" sortName="mt752" />
+    <glyph name="Musansbolditalic-math" unicode="1D79B" unicode2="1D727" production="u1D79B" script="Sans" category="Letter" case="upper" sortName="mt753" />
+    <glyph name="Nusansbolditalic-math" unicode="1D79C" unicode2="1D728" production="u1D79C" script="Sans" category="Letter" case="upper" sortName="mt754" />
+    <glyph name="Xisansbolditalic-math" unicode="1D79D" unicode2="1D729" production="u1D79D" script="Sans" category="Letter" case="upper" sortName="mt755" />
+    <glyph name="Omicronsansbolditalic-math" unicode="1D79E" unicode2="1D72A" production="u1D79E" script="Sans" category="Letter" case="upper" sortName="mt756" />
+    <glyph name="Pisansbolditalic-math" unicode="1D79F" unicode2="1D72B" production="u1D79F" script="Sans" category="Letter" case="upper" sortName="mt757" />
+    <glyph name="Rhosansbolditalic-math" unicode="1D7A0" unicode2="1D72C" production="u1D7A0" script="Sans" category="Letter" case="upper" sortName="mt758" />
+    <glyph name="ThetaSymbolsansbolditalic-math" unicode="1D7A1" unicode2="1D72D" production="u1D7A1" script="Sans" category="Letter" case="upper" sortName="mt759" />
+    <glyph name="Sigmasansbolditalic-math" unicode="1D7A2" unicode2="1D72E" production="u1D7A2" script="Sans" category="Letter" case="upper" sortName="mt760" />
+    <glyph name="Tausansbolditalic-math" unicode="1D7A3" unicode2="1D72F" production="u1D7A3" script="Sans" category="Letter" case="upper" sortName="mt761" />
+    <glyph name="Upsilonsansbolditalic-math" unicode="1D7A4" unicode2="1D730" production="u1D7A4" script="Sans" category="Letter" case="upper" sortName="mt762" />
+    <glyph name="Phisansbolditalic-math" unicode="1D7A5" unicode2="1D731" production="u1D7A5" script="Sans" category="Letter" case="upper" sortName="mt763" />
+    <glyph name="Chisansbolditalic-math" unicode="1D7A6" unicode2="1D732" production="u1D7A6" script="Sans" category="Letter" case="upper" sortName="mt764" />
+    <glyph name="Psisansbolditalic-math" unicode="1D7A7" unicode2="1D733" production="u1D7A7" script="Sans" category="Letter" case="upper" sortName="mt765" />
+    <glyph name="Omegasansbolditalic-math" unicode="1D7A8" unicode2="1D734" production="u1D7A8" script="Sans" category="Letter" case="upper" sortName="mt766" />
+    <glyph name="alphasansbold-math" unicode="1D770" unicode2="1D6C2" production="u1D770" script="Sans" category="Letter" case="lower" sortName="mt710" />
+    <glyph name="betasansbold-math" unicode="1D771" unicode2="1D6C3" production="u1D771" script="Sans" category="Letter" case="lower" sortName="mt711" />
+    <glyph name="gammasansbold-math" unicode="1D772" unicode2="1D6C4" production="u1D772" script="Sans" category="Letter" case="lower" sortName="mt712" />
+    <glyph name="deltasansbold-math" unicode="1D773" unicode2="1D6C5" production="u1D773" script="Sans" category="Letter" case="lower" sortName="mt713" />
+    <glyph name="epsilonsansbold-math" unicode="1D774" unicode2="1D6C6" production="u1D774" script="Sans" category="Letter" case="lower" sortName="mt714" />
+    <glyph name="zetasansbold-math" unicode="1D775" unicode2="1D6C7" production="u1D775" script="Sans" category="Letter" case="lower" sortName="mt715" />
+    <glyph name="etasansbold-math" unicode="1D776" unicode2="1D6C8" production="u1D776" script="Sans" category="Letter" case="lower" sortName="mt716" />
+    <glyph name="thetasansbold-math" unicode="1D777" unicode2="1D6C9" production="u1D777" script="Sans" category="Letter" case="lower" sortName="mt717" />
+    <glyph name="iotasansbold-math" unicode="1D778" unicode2="1D6CA" production="u1D778" script="Sans" category="Letter" case="lower" sortName="mt718" />
+    <glyph name="kappasansbold-math" unicode="1D779" unicode2="1D6CB" production="u1D779" script="Sans" category="Letter" case="lower" sortName="mt719" />
+    <glyph name="lambdasansbold-math" unicode="1D77A" unicode2="1D6CC" production="u1D77A" script="Sans" category="Letter" case="lower" sortName="mt720" />
+    <glyph name="musansbold-math" unicode="1D77B" unicode2="1D6CD" production="u1D77B" script="Sans" category="Letter" case="lower" sortName="mt721" />
+    <glyph name="nusansbold-math" unicode="1D77C" unicode2="1D6CE" production="u1D77C" script="Sans" category="Letter" case="lower" sortName="mt722" />
+    <glyph name="xisansbold-math" unicode="1D77D" unicode2="1D6CF" production="u1D77D" script="Sans" category="Letter" case="lower" sortName="mt723" />
+    <glyph name="omicronsansbold-math" unicode="1D77E" unicode2="1D6D0" production="u1D77E" script="Sans" category="Letter" case="lower" sortName="mt724" />
+    <glyph name="pisansbold-math" unicode="1D77F" unicode2="1D6D1" production="u1D77F" script="Sans" category="Letter" case="lower" sortName="mt725" />
+    <glyph name="rhosansbold-math" unicode="1D780" unicode2="1D6D2" production="u1D780" script="Sans" category="Letter" case="lower" sortName="mt726" />
+    <glyph name="sigmafinalsansbold-math" unicode="1D781" unicode2="1D6D3" production="u1D781" script="Sans" category="Letter" case="lower" sortName="mt727" />
+    <glyph name="sigmasansbold-math" unicode="1D782" unicode2="1D6D4" production="u1D782" script="Sans" category="Letter" case="lower" sortName="mt728" />
+    <glyph name="tausansbold-math" unicode="1D783" unicode2="1D6D5" production="u1D783" script="Sans" category="Letter" case="lower" sortName="mt729" />
+    <glyph name="upsilonsansbold-math" unicode="1D784" unicode2="1D6D6" production="u1D784" script="Sans" category="Letter" case="lower" sortName="mt730" />
+    <glyph name="phisansbold-math" unicode="1D785" unicode2="1D6D7" production="u1D785" script="Sans" category="Letter" case="lower" sortName="mt731" />
+    <glyph name="chisansbold-math" unicode="1D786" unicode2="1D6D8" production="u1D786" script="Sans" category="Letter" case="lower" sortName="mt732" />
+    <glyph name="psisansbold-math" unicode="1D787" unicode2="1D6D9" production="u1D787" script="Sans" category="Letter" case="lower" sortName="mt733" />
+    <glyph name="omegasansbold-math" unicode="1D788" unicode2="1D6DA" production="u1D788" script="Sans" category="Letter" case="lower" sortName="mt734" />
+    <glyph name="epsilonLunateSymbolsansbold-math" unicode="1D78A" unicode2="1D6DC" production="u1D78A" script="Sans" category="Letter" case="lower" sortName="mt736" />
+    <glyph name="thetaSymbolsansbold-math" unicode="1D78B" unicode2="1D6DD" production="u1D78B" script="Sans" category="Letter" case="lower" sortName="mt737" />
+    <glyph name="kappaSymbolsansbold-math" unicode="1D78C" unicode2="1D6DE" production="u1D78C" script="Sans" category="Letter" case="lower" sortName="mt738" />
+    <glyph name="phiSymbolsansbold-math" unicode="1D78D" unicode2="1D6DF" production="u1D78D" script="Sans" category="Letter" case="lower" sortName="mt739" />
+    <glyph name="rhoSymbolsansbold-math" unicode="1D78E" unicode2="1D6E0" production="u1D78E" script="Sans" category="Letter" case="lower" sortName="mt740" />
+    <glyph name="piSymbolsansbold-math" unicode="1D78F" unicode2="1D6E1" production="u1D78F" script="Sans" category="Letter" case="lower" sortName="mt741" />
+    <glyph name="alphasansbolditalic-math" unicode="1D7AA" unicode2="1D736" production="u1D7AA" script="Sans" category="Letter" case="lower" sortName="mt768" />
+    <glyph name="betasansbolditalic-math" unicode="1D7AB" unicode2="1D737" production="u1D7AB" script="Sans" category="Letter" case="lower" sortName="mt769" />
+    <glyph name="gammasansbolditalic-math" unicode="1D7AC" unicode2="1D738" production="u1D7AC" script="Sans" category="Letter" case="lower" sortName="mt770" />
+    <glyph name="deltasansbolditalic-math" unicode="1D7AD" unicode2="1D739" production="u1D7AD" script="Sans" category="Letter" case="lower" sortName="mt771" />
+    <glyph name="epsilonsansbolditalic-math" unicode="1D7AE" unicode2="1D73A" production="u1D7AE" script="Sans" category="Letter" case="lower" sortName="mt772" />
+    <glyph name="zetasansbolditalic-math" unicode="1D7AF" unicode2="1D73B" production="u1D7AF" script="Sans" category="Letter" case="lower" sortName="mt773" />
+    <glyph name="etasansbolditalic-math" unicode="1D7B0" unicode2="1D73C" production="u1D7B0" script="Sans" category="Letter" case="lower" sortName="mt774" />
+    <glyph name="thetasansbolditalic-math" unicode="1D7B1" unicode2="1D73D" production="u1D7B1" script="Sans" category="Letter" case="lower" sortName="mt775" />
+    <glyph name="iotasansbolditalic-math" unicode="1D7B2" unicode2="1D73E" production="u1D7B2" script="Sans" category="Letter" case="lower" sortName="mt776" />
+    <glyph name="kappasansbolditalic-math" unicode="1D7B3" unicode2="1D73F" production="u1D7B3" script="Sans" category="Letter" case="lower" sortName="mt777" />
+    <glyph name="lambdasansbolditalic-math" unicode="1D7B4" unicode2="1D740" production="u1D7B4" script="Sans" category="Letter" case="lower" sortName="mt778" />
+    <glyph name="musansbolditalic-math" unicode="1D7B5" unicode2="1D741" production="u1D7B5" script="Sans" category="Letter" case="lower" sortName="mt779" />
+    <glyph name="nusansbolditalic-math" unicode="1D7B6" unicode2="1D742" production="u1D7B6" script="Sans" category="Letter" case="lower" sortName="mt780" />
+    <glyph name="xisansbolditalic-math" unicode="1D7B7" unicode2="1D743" production="u1D7B7" script="Sans" category="Letter" case="lower" sortName="mt781" />
+    <glyph name="omicronsansbolditalic-math" unicode="1D7B8" unicode2="1D744" production="u1D7B8" script="Sans" category="Letter" case="lower" sortName="mt782" />
+    <glyph name="pisansbolditalic-math" unicode="1D7B9" unicode2="1D745" production="u1D7B9" script="Sans" category="Letter" case="lower" sortName="mt783" />
+    <glyph name="rhosansbolditalic-math" unicode="1D7BA" unicode2="1D746" production="u1D7BA" script="Sans" category="Letter" case="lower" sortName="mt784" />
+    <glyph name="sigmafinalsansbolditalic-math" unicode="1D7BB" unicode2="1D747" production="u1D7BB" script="Sans" category="Letter" case="lower" sortName="mt785" />
+    <glyph name="sigmasansbolditalic-math" unicode="1D7BC" unicode2="1D748" production="u1D7BC" script="Sans" category="Letter" case="lower" sortName="mt786" />
+    <glyph name="tausansbolditalic-math" unicode="1D7BD" unicode2="1D749" production="u1D7BD" script="Sans" category="Letter" case="lower" sortName="mt787" />
+    <glyph name="upsilonsansbolditalic-math" unicode="1D7BE" unicode2="1D74A" production="u1D7BE" script="Sans" category="Letter" case="lower" sortName="mt788" />
+    <glyph name="phisansbolditalic-math" unicode="1D7BF" unicode2="1D74B" production="u1D7BF" script="Sans" category="Letter" case="lower" sortName="mt789" />
+    <glyph name="chisansbolditalic-math" unicode="1D7C0" unicode2="1D74C" production="u1D7C0" script="Sans" category="Letter" case="lower" sortName="mt790" />
+    <glyph name="psisansbolditalic-math" unicode="1D7C1" unicode2="1D74D" production="u1D7C1" script="Sans" category="Letter" case="lower" sortName="mt791" />
+    <glyph name="omegasansbolditalic-math" unicode="1D7C2" unicode2="1D74E" production="u1D7C2" script="Sans" category="Letter" case="lower" sortName="mt792" />
+    <glyph name="epsilonLunateSymbolsansbolditalic-math" unicode="1D7C4" unicode2="1D750" production="u1D7C4" script="Sans" category="Letter" case="lower" sortName="mt794" />
+    <glyph name="thetaSymbolsansbolditalic-math" unicode="1D7C5" unicode2="1D751" production="u1D7C5" script="Sans" category="Letter" case="lower" sortName="mt795" />
+    <glyph name="kappaSymbolsansbolditalic-math" unicode="1D7C6" unicode2="1D752" production="u1D7C6" script="Sans" category="Letter" case="lower" sortName="mt796" />
+    <glyph name="phiSymbolsansbolditalic-math" unicode="1D7C7" unicode2="1D753" production="u1D7C7" script="Sans" category="Letter" case="lower" sortName="mt797" />
+    <glyph name="rhoSymbolsansbolditalic-math" unicode="1D7C8" unicode2="1D754" production="u1D7C8" script="Sans" category="Letter" case="lower" sortName="mt798" />
+    <glyph name="piSymbolsansbolditalic-math" unicode="1D7C9" unicode2="1D755" production="u1D7C9" script="Sans" category="Letter" case="lower" sortName="mt799" />
+
+    <glyph name="Alphaitalic-math" unicode="1D6E2" production="u1D6E2" script="Sans" category="Letter" case="upper" sortName="mt568" />
+    <glyph name="Betaitalic-math" unicode="1D6E3" production="u1D6E3" script="Sans" category="Letter" case="upper" sortName="mt569" />
+    <glyph name="Gammaitalic-math" unicode="1D6E4" production="u1D6E4" script="Sans" category="Letter" case="upper" sortName="mt570" />
+    <glyph name="Deltaitalic-math" unicode="1D6E5" production="u1D6E5" script="Sans" category="Letter" case="upper" sortName="mt571" />
+    <glyph name="Epsilonitalic-math" unicode="1D6E6" production="u1D6E6" script="Sans" category="Letter" case="upper" sortName="mt572" />
+    <glyph name="Zetaitalic-math" unicode="1D6E7" production="u1D6E7" script="Sans" category="Letter" case="upper" sortName="mt573" />
+    <glyph name="Etaitalic-math" unicode="1D6E8" production="u1D6E8" script="Sans" category="Letter" case="upper" sortName="mt574" />
+    <glyph name="Thetaitalic-math" unicode="1D6E9" production="u1D6E9" script="Sans" category="Letter" case="upper" sortName="mt575" />
+    <glyph name="Iotaitalic-math" unicode="1D6EA" production="u1D6EA" script="Sans" category="Letter" case="upper" sortName="mt576" />
+    <glyph name="Kappaitalic-math" unicode="1D6EB" production="u1D6EB" script="Sans" category="Letter" case="upper" sortName="mt577" />
+    <glyph name="Lambdaitalic-math" unicode="1D6EC" production="u1D6EC" script="Sans" category="Letter" case="upper" sortName="mt578" />
+    <glyph name="Muitalic-math" unicode="1D6ED" production="u1D6ED" script="Sans" category="Letter" case="upper" sortName="mt579" />
+    <glyph name="Nuitalic-math" unicode="1D6EE" production="u1D6EE" script="Sans" category="Letter" case="upper" sortName="mt580" />
+    <glyph name="Xiitalic-math" unicode="1D6EF" production="u1D6EF" script="Sans" category="Letter" case="upper" sortName="mt581" />
+    <glyph name="Omicronitalic-math" unicode="1D6F0" production="u1D6F0" script="Sans" category="Letter" case="upper" sortName="mt582" />
+    <glyph name="Piitalic-math" unicode="1D6F1" production="u1D6F1" script="Sans" category="Letter" case="upper" sortName="mt583" />
+    <glyph name="Rhoitalic-math" unicode="1D6F2" production="u1D6F2" script="Sans" category="Letter" case="upper" sortName="mt584" />
+    <glyph name="ThetaSymbolitalic-math" unicode="1D6F3" production="u1D6F3" script="Sans" category="Letter" case="upper" sortName="mt585" />
+    <glyph name="Sigmaitalic-math" unicode="1D6F4" production="u1D6F4" script="Sans" category="Letter" case="upper" sortName="mt586" />
+    <glyph name="Tauitalic-math" unicode="1D6F5" production="u1D6F5" script="Sans" category="Letter" case="upper" sortName="mt587" />
+    <glyph name="Upsilonitalic-math" unicode="1D6F6" production="u1D6F6" script="Sans" category="Letter" case="upper" sortName="mt588" />
+    <glyph name="Phiitalic-math" unicode="1D6F7" production="u1D6F7" script="Sans" category="Letter" case="upper" sortName="mt589" />
+    <glyph name="Chiitalic-math" unicode="1D6F8" production="u1D6F8" script="Sans" category="Letter" case="upper" sortName="mt590" />
+    <glyph name="Psiitalic-math" unicode="1D6F9" production="u1D6F9" script="Sans" category="Letter" case="upper" sortName="mt591" />
+    <glyph name="Omegaitalic-math" unicode="1D6FA" production="u1D6FA" script="Sans" category="Letter" case="upper" sortName="mt592" />
+    <glyph name="alphaitalic-math" unicode="1D6FC" production="u1D6FC" script="Sans" category="Letter" case="lower" sortName="mt594" />
+    <glyph name="betaitalic-math" unicode="1D6FD" production="u1D6FD" script="Sans" category="Letter" case="lower" sortName="mt595" />
+    <glyph name="gammaitalic-math" unicode="1D6FE" production="u1D6FE" script="Sans" category="Letter" case="lower" sortName="mt596" />
+    <glyph name="deltaitalic-math" unicode="1D6FF" production="u1D6FF" script="Sans" category="Letter" case="lower" sortName="mt597" />
+    <glyph name="epsilonitalic-math" unicode="1D700" production="u1D700" script="Sans" category="Letter" case="lower" sortName="mt598" />
+    <glyph name="zetaitalic-math" unicode="1D701" production="u1D701" script="Sans" category="Letter" case="lower" sortName="mt599" />
+    <glyph name="etaitalic-math" unicode="1D702" production="u1D702" script="Sans" category="Letter" case="lower" sortName="mt600" />
+    <glyph name="thetaitalic-math" unicode="1D703" production="u1D703" script="Sans" category="Letter" case="lower" sortName="mt601" />
+    <glyph name="iotaitalic-math" unicode="1D704" production="u1D704" script="Sans" category="Letter" case="lower" sortName="mt602" />
+    <glyph name="kappaitalic-math" unicode="1D705" production="u1D705" script="Sans" category="Letter" case="lower" sortName="mt603" />
+    <glyph name="lambdaitalic-math" unicode="1D706" production="u1D706" script="Sans" category="Letter" case="lower" sortName="mt604" />
+    <glyph name="muitalic-math" unicode="1D707" production="u1D707" script="Sans" category="Letter" case="lower" sortName="mt605" />
+    <glyph name="nuitalic-math" unicode="1D708" production="u1D708" script="Sans" category="Letter" case="lower" sortName="mt606" />
+    <glyph name="xiitalic-math" unicode="1D709" production="u1D709" script="Sans" category="Letter" case="lower" sortName="mt607" />
+    <glyph name="omicronitalic-math" unicode="1D70A" production="u1D70A" script="Sans" category="Letter" case="lower" sortName="mt608" />
+    <glyph name="piitalic-math" unicode="1D70B" production="u1D70B" script="Sans" category="Letter" case="lower" sortName="mt609" />
+    <glyph name="rhoitalic-math" unicode="1D70C" production="u1D70C" script="Sans" category="Letter" case="lower" sortName="mt610" />
+    <glyph name="sigmafinalitalic-math" unicode="1D70D" production="u1D70D" script="Sans" category="Letter" case="lower" sortName="mt611" />
+    <glyph name="sigmaitalic-math" unicode="1D70E" production="u1D70E" script="Sans" category="Letter" case="lower" sortName="mt612" />
+    <glyph name="tauitalic-math" unicode="1D70F" production="u1D70F" script="Sans" category="Letter" case="lower" sortName="mt613" />
+    <glyph name="upsilonitalic-math" unicode="1D710" production="u1D710" script="Sans" category="Letter" case="lower" sortName="mt614" />
+    <glyph name="phiitalic-math" unicode="1D711" production="u1D711" script="Sans" category="Letter" case="lower" sortName="mt615" />
+    <glyph name="chiitalic-math" unicode="1D712" production="u1D712" script="Sans" category="Letter" case="lower" sortName="mt616" />
+    <glyph name="psiitalic-math" unicode="1D713" production="u1D713" script="Sans" category="Letter" case="lower" sortName="mt617" />
+    <glyph name="omegaitalic-math" unicode="1D714" production="u1D714" script="Sans" category="Letter" case="lower" sortName="mt618" />
+    <glyph name="epsilonLunateSymbolitalic-math" unicode="1D716" production="u1D716" script="Sans" category="Letter" case="lower" sortName="mt620" />
+    <glyph name="thetaSymbolitalic-math" unicode="1D717" production="u1D717" script="Sans" category="Letter" case="lower" sortName="mt621" />
+    <glyph name="kappaSymbolitalic-math" unicode="1D718" production="u1D718" script="Sans" category="Letter" case="lower" sortName="mt622" />
+    <glyph name="phiSymbolitalic-math" unicode="1D719" production="u1D719" script="Sans" category="Letter" case="lower" sortName="mt623" />
+    <glyph name="rhoSymbolitalic-math" unicode="1D71A" production="u1D71A" script="Sans" category="Letter" case="lower" sortName="mt624" />
+    <glyph name="piSymbolitalic-math" unicode="1D71B" production="u1D71B" script="Sans" category="Letter" case="lower" sortName="mt625" />
+    <glyph name="Digammabold-math" unicode="1D7CA" production="u1D7CA" script="Sans" category="Letter" case="upper" sortName="mt800" />
+    <glyph name="digammabold-math" unicode="1D7CB" production="u1D7CB" script="Sans" category="Letter" case="lower" sortName="mt801" />
+    <glyph name="partialdiffitalic-math" unicode="1D715" production="u1D715" script="Sans" category="Letter" case="lower" sortName="mt619" />
+    <glyph name="partialdiffsansbold-math" unicode="1D789" unicode2="1D6DB" production="u1D789" script="Sans" category="Letter" case="lower" sortName="mt735" />
+    <glyph name="partialdiffsansbolditalic-math" unicode="1D7C3" unicode2="1D74F" production="u1D7C3" script="Sans" category="Letter" case="lower" sortName="mt793" />
+    <glyph name="partialdiff" unicode="2202" script="greek" category="Letter" case="lower" sortName="gr049" />
+    <glyph name="Nabla" unicode="2207" script="greek" production="uni2207" category="Letter" case="upper" sortName="gr24" />
+    <glyph name="Nablaitalic-math" unicode="1D6FB" production="u1D6FB" script="Sans" category="Letter" case="upper" sortName="mt593" />
+    <glyph name="Nablasansbold-math" unicode="1D76F" unicode2="1D6C1" production="u1D76F" script="Sans" category="Letter" case="upper" sortName="mt709" />
+    <glyph name="Nablasansbolditalic-math" unicode="1D7A9" unicode2="1D735" production="u1D7A9" script="Sans" category="Letter" case="upper" sortName="mt767" />
+
+    <glyph name="i-fraktur.dtls" production="u1D526.dtls" script="Black Letter" category="Letter" case="lower" sortName="afraki_" />
+    <glyph name="j-fraktur.dtls" production="u1D527.dtls" script="Black Letter" category="Letter" case="lower" sortName="afrakj_" />
+    <glyph name="iBold-fraktur.dtls" production="u1D58E.001" script="Black Letter" category="Letter" case="lower" sortName="bfraki_" />
+    <glyph name="jBold-fraktur.dtls" production="u1D58F.001" script="Black Letter" category="Letter" case="lower" sortName="bfrakj_" />
+    <glyph name="imono-math.dtls" production="u1D692.dtls" script="Mono" category="Letter" case="lower" sortName="amonoi_" />
+    <glyph name="jmono-math.dtls" production="u1D693.dtls" script="Mono" category="Letter" case="lower" sortName="amonoj_" />
+    <glyph name="isansitalic-math.dtls" unicode="1D6A4" production="u1D6A4" script="Sans" category="Letter" case="lower" sortName="a2sansi_" />
+    <glyph name="jsansitalic-math.dtls" unicode="1D6A5" production="u1D6A5" script="Sans" category="Letter" case="lower" sortName="a2sansj_" />
+    <glyph name="isansbold-math.dtls" production="u1D5F6.dtls" script="Sans" category="Letter" case="lower" sortName="a3sansi_" />
+    <glyph name="jsansbold-math.dtls" production="u1D5F7.dtls" script="Sans" category="Letter" case="lower" sortName="a3sansj_" />
+    <glyph name="isansbolditalic-math.dtls" production="u1D65E.dtls" script="Sans" category="Letter" case="lower" sortName="a4sansi_" />
+    <glyph name="jsansbolditalic-math.dtls" production="u1D65F.dtls" script="Sans" category="Letter" case="lower" sortName="a4sansj_" />
+    <glyph name="iscript-math.dtls" production="u1D4BE.dtls" script="Script" category="Letter" case="lower" sortName="ascri_" />
+    <glyph name="jscript-math.dtls" production="u1D4BF.dtls" script="Script" category="Letter" case="lower" sortName="ascrj_" />
+    <glyph name="idoubleStruck.dtls" production="u1D55A.dtls" category="Letter" case="lower" sortName="dSi_" />
+    <glyph name="jdoubleStruck.dtls" production="u1D55B.dtls" category="Letter" case="lower" sortName="dSj_" />
+    <glyph name="iitalicDoubleStruck.dtls" production="uni2148.dtls" category="Letter" case="lower" sortName="dS~i_" />
+    <glyph name="jitalicDoubleStruck.dtls" production="uni2149.dtls" category="Letter" case="lower" sortName="dS~j_" />
+
+    <glyph name="zero" unicode="0030" unicode2="1D7E2" category="Number" subCategory="Decimal Digit" sortName="Nu0" />
+    <glyph name="one" unicode="0031" unicode2="1D7E3" category="Number" subCategory="Decimal Digit" sortName="Nu1" />
+    <glyph name="two" unicode="0032" unicode2="1D7E4" category="Number" subCategory="Decimal Digit" sortName="Nu2" />
+    <glyph name="three" unicode="0033" unicode2="1D7E5" category="Number" subCategory="Decimal Digit" sortName="Nu3" />
+    <glyph name="four" unicode="0034" unicode2="1D7E6" category="Number" subCategory="Decimal Digit" sortName="Nu4" />
+    <glyph name="five" unicode="0035" unicode2="1D7E7" category="Number" subCategory="Decimal Digit" sortName="Nu5" />
+    <glyph name="six" unicode="0036" unicode2="1D7E8" category="Number" subCategory="Decimal Digit" sortName="Nu6" />
+    <glyph name="seven" unicode="0037" unicode2="1D7E9" category="Number" subCategory="Decimal Digit" sortName="Nu7" />
+    <glyph name="eight" unicode="0038" unicode2="1D7EA" category="Number" subCategory="Decimal Digit" sortName="Nu8" />
+    <glyph name="nine" unicode="0039" unicode2="1D7EB" category="Number" subCategory="Decimal Digit" sortName="Nu9" />
+    <glyph name="zerodoubleStruck" unicode="1D7D8" production="u1D7D8" category="Number" subCategory="Decimal Digit" sortName="bbNu0" />
+    <glyph name="onedoubleStruck" unicode="1D7D9" production="u1D7D9" category="Number" subCategory="Decimal Digit" sortName="bbNu1" />
+    <glyph name="twodoubleStruck" unicode="1D7DA" production="u1D7DA" category="Number" subCategory="Decimal Digit" sortName="bbNu2" />
+    <glyph name="threedoubleStruck" unicode="1D7DB" production="u1D7DB" category="Number" subCategory="Decimal Digit" sortName="bbNu3" />
+    <glyph name="fourdoubleStruck" unicode="1D7DC" production="u1D7DC" category="Number" subCategory="Decimal Digit" sortName="bbNu4" />
+    <glyph name="fivedoubleStruck" unicode="1D7DD" production="u1D7DD" category="Number" subCategory="Decimal Digit" sortName="bbNu5" />
+    <glyph name="sixdoubleStruck" unicode="1D7DE" production="u1D7DE" category="Number" subCategory="Decimal Digit" sortName="bbNu6" />
+    <glyph name="sevendoubleStruck" unicode="1D7DF" production="u1D7DF" category="Number" subCategory="Decimal Digit" sortName="bbNu7" />
+    <glyph name="eightdoubleStruck" unicode="1D7E0" production="u1D7E0" category="Number" subCategory="Decimal Digit" sortName="bbNu8" />
+    <glyph name="ninedoubleStruck" unicode="1D7E1" production="u1D7E1" category="Number" subCategory="Decimal Digit" sortName="bbNu9" />
+    <glyph name="zeromono-math" unicode="1D7F6" production="u1D7F6" category="Number" subCategory="Decimal Digit" sortName="monoNu0" />
+    <glyph name="onemono-math" unicode="1D7F7" production="u1D7F7" category="Number" subCategory="Decimal Digit" sortName="monoNu1" />
+    <glyph name="twomono-math" unicode="1D7F8" production="u1D7F8" category="Number" subCategory="Decimal Digit" sortName="monoNu2" />
+    <glyph name="threemono-math" unicode="1D7F9" production="u1D7F9" category="Number" subCategory="Decimal Digit" sortName="monoNu3" />
+    <glyph name="fourmono-math" unicode="1D7FA" production="u1D7FA" category="Number" subCategory="Decimal Digit" sortName="monoNu4" />
+    <glyph name="fivemono-math" unicode="1D7FB" production="u1D7FB" category="Number" subCategory="Decimal Digit" sortName="monoNu5" />
+    <glyph name="sixmono-math" unicode="1D7FC" production="u1D7FC" category="Number" subCategory="Decimal Digit" sortName="monoNu6" />
+    <glyph name="sevenmono-math" unicode="1D7FD" production="u1D7FD" category="Number" subCategory="Decimal Digit" sortName="monoNu7" />
+    <glyph name="eightmono-math" unicode="1D7FE" production="u1D7FE" category="Number" subCategory="Decimal Digit" sortName="monoNu8" />
+    <glyph name="ninemono-math" unicode="1D7FF" production="u1D7FF" category="Number" subCategory="Decimal Digit" sortName="monoNu9" />
+    <glyph name="zerosans-math" unicode="1D7E2" production="u1D7E2" category="Number" subCategory="Decimal Digit" sortName="sansNu0" />
+    <glyph name="onesans-math" unicode="1D7E3" production="u1D7E3" category="Number" subCategory="Decimal Digit" sortName="sansNu1" />
+    <glyph name="twosans-math" unicode="1D7E4" production="u1D7E4" category="Number" subCategory="Decimal Digit" sortName="sansNu2" />
+    <glyph name="threesans-math" unicode="1D7E5" production="u1D7E5" category="Number" subCategory="Decimal Digit" sortName="sansNu3" />
+    <glyph name="foursans-math" unicode="1D7E6" production="u1D7E6" category="Number" subCategory="Decimal Digit" sortName="sansNu4" />
+    <glyph name="fivesans-math" unicode="1D7E7" production="u1D7E7" category="Number" subCategory="Decimal Digit" sortName="sansNu5" />
+    <glyph name="sixsans-math" unicode="1D7E8" production="u1D7E8" category="Number" subCategory="Decimal Digit" sortName="sansNu6" />
+    <glyph name="sevensans-math" unicode="1D7E9" production="u1D7E9" category="Number" subCategory="Decimal Digit" sortName="sansNu7" />
+    <glyph name="eightsans-math" unicode="1D7EA" production="u1D7EA" category="Number" subCategory="Decimal Digit" sortName="sansNu8" />
+    <glyph name="ninesans-math" unicode="1D7EB" production="u1D7EB" category="Number" subCategory="Decimal Digit" sortName="sansNu9" />
+    <glyph name="zerosansbold-math" unicode="1D7EC" unicode2="1D7CE" production="u1D7EC" category="Number" subCategory="Decimal Digit" sortName="sansbNu0" />
+    <glyph name="onesansbold-math" unicode="1D7ED" unicode2="1D7CF" production="u1D7ED" category="Number" subCategory="Decimal Digit" sortName="sansbNu1" />
+    <glyph name="twosansbold-math" unicode="1D7EE" unicode2="1D7D0" production="u1D7EE" category="Number" subCategory="Decimal Digit" sortName="sansbNu2" />
+    <glyph name="threesansbold-math" unicode="1D7EF" unicode2="1D7D1" production="u1D7EF" category="Number" subCategory="Decimal Digit" sortName="sansbNu3" />
+    <glyph name="foursansbold-math" unicode="1D7F0" unicode2="1D7D2" production="u1D7F0" category="Number" subCategory="Decimal Digit" sortName="sansbNu4" />
+    <glyph name="fivesansbold-math" unicode="1D7F1" unicode2="1D7D3" production="u1D7F1" category="Number" subCategory="Decimal Digit" sortName="sansbNu5" />
+    <glyph name="sixsansbold-math" unicode="1D7F2" unicode2="1D7D4" production="u1D7F2" category="Number" subCategory="Decimal Digit" sortName="sansbNu6" />
+    <glyph name="sevensansbold-math" unicode="1D7F3" unicode2="1D7D5" production="u1D7F3" category="Number" subCategory="Decimal Digit" sortName="sansbNu7" />
+    <glyph name="eightsansbold-math" unicode="1D7F4" unicode2="1D7D6" production="u1D7F4" category="Number" subCategory="Decimal Digit" sortName="sansbNu8" />
+    <glyph name="ninesansbold-math" unicode="1D7F5" unicode2="1D7D7" production="u1D7F5" category="Number" subCategory="Decimal Digit" sortName="sansbNu9" />
+
+    <glyph name="prime" unicode="2032" production="uni2032"  category="Symbol" subCategory="Prime" sortName="prime1" />
+    <glyph name="doubleprime" unicode="2033" production="uni2033"  category="Symbol" subCategory="Prime" sortName="prime2" />
+    <glyph name="tripleprime" unicode="2034" production="uni2034"  category="Symbol" subCategory="Prime" sortName="prime3" />
+    <glyph name="quadrupleprime" unicode="2057" production="uni2057"  category="Symbol" subCategory="Prime" sortName="prime4" />
+    <glyph name="primeReversed" unicode="2035" production="uni2035"  category="Symbol" subCategory="Prime" sortName="primeR1" />
+    <glyph name="doubleprimeReversed" unicode="2036" production="uni2036"  category="Symbol" subCategory="Prime" sortName="primeR2" />
+    <glyph name="tripleprimeReversed" unicode="2037" production="uni2037"  category="Symbol" subCategory="Prime" sortName="primeR3" />
+
+    <glyph name="circumflexcomb.s0" production="uni0302.s0" category="Mark" subCategory="Spacing" case="lower" sortName="s0.ac012" />
+    <glyph name="caroncomb.s0" production="uni030C.s0" category="Mark" subCategory="Spacing" case="lower" sortName="s0.ac014" />
+    <glyph name="tildecomb.s0" production="tildecomb.s0" category="Mark" subCategory="Spacing" case="lower" sortName="s0.ac020" />
+    <glyph name="tildebelowcomb.s0" production="uni0330.s0" category="Mark" subCategory="Spacing" sortName="s0.ac098" />
+    <glyph name="leftarrowabovecomb.s0" production="uni20D6.s0" category="Mark" subCategory="Spacing" sortName="s0.leftarrowabovecomb" />
+    <glyph name="leftarrowbelowcomb.s0" production="uni20EE.s0" category="Mark" subCategory="Spacing" sortName="s0.leftarrowbelowcomb" />
+    <glyph name="leftharpoonabovecomb.s0" production="uni20D0.s0" category="Mark" subCategory="Spacing" sortName="s0.leftharpoonabovecomb" />
+    <glyph name="leftharpoonwithbarbdowncomb.s0" production="uni20ED.s0" category="Mark" subCategory="Spacing" sortName="s0.leftharpoonwithbarbdowncomb" />
+    <glyph name="rightarrowabovecomb.s0" production="uni20D7.s0" category="Mark" subCategory="Spacing" sortName="s0.rightarrowabovecomb" />
+    <glyph name="rightarrowbelowcomb.s0" production="uni20EF.s0" category="Mark" subCategory="Spacing" sortName="s0.rightarrowbelowcomb" />
+    <glyph name="rightharpoonabovecomb.s0" production="uni20D1.s0" category="Mark" subCategory="Spacing" sortName="s0.rightharpoonabovecomb" />
+    <glyph name="rightharpoonwithbarbdowncomb.s0" production="uni20EC.s0" category="Mark" subCategory="Spacing" sortName="s0.rightharpoonwithbarbdowncomb" />
+    <glyph name="circumflexcomb.s1" production="uni0302.s1" category="Mark" subCategory="Spacing" case="lower" sortName="s1.ac012" />
+    <glyph name="caroncomb.s1" production="uni030C.s1" category="Mark" subCategory="Spacing" case="lower" sortName="s1.ac014" />
+    <glyph name="tildecomb.s1" production="tildecomb.s1" category="Mark" subCategory="Spacing" case="lower" sortName="s1.ac020" />
+    <glyph name="tildebelowcomb.s1" production="uni0330.s1" category="Mark" subCategory="Spacing" sortName="s1.ac098" />
+    <glyph name="leftarrowabovecomb.s1" production="uni20D6.s1" category="Mark" subCategory="Spacing" sortName="s1.leftarrowabovecomb" />
+    <glyph name="leftarrowbelowcomb.s1" production="uni20EE.s1" category="Mark" subCategory="Spacing" sortName="s1.leftarrowbelowcomb" />
+    <glyph name="leftharpoonabovecomb.s1" production="uni20D0.s1" category="Mark" subCategory="Spacing" sortName="s1.leftharpoonabovecomb" />
+    <glyph name="leftharpoonwithbarbdowncomb.s1" production="uni20ED.s1" category="Mark" subCategory="Spacing" sortName="s1.leftharpoonwithbarbdowncomb" />
+    <glyph name="rightarrowabovecomb.s1" production="uni20D7.s1" category="Mark" subCategory="Spacing" sortName="s1.rightarrowabovecomb" />
+    <glyph name="rightarrowbelowcomb.s1" production="uni20EF.s1" category="Mark" subCategory="Spacing" sortName="s1.rightarrowbelowcomb" />
+    <glyph name="rightharpoonabovecomb.s1" production="uni20D1.s1" category="Mark" subCategory="Spacing" sortName="s1.rightharpoonabovecomb" />
+    <glyph name="rightharpoonwithbarbdowncomb.s1" production="uni20EC.s1" category="Mark" subCategory="Spacing" sortName="s1.rightharpoonwithbarbdowncomb" />
+    <glyph name="circumflexcomb.s2" production="uni0302.s2" category="Mark" subCategory="Spacing" case="lower" sortName="s2.ac012" />
+    <glyph name="caroncomb.s2" production="uni030C.s2" category="Mark" subCategory="Spacing" case="lower" sortName="s2.ac014" />
+    <glyph name="tildecomb.s2" production="tildecomb.s2" category="Mark" subCategory="Spacing" case="lower" sortName="s2.ac020" />
+    <glyph name="tildebelowcomb.s2" production="uni0330.s2" category="Mark" subCategory="Spacing" sortName="s2.ac098" />
+    <glyph name="leftarrowabovecomb.s2" production="uni20D6.s2" category="Mark" subCategory="Spacing" sortName="s2.leftarrowabovecomb" />
+    <glyph name="leftarrowbelowcomb.s2" production="uni20EE.s2" category="Mark" subCategory="Spacing" sortName="s2.leftarrowbelowcomb" />
+    <glyph name="leftharpoonabovecomb.s2" production="uni20D0.s2" category="Mark" subCategory="Spacing" sortName="s2.leftharpoonabovecomb" />
+    <glyph name="leftharpoonwithbarbdowncomb.s2" production="uni20ED.s2" category="Mark" subCategory="Spacing" sortName="s2.leftharpoonwithbarbdowncomb" />
+    <glyph name="rightarrowabovecomb.s2" production="uni20D7.s2" category="Mark" subCategory="Spacing" sortName="s2.rightarrowabovecomb" />
+    <glyph name="rightarrowbelowcomb.s2" production="uni20EF.s2" category="Mark" subCategory="Spacing" sortName="s2.rightarrowbelowcomb" />
+    <glyph name="rightharpoonabovecomb.s2" production="uni20D1.s2" category="Mark" subCategory="Spacing" sortName="s2.rightharpoonabovecomb" />
+    <glyph name="rightharpoonwithbarbdowncomb.s2" production="uni20EC.s2" category="Mark" subCategory="Spacing" sortName="s2.rightharpoonwithbarbdowncomb" />
+    <glyph name="circumflexcomb.s3" production="uni0302.s3" category="Mark" subCategory="Spacing" case="lower" sortName="s3.ac012" />
+    <glyph name="caroncomb.s3" production="uni030C.s3" category="Mark" subCategory="Spacing" case="lower" sortName="s3.ac014" />
+    <glyph name="tildecomb.s3" production="tildecomb.s3" category="Mark" subCategory="Spacing" case="lower" sortName="s3.ac020" />
+    <glyph name="tildebelowcomb.s3" production="uni0330.s3" category="Mark" subCategory="Spacing" sortName="s3.ac098" />
+    <glyph name="leftarrowabovecomb.s3" production="uni20D6.s3" category="Mark" subCategory="Spacing" sortName="s3.leftarrowabovecomb" />
+    <glyph name="leftarrowbelowcomb.s3" production="uni20EE.s3" category="Mark" subCategory="Spacing" sortName="s3.leftarrowbelowcomb" />
+    <glyph name="leftharpoonabovecomb.s3" production="uni20D0.s3" category="Mark" subCategory="Spacing" sortName="s3.leftharpoonabovecomb" />
+    <glyph name="leftharpoonwithbarbdowncomb.s3" production="uni20ED.s3" category="Mark" subCategory="Spacing" sortName="s3.leftharpoonwithbarbdowncomb" />
+    <glyph name="rightarrowabovecomb.s3" production="uni20D7.s3" category="Mark" subCategory="Spacing" sortName="s3.rightarrowabovecomb" />
+    <glyph name="rightarrowbelowcomb.s3" production="uni20EF.s3" category="Mark" subCategory="Spacing" sortName="s3.rightarrowbelowcomb" />
+    <glyph name="rightharpoonabovecomb.s3" production="uni20D1.s3" category="Mark" subCategory="Spacing" sortName="s3.rightharpoonabovecomb" />
+    <glyph name="rightharpoonwithbarbdowncomb.s3" production="uni20EC.s3" category="Mark" subCategory="Spacing" sortName="s3.rightharpoonwithbarbdowncomb" />
+    <glyph name="circumflexcomb.s4" production="uni0302.s4" category="Mark" subCategory="Spacing" case="lower" sortName="s4.ac012" />
+    <glyph name="caroncomb.s4" production="uni030C.s4" category="Mark" subCategory="Spacing" case="lower" sortName="s4.ac014" />
+    <glyph name="tildecomb.s4" production="tildecomb.s4" category="Mark" subCategory="Spacing" case="lower" sortName="s4.ac020" />
+    <glyph name="tildebelowcomb.s4" production="uni0330.s4" category="Mark" subCategory="Spacing" sortName="s4.ac098" />
+    <glyph name="leftarrowabovecomb.s4" production="uni20D6.s4" category="Mark" subCategory="Spacing" sortName="s4.leftarrowabovecomb" />
+    <glyph name="leftarrowbelowcomb.s4" production="uni20EE.s4" category="Mark" subCategory="Spacing" sortName="s4.leftarrowbelowcomb" />
+    <glyph name="leftharpoonabovecomb.s4" production="uni20D0.s4" category="Mark" subCategory="Spacing" sortName="s4.leftharpoonabovecomb" />
+    <glyph name="leftharpoonwithbarbdowncomb.s4" production="uni20ED.s4" category="Mark" subCategory="Spacing" sortName="s4.leftharpoonwithbarbdowncomb" />
+    <glyph name="rightarrowabovecomb.s4" production="uni20D7.s4" category="Mark" subCategory="Spacing" sortName="s4.rightarrowabovecomb" />
+    <glyph name="rightarrowbelowcomb.s4" production="uni20EF.s4" category="Mark" subCategory="Spacing" sortName="s4.rightarrowbelowcomb" />
+    <glyph name="rightharpoonabovecomb.s4" production="uni20D1.s4" category="Mark" subCategory="Spacing" sortName="s4.rightharpoonabovecomb" />
+    <glyph name="rightharpoonwithbarbdowncomb.s4" production="uni20EC.s4" category="Mark" subCategory="Spacing" sortName="s4.rightharpoonwithbarbdowncomb" />
+    <glyph name="circumflexcomb.s5" production="uni0302.s5" category="Mark" subCategory="Spacing" case="lower" sortName="s5.ac012" />
+    <glyph name="caroncomb.s5" production="uni030C.s5" category="Mark" subCategory="Spacing" case="lower" sortName="s5.ac014" />
+    <glyph name="tildecomb.s5" production="tildecomb.s5" category="Mark" subCategory="Spacing" case="lower" sortName="s5.ac020" />
+    <glyph name="tildebelowcomb.s5" production="uni0330.s5" category="Mark" subCategory="Spacing" sortName="s5.ac098" />
+    <glyph name="leftarrowabovecomb.s5" production="uni20D6.s5" category="Mark" subCategory="Spacing" sortName="s5.leftarrowabovecomb" />
+    <glyph name="leftarrowbelowcomb.s5" production="uni20EE.s5" category="Mark" subCategory="Spacing" sortName="s5.leftarrowbelowcomb" />
+    <glyph name="leftharpoonabovecomb.s5" production="uni20D0.s5" category="Mark" subCategory="Spacing" sortName="s5.leftharpoonabovecomb" />
+    <glyph name="leftharpoonwithbarbdowncomb.s5" production="uni20ED.s5" category="Mark" subCategory="Spacing" sortName="s5.leftharpoonwithbarbdowncomb" />
+    <glyph name="rightarrowabovecomb.s5" production="uni20D7.s5" category="Mark" subCategory="Spacing" sortName="s5.rightarrowabovecomb" />
+    <glyph name="rightarrowbelowcomb.s5" production="uni20EF.s5" category="Mark" subCategory="Spacing" sortName="s5.rightarrowbelowcomb" />
+    <glyph name="rightharpoonabovecomb.s5" production="uni20D1.s5" category="Mark" subCategory="Spacing" sortName="s5.rightharpoonabovecomb" />
+    <glyph name="rightharpoonwithbarbdowncomb.s5" production="uni20EC.s5" category="Mark" subCategory="Spacing" sortName="s5.rightharpoonwithbarbdowncomb" />
+    <glyph name="leftarrowabovecomb.x" production="uni20D6.x" category="Mark" subCategory="Spacing" sortName="x.leftarrowabovecomb" />
+    <glyph name="leftarrowbelowcomb.x" production="uni20EE.x" category="Mark" subCategory="Spacing" sortName="x.leftarrowbelowcomb" />
+
+    <glyph name="bottomcurlybracket" unicode="23DF" production="uni23DF" category="Mark" subCategory="Spacing" />
+    <glyph name="bottomsquarebracket" unicode="23B5" production="uni23B5" category="Mark" subCategory="Spacing" />
+    <glyph name="bottomtortoiseshellbracket" unicode="23E1" production="uni23E1" category="Mark" subCategory="Spacing" />
+    <glyph name="topcurlybracket" unicode="23DE" production="uni23DE" category="Mark" subCategory="Spacing" />
+    <glyph name="topsquarebracket" unicode="23B4" production="uni23B4" category="Mark" subCategory="Spacing" />
+    <glyph name="toptortoiseshellbracket" unicode="23E0" production="uni23E0" category="Mark" subCategory="Spacing" />
+    <glyph name="bottomparenthesis" unicode="23DD" production="uni23DD" category="Mark" subCategory="Spacing" />
+    <glyph name="topparenthesis" unicode="23DC" production="uni23DC" category="Mark" subCategory="Spacing" />
+
+    <glyph name="integral" unicode="222B" production="uni222B"  category="Symbol" subCategory="Largeop" sortName="op20" />
+    <glyph name="integral.b" unicode="2321" production="uni2321"  category="Symbol" subCategory="Largeop" sortName="b.op20" />
+    <glyph name="integral.x" unicode="23AE" production="uni23AE" category="Symbol" subCategory="Largeop" sortName="x.op20" />
+    <glyph name="integral.t" unicode="2320" production="uni2320"  category="Symbol" subCategory="Largeop" sortName="t.op20" />
+
+    <glyph name="dblintegral" unicode="222C" production="uni222C"  category="Symbol" subCategory="Largeop" sortName="op20a2" />
+    <glyph name="tripleintegral" unicode="222D" production="uni222D"  category="Symbol" subCategory="Largeop" sortName="op20a3" />
+    <glyph name="quadrupleintegral" unicode="2A0C" production="uni2A0C"  category="Symbol" subCategory="Largeop" sortName="op20a4" />
+    <glyph name="contourintegral" unicode="222E" production="uni222E"  category="Symbol" subCategory="Largeop" sortName="op20b1" />
+    <glyph name="surfaceintegral" unicode="222F" production="uni222F"  category="Symbol" subCategory="Largeop" sortName="op20b2" />
+    <glyph name="volumeintegral" unicode="2230" production="uni2230"  category="Symbol" subCategory="Largeop" sortName="op20b3" />
+    <glyph name="clockwiseintegral" unicode="2231" production="uni2231"  category="Symbol" subCategory="Largeop" sortName="op20c" />
+    <glyph name="clockwisecontourintegral" unicode="2232" production="uni2232"  category="Symbol" subCategory="Largeop" sortName="op20d" />
+    <glyph name="anticlockwisecontourintegral" unicode="2233" production="uni2233"  category="Symbol" subCategory="Largeop" sortName="op20e" />
+    <glyph name="finitePartIntegral" unicode="2A0D" production="uni2A0D"  category="Symbol" subCategory="Largeop" sortName="op20f" />
+    <glyph name="doublestrokeintegral" unicode="2A0E" production="uni2A0E"  category="Symbol" subCategory="Largeop" sortName="op20g" />
+    <glyph name="slashintegral" unicode="2A0F" production="uni2A0F"  category="Symbol" subCategory="Largeop" sortName="op20h" />
+    <glyph name="circulationfunction" unicode="2A10" production="uni2A10"  category="Symbol" subCategory="Largeop" sortName="op20i" />
+    <glyph name="anticlockwiseintegral" unicode="2A11" production="uni2A11"  category="Symbol" subCategory="Largeop" sortName="op20j" />
+    <glyph name="rectangularlineintegral" unicode="2A12" production="uni2A12"  category="Symbol" subCategory="Largeop" sortName="op20k" />
+    <glyph name="semicircularlineintegral" unicode="2A13" production="uni2A13"  category="Symbol" subCategory="Largeop" sortName="op20l" />
+    <glyph name="nopolelineintegral" unicode="2A14" production="uni2A14"  category="Symbol" subCategory="Largeop" sortName="op20m" />
+    <glyph name="pointoperatorintegral" unicode="2A15" production="uni2A15"  category="Symbol" subCategory="Largeop" sortName="op20n" />
+    <glyph name="quaternionintegral" unicode="2A16" production="uni2A16"  category="Symbol" subCategory="Largeop" sortName="op20o" />
+    <glyph name="leftarrowhookintegral" unicode="2A17" production="uni2A17"  category="Symbol" subCategory="Largeop" sortName="op20p" />
+    <glyph name="timesintegral" unicode="2A18" production="uni2A18"  category="Symbol" subCategory="Largeop" sortName="op20q" />
+    <glyph name="intersectionintegral" unicode="2A19" production="uni2A19"  category="Symbol" subCategory="Largeop" sortName="op20r" />
+    <glyph name="unionintegral" unicode="2A1A" production="uni2A1A"  category="Symbol" subCategory="Largeop" sortName="op20s" />
+    <glyph name="overbarintegral" unicode="2A1B" production="uni2A1B"  category="Symbol" subCategory="Largeop" sortName="op20t" />
+    <glyph name="underbarintegral" unicode="2A1C" production="uni2A1C"  category="Symbol" subCategory="Largeop" sortName="op20u" />
+    <glyph name="coproduct" unicode="2210" production="uni2210"  category="Symbol" subCategory="Largeop" sortName="op23" />
+    <glyph name="product" unicode="220F" production="uni220F"  category="Symbol" subCategory="Largeop" sortName="op23" />
+    <glyph name="summation" unicode="2211" production="uni2211"  category="Symbol" subCategory="Largeop" sortName="op24" />
+    <glyph name="moduloTwoSum" unicode="2A0A" production="uni2A0A"  category="Symbol" subCategory="Largeop" sortName="op24a" />
+    <glyph name="summationintegral" unicode="2A0B" production="uni2A0B"  category="Symbol" subCategory="Largeop" sortName="op24b" />
+    <glyph name="summationdoubleStruck" unicode="2140" production="uni2140"  category="Symbol" subCategory="Largeop" sortName="op24c" />
+    <glyph name="join" unicode="2A1D" production="uni2A1D"  category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="largeLeftTriangleOperator" unicode="2A1E" production="uni2A1E"  category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="nAryCircledDotOperator" unicode="2A00" production="uni2A00"  category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="nAryCircledPlusOperator" unicode="2A01" production="uni2A01"  category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="nAryCircledTimesOperator" unicode="2A02" production="uni2A02"  category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="nArySquareIntersectionOperator" unicode="2A05" production="uni2A05"  category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="nArySquareUnionOperator" unicode="2A06" production="uni2A06"  category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="nAryTimesOperator" unicode="2A09" production="uni2A09"  category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="nAryUnionOperatorWithDot" unicode="2A03" production="uni2A03"  category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="nAryUnionOperatorWithPlus" unicode="2A04" production="uni2A04"  category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="twoLogicalAndOperator" unicode="2A07" production="uni2A07"  category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="twoLogicalOrOperator" unicode="2A08" production="uni2A08"  category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="zNotationSchemaComposition" unicode="2A1F" production="uni2A1F"  category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="zNotationSchemaPiping" unicode="2A20" production="uni2A20"  category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="bigReverseSolidus" unicode="29F9" production="uni29F9" category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="bigSolidus" unicode="29F8" production="uni29F8" category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="naryintersection" unicode="22C2" production="uni22C2" category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="narylogicaland" unicode="22C0" production="uni22C0" category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="narylogicalor" unicode="22C1" production="uni22C1" category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="naryunion" unicode="22C3" production="uni22C3" category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="largeTripleVerticalBarOperator" unicode="2AFC" production="uni2AFC" category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="nAryWhiteVerticalBar" unicode="2AFF" production="uni2AFF" category="Symbol" subCategory="Largeop" sortName="op25" />
+
+    <glyph name="radical" unicode="221A" production="uni221A"  category="Symbol" subCategory="Radical" sortName="op26" />
+    <glyph name="radical.b" unicode="23B7" production="uni23B7" category="Symbol" subCategory="Radical" sortName="b.op26" />
+    <glyph name="cuberoot" unicode="221B" production="uni221B"  category="Symbol" subCategory="Radical" sortName="op26a" />
+    <glyph name="fourthroot" unicode="221C" production="uni221C"  category="Symbol" subCategory="Radical" sortName="op26b" />
+    <glyph name="longDivision" unicode="27CC" production="uni27CC" category="Symbol" subCategory="Radical" sortName="op26c" />
+
+    <glyph name="increment" unicode="2206" category="Symbol" subCategory="Math" sortName="" />
+    <glyph name="micro" unicode="00B5" category="Symbol" subCategory="Math" sortName="" />
+    <glyph name="ohm" unicode="2126" category="Symbol" subCategory="Math" sortName="" />
+
+    <glyph name="bar" unicode="007C" script="" category="Punctuation" subCategory="Fence" sortName="bar1" />
+    <glyph name="dblverticalbar" unicode="2016" production="uni2016"  script="" category="Punctuation" subCategory="Fence" sortName="bar2" />
+    <glyph name="tripleVerticalBarDelimiter" unicode="2980" production="uni2980"  script="" category="Punctuation" subCategory="Fence" sortName="bar3" />
+    <glyph name="parenleft" unicode="0028" script="" category="Punctuation" subCategory="Fence" sortName="fence00" />
+    <glyph name="parenright" unicode="0029" script="" category="Punctuation" subCategory="Fence" sortName="fence01" />
+    <glyph name="bracketleft" unicode="005B" script="" category="Punctuation" subCategory="Fence" sortName="fence02" />
+    <glyph name="bracketright" unicode="005D" script="" category="Punctuation" subCategory="Fence" sortName="fence03" />
+    <glyph name="braceleft" unicode="007B" script="" category="Punctuation" subCategory="Fence" sortName="fence04" />
+    <glyph name="braceright" unicode="007D" script="" category="Punctuation" subCategory="Fence" sortName="fence05" />
+    <glyph name="leftCeiling" unicode="2308" production="uni2308" script="" category="Punctuation" subCategory="Fence" sortName="fence06" />
+    <glyph name="rightCeiling" unicode="2309" production="uni2309" script="" category="Punctuation" subCategory="Fence" sortName="fence07" />
+    <glyph name="leftFloor" unicode="230A" production="uni230A" script="" category="Punctuation" subCategory="Fence" sortName="fence08" />
+    <glyph name="rightFloor" unicode="230B" production="uni230B" script="" category="Punctuation" subCategory="Fence" sortName="fence09" />
+    <glyph name="lmoustache" unicode="23B0" production="uni23B0"  script="" category="Punctuation" subCategory="Fence" sortName="fence10" />
+    <glyph name="rmoustache" unicode="23B1" production="uni23B1"  script="" category="Punctuation" subCategory="Fence" sortName="fence11" />
+    <glyph name="leftsshapedbagdelimiter" unicode="27C5" production="uni27C5" script="" category="Punctuation" subCategory="Fence" sortName="fence12" />
+    <glyph name="rightsshapedbagdelimiter" unicode="27C6" production="uni27C6" script="" category="Punctuation" subCategory="Fence" sortName="fence13" />
+    <glyph name="leftwhitesquarebracket-math" unicode="27E6" production="uni27E6" script="" category="Punctuation" subCategory="Fence" sortName="fence14" />
+    <glyph name="rightwhitesquarebracket-math" unicode="27E7" production="uni27E7" script="" category="Punctuation" subCategory="Fence" sortName="fence15" />
+    <glyph name="leftanglebracket-math" unicode="27E8" production="uni27E8" script="" category="Punctuation" subCategory="Fence" sortName="fence16" />
+    <glyph name="rightanglebracket-math" unicode="27E9" production="uni27E9" script="" category="Punctuation" subCategory="Fence" sortName="fence17" />
+    <glyph name="leftdoubleanglebracket-math" unicode="27EA" production="uni27EA" script="" category="Punctuation" subCategory="Fence" sortName="fence18" />
+    <glyph name="rightdoubleanglebracket-math" unicode="27EB" production="uni27EB" script="" category="Punctuation" subCategory="Fence" sortName="fence19" />
+    <glyph name="leftwhitetortoiseshellbracket-math" unicode="27EC" production="uni27EC" script="" category="Punctuation" subCategory="Fence" sortName="fence20" />
+    <glyph name="rightwhitetortoiseshellbracket-math" unicode="27ED" production="uni27ED" script="" category="Punctuation" subCategory="Fence" sortName="fence21" />
+    <glyph name="leftflattenedparenthesis-math" unicode="27EE" production="uni27EE" script="" category="Punctuation" subCategory="Fence" sortName="fence22" />
+    <glyph name="rightflattenedparenthesis-math" unicode="27EF" production="uni27EF" script="" category="Punctuation" subCategory="Fence" sortName="fence23" />
+    <glyph name="leftwhitecurlybracket" unicode="2983" production="uni2983" script="" category="Punctuation" subCategory="Fence" sortName="fence24" />
+    <glyph name="rightwhitecurlybracket" unicode="2984" production="uni2984" script="" category="Punctuation" subCategory="Fence" sortName="fence25" />
+    <glyph name="whiteparenleft" unicode="2985" production="uni2985" script="" category="Punctuation" subCategory="Fence" sortName="fence26" />
+    <glyph name="whiteparenright" unicode="2986" production="uni2986" script="" category="Punctuation" subCategory="Fence" sortName="fence27" />
+    <glyph name="znotationleftimagebracket" unicode="2987" production="uni2987" script="" category="Punctuation" subCategory="Fence" sortName="fence28" />
+    <glyph name="znotationrightimagebracket" unicode="2988" production="uni2988" script="" category="Punctuation" subCategory="Fence" sortName="fence29" />
+    <glyph name="znotationleftbindingbracket" unicode="2989" production="uni2989" script="" category="Punctuation" subCategory="Fence" sortName="fence30" />
+    <glyph name="znotationrightbindingbracket" unicode="298A" production="uni298A" script="" category="Punctuation" subCategory="Fence" sortName="fence31" />
+    <glyph name="leftsquarebracketunderbar" unicode="298B" production="uni298B" script="" category="Punctuation" subCategory="Fence" sortName="fence32" />
+    <glyph name="rightsquarebracketunderbar" unicode="298C" production="uni298C" script="" category="Punctuation" subCategory="Fence" sortName="fence33" />
+    <glyph name="leftsquarebrackettickintopcorner" unicode="298D" production="uni298D" script="" category="Punctuation" subCategory="Fence" sortName="fence34" />
+    <glyph name="rightsquarebrackettickinbottomcorner" unicode="298E" production="uni298E" script="" category="Punctuation" subCategory="Fence" sortName="fence35" />
+    <glyph name="leftsquarebrackettickinbottomcorner" unicode="298F" production="uni298F" script="" category="Punctuation" subCategory="Fence" sortName="fence36" />
+    <glyph name="rightsquarebrackettickintopcorner" unicode="2990" production="uni2990" script="" category="Punctuation" subCategory="Fence" sortName="fence37" />
+    <glyph name="leftanglebracketdot" unicode="2991" production="uni2991" script="" category="Punctuation" subCategory="Fence" sortName="fence38" />
+    <glyph name="rightanglebracketdot" unicode="2992" production="uni2992" script="" category="Punctuation" subCategory="Fence" sortName="fence39" />
+    <glyph name="leftarclessthanbracket" unicode="2993" production="uni2993" script="" category="Punctuation" subCategory="Fence" sortName="fence40" />
+    <glyph name="rightarcgreaterthanbracket" unicode="2994" production="uni2994" script="" category="Punctuation" subCategory="Fence" sortName="fence41" />
+    <glyph name="doubleleftarcgreaterthanbracket" unicode="2995" production="uni2995" script="" category="Punctuation" subCategory="Fence" sortName="fence42" />
+    <glyph name="doublerightarclessthanbracket" unicode="2996" production="uni2996" script="" category="Punctuation" subCategory="Fence" sortName="fence43" />
+    <glyph name="leftblacktortoiseshellbracket" unicode="2997" production="uni2997" script="" category="Punctuation" subCategory="Fence" sortName="fence44" />
+    <glyph name="rightblacktortoiseshellbracket" unicode="2998" production="uni2998" script="" category="Punctuation" subCategory="Fence" sortName="fence45" />
+    <glyph name="dottedFence" unicode="2999" production="uni2999"  script="" category="Punctuation" subCategory="Fence" sortName="fence46" />
+    <glyph name="verticalZigzagLine" unicode="299A" production="uni299A"  script="" category="Punctuation" subCategory="Fence" sortName="fence47" />
+    <glyph name="leftwigglyfence" unicode="29D8" production="uni29D8" script="" category="Punctuation" subCategory="Fence" sortName="fence48" />
+    <glyph name="rightwigglyfence" unicode="29D9" production="uni29D9" script="" category="Punctuation" subCategory="Fence" sortName="fence49" />
+    <glyph name="leftdoublewigglyfence" unicode="29DA" production="uni29DA" script="" category="Punctuation" subCategory="Fence" sortName="fence50" />
+    <glyph name="rightdoublewigglyfence" unicode="29DB" production="uni29DB" script="" category="Punctuation" subCategory="Fence" sortName="fence51" />
+    <glyph name="leftpointingcurvedanglebracket" unicode="29FC" production="uni29FC" script="" category="Punctuation" subCategory="Fence" sortName="fence52" />
+    <glyph name="rightpointingcurvedanglebracket" unicode="29FD" production="uni29FD" script="" category="Punctuation" subCategory="Fence" sortName="fence53" />
+
+    <glyph name="braceleft.x" unicode="23AA" production="uni23AA" category="Punctuation" subCategory="Fence" />
+    <glyph name="braceleft.b" unicode="23A9" production="uni23A9" category="Punctuation" subCategory="Fence" />
+    <glyph name="braceleft.m" unicode="23A8" production="uni23A8" category="Punctuation" subCategory="Fence" />
+    <glyph name="braceleft.t" unicode="23A7" production="uni23A7" category="Punctuation" subCategory="Fence" />
+    <glyph name="bracketleft.x" unicode="23A2" production="uni23A2" category="Punctuation" subCategory="Fence" />
+    <glyph name="bracketleft.b" unicode="23A3" production="uni23A3" category="Punctuation" subCategory="Fence" />
+    <glyph name="bracketleft.t" unicode="23A1" production="uni23A1" category="Punctuation" subCategory="Fence" />
+    <glyph name="parenleft.x" unicode="239C" production="uni239C" category="Punctuation" subCategory="Fence" />
+    <glyph name="parenleft.b" unicode="239D" production="uni239D" category="Punctuation" subCategory="Fence" />
+    <glyph name="parenleft.t" unicode="239B" production="uni239B" category="Punctuation" subCategory="Fence" />
+    <glyph name="parenright.x" unicode="239F" production="uni239F" category="Punctuation" subCategory="Fence" />
+    <glyph name="parenright.b" unicode="23A0" production="uni23A0" category="Punctuation" subCategory="Fence" />
+    <glyph name="parenright.t" unicode="239E" production="uni239E" category="Punctuation" subCategory="Fence" />
+    <glyph name="braceright.b" unicode="23AD" production="uni23AD" category="Punctuation" subCategory="Fence" />
+    <glyph name="braceright.m" unicode="23AC" production="uni23AC" category="Punctuation" subCategory="Fence" />
+    <glyph name="braceright.t" unicode="23AB" production="uni23AB" category="Punctuation" subCategory="Fence" />
+    <glyph name="bracketright.x" unicode="23A5" production="uni23A5" category="Punctuation" subCategory="Fence" />
+    <glyph name="bracketright.b" unicode="23A6" production="uni23A6" category="Punctuation" subCategory="Fence" />
+    <glyph name="bracketright.t" unicode="23A4" production="uni23A4" category="Punctuation" subCategory="Fence" />
+
+    <glyph name="smallerthanorequalto" unicode="2AAC" production="uni2AAC" category="Symbol" subCategory="Math" />
+
+</glyphData>

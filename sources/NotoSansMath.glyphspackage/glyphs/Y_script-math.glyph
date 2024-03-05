@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "Yscript-math";
 layers = (
 {
@@ -10,15 +9,11 @@ pos = (462,357);
 },
 {
 name = math.ic;
-pos = (910,250);
+pos = (910,0);
 },
 {
 name = math.ta;
-pos = (563,764);
-},
-{
-name = top;
-pos = (563,764);
+pos = (663,0);
 }
 );
 layerId = master01;

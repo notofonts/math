@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 1;
 glyphname = Bscript.uv001;
 layers = (
 {
@@ -10,11 +10,7 @@ pos = (342,357);
 },
 {
 name = math.ta;
-pos = (363,764);
-},
-{
-name = top;
-pos = (363,764);
+pos = (363,0);
 }
 );
 layerId = master01;

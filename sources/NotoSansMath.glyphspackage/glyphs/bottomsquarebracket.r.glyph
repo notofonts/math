@@ -1,26 +1,14 @@
 {
-color = 4;
 glyphname = bottomsquarebracket.r;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (400,-228);
-}
-);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(800,-327,l),
-(800,-128,l),
-(728,-128,l),
-(728,-247,l),
-(0,-247,l),
-(0,-327,l)
-);
+alignment = -1;
+angle = 180;
+pos = (800,598);
+ref = topsquarebracket.l;
 }
 );
 width = 800;

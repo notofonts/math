@@ -1,35 +1,17 @@
 {
-color = 4;
 glyphname = "Etaitalic-math";
+kernLeft = GRK_Epsilon;
+kernRight = GRK_Eta;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (413,357);
-},
-{
-name = math.ic;
-pos = (867,250);
-},
-{
-name = math.ta;
-pos = (492,764);
-},
-{
-name = top;
-pos = (492,764);
-}
-);
 layerId = master01;
 shapes = (
 {
-ref = "Hitalic-math";
+ref = "Hsansitalic-math";
 }
 );
-width = 793;
+width = 680;
 }
 );
-production = u1D6E8;
 unicode = 120552;
 }

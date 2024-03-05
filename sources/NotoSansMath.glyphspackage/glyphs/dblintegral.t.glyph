@@ -6,23 +6,27 @@ anchors = (
 {
 name = center;
 pos = (407,681);
+},
+{
+name = math.ic;
+pos = (821,0);
 }
 );
 layerId = master01;
 shapes = (
 {
-alignment = -1;
-ref = integraltp;
+alignment = 1;
+ref = integral.t;
 },
 {
-alignment = -1;
-pos = (289,0);
-ref = integraltp;
+alignment = 1;
+pos = (259,0);
+ref = integral.t;
 }
 );
-width = 676;
+width = 731;
 }
 );
-metricLeft = "=integraltp";
-metricRight = "=integraltp";
+metricLeft = "=integral.t";
+metricRight = "=integral.t";
 }

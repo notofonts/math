@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = dotmath.ssty2;
 layers = (
 {
@@ -32,5 +32,4 @@ nodes = (
 width = 252;
 }
 );
-production = dotmath.ssty2;
 }

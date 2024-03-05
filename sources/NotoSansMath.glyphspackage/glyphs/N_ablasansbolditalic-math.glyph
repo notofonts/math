@@ -1,0 +1,31 @@
+{
+glyphname = "Nablasansbolditalic-math";
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (382,359);
+},
+{
+name = math.ic;
+pos = (751,0);
+},
+{
+name = math.ta;
+pos = (382,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+angle = 180;
+pos = (731,714);
+ref = "Deltasansbolditalic-math";
+}
+);
+width = 731;
+}
+);
+unicode = (120745,120629);
+}

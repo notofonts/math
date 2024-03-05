@@ -3,28 +3,13 @@ color = 4;
 glyphname = "Betaitalic-math.ssty1";
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (365,357);
-},
-{
-name = math.ta;
-pos = (437,764);
-},
-{
-name = top;
-pos = (437,764);
-}
-);
 layerId = master01;
 shapes = (
 {
-ref = "Bitalic-math.ssty1";
+ref = "Bsansitalic-math.ssty1";
 }
 );
-width = 780;
+width = 645;
 }
 );
-production = u1D6E3.ssty1;
 }

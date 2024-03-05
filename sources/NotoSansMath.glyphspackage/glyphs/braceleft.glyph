@@ -21,31 +21,31 @@ userData = {
 com.nagwa.MATHPlugin.variants = {
 vAssembly = (
 (
-leftcurlybracketlowerhook,
+braceleft.b,
 0,
 0,
 1100
 ),
 (
-curlybracketextension,
+braceleft.x,
 1,
 1362,
 1362
 ),
 (
-leftcurlybracketmiddlepiece,
+braceleft.m,
 0,
 500,
 500
 ),
 (
-curlybracketextension,
+braceleft.x,
 1,
 1362,
 1362
 ),
 (
-leftcurlybracketupperhook,
+braceleft.t,
 0,
 1100,
 0

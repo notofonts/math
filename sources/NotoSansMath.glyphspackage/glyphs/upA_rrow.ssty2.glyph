@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = upArrow.ssty2;
 layers = (
 {
@@ -45,5 +45,4 @@ nodes = (
 width = 448;
 }
 );
-production = arrowup.ssty2;
 }

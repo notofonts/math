@@ -1,39 +1,17 @@
 {
-color = 4;
 glyphname = "Upsilonitalic-math";
+kernLeft = GRK_Upsilon;
+kernRight = GRK_Upsilon;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (398,357);
-},
-{
-name = math.ic;
-pos = (739,250);
-},
-{
-name = math.ta;
-pos = (408,764);
-},
-{
-name = top;
-pos = (408,764);
-},
-{
-name = topleft;
-pos = (53,714);
-}
-);
 layerId = master01;
 shapes = (
 {
-ref = "Yitalic-math";
+ref = "Ysansitalic-math";
 }
 );
-width = 625;
+width = 509;
 }
 );
-production = u1D6F6;
 unicode = 120566;
 }

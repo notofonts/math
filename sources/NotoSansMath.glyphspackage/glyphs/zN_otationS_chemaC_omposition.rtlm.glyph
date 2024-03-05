@@ -1,4 +1,5 @@
 {
+color = 3;
 glyphname = zNotationSchemaComposition.rtlm;
 layers = (
 {
@@ -90,4 +91,7 @@ nodes = (
 width = 356;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
 }

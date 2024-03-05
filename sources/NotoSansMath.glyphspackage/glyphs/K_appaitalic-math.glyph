@@ -1,35 +1,17 @@
 {
-color = 4;
 glyphname = "Kappaitalic-math";
+kernLeft = GRK_Epsilon;
+kernRight = GRK_Kappa;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (369,357);
-},
-{
-name = math.ic;
-pos = (779,250);
-},
-{
-name = math.ta;
-pos = (445,764);
-},
-{
-name = top;
-pos = (445,764);
-}
-);
 layerId = master01;
 shapes = (
 {
-ref = "Kitalic-math";
+ref = "Ksansitalic-math";
 }
 );
-width = 700;
+width = 562;
 }
 );
-production = u1D6EB;
 unicode = 120555;
 }

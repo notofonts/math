@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = rightArrow.ssty2;
 layers = (
 {
@@ -45,5 +45,4 @@ nodes = (
 width = 826;
 }
 );
-production = arrowright.ssty2;
 }

@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = multiply.circled.ssty2;
 layers = (
 {
@@ -67,5 +67,4 @@ nodes = (
 width = 770;
 }
 );
-production = circlemultiply.ssty2;
 }

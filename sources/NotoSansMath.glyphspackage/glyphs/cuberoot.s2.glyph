@@ -17,7 +17,7 @@ Size = 2;
 ref = _part.cuberoot;
 }
 );
-width = 788;
+width = 813;
 }
 );
 }

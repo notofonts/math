@@ -1,0 +1,50 @@
+{
+glyphname = braceleft.x;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (234,681);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(280,0,l),
+(280,1362,l),
+(188,1362,l),
+(188,0,l)
+);
+}
+);
+width = 430;
+},
+{
+anchors = (
+{
+name = center;
+pos = (161,681);
+}
+);
+associatedMasterId = master01;
+layerId = "A3B483CD-CD05-44BF-8D7A-5D7A75BBBA77";
+name = "Mar 7, 23, 11:26";
+shapes = (
+{
+closed = 1;
+nodes = (
+(204,0,l),
+(204,1362,l),
+(119,1362,l),
+(119,0,l)
+);
+}
+);
+width = 314;
+}
+);
+unicode = 9130;
+}

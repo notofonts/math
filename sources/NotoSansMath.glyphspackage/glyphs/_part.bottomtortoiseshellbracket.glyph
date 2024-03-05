@@ -1,15 +1,8 @@
 {
-color = 9;
 export = 0;
 glyphname = _part.bottomtortoiseshellbracket;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (855,-222);
-}
-);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -18,26 +11,20 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(338,-412,l),
-(1372,-412,l),
-(1695,-32,l),
-(1595,-32,l),
-(1331,-332,l),
-(379,-332,l),
-(115,-32,l),
-(15,-32,l)
+(543,-261,l),
+(662,-60,l),
+(588,-60,l),
+(509,-190,l),
+(153,-190,l),
+(74,-60,l),
+(0,-60,l),
+(119,-261,l)
 );
 }
 );
-width = 1710;
+width = 662;
 },
 {
-anchors = (
-{
-name = center;
-pos = (4215,-222);
-}
-);
 associatedMasterId = master01;
 layerId = "A66016CB-6ACB-451C-8DBF-8DE1E45AA260";
 name = "Regular-Large";
@@ -48,20 +35,22 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(338,-412,l),
-(8092,-412,l),
-(8415,-32,l),
-(8315,-32,l),
-(8051,-332,l),
-(379,-332,l),
-(115,-32,l),
-(15,-32,l)
+(3881,-261,l),
+(4000,-60,l),
+(3926,-60,l),
+(3847,-190,l),
+(153,-190,l),
+(74,-60,l),
+(0,-60,l),
+(119,-261,l)
 );
 }
 );
-width = 8430;
+width = 4000;
 }
 );
+metricLeft = "=0";
+metricRight = "=0";
 partsSettings = (
 {
 bottomValue = 0;

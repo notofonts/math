@@ -1,0 +1,20 @@
+{
+color = 3;
+glyphname = integral.b.rtlm;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+pos = (472,0);
+ref = integral.b;
+scale = (-1,1);
+}
+);
+width = 472;
+}
+);
+metricLeft = "=|integral.b";
+metricRight = "=|integral.b";
+}

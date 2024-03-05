@@ -1,28 +1,15 @@
 {
-color = 4;
 glyphname = "Cmono-math";
 layers = (
 {
 anchors = (
-{
-name = bottom;
-pos = (351,0);
-},
 {
 name = center;
 pos = (308,357);
 },
 {
 name = math.ta;
-pos = (359,764);
-},
-{
-name = top;
-pos = (359,714);
-},
-{
-name = topright;
-pos = (580,714);
+pos = (359,0);
 }
 );
 layerId = master01;
@@ -62,6 +49,5 @@ nodes = (
 width = 600;
 }
 );
-production = u1D672;
 unicode = 120434;
 }

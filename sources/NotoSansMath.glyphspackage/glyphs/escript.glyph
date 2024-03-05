@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = escript;
 layers = (
 {
@@ -10,11 +9,7 @@ pos = (203,150);
 },
 {
 name = math.ta;
-pos = (317,358);
-},
-{
-name = top;
-pos = (317,358);
+pos = (317,0);
 }
 );
 layerId = master01;

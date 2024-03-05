@@ -1,15 +1,8 @@
 {
-color = 9;
 export = 0;
 glyphname = _part.toptortoiseshellbracket;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (855,752);
-}
-);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -18,26 +11,20 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(115,562,l),
-(379,862,l),
-(1331,862,l),
-(1595,562,l),
-(1695,562,l),
-(1372,942,l),
-(338,942,l),
-(15,562,l)
+(0,658,l),
+(74,658,l),
+(153,788,l),
+(509,788,l),
+(588,658,l),
+(662,658,l),
+(543,859,l),
+(119,859,l)
 );
 }
 );
-width = 1710;
+width = 662;
 },
 {
-anchors = (
-{
-name = center;
-pos = (4215,752);
-}
-);
 associatedMasterId = master01;
 layerId = "B18DA783-0BC5-4048-B5F1-406C46793FEE";
 name = "Regular-Large";
@@ -48,20 +35,22 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(115,562,l),
-(379,862,l),
-(8051,862,l),
-(8315,562,l),
-(8415,562,l),
-(8092,942,l),
-(338,942,l),
-(15,562,l)
+(0,658,l),
+(74,658,l),
+(153,788,l),
+(3847,788,l),
+(3926,658,l),
+(4000,658,l),
+(3881,859,l),
+(119,859,l)
 );
 }
 );
-width = 8430;
+width = 4000;
 }
 );
+metricLeft = "=0";
+metricRight = "=0";
 partsSettings = (
 {
 bottomValue = 0;

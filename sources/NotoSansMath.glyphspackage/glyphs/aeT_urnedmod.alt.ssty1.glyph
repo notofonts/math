@@ -1,14 +1,9 @@
 {
-color = 0;
+color = 4;
 export = 0;
 glyphname = aeTurnedmod.alt.ssty1;
 layers = (
 {
-anchors = (
-{
-name = center;
-}
-);
 layerId = master01;
 width = 600;
 }

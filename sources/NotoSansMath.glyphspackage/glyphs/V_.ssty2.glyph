@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = V.ssty2;
 kernLeft = V.right;
 kernRight = V.left;
@@ -12,11 +12,7 @@ pos = (340,357);
 },
 {
 name = math.ta;
-pos = (340,764);
-},
-{
-name = top;
-pos = (340,764);
+pos = (344,0);
 }
 );
 layerId = master01;

@@ -13,7 +13,7 @@ pos = (289,-236);
 },
 {
 name = math.ta;
-pos = (289,50);
+pos = (289,0);
 },
 {
 name = top;
@@ -31,19 +31,19 @@ userData = {
 com.nagwa.MATHPlugin.variants = {
 hAssembly = (
 (
-leftarrowbelow.s1,
+leftarrowbelowcomb.s1,
 0,
 0,
 600
 ),
 (
-horizontalbelow.x,
+leftarrowbelowcomb.x,
 1,
 600,
 600
 ),
 (
-rightarrowbelow.s1,
+rightarrowbelowcomb.s1,
 0,
 600,
 0
@@ -56,4 +56,11 @@ width = 597;
 );
 metricRight = "=|";
 unicode = 845;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hVariants = (
+arrowleftrightbelowcomb
+);
+};
+};
 }

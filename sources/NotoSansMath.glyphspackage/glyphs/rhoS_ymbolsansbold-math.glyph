@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "rhoSymbolsansbold-math";
 layers = (
 {
@@ -10,11 +9,7 @@ pos = (292,178);
 },
 {
 name = math.ta;
-pos = (316,586);
-},
-{
-name = top;
-pos = (316,586);
+pos = (316,0);
 }
 );
 layerId = master01;
@@ -70,6 +65,5 @@ nodes = (
 width = 564;
 }
 );
-production = u1D78E;
-unicode = 120718;
+unicode = (120718,120544);
 }

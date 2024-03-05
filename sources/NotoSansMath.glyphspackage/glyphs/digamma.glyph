@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = digamma;
 layers = (
 {
@@ -7,6 +6,10 @@ anchors = (
 {
 name = center;
 pos = (256,148);
+},
+{
+name = math.ta;
+pos = (256,0);
 }
 );
 layerId = master01;

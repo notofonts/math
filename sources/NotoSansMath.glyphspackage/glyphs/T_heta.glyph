@@ -2,28 +2,6 @@
 glyphname = Theta;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (392,0);
-},
-{
-name = center;
-pos = (391,357);
-},
-{
-name = math.ta;
-pos = (391,764);
-},
-{
-name = top;
-pos = (391,714);
-},
-{
-name = topright;
-pos = (761,714);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -43,5 +21,6 @@ ref = O;
 width = 781;
 }
 );
+metricWidth = "=O";
 unicode = 920;
 }

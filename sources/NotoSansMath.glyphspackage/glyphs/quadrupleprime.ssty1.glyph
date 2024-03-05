@@ -3,52 +3,16 @@ color = 4;
 glyphname = quadrupleprime.ssty1;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (479,585);
-}
-);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(335,456,l),
-(501,714,l),
-(380,714,l),
-(251,456,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(128,456,l),
-(294,714,l),
-(173,714,l),
-(44,456,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(749,456,l),
-(915,714,l),
-(794,714,l),
-(665,456,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(542,456,l),
-(708,714,l),
-(587,714,l),
-(458,456,l)
-);
+alignment = 3;
+pos = (0,-654);
+ref = quadrupleprime;
+scale = (1.6667,1.6667);
 }
 );
-width = 902;
+width = 1237;
 }
 );
 }

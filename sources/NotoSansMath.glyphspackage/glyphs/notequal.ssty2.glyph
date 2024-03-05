@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = notequal.ssty2;
 layers = (
 {
@@ -42,5 +42,4 @@ nodes = (
 width = 572;
 }
 );
-production = notequal.ssty2;
 }

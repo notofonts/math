@@ -1,0 +1,27 @@
+{
+color = 3;
+glyphname = unionintegral.rtlm.s1;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (562,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+pos = (472,0);
+ref = unionintegral.s1;
+scale = (-1,1);
+}
+);
+width = 472;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

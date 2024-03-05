@@ -1,35 +1,17 @@
 {
-color = 4;
 glyphname = "Zetaitalic-math";
+kernLeft = GRK_Zeta;
+kernRight = GRK_Zeta;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (307,357);
-},
-{
-name = math.ic;
-pos = (651,250);
-},
-{
-name = math.ta;
-pos = (398,764);
-},
-{
-name = top;
-pos = (398,764);
-}
-);
 layerId = master01;
 shapes = (
 {
-ref = "Zitalic-math";
+ref = "Zsansitalic-math";
 }
 );
-width = 605;
+width = 541;
 }
 );
-production = u1D6E7;
 unicode = 120551;
 }

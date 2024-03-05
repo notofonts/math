@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = fraction;
 layers = (
 {
@@ -25,4 +24,15 @@ width = 130;
 }
 );
 unicode = 8260;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+fraction,
+slash.s1,
+slash.s2,
+slash.s3,
+slash.s4
+);
+};
+};
 }

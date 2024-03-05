@@ -1,0 +1,18 @@
+{
+color = 4;
+glyphname = doubleprime.ssty1;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = 3;
+pos = (0,-654);
+ref = doubleprime;
+scale = (1.6667,1.6667);
+}
+);
+width = 680;
+}
+);
+}

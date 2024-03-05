@@ -4,8 +4,8 @@ layers = (
 {
 anchors = (
 {
-name = center;
-pos = (1141,750);
+name = math.ta;
+pos = (1332,0);
 }
 );
 layerId = master01;
@@ -17,7 +17,7 @@ Size = 3;
 ref = _part.topsquarebracket;
 }
 );
-width = 2282;
+width = 2665;
 }
 );
 }

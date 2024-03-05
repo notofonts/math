@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = "sharp-musical.ssty2";
 layers = (
 {
@@ -57,5 +57,4 @@ nodes = (
 width = 587;
 }
 );
-production = uni266F.ssty2;
 }

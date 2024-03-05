@@ -1,0 +1,36 @@
+{
+glyphname = slashintegral;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (562,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = integral;
+},
+{
+ref = _slash.integral;
+}
+);
+width = 472;
+}
+);
+metricLeft = "=51@-180";
+metricRight = "=51@850";
+unicode = 10767;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+slashintegral,
+slashintegral.s1
+);
+};
+};
+}

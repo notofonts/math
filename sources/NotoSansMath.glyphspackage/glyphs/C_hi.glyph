@@ -2,32 +2,9 @@
 glyphname = Chi;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (293,0);
-},
-{
-name = center;
-pos = (293,357);
-},
-{
-name = math.ta;
-pos = (292,764);
-},
-{
-name = top;
-pos = (292,714);
-},
-{
-name = topright;
-pos = (566,714);
-}
-);
 layerId = master01;
 shapes = (
 {
-alignment = -1;
 ref = X;
 }
 );

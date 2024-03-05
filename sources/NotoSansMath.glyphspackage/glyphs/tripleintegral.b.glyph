@@ -5,26 +5,27 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (413,681);
+pos = (422,681);
 }
 );
 layerId = master01;
 shapes = (
 {
-ref = integralbt;
+alignment = 1;
+ref = integral.b;
 },
 {
-pos = (289,0);
-ref = integralbt;
+pos = (259,0);
+ref = integral.b;
 },
 {
-pos = (578,0);
-ref = integralbt;
+pos = (518,0);
+ref = integral.b;
 }
 );
-width = 965;
+width = 990;
 }
 );
-metricLeft = "=integralbt";
-metricRight = "=integralbt";
+metricLeft = "=integral.b";
+metricRight = "=integral.b";
 }

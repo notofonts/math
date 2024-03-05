@@ -2,32 +2,9 @@
 glyphname = Nu;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (380,0);
-},
-{
-name = center;
-pos = (380,357);
-},
-{
-name = math.ta;
-pos = (380,764);
-},
-{
-name = top;
-pos = (380,714);
-},
-{
-name = topright;
-pos = (740,714);
-}
-);
 layerId = master01;
 shapes = (
 {
-alignment = -1;
 ref = N;
 }
 );

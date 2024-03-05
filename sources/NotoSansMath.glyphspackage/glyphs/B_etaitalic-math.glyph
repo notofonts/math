@@ -1,31 +1,17 @@
 {
-color = 4;
 glyphname = "Betaitalic-math";
+kernLeft = GRK_Epsilon;
+kernRight = GRK_Beta;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (301,357);
-},
-{
-name = math.ta;
-pos = (422,764);
-},
-{
-name = top;
-pos = (422,764);
-}
-);
 layerId = master01;
 shapes = (
 {
-ref = "Bitalic-math";
+ref = "Bsansitalic-math";
 }
 );
-width = 654;
+width = 600;
 }
 );
-production = u1D6E3;
 unicode = 120547;
 }

@@ -4,8 +4,8 @@ layers = (
 {
 anchors = (
 {
-name = center;
-pos = (570,797);
+name = math.ta;
+pos = (331,0);
 }
 );
 layerId = master01;
@@ -41,7 +41,7 @@ topparenthesis.r,
 );
 };
 };
-width = 1140;
+width = 662;
 }
 );
 unicode = 9180;

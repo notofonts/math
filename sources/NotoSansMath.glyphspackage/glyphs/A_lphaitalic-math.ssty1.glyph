@@ -3,30 +3,15 @@ color = 4;
 glyphname = "Alphaitalic-math.ssty1";
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (353,357);
-},
-{
-name = math.ta;
-pos = (430,764);
-},
-{
-name = top;
-pos = (430,764);
-}
-);
 layerId = master01;
 shapes = (
 {
-ref = "Aitalic-math.ssty1";
+ref = "Asansitalic-math.ssty1";
 }
 );
-width = 752;
+width = 700;
 }
 );
-metricLeft = "Aitalic-math.ssty";
-metricRight = "Aitalic-math.ssty";
-production = u1D6E2.ssty1;
+metricLeft = "=Asansitalic-math.ssty1";
+metricWidth = "=Asansitalic-math.ssty1";
 }

@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = T.ssty2;
 kernLeft = T.right;
 kernRight = T.left;
@@ -8,15 +8,11 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (301,357);
+pos = (304,357);
 },
 {
 name = math.ta;
-pos = (301,764);
-},
-{
-name = top;
-pos = (301,764);
+pos = (306,0);
 }
 );
 layerId = master01;
@@ -24,18 +20,18 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(375,0,l),
-(375,592,l),
-(584,592,l),
-(584,714,l),
-(19,714,l),
-(19,592,l),
-(228,592,l),
-(228,0,l)
+(378,0,l),
+(378,592,l),
+(587,592,l),
+(587,714,l),
+(22,714,l),
+(22,592,l),
+(231,592,l),
+(231,0,l)
 );
 }
 );
-width = 603;
+width = 611;
 }
 );
 }

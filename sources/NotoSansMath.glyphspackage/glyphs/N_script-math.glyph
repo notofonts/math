@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "Nscript-math";
 layers = (
 {
@@ -10,11 +9,7 @@ pos = (522,355);
 },
 {
 name = math.ta;
-pos = (844,764);
-},
-{
-name = top;
-pos = (844,764);
+pos = (844,0);
 }
 );
 layerId = master01;

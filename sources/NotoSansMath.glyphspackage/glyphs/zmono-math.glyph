@@ -1,28 +1,15 @@
 {
-color = 4;
 glyphname = "zmono-math";
 layers = (
 {
 anchors = (
-{
-name = bottom;
-pos = (310,0);
-},
 {
 name = center;
 pos = (300,268);
 },
 {
 name = math.ta;
-pos = (310,586);
-},
-{
-name = top;
-pos = (310,536);
-},
-{
-name = topright;
-pos = (580,536);
+pos = (310,0);
 }
 );
 layerId = master01;
@@ -46,6 +33,5 @@ nodes = (
 width = 600;
 }
 );
-production = u1D6A3;
 unicode = 120483;
 }

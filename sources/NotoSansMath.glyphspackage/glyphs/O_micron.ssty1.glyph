@@ -3,27 +3,13 @@ color = 4;
 glyphname = Omicron.ssty1;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (401,357);
-},
-{
-name = math.ta;
-pos = (401,764);
-},
-{
-name = top;
-pos = (401,764);
-}
-);
 layerId = master01;
 shapes = (
 {
 ref = O.ssty1;
 }
 );
-width = 802;
+width = 804;
 }
 );
 }

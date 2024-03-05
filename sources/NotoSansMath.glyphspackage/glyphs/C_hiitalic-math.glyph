@@ -1,35 +1,17 @@
 {
-color = 4;
 glyphname = "Chiitalic-math";
+kernLeft = GRK_Chi;
+kernRight = GRK_Chi;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (336,357);
-},
-{
-name = math.ic;
-pos = (741,250);
-},
-{
-name = math.ta;
-pos = (425,764);
-},
-{
-name = top;
-pos = (425,764);
-}
-);
 layerId = master01;
 shapes = (
 {
-ref = "Xitalic-math";
+ref = "Xsansitalic-math";
 }
 );
-width = 660;
+width = 579;
 }
 );
-production = u1D6F8;
 unicode = 120568;
 }

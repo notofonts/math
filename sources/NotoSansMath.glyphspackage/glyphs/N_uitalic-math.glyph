@@ -1,35 +1,17 @@
 {
-color = 4;
 glyphname = "Nuitalic-math";
+kernLeft = GRK_Epsilon;
+kernRight = GRK_Eta;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (403,357);
-},
-{
-name = math.ic;
-pos = (847,250);
-},
-{
-name = math.ta;
-pos = (477,764);
-},
-{
-name = top;
-pos = (477,764);
-}
-);
 layerId = master01;
 shapes = (
 {
-ref = "Nitalic-math";
+ref = "Nsansitalic-math";
 }
 );
-width = 763;
+width = 707;
 }
 );
-production = u1D6EE;
 unicode = 120558;
 }

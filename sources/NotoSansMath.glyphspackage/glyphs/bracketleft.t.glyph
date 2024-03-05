@@ -1,0 +1,30 @@
+{
+glyphname = bracketleft.t;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (204,681);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(136,0,l),
+(136,1289,l),
+(358,1289,l),
+(358,1362,l),
+(51,1362,l),
+(51,0,l)
+);
+}
+);
+width = 406;
+}
+);
+metricLeft = "=bracketleft.x";
+unicode = 9121;
+}

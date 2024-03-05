@@ -3,27 +3,13 @@ color = 4;
 glyphname = Nu.ssty1;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (400,357);
-},
-{
-name = math.ta;
-pos = (337,764);
-},
-{
-name = top;
-pos = (337,764);
-}
-);
 layerId = master01;
 shapes = (
 {
 ref = N.ssty1;
 }
 );
-width = 800;
+width = 815;
 }
 );
 }

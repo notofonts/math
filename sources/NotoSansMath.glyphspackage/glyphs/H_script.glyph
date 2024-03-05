@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = Hscript;
 layers = (
 {
@@ -10,15 +9,11 @@ pos = (562,366);
 },
 {
 name = math.ic;
-pos = (1125,250);
+pos = (1125,0);
 },
 {
 name = math.ta;
-pos = (888,764);
-},
-{
-name = top;
-pos = (888,764);
+pos = (848,0);
 }
 );
 layerId = master01;

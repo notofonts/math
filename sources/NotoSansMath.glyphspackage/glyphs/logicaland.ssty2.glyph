@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = logicaland.ssty2;
 layers = (
 {
@@ -28,5 +28,4 @@ nodes = (
 width = 716;
 }
 );
-production = logicaland.ssty2;
 }

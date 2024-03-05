@@ -1,28 +1,15 @@
 {
-color = 4;
 glyphname = "Nmono-math";
 layers = (
 {
 anchors = (
-{
-name = bottom;
-pos = (300,0);
-},
 {
 name = center;
 pos = (300,357);
 },
 {
 name = math.ta;
-pos = (305,764);
-},
-{
-name = top;
-pos = (305,714);
-},
-{
-name = topright;
-pos = (600,714);
+pos = (305,0);
 }
 );
 layerId = master01;
@@ -54,6 +41,5 @@ nodes = (
 width = 600;
 }
 );
-production = u1D67D;
 unicode = 120445;
 }

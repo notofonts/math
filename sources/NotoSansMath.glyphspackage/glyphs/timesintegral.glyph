@@ -1,0 +1,40 @@
+{
+glyphname = timesintegral;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (239,323);
+},
+{
+name = math.ic;
+pos = (562,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = integral;
+},
+{
+alignment = -1;
+pos = (-47,-30);
+ref = multiply;
+}
+);
+width = 472;
+}
+);
+unicode = 10776;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+timesintegral,
+timesintegral.s1
+);
+};
+};
+}

@@ -1,4 +1,5 @@
 {
+color = 3;
 glyphname = moduloTwoSum.rtlm;
 layers = (
 {
@@ -81,4 +82,7 @@ nodes = (
 width = 785;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
 }

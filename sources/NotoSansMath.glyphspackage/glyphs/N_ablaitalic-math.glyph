@@ -1,0 +1,31 @@
+{
+glyphname = "Nablaitalic-math";
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (433,357);
+},
+{
+name = math.ic;
+pos = (685,0);
+},
+{
+name = math.ta;
+pos = (343,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+angle = 180;
+pos = (637,714);
+ref = "Deltaitalic-math";
+}
+);
+width = 637;
+}
+);
+unicode = 120571;
+}

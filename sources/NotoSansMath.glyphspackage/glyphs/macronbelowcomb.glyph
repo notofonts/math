@@ -1,5 +1,4 @@
 {
-color = 1;
 glyphname = macronbelowcomb;
 layers = (
 {
@@ -14,7 +13,7 @@ pos = (174,-155);
 },
 {
 name = math.ta;
-pos = (174,50);
+pos = (174,0);
 },
 {
 name = top;

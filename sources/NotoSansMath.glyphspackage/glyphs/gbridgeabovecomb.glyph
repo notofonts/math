@@ -1,5 +1,4 @@
 {
-color = 1;
 glyphname = gbridgeabovecomb;
 layers = (
 {
@@ -10,7 +9,7 @@ pos = (243,536);
 },
 {
 name = math.ta;
-pos = (243,486);
+pos = (243,0);
 },
 {
 name = top;

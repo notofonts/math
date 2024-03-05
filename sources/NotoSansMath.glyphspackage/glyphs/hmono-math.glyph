@@ -1,28 +1,15 @@
 {
-color = 4;
 glyphname = "hmono-math";
 layers = (
 {
 anchors = (
-{
-name = bottom;
-pos = (300,0);
-},
 {
 name = center;
 pos = (300,268);
 },
 {
 name = math.ta;
-pos = (126,810);
-},
-{
-name = top;
-pos = (126,760);
-},
-{
-name = topright;
-pos = (580,760);
+pos = (336,0);
 }
 );
 layerId = master01;
@@ -60,6 +47,5 @@ nodes = (
 width = 600;
 }
 );
-production = u1D691;
 unicode = 120465;
 }

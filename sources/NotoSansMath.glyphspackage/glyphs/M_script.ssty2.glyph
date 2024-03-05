@@ -1,12 +1,12 @@
 {
-color = 4;
+color = 5;
 glyphname = Mscript.ssty2;
 layers = (
 {
 anchors = (
 {
-name = center;
-pos = (575,356);
+name = math.ta;
+pos = (967,0);
 }
 );
 layerId = master01;

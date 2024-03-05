@@ -3,27 +3,13 @@ color = 4;
 glyphname = Eta.ssty1;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (381,357);
-},
-{
-name = math.ta;
-pos = (381,764);
-},
-{
-name = top;
-pos = (381,764);
-}
-);
 layerId = master01;
 shapes = (
 {
 ref = H.ssty1;
 }
 );
-width = 762;
+width = 777;
 }
 );
 }

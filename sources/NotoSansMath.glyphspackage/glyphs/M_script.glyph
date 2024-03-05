@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = Mscript;
 layers = (
 {
@@ -10,11 +9,7 @@ pos = (567,356);
 },
 {
 name = math.ta;
-pos = (954,764);
-},
-{
-name = top;
-pos = (954,764);
+pos = (954,0);
 }
 );
 layerId = master01;

@@ -56,5 +56,4 @@ nodes = (
 width = 827;
 }
 );
-production = intersection.uv001.ssty1;
 }

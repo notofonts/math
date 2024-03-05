@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "Jscript-math";
 layers = (
 {
@@ -10,15 +9,11 @@ pos = (425,280);
 },
 {
 name = math.ic;
-pos = (870,250);
+pos = (870,0);
 },
 {
 name = math.ta;
-pos = (715,764);
-},
-{
-name = top;
-pos = (715,764);
+pos = (715,0);
 }
 );
 layerId = master01;

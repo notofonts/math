@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = tackdown.ssty2;
 layers = (
 {
@@ -28,5 +28,4 @@ nodes = (
 width = 754;
 }
 );
-production = uni22A4.ssty2;
 }

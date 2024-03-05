@@ -68,6 +68,7 @@ width = 928;
 );
 unicode = 10754;
 userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 nAryCircledTimesOperator,

@@ -32,5 +32,4 @@ nodes = (
 width = 689;
 }
 );
-production = summation.ssty1;
 }

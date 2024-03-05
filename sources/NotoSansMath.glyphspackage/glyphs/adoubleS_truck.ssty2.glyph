@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = adoubleStruck.ssty2;
 layers = (
 {
@@ -10,11 +10,7 @@ pos = (269,268);
 },
 {
 name = math.ta;
-pos = (296,586);
-},
-{
-name = top;
-pos = (296,586);
+pos = (296,0);
 }
 );
 layerId = master01;

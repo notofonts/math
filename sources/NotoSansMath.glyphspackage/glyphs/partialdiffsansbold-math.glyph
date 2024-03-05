@@ -6,6 +6,10 @@ anchors = (
 {
 name = center;
 pos = (280,353);
+},
+{
+name = math.ta;
+pos = (250,0);
 }
 );
 layerId = master01;
@@ -61,6 +65,5 @@ nodes = (
 width = 564;
 }
 );
-production = u1D789;
-unicode = 120713;
+unicode = (120713,120539);
 }

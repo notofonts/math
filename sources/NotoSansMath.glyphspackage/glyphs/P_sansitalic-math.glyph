@@ -4,24 +4,12 @@ layers = (
 {
 anchors = (
 {
-name = bottom;
-pos = (227,0);
-},
-{
 name = center;
 pos = (304,357);
 },
 {
 name = math.ta;
-pos = (373,764);
-},
-{
-name = top;
-pos = (373,714);
-},
-{
-name = topright;
-pos = (642,714);
+pos = (373,0);
 }
 );
 layerId = master01;
@@ -60,6 +48,5 @@ nodes = (
 width = 567;
 }
 );
-production = u1D617;
-unicode = 120343;
+unicode = (120343,119875);
 }

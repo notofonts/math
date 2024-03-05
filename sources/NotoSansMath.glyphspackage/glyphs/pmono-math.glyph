@@ -1,28 +1,15 @@
 {
-color = 4;
 glyphname = "pmono-math";
 layers = (
 {
 anchors = (
-{
-name = bottom;
-pos = (310,-240);
-},
 {
 name = center;
 pos = (312,153);
 },
 {
 name = math.ta;
-pos = (310,586);
-},
-{
-name = top;
-pos = (310,536);
-},
-{
-name = topright;
-pos = (580,536);
+pos = (310,0);
 }
 );
 layerId = master01;
@@ -76,6 +63,5 @@ nodes = (
 width = 600;
 }
 );
-production = u1D699;
 unicode = 120473;
 }

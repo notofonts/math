@@ -1,31 +1,17 @@
 {
-color = 4;
 glyphname = "Omicronitalic-math";
+kernLeft = GRK_Omicron;
+kernRight = GRK_Omicron;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (381,357);
-},
-{
-name = math.ta;
-pos = (466,764);
-},
-{
-name = top;
-pos = (466,764);
-}
-);
 layerId = master01;
 shapes = (
 {
-ref = "Oitalic-math";
+ref = "Osansitalic-math";
 }
 );
-width = 742;
+width = 721;
 }
 );
-production = u1D6F0;
 unicode = 120560;
 }

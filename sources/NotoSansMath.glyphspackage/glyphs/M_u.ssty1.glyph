@@ -3,27 +3,13 @@ color = 4;
 glyphname = Mu.ssty1;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (470,357);
-},
-{
-name = math.ta;
-pos = (469,764);
-},
-{
-name = top;
-pos = (469,764);
-}
-);
 layerId = master01;
 shapes = (
 {
 ref = M.ssty1;
 }
 );
-width = 940;
+width = 955;
 }
 );
 }

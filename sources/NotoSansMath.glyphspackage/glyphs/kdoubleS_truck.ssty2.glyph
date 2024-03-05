@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = kdoubleStruck.ssty2;
 layers = (
 {
@@ -10,11 +10,7 @@ pos = (349,380);
 },
 {
 name = math.ta;
-pos = (302,586);
-},
-{
-name = top;
-pos = (302,586);
+pos = (302,0);
 }
 );
 layerId = master01;

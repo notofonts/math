@@ -1,35 +1,17 @@
 {
-color = 4;
 glyphname = "Tauitalic-math";
+kernLeft = GRK_Tau;
+kernRight = GRK_Tau;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (378,357);
-},
-{
-name = math.ic;
-pos = (701,250);
-},
-{
-name = math.ta;
-pos = (402,764);
-},
-{
-name = top;
-pos = (402,764);
-}
-);
 layerId = master01;
 shapes = (
 {
-ref = "Titalic-math";
+ref = "Tsansitalic-math";
 }
 );
-width = 613;
+width = 501;
 }
 );
-production = u1D6F5;
 unicode = 120565;
 }

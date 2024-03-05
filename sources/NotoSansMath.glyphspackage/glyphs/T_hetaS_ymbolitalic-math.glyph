@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "ThetaSymbolitalic-math";
 layers = (
 {
@@ -10,11 +9,7 @@ pos = (381,357);
 },
 {
 name = math.ta;
-pos = (454,764);
-},
-{
-name = top;
-pos = (454,764);
+pos = (454,0);
 }
 );
 layerId = master01;
@@ -66,6 +61,5 @@ nodes = (
 width = 742;
 }
 );
-production = u1D6F3;
 unicode = 120563;
 }

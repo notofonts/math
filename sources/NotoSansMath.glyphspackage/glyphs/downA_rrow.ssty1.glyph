@@ -45,5 +45,4 @@ nodes = (
 width = 442;
 }
 );
-production = arrowdown.ssty1;
 }

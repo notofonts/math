@@ -1,0 +1,23 @@
+{
+glyphname = rightharpoonwithbarbdowncomb.s5;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (1074,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 5;
+};
+ref = _part.rightharpoonwithbarbdowncomb;
+}
+);
+width = 2148;
+}
+);
+}

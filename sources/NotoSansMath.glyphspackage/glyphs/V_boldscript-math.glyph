@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "Vboldscript-math";
 layers = (
 {
@@ -10,15 +9,11 @@ pos = (425,356);
 },
 {
 name = math.ic;
-pos = (860,250);
+pos = (860,0);
 },
 {
 name = math.ta;
-pos = (510,764);
-},
-{
-name = top;
-pos = (510,764);
+pos = (510,0);
 }
 );
 layerId = master01;

@@ -3,27 +3,13 @@ color = 4;
 glyphname = Iota.ssty1;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (185,357);
-},
-{
-name = math.ta;
-pos = (185,764);
-},
-{
-name = top;
-pos = (185,764);
-}
-);
 layerId = master01;
 shapes = (
 {
 ref = I.ssty1;
 }
 );
-width = 371;
+width = 416;
 }
 );
 }

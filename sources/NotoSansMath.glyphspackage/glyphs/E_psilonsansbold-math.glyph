@@ -9,11 +9,7 @@ pos = (344,359);
 },
 {
 name = math.ta;
-pos = (338,764);
-},
-{
-name = top;
-pos = (338,764);
+pos = (338,0);
 }
 );
 layerId = master01;
@@ -39,6 +35,5 @@ nodes = (
 width = 653;
 }
 );
-production = u1D75A;
-unicode = 120666;
+unicode = (120666,120492);
 }

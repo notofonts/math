@@ -3,12 +3,6 @@ export = 0;
 glyphname = _part.rightarrowabovecomb;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (224,699);
-}
-);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -45,17 +39,12 @@ nodes = (
 );
 }
 );
-width = 462;
+width = 448;
 },
 {
-anchors = (
-{
-name = center;
-pos = (1074,699);
-}
-);
 associatedMasterId = master01;
 layerId = "4208BF30-46AC-42BB-95F5-7017017F806D";
+metricWidth = "=2148";
 name = "Regular-Large";
 partSelection = {
 Size = 2;
@@ -92,9 +81,12 @@ nodes = (
 );
 }
 );
-width = 2162;
+width = 2148;
 }
 );
+metricLeft = "=0";
+metricRight = "=0";
+metricWidth = "=_part.leftarrowabovecomb";
 partsSettings = (
 {
 bottomValue = 0;

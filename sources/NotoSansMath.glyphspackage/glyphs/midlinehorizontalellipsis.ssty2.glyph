@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = midlinehorizontalellipsis.ssty2;
 layers = (
 {
@@ -66,5 +66,4 @@ nodes = (
 width = 830;
 }
 );
-production = uni22EF.ssty2;
 }

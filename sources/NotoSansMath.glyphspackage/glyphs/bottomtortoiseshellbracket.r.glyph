@@ -1,0 +1,22 @@
+{
+glyphname = bottomtortoiseshellbracket.r;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(681,-261,l),
+(800,-60,l),
+(726,-60,l),
+(647,-190,l),
+(0,-190,l),
+(0,-261,l)
+);
+}
+);
+width = 800;
+}
+);
+}

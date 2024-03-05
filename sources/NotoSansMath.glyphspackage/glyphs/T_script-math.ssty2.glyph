@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = "Tscript-math.ssty2";
 layers = (
 {
@@ -10,15 +10,11 @@ pos = (490,359);
 },
 {
 name = math.ic;
-pos = (975,250);
+pos = (975,0);
 },
 {
 name = math.ta;
-pos = (755,764);
-},
-{
-name = top;
-pos = (755,764);
+pos = (767,0);
 }
 );
 layerId = master01;
@@ -30,5 +26,4 @@ ref = "Tboldscript-math";
 width = 945;
 }
 );
-production = u1D4AF.ssty2;
 }

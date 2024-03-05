@@ -3,20 +3,6 @@ color = 4;
 glyphname = Upsilon.ssty1;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (309,357);
-},
-{
-name = math.ta;
-pos = (309,764);
-},
-{
-name = top;
-pos = (309,764);
-}
-);
 layerId = master01;
 shapes = (
 {

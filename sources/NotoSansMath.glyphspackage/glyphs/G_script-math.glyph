@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "Gscript-math";
 layers = (
 {
@@ -10,11 +9,7 @@ pos = (375,355);
 },
 {
 name = math.ta;
-pos = (364,764);
-},
-{
-name = top;
-pos = (364,764);
+pos = (364,0);
 }
 );
 layerId = master01;

@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = Iscript;
 layers = (
 {
@@ -10,15 +9,11 @@ pos = (407,357);
 },
 {
 name = math.ic;
-pos = (810,250);
+pos = (810,0);
 },
 {
 name = math.ta;
-pos = (647,764);
-},
-{
-name = top;
-pos = (647,764);
+pos = (647,0);
 }
 );
 layerId = master01;

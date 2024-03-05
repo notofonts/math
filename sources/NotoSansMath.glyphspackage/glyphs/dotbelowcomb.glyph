@@ -1,5 +1,4 @@
 {
-color = 1;
 glyphname = dotbelowcomb;
 layers = (
 {
@@ -14,7 +13,7 @@ pos = (77,-176);
 },
 {
 name = math.ta;
-pos = (77,50);
+pos = (77,0);
 },
 {
 name = top;

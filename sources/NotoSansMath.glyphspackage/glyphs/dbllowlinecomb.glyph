@@ -1,5 +1,4 @@
 {
-color = 1;
 glyphname = dbllowlinecomb;
 layers = (
 {
@@ -14,7 +13,7 @@ pos = (232,-244);
 },
 {
 name = math.ta;
-pos = (232,50);
+pos = (232,0);
 },
 {
 name = top;

@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 1;
 glyphname = "Qscript-math.uv001";
 layers = (
 {
@@ -10,15 +10,11 @@ pos = (420,270);
 },
 {
 name = math.ic;
-pos = (810,250);
+pos = (810,0);
 },
 {
 name = math.ta;
-pos = (449,764);
-},
-{
-name = top;
-pos = (449,764);
+pos = (449,0);
 }
 );
 layerId = master01;

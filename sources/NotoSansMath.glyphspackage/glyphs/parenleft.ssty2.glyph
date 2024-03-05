@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = parenleft.ssty2;
 kernRight = paren.left;
 layers = (

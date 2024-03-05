@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "Bboldscript-math";
 layers = (
 {
@@ -10,11 +9,7 @@ pos = (435,355);
 },
 {
 name = math.ta;
-pos = (604,764);
-},
-{
-name = top;
-pos = (604,764);
+pos = (604,0);
 }
 );
 layerId = master01;

@@ -1,36 +1,15 @@
 {
-color = 4;
 glyphname = "Qmono-math";
 layers = (
 {
 anchors = (
-{
-name = bottom;
-pos = (300,-220);
-},
 {
 name = center;
 pos = (300,357);
 },
 {
 name = math.ta;
-pos = (300,764);
-},
-{
-name = ogonek;
-pos = (299,10);
-},
-{
-name = top;
-pos = (300,714);
-},
-{
-name = topleft;
-pos = (20,714);
-},
-{
-name = topright;
-pos = (600,714);
+pos = (300,0);
 }
 );
 layerId = master01;
@@ -82,6 +61,5 @@ nodes = (
 width = 600;
 }
 );
-production = u1D680;
 unicode = 120448;
 }

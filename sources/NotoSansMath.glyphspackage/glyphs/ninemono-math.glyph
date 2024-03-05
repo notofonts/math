@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "ninemono-math";
 layers = (
 {
@@ -63,6 +62,5 @@ nodes = (
 width = 600;
 }
 );
-production = u1D7FF;
 unicode = 120831;
 }

@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = union.ssty2;
 layers = (
 {
@@ -38,5 +38,4 @@ nodes = (
 width = 684;
 }
 );
-production = union.ssty2;
 }

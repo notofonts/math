@@ -1,31 +1,17 @@
 {
-color = 4;
 glyphname = "Rhoitalic-math";
+kernLeft = GRK_Epsilon;
+kernRight = GRK_Rho;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (297,357);
-},
-{
-name = math.ta;
-pos = (405,764);
-},
-{
-name = top;
-pos = (405,764);
-}
-);
 layerId = master01;
 shapes = (
 {
-ref = "Pitalic-math";
+ref = "Psansitalic-math";
 }
 );
-width = 620;
+width = 567;
 }
 );
-production = u1D6F2;
 unicode = 120562;
 }

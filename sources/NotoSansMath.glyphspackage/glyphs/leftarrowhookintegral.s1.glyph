@@ -1,0 +1,34 @@
+{
+glyphname = leftarrowhookintegral.s1;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (240,322);
+},
+{
+name = math.ic;
+pos = (562,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = integral.s1;
+},
+{
+pos = (-90,0);
+ref = _arrowhook.integral;
+}
+);
+width = 472;
+}
+);
+metricLeft = "=51";
+metricRight = "=51";
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

@@ -1,13 +1,9 @@
 {
-color = 4;
+color = 5;
 glyphname = bulletoperator.ssty2;
 layers = (
 {
 anchors = (
-{
-name = _center;
-pos = (169,353);
-},
 {
 name = center;
 pos = (169,352);
@@ -36,5 +32,4 @@ nodes = (
 width = 338;
 }
 );
-production = uni2219.ssty2;
 }

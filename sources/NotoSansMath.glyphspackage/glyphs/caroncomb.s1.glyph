@@ -1,0 +1,23 @@
+{
+glyphname = caroncomb.s1;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (381,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (0,1376);
+ref = circumflexcomb.s1;
+scale = (1,-1);
+}
+);
+width = 762;
+}
+);
+}

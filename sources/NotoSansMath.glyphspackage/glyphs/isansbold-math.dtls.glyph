@@ -1,0 +1,30 @@
+{
+glyphname = "isansbold-math.dtls";
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (152,273);
+},
+{
+name = math.ta;
+pos = (153,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(227,0,l),
+(227,546,l),
+(78,546,l),
+(78,0,l)
+);
+}
+);
+width = 305;
+}
+);
+}

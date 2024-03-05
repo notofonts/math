@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = "vscript-math.ssty2";
 layers = (
 {
@@ -10,11 +10,7 @@ pos = (253,151);
 },
 {
 name = math.ta;
-pos = (416,586);
-},
-{
-name = top;
-pos = (416,586);
+pos = (416,0);
 }
 );
 layerId = master01;
@@ -26,5 +22,4 @@ ref = "vboldscript-math";
 width = 472;
 }
 );
-production = u1D4CB.ssty2;
 }

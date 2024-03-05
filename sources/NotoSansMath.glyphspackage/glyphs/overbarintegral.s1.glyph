@@ -1,0 +1,35 @@
+{
+glyphname = overbarintegral.s1;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (255,394);
+},
+{
+name = math.ic;
+pos = (562,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = integral.s1;
+},
+{
+alignment = -1;
+pos = (0,1261);
+ref = _stroke.integral;
+}
+);
+width = 472;
+}
+);
+metricLeft = "=integral";
+metricRight = "=integral";
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

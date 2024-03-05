@@ -1,0 +1,36 @@
+{
+glyphname = "imono-math.dtls";
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (310,268);
+},
+{
+name = math.ta;
+pos = (270,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(540,0,l),
+(540,60,l),
+(361,75,l),
+(361,536,l),
+(96,536,l),
+(96,474,l),
+(271,461,l),
+(271,75,l),
+(80,60,l),
+(80,0,l)
+);
+}
+);
+width = 600;
+}
+);
+}

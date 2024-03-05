@@ -1,5 +1,4 @@
 {
-color = 1;
 glyphname = caronbelowcomb;
 layers = (
 {
@@ -14,7 +13,7 @@ pos = (192,-199);
 },
 {
 name = math.ta;
-pos = (192,50);
+pos = (192,0);
 },
 {
 name = top;

@@ -1,0 +1,26 @@
+{
+glyphname = _slash.integral;
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (236,322);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(42,186,l),
+(87,137,l),
+(429,459,l),
+(383,507,l)
+);
+}
+);
+width = 472;
+}
+);
+}

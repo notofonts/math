@@ -40,5 +40,4 @@ nodes = (
 width = 570;
 }
 );
-production = similar.ssty1;
 }

@@ -4,8 +4,8 @@ layers = (
 {
 anchors = (
 {
-name = center;
-pos = (855,-222);
+name = math.ta;
+pos = (331,0);
 }
 );
 layerId = master01;
@@ -17,7 +17,31 @@ Size = 0;
 ref = _part.bottomtortoiseshellbracket;
 }
 );
-width = 1710;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hAssembly = (
+(
+bottomtortoiseshellbracket.l,
+0,
+0,
+647
+),
+(
+bottomtortoiseshellbracket.x,
+1,
+800,
+800
+),
+(
+bottomtortoiseshellbracket.r,
+0,
+647,
+0
+)
+);
+};
+};
+width = 662;
 }
 );
 unicode = 9185;

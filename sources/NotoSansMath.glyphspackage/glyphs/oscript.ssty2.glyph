@@ -1,14 +1,8 @@
 {
-color = 4;
+color = 5;
 glyphname = oscript.ssty2;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (214,150);
-}
-);
 layerId = master01;
 shapes = (
 {

@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = ringoperator.ssty2;
 layers = (
 {
@@ -49,5 +49,4 @@ nodes = (
 width = 392;
 }
 );
-production = uni2218.ssty2;
 }

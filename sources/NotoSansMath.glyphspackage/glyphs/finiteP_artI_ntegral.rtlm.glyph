@@ -1,58 +1,33 @@
 {
+color = 3;
 glyphname = finitePartIntegral.rtlm;
 layers = (
 {
 anchors = (
 {
-name = center;
-pos = (244,322);
+name = math.ic;
+pos = (562,0);
 }
 );
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(390,-240,o),
-(413,-237,o),
-(433,-230,c),
-(433,-158,l),
-(413,-166,o),
-(393,-170,o),
-(373,-170,cs),
-(316,-170,o),
-(287,-132,o),
-(287,-56,cs),
-(287,287,l),
-(438,287,l),
-(438,358,l),
-(287,358,l),
-(287,707,ls),
-(287,826,o),
-(233,885,o),
-(126,885,cs),
-(99,885,o),
-(78,882,o),
-(63,876,c),
-(63,803,l),
-(81,811,o),
-(100,815,o),
-(119,815,cs),
-(174,815,o),
-(202,777,o),
-(202,701,cs),
-(202,358,l),
-(51,358,l),
-(51,287,l),
-(202,287,l),
-(202,-62,ls),
-(202,-179,o),
-(257,-240,o),
-(365,-240,cs)
-);
+alignment = 1;
+pos = (472,0);
+ref = finitePartIntegral;
+scale = (-1,1);
 }
 );
-width = 489;
+width = 472;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+finitePartIntegral.rtlm,
+finitePartIntegral.rtlm.s1
+);
+};
+};
 }

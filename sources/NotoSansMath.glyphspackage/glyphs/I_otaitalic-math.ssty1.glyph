@@ -1,32 +1,17 @@
 {
 color = 4;
 glyphname = "Iotaitalic-math.ssty1";
+kernLeft = GRK_Epsilon;
+kernRight = GRK_Eta;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (264,357);
-},
-{
-name = math.ta;
-pos = (352,764);
-},
-{
-name = top;
-pos = (352,764);
-}
-);
 layerId = master01;
 shapes = (
 {
-ref = "Iitalic-math.ssty1";
+ref = "Isansitalic-math.ssty1";
 }
 );
-width = 529;
+width = 411;
 }
 );
-metricLeft = "Bitalic-math.ssty";
-metricRight = "Hitalic-math.ssty";
-production = u1D6EA.ssty1;
 }

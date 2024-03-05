@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = Lambda.ssty2;
 layers = (
 {
@@ -10,11 +10,7 @@ pos = (346,358);
 },
 {
 name = math.ta;
-pos = (346,764);
-},
-{
-name = top;
-pos = (346,764);
+pos = (348,0);
 }
 );
 layerId = master01;
@@ -38,7 +34,7 @@ nodes = (
 );
 }
 );
-width = 693;
+width = 695;
 }
 );
 }

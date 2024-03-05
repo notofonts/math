@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = emptyset.ssty2;
 layers = (
 {
@@ -58,5 +58,4 @@ nodes = (
 width = 838;
 }
 );
-production = emptyset.ssty2;
 }

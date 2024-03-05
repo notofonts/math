@@ -10,11 +10,7 @@ pos = (401,357);
 },
 {
 name = math.ta;
-pos = (401,764);
-},
-{
-name = top;
-pos = (401,764);
+pos = (401,0);
 }
 );
 layerId = master01;
@@ -32,9 +28,9 @@ nodes = (
 );
 }
 );
-width = 802;
+width = 804;
 }
 );
-metricLeft = "=O.ssty";
-metricRight = "=O.ssty";
+metricLeft = "=O.ssty1";
+metricRight = "=O.ssty1";
 }

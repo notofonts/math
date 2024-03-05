@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "Dboldscript-math";
 layers = (
 {
@@ -10,11 +9,7 @@ pos = (415,356);
 },
 {
 name = math.ta;
-pos = (473,764);
-},
-{
-name = top;
-pos = (473,764);
+pos = (473,0);
 }
 );
 layerId = master01;

@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "F-fraktur";
 layers = (
 {
@@ -10,11 +9,7 @@ pos = (317,270);
 },
 {
 name = math.ta;
-pos = (312,764);
-},
-{
-name = top;
-pos = (312,764);
+pos = (312,0);
 }
 );
 layerId = master01;
@@ -140,9 +135,8 @@ nodes = (
 );
 }
 );
-width = 659;
+width = 639;
 }
 );
-production = u1D509;
 unicode = 120073;
 }

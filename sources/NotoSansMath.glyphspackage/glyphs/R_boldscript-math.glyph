@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "Rboldscript-math";
 layers = (
 {
@@ -10,11 +9,7 @@ pos = (465,357);
 },
 {
 name = math.ta;
-pos = (634,764);
-},
-{
-name = top;
-pos = (634,764);
+pos = (634,0);
 }
 );
 layerId = master01;

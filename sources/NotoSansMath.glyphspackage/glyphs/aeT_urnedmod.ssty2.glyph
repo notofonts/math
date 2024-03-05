@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = aeTurnedmod.ssty2;
 layers = (
 {
@@ -10,11 +10,7 @@ pos = (302,451);
 },
 {
 name = math.ta;
-pos = (338,671);
-},
-{
-name = top;
-pos = (338,671);
+pos = (338,0);
 }
 );
 layerId = master01;

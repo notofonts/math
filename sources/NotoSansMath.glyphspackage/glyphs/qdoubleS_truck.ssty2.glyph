@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = qdoubleStruck.ssty2;
 layers = (
 {
@@ -10,11 +10,7 @@ pos = (333,153);
 },
 {
 name = math.ta;
-pos = (243,586);
-},
-{
-name = top;
-pos = (243,586);
+pos = (333,0);
 }
 );
 layerId = master01;

@@ -1,28 +1,15 @@
 {
-color = 4;
 glyphname = "imono-math";
 layers = (
 {
 anchors = (
-{
-name = bottom;
-pos = (321,0);
-},
 {
 name = center;
 pos = (320,283);
 },
 {
 name = math.ta;
-pos = (307,810);
-},
-{
-name = top;
-pos = (307,760);
-},
-{
-name = topright;
-pos = (498,760);
+pos = (307,0);
 }
 );
 layerId = master01;
@@ -63,6 +50,5 @@ nodes = (
 width = 600;
 }
 );
-production = u1D692;
 unicode = 120466;
 }

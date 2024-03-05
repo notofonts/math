@@ -7,20 +7,12 @@ layers = (
 {
 anchors = (
 {
-name = bottom;
-pos = (276,0);
-},
-{
 name = center;
 pos = (275,151);
 },
 {
 name = math.ta;
-pos = (276,586);
-},
-{
-name = top;
-pos = (276,536);
+pos = (276,0);
 }
 );
 layerId = master01;
@@ -61,6 +53,6 @@ nodes = (
 width = 551;
 }
 );
-metricLeft = v.ssty;
-metricRight = v.ssty;
+metricLeft = v.ssty1;
+metricRight = v.ssty1;
 }

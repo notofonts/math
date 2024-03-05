@@ -1,5 +1,4 @@
 {
-color = 1;
 glyphname = breveinvertedcomb;
 layers = (
 {
@@ -10,7 +9,7 @@ pos = (180,536);
 },
 {
 name = math.ta;
-pos = (180,486);
+pos = (180,0);
 },
 {
 name = top;

@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = asteriskmath.ssty2;
 layers = (
 {
@@ -38,5 +38,4 @@ nodes = (
 width = 501;
 }
 );
-production = asteriskmath.ssty2;
 }

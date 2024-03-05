@@ -1,0 +1,63 @@
+{
+glyphname = braceright.m;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (295,681);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+pos = (468,0);
+ref = braceleft.m;
+scale = (-1,1);
+}
+);
+width = 468;
+},
+{
+anchors = (
+{
+name = center;
+pos = (199,681);
+}
+);
+associatedMasterId = master01;
+layerId = "DD4AF989-DB43-4984-82EC-5D574612A79B";
+name = "Mar 7, 23, 11:36";
+shapes = (
+{
+closed = 1;
+nodes = (
+(204,0,l),
+(204,542,ls),
+(204,609,o),
+(229,644,o),
+(280,647,c),
+(280,715,l),
+(229,718,o),
+(204,753,o),
+(204,820,cs),
+(204,1362,l),
+(119,1362,l),
+(119,808,ls),
+(119,738,o),
+(143,699,o),
+(192,684,c),
+(192,678,l),
+(143,663,o),
+(119,624,o),
+(119,554,cs),
+(119,0,l)
+);
+}
+);
+width = 314;
+}
+);
+unicode = 9132;
+}

@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = literSign.ssty2;
 layers = (
 {
@@ -52,5 +52,4 @@ nodes = (
 width = 547;
 }
 );
-production = uni2113.ssty2;
 }

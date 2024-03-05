@@ -1,0 +1,67 @@
+{
+glyphname = lmoustache;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (158,388);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,-293,l),
+(157,-228,o),
+(201,-98,o),
+(201,49,cs),
+(201,727,ls),
+(201,866,o),
+(235,976,o),
+(284,1044,cs),
+(302,1069,l),
+(217,1069,l),
+(155,999,o),
+(116,866,o),
+(116,727,cs),
+(116,49,ls),
+(116,-87,o),
+(93,-193,o),
+(15,-293,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+braceright.b,
+0,
+0,
+1000
+),
+(
+braceleft.x,
+1,
+1362,
+1362
+),
+(
+braceleft.t,
+0,
+1000,
+0
+)
+);
+};
+};
+width = 317;
+}
+);
+unicode = 9136;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = tildebelowcomb;
 layers = (
 {
@@ -14,7 +13,7 @@ pos = (184,-184);
 },
 {
 name = math.ta;
-pos = (184,50);
+pos = (184,0);
 },
 {
 name = top;
@@ -24,10 +23,7 @@ pos = (184,50);
 layerId = master01;
 shapes = (
 {
-piece = {
-Size = 0;
-};
-ref = _part.tildebelowcomb;
+ref = tildebelowcomb.s0;
 }
 );
 width = 367;
@@ -37,12 +33,12 @@ unicode = 816;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 hVariants = (
-tildebelowcomb,
-tildebelow.s1,
-tildebelow.s2,
-tildebelow.s3,
-tildebelow.s4,
-tildebelow.s5
+tildebelowcomb.s0,
+tildebelowcomb.s1,
+tildebelowcomb.s2,
+tildebelowcomb.s3,
+tildebelowcomb.s4,
+tildebelowcomb.s5
 );
 };
 };

@@ -15,7 +15,7 @@ pos = (264,268);
 },
 {
 name = math.ta;
-pos = (263,586);
+pos = (263,0);
 },
 {
 name = top;
@@ -49,5 +49,5 @@ nodes = (
 width = 529;
 }
 );
-unicode = 120;
+unicode = (120,120273);
 }
