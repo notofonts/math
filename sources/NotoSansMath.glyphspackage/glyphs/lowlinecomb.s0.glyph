@@ -1,11 +1,15 @@
 {
-glyphname = underscore;
+glyphname = lowlinecomb.s0;
 layers = (
 {
 anchors = (
 {
-name = center;
-pos = (222,-126);
+name = _bottom;
+pos = (209,0);
+},
+{
+name = bottom;
+pos = (209,-151);
 }
 );
 layerId = master01;
@@ -13,8 +17,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(444,-131,l),
-(444,-60,l),
+(417,-131,l),
+(417,-60,l),
 (0,-60,l),
 (0,-131,l)
 );
@@ -24,8 +28,7 @@ userData = {
 com.nagwa.MATHPlugin.variants = {
 };
 };
-width = 444;
+width = 417;
 }
 );
-unicode = 95;
 }

@@ -794,6 +794,10 @@
     <glyph name="rightarrowbelowcomb.s0" production="uni20EF.s0" category="Mark" subCategory="Spacing" sortName="s0.rightarrowbelowcomb" />
     <glyph name="rightharpoonabovecomb.s0" production="uni20D1.s0" category="Mark" subCategory="Spacing" sortName="s0.rightharpoonabovecomb" />
     <glyph name="rightharpoonwithbarbdowncomb.s0" production="uni20EC.s0" category="Mark" subCategory="Spacing" sortName="s0.rightharpoonwithbarbdowncomb" />
+    <glyph name="overlinecomb.s0" production="uni0305.s0" category="Mark" subCategory="Spacing" case="lower" sortName="s0.ac024" />
+    <glyph name="lowlinecomb.s0" production="uni0332.s0" category="Mark" subCategory="Spacing" sortName="s0.ac102" />
+    <glyph name="dbllowlinecomb.s0" production="uni0333.s0" category="Mark" subCategory="Spacing" sortName="s0.ac104" />
+    <glyph name="dbloverlinecomb.s0" production="uni033F.s0" category="Mark" subCategory="Spacing" sortName="s0.ac128" />
     <glyph name="circumflexcomb.s1" production="uni0302.s1" category="Mark" subCategory="Spacing" case="lower" sortName="s1.ac012" />
     <glyph name="caroncomb.s1" production="uni030C.s1" category="Mark" subCategory="Spacing" case="lower" sortName="s1.ac014" />
     <glyph name="tildecomb.s1" production="tildecomb.s1" category="Mark" subCategory="Spacing" case="lower" sortName="s1.ac020" />

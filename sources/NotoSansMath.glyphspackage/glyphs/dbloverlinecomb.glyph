@@ -2,43 +2,40 @@
 glyphname = dbloverlinecomb;
 layers = (
 {
-anchors = (
-{
-name = _top;
-pos = (232,536);
-},
-{
-name = math.ta;
-pos = (232,0);
-},
-{
-name = top;
-pos = (233,808);
-}
-);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(440,744,l),
-(440,808,l),
-(25,808,l),
-(25,744,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(440,612,l),
-(440,676,l),
-(25,676,l),
-(25,612,l)
-);
+alignment = 1;
+ref = dbloverlinecomb.s0;
 }
 );
-width = 465;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hAssembly = (
+(
+dbloverlinecomb.s0,
+0,
+0,
+417
+),
+(
+dbloverlinecomb.s0,
+1,
+417,
+0
+)
+);
+};
+};
+width = 417;
 }
 );
 unicode = 831;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hVariants = (
+dbloverlinecomb.s0
+);
+};
+};
 }
