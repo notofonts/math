@@ -25,13 +25,23 @@ width = 130;
 );
 unicode = 8260;
 userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 fraction,
+slash,
 slash.s1,
 slash.s2,
 slash.s3,
-slash.s4
+slash.s4,
+slash.s5,
+slash.s6,
+slash.s7,
+slash.s8,
+slash.s9,
+slash.s10,
+slash.s11,
+slash.s12
 );
 };
 };

@@ -1,23 +1,23 @@
 {
-glyphname = backslash.s1;
+glyphname = slash.s10;
 layers = (
 {
 anchors = (
 {
 name = center;
-pos = (290,432);
+pos = (602,657);
 }
 );
 layerId = master01;
 shapes = (
 {
 piece = {
-Size = 1;
+Size = 10;
 };
-ref = _part.backslash;
+ref = _part.slash;
 }
 );
-width = 548;
+width = 1364;
 }
 );
 }

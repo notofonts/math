@@ -17,7 +17,7 @@ Size = 0;
 ref = _part.backslash;
 }
 );
-width = 372;
+width = 457;
 }
 );
 unicode = 92;
@@ -29,7 +29,15 @@ backslash,
 backslash.s1,
 backslash.s2,
 backslash.s3,
-backslash.s4
+backslash.s4,
+backslash.s5,
+backslash.s6,
+backslash.s7,
+backslash.s8,
+backslash.s9,
+backslash.s10,
+backslash.s11,
+backslash.s12
 );
 };
 };

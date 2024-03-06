@@ -1,5 +1,5 @@
 {
-glyphname = slash;
+glyphname = backslash.s8;
 layers = (
 {
 anchors = (
@@ -12,32 +12,23 @@ layerId = master01;
 shapes = (
 {
 piece = {
-Size = 0;
+Size = 8;
 };
-ref = _part.slash;
+ref = _part.backslash;
 }
 );
-width = 457;
+width = 1182;
 }
 );
-unicode = 47;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
-slash,
-slash.s1,
-slash.s2,
-slash.s3,
-slash.s4,
-slash.s5,
-slash.s6,
-slash.s7,
-slash.s8,
-slash.s9,
-slash.s10,
-slash.s11,
-slash.s12
+backslash,
+backslash.s1,
+backslash.s2,
+backslash.s3,
+backslash.s4
 );
 };
 };
