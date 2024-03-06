@@ -1,11 +1,11 @@
 {
-glyphname = dblverticalbar;
+glyphname = tripleverticalbar;
 layers = (
 {
 anchors = (
 {
 name = center;
-pos = (326,325);
+pos = (436,325);
 }
 );
 layerId = master01;
@@ -18,37 +18,44 @@ ref = bar;
 alignment = -1;
 pos = (220,0);
 ref = bar;
+},
+{
+alignment = -1;
+pos = (440,0);
+ref = bar;
 }
 );
 userData = {
 com.nagwa.MATHPlugin.variants = {
 vAssembly = (
 (
-dblverticalbar,
+tripleverticalbar,
 1,
 0,
 942
 ),
 (
-dblverticalbar,
+tripleverticalbar,
 0,
 942,
 0
 )
 );
 };
+com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = "=bar";
+com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = "=bar";
 };
-width = 653;
+width = 873;
 }
 );
 metricLeft = "=bar";
 metricRight = "=bar";
-unicode = 8214;
+unicode = 10624;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
-dblverticalbar
+tripleverticalbar
 );
 };
 };

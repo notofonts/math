@@ -941,7 +941,7 @@
 
     <glyph name="bar" unicode="007C" script="" category="Punctuation" subCategory="Fence" sortName="bar1" />
     <glyph name="dblverticalbar" unicode="2016" production="uni2016"  script="" category="Punctuation" subCategory="Fence" sortName="bar2" />
-    <glyph name="tripleVerticalBarDelimiter" unicode="2980" production="uni2980"  script="" category="Punctuation" subCategory="Fence" sortName="bar3" />
+    <glyph name="tripleverticalbar" unicode="2980" production="uni2980"  script="" category="Punctuation" subCategory="Fence" sortName="bar3" />
     <glyph name="parenleft" unicode="0028" script="" category="Punctuation" subCategory="Fence" sortName="fence00" />
     <glyph name="parenright" unicode="0029" script="" category="Punctuation" subCategory="Fence" sortName="fence01" />
     <glyph name="bracketleft" unicode="005B" script="" category="Punctuation" subCategory="Fence" sortName="fence02" />

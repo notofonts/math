@@ -13,10 +13,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(253,-175,l),
-(253,825,l),
-(180,825,l),
-(180,-175,l)
+(253,-158,l),
+(253,784,l),
+(180,784,l),
+(180,-158,l)
 );
 }
 );
@@ -26,14 +26,14 @@ vAssembly = (
 (
 bar,
 1,
-900,
-900
+0,
+942
 ),
 (
 bar,
 0,
-900,
-900
+942,
+0
 )
 );
 };
@@ -45,5 +45,10 @@ width = 433;
 unicode = 124;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+bar
+);
+};
 };
 }
