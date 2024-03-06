@@ -24,7 +24,7 @@ vAssembly = (
 braceleft.b,
 0,
 0,
-1100
+1202
 ),
 (
 braceleft.x,
@@ -35,8 +35,8 @@ braceleft.x,
 (
 braceleft.m,
 0,
-500,
-500
+541,
+541
 ),
 (
 braceleft.x,
@@ -47,7 +47,7 @@ braceleft.x,
 (
 braceleft.t,
 0,
-1100,
+1202,
 0
 )
 );

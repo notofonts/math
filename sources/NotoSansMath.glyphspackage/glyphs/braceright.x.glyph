@@ -1,23 +1,12 @@
 {
-glyphname = braceleft.x;
+glyphname = braceright.x;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (196,681);
-}
-);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(242,0,l),
-(242,1362,l),
-(150,1362,l),
-(150,0,l)
-);
+pos = (-12,0);
+ref = braceleft.x;
 }
 );
 width = 380;
@@ -46,7 +35,7 @@ nodes = (
 width = 314;
 }
 );
-metricLeft = "=braceleft.b";
-metricWidth = "=braceleft.b";
-unicode = 9130;
+metricLeft = "=|braceleft.x";
+metricRight = "=|braceleft.x";
+metricWidth = braceleft.x;
 }

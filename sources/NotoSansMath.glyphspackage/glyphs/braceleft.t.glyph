@@ -2,12 +2,6 @@
 glyphname = braceleft.t;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (312,684);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -16,7 +10,7 @@ ref = braceleft.b;
 scale = (1,-1);
 }
 );
-width = 468;
+width = 380;
 },
 {
 anchors = (

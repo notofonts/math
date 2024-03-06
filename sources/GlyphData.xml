@@ -1010,6 +1010,7 @@
     <glyph name="parenright.x" unicode="239F" production="uni239F" category="Punctuation" subCategory="Fence" />
     <glyph name="parenright.b" unicode="23A0" production="uni23A0" category="Punctuation" subCategory="Fence" />
     <glyph name="parenright.t" unicode="239E" production="uni239E" category="Punctuation" subCategory="Fence" />
+    <glyph name="braceright.x" category="Punctuation" subCategory="Fence" />
     <glyph name="braceright.b" unicode="23AD" production="uni23AD" category="Punctuation" subCategory="Fence" />
     <glyph name="braceright.m" unicode="23AC" production="uni23AC" category="Punctuation" subCategory="Fence" />
     <glyph name="braceright.t" unicode="23AB" production="uni23AB" category="Punctuation" subCategory="Fence" />
