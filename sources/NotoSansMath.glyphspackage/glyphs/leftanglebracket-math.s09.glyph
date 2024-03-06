@@ -14,7 +14,7 @@ shapes = (
 piece = {
 Size = 9;
 };
-ref = "_part.leftanglebracket-math";
+ref = _part.leftanglebracket;
 }
 );
 width = 754;

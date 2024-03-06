@@ -1,6 +1,6 @@
 {
 export = 0;
-glyphname = "_part.rightanglebracket-math";
+glyphname = _part.leftanglebracket;
 layers = (
 {
 anchors = (
@@ -17,12 +17,12 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(356,333,l),
-(141,784,l),
-(62,784,l),
-(273,333,l),
-(51,-158,l),
-(130,-158,l)
+(356,-158,l),
+(134,333,l),
+(345,784,l),
+(266,784,l),
+(51,333,l),
+(277,-158,l)
 );
 }
 );
@@ -36,7 +36,7 @@ pos = (434,278);
 }
 );
 associatedMasterId = master01;
-layerId = "FC8744F3-6720-4CDD-BD08-2FEAB1B7C62C";
+layerId = "F1B036C0-21DA-4829-B1C9-DBF87D13DDB5";
 name = "Regular-Large";
 partSelection = {
 Size = 2;
@@ -45,12 +45,12 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(818,333,l),
-(171,2962,l),
-(82,2962,l),
-(725,333,l),
-(51,-2406,l),
-(140,-2406,l)
+(818,-2406,l),
+(144,333,l),
+(787,2962,l),
+(698,2962,l),
+(51,333,l),
+(729,-2406,l)
 );
 }
 );
@@ -64,4 +64,5 @@ name = Size;
 topValue = 12;
 }
 );
+sortName = fence7.l;
 }

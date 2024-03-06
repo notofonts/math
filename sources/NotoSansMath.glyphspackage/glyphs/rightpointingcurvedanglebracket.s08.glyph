@@ -14,7 +14,7 @@ shapes = (
 piece = {
 Size = 8;
 };
-ref = _part.rightpointingcurvedanglebracket;
+ref = _part.rightcurvedanglebracket;
 }
 );
 width = 645;

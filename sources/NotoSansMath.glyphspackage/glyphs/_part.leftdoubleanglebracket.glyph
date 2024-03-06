@@ -1,6 +1,6 @@
 {
 export = 0;
-glyphname = "_part.leftdoubleanglebracket-math";
+glyphname = _part.leftdoubleanglebracket;
 layers = (
 {
 anchors = (
@@ -86,4 +86,5 @@ name = Size;
 topValue = 12;
 }
 );
+sortName = fence8.l;
 }
