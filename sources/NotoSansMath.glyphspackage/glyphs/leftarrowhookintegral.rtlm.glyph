@@ -33,7 +33,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 leftarrowhookintegral.rtlm,
-leftarrowhookintegral.rtlm.s1
+leftarrowhookintegral.rtlm.s01
 );
 };
 };

@@ -1,0 +1,23 @@
+{
+glyphname = bracketleft.s05;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (232,298);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 5;
+};
+ref = _part.bracketleft;
+}
+);
+width = 398;
+}
+);
+}

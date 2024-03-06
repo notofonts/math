@@ -33,7 +33,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 product,
-product.s1
+product.s01
 );
 };
 };

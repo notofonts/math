@@ -29,7 +29,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 volumeintegral,
-volumeintegral.s1
+volumeintegral.s01
 );
 };
 };

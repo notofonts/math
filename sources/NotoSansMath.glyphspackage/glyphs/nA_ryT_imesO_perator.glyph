@@ -38,7 +38,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 nAryTimesOperator,
-nAryTimesOperator.s1
+nAryTimesOperator.s01
 );
 };
 };

@@ -1,0 +1,23 @@
+{
+glyphname = rightFloor.s07;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (241.083,291);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 7;
+};
+ref = _part.rightFloor;
+}
+);
+width = 506;
+}
+);
+}

@@ -40,7 +40,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 doublestrokeintegral,
-doublestrokeintegral.s1
+doublestrokeintegral.s01
 );
 };
 };

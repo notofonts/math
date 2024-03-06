@@ -26,7 +26,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 doublestrokeintegral.rtlm,
-doublestrokeintegral.rtlm.s1
+doublestrokeintegral.rtlm.s01
 );
 };
 };

@@ -5,20 +5,20 @@ layers = (
 layerId = master01;
 shapes = (
 {
-ref = overlinecomb.s0;
+ref = overlinecomb.s00;
 }
 );
 userData = {
 com.nagwa.MATHPlugin.variants = {
 hAssembly = (
 (
-overlinecomb.s0,
+overlinecomb.s00,
 0,
 0,
 417
 ),
 (
-overlinecomb.s0,
+overlinecomb.s00,
 1,
 417,
 0
@@ -33,7 +33,7 @@ unicode = 773;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 hVariants = (
-overlinecomb.s0
+overlinecomb.s00
 );
 };
 };

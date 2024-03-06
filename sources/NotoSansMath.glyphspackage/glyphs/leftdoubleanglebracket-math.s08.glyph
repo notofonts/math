@@ -1,0 +1,23 @@
+{
+glyphname = "leftdoubleanglebracket-math.s08";
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (443,289);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 8;
+};
+ref = "_part.leftdoubleanglebracket-math";
+}
+);
+width = 775;
+}
+);
+}

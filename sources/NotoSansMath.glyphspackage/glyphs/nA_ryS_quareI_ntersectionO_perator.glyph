@@ -33,7 +33,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 nArySquareIntersectionOperator,
-nArySquareIntersectionOperator.s1
+nArySquareIntersectionOperator.s01
 );
 };
 };

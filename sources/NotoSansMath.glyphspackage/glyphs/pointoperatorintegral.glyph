@@ -111,7 +111,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 pointoperatorintegral,
-pointoperatorintegral.s1
+pointoperatorintegral.s01
 );
 };
 };

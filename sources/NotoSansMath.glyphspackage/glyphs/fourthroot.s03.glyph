@@ -1,0 +1,23 @@
+{
+glyphname = fourthroot.s03;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (493,930);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 3;
+};
+ref = _part.fourthroot;
+}
+);
+width = 879;
+}
+);
+}

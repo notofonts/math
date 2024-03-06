@@ -32,7 +32,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 narylogicaland,
-narylogicaland.s1
+narylogicaland.s01
 );
 };
 };

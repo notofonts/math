@@ -6,20 +6,20 @@ layerId = master01;
 shapes = (
 {
 alignment = 1;
-ref = lowlinecomb.s0;
+ref = lowlinecomb.s00;
 }
 );
 userData = {
 com.nagwa.MATHPlugin.variants = {
 hAssembly = (
 (
-lowlinecomb.s0,
+lowlinecomb.s00,
 0,
 0,
 417
 ),
 (
-lowlinecomb.s0,
+lowlinecomb.s00,
 1,
 417,
 0
@@ -34,7 +34,7 @@ unicode = 818;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 hVariants = (
-lowlinecomb.s0
+lowlinecomb.s00
 );
 };
 };

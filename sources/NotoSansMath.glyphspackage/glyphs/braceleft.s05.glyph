@@ -1,0 +1,23 @@
+{
+glyphname = braceleft.s05;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (198,298);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 5;
+};
+ref = _part.braceleft;
+}
+);
+width = 401;
+}
+);
+}

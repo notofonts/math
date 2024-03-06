@@ -61,11 +61,11 @@ userData = {
 com.nagwa.MATHPlugin.variants = {
 hVariants = (
 bottomcurlybracket,
-bottomcurlybracket.s1,
-bottomcurlybracket.s2,
-bottomcurlybracket.s3,
-bottomcurlybracket.s4,
-bottomcurlybracket.s5
+bottomcurlybracket.s01,
+bottomcurlybracket.s02,
+bottomcurlybracket.s03,
+bottomcurlybracket.s04,
+bottomcurlybracket.s05
 );
 };
 };

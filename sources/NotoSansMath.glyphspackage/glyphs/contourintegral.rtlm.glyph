@@ -26,7 +26,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 contourintegral.rtlm,
-contourintegral.rtlm.s1
+contourintegral.rtlm.s01
 );
 };
 };

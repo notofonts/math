@@ -26,10 +26,10 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 cuberoot,
-cuberoot.s1,
-cuberoot.s2,
-cuberoot.s3,
-cuberoot.s4
+cuberoot.s01,
+cuberoot.s02,
+cuberoot.s03,
+cuberoot.s04
 );
 };
 };

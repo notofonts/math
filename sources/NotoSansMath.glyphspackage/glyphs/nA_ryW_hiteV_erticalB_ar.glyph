@@ -26,8 +26,8 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 nAryWhiteVerticalBar,
-nAryWhiteVerticalBar.s1,
-nAryWhiteVerticalBar.s2
+nAryWhiteVerticalBar.s01,
+nAryWhiteVerticalBar.s02
 );
 };
 };

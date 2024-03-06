@@ -237,7 +237,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 quadrupleintegral,
-quadrupleintegral.s1
+quadrupleintegral.s01
 );
 };
 };

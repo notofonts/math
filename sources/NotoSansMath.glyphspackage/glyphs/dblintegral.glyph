@@ -161,7 +161,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 dblintegral,
-dblintegral.s1
+dblintegral.s01
 );
 };
 };

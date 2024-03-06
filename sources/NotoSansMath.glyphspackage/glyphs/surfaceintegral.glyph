@@ -30,7 +30,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 surfaceintegral,
-surfaceintegral.s1
+surfaceintegral.s01
 );
 };
 };

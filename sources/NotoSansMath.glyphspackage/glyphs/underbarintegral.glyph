@@ -35,7 +35,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 underbarintegral,
-underbarintegral.s1
+underbarintegral.s01
 );
 };
 };

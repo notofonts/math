@@ -115,7 +115,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 nopolelineintegral,
-nopolelineintegral.s1
+nopolelineintegral.s01
 );
 };
 };

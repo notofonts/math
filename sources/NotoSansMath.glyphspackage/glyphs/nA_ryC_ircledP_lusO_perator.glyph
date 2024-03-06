@@ -72,7 +72,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 nAryCircledPlusOperator,
-nAryCircledPlusOperator.s1
+nAryCircledPlusOperator.s01
 );
 };
 };

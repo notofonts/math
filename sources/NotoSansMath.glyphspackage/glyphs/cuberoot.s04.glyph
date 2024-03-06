@@ -1,0 +1,23 @@
+{
+glyphname = cuberoot.s04;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (530,1065);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 4;
+};
+ref = _part.cuberoot;
+}
+);
+width = 946;
+}
+);
+}

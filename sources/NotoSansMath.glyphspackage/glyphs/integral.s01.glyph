@@ -1,0 +1,32 @@
+{
+glyphname = integral.s01;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (240,322);
+},
+{
+name = math.ic;
+pos = (562,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 12;
+};
+ref = _part.integral;
+}
+);
+userData = {
+math = {
+italicCorrection = 100;
+};
+};
+width = 472;
+}
+);
+}

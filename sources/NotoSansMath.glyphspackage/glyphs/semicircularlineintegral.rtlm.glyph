@@ -104,7 +104,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 semicircularlineintegral.rtlm,
-semicircularlineintegral.rtlm.s1
+semicircularlineintegral.rtlm.s01
 );
 };
 };

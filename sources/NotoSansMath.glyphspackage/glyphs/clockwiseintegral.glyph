@@ -33,7 +33,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 clockwiseintegral,
-clockwiseintegral.s1
+clockwiseintegral.s01
 );
 };
 };

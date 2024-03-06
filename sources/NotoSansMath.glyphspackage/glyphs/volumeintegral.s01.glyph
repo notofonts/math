@@ -1,0 +1,29 @@
+{
+glyphname = volumeintegral.s01;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (586,322);
+},
+{
+name = math.ic;
+pos = (1080,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = tripleintegral.s01;
+},
+{
+ref = _contour3.integral;
+}
+);
+width = 990;
+}
+);
+metricRight = "=51@1400";
+}

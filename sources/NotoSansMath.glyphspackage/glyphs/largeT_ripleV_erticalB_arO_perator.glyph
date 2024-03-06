@@ -26,8 +26,8 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 largeTripleVerticalBarOperator,
-largeTripleVerticalBarOperator.s1,
-largeTripleVerticalBarOperator.s2
+largeTripleVerticalBarOperator.s01,
+largeTripleVerticalBarOperator.s02
 );
 };
 };

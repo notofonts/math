@@ -1,0 +1,23 @@
+{
+glyphname = radical.s03;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (530,1065);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 3;
+};
+ref = _part.radical;
+}
+);
+width = 879;
+}
+);
+}

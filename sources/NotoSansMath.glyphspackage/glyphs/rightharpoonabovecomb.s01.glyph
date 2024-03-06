@@ -1,0 +1,23 @@
+{
+glyphname = rightharpoonabovecomb.s01;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (394,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 1;
+};
+ref = _part.rightharpoonabovecomb;
+}
+);
+width = 788;
+}
+);
+}

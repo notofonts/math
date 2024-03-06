@@ -1,0 +1,29 @@
+{
+glyphname = narylogicaland.s01;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (856,311);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(128,-514,l),
+(856,1040,l),
+(1584,-514,l),
+(1661,-514,l),
+(885,1136,l),
+(827,1136,l),
+(51,-514,l)
+);
+}
+);
+width = 1712;
+}
+);
+}

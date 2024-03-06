@@ -25,10 +25,10 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 backslash,
-backslash.s1,
-backslash.s2,
-backslash.s3,
-backslash.s4
+backslash.s01,
+backslash.s02,
+backslash.s03,
+backslash.s04
 );
 };
 };

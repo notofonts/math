@@ -1,0 +1,23 @@
+{
+glyphname = braceright.s04;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (199.667,301);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 4;
+};
+ref = _part.braceright;
+}
+);
+width = 397;
+}
+);
+}

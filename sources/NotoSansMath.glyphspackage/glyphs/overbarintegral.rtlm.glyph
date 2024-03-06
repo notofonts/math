@@ -26,7 +26,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 overbarintegral.rtlm,
-overbarintegral.rtlm.s1
+overbarintegral.rtlm.s01
 );
 };
 };

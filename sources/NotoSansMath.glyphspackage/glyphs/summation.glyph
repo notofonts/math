@@ -37,7 +37,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 summation,
-summation.s1
+summation.s01
 );
 };
 };

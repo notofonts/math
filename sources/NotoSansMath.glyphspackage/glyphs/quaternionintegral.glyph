@@ -34,7 +34,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 quaternionintegral,
-quaternionintegral.s1
+quaternionintegral.s01
 );
 };
 };

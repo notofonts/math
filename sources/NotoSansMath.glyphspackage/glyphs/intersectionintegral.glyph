@@ -31,7 +31,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 intersectionintegral,
-intersectionintegral.s1
+intersectionintegral.s01
 );
 };
 };

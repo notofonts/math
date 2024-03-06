@@ -1,0 +1,23 @@
+{
+glyphname = largeTripleVerticalBarOperator.s02;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (273,300);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 2;
+};
+ref = _part.largeTripleVerticalBarOperator;
+}
+);
+width = 547;
+}
+);
+}

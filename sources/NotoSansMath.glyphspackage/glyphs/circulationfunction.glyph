@@ -33,7 +33,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 circulationfunction,
-circulationfunction.s1
+circulationfunction.s01
 );
 };
 };

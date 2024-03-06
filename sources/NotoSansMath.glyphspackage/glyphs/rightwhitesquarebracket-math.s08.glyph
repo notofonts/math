@@ -1,0 +1,23 @@
+{
+glyphname = "rightwhitesquarebracket-math.s08";
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (246,290);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 8;
+};
+ref = "_part.rightwhitesquarebracket-math";
+}
+);
+width = 565;
+}
+);
+}

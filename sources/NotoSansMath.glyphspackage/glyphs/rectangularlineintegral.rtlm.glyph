@@ -98,7 +98,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 rectangularlineintegral.rtlm,
-rectangularlineintegral.rtlm.s1
+rectangularlineintegral.rtlm.s01
 );
 };
 };
