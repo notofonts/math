@@ -21,16 +21,16 @@ userData = {
 com.nagwa.MATHPlugin.variants = {
 vAssembly = (
 (
-leftFloor.b,
+bracketleft.b,
 0,
 0,
-900
+1289
 ),
 (
-leftCeiling.x,
+bracketleft.x,
 1,
-600,
-600
+1362,
+1362
 )
 );
 };

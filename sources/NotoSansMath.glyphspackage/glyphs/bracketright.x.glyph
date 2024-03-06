@@ -13,16 +13,15 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(355,0,l),
-(355,1362,l),
-(270,1362,l),
-(270,0,l)
+(374,1362,l),
+(254,1362,l),
+(254,0,l),
+(374,0,l)
 );
 }
 );
-width = 406;
+width = 494;
 }
 );
-metricWidth = "=bracketright.b";
 unicode = 9125;
 }

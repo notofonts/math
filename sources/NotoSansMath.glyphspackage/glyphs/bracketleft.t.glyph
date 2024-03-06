@@ -13,18 +13,19 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(136,0,l),
-(136,1289,l),
-(358,1289,l),
-(358,1362,l),
-(51,1362,l),
-(51,0,l)
+(240,0,l),
+(240,1240,l),
+(456,1240,l),
+(456,1362,l),
+(120,1362,l),
+(120,0,l)
 );
 }
 );
-width = 406;
+width = 494;
 }
 );
 metricLeft = "=bracketleft.x";
+metricWidth = "=bracketleft.x";
 unicode = 9121;
 }
