@@ -3090,6 +3090,6 @@ width = 22;
 };
 UFOFormat = 3;
 };
-versionMajor = 2;
-versionMinor = 539;
+versionMajor = 3;
+versionMinor = 0;
 }
