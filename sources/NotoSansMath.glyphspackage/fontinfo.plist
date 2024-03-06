@@ -978,11 +978,11 @@ value = -423;
 },
 {
 name = winAscent;
-value = 2685;
+value = 2970;
 },
 {
 name = winDescent;
-value = 1572;
+value = 2410;
 },
 {
 name = underlineThickness;
