@@ -6,22 +6,19 @@ layers = (
 anchors = (
 {
 name = math.ic;
-pos = (821,0);
+pos = (1409,0);
 }
 );
 layerId = master01;
 shapes = (
 {
 alignment = 1;
-ref = integral.rtlm;
-},
-{
-alignment = 1;
-pos = (259,0);
-ref = integral.rtlm;
+pos = (1135,0);
+ref = dblintegral;
+scale = (-1,1);
 }
 );
-width = 731;
+width = 1135;
 }
 );
 userData = {

@@ -1,0 +1,19 @@
+{
+color = 3;
+glyphname = integral.rtlm.ss02.x;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+pos = (-7,0);
+ref = integral.ss02.x;
+}
+);
+width = 472;
+}
+);
+metricLeft = "=integral.b.rtlm";
+metricRight = "=integral.t.rtlm";
+metricWidth = "=integral.rtlm.s1";
+}

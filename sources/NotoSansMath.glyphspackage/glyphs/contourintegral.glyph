@@ -5,7 +5,7 @@ layers = (
 anchors = (
 {
 name = math.ic;
-pos = (562,0);
+pos = (1110,0);
 }
 );
 layerId = master01;
@@ -15,16 +15,21 @@ alignment = 1;
 ref = integral;
 },
 {
+pos = (182,6);
 ref = _contour1.integral;
 }
 );
-width = 472;
+width = 836;
 },
 {
 anchors = (
 {
 name = center;
 pos = (272,322);
+},
+{
+name = math.ic;
+pos = (819,0);
 }
 );
 associatedMasterId = master01;

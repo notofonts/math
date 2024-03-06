@@ -5,7 +5,7 @@ layers = (
 anchors = (
 {
 name = math.ic;
-pos = (821,0);
+pos = (1904,0);
 }
 );
 layerId = master01;
@@ -15,11 +15,12 @@ alignment = 1;
 ref = dblintegral.s01;
 },
 {
-pos = (1,0);
+pos = (264,-58);
 ref = _contour2.integral;
+scale = (1.2,1.2);
 }
 );
-width = 731;
+width = 1404;
 }
 );
 metricRight = "=51@1400";

@@ -5,11 +5,11 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (366,322);
+pos = (568,328);
 },
 {
 name = math.ic;
-pos = (821,0);
+pos = (1409,0);
 }
 );
 layerId = master01;
@@ -20,7 +20,7 @@ ref = integral;
 },
 {
 alignment = 1;
-pos = (259,0);
+pos = (299,0);
 ref = integral;
 }
 );
@@ -48,13 +48,17 @@ dblintegral.t,
 );
 };
 };
-width = 731;
+width = 1135;
 },
 {
 anchors = (
 {
 name = center;
 pos = (365,322);
+},
+{
+name = math.ic;
+pos = (1005,0);
 }
 );
 associatedMasterId = master01;

@@ -1,0 +1,40 @@
+{
+glyphname = finitePartIntegral.ss02;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (262,322);
+},
+{
+name = math.ic;
+pos = (562,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = integral.ss02;
+},
+{
+alignment = -1;
+ref = _stroke.integral;
+}
+);
+width = 472;
+}
+);
+metricLeft = "=51";
+metricRight = "=51";
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+finitePartIntegral.ss02,
+finitePartIntegral.ss02.s01
+);
+};
+};
+}

@@ -4,25 +4,22 @@ layers = (
 {
 anchors = (
 {
-name = center;
-pos = (283,322);
-},
-{
 name = math.ic;
-pos = (656,0);
+pos = (1110,0);
 }
 );
 layerId = master01;
 shapes = (
 {
-pos = (47,0);
+alignment = 1;
 ref = integral;
 },
 {
+pos = (135,6);
 ref = _intersection.integral;
 }
 );
-width = 566;
+width = 836;
 }
 );
 unicode = 10777;

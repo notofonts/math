@@ -1,0 +1,33 @@
+{
+color = 3;
+glyphname = intersectionintegral.rtlm.ss02;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (656,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+pos = (566,0);
+ref = intersectionintegral.ss02;
+scale = (-1,1);
+}
+);
+width = 566;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+intersectionintegral.rtlm.ss02,
+intersectionintegral.rtlm.ss02.s01
+);
+};
+};
+}

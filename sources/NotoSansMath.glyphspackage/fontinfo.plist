@@ -161,9 +161,9 @@ features = (
 automatic = 1;
 code = "feature rtlm;
 feature ss01;
+feature ss02;
 feature dtls;
 feature ssty;
-feature fwid;
 ";
 tag = aalt;
 },
@@ -375,6 +375,71 @@ value = "Chancery Style";
 );
 notes = "An alternate way to access the Chancery Style variants of the script-math glyphs.";
 tag = ss01;
+},
+{
+automatic = 1;
+code = "sub integral by integral.ss02;
+sub dblintegral by dblintegral.ss02;
+sub tripleintegral by tripleintegral.ss02;
+sub quadrupleintegral by quadrupleintegral.ss02;
+sub contourintegral by contourintegral.ss02;
+sub surfaceintegral by surfaceintegral.ss02;
+sub volumeintegral by volumeintegral.ss02;
+sub clockwiseintegral by clockwiseintegral.ss02;
+sub clockwisecontourintegral by clockwisecontourintegral.ss02;
+sub anticlockwisecontourintegral by anticlockwisecontourintegral.ss02;
+sub finitePartIntegral by finitePartIntegral.ss02;
+sub doublestrokeintegral by doublestrokeintegral.ss02;
+sub slashintegral by slashintegral.ss02;
+sub circulationfunction by circulationfunction.ss02;
+sub anticlockwiseintegral by anticlockwiseintegral.ss02;
+sub rectangularlineintegral by rectangularlineintegral.ss02;
+sub semicircularlineintegral by semicircularlineintegral.ss02;
+sub nopolelineintegral by nopolelineintegral.ss02;
+sub pointoperatorintegral by pointoperatorintegral.ss02;
+sub quaternionintegral by quaternionintegral.ss02;
+sub leftarrowhookintegral by leftarrowhookintegral.ss02;
+sub timesintegral by timesintegral.ss02;
+sub intersectionintegral by intersectionintegral.ss02;
+sub unionintegral by unionintegral.ss02;
+sub overbarintegral by overbarintegral.ss02;
+sub underbarintegral by underbarintegral.ss02;
+sub summationintegral by summationintegral.ss02;
+sub integral.rtlm by integral.rtlm.ss02;
+sub dblintegral.rtlm by dblintegral.rtlm.ss02;
+sub tripleintegral.rtlm by tripleintegral.rtlm.ss02;
+sub quadrupleintegral.rtlm by quadrupleintegral.rtlm.ss02;
+sub contourintegral.rtlm by contourintegral.rtlm.ss02;
+sub surfaceintegral.rtlm by surfaceintegral.rtlm.ss02;
+sub volumeintegral.rtlm by volumeintegral.rtlm.ss02;
+sub clockwiseintegral.rtlm by clockwiseintegral.rtlm.ss02;
+sub clockwisecontourintegral.rtlm by clockwisecontourintegral.rtlm.ss02;
+sub anticlockwisecontourintegral.rtlm by anticlockwisecontourintegral.rtlm.ss02;
+sub finitePartIntegral.rtlm by finitePartIntegral.rtlm.ss02;
+sub doublestrokeintegral.rtlm by doublestrokeintegral.rtlm.ss02;
+sub slashintegral.rtlm by slashintegral.rtlm.ss02;
+sub circulationfunction.rtlm by circulationfunction.rtlm.ss02;
+sub anticlockwiseintegral.rtlm by anticlockwiseintegral.rtlm.ss02;
+sub rectangularlineintegral.rtlm by rectangularlineintegral.rtlm.ss02;
+sub semicircularlineintegral.rtlm by semicircularlineintegral.rtlm.ss02;
+sub nopolelineintegral.rtlm by nopolelineintegral.rtlm.ss02;
+sub pointoperatorintegral.rtlm by pointoperatorintegral.rtlm.ss02;
+sub quaternionintegral.rtlm by quaternionintegral.rtlm.ss02;
+sub leftarrowhookintegral.rtlm by leftarrowhookintegral.rtlm.ss02;
+sub timesintegral.rtlm by timesintegral.rtlm.ss02;
+sub intersectionintegral.rtlm by intersectionintegral.rtlm.ss02;
+sub unionintegral.rtlm by unionintegral.rtlm.ss02;
+sub overbarintegral.rtlm by overbarintegral.rtlm.ss02;
+sub underbarintegral.rtlm by underbarintegral.rtlm.ss02;
+sub summationintegral.rtlm by summationintegral.rtlm.ss02;
+";
+labels = (
+{
+language = dflt;
+value = "Straight integrals";
+}
+);
+tag = ss02;
 },
 {
 automatic = 1;
@@ -827,6 +892,7 @@ sub natural-musical from [natural-musical.ssty1 natural-musical.ssty2];
 sub sharp-musical from [sharp-musical.ssty1 sharp-musical.ssty2];
 sub integral from [integral.ssty1 integral.ssty2];
 sub summation from [summation.ssty1 summation.ssty2];
+sub integral.ss02 from [integral.ss02.ssty1 integral.ss02.ssty2];
 sub downtackmod from [downtackmod.ssty1 downtackmod.ssty2];
 sub uptackmod from [uptackmod.ssty1 uptackmod.ssty2];
 sub prime from [prime.ssty1 prime.ssty2];
@@ -1011,15 +1077,13 @@ stemValues = (
 );
 userData = {
 GSCornerRadius = 20;
-GSOffsetHorizontal = 10;
-GSOffsetKeepCompatible = 1;
-GSOffsetProportional = 1;
-GSOffsetVertical = 16;
+GSOffsetHorizontal = 26;
+GSOffsetVertical = 22;
 com.nagwa.MATHPlugin.constants = {
 AccentBaseHeight = 556;
 AxisHeight = 352;
-DelimitedSubFormulaMinHeight = 2400;
-DisplayOperatorMinHeight = 2400;
+DelimitedSubFormulaMinHeight = 2300;
+DisplayOperatorMinHeight = 2300;
 FlattenedAccentBaseHeight = 714;
 FractionDenomDisplayStyleGapMin = 210;
 FractionDenominatorDisplayStyleShiftDown = 690;
@@ -1075,7 +1139,6 @@ UpperLimitBaselineRiseMin = 200;
 UpperLimitGapMin = 100;
 };
 };
-visible = 1;
 }
 );
 instances = (

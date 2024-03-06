@@ -1,0 +1,120 @@
+{
+glyphname = contourintegral.ss02;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (562,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = integral.ss02;
+},
+{
+ref = _contour1.integral;
+}
+);
+width = 472;
+},
+{
+anchors = (
+{
+name = center;
+pos = (272,322);
+}
+);
+associatedMasterId = master01;
+layerId = "09C8D289-6ACF-44EC-A5EB-B6806001BDBC";
+name = "3 Mar 24 at 20:05";
+shapes = (
+{
+closed = 1;
+nodes = (
+(260,-240,o),
+(315,-179,o),
+(315,-62,cs),
+(315,134,l),
+(422,151,o),
+(494,225,o),
+(494,322,cs),
+(494,418,o),
+(422,493,o),
+(315,510,c),
+(315,701,ls),
+(315,777,o),
+(343,815,o),
+(398,815,cs),
+(416,815,o),
+(435,811,o),
+(454,803,c),
+(454,876,l),
+(439,882,o),
+(418,885,o),
+(391,885,cs),
+(284,885,o),
+(230,826,o),
+(230,707,cs),
+(230,510,l),
+(123,493,o),
+(51,419,o),
+(51,322,cs),
+(51,226,o),
+(121,151,o),
+(230,134,c),
+(230,-56,ls),
+(230,-132,o),
+(201,-170,o),
+(144,-170,cs),
+(124,-170,o),
+(104,-166,o),
+(84,-158,c),
+(84,-230,l),
+(104,-237,o),
+(126,-240,o),
+(152,-240,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(164,213,o),
+(122,261,o),
+(122,322,cs),
+(122,381,o),
+(163,430,o),
+(230,443,c),
+(230,201,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(315,443,l),
+(381,431,o),
+(423,382,o),
+(423,322,cs),
+(423,261,o),
+(380,214,o),
+(315,201,c)
+);
+}
+);
+width = 545;
+}
+);
+metricLeft = "=51@-180";
+metricRight = "=51@850";
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+contourintegral.ss02,
+contourintegral.ss02.s01
+);
+};
+};
+}

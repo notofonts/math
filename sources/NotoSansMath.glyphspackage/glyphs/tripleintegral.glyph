@@ -5,11 +5,11 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (495,322);
+pos = (717,328);
 },
 {
 name = math.ic;
-pos = (1080,0);
+pos = (1708,0);
 }
 );
 layerId = master01;
@@ -20,12 +20,12 @@ ref = integral;
 },
 {
 alignment = 1;
-pos = (259,0);
+pos = (299,0);
 ref = integral;
 },
 {
 alignment = 1;
-pos = (518,0);
+pos = (598,0);
 ref = integral;
 }
 );
@@ -53,7 +53,7 @@ tripleintegral.t,
 );
 };
 };
-width = 990;
+width = 1434;
 }
 );
 unicode = 8749;

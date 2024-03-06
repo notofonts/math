@@ -5,7 +5,7 @@ layers = (
 anchors = (
 {
 name = math.ic;
-pos = (1080,0);
+pos = (1708,0);
 }
 );
 layerId = master01;
@@ -15,10 +15,11 @@ alignment = 1;
 ref = tripleintegral;
 },
 {
+pos = (222,6);
 ref = _contour3.integral;
 }
 );
-width = 990;
+width = 1434;
 }
 );
 metricLeft = "=51@-180";

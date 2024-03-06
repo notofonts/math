@@ -5,24 +5,20 @@ layers = (
 {
 anchors = (
 {
-name = center;
-pos = (236,322);
-},
-{
 name = math.ic;
-pos = (562,0);
+pos = (1552,0);
 }
 );
 layerId = master01;
 shapes = (
 {
 alignment = 1;
-pos = (472,0);
+pos = (1052,0);
 ref = integral.s01;
 scale = (-1,1);
 }
 );
-width = 472;
+width = 1052;
 }
 );
 userData = {

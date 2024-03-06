@@ -4,12 +4,8 @@ layers = (
 {
 anchors = (
 {
-name = center;
-pos = (236,322);
-},
-{
 name = math.ic;
-pos = (562,0);
+pos = (1552,0);
 }
 );
 layerId = master01;
@@ -20,16 +16,18 @@ ref = integral.s01;
 },
 {
 alignment = -1;
-pos = (0,86);
+pos = (243,46);
 ref = _stroke.integral;
+scale = (1.2,1.2);
 },
 {
 alignment = -1;
-pos = (0,-86);
+pos = (243,-161);
 ref = _stroke.integral;
+scale = (1.2,1.2);
 }
 );
-width = 472;
+width = 1052;
 }
 );
 metricLeft = "=51";

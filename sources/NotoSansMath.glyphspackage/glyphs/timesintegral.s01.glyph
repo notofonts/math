@@ -4,12 +4,8 @@ layers = (
 {
 anchors = (
 {
-name = center;
-pos = (239,323);
-},
-{
 name = math.ic;
-pos = (562,0);
+pos = (1552,0);
 }
 );
 layerId = master01;
@@ -20,11 +16,12 @@ ref = integral.s01;
 },
 {
 alignment = -1;
-pos = (-47,-30);
+pos = (183,-96);
 ref = multiply;
+scale = (1.2,1.2);
 }
 );
-width = 472;
+width = 1052;
 }
 );
 userData = {

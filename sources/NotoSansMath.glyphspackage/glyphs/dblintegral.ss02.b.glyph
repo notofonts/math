@@ -1,0 +1,28 @@
+{
+glyphname = dblintegral.ss02.b;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (293,681);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = integral.ss02.b;
+},
+{
+alignment = 1;
+pos = (259,0);
+ref = integral.ss02.b;
+}
+);
+width = 731;
+}
+);
+metricLeft = "=integral.b";
+metricRight = "=integral.b";
+}

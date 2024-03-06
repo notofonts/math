@@ -1,0 +1,40 @@
+{
+color = 3;
+glyphname = quadrupleintegral.rtlm.ss02.s01;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (1339,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = integral.rtlm.ss02.s01;
+},
+{
+alignment = 1;
+pos = (259,0);
+ref = integral.rtlm.ss02.s01;
+},
+{
+alignment = 1;
+pos = (518,0);
+ref = integral.rtlm.ss02.s01;
+},
+{
+alignment = 1;
+pos = (777,0);
+ref = integral.rtlm.ss02.s01;
+}
+);
+width = 1249;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

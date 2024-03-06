@@ -5,11 +5,11 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (236,322);
+pos = (418,328);
 },
 {
 name = math.ic;
-pos = (562,0);
+pos = (1110,0);
 }
 );
 layerId = master01;
@@ -45,7 +45,7 @@ math = {
 italicCorrection = 140;
 };
 };
-width = 472;
+width = 836;
 }
 );
 unicode = 8747;
