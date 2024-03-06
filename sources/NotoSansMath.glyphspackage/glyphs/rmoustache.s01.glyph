@@ -1,0 +1,44 @@
+{
+glyphname = rmoustache.s01;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 1;
+};
+ref = _part.rmoustache;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+braceleft.b,
+0,
+0,
+1000
+),
+(
+braceleft.x,
+1,
+1362,
+1362
+),
+(
+braceright.t,
+0,
+1000,
+0
+)
+);
+};
+};
+width = 384;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

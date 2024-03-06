@@ -2,35 +2,10 @@
 glyphname = lmoustache;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (158,388);
-}
-);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(100,-293,l),
-(157,-228,o),
-(201,-98,o),
-(201,49,cs),
-(201,727,ls),
-(201,866,o),
-(235,976,o),
-(284,1044,cs),
-(302,1069,l),
-(217,1069,l),
-(155,999,o),
-(116,866,o),
-(116,727,cs),
-(116,49,ls),
-(116,-87,o),
-(93,-193,o),
-(15,-293,c)
-);
+ref = _part.lmoustache;
 }
 );
 userData = {
@@ -57,11 +32,28 @@ braceleft.t,
 );
 };
 };
-width = 317;
+width = 380;
 }
 );
 unicode = 9136;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+lmoustache,
+lmoustache.s01,
+lmoustache.s02,
+lmoustache.s03,
+lmoustache.s04,
+lmoustache.s05,
+lmoustache.s06,
+lmoustache.s07,
+lmoustache.s08,
+lmoustache.s09,
+lmoustache.s10,
+lmoustache.s11,
+lmoustache.s12
+);
+};
 };
 }
