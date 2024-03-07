@@ -5,26 +5,20 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (698,311);
+pos = (519,237);
 }
 );
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(1345,-514,l),
-(1345,1136,l),
-(1274,1136,l),
-(1274,-443,l),
-(122,-443,l),
-(122,1136,l),
-(51,1136,l),
-(51,-514,l)
-);
+pos = (-20,-95);
+ref = nArySquareUnionOperator;
+scale = (1.4,1.4);
 }
 );
-width = 1396;
+width = 1038;
 }
 );
+metricLeft = "=51";
+metricRight = "=|";
 }

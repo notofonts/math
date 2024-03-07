@@ -13,12 +13,12 @@ layerId = master01;
 shapes = (
 {
 alignment = 1;
-pos = (677,0);
+pos = (868,0);
 ref = summationintegral;
 scale = (-1,1);
 }
 );
-width = 677;
+width = 868;
 }
 );
 userData = {

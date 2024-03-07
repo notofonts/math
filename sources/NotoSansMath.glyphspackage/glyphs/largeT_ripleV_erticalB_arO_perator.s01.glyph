@@ -5,19 +5,20 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (273,316);
+pos = (363,237);
 }
 );
 layerId = master01;
 shapes = (
 {
-piece = {
-Size = 1;
-};
-ref = _part.largeTripleVerticalBarOperator;
+pos = (-20,-95);
+ref = largeTripleVerticalBarOperator;
+scale = (1.4,1.4);
 }
 );
-width = 547;
+width = 725;
 }
 );
+metricLeft = "=51";
+metricRight = "=|";
 }

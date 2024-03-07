@@ -1,18 +1,12 @@
 {
-glyphname = summation.s01;
+glyphname = moduloTwoSum.s01;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (576,237);
-}
-);
 layerId = master01;
 shapes = (
 {
 pos = (-20,-95);
-ref = summation;
+ref = moduloTwoSum;
 scale = (1.4,1.4);
 }
 );
@@ -21,4 +15,7 @@ width = 1152;
 );
 metricLeft = "=51";
 metricRight = "=|";
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
 }

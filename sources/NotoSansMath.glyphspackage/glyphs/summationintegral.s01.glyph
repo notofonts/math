@@ -1,5 +1,5 @@
 {
-glyphname = summationintegral;
+glyphname = summationintegral.s01;
 layers = (
 {
 layerId = master01;
@@ -7,30 +7,24 @@ shapes = (
 {
 alignment = -1;
 piece = {
-Size = 1.77;
+Size = 12;
 };
-pos = (0,-91);
+pos = (91,-91);
 ref = _part.integral;
 },
 {
 alignment = 1;
-pos = (8,0);
+pos = (-20,-95);
 ref = summation;
+scale = (1.4,1.4);
 }
 );
-width = 868;
+width = 1152;
 }
 );
 metricLeft = "=51";
 metricRight = "=|";
-unicode = 10763;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
-com.nagwa.MATHPlugin.variants = {
-vVariants = (
-summationintegral,
-summationintegral.s01
-);
-};
 };
 }

@@ -996,31 +996,6 @@ value = -175;
 guides = (
 {
 locked = 1;
-pos = (309,844);
-},
-{
-locked = 1;
-pos = (309,853);
-},
-{
-locked = 1;
-pos = (309,1062);
-},
-{
-locked = 1;
-pos = (309,1071);
-},
-{
-locked = 1;
-pos = (254,439);
-},
-{
-locked = 1;
-pos = (254,428);
-},
-{
-angle = 90;
-locked = 1;
 name = ".s12 top";
 pos = (-50,2162);
 },
@@ -1044,6 +1019,21 @@ pos = (-51,784);
 locked = 1;
 name = "bottom-brackets";
 pos = (0,-60);
+},
+{
+locked = 1;
+name = AxisHeight;
+pos = (0,352);
+},
+{
+locked = 1;
+name = "largeop top";
+pos = (0,714);
+},
+{
+locked = 1;
+name = "largeop bottom";
+pos = (0,-240);
 }
 );
 id = master01;
@@ -1077,7 +1067,11 @@ stemValues = (
 );
 userData = {
 GSCornerRadius = 20;
-GSOffsetHorizontal = 26;
+GSOffsetCapStyle = 4;
+GSOffsetHorizontal = 35.5;
+GSOffsetMakeStroke = 1;
+GSOffsetPosition = 1;
+GSOffsetProportional = 1;
 GSOffsetVertical = 22;
 com.nagwa.MATHPlugin.constants = {
 AccentBaseHeight = 556;

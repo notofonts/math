@@ -5,27 +5,22 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (460,311);
+pos = (460,237);
 }
 );
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(490,-92,l),
-(869,714,l),
-(793,714,l),
-(460,3,l),
-(127,714,l),
-(51,714,l),
-(430,-92,l)
-);
+pos = (0,474);
+ref = narylogicaland;
+scale = (1,-1);
 }
 );
 width = 920;
 }
 );
+metricLeft = "=51";
+metricRight = "=|";
 unicode = 8897;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;

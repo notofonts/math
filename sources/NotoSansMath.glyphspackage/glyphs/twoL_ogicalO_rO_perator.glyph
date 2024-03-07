@@ -5,41 +5,30 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (498,311);
+pos = (551,237);
 }
 );
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(620,-92,l),
-(946,714,l),
-(868,714,l),
-(590,12,l),
-(310,714,l),
-(233,714,l),
-(560,-92,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(438,-92,l),
-(764,714,l),
-(686,714,l),
-(408,12,l),
-(128,714,l),
-(51,714,l),
-(378,-92,l)
-);
+pos = (0,474);
+ref = twoLogicalAndOperator;
+scale = (1,-1);
 }
 );
-width = 997;
+width = 1102;
 }
 );
+metricLeft = "=51";
+metricRight = "=|";
 unicode = 10760;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+twoLogicalOrOperator,
+twoLogicalOrOperator.s01
+);
+};
 };
 }

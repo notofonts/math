@@ -5,29 +5,42 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (192,300);
+pos = (192,237);
 }
 );
 layerId = master01;
 shapes = (
 {
-piece = {
-Size = 0;
-};
-ref = _part.nAryWhiteVerticalBar;
+closed = 1;
+nodes = (
+(334,-240,l),
+(334,714,l),
+(51,714,l),
+(51,-240,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(102,663,l),
+(283,663,l),
+(283,-189,l),
+(102,-189,l)
+);
 }
 );
 width = 385;
 }
 );
+metricLeft = "=51";
+metricRight = "=|";
 unicode = 11007;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 nAryWhiteVerticalBar,
-nAryWhiteVerticalBar.s01,
-nAryWhiteVerticalBar.s02
+nAryWhiteVerticalBar.s01
 );
 };
 };

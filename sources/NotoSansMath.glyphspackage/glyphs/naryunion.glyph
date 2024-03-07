@@ -5,38 +5,22 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (385,316);
+pos = (385,237);
 }
 );
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(592,-82,o),
-(719,37,o),
-(719,248,cs),
-(719,714,l),
-(648,714,l),
-(648,248,ls),
-(648,83,o),
-(555,-10,o),
-(385,-10,cs),
-(216,-10,o),
-(122,84,o),
-(122,248,cs),
-(122,714,l),
-(51,714,l),
-(51,248,ls),
-(51,35,o),
-(178,-82,o),
-(385,-82,cs)
-);
+pos = (0,474);
+ref = naryintersection;
+scale = (1,-1);
 }
 );
 width = 770;
 }
 );
+metricLeft = "=51";
+metricRight = "=|";
 unicode = 8899;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;

@@ -1,24 +1,27 @@
 {
-glyphname = summation.s01;
+glyphname = summationdoubleStruck.s01;
 layers = (
 {
 anchors = (
 {
 name = center;
-pos = (576,237);
+pos = (530,237);
 }
 );
 layerId = master01;
 shapes = (
 {
 pos = (-20,-95);
-ref = summation;
+ref = summationdoubleStruck;
 scale = (1.4,1.4);
 }
 );
-width = 1152;
+width = 1059;
 }
 );
 metricLeft = "=51";
 metricRight = "=|";
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
 }
