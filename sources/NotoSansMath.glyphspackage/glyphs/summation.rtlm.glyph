@@ -6,33 +6,28 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (338,237);
+pos = (426,237);
 }
 );
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(626,-185,l),
-(320,262,l),
-(618,658,l),
-(618,714,l),
-(83,714,l),
-(83,635,l),
-(492,635,l),
-(214,264,l),
-(504,-161,l),
-(51,-161,l),
-(51,-240,l),
-(626,-240,l)
-);
+alignment = 1;
+pos = (852,0);
+ref = summation;
+scale = (-1,1);
 }
 );
-width = 677;
+width = 852;
 }
 );
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+summation.rtlm,
+summation.rtlm.s01
+);
+};
 };
 }

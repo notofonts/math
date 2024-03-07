@@ -1,33 +1,27 @@
 {
 color = 3;
-glyphname = modulotwosum.rtlm;
+glyphname = modulotwosum.rtlm.s01;
 layers = (
 {
 anchors = (
 {
 name = center;
-pos = (426,237);
+pos = (576,237);
 }
 );
 layerId = master01;
 shapes = (
 {
 alignment = 1;
-pos = (852,0);
-ref = modulotwosum;
+pos = (1152,0);
+ref = modulotwosum.s01;
 scale = (-1,1);
 }
 );
-width = 852;
+width = 1152;
 }
 );
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
-com.nagwa.MATHPlugin.variants = {
-vVariants = (
-modulotwosum.rtlm,
-modulotwosum.rtlm.s01
-);
-};
 };
 }
