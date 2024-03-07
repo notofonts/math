@@ -904,31 +904,31 @@
     <glyph name="coproduct" unicode="2210" production="uni2210"  category="Symbol" subCategory="Largeop" sortName="op23" />
     <glyph name="product" unicode="220F" production="uni220F"  category="Symbol" subCategory="Largeop" sortName="op23" />
     <glyph name="summation" unicode="2211" production="uni2211"  category="Symbol" subCategory="Largeop" sortName="op24" />
-    <glyph name="moduloTwoSum" unicode="2A0A" production="uni2A0A"  category="Symbol" subCategory="Largeop" sortName="op24a" />
+    <glyph name="modulotwosum" unicode="2A0A" production="uni2A0A"  category="Symbol" subCategory="Largeop" sortName="op24a" />
     <glyph name="summationintegral" unicode="2A0B" production="uni2A0B"  category="Symbol" subCategory="Largeop" sortName="op24b" />
-    <glyph name="summationdoubleStruck" unicode="2140" production="uni2140"  category="Symbol" subCategory="Largeop" sortName="op24c" />
+    <glyph name="summationdoublestruck" unicode="2140" production="uni2140"  category="Symbol" subCategory="Largeop" sortName="op24c" />
     <glyph name="join" unicode="2A1D" production="uni2A1D"  category="Symbol" subCategory="Largeop" sortName="op40" />
-    <glyph name="largeLeftTriangleOperator" unicode="2A1E" production="uni2A1E"  category="Symbol" subCategory="Largeop" sortName="op39" />
-    <glyph name="nAryCircledDotOperator" unicode="2A00" production="uni2A00"  category="Symbol" subCategory="Largeop" sortName="op33" />
-    <glyph name="nAryCircledPlusOperator" unicode="2A01" production="uni2A01"  category="Symbol" subCategory="Largeop" sortName="op34" />
-    <glyph name="nAryCircledTimesOperator" unicode="2A02" production="uni2A02"  category="Symbol" subCategory="Largeop" sortName="op35" />
-    <glyph name="nArySquareIntersectionOperator" unicode="2A05" production="uni2A05"  category="Symbol" subCategory="Largeop" sortName="op32" />
-    <glyph name="nArySquareUnionOperator" unicode="2A06" production="uni2A06"  category="Symbol" subCategory="Largeop" sortName="op31" />
-    <glyph name="nAryTimesOperator" unicode="2A09" production="uni2A09"  category="Symbol" subCategory="Largeop" sortName="op36" />
-    <glyph name="nAryUnionOperatorWithDot" unicode="2A03" production="uni2A03"  category="Symbol" subCategory="Largeop" sortName="op25a" />
-    <glyph name="nAryUnionOperatorWithPlus" unicode="2A04" production="uni2A04"  category="Symbol" subCategory="Largeop" sortName="op25b" />
-    <glyph name="twoLogicalAndOperator" unicode="2A07" production="uni2A07"  category="Symbol" subCategory="Largeop" sortName="op30" />
-    <glyph name="twoLogicalOrOperator" unicode="2A08" production="uni2A08"  category="Symbol" subCategory="Largeop" sortName="op29" />
-    <glyph name="zNotationSchemaComposition" unicode="2A1F" production="uni2A1F"  category="Symbol" subCategory="Largeop" sortName="op41" />
-    <glyph name="zNotationSchemaPiping" unicode="2A20" production="uni2A20"  category="Symbol" subCategory="Largeop" sortName="op42" />
-    <glyph name="bigReverseSolidus" unicode="29F9" production="uni29F9" category="Symbol" subCategory="Largeop" sortName="op37" />
-    <glyph name="bigSolidus" unicode="29F8" production="uni29F8" category="Symbol" subCategory="Largeop" sortName="op38" />
+    <glyph name="narylefttriangle" unicode="2A1E" production="uni2A1E"  category="Symbol" subCategory="Largeop" sortName="op39" />
+    <glyph name="narycircleddot" unicode="2A00" production="uni2A00"  category="Symbol" subCategory="Largeop" sortName="op33" />
+    <glyph name="narycircledplus" unicode="2A01" production="uni2A01"  category="Symbol" subCategory="Largeop" sortName="op34" />
+    <glyph name="narycircledtimes" unicode="2A02" production="uni2A02"  category="Symbol" subCategory="Largeop" sortName="op35" />
+    <glyph name="narysquareintersection" unicode="2A05" production="uni2A05"  category="Symbol" subCategory="Largeop" sortName="op32" />
+    <glyph name="narysquareunion" unicode="2A06" production="uni2A06"  category="Symbol" subCategory="Largeop" sortName="op31" />
+    <glyph name="narytimes" unicode="2A09" production="uni2A09"  category="Symbol" subCategory="Largeop" sortName="op36" />
+    <glyph name="naryuniondot" unicode="2A03" production="uni2A03"  category="Symbol" subCategory="Largeop" sortName="op25a" />
+    <glyph name="naryunionplus" unicode="2A04" production="uni2A04"  category="Symbol" subCategory="Largeop" sortName="op25b" />
+    <glyph name="narytwologicaland" unicode="2A07" production="uni2A07"  category="Symbol" subCategory="Largeop" sortName="op30" />
+    <glyph name="narytwologicalor" unicode="2A08" production="uni2A08"  category="Symbol" subCategory="Largeop" sortName="op29" />
+    <glyph name="znotationschemacomposition" unicode="2A1F" production="uni2A1F"  category="Symbol" subCategory="Largeop" sortName="op41" />
+    <glyph name="znotationschemapiping" unicode="2A20" production="uni2A20"  category="Symbol" subCategory="Largeop" sortName="op42" />
+    <glyph name="bigreversesolidus" unicode="29F9" production="uni29F9" category="Symbol" subCategory="Largeop" sortName="op37" />
+    <glyph name="bigsolidus" unicode="29F8" production="uni29F8" category="Symbol" subCategory="Largeop" sortName="op38" />
     <glyph name="naryintersection" unicode="22C2" production="uni22C2" category="Symbol" subCategory="Largeop" sortName="op26" />
     <glyph name="narylogicaland" unicode="22C0" production="uni22C0" category="Symbol" subCategory="Largeop" sortName="op28" />
     <glyph name="narylogicalor" unicode="22C1" production="uni22C1" category="Symbol" subCategory="Largeop" sortName="op27" />
     <glyph name="naryunion" unicode="22C3" production="uni22C3" category="Symbol" subCategory="Largeop" sortName="op25" />
-    <glyph name="largeTripleVerticalBarOperator" unicode="2AFC" production="uni2AFC" category="Symbol" subCategory="Largeop" sortName="op42" />
-    <glyph name="nAryWhiteVerticalBar" unicode="2AFF" production="uni2AFF" category="Symbol" subCategory="Largeop" sortName="op43" />
+    <glyph name="narytripleverticalbar" unicode="2AFC" production="uni2AFC" category="Symbol" subCategory="Largeop" sortName="op43" />
+    <glyph name="narywhiteverticalbar" unicode="2AFF" production="uni2AFF" category="Symbol" subCategory="Largeop" sortName="op44" />
 
     <glyph name="radical" unicode="221A" production="uni221A"  category="Symbol" subCategory="Radical" sortName="op26" />
     <glyph name="radical.b" unicode="23B7" production="uni23B7" category="Symbol" subCategory="Radical" sortName="b.op26" />

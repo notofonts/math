@@ -1,0 +1,56 @@
+{
+glyphname = narytripleverticalbar;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (273,237);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(496,-240,l),
+(496,714,l),
+(425,714,l),
+(425,-240,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(122,-240,l),
+(122,714,l),
+(51,714,l),
+(51,-240,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(309,-240,l),
+(309,714,l),
+(238,714,l),
+(238,-240,l)
+);
+}
+);
+width = 547;
+}
+);
+metricLeft = "=51";
+metricRight = "=|";
+unicode = 11004;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+narytripleverticalbar,
+narytripleverticalbar.s01
+);
+};
+};
+}

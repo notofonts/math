@@ -1,0 +1,34 @@
+{
+glyphname = narycircledtimes;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (528,237);
+}
+);
+layerId = master01;
+shapes = (
+{
+angle = 45;
+pos = (322,-304);
+ref = narycircledplus;
+}
+);
+width = 1056;
+}
+);
+metricLeft = "=51";
+metricRight = "=|";
+unicode = 10754;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+narycircledtimes,
+narycircledtimes.s01
+);
+};
+};
+}

@@ -1,0 +1,81 @@
+{
+glyphname = narycircledplus;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (528,237);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(553,-195,l),
+(553,679,l),
+(503,679,l),
+(503,-195,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(966,212,l),
+(966,262,l),
+(82,262,l),
+(82,212,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(791,-240,o),
+(1005,-26,o),
+(1005,237,cs),
+(1005,500,o),
+(791,714,o),
+(528,714,cs),
+(265,714,o),
+(51,500,o),
+(51,237,cs),
+(51,-26,o),
+(265,-240,o),
+(528,-240,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(304,-169,o),
+(122,13,o),
+(122,237,cs),
+(122,461,o),
+(304,643,o),
+(528,643,cs),
+(752,643,o),
+(934,461,o),
+(934,237,cs),
+(934,13,o),
+(752,-169,o),
+(528,-169,cs)
+);
+}
+);
+width = 1056;
+}
+);
+metricLeft = "=51";
+metricRight = "=|";
+unicode = 10753;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+narycircledplus,
+narycircledplus.s01
+);
+};
+};
+}

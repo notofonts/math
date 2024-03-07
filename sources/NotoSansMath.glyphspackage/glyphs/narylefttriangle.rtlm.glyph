@@ -1,0 +1,39 @@
+{
+color = 3;
+glyphname = narylefttriangle.rtlm;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (267,329);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(484,330,l),
+(89,723,l),
+(51,710,l),
+(51,-52,l),
+(89,-65,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(122,591,l),
+(383,330,l),
+(122,67,l)
+);
+}
+);
+width = 535;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}
