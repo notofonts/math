@@ -1,6 +1,5 @@
 {
-export = 0;
-glyphname = null;
+glyphname = .null;
 layers = (
 {
 anchors = (
@@ -12,4 +11,5 @@ layerId = master01;
 width = 0;
 }
 );
+unicode = 0;
 }

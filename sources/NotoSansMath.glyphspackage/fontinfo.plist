@@ -131,6 +131,15 @@ name = ij;
 );
 customParameters = (
 {
+name = glyphOrder;
+value = (
+.notdef,
+.null,
+CR,
+space
+);
+},
+{
 name = fsType;
 value = (
 );
