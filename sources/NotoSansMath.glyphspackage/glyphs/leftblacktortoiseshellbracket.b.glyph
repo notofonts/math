@@ -7,18 +7,18 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(293,0,l),
-(176,247,l),
-(176,1069,l),
-(51,1069,l),
-(51,292,l),
-(189,0,l)
+(407,0,l),
+(290,247,l),
+(290,1069,l),
+(80,1069,l),
+(80,471,l),
+(303,0,l)
 );
 }
 );
-width = 344;
+width = 432;
 }
 );
-metricLeft = "=51";
-metricRight = "=|";
+metricLeft = "=leftblacktortoiseshellbracket.s12";
+metricRight = "=leftblacktortoiseshellbracket.s12";
 }

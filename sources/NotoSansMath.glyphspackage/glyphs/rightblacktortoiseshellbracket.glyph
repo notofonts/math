@@ -21,7 +21,7 @@ vAssembly = (
 rightblacktortoiseshellbracket.b,
 0,
 0,
-777
+598
 ),
 (
 rightblacktortoiseshellbracket.x,
@@ -32,13 +32,13 @@ rightblacktortoiseshellbracket.x,
 (
 rightblacktortoiseshellbracket.t,
 0,
-777,
+598,
 0
 )
 );
 };
 };
-width = 274;
+width = 339;
 }
 );
 unicode = 10648;

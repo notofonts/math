@@ -1,0 +1,17 @@
+{
+glyphname = lightrighttortoiseshellbracketornament.s03;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 3;
+};
+ref = _part.lightrighttortoiseshellbracketornament;
+}
+);
+width = 282;
+}
+);
+}

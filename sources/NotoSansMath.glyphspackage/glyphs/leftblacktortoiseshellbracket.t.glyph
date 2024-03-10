@@ -11,7 +11,7 @@ ref = leftblacktortoiseshellbracket.b;
 scale = (1,-1);
 }
 );
-width = 344;
+width = 432;
 }
 );
 metricLeft = "=leftblacktortoiseshellbracket.b";

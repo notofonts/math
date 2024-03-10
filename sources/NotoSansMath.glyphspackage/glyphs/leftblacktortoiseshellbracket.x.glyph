@@ -3,20 +3,20 @@ glyphname = leftblacktortoiseshellbracket.x;
 layers = (
 {
 layerId = master01;
-metricLeft = "=leftblacktortoiseshellbracket.b";
-metricWidth = "=leftblacktortoiseshellbracket.b";
 shapes = (
 {
 closed = 1;
 nodes = (
-(176,0,l),
-(176,1069,l),
-(51,1069,l),
-(51,0,l)
+(290,0,l),
+(290,1069,l),
+(80,1069,l),
+(80,0,l)
 );
 }
 );
-width = 344;
+width = 432;
 }
 );
+metricLeft = "=leftblacktortoiseshellbracket.b";
+metricWidth = "=leftblacktortoiseshellbracket.b";
 }

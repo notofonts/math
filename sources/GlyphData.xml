@@ -987,8 +987,10 @@
     <glyph name="znotationrightimagebracket" unicode="2988" production="uni2988" script="" category="Punctuation" subCategory="Fence" sortName="fence29" />
     <glyph name="znotationleftbindingbracket" unicode="2989" production="uni2989" script="" category="Punctuation" subCategory="Fence" sortName="fence30" />
     <glyph name="znotationrightbindingbracket" unicode="298A" production="uni298A" script="" category="Punctuation" subCategory="Fence" sortName="fence31" />
-    <glyph name="leftblacktortoiseshellbracket" unicode="2997" production="uni2997" script="" category="Punctuation" subCategory="Fence" sortName="fence44" />
-    <glyph name="rightblacktortoiseshellbracket" unicode="2998" production="uni2998" script="" category="Punctuation" subCategory="Fence" sortName="fence45" />
+    <glyph name="lightlefttortoiseshellbracketornament" unicode="2772" production="uni2772" category="Punctuation" subCategory="Fence" sortName="fence33a" />
+    <glyph name="lightrighttortoiseshellbracketornament" unicode="2773" production="uni2773" category="Punctuation" subCategory="Fence" sortName="fence33b" />
+    <glyph name="leftblacktortoiseshellbracket" unicode="2997" production="uni2997" script="" category="Punctuation" subCategory="Fence" sortName="fence33c" />
+    <glyph name="rightblacktortoiseshellbracket" unicode="2998" production="uni2998" script="" category="Punctuation" subCategory="Fence" sortName="fence33d" />
     <glyph name="dottedFence" unicode="2999" production="uni2999"  script="" category="Punctuation" subCategory="Fence" sortName="fence46" />
     <glyph name="verticalZigzagLine" unicode="299A" production="uni299A"  script="" category="Punctuation" subCategory="Fence" sortName="fence47" />
     <glyph name="leftwigglyfence" unicode="29D8" production="uni29D8" script="" category="Punctuation" subCategory="Fence" sortName="fence48" />

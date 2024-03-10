@@ -11,18 +11,18 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(125,-158,l),
-(223,49,l),
-(223,577,l),
-(125,784,l),
-(51,784,l),
-(134,609,l),
-(134,17,l),
-(51,-158,l)
+(99,-158,l),
+(258,179,l),
+(259,447,l),
+(99,784,l),
+(25,784,l),
+(108,609,l),
+(108,17,l),
+(25,-158,l)
 );
 }
 );
-width = 274;
+width = 339;
 },
 {
 associatedMasterId = master01;
@@ -35,22 +35,22 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(155,-1606,l),
-(293,-1314,l),
-(293,1870,l),
-(155,2162,l),
-(51,2162,l),
-(168,1915,l),
-(168,-1359,l),
-(51,-1606,l)
+(129,-1606,l),
+(352,-1135,l),
+(352,1691,l),
+(129,2162,l),
+(25,2162,l),
+(142,1915,l),
+(142,-1359,l),
+(25,-1606,l)
 );
 }
 );
-width = 344;
+width = 432;
 }
 );
-metricLeft = "=51";
-metricRight = "=|";
+metricLeft = "=|_part.leftblacktortoiseshellbracket";
+metricRight = "=|_part.leftblacktortoiseshellbracket";
 partsSettings = (
 {
 bottomValue = 0;
@@ -58,5 +58,5 @@ name = Size;
 topValue = 12;
 }
 );
-sortName = fence33;
+sortName = fence33d;
 }
