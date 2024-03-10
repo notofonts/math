@@ -1,0 +1,98 @@
+{
+export = 0;
+glyphname = _part.leftarclessthanbracket;
+layers = (
+{
+layerId = master01;
+partSelection = {
+Size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(553,-158,l),
+(443,-23,o),
+(385,142,o),
+(385,310,cs),
+(385,481,o),
+(442,649,o),
+(554,784,c),
+(471,784,l),
+(351,654,o),
+(296,485,o),
+(296,309,cs),
+(296,135,o),
+(351,-32,o),
+(471,-158,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(551,145,l),
+(174,303,l),
+(551,481,l),
+(551,559,l),
+(80,324,l),
+(80,274,l),
+(551,67,l)
+);
+}
+);
+width = 579;
+},
+{
+associatedMasterId = master01;
+layerId = "B0028823-4D2B-406D-BFED-516601D4E459";
+name = "Regular-Large";
+partSelection = {
+Size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(947,-1606,l),
+(599,-1055,o),
+(415,-376,o),
+(415,310,cs),
+(415,977,o),
+(594,1634,o),
+(948,2162,c),
+(834,2162,l),
+(465,1653,o),
+(296,995,o),
+(296,309,cs),
+(296,-402,o),
+(466,-1091,o),
+(835,-1606,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(551,145,l),
+(174,303,l),
+(551,481,l),
+(551,559,l),
+(80,324,l),
+(80,274,l),
+(551,67,l)
+);
+}
+);
+width = 973;
+}
+);
+metricLeft = "=80";
+metricRight = "=25";
+partsSettings = (
+{
+bottomValue = 0;
+name = Size;
+topValue = 12;
+}
+);
+sortName = fence01a;
+}

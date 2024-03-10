@@ -1,0 +1,21 @@
+{
+glyphname = leftsquarebrackettickinbottomcorner.b;
+layers = (
+{
+layerId = master01;
+metricWidth = "=leftsquarebrackettickinbottomcorner.s12";
+shapes = (
+{
+alignment = 1;
+pos = (351,0);
+ref = rightsquarebrackettickinbottomcorner.b;
+scale = (-1,1);
+}
+);
+width = 351;
+}
+);
+metricLeft = "=leftsquarebrackettickinbottomcorner.s12";
+metricRight = "=leftsquarebrackettickinbottomcorner.s12";
+metricWidth = "=leftsquarebrackettickinbottomcorner.b";
+}

@@ -1,0 +1,19 @@
+{
+glyphname = doublerightarclessthanbracket.m;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+pos = (620,0);
+ref = doubleleftarcgreaterthanbracket.m;
+scale = (-1,1);
+}
+);
+width = 620;
+}
+);
+metricLeft = "=51";
+metricRight = "=|";
+}

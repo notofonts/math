@@ -1,0 +1,19 @@
+{
+glyphname = "rightwhitetortoiseshellbracket-math.b";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+pos = (487,0);
+ref = "leftwhitetortoiseshellbracket-math.b";
+scale = (-1,1);
+}
+);
+width = 487;
+}
+);
+metricLeft = "=51";
+metricRight = "=|";
+}

@@ -1,0 +1,25 @@
+{
+glyphname = "leftwhitetortoiseshellbracket-math.s02";
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (187,335);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 2;
+};
+ref = _part.leftwhitetortoiseshellbracket;
+}
+);
+width = 397;
+}
+);
+metricLeft = "=51";
+metricRight = "=|";
+}

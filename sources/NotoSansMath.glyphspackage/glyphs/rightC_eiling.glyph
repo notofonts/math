@@ -24,18 +24,18 @@ vAssembly = (
 bracketright.x,
 1,
 0,
-1362
+1069
 ),
 (
 bracketright.t,
 0,
-1289,
+947,
 0
 )
 );
 };
 };
-width = 329;
+width = 429;
 }
 );
 unicode = 8969;

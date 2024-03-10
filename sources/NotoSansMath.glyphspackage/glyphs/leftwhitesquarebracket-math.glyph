@@ -14,7 +14,7 @@ shapes = (
 piece = {
 Size = 0;
 };
-ref = "_part.leftwhitesquarebracket-math";
+ref = _part.leftwhitesquarebracket;
 }
 );
 userData = {
@@ -24,24 +24,24 @@ vAssembly = (
 "leftwhitesquarebracket-math.b",
 0,
 0,
-800
+977
 ),
 (
 "leftwhitesquarebracket-math.x",
 1,
-1000,
-1000
+1069,
+1069
 ),
 (
 "leftwhitesquarebracket-math.t",
 0,
-800,
+977,
 0
 )
 );
 };
 };
-width = 447;
+width = 449;
 }
 );
 unicode = 10214;

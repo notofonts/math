@@ -1,0 +1,23 @@
+{
+glyphname = "rightflattenedparenthesis-math.s12";
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (155,333);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 12;
+};
+ref = _part.rightflattenedparenthesis;
+}
+);
+width = 393;
+}
+);
+}

@@ -1,5 +1,5 @@
 {
-.appVersion = "3245";
+.appVersion = "3246";
 .formatVersion = 3;
 classes = (
 {
@@ -1006,23 +1006,23 @@ guides = (
 {
 locked = 1;
 name = ".s12 top";
-pos = (-50,2162);
+pos = (0,2162);
 },
 {
 locked = 1;
 name = ".s12 bottom";
-pos = (-495,-1606);
+pos = (0,-1606);
 },
 {
 locked = 1;
 name = "bracket-base-regular";
-pos = (-35,-158);
+pos = (0,-158);
 },
 {
 angle = 180;
 locked = 1;
 name = "bracket-top-regular";
-pos = (-51,784);
+pos = (0,784);
 },
 {
 locked = 1;
@@ -1043,6 +1043,16 @@ pos = (0,714);
 locked = 1;
 name = "largeop bottom";
 pos = (0,-240);
+},
+{
+locked = 1;
+name = ".s20 top";
+pos = (0,3104);
+},
+{
+locked = 1;
+name = ".s20 bottom";
+pos = (0,-2548);
 }
 );
 id = master01;
@@ -1076,8 +1086,7 @@ stemValues = (
 );
 userData = {
 GSCornerRadius = 20;
-GSOffsetCapStyle = 4;
-GSOffsetHorizontal = 35.5;
+GSOffsetHorizontal = 46;
 GSOffsetMakeStroke = 1;
 GSOffsetPosition = 1;
 GSOffsetProportional = 1;

@@ -17,7 +17,7 @@ Size = 5;
 ref = _part.leftCeiling;
 }
 );
-width = 398;
+width = 434;
 }
 );
 }

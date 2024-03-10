@@ -12,32 +12,32 @@ layerId = master01;
 shapes = (
 {
 alignment = -1;
-ref = bar;
+ref = _part.bar;
 },
 {
 alignment = -1;
 pos = (220,0);
-ref = bar;
+ref = _part.bar;
 },
 {
 alignment = -1;
 pos = (440,0);
-ref = bar;
+ref = _part.bar;
 }
 );
 userData = {
 com.nagwa.MATHPlugin.variants = {
 vAssembly = (
 (
-tripleverticalbar,
-1,
+tripleverticalbar.x,
 0,
-942
+0,
+1069
 ),
 (
-tripleverticalbar,
-0,
-942,
+tripleverticalbar.x,
+1,
+1069,
 0
 )
 );
@@ -55,7 +55,19 @@ userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
-tripleverticalbar
+tripleverticalbar,
+tripleverticalbar.s01,
+tripleverticalbar.s02,
+tripleverticalbar.s03,
+tripleverticalbar.s04,
+tripleverticalbar.s05,
+tripleverticalbar.s06,
+tripleverticalbar.s07,
+tripleverticalbar.s08,
+tripleverticalbar.s09,
+tripleverticalbar.s10,
+tripleverticalbar.s11,
+tripleverticalbar.s12
 );
 };
 };

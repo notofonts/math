@@ -1,0 +1,20 @@
+{
+glyphname = rightarcgreaterthanbracket.b;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+pos = (573,0);
+ref = leftarclessthanbracket.b;
+scale = (-1,1);
+}
+);
+width = 573;
+}
+);
+metricLeft = "=|leftarclessthanbracket.b";
+metricRight = "=|leftarclessthanbracket.b";
+metricWidth = "=leftarclessthanbracket.b";
+}

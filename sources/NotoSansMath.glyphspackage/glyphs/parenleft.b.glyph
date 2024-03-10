@@ -2,23 +2,17 @@
 glyphname = parenleft.b;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (173,681);
-}
-);
 layerId = master01;
 shapes = (
 {
 closed = 1;
 nodes = (
-(296,0,l),
-(179,102,o),
-(136,208,o),
-(136,442,cs),
-(136,1362,l),
-(51,1362,l),
+(303,0,l),
+(186,102,o),
+(143,208,o),
+(143,442,cs),
+(143,1069,l),
+(51,1069,l),
 (51,442,ls),
 (51,237,o),
 (104,90,o),
@@ -26,8 +20,10 @@ nodes = (
 );
 }
 );
-width = 316;
+width = 323;
 }
 );
+metricLeft = "=51";
+metricRight = "=20";
 unicode = 9117;
 }

@@ -1,0 +1,19 @@
+{
+glyphname = znotationleftimagebracket.t;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+pos = (0,1069);
+ref = znotationleftimagebracket.b;
+scale = (1,-1);
+}
+);
+width = 441;
+}
+);
+metricLeft = "=znotationleftimagebracket.b";
+metricRight = "=znotationleftimagebracket.b";
+metricWidth = "=znotationleftimagebracket.b";
+}

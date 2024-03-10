@@ -1,0 +1,23 @@
+{
+glyphname = znotationleftbindingbracket.s08;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (170,334);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 8;
+};
+ref = _part.znotationleftbindingbracket;
+}
+);
+width = 539;
+}
+);
+}

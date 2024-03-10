@@ -5,45 +5,45 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (192,333);
+pos = (192,313);
 }
 );
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(334,-104,l),
-(134,333,l),
-(334,770,l),
-(255,770,l),
-(51,333,l),
-(255,-104,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(299,271,o),
-(326,298,o),
-(326,331,cs),
-(326,362,o),
-(301,391,o),
-(266,391,cs),
-(233,391,o),
-(206,364,o),
-(206,331,cs),
-(206,297,o),
-(234,271,o),
-(266,271,cs)
-);
+ref = _part.leftanglebracketdot;
 }
 );
-width = 385;
+width = 407;
 }
 );
 unicode = 10641;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+leftanglebracketdot,
+leftanglebracketdot.s01,
+leftanglebracketdot.s02,
+leftanglebracketdot.s03,
+leftanglebracketdot.s04,
+leftanglebracketdot.s05,
+leftanglebracketdot.s06,
+leftanglebracketdot.s07,
+leftanglebracketdot.s08,
+leftanglebracketdot.s09,
+leftanglebracketdot.s10,
+leftanglebracketdot.s11,
+leftanglebracketdot.s12,
+leftanglebracketdot.s13,
+leftanglebracketdot.s14,
+leftanglebracketdot.s15,
+leftanglebracketdot.s16,
+leftanglebracketdot.s17,
+leftanglebracketdot.s18,
+leftanglebracketdot.s19,
+leftanglebracketdot.s20
+);
+};
 };
 }

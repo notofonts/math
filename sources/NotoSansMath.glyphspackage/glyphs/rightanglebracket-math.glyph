@@ -17,7 +17,7 @@ Size = 0;
 ref = _part.rightanglebracket;
 }
 );
-width = 407;
+width = 410;
 }
 );
 unicode = 10217;
@@ -37,7 +37,15 @@ vVariants = (
 "rightanglebracket-math.s09",
 "rightanglebracket-math.s10",
 "rightanglebracket-math.s11",
-"rightanglebracket-math.s12"
+"rightanglebracket-math.s12",
+"rightanglebracket-math.s13",
+"rightanglebracket-math.s14",
+"rightanglebracket-math.s15",
+"rightanglebracket-math.s16",
+"rightanglebracket-math.s17",
+"rightanglebracket-math.s18",
+"rightanglebracket-math.s19",
+"rightanglebracket-math.s20"
 );
 };
 };

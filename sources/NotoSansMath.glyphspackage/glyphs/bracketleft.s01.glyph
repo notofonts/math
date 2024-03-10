@@ -17,7 +17,7 @@ Size = 1;
 ref = _part.bracketleft;
 }
 );
-width = 343;
+width = 331;
 }
 );
 }

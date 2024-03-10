@@ -1,0 +1,17 @@
+{
+glyphname = znotationrightimagebracket.x;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+pos = (441,0);
+ref = znotationleftimagebracket.x;
+scale = (-1,1);
+}
+);
+width = 441;
+}
+);
+}

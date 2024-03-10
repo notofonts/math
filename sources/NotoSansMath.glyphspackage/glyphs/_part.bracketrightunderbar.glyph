@@ -1,0 +1,80 @@
+{
+export = 0;
+glyphname = _part.bracketrightunderbar;
+layers = (
+{
+layerId = master01;
+partSelection = {
+Size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(249,-37,l),
+(249,784,l),
+(25,784,l),
+(25,712,l),
+(163,712,l),
+(163,35,l),
+(25,35,l),
+(25,-37,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(249,-158,l),
+(249,-87,l),
+(25,-87,l),
+(25,-158,l)
+);
+}
+);
+width = 329;
+},
+{
+associatedMasterId = master01;
+layerId = "1CA55137-0D87-444D-859A-A6B26FD6CE64";
+name = "Regular-Large";
+partSelection = {
+Size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(271,-1485,l),
+(271,2162,l),
+(25,2162,l),
+(25,2070,l),
+(179,2070,l),
+(179,-1393,l),
+(25,-1393,l),
+(25,-1485,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(272,-1606,l),
+(272,-1535,l),
+(25,-1535,l),
+(25,-1606,l)
+);
+}
+);
+width = 352;
+}
+);
+metricLeft = "=|_part.bracketleftunderbar";
+metricRight = "=|_part.bracketleftunderbar";
+partsSettings = (
+{
+bottomValue = 0;
+name = Size;
+topValue = 12;
+}
+);
+sortName = fence03b;
+}

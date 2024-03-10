@@ -24,36 +24,36 @@ vAssembly = (
 rightwhitecurlybracket.b,
 0,
 0,
-600
+882
 ),
 (
 rightwhitecurlybracket.x,
 1,
-1680,
-1680
+1069,
+1069
 ),
 (
 rightwhitecurlybracket.m,
 0,
-600,
-600
+394,
+395
 ),
 (
 rightwhitecurlybracket.x,
 1,
-1680,
-1680
+1069,
+1069
 ),
 (
 rightwhitecurlybracket.t,
 0,
-600,
+881,
 0
 )
 );
 };
 };
-width = 541;
+width = 522;
 }
 );
 unicode = 10628;

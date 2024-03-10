@@ -11,28 +11,22 @@ pos = (216,325);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(253,-158,l),
-(253,784,l),
-(180,784,l),
-(180,-158,l)
-);
+ref = _part.bar;
 }
 );
 userData = {
 com.nagwa.MATHPlugin.variants = {
 vAssembly = (
 (
-bar,
-1,
+bar.x,
 0,
-942
+0,
+1069
 ),
 (
-bar,
-0,
-942,
+bar.x,
+1,
+1069,
 0
 )
 );
@@ -47,7 +41,19 @@ userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
-bar
+bar,
+bar.s01,
+bar.s02,
+bar.s03,
+bar.s04,
+bar.s05,
+bar.s06,
+bar.s07,
+bar.s08,
+bar.s09,
+bar.s10,
+bar.s11,
+bar.s12
 );
 };
 };

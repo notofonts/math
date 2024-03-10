@@ -14,10 +14,10 @@ shapes = (
 piece = {
 Size = 8;
 };
-ref = "_part.rightwhitesquarebracket-math";
+ref = _part.rightwhitesquarebracket;
 }
 );
-width = 565;
+width = 566;
 }
 );
 }

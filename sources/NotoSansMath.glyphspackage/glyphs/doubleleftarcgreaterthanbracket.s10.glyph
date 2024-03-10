@@ -1,0 +1,25 @@
+{
+glyphname = doubleleftarcgreaterthanbracket.s10;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (314,313);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 10;
+};
+ref = _part.doubleleftarcgreaterthanbracket;
+}
+);
+width = 1005;
+}
+);
+metricLeft = "=51";
+metricRight = "=|";
+}

@@ -3,12 +3,6 @@ export = 0;
 glyphname = _part.leftcurvedanglebracket;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (228,313);
-}
-);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -39,12 +33,6 @@ nodes = (
 width = 456;
 },
 {
-anchors = (
-{
-name = center;
-pos = (369,272);
-}
-);
 associatedMasterId = master01;
 layerId = "3F75B6AB-B528-453A-9B0E-3B1FC543790F";
 name = "Regular-Large";
@@ -84,5 +72,5 @@ name = Size;
 topValue = 12;
 }
 );
-sortName = fence9.l;
+sortName = fence52;
 }

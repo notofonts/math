@@ -6,12 +6,12 @@ layerId = master01;
 shapes = (
 {
 alignment = 1;
-pos = (380,0);
+pos = (368,0);
 ref = braceleft.t;
 scale = (-1,1);
 }
 );
-width = 380;
+width = 368;
 },
 {
 anchors = (

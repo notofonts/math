@@ -1,0 +1,46 @@
+{
+glyphname = tripleverticalbar.s07;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (436,325);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+piece = {
+Size = 7;
+};
+ref = _part.bar;
+},
+{
+alignment = -1;
+piece = {
+Size = 7;
+};
+pos = (220,0);
+ref = _part.bar;
+},
+{
+alignment = -1;
+piece = {
+Size = 7;
+};
+pos = (440,0);
+ref = _part.bar;
+}
+);
+userData = {
+com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = "=bar";
+com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = "=bar";
+};
+width = 873;
+}
+);
+metricLeft = "=bar";
+metricRight = "=bar";
+}

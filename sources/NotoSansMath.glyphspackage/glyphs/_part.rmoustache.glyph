@@ -3,12 +3,6 @@ export = 0;
 glyphname = _part.rmoustache;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (187,313);
-}
-);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -39,12 +33,6 @@ nodes = (
 width = 373;
 },
 {
-anchors = (
-{
-name = center;
-pos = (184,313);
-}
-);
 associatedMasterId = master01;
 layerId = "81BB7596-A547-466F-B56C-F6C9E4EF3D73";
 name = "Regular-Large";
@@ -86,5 +74,5 @@ name = Size;
 topValue = 12;
 }
 );
-sortName = fence3.r;
+sortName = fence11;
 }

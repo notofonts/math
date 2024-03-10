@@ -5,12 +5,12 @@ layers = (
 layerId = master01;
 shapes = (
 {
-pos = (0,1368);
+pos = (0,1069);
 ref = braceleft.b;
 scale = (1,-1);
 }
 );
-width = 380;
+width = 368;
 },
 {
 anchors = (

@@ -1,0 +1,43 @@
+{
+glyphname = leftanglebracketdot.s20;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (192,313);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 20;
+};
+ref = _part.leftanglebracketdot;
+}
+);
+width = 905;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+leftanglebracketdot,
+leftanglebracketdot.s01,
+leftanglebracketdot.s02,
+leftanglebracketdot.s03,
+leftanglebracketdot.s04,
+leftanglebracketdot.s05,
+leftanglebracketdot.s06,
+leftanglebracketdot.s07,
+leftanglebracketdot.s08,
+leftanglebracketdot.s09,
+leftanglebracketdot.s10,
+leftanglebracketdot.s11,
+leftanglebracketdot.s12
+);
+};
+};
+}

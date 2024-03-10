@@ -1,0 +1,26 @@
+{
+glyphname = bar.s10;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (216,325);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 10;
+};
+ref = _part.bar;
+}
+);
+userData = {
+com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = "=|";
+};
+width = 449;
+}
+);
+}

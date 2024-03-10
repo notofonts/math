@@ -1,0 +1,78 @@
+{
+export = 0;
+glyphname = _part.rightflattenedparenthesis;
+layers = (
+{
+layerId = master01;
+partSelection = {
+Size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(121,-158,l),
+(192,-91,o),
+(250,-39,o),
+(250,102,cs),
+(250,534,ls),
+(250,665,o),
+(192,717,o),
+(121,784,c),
+(25,784,l),
+(101,717,o),
+(164,664,o),
+(164,533,cs),
+(164,103,ls),
+(164,-38,o),
+(101,-91,o),
+(25,-158,c)
+);
+}
+);
+width = 330;
+},
+{
+associatedMasterId = master01;
+layerId = "EBC74BC4-5F23-4D89-94F1-E952A0EA9F25";
+name = "Regular-Large";
+partSelection = {
+Size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(131,-1606,l),
+(231,-1512,o),
+(313,-1438,o),
+(313,-1240,cs),
+(313,1810,ls),
+(313,1994,o),
+(231,2068,o),
+(131,2162,c),
+(25,2162,l),
+(133,2068,o),
+(221,1993,o),
+(221,1808,cs),
+(221,-1238,ls),
+(221,-1437,o),
+(133,-1512,o),
+(25,-1606,c)
+);
+}
+);
+width = 393;
+}
+);
+metricLeft = "=|_part.leftflattenedparenthesis";
+metricRight = "=|_part.leftflattenedparenthesis";
+partsSettings = (
+{
+bottomValue = 0;
+name = Size;
+topValue = 12;
+}
+);
+sortName = fence01f;
+}

@@ -945,28 +945,40 @@
     <glyph name="tripleverticalbar" unicode="2980" production="uni2980"  script="" category="Punctuation" subCategory="Fence" sortName="bar3" />
     <glyph name="parenleft" unicode="0028" script="" category="Punctuation" subCategory="Fence" sortName="fence00" />
     <glyph name="parenright" unicode="0029" script="" category="Punctuation" subCategory="Fence" sortName="fence01" />
+    <glyph name="leftarclessthanbracket" unicode="2993" production="uni2993" script="" category="Punctuation" subCategory="Fence" sortName="fence01a" />
+    <glyph name="rightarcgreaterthanbracket" unicode="2994" production="uni2994" script="" category="Punctuation" subCategory="Fence" sortName="fence01b" />
+    <glyph name="doubleleftarcgreaterthanbracket" unicode="2995" production="uni2995" script="" category="Punctuation" subCategory="Fence" sortName="fence01c" />
+    <glyph name="doublerightarclessthanbracket" unicode="2996" production="uni2996" script="" category="Punctuation" subCategory="Fence" sortName="fence01d" />
+    <glyph name="leftflattenedparenthesis-math" unicode="27EE" production="uni27EE" script="" category="Punctuation" subCategory="Fence" sortName="fence01e" />
+    <glyph name="rightflattenedparenthesis-math" unicode="27EF" production="uni27EF" script="" category="Punctuation" subCategory="Fence" sortName="fence01f" />
     <glyph name="bracketleft" unicode="005B" script="" category="Punctuation" subCategory="Fence" sortName="fence02" />
     <glyph name="bracketright" unicode="005D" script="" category="Punctuation" subCategory="Fence" sortName="fence03" />
+    <glyph name="leftsquarebracketunderbar" unicode="298B" production="uni298B" script="" category="Punctuation" subCategory="Fence" sortName="fence03a" />
+    <glyph name="rightsquarebracketunderbar" unicode="298C" production="uni298C" script="" category="Punctuation" subCategory="Fence" sortName="fence03b" />
+    <glyph name="leftsquarebrackettickintopcorner" unicode="298D" production="uni298D" script="" category="Punctuation" subCategory="Fence" sortName="fence03c" />
+    <glyph name="rightsquarebrackettickinbottomcorner" unicode="298E" production="uni298E" script="" category="Punctuation" subCategory="Fence" sortName="fence03d" />
+    <glyph name="leftsquarebrackettickinbottomcorner" unicode="298F" production="uni298F" script="" category="Punctuation" subCategory="Fence" sortName="fence03e" />
+    <glyph name="rightsquarebrackettickintopcorner" unicode="2990" production="uni2990" script="" category="Punctuation" subCategory="Fence" sortName="fence03f" />
+    <glyph name="leftCeiling" unicode="2308" production="uni2308" script="" category="Punctuation" subCategory="Fence" sortName="fence03g" />
+    <glyph name="rightCeiling" unicode="2309" production="uni2309" script="" category="Punctuation" subCategory="Fence" sortName="fence03h" />
+    <glyph name="leftFloor" unicode="230A" production="uni230A" script="" category="Punctuation" subCategory="Fence" sortName="fence03i" />
+    <glyph name="rightFloor" unicode="230B" production="uni230B" script="" category="Punctuation" subCategory="Fence" sortName="fence03j" />
     <glyph name="braceleft" unicode="007B" script="" category="Punctuation" subCategory="Fence" sortName="fence04" />
     <glyph name="braceright" unicode="007D" script="" category="Punctuation" subCategory="Fence" sortName="fence05" />
-    <glyph name="leftCeiling" unicode="2308" production="uni2308" script="" category="Punctuation" subCategory="Fence" sortName="fence06" />
-    <glyph name="rightCeiling" unicode="2309" production="uni2309" script="" category="Punctuation" subCategory="Fence" sortName="fence07" />
-    <glyph name="leftFloor" unicode="230A" production="uni230A" script="" category="Punctuation" subCategory="Fence" sortName="fence08" />
-    <glyph name="rightFloor" unicode="230B" production="uni230B" script="" category="Punctuation" subCategory="Fence" sortName="fence09" />
     <glyph name="lmoustache" unicode="23B0" production="uni23B0"  script="" category="Punctuation" subCategory="Fence" sortName="fence10" />
     <glyph name="rmoustache" unicode="23B1" production="uni23B1"  script="" category="Punctuation" subCategory="Fence" sortName="fence11" />
     <glyph name="leftsshapedbagdelimiter" unicode="27C5" production="uni27C5" script="" category="Punctuation" subCategory="Fence" sortName="fence12" />
     <glyph name="rightsshapedbagdelimiter" unicode="27C6" production="uni27C6" script="" category="Punctuation" subCategory="Fence" sortName="fence13" />
-    <glyph name="leftwhitesquarebracket-math" unicode="27E6" production="uni27E6" script="" category="Punctuation" subCategory="Fence" sortName="fence14" />
-    <glyph name="rightwhitesquarebracket-math" unicode="27E7" production="uni27E7" script="" category="Punctuation" subCategory="Fence" sortName="fence15" />
     <glyph name="leftanglebracket-math" unicode="27E8" production="uni27E8" script="" category="Punctuation" subCategory="Fence" sortName="fence16" />
     <glyph name="rightanglebracket-math" unicode="27E9" production="uni27E9" script="" category="Punctuation" subCategory="Fence" sortName="fence17" />
-    <glyph name="leftdoubleanglebracket-math" unicode="27EA" production="uni27EA" script="" category="Punctuation" subCategory="Fence" sortName="fence18" />
-    <glyph name="rightdoubleanglebracket-math" unicode="27EB" production="uni27EB" script="" category="Punctuation" subCategory="Fence" sortName="fence19" />
+    <glyph name="leftanglebracketdot" unicode="2991" production="uni2991" script="" category="Punctuation" subCategory="Fence" sortName="fence17a" />
+    <glyph name="rightanglebracketdot" unicode="2992" production="uni2992" script="" category="Punctuation" subCategory="Fence" sortName="fence17b" />
+    <glyph name="leftdoubleanglebracket-math" unicode="27EA" production="uni27EA" script="" category="Punctuation" subCategory="Fence" sortName="fence17c" />
+    <glyph name="rightdoubleanglebracket-math" unicode="27EB" production="uni27EB" script="" category="Punctuation" subCategory="Fence" sortName="fence17d" />
+    <glyph name="leftwhitesquarebracket-math" unicode="27E6" production="uni27E6" script="" category="Punctuation" subCategory="Fence" sortName="fence18" />
+    <glyph name="rightwhitesquarebracket-math" unicode="27E7" production="uni27E7" script="" category="Punctuation" subCategory="Fence" sortName="fence19" />
     <glyph name="leftwhitetortoiseshellbracket-math" unicode="27EC" production="uni27EC" script="" category="Punctuation" subCategory="Fence" sortName="fence20" />
     <glyph name="rightwhitetortoiseshellbracket-math" unicode="27ED" production="uni27ED" script="" category="Punctuation" subCategory="Fence" sortName="fence21" />
-    <glyph name="leftflattenedparenthesis-math" unicode="27EE" production="uni27EE" script="" category="Punctuation" subCategory="Fence" sortName="fence22" />
-    <glyph name="rightflattenedparenthesis-math" unicode="27EF" production="uni27EF" script="" category="Punctuation" subCategory="Fence" sortName="fence23" />
     <glyph name="leftwhitecurlybracket" unicode="2983" production="uni2983" script="" category="Punctuation" subCategory="Fence" sortName="fence24" />
     <glyph name="rightwhitecurlybracket" unicode="2984" production="uni2984" script="" category="Punctuation" subCategory="Fence" sortName="fence25" />
     <glyph name="whiteparenleft" unicode="2985" production="uni2985" script="" category="Punctuation" subCategory="Fence" sortName="fence26" />
@@ -975,18 +987,6 @@
     <glyph name="znotationrightimagebracket" unicode="2988" production="uni2988" script="" category="Punctuation" subCategory="Fence" sortName="fence29" />
     <glyph name="znotationleftbindingbracket" unicode="2989" production="uni2989" script="" category="Punctuation" subCategory="Fence" sortName="fence30" />
     <glyph name="znotationrightbindingbracket" unicode="298A" production="uni298A" script="" category="Punctuation" subCategory="Fence" sortName="fence31" />
-    <glyph name="leftsquarebracketunderbar" unicode="298B" production="uni298B" script="" category="Punctuation" subCategory="Fence" sortName="fence32" />
-    <glyph name="rightsquarebracketunderbar" unicode="298C" production="uni298C" script="" category="Punctuation" subCategory="Fence" sortName="fence33" />
-    <glyph name="leftsquarebrackettickintopcorner" unicode="298D" production="uni298D" script="" category="Punctuation" subCategory="Fence" sortName="fence34" />
-    <glyph name="rightsquarebrackettickinbottomcorner" unicode="298E" production="uni298E" script="" category="Punctuation" subCategory="Fence" sortName="fence35" />
-    <glyph name="leftsquarebrackettickinbottomcorner" unicode="298F" production="uni298F" script="" category="Punctuation" subCategory="Fence" sortName="fence36" />
-    <glyph name="rightsquarebrackettickintopcorner" unicode="2990" production="uni2990" script="" category="Punctuation" subCategory="Fence" sortName="fence37" />
-    <glyph name="leftanglebracketdot" unicode="2991" production="uni2991" script="" category="Punctuation" subCategory="Fence" sortName="fence38" />
-    <glyph name="rightanglebracketdot" unicode="2992" production="uni2992" script="" category="Punctuation" subCategory="Fence" sortName="fence39" />
-    <glyph name="leftarclessthanbracket" unicode="2993" production="uni2993" script="" category="Punctuation" subCategory="Fence" sortName="fence40" />
-    <glyph name="rightarcgreaterthanbracket" unicode="2994" production="uni2994" script="" category="Punctuation" subCategory="Fence" sortName="fence41" />
-    <glyph name="doubleleftarcgreaterthanbracket" unicode="2995" production="uni2995" script="" category="Punctuation" subCategory="Fence" sortName="fence42" />
-    <glyph name="doublerightarclessthanbracket" unicode="2996" production="uni2996" script="" category="Punctuation" subCategory="Fence" sortName="fence43" />
     <glyph name="leftblacktortoiseshellbracket" unicode="2997" production="uni2997" script="" category="Punctuation" subCategory="Fence" sortName="fence44" />
     <glyph name="rightblacktortoiseshellbracket" unicode="2998" production="uni2998" script="" category="Punctuation" subCategory="Fence" sortName="fence45" />
     <glyph name="dottedFence" unicode="2999" production="uni2999"  script="" category="Punctuation" subCategory="Fence" sortName="fence46" />
