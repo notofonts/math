@@ -13,12 +13,12 @@ layerId = master01;
 shapes = (
 {
 alignment = 1;
-pos = (1756,0);
+pos = (1876,0);
 ref = volumeintegral.s01;
 scale = (-1,1);
 }
 );
-width = 1756;
+width = 1876;
 }
 );
 userData = {

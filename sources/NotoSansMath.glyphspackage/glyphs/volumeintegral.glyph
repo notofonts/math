@@ -15,11 +15,11 @@ alignment = 1;
 ref = tripleintegral;
 },
 {
-pos = (222,6);
+pos = (262,6);
 ref = _contour3.integral;
 }
 );
-width = 1434;
+width = 1514;
 }
 );
 metricLeft = "=51@-180";

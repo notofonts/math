@@ -13,12 +13,12 @@ layerId = master01;
 shapes = (
 {
 alignment = 1;
-pos = (1404,0);
+pos = (1464,0);
 ref = surfaceintegral.s01;
 scale = (-1,1);
 }
 );
-width = 1404;
+width = 1464;
 }
 );
 userData = {

@@ -5,7 +5,7 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (1054,328);
+pos = (1144,328);
 },
 {
 name = math.ic;
@@ -20,21 +20,21 @@ ref = integral.s01;
 },
 {
 alignment = 1;
-pos = (352,0);
+pos = (412,0);
 ref = integral.s01;
 },
 {
 alignment = 1;
-pos = (704,0);
+pos = (824,0);
 ref = integral.s01;
 },
 {
 alignment = 1;
-pos = (1056,0);
+pos = (1236,0);
 ref = integral.s01;
 }
 );
-width = 2108;
+width = 2288;
 }
 );
 }

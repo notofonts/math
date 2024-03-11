@@ -5,7 +5,7 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (867,328);
+pos = (927,328);
 },
 {
 name = math.ic;
@@ -20,17 +20,17 @@ ref = integral;
 },
 {
 alignment = 1;
-pos = (299,0);
+pos = (339,0);
 ref = integral;
 },
 {
 alignment = 1;
-pos = (598,0);
+pos = (678,0);
 ref = integral;
 },
 {
 alignment = 1;
-pos = (897,0);
+pos = (1017,0);
 ref = integral;
 }
 );
@@ -58,7 +58,7 @@ quadrupleintegral.t,
 );
 };
 };
-width = 1733;
+width = 1853;
 },
 {
 anchors = (

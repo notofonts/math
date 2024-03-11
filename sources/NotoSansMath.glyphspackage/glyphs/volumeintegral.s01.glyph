@@ -15,12 +15,12 @@ alignment = 1;
 ref = tripleintegral.s01;
 },
 {
-pos = (185,-155);
+pos = (245,-155);
 ref = _contour3.integral;
 scale = (1.4,1.5);
 }
 );
-width = 1756;
+width = 1876;
 }
 );
 metricRight = "=51@1400";
