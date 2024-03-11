@@ -2,25 +2,32 @@
 glyphname = AnnuitySymbol;
 layers = (
 {
+anchors = (
+{
+name = math.ta;
+pos = (-264,0);
+}
+);
 layerId = master01;
 shapes = (
 {
 closed = 1;
 nodes = (
-(137,-317,l),
-(137,884,l),
-(-594,884,l),
-(-594,821,l),
-(74,821,l),
-(74,-317,l)
+(143,0,l),
+(143,776,l),
+(-633,776,l),
+(-633,713,l),
+(80,713,l),
+(80,0,l)
 );
 }
 );
 userData = {
 com.schriftgestaltung.Glyphs.originalWidth = 833;
 };
-width = 197;
+width = 143;
 }
 );
+metricRight = "=0";
 unicode = 8423;
 }
