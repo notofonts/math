@@ -16,9 +16,9 @@ ref = integral.s01;
 },
 {
 alignment = -1;
-pos = (183,-96);
+pos = (97,-202);
 ref = multiply;
-scale = (1.2,1.2);
+scale = (1.5,1.5);
 }
 );
 width = 1052;

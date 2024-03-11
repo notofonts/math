@@ -15,9 +15,9 @@ alignment = 1;
 ref = dblintegral.s01;
 },
 {
-pos = (264,-58);
+pos = (191,-155);
 ref = _contour2.integral;
-scale = (1.2,1.2);
+scale = (1.4,1.5);
 }
 );
 width = 1404;

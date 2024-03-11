@@ -15,9 +15,9 @@ alignment = 1;
 ref = integral.s01;
 },
 {
-pos = (106,-58);
+pos = (1,-155);
 ref = _arrowhook.integral;
-scale = (1.2,1.2);
+scale = (1.5,1.5);
 }
 );
 width = 1052;

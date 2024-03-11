@@ -15,9 +15,9 @@ alignment = 1;
 ref = integral.s01;
 },
 {
-pos = (243,-58);
+pos = (196,-155);
 ref = _contour5.integral;
-scale = (1.2,1.2);
+scale = (1.4,1.5);
 }
 );
 width = 1052;

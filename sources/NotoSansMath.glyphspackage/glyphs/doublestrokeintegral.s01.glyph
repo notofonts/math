@@ -16,15 +16,15 @@ ref = integral.s01;
 },
 {
 alignment = -1;
-pos = (243,46);
+pos = (172,-4);
 ref = _stroke.integral;
-scale = (1.2,1.2);
+scale = (1.5,1.4);
 },
 {
 alignment = -1;
-pos = (243,-161);
+pos = (172,-201);
 ref = _stroke.integral;
-scale = (1.2,1.2);
+scale = (1.5,1.4);
 }
 );
 width = 1052;
