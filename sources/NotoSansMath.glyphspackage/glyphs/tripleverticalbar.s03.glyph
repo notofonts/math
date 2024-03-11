@@ -38,7 +38,7 @@ userData = {
 com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = "=bar";
 com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = "=bar";
 };
-width = 873;
+width = 878;
 }
 );
 metricLeft = "=bar";

@@ -26,7 +26,7 @@ pos = (220,0);
 ref = _part.bar;
 }
 );
-width = 653;
+width = 659;
 }
 );
 metricLeft = "=bar";
