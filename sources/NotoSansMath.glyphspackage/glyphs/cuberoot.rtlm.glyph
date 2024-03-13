@@ -3,62 +3,13 @@ color = 3;
 glyphname = cuberoot.rtlm;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (305,421);
-}
-);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(480,475,o),
-(531,517,o),
-(531,587,cs),
-(531,629,o),
-(508,657,o),
-(464,671,c),
-(501,686,o),
-(520,714,o),
-(520,756,cs),
-(520,813,o),
-(474,850,o),
-(403,850,cs),
-(345,850,o),
-(306,832,o),
-(275,808,c),
-(307,765,l),
-(335,786,o),
-(365,796,o),
-(397,796,cs),
-(436,796,o),
-(455,780,o),
-(455,749,cs),
-(455,713,o),
-(429,695,o),
-(378,695,cs),
-(329,695,l),
-(329,642,l),
-(378,642,ls),
-(435,642,o),
-(466,627,o),
-(466,589,cs),
-(466,549,o),
-(439,529,o),
-(386,529,cs),
-(350,529,o),
-(313,538,o),
-(275,556,c),
-(275,498,l),
-(306,483,o),
-(343,475,o),
-(385,475,cs)
-);
-},
-{
-ref = radical.rtlm;
+piece = {
+Size = 0;
+};
+ref = _part.cuberoot.rtlm;
 }
 );
 width = 679;
@@ -66,4 +17,16 @@ width = 679;
 );
 metricLeft = "=|cuberoot";
 metricRight = "=|cuberoot";
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+cuberoot.rtlm,
+cuberoot.rtlm.s01,
+cuberoot.rtlm.s02,
+cuberoot.rtlm.s03,
+cuberoot.rtlm.s04
+);
+};
+};
 }

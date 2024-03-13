@@ -1,5 +1,6 @@
 {
-glyphname = radical.s03;
+color = 3;
+glyphname = radical.rtlm.s03;
 layers = (
 {
 layerId = master01;
@@ -8,7 +9,9 @@ shapes = (
 piece = {
 Size = 3;
 };
+pos = (879,0);
 ref = _part.radical;
+scale = (-1,1);
 }
 );
 width = 879;

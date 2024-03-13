@@ -1,23 +1,15 @@
 {
-glyphname = radical.b;
+color = 3;
+glyphname = radical.rtlm.b;
 layers = (
 {
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(51,1438,l),
-(51,1358,l),
-(139,1358,l),
-(619,0,l),
-(696,0,l),
-(696,1538,l),
-(625,1538,l),
-(625,205,l),
-(641,221,l),
-(211,1438,l)
-);
+alignment = 1;
+pos = (866,0);
+ref = radical.b;
+scale = (-1,1);
 }
 );
 width = 866;
@@ -46,5 +38,4 @@ width = 800;
 }
 );
 metricLeft = "=radical";
-unicode = 9143;
 }

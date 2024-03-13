@@ -1,5 +1,6 @@
 {
-glyphname = fourthroot.s04;
+color = 3;
+glyphname = cuberoot.rtlm.s04;
 layers = (
 {
 layerId = master01;
@@ -8,7 +9,7 @@ shapes = (
 piece = {
 Size = 4;
 };
-ref = _part.fourthroot;
+ref = _part.cuberoot.rtlm;
 }
 );
 width = 946;

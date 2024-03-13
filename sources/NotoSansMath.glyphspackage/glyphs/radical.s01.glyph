@@ -2,12 +2,6 @@
 glyphname = radical.s01;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (430,707);
-}
-);
 layerId = master01;
 shapes = (
 {

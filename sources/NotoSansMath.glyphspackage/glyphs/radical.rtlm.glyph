@@ -3,23 +3,55 @@ color = 3;
 glyphname = radical.rtlm;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (179,421);
-}
-);
 layerId = master01;
 shapes = (
 {
+alignment = 1;
 pos = (679,0);
 ref = radical;
 scale = (-1,1);
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+radical.rtlm.b,
+0,
+0,
+1333
+),
+(
+radical.rtlm.x,
+1,
+1000,
+1000
+),
+(
+radical.rtlm.t,
+0,
+970,
+0
+)
+);
+};
+};
 width = 679;
 }
 );
 metricLeft = "=|radical";
 metricRight = "=|radical";
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+radical.rtlm,
+radical.rtlm.s01,
+radical.rtlm.s02,
+radical.rtlm.s03,
+radical.rtlm.s04,
+radical.rtlm.s05
+);
+};
+};
 }

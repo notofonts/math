@@ -1,5 +1,6 @@
 {
-glyphname = fourthroot.s01;
+color = 3;
+glyphname = radical.rtlm.s01;
 layers = (
 {
 layerId = master01;
@@ -8,7 +9,9 @@ shapes = (
 piece = {
 Size = 1;
 };
-ref = _part.fourthroot;
+pos = (746,0);
+ref = _part.radical;
+scale = (-1,1);
 }
 );
 width = 746;

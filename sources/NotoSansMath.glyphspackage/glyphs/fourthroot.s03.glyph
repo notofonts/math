@@ -2,12 +2,6 @@
 glyphname = fourthroot.s03;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (493,930);
-}
-);
 layerId = master01;
 shapes = (
 {

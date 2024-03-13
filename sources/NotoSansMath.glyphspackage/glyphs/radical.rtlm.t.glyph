@@ -1,19 +1,15 @@
 {
-glyphname = radical.t;
+color = 3;
+glyphname = radical.rtlm.t;
 layers = (
 {
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(1005,970,l),
-(1005,1041,l),
-(625,1041,l),
-(625,0,l),
-(696,0,l),
-(696,970,l)
-);
+alignment = 1;
+pos = (866,0);
+ref = radical.t;
+scale = (-1,1);
 }
 );
 width = 866;

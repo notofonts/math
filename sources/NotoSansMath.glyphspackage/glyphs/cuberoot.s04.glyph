@@ -2,12 +2,6 @@
 glyphname = cuberoot.s04;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (530,1065);
-}
-);
 layerId = master01;
 shapes = (
 {
