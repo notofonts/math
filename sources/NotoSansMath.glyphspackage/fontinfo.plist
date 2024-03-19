@@ -1,5 +1,5 @@
 {
-.appVersion = "3246";
+.appVersion = "3247";
 .formatVersion = 3;
 classes = (
 {
@@ -1032,7 +1032,7 @@ pos = (0,-60);
 {
 locked = 1;
 name = AxisHeight;
-pos = (0,352);
+pos = (0,278);
 },
 {
 locked = 1;
@@ -1086,14 +1086,14 @@ stemValues = (
 );
 userData = {
 GSCornerRadius = 20;
-GSOffsetHorizontal = 46;
+GSOffsetHorizontal = 35.5;
 GSOffsetMakeStroke = 1;
 GSOffsetPosition = 1;
 GSOffsetProportional = 1;
 GSOffsetVertical = 22;
 com.nagwa.MATHPlugin.constants = {
 AccentBaseHeight = 556;
-AxisHeight = 352;
+AxisHeight = 278;
 DelimitedSubFormulaMinHeight = 2300;
 DisplayOperatorMinHeight = 2300;
 FlattenedAccentBaseHeight = 714;
