@@ -987,11 +987,11 @@ value = -423;
 },
 {
 name = winAscent;
-value = 2970;
+value = 3105;
 },
 {
 name = winDescent;
-value = 2410;
+value = 2550;
 },
 {
 name = underlineThickness;
