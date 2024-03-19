@@ -1,0 +1,32 @@
+{
+glyphname = underbarintegral.s01;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (1496,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = integral.s01;
+},
+{
+alignment = -1;
+pos = (-10,-1324);
+ref = _stroke.integral;
+scale = (1.2,1.2);
+}
+);
+width = 1052;
+}
+);
+metricLeft = "=integral";
+metricRight = "=integral";
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

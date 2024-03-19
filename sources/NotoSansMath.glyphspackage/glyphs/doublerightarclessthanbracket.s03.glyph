@@ -1,0 +1,25 @@
+{
+glyphname = doublerightarclessthanbracket.s03;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (310,313);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 3;
+};
+ref = _part.doublerightarclessthanbracket;
+}
+);
+width = 743;
+}
+);
+metricLeft = "=51";
+metricRight = "=|";
+}

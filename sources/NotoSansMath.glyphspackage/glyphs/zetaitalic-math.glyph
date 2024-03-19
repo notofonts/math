@@ -1,7 +1,5 @@
 {
 glyphname = "zetaitalic-math";
-kernLeft = GRK_zeta;
-kernRight = GRK_zeta;
 layers = (
 {
 anchors = (

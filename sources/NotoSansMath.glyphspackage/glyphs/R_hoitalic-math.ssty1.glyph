@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = "Rhoitalic-math.ssty1";
-kernLeft = GRK_Epsilon;
-kernRight = GRK_Rho;
 layers = (
 {
 layerId = master01;

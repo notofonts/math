@@ -1,7 +1,5 @@
 {
 glyphname = "Tauitalic-math";
-kernLeft = GRK_Tau;
-kernRight = GRK_Tau;
 layers = (
 {
 layerId = master01;

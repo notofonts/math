@@ -1,0 +1,36 @@
+{
+glyphname = narytwologicaland;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (551,237);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = narylogicaland;
+},
+{
+pos = (182,0);
+ref = narylogicaland;
+}
+);
+width = 1102;
+}
+);
+metricLeft = "=51";
+metricRight = "=|";
+unicode = 10759;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+narytwologicaland,
+narytwologicaland.s01
+);
+};
+};
+}

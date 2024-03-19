@@ -1,0 +1,78 @@
+{
+export = 0;
+glyphname = _part.leftflattenedparenthesis;
+layers = (
+{
+layerId = master01;
+partSelection = {
+Size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(305,-158,l),
+(229,-91,o),
+(166,-38,o),
+(166,103,cs),
+(166,533,ls),
+(166,664,o),
+(229,717,o),
+(305,784,c),
+(209,784,l),
+(138,717,o),
+(80,665,o),
+(80,534,cs),
+(80,102,ls),
+(80,-39,o),
+(138,-91,o),
+(209,-158,c)
+);
+}
+);
+width = 330;
+},
+{
+associatedMasterId = master01;
+layerId = "02C4B104-3387-473F-B262-B231B031A74C";
+name = "Regular-Large";
+partSelection = {
+Size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(368,-1606,l),
+(260,-1512,o),
+(172,-1437,o),
+(172,-1238,cs),
+(172,1808,ls),
+(172,1993,o),
+(260,2068,o),
+(368,2162,c),
+(262,2162,l),
+(162,2068,o),
+(80,1994,o),
+(80,1810,cs),
+(80,-1240,ls),
+(80,-1438,o),
+(162,-1512,o),
+(262,-1606,c)
+);
+}
+);
+width = 393;
+}
+);
+metricLeft = "=80";
+metricRight = "=25";
+partsSettings = (
+{
+bottomValue = 0;
+name = Size;
+topValue = 12;
+}
+);
+sortName = fence01e;
+}

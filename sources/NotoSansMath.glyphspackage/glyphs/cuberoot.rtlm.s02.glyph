@@ -1,0 +1,18 @@
+{
+color = 3;
+glyphname = cuberoot.rtlm.s02;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 2;
+};
+ref = _part.cuberoot.rtlm;
+}
+);
+width = 813;
+}
+);
+}

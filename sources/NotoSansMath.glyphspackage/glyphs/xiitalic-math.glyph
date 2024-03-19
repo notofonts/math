@@ -1,7 +1,5 @@
 {
 glyphname = "xiitalic-math";
-kernLeft = GRK_xi;
-kernRight = GRK_xi;
 layers = (
 {
 anchors = (

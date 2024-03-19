@@ -1,0 +1,30 @@
+{
+color = 3;
+glyphname = dblintegral.rtlm.s01;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (1904,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = integral.rtlm.s01;
+},
+{
+alignment = 1;
+pos = (412,0);
+ref = integral.rtlm.s01;
+}
+);
+width = 1464;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

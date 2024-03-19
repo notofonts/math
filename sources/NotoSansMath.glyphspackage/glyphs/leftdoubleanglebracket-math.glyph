@@ -14,10 +14,10 @@ shapes = (
 piece = {
 Size = 0;
 };
-ref = "_part.leftdoubleanglebracket-math";
+ref = _part.leftdoubleanglebracket;
 }
 );
-width = 556;
+width = 581;
 }
 );
 unicode = 10218;
@@ -26,15 +26,15 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 "leftdoubleanglebracket-math",
-"leftdoubleanglebracket-math.s1",
-"leftdoubleanglebracket-math.s2",
-"leftdoubleanglebracket-math.s3",
-"leftdoubleanglebracket-math.s4",
-"leftdoubleanglebracket-math.s5",
-"leftdoubleanglebracket-math.s6",
-"leftdoubleanglebracket-math.s7",
-"leftdoubleanglebracket-math.s8",
-"leftdoubleanglebracket-math.s9",
+"leftdoubleanglebracket-math.s01",
+"leftdoubleanglebracket-math.s02",
+"leftdoubleanglebracket-math.s03",
+"leftdoubleanglebracket-math.s04",
+"leftdoubleanglebracket-math.s05",
+"leftdoubleanglebracket-math.s06",
+"leftdoubleanglebracket-math.s07",
+"leftdoubleanglebracket-math.s08",
+"leftdoubleanglebracket-math.s09",
 "leftdoubleanglebracket-math.s10",
 "leftdoubleanglebracket-math.s11",
 "leftdoubleanglebracket-math.s12"

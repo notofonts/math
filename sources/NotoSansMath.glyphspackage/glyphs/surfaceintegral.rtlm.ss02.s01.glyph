@@ -1,0 +1,27 @@
+{
+color = 3;
+glyphname = surfaceintegral.rtlm.ss02.s01;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (821,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+pos = (731,0);
+ref = surfaceintegral.ss02.s01;
+scale = (-1,1);
+}
+);
+width = 731;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

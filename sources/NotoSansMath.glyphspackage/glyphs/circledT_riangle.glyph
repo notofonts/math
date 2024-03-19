@@ -13,7 +13,7 @@ layerId = master01;
 shapes = (
 {
 alignment = 1;
-ref = _part.circle;
+ref = _circle;
 },
 {
 pos = (155,32);

@@ -1,7 +1,5 @@
 {
 glyphname = "Deltaitalic-math";
-kernLeft = GRK_Alpha;
-kernRight = GRK_Alpha;
 layers = (
 {
 anchors = (

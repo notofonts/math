@@ -2,56 +2,20 @@
 glyphname = leftVerticalStrokeArrow;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (397,345);
-}
-);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(262,197,l),
-(235,255,o),
-(208,299,o),
-(182,325,c),
-(182,365,l),
-(208,391,o),
-(235,435,o),
-(262,493,c),
-(218,493,l),
-(165,431,o),
-(109,385,o),
-(51,356,c),
-(51,334,l),
-(109,305,o),
-(165,259,o),
-(218,197,c)
-);
+ref = leftArrow;
 },
 {
-closed = 1;
-nodes = (
-(743,318,l),
-(743,372,l),
-(152,372,l),
-(152,318,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(473,197,l),
-(473,493,l),
-(419,493,l),
-(419,197,l)
-);
+pos = (537,0);
+ref = _bar.arrow;
 }
 );
-width = 794;
+width = 1012;
 }
 );
+metricLeft = "=51";
+metricRight = "=51";
 unicode = 8695;
 }

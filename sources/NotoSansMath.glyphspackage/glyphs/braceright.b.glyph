@@ -2,22 +2,16 @@
 glyphname = braceright.b;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (156,684);
-}
-);
 layerId = master01;
 shapes = (
 {
 alignment = 1;
-pos = (468,0);
+pos = (368,0);
 ref = braceleft.b;
 scale = (-1,1);
 }
 );
-width = 468;
+width = 368;
 },
 {
 anchors = (

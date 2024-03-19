@@ -23,7 +23,7 @@ pos = (184,50);
 layerId = master01;
 shapes = (
 {
-ref = tildebelowcomb.s0;
+ref = tildebelowcomb.s00;
 }
 );
 width = 367;
@@ -33,12 +33,12 @@ unicode = 816;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 hVariants = (
-tildebelowcomb.s0,
-tildebelowcomb.s1,
-tildebelowcomb.s2,
-tildebelowcomb.s3,
-tildebelowcomb.s4,
-tildebelowcomb.s5
+tildebelowcomb.s00,
+tildebelowcomb.s01,
+tildebelowcomb.s02,
+tildebelowcomb.s03,
+tildebelowcomb.s04,
+tildebelowcomb.s05
 );
 };
 };

@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (200,357);
+pos = (258,313);
 }
 );
 layerId = master01;
@@ -14,14 +14,16 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(127,0,l),
-(393,714,l),
-(273,714,l),
-(7,0,l)
+(140,-158,l),
+(495,784,l),
+(375,784,l),
+(20,-158,l)
 );
 }
 );
-width = 400;
+width = 515;
 }
 );
+metricLeft = "=20";
+metricRight = "=20";
 }

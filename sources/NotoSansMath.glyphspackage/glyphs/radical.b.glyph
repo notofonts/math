@@ -2,12 +2,6 @@
 glyphname = radical.b;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (456,681);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -29,12 +23,6 @@ nodes = (
 width = 866;
 },
 {
-anchors = (
-{
-name = center;
-pos = (390,681);
-}
-);
 associatedMasterId = master01;
 layerId = "18CA19FF-86D3-4652-BFC8-998021CF1E76";
 name = "28 Feb 24 at 21:08";

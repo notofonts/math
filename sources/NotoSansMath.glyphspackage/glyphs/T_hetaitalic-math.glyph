@@ -1,7 +1,5 @@
 {
 glyphname = "Thetaitalic-math";
-kernLeft = GRK_Omicron;
-kernRight = GRK_Omicron;
 layers = (
 {
 layerId = master01;

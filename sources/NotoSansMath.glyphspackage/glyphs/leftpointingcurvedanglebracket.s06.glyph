@@ -1,0 +1,23 @@
+{
+glyphname = leftpointingcurvedanglebracket.s06;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (299,293);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 6;
+};
+ref = _part.leftcurvedanglebracket;
+}
+);
+width = 598;
+}
+);
+}

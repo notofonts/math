@@ -1,0 +1,41 @@
+{
+color = 3;
+glyphname = radical.rtlm.b;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+pos = (866,0);
+ref = radical.b;
+scale = (-1,1);
+}
+);
+width = 866;
+},
+{
+associatedMasterId = master01;
+layerId = "18CA19FF-86D3-4652-BFC8-998021CF1E76";
+name = "28 Feb 24 at 21:08";
+shapes = (
+{
+closed = 1;
+nodes = (
+(630,0,l),
+(630,1362,l),
+(545,1362,l),
+(545,263,l),
+(305,965,l),
+(152,965,l),
+(152,885,l),
+(240,885,l),
+(553,0,l)
+);
+}
+);
+width = 800;
+}
+);
+metricLeft = "=radical";
+}

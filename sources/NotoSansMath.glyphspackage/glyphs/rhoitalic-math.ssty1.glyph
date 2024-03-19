@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = "rhoitalic-math.ssty1";
-kernLeft = GRK_mu;
-kernRight = GRK_omicron;
 layers = (
 {
 anchors = (

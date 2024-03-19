@@ -1,0 +1,42 @@
+{
+color = 3;
+glyphname = circulationfunction.rtlm.ss02;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (236,322);
+},
+{
+name = math.ic;
+pos = (562,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = integral.rtlm.ss02;
+},
+{
+alignment = -1;
+pos = (30,0);
+ref = _contour4.integral;
+}
+);
+width = 472;
+}
+);
+metricLeft = "=51@850";
+metricRight = "=51@-180";
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+circulationfunction.rtlm.ss02,
+circulationfunction.rtlm.ss02.s01
+);
+};
+};
+}

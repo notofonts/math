@@ -1,0 +1,32 @@
+{
+color = 3;
+glyphname = clockwisecontourintegral.rtlm.s01;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (1552,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = integral.rtlm.s01;
+},
+{
+pos = (243,-58);
+ref = _contour5.integral;
+scale = (1.2,1.2);
+}
+);
+width = 1052;
+}
+);
+metricLeft = "=51@850";
+metricRight = "=51@-180";
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

@@ -1,0 +1,23 @@
+{
+glyphname = leftFloor.s02;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (220,307);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 2;
+};
+ref = _part.leftFloor;
+}
+);
+width = 431;
+}
+);
+}

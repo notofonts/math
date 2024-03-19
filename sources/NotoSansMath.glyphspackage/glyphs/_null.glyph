@@ -1,0 +1,15 @@
+{
+glyphname = .null;
+layers = (
+{
+anchors = (
+{
+name = center;
+}
+);
+layerId = master01;
+width = 0;
+}
+);
+unicode = 0;
+}

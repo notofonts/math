@@ -49,11 +49,11 @@ userData = {
 com.nagwa.MATHPlugin.variants = {
 hVariants = (
 bottomtortoiseshellbracket,
-bottomtortoiseshellbracket.s1,
-bottomtortoiseshellbracket.s2,
-bottomtortoiseshellbracket.s3,
-bottomtortoiseshellbracket.s4,
-bottomtortoiseshellbracket.s5
+bottomtortoiseshellbracket.s01,
+bottomtortoiseshellbracket.s02,
+bottomtortoiseshellbracket.s03,
+bottomtortoiseshellbracket.s04,
+bottomtortoiseshellbracket.s05
 );
 };
 };

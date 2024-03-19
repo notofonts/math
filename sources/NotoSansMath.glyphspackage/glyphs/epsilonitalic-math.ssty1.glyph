@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = "epsilonitalic-math.ssty1";
-kernLeft = GRK_epsilon;
-kernRight = GRK_epsilon;
 layers = (
 {
 anchors = (

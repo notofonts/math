@@ -1,0 +1,23 @@
+{
+glyphname = leftharpoonwithbarbdowncomb.s00;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (224,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = _part.leftharpoonwithbarbdowncomb;
+}
+);
+width = 448;
+}
+);
+}

@@ -1,7 +1,5 @@
 {
 glyphname = "Muitalic-math";
-kernLeft = GRK_Epsilon;
-kernRight = GRK_Eta;
 layers = (
 {
 layerId = master01;

@@ -49,11 +49,11 @@ userData = {
 com.nagwa.MATHPlugin.variants = {
 hVariants = (
 bottomparenthesis,
-bottomparenthesis.s1,
-bottomparenthesis.s2,
-bottomparenthesis.s3,
-bottomparenthesis.s4,
-bottomparenthesis.s5
+bottomparenthesis.s01,
+bottomparenthesis.s02,
+bottomparenthesis.s03,
+bottomparenthesis.s04,
+bottomparenthesis.s05
 );
 };
 };

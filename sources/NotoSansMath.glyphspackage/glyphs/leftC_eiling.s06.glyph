@@ -1,0 +1,23 @@
+{
+glyphname = leftCeiling.s06;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (256,295);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 6;
+};
+ref = _part.leftCeiling;
+}
+);
+width = 435;
+}
+);
+}

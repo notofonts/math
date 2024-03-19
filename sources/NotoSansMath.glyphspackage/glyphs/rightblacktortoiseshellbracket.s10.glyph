@@ -1,0 +1,23 @@
+{
+glyphname = rightblacktortoiseshellbracket.s10;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (137,333);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 10;
+};
+ref = _part.rightblacktortoiseshellbracket;
+}
+);
+width = 417;
+}
+);
+}

@@ -1,0 +1,23 @@
+{
+glyphname = bottomtortoiseshellbracket.s01;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (665,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 1;
+};
+ref = _part.bottomtortoiseshellbracket;
+}
+);
+width = 1330;
+}
+);
+}

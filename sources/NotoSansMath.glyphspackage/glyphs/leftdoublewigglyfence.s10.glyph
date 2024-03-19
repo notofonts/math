@@ -1,0 +1,23 @@
+{
+glyphname = leftdoublewigglyfence.s10;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (227,313);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 10;
+};
+ref = _part.leftdoublewigglyfence;
+}
+);
+width = 815;
+}
+);
+}

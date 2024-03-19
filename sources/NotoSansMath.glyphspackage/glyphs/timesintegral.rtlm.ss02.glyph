@@ -1,0 +1,33 @@
+{
+color = 3;
+glyphname = timesintegral.rtlm.ss02;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (562,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+pos = (472,0);
+ref = timesintegral.ss02;
+scale = (-1,1);
+}
+);
+width = 472;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+timesintegral.rtlm.ss02,
+timesintegral.rtlm.ss02.s01
+);
+};
+};
+}

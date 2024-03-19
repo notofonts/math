@@ -1,0 +1,23 @@
+{
+glyphname = znotationleftimagebracket.s01;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (162,334);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 1;
+};
+ref = _part.znotationleftimagebracket;
+}
+);
+width = 349;
+}
+);
+}

@@ -1,0 +1,23 @@
+{
+glyphname = rightCeiling.s08;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (249.667,289);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 8;
+};
+ref = _part.rightCeiling;
+}
+);
+width = 437;
+}
+);
+}

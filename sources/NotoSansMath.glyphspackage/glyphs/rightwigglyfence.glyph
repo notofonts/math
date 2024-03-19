@@ -5,40 +5,37 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (172,329);
+pos = (172,313);
 }
 );
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(294,-107,l),
-(148,3,l),
-(294,112,l),
-(148,216,l),
-(294,330,l),
-(148,439,l),
-(294,548,l),
-(148,650,l),
-(294,766,l),
-(197,766,l),
-(51,650,l),
-(197,548,l),
-(51,439,l),
-(197,330,l),
-(51,216,l),
-(197,112,l),
-(51,3,l),
-(197,-107,l)
-);
+ref = _part.rightwigglyfence;
 }
 );
-width = 345;
+width = 284;
 }
 );
 unicode = 10713;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+rightwigglyfence,
+rightwigglyfence.s01,
+rightwigglyfence.s02,
+rightwigglyfence.s03,
+rightwigglyfence.s04,
+rightwigglyfence.s05,
+rightwigglyfence.s06,
+rightwigglyfence.s07,
+rightwigglyfence.s08,
+rightwigglyfence.s09,
+rightwigglyfence.s10,
+rightwigglyfence.s11,
+rightwigglyfence.s12
+);
+};
 };
 }

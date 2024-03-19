@@ -1,0 +1,92 @@
+{
+export = 0;
+glyphname = _part.leftanglebracketdot;
+layers = (
+{
+layerId = master01;
+partSelection = {
+Size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(356,-158,l),
+(134,333,l),
+(345,784,l),
+(266,784,l),
+(51,333,l),
+(277,-158,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(299,273,o),
+(326,300,o),
+(326,333,cs),
+(326,364,o),
+(301,393,o),
+(266,393,cs),
+(233,393,o),
+(206,366,o),
+(206,333,cs),
+(206,299,o),
+(234,273,o),
+(266,273,cs)
+);
+}
+);
+width = 407;
+},
+{
+associatedMasterId = master01;
+layerId = "F1B036C0-21DA-4829-B1C9-DBF87D13DDB5";
+name = "Regular-Large";
+partSelection = {
+Size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(854,-2548,l),
+(144,333,l),
+(824,3104,l),
+(735,3104,l),
+(51,333,l),
+(765,-2548,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(299,273,o),
+(326,300,o),
+(326,333,cs),
+(326,364,o),
+(301,393,o),
+(266,393,cs),
+(233,393,o),
+(206,366,o),
+(206,333,cs),
+(206,299,o),
+(234,273,o),
+(266,273,cs)
+);
+}
+);
+width = 905;
+}
+);
+metricLeft = "=51";
+metricRight = "=|";
+partsSettings = (
+{
+bottomValue = 0;
+name = Size;
+topValue = 20;
+}
+);
+sortName = fence38;
+}

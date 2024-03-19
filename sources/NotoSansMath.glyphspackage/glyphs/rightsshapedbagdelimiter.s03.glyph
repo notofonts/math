@@ -1,0 +1,23 @@
+{
+glyphname = rightsshapedbagdelimiter.s03;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (199,271);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 3;
+};
+ref = _part.rightsshapedbagdelimiter;
+}
+);
+width = 459;
+}
+);
+}

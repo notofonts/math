@@ -1,0 +1,23 @@
+{
+glyphname = verticalZigzagLine.s02;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (172,329);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 2;
+};
+ref = _part.verticalZigzagLine;
+}
+);
+width = 355;
+}
+);
+}

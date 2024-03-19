@@ -1,0 +1,31 @@
+{
+glyphname = finitePartIntegral.s01;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (1552,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = integral.s01;
+},
+{
+pos = (243,-60);
+ref = _stroke.integral;
+scale = (1.2,1.2);
+}
+);
+width = 1052;
+}
+);
+metricLeft = "=51";
+metricRight = "=51";
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

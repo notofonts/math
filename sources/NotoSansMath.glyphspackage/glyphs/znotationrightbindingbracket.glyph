@@ -11,24 +11,7 @@ pos = (170,334);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(145,-102,l),
-(289,299,l),
-(289,363,l),
-(145,770,l),
-(51,770,l),
-(51,-102,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(116,658,l),
-(219,344,l),
-(219,318,l),
-(116,18,l)
-);
+ref = _part.znotationrightbindingbracket;
 }
 );
 width = 340;
@@ -37,5 +20,22 @@ width = 340;
 unicode = 10634;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+znotationrightbindingbracket,
+znotationrightbindingbracket.s01,
+znotationrightbindingbracket.s02,
+znotationrightbindingbracket.s03,
+znotationrightbindingbracket.s04,
+znotationrightbindingbracket.s05,
+znotationrightbindingbracket.s06,
+znotationrightbindingbracket.s07,
+znotationrightbindingbracket.s08,
+znotationrightbindingbracket.s09,
+znotationrightbindingbracket.s10,
+znotationrightbindingbracket.s11,
+znotationrightbindingbracket.s12
+);
+};
 };
 }

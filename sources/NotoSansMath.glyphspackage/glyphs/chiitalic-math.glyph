@@ -1,7 +1,5 @@
 {
 glyphname = "chiitalic-math";
-kernLeft = GRK_chi;
-kernRight = GRK_chi;
 layers = (
 {
 anchors = (

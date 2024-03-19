@@ -4,6 +4,8 @@ googleFonts: true
 includeSubsets:
 - from: Noto Sans
   ranges:
+      - start: 0x0060
+        end: 0x0060
       - start: 0x00A2
         end: 0x00A3
       - start: 0x00A5

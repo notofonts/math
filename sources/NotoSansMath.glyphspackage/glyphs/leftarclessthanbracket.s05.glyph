@@ -1,0 +1,25 @@
+{
+glyphname = leftarclessthanbracket.s05;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (288,313);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 5;
+};
+ref = _part.leftarclessthanbracket;
+}
+);
+width = 743;
+}
+);
+metricLeft = "=51";
+metricRight = "=|";
+}

@@ -1,7 +1,5 @@
 {
 glyphname = W;
-kernLeft = V.right;
-kernRight = V.left;
 layers = (
 {
 anchors = (

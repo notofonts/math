@@ -1,7 +1,5 @@
 {
 glyphname = "epsilonitalic-math";
-kernLeft = GRK_epsilon;
-kernRight = GRK_epsilon;
 layers = (
 {
 anchors = (

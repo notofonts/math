@@ -20,7 +20,6 @@ pos = (562,0);
 }
 );
 layerId = master01;
-metricRight = "=integral.s1";
 shapes = (
 {
 closed = 1;
@@ -47,6 +46,7 @@ nodes = (
 width = 472;
 }
 );
-metricWidth = "=integral.s1";
+metricRight = "=integral.ss02.s01";
+metricWidth = "=integral.ss02.s01";
 unicode = 8992;
 }

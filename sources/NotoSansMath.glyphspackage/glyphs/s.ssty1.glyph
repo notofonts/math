@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = s.ssty1;
-kernLeft = s.ssty;
-kernRight = s.ssty;
 layers = (
 {
 anchors = (

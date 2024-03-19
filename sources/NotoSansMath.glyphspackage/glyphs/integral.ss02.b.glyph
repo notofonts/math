@@ -1,0 +1,47 @@
+{
+glyphname = integral.ss02.b;
+layers = (
+{
+anchors = (
+{
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (259,0);
+},
+{
+name = center;
+pos = (163,681);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(227,0,o),
+(282,61,o),
+(282,178,cs),
+(282,1362,l),
+(197,1362,l),
+(197,184,ls),
+(197,108,o),
+(168,70,o),
+(111,70,cs),
+(91,70,o),
+(71,74,o),
+(51,82,c),
+(51,10,l),
+(71,3,o),
+(93,0,o),
+(119,0,cs)
+);
+}
+);
+width = 472;
+}
+);
+metricLeft = "=integral.ss02.s01";
+metricWidth = "=integral.ss02.s01";
+}

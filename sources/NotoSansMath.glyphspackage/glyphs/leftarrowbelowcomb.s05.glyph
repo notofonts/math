@@ -1,0 +1,23 @@
+{
+glyphname = leftarrowbelowcomb.s05;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (1074,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 5;
+};
+ref = _part.leftarrowbelowcomb;
+}
+);
+width = 2148;
+}
+);
+}

@@ -1,7 +1,5 @@
 {
 glyphname = "muitalic-math";
-kernLeft = GRK_mu;
-kernRight = GRK_alpha;
 layers = (
 {
 anchors = (

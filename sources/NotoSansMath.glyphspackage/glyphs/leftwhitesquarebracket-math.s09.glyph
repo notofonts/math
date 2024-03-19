@@ -1,0 +1,23 @@
+{
+glyphname = "leftwhitesquarebracket-math.s09";
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (327,287);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 9;
+};
+ref = _part.leftwhitesquarebracket;
+}
+);
+width = 551;
+}
+);
+}

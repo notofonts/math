@@ -1,7 +1,5 @@
 {
 glyphname = "sigmaitalic-math";
-kernLeft = GRK_omicron;
-kernRight = GRK_sigma;
 layers = (
 {
 anchors = (

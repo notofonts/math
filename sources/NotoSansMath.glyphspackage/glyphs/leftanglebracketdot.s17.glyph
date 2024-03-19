@@ -1,0 +1,23 @@
+{
+glyphname = leftanglebracketdot.s17;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (192,313);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 17;
+};
+ref = _part.leftanglebracketdot;
+}
+);
+width = 830;
+}
+);
+}

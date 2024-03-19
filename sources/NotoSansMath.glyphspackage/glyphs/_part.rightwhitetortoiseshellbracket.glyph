@@ -1,0 +1,80 @@
+{
+export = 0;
+glyphname = _part.rightwhitetortoiseshellbracket;
+layers = (
+{
+layerId = master01;
+partSelection = {
+Size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(105,-158,l),
+(298,58,l),
+(298,568,l),
+(105,784,l),
+(25,784,l),
+(93,708,l),
+(93,-82,l),
+(25,-158,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(158,635,l),
+(233,551,l),
+(233,75,l),
+(158,-9,l)
+);
+}
+);
+width = 378;
+},
+{
+associatedMasterId = master01;
+layerId = "F9FD0875-4122-4FCF-8E30-417E23351D32";
+name = "Regular-Large";
+partSelection = {
+Size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(138,-1606,l),
+(410,-1302,l),
+(410,1858,l),
+(138,2162,l),
+(25,2162,l),
+(121,2055,l),
+(121,-1499,l),
+(25,-1606,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(213,1952,l),
+(318,1834,l),
+(318,-1278,l),
+(213,-1396,l)
+);
+}
+);
+width = 490;
+}
+);
+metricLeft = "=|_part.leftwhitetortoiseshellbracket";
+metricRight = "=|_part.leftwhitetortoiseshellbracket";
+partsSettings = (
+{
+bottomValue = 0;
+name = Size;
+topValue = 12;
+}
+);
+sortName = fence21;
+}

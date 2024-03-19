@@ -3,12 +3,6 @@ export = 0;
 glyphname = _part.fourthroot;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (380,528);
-}
-);
 layerId = master01;
 metricLeft = "=51";
 metricRight = "=-31";
@@ -58,12 +52,6 @@ nodes = (
 width = 679;
 },
 {
-anchors = (
-{
-name = center;
-pos = (628,1243);
-}
-);
 associatedMasterId = master01;
 layerId = "B5882333-6064-4315-BD39-FFE965BB9E9B";
 metricLeft = "=47";
@@ -123,4 +111,5 @@ name = Size;
 topValue = 4;
 }
 );
+sortName = root4;
 }

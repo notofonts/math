@@ -1,7 +1,5 @@
 {
 glyphname = "lambdaitalic-math";
-kernLeft = GRK_lambda;
-kernRight = GRK_lambda;
 layers = (
 {
 anchors = (

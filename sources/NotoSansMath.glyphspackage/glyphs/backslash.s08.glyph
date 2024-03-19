@@ -1,0 +1,23 @@
+{
+glyphname = backslash.s08;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (186,357);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 8;
+};
+ref = _part.backslash;
+}
+);
+width = 1182;
+}
+);
+}

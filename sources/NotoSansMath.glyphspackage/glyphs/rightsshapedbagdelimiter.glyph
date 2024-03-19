@@ -11,50 +11,7 @@ pos = (199,271);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(249,-190,o),
-(309,-127,o),
-(309,-14,cs),
-(309,64,o),
-(286,146,o),
-(210,309,cs),
-(172,390,o),
-(147,450,o),
-(135,489,cs),
-(123,527,o),
-(117,560,o),
-(117,586,cs),
-(117,635,o),
-(146,669,o),
-(193,669,cs),
-(250,669,o),
-(282,611,o),
-(282,508,c),
-(347,508,l),
-(347,648,o),
-(294,733,o),
-(193,733,cs),
-(98,733,o),
-(51,669,o),
-(51,586,cs),
-(51,521,o),
-(71,449,o),
-(146,290,cs),
-(221,132,o),
-(243,58,o),
-(243,-14,cs),
-(243,-83,o),
-(202,-124,o),
-(137,-124,cs),
-(112,-124,o),
-(92,-122,o),
-(76,-117,c),
-(57,-179,l),
-(83,-187,o),
-(110,-190,o),
-(139,-190,cs)
-);
+ref = _part.rightsshapedbagdelimiter;
 }
 );
 width = 398;
@@ -63,5 +20,22 @@ width = 398;
 unicode = 10182;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+rightsshapedbagdelimiter,
+rightsshapedbagdelimiter.s01,
+rightsshapedbagdelimiter.s02,
+rightsshapedbagdelimiter.s03,
+rightsshapedbagdelimiter.s04,
+rightsshapedbagdelimiter.s05,
+rightsshapedbagdelimiter.s06,
+rightsshapedbagdelimiter.s07,
+rightsshapedbagdelimiter.s08,
+rightsshapedbagdelimiter.s09,
+rightsshapedbagdelimiter.s10,
+rightsshapedbagdelimiter.s11,
+rightsshapedbagdelimiter.s12
+);
+};
 };
 }

@@ -17,7 +17,7 @@ Size = 0;
 ref = _part.slash;
 }
 );
-width = 372;
+width = 457;
 }
 );
 unicode = 47;
@@ -26,10 +26,18 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 slash,
-slash.s1,
-slash.s2,
-slash.s3,
-slash.s4
+slash.s01,
+slash.s02,
+slash.s03,
+slash.s04,
+slash.s05,
+slash.s06,
+slash.s07,
+slash.s08,
+slash.s09,
+slash.s10,
+slash.s11,
+slash.s12
 );
 };
 };

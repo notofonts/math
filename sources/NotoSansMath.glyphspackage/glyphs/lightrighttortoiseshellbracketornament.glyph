@@ -1,0 +1,59 @@
+{
+glyphname = lightrighttortoiseshellbracketornament;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = _part.lightrighttortoiseshellbracketornament;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+lightrighttortoiseshellbracketornament.b,
+0,
+0,
+843
+),
+(
+lightrighttortoiseshellbracketornament.x,
+1,
+1069,
+1069
+),
+(
+lightrighttortoiseshellbracketornament.t,
+0,
+843,
+0
+)
+);
+};
+};
+width = 274;
+}
+);
+unicode = 10099;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+lightrighttortoiseshellbracketornament,
+lightrighttortoiseshellbracketornament.s01,
+lightrighttortoiseshellbracketornament.s02,
+lightrighttortoiseshellbracketornament.s03,
+lightrighttortoiseshellbracketornament.s04,
+lightrighttortoiseshellbracketornament.s05,
+lightrighttortoiseshellbracketornament.s06,
+lightrighttortoiseshellbracketornament.s07,
+lightrighttortoiseshellbracketornament.s08,
+lightrighttortoiseshellbracketornament.s09,
+lightrighttortoiseshellbracketornament.s10,
+lightrighttortoiseshellbracketornament.s11,
+lightrighttortoiseshellbracketornament.s12
+);
+};
+};
+}

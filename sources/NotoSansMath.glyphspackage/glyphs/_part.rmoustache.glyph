@@ -1,0 +1,78 @@
+{
+export = 0;
+glyphname = _part.rmoustache;
+layers = (
+{
+layerId = master01;
+partSelection = {
+Size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(341,-86,l),
+(270,-86,o),
+(230,-58,o),
+(230,7,cs),
+(230,626,ls),
+(230,732,o),
+(149,784,o),
+(32,784,c),
+(32,712,l),
+(103,712,o),
+(143,683,o),
+(143,618,cs),
+(143,1,ls),
+(143,-105,o),
+(224,-158,o),
+(341,-158,c)
+);
+}
+);
+width = 373;
+},
+{
+associatedMasterId = master01;
+layerId = "81BB7596-A547-466F-B56C-F6C9E4EF3D73";
+name = "Regular-Large";
+partSelection = {
+Size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(336,-1499,l),
+(268,-1497,o),
+(230,-1468,o),
+(230,-1405,cs),
+(230,2038,ls),
+(230,2144,o),
+(149,2196,o),
+(32,2196,c),
+(32,2124,l),
+(100,2122,o),
+(138,2093,o),
+(138,2030,cs),
+(138,-1413,ls),
+(138,-1519,o),
+(219,-1571,o),
+(336,-1571,c)
+);
+}
+);
+width = 368;
+}
+);
+metricLeft = "=32";
+metricRight = "=32";
+partsSettings = (
+{
+bottomValue = 0;
+name = Size;
+topValue = 12;
+}
+);
+sortName = fence11;
+}

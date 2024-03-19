@@ -1,6 +1,5 @@
 {
 glyphname = E;
-kernRight = E.left;
 layers = (
 {
 anchors = (

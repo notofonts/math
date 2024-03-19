@@ -6,19 +6,19 @@ layers = (
 anchors = (
 {
 name = math.ic;
-pos = (1080,0);
+pos = (1708,0);
 }
 );
 layerId = master01;
 shapes = (
 {
 alignment = 1;
-pos = (990,0);
+pos = (1514,0);
 ref = volumeintegral;
 scale = (-1,1);
 }
 );
-width = 990;
+width = 1514;
 }
 );
 userData = {
@@ -26,7 +26,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 volumeintegral.rtlm,
-volumeintegral.rtlm.s1
+volumeintegral.rtlm.s01
 );
 };
 };

@@ -1,0 +1,23 @@
+{
+glyphname = topcurlybracket.s02;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (998,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 2;
+};
+ref = _part.topcurlybracket;
+}
+);
+width = 1997;
+}
+);
+}

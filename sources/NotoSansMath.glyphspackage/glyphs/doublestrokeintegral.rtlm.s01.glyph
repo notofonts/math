@@ -1,0 +1,27 @@
+{
+color = 3;
+glyphname = doublestrokeintegral.rtlm.s01;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (1552,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+pos = (1052,0);
+ref = doublestrokeintegral.s01;
+scale = (-1,1);
+}
+);
+width = 1052;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

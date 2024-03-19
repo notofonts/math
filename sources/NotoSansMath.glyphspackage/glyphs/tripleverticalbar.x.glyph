@@ -1,0 +1,30 @@
+{
+glyphname = tripleverticalbar.x;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = bar.x;
+},
+{
+pos = (220,0);
+ref = bar.x;
+},
+{
+pos = (440,0);
+ref = bar.x;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = "=bar";
+com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = "=bar";
+};
+width = 892;
+}
+);
+metricLeft = "=bar.x";
+metricRight = "=bar.x";
+}

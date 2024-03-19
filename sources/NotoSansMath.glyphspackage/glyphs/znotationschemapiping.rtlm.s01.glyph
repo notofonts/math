@@ -1,0 +1,27 @@
+{
+color = 3;
+glyphname = znotationschemapiping.rtlm.s01;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (794,237);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+pos = (1589,0);
+ref = znotationschemapiping.s01;
+scale = (-1,1);
+}
+);
+width = 1589;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

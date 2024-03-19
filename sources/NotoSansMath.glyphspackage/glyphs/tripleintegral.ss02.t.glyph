@@ -1,0 +1,37 @@
+{
+glyphname = tripleintegral.ss02.t;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (552,681);
+},
+{
+name = math.ic;
+pos = (1080,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = integral.ss02.t;
+},
+{
+alignment = 1;
+pos = (259,0);
+ref = integral.ss02.t;
+},
+{
+alignment = 1;
+pos = (518,0);
+ref = integral.ss02.t;
+}
+);
+width = 990;
+}
+);
+metricLeft = "=integral.t";
+metricRight = "=integral.t";
+}

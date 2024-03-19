@@ -11,24 +11,55 @@ pos = (137,333);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(223,-104,l),
-(140,71,l),
-(140,595,l),
-(223,770,l),
-(149,770,l),
-(51,563,l),
-(51,103,l),
-(149,-104,l)
-);
+ref = _part.leftblacktortoiseshellbracket;
 }
 );
-width = 274;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+leftblacktortoiseshellbracket.b,
+0,
+0,
+598
+),
+(
+leftblacktortoiseshellbracket.x,
+1,
+1069,
+1069
+),
+(
+leftblacktortoiseshellbracket.t,
+0,
+598,
+0
+)
+);
+};
+};
+width = 339;
 }
 );
 unicode = 10647;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+leftblacktortoiseshellbracket,
+leftblacktortoiseshellbracket.s01,
+leftblacktortoiseshellbracket.s02,
+leftblacktortoiseshellbracket.s03,
+leftblacktortoiseshellbracket.s04,
+leftblacktortoiseshellbracket.s05,
+leftblacktortoiseshellbracket.s06,
+leftblacktortoiseshellbracket.s07,
+leftblacktortoiseshellbracket.s08,
+leftblacktortoiseshellbracket.s09,
+leftblacktortoiseshellbracket.s10,
+leftblacktortoiseshellbracket.s11,
+leftblacktortoiseshellbracket.s12
+);
+};
 };
 }

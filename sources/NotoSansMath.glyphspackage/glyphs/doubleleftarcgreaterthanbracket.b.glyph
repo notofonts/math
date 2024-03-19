@@ -1,0 +1,21 @@
+{
+glyphname = doubleleftarcgreaterthanbracket.b;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+pos = (90,0);
+ref = parenleft.b;
+},
+{
+pos = (260,0);
+ref = parenleft.b;
+}
+);
+width = 620;
+}
+);
+metricLeft = doubleleftarcgreaterthanbracket.x;
+metricWidth = "=doubleleftarcgreaterthanbracket.m";
+}

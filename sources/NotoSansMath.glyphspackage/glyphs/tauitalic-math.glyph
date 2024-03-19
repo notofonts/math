@@ -1,7 +1,5 @@
 {
 glyphname = "tauitalic-math";
-kernLeft = GRK_tau;
-kernRight = GRK_tau;
 layers = (
 {
 anchors = (

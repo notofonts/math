@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = quoteright.ssty1;
-kernLeft = quote.right;
-kernRight = quote.left;
 layers = (
 {
 anchors = (

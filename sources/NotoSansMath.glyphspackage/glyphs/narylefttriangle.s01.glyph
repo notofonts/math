@@ -1,0 +1,27 @@
+{
+glyphname = narylefttriangle.s01;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (658,237);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (-20,-95);
+ref = narylefttriangle;
+scale = (1.4,1.4);
+}
+);
+width = 1316;
+}
+);
+metricLeft = "=51";
+metricRight = "=|";
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

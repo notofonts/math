@@ -1,7 +1,5 @@
 {
 glyphname = "deltaitalic-math";
-kernLeft = GRK_omicron;
-kernRight = GRK_omicron;
 layers = (
 {
 anchors = (

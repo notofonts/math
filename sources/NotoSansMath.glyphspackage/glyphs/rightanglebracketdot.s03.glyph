@@ -1,0 +1,23 @@
+{
+glyphname = rightanglebracketdot.s03;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (192,313);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 3;
+};
+ref = _part.rightanglebracketdot;
+}
+);
+width = 482;
+}
+);
+}

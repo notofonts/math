@@ -1,7 +1,6 @@
 {
 color = 4;
 glyphname = "xsansitalic-math.ssty1";
-kernRight = k.left;
 layers = (
 {
 anchors = (

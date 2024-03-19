@@ -2,26 +2,19 @@
 glyphname = parenright.x;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (222,450);
-}
-);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(265,0,l),
-(265,900,l),
-(180,900,l),
-(180,0,l)
-);
+alignment = 1;
+pos = (323,0);
+ref = parenleft.x;
+scale = (-1,1);
 }
 );
-width = 316;
+width = 323;
 }
 );
+metricRight = "=parenright.b";
+metricWidth = "=parenright.b";
 unicode = 9119;
 }

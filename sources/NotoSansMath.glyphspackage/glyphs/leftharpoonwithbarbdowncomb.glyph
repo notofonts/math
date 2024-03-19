@@ -19,7 +19,7 @@ pos = (237,-48);
 layerId = master01;
 shapes = (
 {
-ref = leftharpoonwithbarbdowncomb.s0;
+ref = leftharpoonwithbarbdowncomb.s00;
 }
 );
 width = 448;
@@ -29,12 +29,12 @@ unicode = 8429;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 hVariants = (
-leftharpoonwithbarbdowncomb.s0,
-leftharpoonwithbarbdowncomb.s1,
-leftharpoonwithbarbdowncomb.s2,
-leftharpoonwithbarbdowncomb.s3,
-leftharpoonwithbarbdowncomb.s4,
-leftharpoonwithbarbdowncomb.s5
+leftharpoonwithbarbdowncomb.s00,
+leftharpoonwithbarbdowncomb.s01,
+leftharpoonwithbarbdowncomb.s02,
+leftharpoonwithbarbdowncomb.s03,
+leftharpoonwithbarbdowncomb.s04,
+leftharpoonwithbarbdowncomb.s05
 );
 };
 };

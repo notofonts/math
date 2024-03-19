@@ -1,7 +1,5 @@
 {
 glyphname = "Betaitalic-math";
-kernLeft = GRK_Epsilon;
-kernRight = GRK_Beta;
 layers = (
 {
 layerId = master01;

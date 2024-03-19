@@ -5,35 +5,24 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (286,352);
+pos = (286,278);
 }
 );
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(521,387,l),
-(521,437,l),
-(51,658,l),
-(51,580,l),
-(417,412,l),
-(51,244,l),
-(51,166,l)
-);
+pos = (0,-280);
+ref = minus;
 },
 {
-closed = 1;
-nodes = (
-(521,47,l),
-(521,118,l),
-(51,118,l),
-(51,47,l)
-);
+pos = (0,39);
+ref = greater;
 }
 );
-width = 572;
+width = 573;
 }
 );
+metricLeft = "=minus";
+metricRight = "=minus";
 unicode = 8805;
 }

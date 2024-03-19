@@ -5,24 +5,18 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (285,299);
+pos = (285,278);
 }
 );
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(521,0,l),
-(521,71,l),
-(50,71,l),
-(50,0,l)
-);
+alignment = -1;
+ref = plus;
 },
 {
-alignment = -1;
-pos = (0,3);
-ref = plus;
+pos = (0,-206);
+ref = minus;
 }
 );
 userData = {

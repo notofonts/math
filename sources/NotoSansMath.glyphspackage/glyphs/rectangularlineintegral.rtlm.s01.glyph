@@ -1,0 +1,28 @@
+{
+color = 3;
+glyphname = rectangularlineintegral.rtlm.s01;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (1552,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (0,655);
+ref = rectangularlineintegral.s01;
+scale = (1,-1);
+}
+);
+width = 1052;
+}
+);
+metricLeft = "=51";
+metricRight = "=51";
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

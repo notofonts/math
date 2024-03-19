@@ -1,0 +1,34 @@
+{
+glyphname = dblverticalbar.s05;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (326,325);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+piece = {
+Size = 5;
+};
+ref = _part.bar;
+},
+{
+alignment = -1;
+piece = {
+Size = 5;
+};
+pos = (220,0);
+ref = _part.bar;
+}
+);
+width = 661;
+}
+);
+metricLeft = "=bar";
+metricRight = "=bar";
+}

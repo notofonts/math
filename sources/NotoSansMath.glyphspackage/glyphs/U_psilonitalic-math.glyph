@@ -1,7 +1,5 @@
 {
 glyphname = "Upsilonitalic-math";
-kernLeft = GRK_Upsilon;
-kernRight = GRK_Upsilon;
 layers = (
 {
 layerId = master01;

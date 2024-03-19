@@ -1,0 +1,34 @@
+{
+glyphname = narysquareunion;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (385,237);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (0,474);
+ref = narysquareintersection;
+scale = (1,-1);
+}
+);
+width = 770;
+}
+);
+metricLeft = "=51";
+metricRight = "=|";
+unicode = 10758;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+narysquareunion,
+narysquareunion.s01
+);
+};
+};
+}

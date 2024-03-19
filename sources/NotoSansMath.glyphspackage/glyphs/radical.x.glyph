@@ -2,20 +2,14 @@
 glyphname = radical.x;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (653,500);
-}
-);
 layerId = master01;
 shapes = (
 {
 closed = 1;
 nodes = (
 (696,0,l),
-(696,1000,l),
-(625,1000,l),
+(696,1070,l),
+(625,1070,l),
 (625,0,l)
 );
 }

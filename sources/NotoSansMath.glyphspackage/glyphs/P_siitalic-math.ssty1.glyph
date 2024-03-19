@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = "Psiitalic-math.ssty1";
-kernLeft = GRK_Psi;
-kernRight = GRK_Psi;
 layers = (
 {
 anchors = (

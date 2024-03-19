@@ -1,0 +1,24 @@
+{
+glyphname = narycircledplus.s01;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (630,337);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (-20,-135);
+ref = narycircledplus;
+scale = (1.4,1.4);
+}
+);
+width = 1438;
+}
+);
+metricLeft = "=51";
+metricRight = "=|";
+}

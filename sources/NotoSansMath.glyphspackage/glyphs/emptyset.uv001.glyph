@@ -15,7 +15,7 @@ shapes = (
 ref = zero;
 },
 {
-pos = (72,0);
+pos = (72,80);
 ref = slashlongcomb;
 }
 );

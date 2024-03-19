@@ -1,7 +1,5 @@
 {
 glyphname = "Chiitalic-math";
-kernLeft = GRK_Chi;
-kernRight = GRK_Chi;
 layers = (
 {
 layerId = master01;

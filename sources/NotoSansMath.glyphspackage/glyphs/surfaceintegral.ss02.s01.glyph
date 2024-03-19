@@ -1,0 +1,26 @@
+{
+glyphname = surfaceintegral.ss02.s01;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (821,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = dblintegral.ss02.s01;
+},
+{
+pos = (1,0);
+ref = _contour2.integral;
+}
+);
+width = 731;
+}
+);
+metricRight = "=51@1400";
+}

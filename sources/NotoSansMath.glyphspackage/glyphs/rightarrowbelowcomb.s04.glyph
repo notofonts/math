@@ -1,0 +1,23 @@
+{
+glyphname = rightarrowbelowcomb.s04;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (904,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 4;
+};
+ref = _part.rightarrowbelowcomb;
+}
+);
+width = 1808;
+}
+);
+}

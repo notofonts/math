@@ -1,0 +1,23 @@
+{
+glyphname = topsquarebracket.s05;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (2000,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 5;
+};
+ref = _part.topsquarebracket;
+}
+);
+width = 4000;
+}
+);
+}

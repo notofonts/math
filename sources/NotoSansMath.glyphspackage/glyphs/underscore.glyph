@@ -11,44 +11,21 @@ pos = (222,-126);
 layerId = master01;
 shapes = (
 {
-piece = {
-Size = 0;
-};
-ref = _part.underscore;
+closed = 1;
+nodes = (
+(444,-131,l),
+(444,-60,l),
+(0,-60,l),
+(0,-131,l)
+);
 }
 );
 userData = {
 com.nagwa.MATHPlugin.variants = {
-hAssembly = (
-(
-underscore,
-1,
-400,
-400
-),
-(
-underscore,
-0,
-400,
-400
-)
-);
 };
 };
 width = 444;
 }
 );
 unicode = 95;
-userData = {
-com.nagwa.MATHPlugin.variants = {
-hVariants = (
-underscore,
-underscore.s1,
-underscore.s2,
-underscore.s3,
-underscore.s4,
-underscore.s5
-);
-};
-};
 }

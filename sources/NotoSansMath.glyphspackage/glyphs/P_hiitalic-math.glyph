@@ -1,7 +1,5 @@
 {
 glyphname = "Phiitalic-math";
-kernLeft = GRK_Omicron;
-kernRight = GRK_Omicron;
 layers = (
 {
 anchors = (

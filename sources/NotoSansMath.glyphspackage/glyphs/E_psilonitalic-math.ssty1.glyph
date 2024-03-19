@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = "Epsilonitalic-math.ssty1";
-kernLeft = GRK_Epsilon;
-kernRight = GRK_Epsilon;
 layers = (
 {
 layerId = master01;

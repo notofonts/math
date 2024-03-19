@@ -1,7 +1,5 @@
 {
 glyphname = "betaitalic-math";
-kernLeft = GRK_mu;
-kernRight = GRK_beta;
 layers = (
 {
 anchors = (

@@ -3,12 +3,6 @@ export = 0;
 glyphname = _part.rightFloor;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (181,314);
-}
-);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -17,24 +11,18 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(261,786,l),
-(261,-94,l),
-(30,-94,l),
-(30,-158,l),
-(332,-158,l),
-(332,786,l)
+(349,-158,l),
+(349,784,l),
+(263,784,l),
+(263,-72,l),
+(25,-72,l),
+(25,-158,l)
 );
 }
 );
-width = 383;
+width = 429;
 },
 {
-anchors = (
-{
-name = center;
-pos = (283,276);
-}
-);
 associatedMasterId = master01;
 layerId = "03FAD9D5-2BF9-4D0E-B827-702BF1C900CC";
 name = "Regular-Large";
@@ -45,18 +33,20 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(425,2160,l),
-(425,-1514,l),
-(50,-1514,l),
-(50,-1608,l),
-(517,-1608,l),
-(517,2160,l)
+(361,-1606,l),
+(361,2162,l),
+(269,2162,l),
+(269,-1514,l),
+(25,-1514,l),
+(25,-1606,l)
 );
 }
 );
-width = 594;
+width = 441;
 }
 );
+metricLeft = "=_part.rightCeiling";
+metricRight = _part.rightCeiling;
 partsSettings = (
 {
 bottomValue = 0;
@@ -64,4 +54,5 @@ name = Size;
 topValue = 12;
 }
 );
+sortName = fence09;
 }

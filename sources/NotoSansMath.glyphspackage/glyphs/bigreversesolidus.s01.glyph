@@ -1,0 +1,27 @@
+{
+glyphname = bigreversesolidus.s01;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (275,237);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (-20,-95);
+ref = bigreversesolidus;
+scale = (1.4,1.4);
+}
+);
+width = 550;
+}
+);
+metricLeft = "=51";
+metricRight = "=|";
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

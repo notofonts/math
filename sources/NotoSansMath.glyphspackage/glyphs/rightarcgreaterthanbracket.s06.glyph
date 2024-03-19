@@ -1,0 +1,19 @@
+{
+glyphname = rightarcgreaterthanbracket.s06;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 6;
+};
+ref = _part.rightarcgreaterthanbracket;
+}
+);
+width = 776;
+}
+);
+metricLeft = "=51";
+metricRight = "=|";
+}

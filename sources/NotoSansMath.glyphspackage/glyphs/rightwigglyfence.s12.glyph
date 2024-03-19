@@ -1,0 +1,23 @@
+{
+glyphname = rightwigglyfence.s12;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (172,313);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 12;
+};
+ref = _part.rightwigglyfence;
+}
+);
+width = 617;
+}
+);
+}
