@@ -1,6 +1,5 @@
 {
-export = 0;
-glyphname = _part.circle;
+glyphname = _circle;
 layers = (
 {
 anchors = (
