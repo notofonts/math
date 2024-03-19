@@ -1,7 +1,5 @@
 {
 glyphname = "etaitalic-math";
-kernLeft = GRK_eta;
-kernRight = GRK_eta;
 layers = (
 {
 anchors = (

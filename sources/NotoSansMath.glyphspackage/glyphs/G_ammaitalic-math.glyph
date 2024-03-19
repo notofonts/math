@@ -1,7 +1,5 @@
 {
 glyphname = "Gammaitalic-math";
-kernLeft = GRK_Epsilon;
-kernRight = GRK_Gamma;
 layers = (
 {
 anchors = (

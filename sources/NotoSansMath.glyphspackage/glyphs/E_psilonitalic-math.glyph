@@ -1,7 +1,5 @@
 {
 glyphname = "Epsilonitalic-math";
-kernLeft = GRK_Epsilon;
-kernRight = GRK_Epsilon;
 layers = (
 {
 layerId = master01;

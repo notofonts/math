@@ -1,7 +1,5 @@
 {
 glyphname = "Zetaitalic-math";
-kernLeft = GRK_Zeta;
-kernRight = GRK_Zeta;
 layers = (
 {
 layerId = master01;

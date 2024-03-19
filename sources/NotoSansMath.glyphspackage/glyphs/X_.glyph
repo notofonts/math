@@ -1,6 +1,5 @@
 {
 glyphname = X;
-kernRight = K.left;
 layers = (
 {
 anchors = (

@@ -1,7 +1,5 @@
 {
 glyphname = b;
-kernLeft = b;
-kernRight = o.left;
 layers = (
 {
 anchors = (

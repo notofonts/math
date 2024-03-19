@@ -1,7 +1,5 @@
 {
 glyphname = "thetaitalic-math";
-kernLeft = GRK_theta;
-kernRight = GRK_theta;
 layers = (
 {
 anchors = (

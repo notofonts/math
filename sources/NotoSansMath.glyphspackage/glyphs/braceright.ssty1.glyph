@@ -1,7 +1,6 @@
 {
 color = 4;
 glyphname = braceright.ssty1;
-kernLeft = Paren.right;
 layers = (
 {
 anchors = (

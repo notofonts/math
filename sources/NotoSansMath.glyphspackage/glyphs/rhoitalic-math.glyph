@@ -1,7 +1,5 @@
 {
 glyphname = "rhoitalic-math";
-kernLeft = GRK_mu;
-kernRight = GRK_omicron;
 layers = (
 {
 anchors = (

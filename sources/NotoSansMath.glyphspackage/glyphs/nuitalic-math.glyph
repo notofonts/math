@@ -1,7 +1,5 @@
 {
 glyphname = "nuitalic-math";
-kernLeft = GRK_gamma;
-kernRight = GRK_gamma;
 layers = (
 {
 anchors = (

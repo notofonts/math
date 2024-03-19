@@ -1,7 +1,5 @@
 {
 glyphname = "Rhoitalic-math";
-kernLeft = GRK_Epsilon;
-kernRight = GRK_Rho;
 layers = (
 {
 layerId = master01;

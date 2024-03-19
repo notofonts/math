@@ -1,7 +1,5 @@
 {
 glyphname = "Alphaitalic-math";
-kernLeft = GRK_Alpha;
-kernRight = GRK_Alpha;
 layers = (
 {
 layerId = master01;
