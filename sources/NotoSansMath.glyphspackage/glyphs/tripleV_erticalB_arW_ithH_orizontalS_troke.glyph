@@ -11,21 +11,21 @@ pos = (367,278);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(684,243,l),
-(684,314,l),
-(51,314,l),
-(51,243,l)
-);
-},
-{
 pos = (94,0);
 ref = tripleVerticalBarBinaryRelation;
+},
+{
+ref = minus;
+},
+{
+pos = (163,0);
+ref = minus;
 }
 );
 width = 735;
 }
 );
+metricLeft = "=51";
+metricRight = "=51";
 unicode = 10997;
 }

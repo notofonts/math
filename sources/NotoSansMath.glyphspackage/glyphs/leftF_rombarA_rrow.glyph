@@ -5,22 +5,17 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (506,279);
+pos = (506,278);
 }
 );
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(961,84,l),
-(961,474,l),
-(890,474,l),
-(890,84,l)
-);
+ref = leftArrow;
 },
 {
-ref = leftArrow;
+pos = (890,0);
+ref = _bar.arrow;
 }
 );
 width = 1012;

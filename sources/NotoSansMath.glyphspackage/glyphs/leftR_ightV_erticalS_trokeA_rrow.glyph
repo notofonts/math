@@ -5,16 +5,11 @@ layers = (
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(601,83,l),
-(601,473,l),
-(529,473,l),
-(529,83,l)
-);
+ref = leftRightArrow;
 },
 {
-ref = leftRightArrow;
+pos = (530,0);
+ref = _bar.arrow;
 }
 );
 width = 1130;

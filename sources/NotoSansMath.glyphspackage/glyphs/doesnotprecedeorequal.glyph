@@ -11,16 +11,12 @@ pos = (271,320);
 layerId = master01;
 shapes = (
 {
+alignment = 1;
 ref = precedesorequalto;
 },
 {
-closed = 1;
-nodes = (
-(455,717,l),
-(393,735,l),
-(181,-76,l),
-(243,-94,l)
-);
+pos = (181,0);
+ref = slashlongcomb.alt;
 }
 );
 width = 542;

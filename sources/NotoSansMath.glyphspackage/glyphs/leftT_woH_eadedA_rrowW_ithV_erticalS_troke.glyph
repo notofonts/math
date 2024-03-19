@@ -11,26 +11,15 @@ pos = (572,278);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(993,243,l),
-(993,314,l),
-(184,314,l),
-(184,243,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(740,83,l),
-(740,473,l),
-(669,473,l),
-(669,83,l)
-);
-},
-{
-pos = (0,-1);
 ref = leftTwoheadedArrow;
+},
+{
+pos = (669,0);
+ref = _bar.arrow;
+},
+{
+pos = (472,1);
+ref = minus;
 }
 );
 width = 1044;
