@@ -1,5 +1,5 @@
 {
-.appVersion = "3247";
+.appVersion = "3249";
 .formatVersion = 3;
 classes = (
 {
@@ -1086,11 +1086,10 @@ stemValues = (
 );
 userData = {
 GSCornerRadius = 20;
-GSOffsetHorizontal = 35.5;
+GSOffsetHorizontal = 40;
+GSOffsetKeepCompatible = 1;
 GSOffsetMakeStroke = 1;
-GSOffsetPosition = 1;
-GSOffsetProportional = 1;
-GSOffsetVertical = 22;
+GSOffsetVertical = 41;
 com.nagwa.MATHPlugin.constants = {
 AccentBaseHeight = 556;
 AxisHeight = 278;
@@ -1151,6 +1150,7 @@ UpperLimitBaselineRiseMin = 200;
 UpperLimitGapMin = 100;
 };
 };
+visible = 1;
 }
 );
 instances = (

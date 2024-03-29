@@ -2,37 +2,23 @@
 glyphname = "stretchednoonArabic-math";
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (325,470);
-},
-{
-name = mark0;
-pos = (403,717);
-},
-{
-name = mark1;
-pos = (546,102);
-}
-);
 layerId = master01;
 shapes = (
 {
 closed = 1;
 nodes = (
-(484,555,o),
-(519,593,o),
-(529,610,c),
-(507,629,o),
-(487,649,o),
-(463,675,c),
-(445,654,o),
-(418,626,o),
-(393,601,c),
-(414,579,o),
-(440,556,o),
-(465,537,c)
+(446,507,o),
+(468,529,o),
+(468,556,cs),
+(468,583,o),
+(446,606,o),
+(419,606,cs),
+(391,606,o),
+(369,583,o),
+(369,556,cs),
+(369,529,o),
+(391,507,o),
+(419,507,cs)
 );
 },
 {
@@ -42,7 +28,7 @@ ref = "stretcheddotlessbehArabic-math";
 userData = {
 com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = "stretcheddotlessbehArabic-math";
 };
-width = 624;
+width = 560;
 }
 );
 unicode = 126573;
