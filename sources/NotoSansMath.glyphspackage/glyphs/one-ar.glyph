@@ -1,0 +1,26 @@
+{
+glyphname = "one-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(369,102,o),
+(344,488,o),
+(280,681,c),
+(201,659,l),
+(259,487,o),
+(289,42,o),
+(289,-4,c),
+(371,6,l)
+);
+}
+);
+width = 572;
+}
+);
+metricWidth = "=zero";
+unicode = (1633,1777);
+}
