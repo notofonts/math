@@ -934,7 +934,9 @@
     <glyph name="radical.b" unicode="23B7" production="uni23B7" category="Symbol" subCategory="Radical" sortName="b.op26" />
     <glyph name="cuberoot" unicode="221B" production="uni221B"  category="Symbol" subCategory="Radical" sortName="op26a" />
     <glyph name="fourthroot" unicode="221C" production="uni221C"  category="Symbol" subCategory="Radical" sortName="op26b" />
-    <glyph name="longDivision" unicode="27CC" production="uni27CC" category="Symbol" subCategory="Radical" sortName="op26c" />
+    <glyph name="fourthroot-ar" unicode="0607" production="uni0607"  category="Symbol" subCategory="Radical" script="" sortName="rtlm.op26c" />
+    <glyph name="cuberoot-ar" unicode="0606" production="uni0606"  category="Symbol" subCategory="Radical" script="" sortName="rtlm.op26d" />
+    <glyph name="longDivision" unicode="27CC" production="uni27CC" category="Symbol" subCategory="Radical" sortName="op26e" />
 
     <glyph name="increment" unicode="2206" category="Symbol" subCategory="Math" sortName="" />
     <glyph name="micro" unicode="00B5" category="Symbol" subCategory="Math" sortName="" />
