@@ -42,8 +42,6 @@ includeSubsets:
         end: 0x02C6
       - start: 0x0310
         end: 0x0310
-      - start: 0x0315
-        end: 0x0315
       - start: 0x031A
         end: 0x031A
       - start: 0x03F6
@@ -68,8 +66,6 @@ includeSubsets:
         end: 0x2047
       - start: 0x20AC
         end: 0x20AC
-      - start: 0x20F0
-        end: 0x20F0
       - start: 0x2107
         end: 0x2107
       - start: 0x2118
