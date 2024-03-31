@@ -1,0 +1,26 @@
+{
+glyphname = blank;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(644,-209,l),
+(644,0,l),
+(572,0,l),
+(572,-138,l),
+(123,-138,l),
+(123,0,l),
+(51,0,l),
+(51,-209,l)
+);
+}
+);
+width = 695;
+}
+);
+note = uni2423;
+unicode = 9251;
+}

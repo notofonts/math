@@ -1,0 +1,31 @@
+{
+glyphname = whiteMediumLozenge;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(459,363,l),
+(255,705,l),
+(51,363,l),
+(255,19,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(107,363,l),
+(255,611,l),
+(403,363,l),
+(255,113,l)
+);
+}
+);
+width = 510;
+}
+);
+note = uni2B28;
+unicode = 11048;
+}

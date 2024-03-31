@@ -1,0 +1,59 @@
+{
+glyphname = "notedbl-musical";
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (323,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(190,-35,o),
+(252,24,o),
+(252,110,cs),
+(252,519,l),
+(237,495,l),
+(569,587,l),
+(552,601,l),
+(552,153,l),
+(536,159,o),
+(519,163,o),
+(503,163,cs),
+(448,163,o),
+(395,115,o),
+(395,61,cs),
+(395,27,o),
+(416,5,o),
+(458,5,cs),
+(527,5,o),
+(589,64,o),
+(589,150,cs),
+(589,659,l),
+(215,563,l),
+(215,113,l),
+(199,119,o),
+(182,123,o),
+(166,123,cs),
+(111,123,o),
+(58,75,o),
+(58,21,cs),
+(58,-13,o),
+(79,-35,o),
+(121,-35,cs)
+);
+}
+);
+vertWidth = 0;
+width = 647;
+}
+);
+metricLeft = "quarternote-musical";
+metricRight = "quarternote-musical";
+note = musicalnotedbl;
+unicode = 9835;
+}

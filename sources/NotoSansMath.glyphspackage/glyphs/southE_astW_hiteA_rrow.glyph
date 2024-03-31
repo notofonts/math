@@ -1,0 +1,37 @@
+{
+glyphname = southEastWhiteArrow;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(645,6,l),
+(645,402,l),
+(537,294,l),
+(231,600,l),
+(51,420,l),
+(357,114,l),
+(249,6,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(400,114,l),
+(93,420,l),
+(231,558,l),
+(537,251,l),
+(615,329,l),
+(615,36,l),
+(322,36,l)
+);
+}
+);
+width = 696;
+}
+);
+note = uni2B02;
+unicode = 11010;
+}

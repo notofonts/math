@@ -1,0 +1,38 @@
+{
+glyphname = flatness;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (683,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1000,0,l),
+(1315,510,l),
+(368,510,l),
+(51,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(414,439,l),
+(1180,439,l),
+(954,71,l),
+(186,71,l)
+);
+}
+);
+vertWidth = 0;
+width = 1366;
+}
+);
+note = uni23E5;
+unicode = 9189;
+}

@@ -1,0 +1,42 @@
+{
+glyphname = softwareFunctionsymbol;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (414,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(597,44,l),
+(777,357,l),
+(597,670,l),
+(231,670,l),
+(51,357,l),
+(231,44,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(130,357,l),
+(279,611,l),
+(549,611,l),
+(698,357,l),
+(549,103,l),
+(279,103,l)
+);
+}
+);
+vertWidth = 0;
+width = 828;
+}
+);
+note = uni2394;
+unicode = 9108;
+}

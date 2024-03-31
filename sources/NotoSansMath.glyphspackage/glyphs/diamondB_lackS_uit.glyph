@@ -1,0 +1,22 @@
+{
+glyphname = diamondBlackSuit;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(555,357,l),
+(303,728,l),
+(51,357,l),
+(303,-14,l)
+);
+}
+);
+width = 606;
+}
+);
+note = diamond;
+unicode = 9830;
+}

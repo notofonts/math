@@ -1,0 +1,56 @@
+{
+glyphname = viewdataSquare;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (411,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(772,111,l),
+(772,180,l),
+(51,180,l),
+(51,111,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(772,535,l),
+(772,604,l),
+(51,604,l),
+(51,535,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(234,-3,l),
+(234,718,l),
+(165,718,l),
+(165,-3,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(658,-3,l),
+(658,718,l),
+(589,718,l),
+(589,-3,l)
+);
+}
+);
+vertWidth = 0;
+width = 823;
+}
+);
+note = uni2317;
+unicode = 8983;
+}

@@ -1,0 +1,29 @@
+{
+glyphname = straightness;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (512,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(974,285,l),
+(974,356,l),
+(51,356,l),
+(51,285,l)
+);
+}
+);
+vertWidth = 0;
+width = 1025;
+}
+);
+note = uni23E4;
+unicode = 9188;
+}

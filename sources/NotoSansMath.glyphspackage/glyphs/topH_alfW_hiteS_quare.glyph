@@ -1,0 +1,31 @@
+{
+glyphname = topHalfWhiteSquare;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(649,0,l),
+(649,598,l),
+(51,598,l),
+(51,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(88,561,l),
+(612,561,l),
+(612,299,l),
+(88,299,l)
+);
+}
+);
+width = 700;
+}
+);
+note = uni2B13;
+unicode = 11027;
+}

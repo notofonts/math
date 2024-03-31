@@ -1,0 +1,24 @@
+{
+glyphname = blackHexagon;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(775,150,l),
+(775,574,l),
+(413,795,l),
+(51,574,l),
+(51,150,l),
+(413,-71,l)
+);
+}
+);
+width = 826;
+}
+);
+note = uni2B22;
+unicode = 11042;
+}

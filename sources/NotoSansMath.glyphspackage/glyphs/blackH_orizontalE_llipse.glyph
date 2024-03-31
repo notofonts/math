@@ -1,0 +1,30 @@
+{
+glyphname = blackHorizontalEllipse;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(646,129,o),
+(827,233,o),
+(827,362,cs),
+(827,504,o),
+(665,596,o),
+(439,596,cs),
+(210,596,o),
+(51,503,o),
+(51,362,cs),
+(51,222,o),
+(213,129,o),
+(439,129,cs)
+);
+}
+);
+width = 878;
+}
+);
+note = uni2B2C;
+unicode = 11052;
+}
