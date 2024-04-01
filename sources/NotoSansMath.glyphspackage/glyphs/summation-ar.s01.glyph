@@ -1,0 +1,21 @@
+{
+glyphname = "summation-ar.s01";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+pos = (-20,-239);
+ref = "summation-ar";
+scale = (1.4,1.4);
+}
+);
+userData = {
+com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = "=|";
+};
+width = 1747;
+}
+);
+metricLeft = "=51";
+metricRight = "=51";
+}

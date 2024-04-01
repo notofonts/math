@@ -1085,7 +1085,7 @@ stemValues = (
 42
 );
 userData = {
-GSCornerRadius = 20;
+GSCornerRadius = 88;
 GSOffsetHorizontal = 40;
 GSOffsetKeepCompatible = 1;
 GSOffsetMakeStroke = 1;
