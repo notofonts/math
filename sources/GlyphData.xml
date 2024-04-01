@@ -929,6 +929,8 @@
     <glyph name="naryunion" unicode="22C3" production="uni22C3" category="Symbol" subCategory="Largeop" sortName="op25" />
     <glyph name="narytripleverticalbar" unicode="2AFC" production="uni2AFC" category="Symbol" subCategory="Largeop" sortName="op43" />
     <glyph name="narywhiteverticalbar" unicode="2AFF" production="uni2AFF" category="Symbol" subCategory="Largeop" sortName="op44" />
+    <glyph name="summation-ar" unicode="1EEF0" production="u1EEF0" category="Symbol" subCategory="Largeop" script="" sortName="op50" />
+    <glyph name="limitFarsi-ar" unicode="1EEF1" production="u1EEF1" category="Symbol" subCategory="Largeop" script="" sortName="op51" />
 
     <glyph name="radical" unicode="221A" production="uni221A"  category="Symbol" subCategory="Radical" sortName="op26" />
     <glyph name="radical.b" unicode="23B7" production="uni23B7" category="Symbol" subCategory="Radical" sortName="b.op26" />

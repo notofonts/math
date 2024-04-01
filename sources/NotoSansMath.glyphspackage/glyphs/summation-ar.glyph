@@ -1,5 +1,5 @@
 {
-glyphname = "OperatorMeemWithHahWithTatweelArabic-math";
+glyphname = "summation-ar";
 layers = (
 {
 anchors = (
@@ -202,6 +202,5 @@ com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = "=|";
 width = 1002;
 }
 );
-production = u1EEF0;
 unicode = 126704;
 }
