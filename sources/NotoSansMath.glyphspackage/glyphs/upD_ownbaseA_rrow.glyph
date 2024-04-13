@@ -21,7 +21,7 @@ pos = (543,-237);
 ref = leftTabArrow;
 }
 );
-width = 531;
+width = 532;
 }
 );
 metricLeft = "=70";

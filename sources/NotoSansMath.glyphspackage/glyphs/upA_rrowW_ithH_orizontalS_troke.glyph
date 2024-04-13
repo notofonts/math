@@ -5,18 +5,18 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (266,278);
+pos = (265,278);
 }
 );
 layerId = master01;
 shapes = (
 {
 angle = 90;
-pos = (544,-228);
+pos = (543,-228);
 ref = rightVerticalStrokeArrow;
 }
 );
-width = 531;
+width = 530;
 }
 );
 metricLeft = "=70";

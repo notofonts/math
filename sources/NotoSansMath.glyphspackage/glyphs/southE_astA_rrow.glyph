@@ -5,14 +5,14 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (390,278);
+pos = (391,278);
 }
 );
 layerId = master01;
 shapes = (
 {
 angle = 135;
-pos = (558,-285);
+pos = (559,-285);
 ref = leftArrow;
 scale = (1,-1);
 }
