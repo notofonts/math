@@ -3,36 +3,13 @@ color = 3;
 glyphname = minusSignWithCommaAbove.rtlm;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (286,509);
-}
-);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(339,541,o),
-(322,622,o),
-(311,701,c),
-(217,701,l),
-(210,690,l),
-(228,620,o),
-(257,542,o),
-(296,456,c),
-(361,456,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(521,388,l),
-(51,388,l),
-(51,317,l),
-(521,317,l)
-);
+alignment = 1;
+pos = (572,0);
+ref = minusSignWithCommaAbove;
+scale = (-1,1);
 }
 );
 width = 572;

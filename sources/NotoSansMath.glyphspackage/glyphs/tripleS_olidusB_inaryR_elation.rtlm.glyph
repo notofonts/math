@@ -3,40 +3,13 @@ color = 3;
 glyphname = tripleSolidusBinaryRelation.rtlm;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (388,319);
-}
-);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(122,760,l),
-(51,760,l),
-(281,-121,l),
-(352,-121,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(496,760,l),
-(425,760,l),
-(655,-121,l),
-(726,-121,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(309,760,l),
-(238,760,l),
-(468,-121,l),
-(539,-121,l)
-);
+alignment = 1;
+pos = (777,0);
+ref = tripleSolidusBinaryRelation;
+scale = (-1,1);
 }
 );
 width = 777;

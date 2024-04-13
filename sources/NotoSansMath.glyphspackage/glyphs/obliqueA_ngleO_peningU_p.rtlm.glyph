@@ -3,24 +3,13 @@ color = 3;
 glyphname = obliqueAngleOpeningUp.rtlm;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (310,282);
-}
-);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(569,364,l),
-(519,414,l),
-(324,221,l),
-(51,221,l),
-(51,150,l),
-(354,150,l)
-);
+alignment = 1;
+pos = (620,0);
+ref = obliqueAngleOpeningUp;
+scale = (-1,1);
 }
 );
 width = 620;

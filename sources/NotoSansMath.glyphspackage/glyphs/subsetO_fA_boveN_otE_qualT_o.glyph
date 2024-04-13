@@ -2,46 +2,8 @@
 glyphname = subsetOfAboveNotEqualTo;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (339,234);
-}
-);
 layerId = master01;
 shapes = (
-{
-closed = 1;
-nodes = (
-(628,194,l),
-(628,265,l),
-(394,265,ls),
-(196,265,o),
-(123,315,o),
-(123,435,cs),
-(123,556,o),
-(197,605,o),
-(394,605,cs),
-(628,605,l),
-(628,676,l),
-(394,676,ls),
-(159,676,o),
-(51,602,o),
-(51,435,cs),
-(51,268,o),
-(159,194,o),
-(394,194,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(628,-106,l),
-(628,-35,l),
-(51,-35,l),
-(51,-106,l)
-);
-},
 {
 closed = 1;
 nodes = (
@@ -52,13 +14,7 @@ nodes = (
 );
 },
 {
-closed = 1;
-nodes = (
-(628,54,l),
-(628,125,l),
-(51,125,l),
-(51,54,l)
-);
+ref = subsetOfAboveEqualsSign;
 }
 );
 width = 679;

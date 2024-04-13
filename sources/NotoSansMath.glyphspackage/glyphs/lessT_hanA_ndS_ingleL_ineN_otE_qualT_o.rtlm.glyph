@@ -3,42 +3,13 @@ color = 3;
 glyphname = lessThanAndSingleLineNotEqualTo.rtlm;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (286,292);
-}
-);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(521,387,l),
-(521,437,l),
-(51,658,l),
-(51,580,l),
-(417,412,l),
-(51,244,l),
-(51,166,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(382,-45,l),
-(339,47,l),
-(521,47,l),
-(521,118,l),
-(305,118,l),
-(256,220,l),
-(199,190,l),
-(233,118,l),
-(51,118,l),
-(51,47,l),
-(267,47,l),
-(324,-73,l)
-);
+alignment = 1;
+pos = (572,0);
+ref = lessThanAndSingleLineNotEqualTo;
+scale = (-1,1);
 }
 );
 width = 572;

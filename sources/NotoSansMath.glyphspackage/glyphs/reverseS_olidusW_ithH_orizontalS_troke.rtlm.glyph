@@ -3,30 +3,13 @@ color = 3;
 glyphname = reverseSolidusWithHorizontalStroke.rtlm;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (269,319);
-}
-);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(296,286,l),
-(488,286,l),
-(488,353,l),
-(314,353,l),
-(420,760,l),
-(349,760,l),
-(243,353,l),
-(51,353,l),
-(51,286,l),
-(225,286,l),
-(119,-121,l),
-(190,-121,l)
-);
+alignment = 1;
+pos = (539,0);
+ref = reverseSolidusWithHorizontalStroke;
+scale = (-1,1);
 }
 );
 width = 539;

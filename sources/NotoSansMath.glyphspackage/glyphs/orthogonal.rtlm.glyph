@@ -3,24 +3,13 @@ color = 3;
 glyphname = orthogonal.rtlm;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (326,275);
-}
-);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(601,550,l),
-(530,550,l),
-(530,71,l),
-(51,71,l),
-(51,0,l),
-(601,0,l)
-);
+alignment = 1;
+pos = (652,0);
+ref = orthogonal;
+scale = (-1,1);
 }
 );
 width = 652;

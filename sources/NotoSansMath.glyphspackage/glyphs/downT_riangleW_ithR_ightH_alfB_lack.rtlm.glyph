@@ -3,29 +3,13 @@ color = 3;
 glyphname = downTriangleWithRightHalfBlack.rtlm;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (474,355);
-}
-);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(897,714,l),
-(51,714,l),
-(474,-3,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(474,643,l),
-(753,643,l),
-(474,164,l)
-);
+alignment = 1;
+pos = (948,0);
+ref = downTriangleWithRightHalfBlack;
+scale = (-1,1);
 }
 );
 width = 948;
