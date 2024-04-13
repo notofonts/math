@@ -2,6 +2,12 @@
 glyphname = dbloverlinecomb.s00;
 layers = (
 {
+anchors = (
+{
+name = math.ta;
+pos = (209,0);
+}
+);
 layerId = master01;
 shapes = (
 {
