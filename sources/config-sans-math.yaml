@@ -48,6 +48,8 @@ includeSubsets:
         end: 0x03F6
       - start: 0x0410
         end: 0x044F
+      - start: 0x2010
+        end: 0x2010
       - start: 0x2015
         end: 0x2015
       - start: 0x2017
@@ -72,6 +74,10 @@ includeSubsets:
         end: 0x2118
       - start: 0x2127
         end: 0x2127
+      - start: 0x2129
+        end: 0x2129
+      - start: 0x212B
+        end: 0x212B
       - start: 0x2132
         end: 0x2132
       - start: 0x2141
