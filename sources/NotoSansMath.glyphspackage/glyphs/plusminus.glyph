@@ -19,9 +19,6 @@ pos = (0,-206);
 ref = minus;
 }
 );
-userData = {
-com.schriftgestaltung.Glyphs.glyph.widthMetricsKey = "=plus";
-};
 width = 572;
 }
 );

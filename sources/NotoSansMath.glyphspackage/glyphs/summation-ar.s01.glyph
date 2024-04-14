@@ -10,9 +10,6 @@ ref = "summation-ar";
 scale = (1.4,1.4);
 }
 );
-userData = {
-com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = "=|";
-};
 width = 1747;
 }
 );

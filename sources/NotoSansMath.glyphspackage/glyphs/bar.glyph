@@ -31,7 +31,6 @@ bar.x,
 )
 );
 };
-com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = "=|";
 };
 width = 433;
 }

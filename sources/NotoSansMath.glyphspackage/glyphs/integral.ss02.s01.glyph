@@ -21,11 +21,6 @@ Size = 12;
 ref = _part.integral.ss02;
 }
 );
-userData = {
-math = {
-italicCorrection = 100;
-};
-};
 width = 472;
 }
 );

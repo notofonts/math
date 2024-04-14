@@ -51,9 +51,6 @@ nodes = (
 );
 }
 );
-userData = {
-com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = "=|";
-};
 width = 749;
 },
 {
@@ -105,9 +102,6 @@ nodes = (
 );
 }
 );
-userData = {
-com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = "=|";
-};
 width = 525;
 }
 );

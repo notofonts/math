@@ -43,26 +43,6 @@ nodes = (
 );
 }
 );
-userData = {
-com.schriftgestaltung.annotations = (
-{
-position = (
-21,
-21
-);
-type = Text;
-width = 100;
-},
-{
-position = (
--385,
--1767
-);
-type = Text;
-width = 100;
-}
-);
-};
 width = 684;
 }
 );

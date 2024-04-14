@@ -8,9 +8,6 @@ name = center;
 }
 );
 layerId = master01;
-userData = {
-com.schriftgestaltung.Glyphs.glyph.widthMetricsKey = space;
-};
 width = 260;
 }
 );

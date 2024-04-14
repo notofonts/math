@@ -19,8 +19,6 @@ ref = bar.x;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 };
-com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = "=bar";
-com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = "=bar";
 };
 width = 892;
 }

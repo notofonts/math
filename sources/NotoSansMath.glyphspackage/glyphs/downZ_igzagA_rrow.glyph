@@ -45,9 +45,6 @@ nodes = (
 );
 }
 );
-userData = {
-public.verticalOrigin = 1069;
-};
 width = 619;
 }
 );

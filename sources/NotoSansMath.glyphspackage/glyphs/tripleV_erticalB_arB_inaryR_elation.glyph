@@ -22,9 +22,6 @@ pos = (374,0);
 ref = divides;
 }
 );
-userData = {
-com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = "=|";
-};
 width = 547;
 }
 );

@@ -74,10 +74,6 @@ pos = (182,6);
 ref = _contour1.integral;
 }
 );
-userData = {
-math = {
-};
-};
 width = 836;
 }
 );

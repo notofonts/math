@@ -8,9 +8,6 @@ shapes = (
 ref = "_part.limitFarsi-ar";
 }
 );
-userData = {
-com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = "=|";
-};
 width = 1477;
 }
 );

@@ -21,11 +21,6 @@ Size = 12;
 ref = _part.integral;
 }
 );
-userData = {
-math = {
-italicCorrection = 100;
-};
-};
 width = 1052;
 }
 );

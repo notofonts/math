@@ -78,9 +78,6 @@ nodes = (
 );
 }
 );
-userData = {
-com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = "stretcheddotlessbehArabic-math";
-};
 width = 1075;
 }
 );

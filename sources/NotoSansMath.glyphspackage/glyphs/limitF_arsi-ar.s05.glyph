@@ -11,9 +11,6 @@ Size = 5;
 ref = "_part.limitFarsi-ar";
 }
 );
-userData = {
-com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = "=|";
-};
 width = 4000;
 }
 );

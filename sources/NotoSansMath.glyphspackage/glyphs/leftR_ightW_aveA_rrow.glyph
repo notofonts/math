@@ -88,18 +88,6 @@ nodes = (
 );
 }
 );
-userData = {
-com.schriftgestaltung.annotations = (
-{
-position = (
-616,
--11
-);
-type = Text;
-width = 100;
-}
-);
-};
 width = 1221;
 }
 );

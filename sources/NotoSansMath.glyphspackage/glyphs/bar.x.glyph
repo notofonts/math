@@ -17,7 +17,6 @@ nodes = (
 userData = {
 com.nagwa.MATHPlugin.variants = {
 };
-com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = "=|";
 };
 width = 452;
 }

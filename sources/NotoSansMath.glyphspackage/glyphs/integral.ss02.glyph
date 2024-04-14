@@ -41,9 +41,6 @@ integral.ss02.t,
 )
 );
 };
-math = {
-italicCorrection = 140;
-};
 };
 width = 472;
 }

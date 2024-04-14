@@ -17,9 +17,6 @@ Size = 12;
 ref = _part.bar;
 }
 );
-userData = {
-com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = "=|";
-};
 width = 452;
 }
 );

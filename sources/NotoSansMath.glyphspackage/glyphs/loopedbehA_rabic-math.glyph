@@ -68,9 +68,6 @@ nodes = (
 );
 }
 );
-userData = {
-com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = "=|-20";
-};
 width = 1028;
 }
 );

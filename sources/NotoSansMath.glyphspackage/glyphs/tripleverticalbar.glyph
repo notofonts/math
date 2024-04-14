@@ -42,8 +42,6 @@ tripleverticalbar.x,
 )
 );
 };
-com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = "=bar";
-com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = "=bar";
 };
 width = 873;
 }

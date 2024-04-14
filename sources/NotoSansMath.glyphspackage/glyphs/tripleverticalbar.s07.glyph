@@ -34,10 +34,6 @@ pos = (440,0);
 ref = _part.bar;
 }
 );
-userData = {
-com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = "=bar";
-com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = "=bar";
-};
 width = 884;
 }
 );

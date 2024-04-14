@@ -96,10 +96,6 @@ nodes = (
 );
 }
 );
-userData = {
-math = {
-};
-};
 width = 472;
 }
 );

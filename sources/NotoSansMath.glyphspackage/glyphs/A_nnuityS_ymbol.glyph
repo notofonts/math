@@ -22,9 +22,6 @@ nodes = (
 );
 }
 );
-userData = {
-com.schriftgestaltung.Glyphs.originalWidth = 833;
-};
 width = 143;
 }
 );

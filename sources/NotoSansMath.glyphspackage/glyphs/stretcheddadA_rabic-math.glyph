@@ -25,9 +25,6 @@ nodes = (
 ref = "stretchedsadArabic-math";
 }
 );
-userData = {
-com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = "stretcheddotlessbehArabic-math";
-};
 width = 1194;
 }
 );
