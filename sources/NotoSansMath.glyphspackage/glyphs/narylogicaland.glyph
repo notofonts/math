@@ -5,7 +5,7 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (460,311);
+pos = (460,237);
 }
 );
 layerId = master01;
@@ -13,26 +13,29 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(127,-92,l),
-(460,619,l),
-(793,-92,l),
-(869,-92,l),
+(127,-240,l),
+(475,637,l),
+(445,637,l),
+(793,-240,l),
+(869,-240,l),
 (490,714,l),
 (430,714,l),
-(51,-92,l)
+(51,-240,l)
 );
 }
 );
 width = 920;
 }
 );
+metricLeft = "=51";
+metricRight = "=|";
 unicode = 8896;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 narylogicaland,
-narylogicaland.s1
+narylogicaland.s01
 );
 };
 };

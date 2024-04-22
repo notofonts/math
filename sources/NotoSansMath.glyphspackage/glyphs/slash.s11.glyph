@@ -1,0 +1,23 @@
+{
+glyphname = slash.s11;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (602,657);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 11;
+};
+ref = _part.slash;
+}
+);
+width = 1454;
+}
+);
+}

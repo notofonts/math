@@ -3,12 +3,6 @@ export = 0;
 glyphname = _part.parenleft;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (169,313);
-}
-);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -37,12 +31,6 @@ nodes = (
 width = 328;
 },
 {
-anchors = (
-{
-name = center;
-pos = (366,278);
-}
-);
 associatedMasterId = master01;
 layerId = "B0028823-4D2B-406D-BFED-516601D4E459";
 name = "Regular-Large";
@@ -57,12 +45,12 @@ nodes = (
 (343,-1055,o),
 (159,-376,o),
 (159,310,cs),
-(159,978,o),
-(339,1635,o),
-(692,2163,c),
-(579,2163,l),
-(209,1655,o),
-(40,996,o),
+(159,977,o),
+(338,1634,o),
+(692,2162,c),
+(578,2162,l),
+(209,1653,o),
+(40,995,o),
 (40,309,cs),
 (40,-402,o),
 (210,-1091,o),
@@ -80,4 +68,5 @@ name = Size;
 topValue = 12;
 }
 );
+sortName = fence00;
 }

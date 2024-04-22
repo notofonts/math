@@ -1,0 +1,27 @@
+{
+color = 3;
+glyphname = summationdoublestruck.rtlm.s01;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (530,237);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+pos = (1059,0);
+ref = summationdoublestruck.s01;
+scale = (-1,1);
+}
+);
+width = 1059;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

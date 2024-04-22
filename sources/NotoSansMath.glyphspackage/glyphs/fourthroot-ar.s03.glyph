@@ -1,0 +1,19 @@
+{
+glyphname = "fourthroot-ar.s03";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 3;
+};
+ref = "_part.fourthroot-ar";
+}
+);
+width = 879;
+}
+);
+metricLeft = "cuberoot_fourthroot-ar.pt";
+metricRight = "cuberoot_fourthroot-ar.pt";
+}

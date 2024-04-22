@@ -2,13 +2,33 @@
 glyphname = summationbottom;
 layers = (
 {
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(718,1069,l),
+(573,1069,l),
+(71,443,l),
+(71,362,l),
+(1121,362,l),
+(1121,468,l),
+(230,468,l)
+);
+}
+);
+width = 1193;
+},
+{
 anchors = (
 {
 name = center;
 pos = (318,561);
 }
 );
-layerId = master01;
+associatedMasterId = master01;
+layerId = "07FBC190-F4C0-46A6-9CAC-D3C9BBACE57D";
+name = "14 Apr 24 at 02:33";
 shapes = (
 {
 closed = 1;
@@ -23,6 +43,7 @@ nodes = (
 );
 }
 );
+visible = 1;
 width = 637;
 }
 );

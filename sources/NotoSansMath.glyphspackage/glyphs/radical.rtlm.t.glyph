@@ -1,0 +1,20 @@
+{
+color = 3;
+glyphname = radical.rtlm.t;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+pos = (866,0);
+ref = radical.t;
+scale = (-1,1);
+}
+);
+width = 866;
+}
+);
+metricLeft = "=radical.x";
+metricWidth = "=radical.b";
+}

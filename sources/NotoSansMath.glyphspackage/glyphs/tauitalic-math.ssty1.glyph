@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = "tauitalic-math.ssty1";
-kernLeft = GRK_tau;
-kernRight = GRK_tau;
 layers = (
 {
 anchors = (

@@ -1,0 +1,44 @@
+{
+glyphname = conicalTaper;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (436,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(821,282,l),
+(821,314,l),
+(51,640,l),
+(51,-44,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(122,264,l),
+(610,264,l),
+(122,55,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(122,541,l),
+(608,333,l),
+(122,333,l)
+);
+}
+);
+width = 872;
+}
+);
+note = uni2332;
+unicode = 9010;
+}

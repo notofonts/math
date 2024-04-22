@@ -1,0 +1,76 @@
+{
+export = 0;
+glyphname = _part.znotationleftbindingbracket;
+layers = (
+{
+layerId = master01;
+partSelection = {
+Size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(289,-158,l),
+(289,784,l),
+(195,784,l),
+(51,344,l),
+(51,276,l),
+(195,-158,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(121,295,l),
+(121,323,l),
+(224,663,l),
+(224,-28,l)
+);
+}
+);
+width = 340;
+},
+{
+associatedMasterId = master01;
+layerId = "6E0C4011-B6D3-492D-8C80-B55C73842B7F";
+name = "Regular-Large";
+partSelection = {
+Size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(587,-1606,l),
+(587,2162,l),
+(454,2162,l),
+(51,375,l),
+(51,285,l),
+(454,-1606,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(143,295,l),
+(143,365,l),
+(495,1924,l),
+(495,-1359,l)
+);
+}
+);
+width = 638;
+}
+);
+metricLeft = "=51";
+metricRight = "=|";
+partsSettings = (
+{
+bottomValue = 0;
+name = Size;
+topValue = 12;
+}
+);
+sortName = fence30;
+}

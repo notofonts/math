@@ -1,0 +1,24 @@
+{
+glyphname = naryuniondot.s01;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (519,316);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (-20,-126);
+ref = naryuniondot;
+scale = (1.4,1.4);
+}
+);
+width = 1038;
+}
+);
+metricLeft = "=51";
+metricRight = "=|";
+}

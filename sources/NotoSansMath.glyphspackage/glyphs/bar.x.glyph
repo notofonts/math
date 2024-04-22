@@ -1,0 +1,26 @@
+{
+glyphname = bar.x;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(272,0,l),
+(272,1069,l),
+(180,1069,l),
+(180,0,l)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
+width = 452;
+}
+);
+metricLeft = "=180";
+metricRight = "=180";
+}

@@ -1,0 +1,30 @@
+{
+glyphname = dblintegral.s01;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (732,328);
+},
+{
+name = math.ic;
+pos = (1904,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = integral.s01;
+},
+{
+alignment = 1;
+pos = (412,0);
+ref = integral.s01;
+}
+);
+width = 1464;
+}
+);
+}

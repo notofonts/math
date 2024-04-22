@@ -1,0 +1,31 @@
+{
+glyphname = whiteMediumDiamond;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(796,362,l),
+(424,734,l),
+(51,362,l),
+(424,-11,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(143,362,l),
+(424,642,l),
+(704,362,l),
+(424,81,l)
+);
+}
+);
+width = 847;
+}
+);
+note = uni2B26;
+unicode = 11046;
+}

@@ -1,6 +1,5 @@
 {
 glyphname = L;
-kernRight = L.left;
 layers = (
 {
 anchors = (
@@ -14,7 +13,7 @@ pos = (262,357);
 },
 {
 name = math.ta;
-pos = (310,0);
+pos = (140,0);
 },
 {
 name = top;

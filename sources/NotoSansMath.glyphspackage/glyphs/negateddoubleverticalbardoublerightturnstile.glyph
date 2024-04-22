@@ -2,56 +2,19 @@
 glyphname = negateddoubleverticalbardoublerightturnstile;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (418,353);
-}
-);
 layerId = master01;
 shapes = (
 {
 closed = 1;
 nodes = (
-(525,201,l),
-(785,201,l),
-(785,272,l),
-(552,272,l),
-(615,434,l),
-(785,434,l),
-(785,505,l),
-(643,505,l),
-(715,690,l),
-(654,716,l),
-(572,505,l),
-(312,505,l),
-(312,680,l),
-(241,680,l),
-(241,26,l),
-(312,26,l),
-(312,201,l),
-(454,201,l),
-(382,16,l),
-(443,-10,l)
+(715,664,l),
+(654,690,l),
+(382,-10,l),
+(443,-36,l)
 );
 },
 {
-closed = 1;
-nodes = (
-(122,27,l),
-(122,680,l),
-(51,680,l),
-(51,27,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(312,434,l),
-(544,434,l),
-(481,272,l),
-(312,272,l)
-);
+ref = doubleverticalbardoublerightturnstile;
 }
 );
 width = 836;

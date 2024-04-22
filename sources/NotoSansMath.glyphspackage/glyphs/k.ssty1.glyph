@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = k.ssty1;
-kernLeft = b.ssty;
-kernRight = k.ssty;
 layers = (
 {
 anchors = (
@@ -12,7 +10,7 @@ pos = (340,380);
 },
 {
 name = math.ta;
-pos = (351,0);
+pos = (151,0);
 }
 );
 layerId = master01;

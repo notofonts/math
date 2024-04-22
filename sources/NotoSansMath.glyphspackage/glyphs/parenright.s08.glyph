@@ -1,0 +1,23 @@
+{
+glyphname = parenright.s08;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (289.667,290);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 8;
+};
+ref = _part.parenright;
+}
+);
+width = 591;
+}
+);
+}

@@ -1,0 +1,65 @@
+{
+glyphname = dbloverlinecomb.s00;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (209,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = overlinecomb.s00;
+},
+{
+pos = (0,151);
+ref = overlinecomb.s00;
+}
+);
+width = 417;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (232,536);
+},
+{
+name = math.ta;
+pos = (232,0);
+},
+{
+name = top;
+pos = (233,808);
+}
+);
+associatedMasterId = master01;
+layerId = "862D04A4-8558-4FC8-89B5-37351CA0FA1C";
+name = "6 Mar 24 at 01:21";
+shapes = (
+{
+closed = 1;
+nodes = (
+(440,903,l),
+(440,967,l),
+(25,967,l),
+(25,903,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(440,778,l),
+(440,842,l),
+(25,842,l),
+(25,778,l)
+);
+}
+);
+visible = 1;
+width = 465;
+}
+);
+}

@@ -1,17 +1,22 @@
 {
-color = 0;
-export = 0;
 glyphname = charactertie;
 layers = (
 {
-anchors = (
-{
-name = center;
-}
-);
 layerId = master01;
-width = 600;
+shapes = (
+{
+alignment = -1;
+piece = {
+Size = 0.08;
+};
+pos = (70,-70);
+ref = _part.topparenthesis;
 }
 );
+width = 855;
+}
+);
+metricLeft = "=70";
+metricRight = "=70";
 unicode = 8256;
 }

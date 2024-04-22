@@ -1,0 +1,113 @@
+{
+color = 3;
+export = 0;
+glyphname = _part.fourthroot.rtlm;
+layers = (
+{
+layerId = master01;
+partSelection = {
+Size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(540,380,l),
+(628,380,l),
+(628,450,l),
+(485,450,l),
+(372,121,l),
+(40,1057,l),
+(-31,1057,l),
+(340,0,l),
+(405,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(520,552,l),
+(520,632,l),
+(570,632,l),
+(570,685,l),
+(520,685,l),
+(520,913,l),
+(456,913,l),
+(291,677,l),
+(291,632,l),
+(454,632,l),
+(454,552,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(457,842,l),
+(457,685,l),
+(356,685,l)
+);
+}
+);
+width = 679;
+},
+{
+associatedMasterId = master01;
+layerId = "B5882333-6064-4315-BD39-FFE965BB9E9B";
+name = "Regular-Large";
+partSelection = {
+Size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(811,1181,l),
+(899,1181,l),
+(899,1251,l),
+(745,1251,l),
+(462,122,l),
+(38,2505,l),
+(-43,2505,l),
+(409,0,l),
+(509,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(616,1375,l),
+(616,1455,l),
+(666,1455,l),
+(666,1508,l),
+(616,1508,l),
+(616,1736,l),
+(552,1736,l),
+(387,1500,l),
+(387,1455,l),
+(550,1455,l),
+(550,1375,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(553,1665,l),
+(553,1508,l),
+(452,1508,l)
+);
+}
+);
+width = 946;
+}
+);
+metricLeft = "=|_part.fourthroot";
+metricRight = "=|_part.fourthroot";
+partsSettings = (
+{
+bottomValue = 0;
+name = Size;
+topValue = 4;
+}
+);
+sortName = root6;
+}

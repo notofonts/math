@@ -1,0 +1,54 @@
+{
+export = 0;
+glyphname = _part.bar;
+layers = (
+{
+layerId = master01;
+partSelection = {
+Size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(253,-158,l),
+(253,784,l),
+(180,784,l),
+(180,-158,l)
+);
+}
+);
+width = 433;
+},
+{
+associatedMasterId = master01;
+layerId = "B0028823-4D2B-406D-BFED-516601D4E459";
+name = "Regular-Large";
+partSelection = {
+Size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(272,-1606,l),
+(272,2162,l),
+(180,2162,l),
+(180,-1606,l)
+);
+}
+);
+width = 452;
+}
+);
+metricLeft = "=180";
+metricRight = "=180";
+partsSettings = (
+{
+bottomValue = 0;
+name = Size;
+topValue = 12;
+}
+);
+sortName = bar1;
+}

@@ -1,9 +1,13 @@
 {
-color = 0;
-export = 0;
 glyphname = enclosingupwardpointingtrianglecomb;
 layers = (
 {
+anchors = (
+{
+name = _center;
+pos = (860,322);
+}
+);
 layerId = master01;
 shapes = (
 {

@@ -1,0 +1,40 @@
+{
+glyphname = projective;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (280,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(157,0,l),
+(281,246,l),
+(405,0,l),
+(486,0,l),
+(291,376,l),
+(271,376,l),
+(76,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(509,449,l),
+(509,520,l),
+(51,520,l),
+(51,449,l)
+);
+}
+);
+width = 560;
+}
+);
+note = uni2305;
+unicode = 8965;
+}

@@ -1,0 +1,27 @@
+{
+glyphname = asteriskabovecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (0,362);
+},
+{
+name = math.ta;
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (-247,312);
+ref = asterisk;
+scale = (0.9,0.9);
+}
+);
+width = 0;
+}
+);
+unicode = 8432;
+}

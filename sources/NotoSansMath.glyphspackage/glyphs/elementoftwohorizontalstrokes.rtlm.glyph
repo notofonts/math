@@ -3,48 +3,13 @@ color = 3;
 glyphname = elementoftwohorizontalstrokes.rtlm;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (349,352);
-}
-);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(528,61,o),
-(648,161,o),
-(648,352,cs),
-(648,543,o),
-(530,643,o),
-(305,643,cs),
-(51,643,l),
-(51,572,l),
-(317,572,ls),
-(430,572,o),
-(508,538,o),
-(547,473,c),
-(51,473,l),
-(51,402,l),
-(572,402,l),
-(575,386,o),
-(576,370,o),
-(576,352,cs),
-(576,335,o),
-(575,318,o),
-(572,303,c),
-(51,303,l),
-(51,232,l),
-(547,232,l),
-(508,166,o),
-(430,132,o),
-(317,132,cs),
-(51,132,l),
-(51,61,l),
-(305,61,ls)
-);
+alignment = 1;
+pos = (699,0);
+ref = elementoftwohorizontalstrokes;
+scale = (-1,1);
 }
 );
 width = 699;

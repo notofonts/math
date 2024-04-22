@@ -5,26 +5,25 @@ layers = (
 anchors = (
 {
 name = _top;
-pos = (104,536);
+pos = (-1,528);
 },
 {
 name = math.ta;
-pos = (104,0);
 },
 {
 name = top;
-pos = (104,757);
+pos = (1,842);
 }
 );
 layerId = master01;
 shapes = (
 {
-angle = 180;
-pos = (208,536);
-ref = commaaccentcomb;
+alignment = -1;
+pos = (-88,128);
+ref = quoteleft;
 }
 );
-width = 208;
+width = 0;
 }
 );
 unicode = 786;

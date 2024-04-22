@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = "etaitalic-math.ssty1";
-kernLeft = GRK_eta;
-kernRight = GRK_eta;
 layers = (
 {
 anchors = (

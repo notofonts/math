@@ -782,78 +782,82 @@
     <glyph name="doubleprimeReversed" unicode="2036" production="uni2036"  category="Symbol" subCategory="Prime" sortName="primeR2" />
     <glyph name="tripleprimeReversed" unicode="2037" production="uni2037"  category="Symbol" subCategory="Prime" sortName="primeR3" />
 
-    <glyph name="circumflexcomb.s0" production="uni0302.s0" category="Mark" subCategory="Spacing" case="lower" sortName="s0.ac012" />
-    <glyph name="caroncomb.s0" production="uni030C.s0" category="Mark" subCategory="Spacing" case="lower" sortName="s0.ac014" />
-    <glyph name="tildecomb.s0" production="tildecomb.s0" category="Mark" subCategory="Spacing" case="lower" sortName="s0.ac020" />
-    <glyph name="tildebelowcomb.s0" production="uni0330.s0" category="Mark" subCategory="Spacing" sortName="s0.ac098" />
-    <glyph name="leftarrowabovecomb.s0" production="uni20D6.s0" category="Mark" subCategory="Spacing" sortName="s0.leftarrowabovecomb" />
-    <glyph name="leftarrowbelowcomb.s0" production="uni20EE.s0" category="Mark" subCategory="Spacing" sortName="s0.leftarrowbelowcomb" />
-    <glyph name="leftharpoonabovecomb.s0" production="uni20D0.s0" category="Mark" subCategory="Spacing" sortName="s0.leftharpoonabovecomb" />
-    <glyph name="leftharpoonwithbarbdowncomb.s0" production="uni20ED.s0" category="Mark" subCategory="Spacing" sortName="s0.leftharpoonwithbarbdowncomb" />
-    <glyph name="rightarrowabovecomb.s0" production="uni20D7.s0" category="Mark" subCategory="Spacing" sortName="s0.rightarrowabovecomb" />
-    <glyph name="rightarrowbelowcomb.s0" production="uni20EF.s0" category="Mark" subCategory="Spacing" sortName="s0.rightarrowbelowcomb" />
-    <glyph name="rightharpoonabovecomb.s0" production="uni20D1.s0" category="Mark" subCategory="Spacing" sortName="s0.rightharpoonabovecomb" />
-    <glyph name="rightharpoonwithbarbdowncomb.s0" production="uni20EC.s0" category="Mark" subCategory="Spacing" sortName="s0.rightharpoonwithbarbdowncomb" />
-    <glyph name="circumflexcomb.s1" production="uni0302.s1" category="Mark" subCategory="Spacing" case="lower" sortName="s1.ac012" />
-    <glyph name="caroncomb.s1" production="uni030C.s1" category="Mark" subCategory="Spacing" case="lower" sortName="s1.ac014" />
-    <glyph name="tildecomb.s1" production="tildecomb.s1" category="Mark" subCategory="Spacing" case="lower" sortName="s1.ac020" />
-    <glyph name="tildebelowcomb.s1" production="uni0330.s1" category="Mark" subCategory="Spacing" sortName="s1.ac098" />
-    <glyph name="leftarrowabovecomb.s1" production="uni20D6.s1" category="Mark" subCategory="Spacing" sortName="s1.leftarrowabovecomb" />
-    <glyph name="leftarrowbelowcomb.s1" production="uni20EE.s1" category="Mark" subCategory="Spacing" sortName="s1.leftarrowbelowcomb" />
-    <glyph name="leftharpoonabovecomb.s1" production="uni20D0.s1" category="Mark" subCategory="Spacing" sortName="s1.leftharpoonabovecomb" />
-    <glyph name="leftharpoonwithbarbdowncomb.s1" production="uni20ED.s1" category="Mark" subCategory="Spacing" sortName="s1.leftharpoonwithbarbdowncomb" />
-    <glyph name="rightarrowabovecomb.s1" production="uni20D7.s1" category="Mark" subCategory="Spacing" sortName="s1.rightarrowabovecomb" />
-    <glyph name="rightarrowbelowcomb.s1" production="uni20EF.s1" category="Mark" subCategory="Spacing" sortName="s1.rightarrowbelowcomb" />
-    <glyph name="rightharpoonabovecomb.s1" production="uni20D1.s1" category="Mark" subCategory="Spacing" sortName="s1.rightharpoonabovecomb" />
-    <glyph name="rightharpoonwithbarbdowncomb.s1" production="uni20EC.s1" category="Mark" subCategory="Spacing" sortName="s1.rightharpoonwithbarbdowncomb" />
-    <glyph name="circumflexcomb.s2" production="uni0302.s2" category="Mark" subCategory="Spacing" case="lower" sortName="s2.ac012" />
-    <glyph name="caroncomb.s2" production="uni030C.s2" category="Mark" subCategory="Spacing" case="lower" sortName="s2.ac014" />
-    <glyph name="tildecomb.s2" production="tildecomb.s2" category="Mark" subCategory="Spacing" case="lower" sortName="s2.ac020" />
-    <glyph name="tildebelowcomb.s2" production="uni0330.s2" category="Mark" subCategory="Spacing" sortName="s2.ac098" />
-    <glyph name="leftarrowabovecomb.s2" production="uni20D6.s2" category="Mark" subCategory="Spacing" sortName="s2.leftarrowabovecomb" />
-    <glyph name="leftarrowbelowcomb.s2" production="uni20EE.s2" category="Mark" subCategory="Spacing" sortName="s2.leftarrowbelowcomb" />
-    <glyph name="leftharpoonabovecomb.s2" production="uni20D0.s2" category="Mark" subCategory="Spacing" sortName="s2.leftharpoonabovecomb" />
-    <glyph name="leftharpoonwithbarbdowncomb.s2" production="uni20ED.s2" category="Mark" subCategory="Spacing" sortName="s2.leftharpoonwithbarbdowncomb" />
-    <glyph name="rightarrowabovecomb.s2" production="uni20D7.s2" category="Mark" subCategory="Spacing" sortName="s2.rightarrowabovecomb" />
-    <glyph name="rightarrowbelowcomb.s2" production="uni20EF.s2" category="Mark" subCategory="Spacing" sortName="s2.rightarrowbelowcomb" />
-    <glyph name="rightharpoonabovecomb.s2" production="uni20D1.s2" category="Mark" subCategory="Spacing" sortName="s2.rightharpoonabovecomb" />
-    <glyph name="rightharpoonwithbarbdowncomb.s2" production="uni20EC.s2" category="Mark" subCategory="Spacing" sortName="s2.rightharpoonwithbarbdowncomb" />
-    <glyph name="circumflexcomb.s3" production="uni0302.s3" category="Mark" subCategory="Spacing" case="lower" sortName="s3.ac012" />
-    <glyph name="caroncomb.s3" production="uni030C.s3" category="Mark" subCategory="Spacing" case="lower" sortName="s3.ac014" />
-    <glyph name="tildecomb.s3" production="tildecomb.s3" category="Mark" subCategory="Spacing" case="lower" sortName="s3.ac020" />
-    <glyph name="tildebelowcomb.s3" production="uni0330.s3" category="Mark" subCategory="Spacing" sortName="s3.ac098" />
-    <glyph name="leftarrowabovecomb.s3" production="uni20D6.s3" category="Mark" subCategory="Spacing" sortName="s3.leftarrowabovecomb" />
-    <glyph name="leftarrowbelowcomb.s3" production="uni20EE.s3" category="Mark" subCategory="Spacing" sortName="s3.leftarrowbelowcomb" />
-    <glyph name="leftharpoonabovecomb.s3" production="uni20D0.s3" category="Mark" subCategory="Spacing" sortName="s3.leftharpoonabovecomb" />
-    <glyph name="leftharpoonwithbarbdowncomb.s3" production="uni20ED.s3" category="Mark" subCategory="Spacing" sortName="s3.leftharpoonwithbarbdowncomb" />
-    <glyph name="rightarrowabovecomb.s3" production="uni20D7.s3" category="Mark" subCategory="Spacing" sortName="s3.rightarrowabovecomb" />
-    <glyph name="rightarrowbelowcomb.s3" production="uni20EF.s3" category="Mark" subCategory="Spacing" sortName="s3.rightarrowbelowcomb" />
-    <glyph name="rightharpoonabovecomb.s3" production="uni20D1.s3" category="Mark" subCategory="Spacing" sortName="s3.rightharpoonabovecomb" />
-    <glyph name="rightharpoonwithbarbdowncomb.s3" production="uni20EC.s3" category="Mark" subCategory="Spacing" sortName="s3.rightharpoonwithbarbdowncomb" />
-    <glyph name="circumflexcomb.s4" production="uni0302.s4" category="Mark" subCategory="Spacing" case="lower" sortName="s4.ac012" />
-    <glyph name="caroncomb.s4" production="uni030C.s4" category="Mark" subCategory="Spacing" case="lower" sortName="s4.ac014" />
-    <glyph name="tildecomb.s4" production="tildecomb.s4" category="Mark" subCategory="Spacing" case="lower" sortName="s4.ac020" />
-    <glyph name="tildebelowcomb.s4" production="uni0330.s4" category="Mark" subCategory="Spacing" sortName="s4.ac098" />
-    <glyph name="leftarrowabovecomb.s4" production="uni20D6.s4" category="Mark" subCategory="Spacing" sortName="s4.leftarrowabovecomb" />
-    <glyph name="leftarrowbelowcomb.s4" production="uni20EE.s4" category="Mark" subCategory="Spacing" sortName="s4.leftarrowbelowcomb" />
-    <glyph name="leftharpoonabovecomb.s4" production="uni20D0.s4" category="Mark" subCategory="Spacing" sortName="s4.leftharpoonabovecomb" />
-    <glyph name="leftharpoonwithbarbdowncomb.s4" production="uni20ED.s4" category="Mark" subCategory="Spacing" sortName="s4.leftharpoonwithbarbdowncomb" />
-    <glyph name="rightarrowabovecomb.s4" production="uni20D7.s4" category="Mark" subCategory="Spacing" sortName="s4.rightarrowabovecomb" />
-    <glyph name="rightarrowbelowcomb.s4" production="uni20EF.s4" category="Mark" subCategory="Spacing" sortName="s4.rightarrowbelowcomb" />
-    <glyph name="rightharpoonabovecomb.s4" production="uni20D1.s4" category="Mark" subCategory="Spacing" sortName="s4.rightharpoonabovecomb" />
-    <glyph name="rightharpoonwithbarbdowncomb.s4" production="uni20EC.s4" category="Mark" subCategory="Spacing" sortName="s4.rightharpoonwithbarbdowncomb" />
-    <glyph name="circumflexcomb.s5" production="uni0302.s5" category="Mark" subCategory="Spacing" case="lower" sortName="s5.ac012" />
-    <glyph name="caroncomb.s5" production="uni030C.s5" category="Mark" subCategory="Spacing" case="lower" sortName="s5.ac014" />
-    <glyph name="tildecomb.s5" production="tildecomb.s5" category="Mark" subCategory="Spacing" case="lower" sortName="s5.ac020" />
-    <glyph name="tildebelowcomb.s5" production="uni0330.s5" category="Mark" subCategory="Spacing" sortName="s5.ac098" />
-    <glyph name="leftarrowabovecomb.s5" production="uni20D6.s5" category="Mark" subCategory="Spacing" sortName="s5.leftarrowabovecomb" />
-    <glyph name="leftarrowbelowcomb.s5" production="uni20EE.s5" category="Mark" subCategory="Spacing" sortName="s5.leftarrowbelowcomb" />
-    <glyph name="leftharpoonabovecomb.s5" production="uni20D0.s5" category="Mark" subCategory="Spacing" sortName="s5.leftharpoonabovecomb" />
-    <glyph name="leftharpoonwithbarbdowncomb.s5" production="uni20ED.s5" category="Mark" subCategory="Spacing" sortName="s5.leftharpoonwithbarbdowncomb" />
-    <glyph name="rightarrowabovecomb.s5" production="uni20D7.s5" category="Mark" subCategory="Spacing" sortName="s5.rightarrowabovecomb" />
-    <glyph name="rightarrowbelowcomb.s5" production="uni20EF.s5" category="Mark" subCategory="Spacing" sortName="s5.rightarrowbelowcomb" />
-    <glyph name="rightharpoonabovecomb.s5" production="uni20D1.s5" category="Mark" subCategory="Spacing" sortName="s5.rightharpoonabovecomb" />
-    <glyph name="rightharpoonwithbarbdowncomb.s5" production="uni20EC.s5" category="Mark" subCategory="Spacing" sortName="s5.rightharpoonwithbarbdowncomb" />
+    <glyph name="circumflexcomb.s00" production="uni0302.s00" category="Mark" subCategory="Spacing" case="lower" sortName="s00.ac012" />
+    <glyph name="caroncomb.s00" production="uni030C.s00" category="Mark" subCategory="Spacing" case="lower" sortName="s00.ac014" />
+    <glyph name="tildecomb.s00" production="tildecomb.s00" category="Mark" subCategory="Spacing" case="lower" sortName="s00.ac020" />
+    <glyph name="tildebelowcomb.s00" production="uni0330.s00" category="Mark" subCategory="Spacing" sortName="s00.ac098" />
+    <glyph name="leftarrowabovecomb.s00" production="uni20D6.s00" category="Mark" subCategory="Spacing" sortName="s00.leftarrowabovecomb" />
+    <glyph name="leftarrowbelowcomb.s00" production="uni20EE.s00" category="Mark" subCategory="Spacing" sortName="s00.leftarrowbelowcomb" />
+    <glyph name="leftharpoonabovecomb.s00" production="uni20D0.s00" category="Mark" subCategory="Spacing" sortName="s00.leftharpoonabovecomb" />
+    <glyph name="leftharpoonwithbarbdowncomb.s00" production="uni20ED.s00" category="Mark" subCategory="Spacing" sortName="s00.leftharpoonwithbarbdowncomb" />
+    <glyph name="rightarrowabovecomb.s00" production="uni20D7.s00" category="Mark" subCategory="Spacing" sortName="s00.rightarrowabovecomb" />
+    <glyph name="rightarrowbelowcomb.s00" production="uni20EF.s00" category="Mark" subCategory="Spacing" sortName="s00.rightarrowbelowcomb" />
+    <glyph name="rightharpoonabovecomb.s00" production="uni20D1.s00" category="Mark" subCategory="Spacing" sortName="s00.rightharpoonabovecomb" />
+    <glyph name="rightharpoonwithbarbdowncomb.s00" production="uni20EC.s00" category="Mark" subCategory="Spacing" sortName="s00.rightharpoonwithbarbdowncomb" />
+    <glyph name="overlinecomb.s00" production="uni0305.s00" category="Mark" subCategory="Spacing" case="lower" sortName="s00.ac024" />
+    <glyph name="lowlinecomb.s00" production="uni0332.s00" category="Mark" subCategory="Spacing" sortName="s00.ac102" />
+    <glyph name="dbllowlinecomb.s00" production="uni0333.s00" category="Mark" subCategory="Spacing" sortName="s00.ac104" />
+    <glyph name="dbloverlinecomb.s00" production="uni033F.s00" category="Mark" subCategory="Spacing" sortName="s00.ac128" />
+    <glyph name="circumflexcomb.s01" production="uni0302.s01" category="Mark" subCategory="Spacing" case="lower" sortName="s01.ac012" />
+    <glyph name="caroncomb.s01" production="uni030C.s01" category="Mark" subCategory="Spacing" case="lower" sortName="s01.ac014" />
+    <glyph name="tildecomb.s01" production="tildecomb.s01" category="Mark" subCategory="Spacing" case="lower" sortName="s01.ac020" />
+    <glyph name="tildebelowcomb.s01" production="uni0330.s01" category="Mark" subCategory="Spacing" sortName="s01.ac098" />
+    <glyph name="leftarrowabovecomb.s01" production="uni20D6.s01" category="Mark" subCategory="Spacing" sortName="s01.leftarrowabovecomb" />
+    <glyph name="leftarrowbelowcomb.s01" production="uni20EE.s01" category="Mark" subCategory="Spacing" sortName="s01.leftarrowbelowcomb" />
+    <glyph name="leftharpoonabovecomb.s01" production="uni20D0.s01" category="Mark" subCategory="Spacing" sortName="s01.leftharpoonabovecomb" />
+    <glyph name="leftharpoonwithbarbdowncomb.s01" production="uni20ED.s01" category="Mark" subCategory="Spacing" sortName="s01.leftharpoonwithbarbdowncomb" />
+    <glyph name="rightarrowabovecomb.s01" production="uni20D7.s01" category="Mark" subCategory="Spacing" sortName="s01.rightarrowabovecomb" />
+    <glyph name="rightarrowbelowcomb.s01" production="uni20EF.s01" category="Mark" subCategory="Spacing" sortName="s01.rightarrowbelowcomb" />
+    <glyph name="rightharpoonabovecomb.s01" production="uni20D1.s01" category="Mark" subCategory="Spacing" sortName="s01.rightharpoonabovecomb" />
+    <glyph name="rightharpoonwithbarbdowncomb.s01" production="uni20EC.s01" category="Mark" subCategory="Spacing" sortName="s01.rightharpoonwithbarbdowncomb" />
+    <glyph name="circumflexcomb.s02" production="uni0302.s02" category="Mark" subCategory="Spacing" case="lower" sortName="s02.ac012" />
+    <glyph name="caroncomb.s02" production="uni030C.s02" category="Mark" subCategory="Spacing" case="lower" sortName="s02.ac014" />
+    <glyph name="tildecomb.s02" production="tildecomb.s02" category="Mark" subCategory="Spacing" case="lower" sortName="s02.ac020" />
+    <glyph name="tildebelowcomb.s02" production="uni0330.s02" category="Mark" subCategory="Spacing" sortName="s02.ac098" />
+    <glyph name="leftarrowabovecomb.s02" production="uni20D6.s02" category="Mark" subCategory="Spacing" sortName="s02.leftarrowabovecomb" />
+    <glyph name="leftarrowbelowcomb.s02" production="uni20EE.s02" category="Mark" subCategory="Spacing" sortName="s02.leftarrowbelowcomb" />
+    <glyph name="leftharpoonabovecomb.s02" production="uni20D0.s02" category="Mark" subCategory="Spacing" sortName="s02.leftharpoonabovecomb" />
+    <glyph name="leftharpoonwithbarbdowncomb.s02" production="uni20ED.s02" category="Mark" subCategory="Spacing" sortName="s02.leftharpoonwithbarbdowncomb" />
+    <glyph name="rightarrowabovecomb.s02" production="uni20D7.s02" category="Mark" subCategory="Spacing" sortName="s02.rightarrowabovecomb" />
+    <glyph name="rightarrowbelowcomb.s02" production="uni20EF.s02" category="Mark" subCategory="Spacing" sortName="s02.rightarrowbelowcomb" />
+    <glyph name="rightharpoonabovecomb.s02" production="uni20D1.s02" category="Mark" subCategory="Spacing" sortName="s02.rightharpoonabovecomb" />
+    <glyph name="rightharpoonwithbarbdowncomb.s02" production="uni20EC.s02" category="Mark" subCategory="Spacing" sortName="s02.rightharpoonwithbarbdowncomb" />
+    <glyph name="circumflexcomb.s03" production="uni0302.s03" category="Mark" subCategory="Spacing" case="lower" sortName="s03.ac012" />
+    <glyph name="caroncomb.s03" production="uni030C.s03" category="Mark" subCategory="Spacing" case="lower" sortName="s03.ac014" />
+    <glyph name="tildecomb.s03" production="tildecomb.s03" category="Mark" subCategory="Spacing" case="lower" sortName="s03.ac020" />
+    <glyph name="tildebelowcomb.s03" production="uni0330.s03" category="Mark" subCategory="Spacing" sortName="s03.ac098" />
+    <glyph name="leftarrowabovecomb.s03" production="uni20D6.s03" category="Mark" subCategory="Spacing" sortName="s03.leftarrowabovecomb" />
+    <glyph name="leftarrowbelowcomb.s03" production="uni20EE.s03" category="Mark" subCategory="Spacing" sortName="s03.leftarrowbelowcomb" />
+    <glyph name="leftharpoonabovecomb.s03" production="uni20D0.s03" category="Mark" subCategory="Spacing" sortName="s03.leftharpoonabovecomb" />
+    <glyph name="leftharpoonwithbarbdowncomb.s03" production="uni20ED.s03" category="Mark" subCategory="Spacing" sortName="s03.leftharpoonwithbarbdowncomb" />
+    <glyph name="rightarrowabovecomb.s03" production="uni20D7.s03" category="Mark" subCategory="Spacing" sortName="s03.rightarrowabovecomb" />
+    <glyph name="rightarrowbelowcomb.s03" production="uni20EF.s03" category="Mark" subCategory="Spacing" sortName="s03.rightarrowbelowcomb" />
+    <glyph name="rightharpoonabovecomb.s03" production="uni20D1.s03" category="Mark" subCategory="Spacing" sortName="s03.rightharpoonabovecomb" />
+    <glyph name="rightharpoonwithbarbdowncomb.s03" production="uni20EC.s03" category="Mark" subCategory="Spacing" sortName="s03.rightharpoonwithbarbdowncomb" />
+    <glyph name="circumflexcomb.s04" production="uni0302.s04" category="Mark" subCategory="Spacing" case="lower" sortName="s04.ac012" />
+    <glyph name="caroncomb.s04" production="uni030C.s04" category="Mark" subCategory="Spacing" case="lower" sortName="s04.ac014" />
+    <glyph name="tildecomb.s04" production="tildecomb.s04" category="Mark" subCategory="Spacing" case="lower" sortName="s04.ac020" />
+    <glyph name="tildebelowcomb.s04" production="uni0330.s04" category="Mark" subCategory="Spacing" sortName="s04.ac098" />
+    <glyph name="leftarrowabovecomb.s04" production="uni20D6.s04" category="Mark" subCategory="Spacing" sortName="s04.leftarrowabovecomb" />
+    <glyph name="leftarrowbelowcomb.s04" production="uni20EE.s04" category="Mark" subCategory="Spacing" sortName="s04.leftarrowbelowcomb" />
+    <glyph name="leftharpoonabovecomb.s04" production="uni20D0.s04" category="Mark" subCategory="Spacing" sortName="s04.leftharpoonabovecomb" />
+    <glyph name="leftharpoonwithbarbdowncomb.s04" production="uni20ED.s04" category="Mark" subCategory="Spacing" sortName="s04.leftharpoonwithbarbdowncomb" />
+    <glyph name="rightarrowabovecomb.s04" production="uni20D7.s04" category="Mark" subCategory="Spacing" sortName="s04.rightarrowabovecomb" />
+    <glyph name="rightarrowbelowcomb.s04" production="uni20EF.s04" category="Mark" subCategory="Spacing" sortName="s04.rightarrowbelowcomb" />
+    <glyph name="rightharpoonabovecomb.s04" production="uni20D1.s04" category="Mark" subCategory="Spacing" sortName="s04.rightharpoonabovecomb" />
+    <glyph name="rightharpoonwithbarbdowncomb.s04" production="uni20EC.s04" category="Mark" subCategory="Spacing" sortName="s04.rightharpoonwithbarbdowncomb" />
+    <glyph name="circumflexcomb.s05" production="uni0302.s05" category="Mark" subCategory="Spacing" case="lower" sortName="s05.ac012" />
+    <glyph name="caroncomb.s05" production="uni030C.s05" category="Mark" subCategory="Spacing" case="lower" sortName="s05.ac014" />
+    <glyph name="tildecomb.s05" production="tildecomb.s05" category="Mark" subCategory="Spacing" case="lower" sortName="s05.ac020" />
+    <glyph name="tildebelowcomb.s05" production="uni0330.s05" category="Mark" subCategory="Spacing" sortName="s05.ac098" />
+    <glyph name="leftarrowabovecomb.s05" production="uni20D6.s05" category="Mark" subCategory="Spacing" sortName="s05.leftarrowabovecomb" />
+    <glyph name="leftarrowbelowcomb.s05" production="uni20EE.s05" category="Mark" subCategory="Spacing" sortName="s05.leftarrowbelowcomb" />
+    <glyph name="leftharpoonabovecomb.s05" production="uni20D0.s05" category="Mark" subCategory="Spacing" sortName="s05.leftharpoonabovecomb" />
+    <glyph name="leftharpoonwithbarbdowncomb.s05" production="uni20ED.s05" category="Mark" subCategory="Spacing" sortName="s05.leftharpoonwithbarbdowncomb" />
+    <glyph name="rightarrowabovecomb.s05" production="uni20D7.s05" category="Mark" subCategory="Spacing" sortName="s05.rightarrowabovecomb" />
+    <glyph name="rightarrowbelowcomb.s05" production="uni20EF.s05" category="Mark" subCategory="Spacing" sortName="s05.rightarrowbelowcomb" />
+    <glyph name="rightharpoonabovecomb.s05" production="uni20D1.s05" category="Mark" subCategory="Spacing" sortName="s05.rightharpoonabovecomb" />
+    <glyph name="rightharpoonwithbarbdowncomb.s05" production="uni20EC.s05" category="Mark" subCategory="Spacing" sortName="s05.rightharpoonwithbarbdowncomb" />
     <glyph name="leftarrowabovecomb.x" production="uni20D6.x" category="Mark" subCategory="Spacing" sortName="x.leftarrowabovecomb" />
     <glyph name="leftarrowbelowcomb.x" production="uni20EE.x" category="Mark" subCategory="Spacing" sortName="x.leftarrowbelowcomb" />
 
@@ -896,40 +900,45 @@
     <glyph name="unionintegral" unicode="2A1A" production="uni2A1A"  category="Symbol" subCategory="Largeop" sortName="op20s" />
     <glyph name="overbarintegral" unicode="2A1B" production="uni2A1B"  category="Symbol" subCategory="Largeop" sortName="op20t" />
     <glyph name="underbarintegral" unicode="2A1C" production="uni2A1C"  category="Symbol" subCategory="Largeop" sortName="op20u" />
+
     <glyph name="coproduct" unicode="2210" production="uni2210"  category="Symbol" subCategory="Largeop" sortName="op23" />
     <glyph name="product" unicode="220F" production="uni220F"  category="Symbol" subCategory="Largeop" sortName="op23" />
     <glyph name="summation" unicode="2211" production="uni2211"  category="Symbol" subCategory="Largeop" sortName="op24" />
-    <glyph name="moduloTwoSum" unicode="2A0A" production="uni2A0A"  category="Symbol" subCategory="Largeop" sortName="op24a" />
+    <glyph name="modulotwosum" unicode="2A0A" production="uni2A0A"  category="Symbol" subCategory="Largeop" sortName="op24a" />
     <glyph name="summationintegral" unicode="2A0B" production="uni2A0B"  category="Symbol" subCategory="Largeop" sortName="op24b" />
-    <glyph name="summationdoubleStruck" unicode="2140" production="uni2140"  category="Symbol" subCategory="Largeop" sortName="op24c" />
-    <glyph name="join" unicode="2A1D" production="uni2A1D"  category="Symbol" subCategory="Largeop" sortName="op25" />
-    <glyph name="largeLeftTriangleOperator" unicode="2A1E" production="uni2A1E"  category="Symbol" subCategory="Largeop" sortName="op25" />
-    <glyph name="nAryCircledDotOperator" unicode="2A00" production="uni2A00"  category="Symbol" subCategory="Largeop" sortName="op25" />
-    <glyph name="nAryCircledPlusOperator" unicode="2A01" production="uni2A01"  category="Symbol" subCategory="Largeop" sortName="op25" />
-    <glyph name="nAryCircledTimesOperator" unicode="2A02" production="uni2A02"  category="Symbol" subCategory="Largeop" sortName="op25" />
-    <glyph name="nArySquareIntersectionOperator" unicode="2A05" production="uni2A05"  category="Symbol" subCategory="Largeop" sortName="op25" />
-    <glyph name="nArySquareUnionOperator" unicode="2A06" production="uni2A06"  category="Symbol" subCategory="Largeop" sortName="op25" />
-    <glyph name="nAryTimesOperator" unicode="2A09" production="uni2A09"  category="Symbol" subCategory="Largeop" sortName="op25" />
-    <glyph name="nAryUnionOperatorWithDot" unicode="2A03" production="uni2A03"  category="Symbol" subCategory="Largeop" sortName="op25" />
-    <glyph name="nAryUnionOperatorWithPlus" unicode="2A04" production="uni2A04"  category="Symbol" subCategory="Largeop" sortName="op25" />
-    <glyph name="twoLogicalAndOperator" unicode="2A07" production="uni2A07"  category="Symbol" subCategory="Largeop" sortName="op25" />
-    <glyph name="twoLogicalOrOperator" unicode="2A08" production="uni2A08"  category="Symbol" subCategory="Largeop" sortName="op25" />
-    <glyph name="zNotationSchemaComposition" unicode="2A1F" production="uni2A1F"  category="Symbol" subCategory="Largeop" sortName="op25" />
-    <glyph name="zNotationSchemaPiping" unicode="2A20" production="uni2A20"  category="Symbol" subCategory="Largeop" sortName="op25" />
-    <glyph name="bigReverseSolidus" unicode="29F9" production="uni29F9" category="Symbol" subCategory="Largeop" sortName="op25" />
-    <glyph name="bigSolidus" unicode="29F8" production="uni29F8" category="Symbol" subCategory="Largeop" sortName="op25" />
-    <glyph name="naryintersection" unicode="22C2" production="uni22C2" category="Symbol" subCategory="Largeop" sortName="op25" />
-    <glyph name="narylogicaland" unicode="22C0" production="uni22C0" category="Symbol" subCategory="Largeop" sortName="op25" />
-    <glyph name="narylogicalor" unicode="22C1" production="uni22C1" category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="summationdoublestruck" unicode="2140" production="uni2140"  category="Symbol" subCategory="Largeop" sortName="op24c" />
+    <glyph name="join" unicode="2A1D" production="uni2A1D"  category="Symbol" subCategory="Largeop" sortName="op40" />
+    <glyph name="narylefttriangle" unicode="2A1E" production="uni2A1E"  category="Symbol" subCategory="Largeop" sortName="op39" />
+    <glyph name="narycircleddot" unicode="2A00" production="uni2A00"  category="Symbol" subCategory="Largeop" sortName="op33" />
+    <glyph name="narycircledplus" unicode="2A01" production="uni2A01"  category="Symbol" subCategory="Largeop" sortName="op34" />
+    <glyph name="narycircledtimes" unicode="2A02" production="uni2A02"  category="Symbol" subCategory="Largeop" sortName="op35" />
+    <glyph name="narysquareintersection" unicode="2A05" production="uni2A05"  category="Symbol" subCategory="Largeop" sortName="op32" />
+    <glyph name="narysquareunion" unicode="2A06" production="uni2A06"  category="Symbol" subCategory="Largeop" sortName="op31" />
+    <glyph name="narytimes" unicode="2A09" production="uni2A09"  category="Symbol" subCategory="Largeop" sortName="op36" />
+    <glyph name="naryuniondot" unicode="2A03" production="uni2A03"  category="Symbol" subCategory="Largeop" sortName="op25a" />
+    <glyph name="naryunionplus" unicode="2A04" production="uni2A04"  category="Symbol" subCategory="Largeop" sortName="op25b" />
+    <glyph name="narytwologicaland" unicode="2A07" production="uni2A07"  category="Symbol" subCategory="Largeop" sortName="op30" />
+    <glyph name="narytwologicalor" unicode="2A08" production="uni2A08"  category="Symbol" subCategory="Largeop" sortName="op29" />
+    <glyph name="znotationschemacomposition" unicode="2A1F" production="uni2A1F"  category="Symbol" subCategory="Largeop" sortName="op41" />
+    <glyph name="znotationschemapiping" unicode="2A20" production="uni2A20"  category="Symbol" subCategory="Largeop" sortName="op42" />
+    <glyph name="bigreversesolidus" unicode="29F9" production="uni29F9" category="Symbol" subCategory="Largeop" sortName="op37" />
+    <glyph name="bigsolidus" unicode="29F8" production="uni29F8" category="Symbol" subCategory="Largeop" sortName="op38" />
+    <glyph name="naryintersection" unicode="22C2" production="uni22C2" category="Symbol" subCategory="Largeop" sortName="op26" />
+    <glyph name="narylogicaland" unicode="22C0" production="uni22C0" category="Symbol" subCategory="Largeop" sortName="op28" />
+    <glyph name="narylogicalor" unicode="22C1" production="uni22C1" category="Symbol" subCategory="Largeop" sortName="op27" />
     <glyph name="naryunion" unicode="22C3" production="uni22C3" category="Symbol" subCategory="Largeop" sortName="op25" />
-    <glyph name="largeTripleVerticalBarOperator" unicode="2AFC" production="uni2AFC" category="Symbol" subCategory="Largeop" sortName="op25" />
-    <glyph name="nAryWhiteVerticalBar" unicode="2AFF" production="uni2AFF" category="Symbol" subCategory="Largeop" sortName="op25" />
+    <glyph name="narytripleverticalbar" unicode="2AFC" production="uni2AFC" category="Symbol" subCategory="Largeop" sortName="op43" />
+    <glyph name="narywhiteverticalbar" unicode="2AFF" production="uni2AFF" category="Symbol" subCategory="Largeop" sortName="op44" />
+    <glyph name="summation-ar" unicode="1EEF0" production="u1EEF0" category="Symbol" subCategory="Largeop" script="" sortName="op50" />
+    <glyph name="limitFarsi-ar" unicode="1EEF1" production="u1EEF1" category="Symbol" subCategory="Largeop" script="" sortName="op51" />
 
     <glyph name="radical" unicode="221A" production="uni221A"  category="Symbol" subCategory="Radical" sortName="op26" />
     <glyph name="radical.b" unicode="23B7" production="uni23B7" category="Symbol" subCategory="Radical" sortName="b.op26" />
     <glyph name="cuberoot" unicode="221B" production="uni221B"  category="Symbol" subCategory="Radical" sortName="op26a" />
     <glyph name="fourthroot" unicode="221C" production="uni221C"  category="Symbol" subCategory="Radical" sortName="op26b" />
-    <glyph name="longDivision" unicode="27CC" production="uni27CC" category="Symbol" subCategory="Radical" sortName="op26c" />
+    <glyph name="fourthroot-ar" unicode="0607" production="uni0607"  category="Symbol" subCategory="Radical" script="" sortName="rtlm.op26c" />
+    <glyph name="cuberoot-ar" unicode="0606" production="uni0606"  category="Symbol" subCategory="Radical" script="" sortName="rtlm.op26d" />
+    <glyph name="longDivision" unicode="27CC" production="uni27CC" category="Symbol" subCategory="Radical" sortName="op26e" />
 
     <glyph name="increment" unicode="2206" category="Symbol" subCategory="Math" sortName="" />
     <glyph name="micro" unicode="00B5" category="Symbol" subCategory="Math" sortName="" />
@@ -937,31 +946,43 @@
 
     <glyph name="bar" unicode="007C" script="" category="Punctuation" subCategory="Fence" sortName="bar1" />
     <glyph name="dblverticalbar" unicode="2016" production="uni2016"  script="" category="Punctuation" subCategory="Fence" sortName="bar2" />
-    <glyph name="tripleVerticalBarDelimiter" unicode="2980" production="uni2980"  script="" category="Punctuation" subCategory="Fence" sortName="bar3" />
+    <glyph name="tripleverticalbar" unicode="2980" production="uni2980"  script="" category="Punctuation" subCategory="Fence" sortName="bar3" />
     <glyph name="parenleft" unicode="0028" script="" category="Punctuation" subCategory="Fence" sortName="fence00" />
     <glyph name="parenright" unicode="0029" script="" category="Punctuation" subCategory="Fence" sortName="fence01" />
+    <glyph name="leftarclessthanbracket" unicode="2993" production="uni2993" script="" category="Punctuation" subCategory="Fence" sortName="fence01a" />
+    <glyph name="rightarcgreaterthanbracket" unicode="2994" production="uni2994" script="" category="Punctuation" subCategory="Fence" sortName="fence01b" />
+    <glyph name="doubleleftarcgreaterthanbracket" unicode="2995" production="uni2995" script="" category="Punctuation" subCategory="Fence" sortName="fence01c" />
+    <glyph name="doublerightarclessthanbracket" unicode="2996" production="uni2996" script="" category="Punctuation" subCategory="Fence" sortName="fence01d" />
+    <glyph name="leftflattenedparenthesis-math" unicode="27EE" production="uni27EE" script="" category="Punctuation" subCategory="Fence" sortName="fence01e" />
+    <glyph name="rightflattenedparenthesis-math" unicode="27EF" production="uni27EF" script="" category="Punctuation" subCategory="Fence" sortName="fence01f" />
     <glyph name="bracketleft" unicode="005B" script="" category="Punctuation" subCategory="Fence" sortName="fence02" />
     <glyph name="bracketright" unicode="005D" script="" category="Punctuation" subCategory="Fence" sortName="fence03" />
+    <glyph name="leftsquarebracketunderbar" unicode="298B" production="uni298B" script="" category="Punctuation" subCategory="Fence" sortName="fence03a" />
+    <glyph name="rightsquarebracketunderbar" unicode="298C" production="uni298C" script="" category="Punctuation" subCategory="Fence" sortName="fence03b" />
+    <glyph name="leftsquarebrackettickintopcorner" unicode="298D" production="uni298D" script="" category="Punctuation" subCategory="Fence" sortName="fence03c" />
+    <glyph name="rightsquarebrackettickinbottomcorner" unicode="298E" production="uni298E" script="" category="Punctuation" subCategory="Fence" sortName="fence03d" />
+    <glyph name="leftsquarebrackettickinbottomcorner" unicode="298F" production="uni298F" script="" category="Punctuation" subCategory="Fence" sortName="fence03e" />
+    <glyph name="rightsquarebrackettickintopcorner" unicode="2990" production="uni2990" script="" category="Punctuation" subCategory="Fence" sortName="fence03f" />
+    <glyph name="leftCeiling" unicode="2308" production="uni2308" script="" category="Punctuation" subCategory="Fence" sortName="fence03g" />
+    <glyph name="rightCeiling" unicode="2309" production="uni2309" script="" category="Punctuation" subCategory="Fence" sortName="fence03h" />
+    <glyph name="leftFloor" unicode="230A" production="uni230A" script="" category="Punctuation" subCategory="Fence" sortName="fence03i" />
+    <glyph name="rightFloor" unicode="230B" production="uni230B" script="" category="Punctuation" subCategory="Fence" sortName="fence03j" />
     <glyph name="braceleft" unicode="007B" script="" category="Punctuation" subCategory="Fence" sortName="fence04" />
     <glyph name="braceright" unicode="007D" script="" category="Punctuation" subCategory="Fence" sortName="fence05" />
-    <glyph name="leftCeiling" unicode="2308" production="uni2308" script="" category="Punctuation" subCategory="Fence" sortName="fence06" />
-    <glyph name="rightCeiling" unicode="2309" production="uni2309" script="" category="Punctuation" subCategory="Fence" sortName="fence07" />
-    <glyph name="leftFloor" unicode="230A" production="uni230A" script="" category="Punctuation" subCategory="Fence" sortName="fence08" />
-    <glyph name="rightFloor" unicode="230B" production="uni230B" script="" category="Punctuation" subCategory="Fence" sortName="fence09" />
     <glyph name="lmoustache" unicode="23B0" production="uni23B0"  script="" category="Punctuation" subCategory="Fence" sortName="fence10" />
     <glyph name="rmoustache" unicode="23B1" production="uni23B1"  script="" category="Punctuation" subCategory="Fence" sortName="fence11" />
     <glyph name="leftsshapedbagdelimiter" unicode="27C5" production="uni27C5" script="" category="Punctuation" subCategory="Fence" sortName="fence12" />
     <glyph name="rightsshapedbagdelimiter" unicode="27C6" production="uni27C6" script="" category="Punctuation" subCategory="Fence" sortName="fence13" />
-    <glyph name="leftwhitesquarebracket-math" unicode="27E6" production="uni27E6" script="" category="Punctuation" subCategory="Fence" sortName="fence14" />
-    <glyph name="rightwhitesquarebracket-math" unicode="27E7" production="uni27E7" script="" category="Punctuation" subCategory="Fence" sortName="fence15" />
     <glyph name="leftanglebracket-math" unicode="27E8" production="uni27E8" script="" category="Punctuation" subCategory="Fence" sortName="fence16" />
     <glyph name="rightanglebracket-math" unicode="27E9" production="uni27E9" script="" category="Punctuation" subCategory="Fence" sortName="fence17" />
-    <glyph name="leftdoubleanglebracket-math" unicode="27EA" production="uni27EA" script="" category="Punctuation" subCategory="Fence" sortName="fence18" />
-    <glyph name="rightdoubleanglebracket-math" unicode="27EB" production="uni27EB" script="" category="Punctuation" subCategory="Fence" sortName="fence19" />
+    <glyph name="leftanglebracketdot" unicode="2991" production="uni2991" script="" category="Punctuation" subCategory="Fence" sortName="fence17a" />
+    <glyph name="rightanglebracketdot" unicode="2992" production="uni2992" script="" category="Punctuation" subCategory="Fence" sortName="fence17b" />
+    <glyph name="leftdoubleanglebracket-math" unicode="27EA" production="uni27EA" script="" category="Punctuation" subCategory="Fence" sortName="fence17c" />
+    <glyph name="rightdoubleanglebracket-math" unicode="27EB" production="uni27EB" script="" category="Punctuation" subCategory="Fence" sortName="fence17d" />
+    <glyph name="leftwhitesquarebracket-math" unicode="27E6" production="uni27E6" script="" category="Punctuation" subCategory="Fence" sortName="fence18" />
+    <glyph name="rightwhitesquarebracket-math" unicode="27E7" production="uni27E7" script="" category="Punctuation" subCategory="Fence" sortName="fence19" />
     <glyph name="leftwhitetortoiseshellbracket-math" unicode="27EC" production="uni27EC" script="" category="Punctuation" subCategory="Fence" sortName="fence20" />
     <glyph name="rightwhitetortoiseshellbracket-math" unicode="27ED" production="uni27ED" script="" category="Punctuation" subCategory="Fence" sortName="fence21" />
-    <glyph name="leftflattenedparenthesis-math" unicode="27EE" production="uni27EE" script="" category="Punctuation" subCategory="Fence" sortName="fence22" />
-    <glyph name="rightflattenedparenthesis-math" unicode="27EF" production="uni27EF" script="" category="Punctuation" subCategory="Fence" sortName="fence23" />
     <glyph name="leftwhitecurlybracket" unicode="2983" production="uni2983" script="" category="Punctuation" subCategory="Fence" sortName="fence24" />
     <glyph name="rightwhitecurlybracket" unicode="2984" production="uni2984" script="" category="Punctuation" subCategory="Fence" sortName="fence25" />
     <glyph name="whiteparenleft" unicode="2985" production="uni2985" script="" category="Punctuation" subCategory="Fence" sortName="fence26" />
@@ -970,20 +991,10 @@
     <glyph name="znotationrightimagebracket" unicode="2988" production="uni2988" script="" category="Punctuation" subCategory="Fence" sortName="fence29" />
     <glyph name="znotationleftbindingbracket" unicode="2989" production="uni2989" script="" category="Punctuation" subCategory="Fence" sortName="fence30" />
     <glyph name="znotationrightbindingbracket" unicode="298A" production="uni298A" script="" category="Punctuation" subCategory="Fence" sortName="fence31" />
-    <glyph name="leftsquarebracketunderbar" unicode="298B" production="uni298B" script="" category="Punctuation" subCategory="Fence" sortName="fence32" />
-    <glyph name="rightsquarebracketunderbar" unicode="298C" production="uni298C" script="" category="Punctuation" subCategory="Fence" sortName="fence33" />
-    <glyph name="leftsquarebrackettickintopcorner" unicode="298D" production="uni298D" script="" category="Punctuation" subCategory="Fence" sortName="fence34" />
-    <glyph name="rightsquarebrackettickinbottomcorner" unicode="298E" production="uni298E" script="" category="Punctuation" subCategory="Fence" sortName="fence35" />
-    <glyph name="leftsquarebrackettickinbottomcorner" unicode="298F" production="uni298F" script="" category="Punctuation" subCategory="Fence" sortName="fence36" />
-    <glyph name="rightsquarebrackettickintopcorner" unicode="2990" production="uni2990" script="" category="Punctuation" subCategory="Fence" sortName="fence37" />
-    <glyph name="leftanglebracketdot" unicode="2991" production="uni2991" script="" category="Punctuation" subCategory="Fence" sortName="fence38" />
-    <glyph name="rightanglebracketdot" unicode="2992" production="uni2992" script="" category="Punctuation" subCategory="Fence" sortName="fence39" />
-    <glyph name="leftarclessthanbracket" unicode="2993" production="uni2993" script="" category="Punctuation" subCategory="Fence" sortName="fence40" />
-    <glyph name="rightarcgreaterthanbracket" unicode="2994" production="uni2994" script="" category="Punctuation" subCategory="Fence" sortName="fence41" />
-    <glyph name="doubleleftarcgreaterthanbracket" unicode="2995" production="uni2995" script="" category="Punctuation" subCategory="Fence" sortName="fence42" />
-    <glyph name="doublerightarclessthanbracket" unicode="2996" production="uni2996" script="" category="Punctuation" subCategory="Fence" sortName="fence43" />
-    <glyph name="leftblacktortoiseshellbracket" unicode="2997" production="uni2997" script="" category="Punctuation" subCategory="Fence" sortName="fence44" />
-    <glyph name="rightblacktortoiseshellbracket" unicode="2998" production="uni2998" script="" category="Punctuation" subCategory="Fence" sortName="fence45" />
+    <glyph name="lightlefttortoiseshellbracketornament" unicode="2772" production="uni2772" category="Punctuation" subCategory="Fence" sortName="fence33a" />
+    <glyph name="lightrighttortoiseshellbracketornament" unicode="2773" production="uni2773" category="Punctuation" subCategory="Fence" sortName="fence33b" />
+    <glyph name="leftblacktortoiseshellbracket" unicode="2997" production="uni2997" script="" category="Punctuation" subCategory="Fence" sortName="fence33c" />
+    <glyph name="rightblacktortoiseshellbracket" unicode="2998" production="uni2998" script="" category="Punctuation" subCategory="Fence" sortName="fence33d" />
     <glyph name="dottedFence" unicode="2999" production="uni2999"  script="" category="Punctuation" subCategory="Fence" sortName="fence46" />
     <glyph name="verticalZigzagLine" unicode="299A" production="uni299A"  script="" category="Punctuation" subCategory="Fence" sortName="fence47" />
     <glyph name="leftwigglyfence" unicode="29D8" production="uni29D8" script="" category="Punctuation" subCategory="Fence" sortName="fence48" />
@@ -1006,6 +1017,7 @@
     <glyph name="parenright.x" unicode="239F" production="uni239F" category="Punctuation" subCategory="Fence" />
     <glyph name="parenright.b" unicode="23A0" production="uni23A0" category="Punctuation" subCategory="Fence" />
     <glyph name="parenright.t" unicode="239E" production="uni239E" category="Punctuation" subCategory="Fence" />
+    <glyph name="braceright.x" category="Punctuation" subCategory="Fence" />
     <glyph name="braceright.b" unicode="23AD" production="uni23AD" category="Punctuation" subCategory="Fence" />
     <glyph name="braceright.m" unicode="23AC" production="uni23AC" category="Punctuation" subCategory="Fence" />
     <glyph name="braceright.t" unicode="23AB" production="uni23AB" category="Punctuation" subCategory="Fence" />
@@ -1014,5 +1026,419 @@
     <glyph name="bracketright.t" unicode="23A4" production="uni23A4" category="Punctuation" subCategory="Fence" />
 
     <glyph name="smallerthanorequalto" unicode="2AAC" production="uni2AAC" category="Symbol" subCategory="Math" />
+
+    <glyph name="leftArrow" unicode="2190" production="arrowleft" category="Symbol" subCategory="Arrow" sortName="arr2190" />
+    <glyph name="upArrow" unicode="2191" production="arrowup" category="Symbol" subCategory="Arrow" sortName="arr2191" />
+    <glyph name="rightArrow" unicode="2192" production="arrowright" category="Symbol" subCategory="Arrow" sortName="arr2192" />
+    <glyph name="downArrow" unicode="2193" production="arrowdown" category="Symbol" subCategory="Arrow" sortName="arr2193" />
+    <glyph name="leftRightArrow" unicode="2194" production="arrowboth" category="Symbol" subCategory="Arrow" sortName="arr2194" />
+    <glyph name="upDownArrow" unicode="2195" production="arrowupdn" category="Symbol" subCategory="Arrow" sortName="arr2195" />
+    <glyph name="northWestArrow" unicode="2196" production="uni2196" category="Symbol" subCategory="Arrow" sortName="arr2196" />
+    <glyph name="northEastArrow" unicode="2197" production="uni2197" category="Symbol" subCategory="Arrow" sortName="arr2197" />
+    <glyph name="southEastArrow" unicode="2198" production="uni2198" category="Symbol" subCategory="Arrow" sortName="arr2198" />
+    <glyph name="southWestArrow" unicode="2199" production="uni2199" category="Symbol" subCategory="Arrow" sortName="arr2199" />
+    <glyph name="leftStrokeArrow" unicode="219A" production="uni219A" category="Symbol" subCategory="Arrow" sortName="arr219A" />
+    <glyph name="rightStrokeArrow" unicode="219B" production="uni219B" category="Symbol" subCategory="Arrow" sortName="arr219B" />
+    <glyph name="leftWaveArrow" unicode="219C" production="uni219C" category="Symbol" subCategory="Arrow" sortName="arr219C" />
+    <glyph name="rightWaveArrow" unicode="219D" production="uni219D" category="Symbol" subCategory="Arrow" sortName="arr219D" />
+    <glyph name="leftTwoheadedArrow" unicode="219E" production="uni219E" category="Symbol" subCategory="Arrow" sortName="arr219E" />
+    <glyph name="upTwoHeadedArrow" unicode="219F" production="uni219F" category="Symbol" subCategory="Arrow" sortName="arr219F" />
+    <glyph name="rightTwoheadedArrow" unicode="21A0" production="uni21A0" category="Symbol" subCategory="Arrow" sortName="arr21A0" />
+    <glyph name="downTwoheadedArrow" unicode="21A1" production="uni21A1" category="Symbol" subCategory="Arrow" sortName="arr21A1" />
+    <glyph name="leftTailArrow" unicode="21A2" production="uni21A2" category="Symbol" subCategory="Arrow" sortName="arr21A2" />
+    <glyph name="rightTailArrow" unicode="21A3" production="uni21A3" category="Symbol" subCategory="Arrow" sortName="arr21A3" />
+    <glyph name="leftFrombarArrow" unicode="21A4" production="uni21A4" category="Symbol" subCategory="Arrow" sortName="arr21A4" />
+    <glyph name="upFrombarArrow" unicode="21A5" production="uni21A5" category="Symbol" subCategory="Arrow" sortName="arr21A5" />
+    <glyph name="rightFrombarArrow" unicode="21A6" production="uni21A6" category="Symbol" subCategory="Arrow" sortName="arr21A6" />
+    <glyph name="downFrombarArrow" unicode="21A7" production="uni21A7" category="Symbol" subCategory="Arrow" sortName="arr21A7" />
+    <glyph name="upDownbaseArrow" unicode="21A8" production="arrowupdnbse" category="Symbol" subCategory="Arrow" sortName="arr21A8" />
+    <glyph name="leftHookArrow" unicode="21A9" production="uni21A9" category="Symbol" subCategory="Arrow" sortName="arr21A9" />
+    <glyph name="rightHookArrow" unicode="21AA" production="uni21AA" category="Symbol" subCategory="Arrow" sortName="arr21AA" />
+    <glyph name="leftLoopArrow" unicode="21AB" production="uni21AB" category="Symbol" subCategory="Arrow" sortName="arr21AB" />
+    <glyph name="rightLoopArrow" unicode="21AC" production="uni21AC" category="Symbol" subCategory="Arrow" sortName="arr21AC" />
+    <glyph name="leftRightWaveArrow" unicode="21AD" production="uni21AD" category="Symbol" subCategory="Arrow" sortName="arr21AD" />
+    <glyph name="leftRightStrokeArrow" unicode="21AE" production="uni21AE" category="Symbol" subCategory="Arrow" sortName="arr21AE" />
+    <glyph name="upTipLeftArrow" unicode="21B0" production="uni21B0" category="Symbol" subCategory="Arrow" sortName="arr21B0" />
+    <glyph name="upTipRightArrow" unicode="21B1" production="uni21B1" category="Symbol" subCategory="Arrow" sortName="arr21B1" />
+    <glyph name="downTipLeftArrow" unicode="21B2" production="uni21B2" category="Symbol" subCategory="Arrow" sortName="arr21B2" />
+    <glyph name="downTipRightArrow" unicode="21B3" production="uni21B3" category="Symbol" subCategory="Arrow" sortName="arr21B3" />
+    <glyph name="rightCornerDownArrow" unicode="21B4" production="uni21B4" category="Symbol" subCategory="Arrow" sortName="arr21B4" />
+    <glyph name="carriagereturn" unicode="21B5" category="Symbol" subCategory="Arrow" sortName="arr21B5" />
+    <glyph name="topCircleLeftArrow" unicode="21B6" production="uni21B6" category="Symbol" subCategory="Arrow" sortName="arr21B6" />
+    <glyph name="topCircleRightArrow" unicode="21B7" production="uni21B7" category="Symbol" subCategory="Arrow" sortName="arr21B7" />
+    <glyph name="northWestToLongbarArrow" unicode="21B8" production="uni21B8" category="Symbol" subCategory="Arrow" sortName="arr21B8" />
+    <glyph name="leftToBarOverRightToBarArrow" unicode="21B9" production="uni21B9" category="Symbol" subCategory="Arrow" sortName="arr21B9" />
+    <glyph name="anticlockwiseOpenCircleArrow" unicode="21BA" production="uni21BA" category="Symbol" subCategory="Arrow" sortName="arr21BA" />
+    <glyph name="clockwiseOpenCircleArrow" unicode="21BB" production="uni21BB" category="Symbol" subCategory="Arrow" sortName="arr21BB" />
+    <glyph name="leftBarbUpHarpoon" unicode="21BC" production="uni21BC" category="Symbol" subCategory="Arrow" sortName="arr21BC" />
+    <glyph name="leftBarbDownHarpoon" unicode="21BD" production="uni21BD" category="Symbol" subCategory="Arrow" sortName="arr21BD" />
+    <glyph name="upBarbRightharpoon" unicode="21BE" production="uni21BE" category="Symbol" subCategory="Arrow" sortName="arr21BE" />
+    <glyph name="upBarbLeftharpoon" unicode="21BF" production="uni21BF" category="Symbol" subCategory="Arrow" sortName="arr21BF" />
+    <glyph name="rightBarbUpHarpoon" unicode="21C0" production="uni21C0" category="Symbol" subCategory="Arrow" sortName="arr21C0" />
+    <glyph name="rightBarbdownHarpoon" unicode="21C1" production="uni21C1" category="Symbol" subCategory="Arrow" sortName="arr21C1" />
+    <glyph name="downBarbRightHarpoon" unicode="21C2" production="uni21C2" category="Symbol" subCategory="Arrow" sortName="arr21C2" />
+    <glyph name="downBarbLeftHarpoon" unicode="21C3" production="uni21C3" category="Symbol" subCategory="Arrow" sortName="arr21C3" />
+    <glyph name="rightOverLeftArrow" unicode="21C4" production="uni21C4" category="Symbol" subCategory="Arrow" sortName="arr21C4" />
+    <glyph name="upAndDownArrow" unicode="21C5" production="uni21C5" category="Symbol" subCategory="Arrow" sortName="arr21C5" />
+    <glyph name="leftAndRightArrow" unicode="21C6" production="uni21C6" category="Symbol" subCategory="Arrow" sortName="arr21C6" />
+    <glyph name="leftDoublePairedArrow" unicode="21C7" production="uni21C7" category="Symbol" subCategory="Arrow" sortName="arr21C7" />
+    <glyph name="upDoublePairedArrow" unicode="21C8" production="uni21C8" category="Symbol" subCategory="Arrow" sortName="arr21C8" />
+    <glyph name="rightDoublePairedArrow" unicode="21C9" production="uni21C9" category="Symbol" subCategory="Arrow" sortName="arr21C9" />
+    <glyph name="downDoublePairedArrow" unicode="21CA" production="uni21CA" category="Symbol" subCategory="Arrow" sortName="arr21CA" />
+    <glyph name="leftOverRightHarpoon" unicode="21CB" production="uni21CB" category="Symbol" subCategory="Arrow" sortName="arr21CB" />
+    <glyph name="rightOverLeftHarpoon" unicode="21CC" production="uni21CC" category="Symbol" subCategory="Arrow" sortName="arr21CC" />
+    <glyph name="leftDoubleStrokeArrow" unicode="21CD" production="uni21CD" category="Symbol" subCategory="Arrow" sortName="arr21CD" />
+    <glyph name="leftRightDoubleStrokeArrow" unicode="21CE" production="uni21CE" category="Symbol" subCategory="Arrow" sortName="arr21CE" />
+    <glyph name="rightDoubleStrokeArrow" unicode="21CF" production="uni21CF" category="Symbol" subCategory="Arrow" sortName="arr21CF" />
+    <glyph name="leftDoubleArrow" unicode="21D0" production="arrowdblleft" category="Symbol" subCategory="Arrow" sortName="arr21D0" />
+    <glyph name="upDoubleArrow" unicode="21D1" production="arrowdblup" category="Symbol" subCategory="Arrow" sortName="arr21D1" />
+    <glyph name="rightDoubleArrow" unicode="21D2" production="arrowdblright" category="Symbol" subCategory="Arrow" sortName="arr21D2" />
+    <glyph name="downDoubleArrow" unicode="21D3" production="arrowdbldown" category="Symbol" subCategory="Arrow" sortName="arr21D3" />
+    <glyph name="leftRightDoubleArrow" unicode="21D4" production="arrowdblboth" category="Symbol" subCategory="Arrow" sortName="arr21D4" />
+    <glyph name="upDownDoubleArrow" unicode="21D5" production="uni21D5" category="Symbol" subCategory="Arrow" sortName="arr21D5" />
+    <glyph name="northWestDoubleArrow" unicode="21D6" production="uni21D6" category="Symbol" subCategory="Arrow" sortName="arr21D6" />
+    <glyph name="northEastDoubleArrow" unicode="21D7" production="uni21D7" category="Symbol" subCategory="Arrow" sortName="arr21D7" />
+    <glyph name="southEastDoubleArrow" unicode="21D8" production="uni21D8" category="Symbol" subCategory="Arrow" sortName="arr21D8" />
+    <glyph name="southWestDoubleArrow" unicode="21D9" production="uni21D9" category="Symbol" subCategory="Arrow" sortName="arr21D9" />
+    <glyph name="leftTripleArrow" unicode="21DA" production="uni21DA" category="Symbol" subCategory="Arrow" sortName="arr21DA" />
+    <glyph name="rightTripleArrow" unicode="21DB" production="uni21DB" category="Symbol" subCategory="Arrow" sortName="arr21DB" />
+    <glyph name="leftSquiggleArrow" unicode="21DC" production="uni21DC" category="Symbol" subCategory="Arrow" sortName="arr21DC" />
+    <glyph name="rightSquiggleArrow" unicode="21DD" production="uni21DD" category="Symbol" subCategory="Arrow" sortName="arr21DD" />
+    <glyph name="leftDashArrow" unicode="21E0" production="uni21E0" category="Symbol" subCategory="Arrow" sortName="arr21E0" />
+    <glyph name="upDashArrow" unicode="21E1" production="uni21E1" category="Symbol" subCategory="Arrow" sortName="arr21E1" />
+    <glyph name="rightDashArrow" unicode="21E2" production="uni21E2" category="Symbol" subCategory="Arrow" sortName="arr21E2" />
+    <glyph name="dashdownArrow" unicode="21E3" production="uni21E3" category="Symbol" subCategory="Arrow" sortName="arr21E3" />
+    <glyph name="leftTabArrow" unicode="21E4" production="uni21E4" category="Symbol" subCategory="Arrow" sortName="arr21E4" />
+    <glyph name="rightTabArrow" unicode="21E5" production="uni21E5" category="Symbol" subCategory="Arrow" sortName="arr21E5" />
+    <glyph name="northWestArrowToCorner" unicode="21F1" production="uni21F1" category="Symbol" subCategory="Arrow" sortName="arr21F1" />
+    <glyph name="southEastArrowToCorner" unicode="21F2" production="uni21F2" category="Symbol" subCategory="Arrow" sortName="arr21F2" />
+    <glyph name="rightCircleArrow" unicode="21F4" production="uni21F4" category="Symbol" subCategory="Arrow" sortName="arr21F4" />
+    <glyph name="downAndUpArrow" unicode="21F5" production="uni21F5" category="Symbol" subCategory="Arrow" sortName="arr21F5" />
+    <glyph name="threeRightArrow" unicode="21F6" production="uni21F6" category="Symbol" subCategory="Arrow" sortName="arr21F6" />
+    <glyph name="leftVerticalStrokeArrow" unicode="21F7" production="uni21F7" category="Symbol" subCategory="Arrow" sortName="arr21F7" />
+    <glyph name="rightVerticalStrokeArrow" unicode="21F8" production="uni21F8" category="Symbol" subCategory="Arrow" sortName="arr21F8" />
+    <glyph name="leftRightVerticalStrokeArrow" unicode="21F9" production="uni21F9" category="Symbol" subCategory="Arrow" sortName="arr21F9" />
+    <glyph name="leftDoubleVerticalStrokeArrow" unicode="21FA" production="uni21FA" category="Symbol" subCategory="Arrow" sortName="arr21FA" />
+    <glyph name="rightDoubleVerticalStrokeArrow" unicode="21FB" production="uni21FB" category="Symbol" subCategory="Arrow" sortName="arr21FB" />
+    <glyph name="leftRightDoubleVerticalStrokeArrow" unicode="21FC" production="uni21FC" category="Symbol" subCategory="Arrow" sortName="arr21FC" />
+    <glyph name="leftOpenHeadedArrow" unicode="21FD" production="uni21FD" category="Symbol" subCategory="Arrow" sortName="arr21FD" />
+    <glyph name="rightOpenHeadedArrow" unicode="21FE" production="uni21FE" category="Symbol" subCategory="Arrow" sortName="arr21FE" />
+    <glyph name="leftRightOpenHeadedArrow" unicode="21FF" production="uni21FF" category="Symbol" subCategory="Arrow" sortName="arr21FF" />
+    <glyph name="leftMultimap" unicode="27DC" production="uni27DC" category="Symbol" subCategory="Arrow" sortName="arr27DC" />
+    <glyph name="upQuadrupleArrow" unicode="27F0" production="uni27F0" category="Symbol" subCategory="Arrow" sortName="arr27F0" />
+    <glyph name="downQuadrupleArrow" unicode="27F1" production="uni27F1" category="Symbol" subCategory="Arrow" sortName="arr27F1" />
+    <glyph name="anticlockwiseGappedCircleArrow" unicode="27F2" production="uni27F2" category="Symbol" subCategory="Arrow" sortName="arr27F2" />
+    <glyph name="clockwiseGappedCircleArrow" unicode="27F3" production="uni27F3" category="Symbol" subCategory="Arrow" sortName="arr27F3" />
+    <glyph name="rightCircledPlusArrow" unicode="27F4" production="uni27F4" category="Symbol" subCategory="Arrow" sortName="arr27F4" />
+    <glyph name="leftLongArrow" unicode="27F5" production="uni27F5" category="Symbol" subCategory="Arrow" sortName="arr27F5" />
+    <glyph name="rightlongArrow" unicode="27F6" production="uni27F6" category="Symbol" subCategory="Arrow" sortName="arr27F6" />
+    <glyph name="leftRightLongArrow" unicode="27F7" production="uni27F7" category="Symbol" subCategory="Arrow" sortName="arr27F7" />
+    <glyph name="leftLongDoubleArrow" unicode="27F8" production="uni27F8" category="Symbol" subCategory="Arrow" sortName="arr27F8" />
+    <glyph name="rightLongDoubleArrow" unicode="27F9" production="uni27F9" category="Symbol" subCategory="Arrow" sortName="arr27F9" />
+    <glyph name="leftRightLongDoubleArrow" unicode="27FA" production="uni27FA" category="Symbol" subCategory="Arrow" sortName="arr27FA" />
+    <glyph name="leftLongFromBarArrow" unicode="27FB" production="uni27FB" category="Symbol" subCategory="Arrow" sortName="arr27FB" />
+    <glyph name="rightLongFromBarArrow" unicode="27FC" production="uni27FC" category="Symbol" subCategory="Arrow" sortName="arr27FC" />
+    <glyph name="leftLongDoubleFromBarArrow" unicode="27FD" production="uni27FD" category="Symbol" subCategory="Arrow" sortName="arr27FD" />
+    <glyph name="rightLongDoubleFromBarArrow" unicode="27FE" production="uni27FE" category="Symbol" subCategory="Arrow" sortName="arr27FE" />
+    <glyph name="rightLongSquiggleArrow" unicode="27FF" production="uni27FF" category="Symbol" subCategory="Arrow" sortName="arr27FF" />
+    <glyph name="rightTwoHeadedArrowWithVerticalStroke" unicode="2900" production="uni2900" category="Symbol" subCategory="Arrow" sortName="arr2900" />
+    <glyph name="rightTwoHeadedArrowWithDoubleVerticalStroke" unicode="2901" production="uni2901" category="Symbol" subCategory="Arrow" sortName="arr2901" />
+    <glyph name="leftDoubleArrowWithVerticalStroke" unicode="2902" production="uni2902" category="Symbol" subCategory="Arrow" sortName="arr2902" />
+    <glyph name="rightDoubleArrowWithVerticalStroke" unicode="2903" production="uni2903" category="Symbol" subCategory="Arrow" sortName="arr2903" />
+    <glyph name="leftRightDoubleArrowWithVerticalStroke" unicode="2904" production="uni2904" category="Symbol" subCategory="Arrow" sortName="arr2904" />
+    <glyph name="rightTwoHeadedArrowFromBar" unicode="2905" production="uni2905" category="Symbol" subCategory="Arrow" sortName="arr2905" />
+    <glyph name="leftDoubleArrowFromBar" unicode="2906" production="uni2906" category="Symbol" subCategory="Arrow" sortName="arr2906" />
+    <glyph name="rightDoubleArrowFromBar" unicode="2907" production="uni2907" category="Symbol" subCategory="Arrow" sortName="arr2907" />
+    <glyph name="downArrowWithHorizontalStroke" unicode="2908" production="uni2908" category="Symbol" subCategory="Arrow" sortName="arr2908" />
+    <glyph name="upArrowWithHorizontalStroke" unicode="2909" production="uni2909" category="Symbol" subCategory="Arrow" sortName="arr2909" />
+    <glyph name="upTripleArrow" unicode="290A" production="uni290A" category="Symbol" subCategory="Arrow" sortName="arr290A" />
+    <glyph name="downTripleArrow" unicode="290B" production="uni290B" category="Symbol" subCategory="Arrow" sortName="arr290B" />
+    <glyph name="leftDoubleDashArrow" unicode="290C" production="uni290C" category="Symbol" subCategory="Arrow" sortName="arr290C" />
+    <glyph name="rightDoubleDashArrow" unicode="290D" production="uni290D" category="Symbol" subCategory="Arrow" sortName="arr290D" />
+    <glyph name="leftTripleDashArrow" unicode="290E" production="uni290E" category="Symbol" subCategory="Arrow" sortName="arr290E" />
+    <glyph name="rightTripleDashArrow" unicode="290F" production="uni290F" category="Symbol" subCategory="Arrow" sortName="arr290F" />
+    <glyph name="rightTwoHeadedTripleDashArrow" unicode="2910" production="uni2910" category="Symbol" subCategory="Arrow" sortName="arr2910" />
+    <glyph name="rightArrowWithDottedStem" unicode="2911" production="uni2911" category="Symbol" subCategory="Arrow" sortName="arr2911" />
+    <glyph name="upArrowToBar" unicode="2912" production="uni2912" category="Symbol" subCategory="Arrow" sortName="arr2912" />
+    <glyph name="downArrowToBar" unicode="2913" production="uni2913" category="Symbol" subCategory="Arrow" sortName="arr2913" />
+    <glyph name="rightArrowWithTailWithVerticalStroke" unicode="2914" production="uni2914" category="Symbol" subCategory="Arrow" sortName="arr2914" />
+    <glyph name="rightArrowWithTailWithDoubleVerticalStroke" unicode="2915" production="uni2915" category="Symbol" subCategory="Arrow" sortName="arr2915" />
+    <glyph name="rightTwoHeadedArrowWithTail" unicode="2916" production="uni2916" category="Symbol" subCategory="Arrow" sortName="arr2916" />
+    <glyph name="rightTwoHeadedArrowWithTailWithVerticalStroke" unicode="2917" production="uni2917" category="Symbol" subCategory="Arrow" sortName="arr2917" />
+    <glyph name="rightTwoHeadedArrowWithTailWithDoubleVerticalStroke" unicode="2918" production="uni2918" category="Symbol" subCategory="Arrow" sortName="arr2918" />
+    <glyph name="leftArrowTail" unicode="2919" production="uni2919" category="Symbol" subCategory="Arrow" sortName="arr2919" />
+    <glyph name="rightArrowTail" unicode="291A" production="uni291A" category="Symbol" subCategory="Arrow" sortName="arr291A" />
+    <glyph name="leftDoubleArrowTail" unicode="291B" production="uni291B" category="Symbol" subCategory="Arrow" sortName="arr291B" />
+    <glyph name="rightDoubleArrowTail" unicode="291C" production="uni291C" category="Symbol" subCategory="Arrow" sortName="arr291C" />
+    <glyph name="leftArrowToBlackDiamond" unicode="291D" production="uni291D" category="Symbol" subCategory="Arrow" sortName="arr291D" />
+    <glyph name="rightArrowToBlackDiamond" unicode="291E" production="uni291E" category="Symbol" subCategory="Arrow" sortName="arr291E" />
+    <glyph name="leftArrowFromBarToBlackDiamond" unicode="291F" production="uni291F" category="Symbol" subCategory="Arrow" sortName="arr291F" />
+    <glyph name="rightArrowFromBarToBlackDiamond" unicode="2920" production="uni2920" category="Symbol" subCategory="Arrow" sortName="arr2920" />
+    <glyph name="northWestAndSouthEastArrow" unicode="2921" production="uni2921" category="Symbol" subCategory="Arrow" sortName="arr2921" />
+    <glyph name="northEastAndSouthWestArrow" unicode="2922" production="uni2922" category="Symbol" subCategory="Arrow" sortName="arr2922" />
+    <glyph name="northWestArrowWithHook" unicode="2923" production="uni2923" category="Symbol" subCategory="Arrow" sortName="arr2923" />
+    <glyph name="northEastArrowWithHook" unicode="2924" production="uni2924" category="Symbol" subCategory="Arrow" sortName="arr2924" />
+    <glyph name="southEastArrowWithHook" unicode="2925" production="uni2925" category="Symbol" subCategory="Arrow" sortName="arr2925" />
+    <glyph name="southWestArrowWithHook" unicode="2926" production="uni2926" category="Symbol" subCategory="Arrow" sortName="arr2926" />
+    <glyph name="northWestArrowAndNorthEastArrow" unicode="2927" production="uni2927" category="Symbol" subCategory="Arrow" sortName="arr2927" />
+    <glyph name="northEastArrowAndSouthEastArrow" unicode="2928" production="uni2928" category="Symbol" subCategory="Arrow" sortName="arr2928" />
+    <glyph name="southEastArrowAndSouthWestArrow" unicode="2929" production="uni2929" category="Symbol" subCategory="Arrow" sortName="arr2929" />
+    <glyph name="southWestArrowAndNorthWestArrow" unicode="292A" production="uni292A" category="Symbol" subCategory="Arrow" sortName="arr292A" />
+    <glyph name="risingDiagonalCrossingFallingDiagonal" unicode="292B" production="uni292B" category="Symbol" subCategory="Arrow" sortName="arr292B" />
+    <glyph name="fallingDiagonalCrossingRisingDiagonal" unicode="292C" production="uni292C" category="Symbol" subCategory="Arrow" sortName="arr292C" />
+    <glyph name="southEastArrowCrossingNorthEastArrow" unicode="292D" production="uni292D" category="Symbol" subCategory="Arrow" sortName="arr292D" />
+    <glyph name="northEastArrowCrossingSouthEastArrow" unicode="292E" production="uni292E" category="Symbol" subCategory="Arrow" sortName="arr292E" />
+    <glyph name="fallingDiagonalCrossingNorthEastArrow" unicode="292F" production="uni292F" category="Symbol" subCategory="Arrow" sortName="arr292F" />
+    <glyph name="risingDiagonalCrossingSouthEastArrow" unicode="2930" production="uni2930" category="Symbol" subCategory="Arrow" sortName="arr2930" />
+    <glyph name="northEastArrowCrossingNorthWestArrow" unicode="2931" production="uni2931" category="Symbol" subCategory="Arrow" sortName="arr2931" />
+    <glyph name="northWestArrowCrossingNorthEastArrow" unicode="2932" production="uni2932" category="Symbol" subCategory="Arrow" sortName="arr2932" />
+    <glyph name="waveArrowDirectlyRight" unicode="2933" production="uni2933" category="Symbol" subCategory="Arrow" sortName="arr2933" />
+    <glyph name="rightThenCurvingUpArrow" unicode="2934" production="uni2934" category="Symbol" subCategory="Arrow" sortName="arr2934" />
+    <glyph name="rightThenCurvingDownArrow" unicode="2935" production="uni2935" category="Symbol" subCategory="Arrow" sortName="arr2935" />
+    <glyph name="downThenCurvingLeftArrow" unicode="2936" production="uni2936" category="Symbol" subCategory="Arrow" sortName="arr2936" />
+    <glyph name="downThenCurvingRightArrow" unicode="2937" production="uni2937" category="Symbol" subCategory="Arrow" sortName="arr2937" />
+    <glyph name="rightSideArcClockwiseArrow" unicode="2938" production="uni2938" category="Symbol" subCategory="Arrow" sortName="arr2938" />
+    <glyph name="leftSideArcAnticlockwiseArrow" unicode="2939" production="uni2939" category="Symbol" subCategory="Arrow" sortName="arr2939" />
+    <glyph name="topArcAnticlockwiseArrow" unicode="293A" production="uni293A" category="Symbol" subCategory="Arrow" sortName="arr293A" />
+    <glyph name="bottomArcAnticlockwiseArrow" unicode="293B" production="uni293B" category="Symbol" subCategory="Arrow" sortName="arr293B" />
+    <glyph name="topArcClockwiseArrowWithMinus" unicode="293C" production="uni293C" category="Symbol" subCategory="Arrow" sortName="arr293C" />
+    <glyph name="topArcAnticlockwiseArrowWithPlus" unicode="293D" production="uni293D" category="Symbol" subCategory="Arrow" sortName="arr293D" />
+    <glyph name="lowerRightSemicircularClockwiseArrow" unicode="293E" production="uni293E" category="Symbol" subCategory="Arrow" sortName="arr293E" />
+    <glyph name="lowerLeftSemicircularAnticlockwiseArrow" unicode="293F" production="uni293F" category="Symbol" subCategory="Arrow" sortName="arr293F" />
+    <glyph name="anticlockwiseClosedCircleArrow" unicode="2940" production="uni2940" category="Symbol" subCategory="Arrow" sortName="arr2940" />
+    <glyph name="clockwiseClosedCircleArrow" unicode="2941" production="uni2941" category="Symbol" subCategory="Arrow" sortName="arr2941" />
+    <glyph name="rightArrowAboveShortLeftArrow" unicode="2942" production="uni2942" category="Symbol" subCategory="Arrow" sortName="arr2942" />
+    <glyph name="leftArrowAboveShortRightArrow" unicode="2943" production="uni2943" category="Symbol" subCategory="Arrow" sortName="arr2943" />
+    <glyph name="shortRightArrowAboveLeftArrow" unicode="2944" production="uni2944" category="Symbol" subCategory="Arrow" sortName="arr2944" />
+    <glyph name="rightArrowWithPlusBelow" unicode="2945" production="uni2945" category="Symbol" subCategory="Arrow" sortName="arr2945" />
+    <glyph name="leftArrowWithPlusBelow" unicode="2946" production="uni2946" category="Symbol" subCategory="Arrow" sortName="arr2946" />
+    <glyph name="rightArrowThroughX" unicode="2947" production="uni2947" category="Symbol" subCategory="Arrow" sortName="arr2947" />
+    <glyph name="leftrightarrowthroughcircle" unicode="2948" production="uni2948" category="Symbol" subCategory="Arrow" sortName="arr2948" />
+    <glyph name="uptwoheadedarrowfromcircle" unicode="2949" production="uni2949" category="Symbol" subCategory="Arrow" sortName="arr2949" />
+    <glyph name="leftBarbUpRightBarbDownHarpoon" unicode="294A" production="uni294A" category="Symbol" subCategory="Arrow" sortName="arr294A" />
+    <glyph name="leftBarbDownRightBarbUpHarpoon" unicode="294B" production="uni294B" category="Symbol" subCategory="Arrow" sortName="arr294B" />
+    <glyph name="upBarbRightDownBarbLeftHarpoon" unicode="294C" production="uni294C" category="Symbol" subCategory="Arrow" sortName="arr294C" />
+    <glyph name="upBarbLeftDownBarbRightHarpoon" unicode="294D" production="uni294D" category="Symbol" subCategory="Arrow" sortName="arr294D" />
+    <glyph name="leftBarbUpRightBarbUpHarpoon" unicode="294E" production="uni294E" category="Symbol" subCategory="Arrow" sortName="arr294E" />
+    <glyph name="upBarbRightDownBarbRightHarpoon" unicode="294F" production="uni294F" category="Symbol" subCategory="Arrow" sortName="arr294F" />
+    <glyph name="leftBarbDownRightBarbDownHarpoon" unicode="2950" production="uni2950" category="Symbol" subCategory="Arrow" sortName="arr2950" />
+    <glyph name="upBarbLeftDownBarbLeftHarpoon" unicode="2951" production="uni2951" category="Symbol" subCategory="Arrow" sortName="arr2951" />
+    <glyph name="leftHarpoonWithBarbUpToBar" unicode="2952" production="uni2952" category="Symbol" subCategory="Arrow" sortName="arr2952" />
+    <glyph name="rightHarpoonWithBarbUpToBar" unicode="2953" production="uni2953" category="Symbol" subCategory="Arrow" sortName="arr2953" />
+    <glyph name="upHarpoonWithBarbRightToBar" unicode="2954" production="uni2954" category="Symbol" subCategory="Arrow" sortName="arr2954" />
+    <glyph name="downHarpoonWithBarbRightToBar" unicode="2955" production="uni2955" category="Symbol" subCategory="Arrow" sortName="arr2955" />
+    <glyph name="leftHarpoonWithBarbDownToBar" unicode="2956" production="uni2956" category="Symbol" subCategory="Arrow" sortName="arr2956" />
+    <glyph name="rightHarpoonWithBarbDownToBar" unicode="2957" production="uni2957" category="Symbol" subCategory="Arrow" sortName="arr2957" />
+    <glyph name="upHarpoonWithBarbLeftToBar" unicode="2958" production="uni2958" category="Symbol" subCategory="Arrow" sortName="arr2958" />
+    <glyph name="downHarpoonWithBarbLeftToBar" unicode="2959" production="uni2959" category="Symbol" subCategory="Arrow" sortName="arr2959" />
+    <glyph name="leftHarpoonWithBarbUpFromBar" unicode="295A" production="uni295A" category="Symbol" subCategory="Arrow" sortName="arr295A" />
+    <glyph name="rightHarpoonWithBarbUpFromBar" unicode="295B" production="uni295B" category="Symbol" subCategory="Arrow" sortName="arr295B" />
+    <glyph name="upHarpoonWithBarbRightFromBar" unicode="295C" production="uni295C" category="Symbol" subCategory="Arrow" sortName="arr295C" />
+    <glyph name="downHarpoonWithBarbRightFromBar" unicode="295D" production="uni295D" category="Symbol" subCategory="Arrow" sortName="arr295D" />
+    <glyph name="leftHarpoonWithBarbDownFromBar" unicode="295E" production="uni295E" category="Symbol" subCategory="Arrow" sortName="arr295E" />
+    <glyph name="rightHarpoonWithBarbDownFromBar" unicode="295F" production="uni295F" category="Symbol" subCategory="Arrow" sortName="arr295F" />
+    <glyph name="upHarpoonWithBarbLeftFromBar" unicode="2960" production="uni2960" category="Symbol" subCategory="Arrow" sortName="arr2960" />
+    <glyph name="downHarpoonWithBarbLeftFromBar" unicode="2961" production="uni2961" category="Symbol" subCategory="Arrow" sortName="arr2961" />
+    <glyph name="leftHarpoonWithBarbUpAboveLeftHarpoonWithBarbDown" unicode="2962" production="uni2962" category="Symbol" subCategory="Arrow" sortName="arr2962" />
+    <glyph name="upHarpoonWithBarbLeftBesideUpHarpoonWithBarbRight" unicode="2963" production="uni2963" category="Symbol" subCategory="Arrow" sortName="arr2963" />
+    <glyph name="rightHarpoonWithBarbUpAboveRightHarpoonWithBarbDown" unicode="2964" production="uni2964" category="Symbol" subCategory="Arrow" sortName="arr2964" />
+    <glyph name="downHarpoonWithBarbLeftBesideDownHarpoonWithBarbRight" unicode="2965" production="uni2965" category="Symbol" subCategory="Arrow" sortName="arr2965" />
+    <glyph name="leftHarpoonWithBarbUpAboveRightHarpoonWithBarbUp" unicode="2966" production="uni2966" category="Symbol" subCategory="Arrow" sortName="arr2966" />
+    <glyph name="leftHarpoonWithBarbDownAboveRightHarpoonWithBarbDown" unicode="2967" production="uni2967" category="Symbol" subCategory="Arrow" sortName="arr2967" />
+    <glyph name="rightHarpoonWithBarbUpAboveLeftHarpoonWithBarbUp" unicode="2968" production="uni2968" category="Symbol" subCategory="Arrow" sortName="arr2968" />
+    <glyph name="rightHarpoonWithBarbDownAboveLeftHarpoonWithBarbDown" unicode="2969" production="uni2969" category="Symbol" subCategory="Arrow" sortName="arr2969" />
+    <glyph name="leftHarpoonWithBarbUpAboveLongDash" unicode="296A" production="uni296A" category="Symbol" subCategory="Arrow" sortName="arr296A" />
+    <glyph name="leftHarpoonWithBarbDownBelowLongDash" unicode="296B" production="uni296B" category="Symbol" subCategory="Arrow" sortName="arr296B" />
+    <glyph name="rightHarpoonWithBarbUpAboveLongDash" unicode="296C" production="uni296C" category="Symbol" subCategory="Arrow" sortName="arr296C" />
+    <glyph name="rightHarpoonWithBarbDownBelowLongDash" unicode="296D" production="uni296D" category="Symbol" subCategory="Arrow" sortName="arr296D" />
+    <glyph name="upHarpoonWithBarbLeftBesideDownHarpoonWithBarbRight" unicode="296E" production="uni296E" category="Symbol" subCategory="Arrow" sortName="arr296E" />
+    <glyph name="downHarpoonWithBarbLeftBesideUpHarpoonWithBarbRight" unicode="296F" production="uni296F" category="Symbol" subCategory="Arrow" sortName="arr296F" />
+    <glyph name="equalsSignAboveRightArrow" unicode="2971" production="uni2971" category="Symbol" subCategory="Arrow" sortName="arr2971" />
+    <glyph name="tildeOperatorAboveRightArrow" unicode="2972" production="uni2972" category="Symbol" subCategory="Arrow" sortName="arr2972" />
+    <glyph name="leftArrowAboveTildeOperator" unicode="2973" production="uni2973" category="Symbol" subCategory="Arrow" sortName="arr2973" />
+    <glyph name="rightArrowAboveTildeOperator" unicode="2974" production="uni2974" category="Symbol" subCategory="Arrow" sortName="arr2974" />
+    <glyph name="rightArrowAboveAlmostEqualTo" unicode="2975" production="uni2975" category="Symbol" subCategory="Arrow" sortName="arr2975" />
+    <glyph name="leftArrowThroughLessThan" unicode="2977" production="uni2977" category="Symbol" subCategory="Arrow" sortName="arr2977" />
+    <glyph name="leftArrowThroughSubset" unicode="297A" production="uni297A" category="Symbol" subCategory="Arrow" sortName="arr297A" />
+    <glyph name="leftFishTail" unicode="297C" production="uni297C" category="Symbol" subCategory="Arrow" sortName="arr297C" />
+    <glyph name="rightFishTail" unicode="297D" production="uni297D" category="Symbol" subCategory="Arrow" sortName="arr297D" />
+    <glyph name="upFishTail" unicode="297E" production="uni297E" category="Symbol" subCategory="Arrow" sortName="arr297E" />
+    <glyph name="downFishTail" unicode="297F" production="uni297F" category="Symbol" subCategory="Arrow" sortName="arr297F" />
+    <glyph name="downTackWithCircleBelow" unicode="2AF1" production="uni2AF1" category="Symbol" subCategory="Arrow" sortName="arr2AF1" />
+    <glyph name="rightTipDownArrow" unicode="2B0E" production="uni2B0E" category="Symbol" subCategory="Arrow" sortName="arr2B0E" />
+    <glyph name="rightTipUpArrow" unicode="2B0F" production="uni2B0F" category="Symbol" subCategory="Arrow" sortName="arr2B0F" />
+    <glyph name="leftArrowTipDown" unicode="2B10" production="uni2B10" category="Symbol" subCategory="Arrow" sortName="arr2B10" />
+    <glyph name="leftArrowTipUp" unicode="2B11" production="uni2B11" category="Symbol" subCategory="Arrow" sortName="arr2B11" />
+    <glyph name="leftarrowwithcircle" unicode="2B30" production="uni2B30" category="Symbol" subCategory="Arrow" sortName="arr2B30" />
+    <glyph name="threeLeftArrows" unicode="2B31" production="uni2B31" category="Symbol" subCategory="Arrow" sortName="arr2B31" />
+    <glyph name="leftArrowWithCircledPlus" unicode="2B32" production="uni2B32" category="Symbol" subCategory="Arrow" sortName="arr2B32" />
+    <glyph name="longLeftSquiggleArrow" unicode="2B33" production="uni2B33" category="Symbol" subCategory="Arrow" sortName="arr2B33" />
+    <glyph name="leftTwoHeadedArrowWithVerticalStroke" unicode="2B34" production="uni2B34" category="Symbol" subCategory="Arrow" sortName="arr2B34" />
+    <glyph name="leftTwoHeadedArrowWithDoubleVerticalStroke" unicode="2B35" production="uni2B35" category="Symbol" subCategory="Arrow" sortName="arr2B35" />
+    <glyph name="leftTwoHeadedArrowFromBar" unicode="2B36" production="uni2B36" category="Symbol" subCategory="Arrow" sortName="arr2B36" />
+    <glyph name="leftTwoHeadedTripleDashArrow" unicode="2B37" production="uni2B37" category="Symbol" subCategory="Arrow" sortName="arr2B37" />
+    <glyph name="leftArrowWithDottedStem" unicode="2B38" production="uni2B38" category="Symbol" subCategory="Arrow" sortName="arr2B38" />
+    <glyph name="leftArrowWithTailWithVerticalStroke" unicode="2B39" production="uni2B39" category="Symbol" subCategory="Arrow" sortName="arr2B39" />
+    <glyph name="leftArrowWithTailWithDoubleVerticalStroke" unicode="2B3A" production="uni2B3A" category="Symbol" subCategory="Arrow" sortName="arr2B3A" />
+    <glyph name="leftTwoHeadedArrowWithTail" unicode="2B3B" production="uni2B3B" category="Symbol" subCategory="Arrow" sortName="arr2B3B" />
+    <glyph name="leftTwoHeadedArrowWithTailWithVerticalStroke" unicode="2B3C" production="uni2B3C" category="Symbol" subCategory="Arrow" sortName="arr2B3C" />
+    <glyph name="leftTwoHeadedArrowWithTailWithDoubleVerticalStroke" unicode="2B3D" production="uni2B3D" category="Symbol" subCategory="Arrow" sortName="arr2B3D" />
+    <glyph name="leftArrowThroughX" unicode="2B3E" production="uni2B3E" category="Symbol" subCategory="Arrow" sortName="arr2B3E" />
+    <glyph name="DirectlyLeftWaveArrow" unicode="2B3F" production="uni2B3F" category="Symbol" subCategory="Arrow" sortName="arr2B3F" />
+    <glyph name="equalsSignAboveLeftArrow" unicode="2B40" production="uni2B40" category="Symbol" subCategory="Arrow" sortName="arr2B40" />
+    <glyph name="reverseTildeOperatorAboveLeftArrow" unicode="2B41" production="uni2B41" category="Symbol" subCategory="Arrow" sortName="arr2B41" />
+    <glyph name="leftArrowAboveReverseAlmostEqualTo" unicode="2B42" production="uni2B42" category="Symbol" subCategory="Arrow" sortName="arr2B42" />
+    <glyph name="rightArrowThroughGreaterThan" unicode="2B43" production="uni2B43" category="Symbol" subCategory="Arrow" sortName="arr2B43" />
+    <glyph name="rightArrowThroughSuperset" unicode="2B44" production="uni2B44" category="Symbol" subCategory="Arrow" sortName="arr2B44" />
+    <glyph name="leftQuadrupleArrow" unicode="2B45" production="uni2B45" category="Symbol" subCategory="Arrow" sortName="arr2B45" />
+    <glyph name="rightQuadrupleArrow" unicode="2B46" production="uni2B46" category="Symbol" subCategory="Arrow" sortName="arr2B46" />
+    <glyph name="reverseTildeOperatorAboveRightArrow" unicode="2B47" production="uni2B47" category="Symbol" subCategory="Arrow" sortName="arr2B47" />
+    <glyph name="rightArrowAboveReverseAlmostEqualTo" unicode="2B48" production="uni2B48" category="Symbol" subCategory="Arrow" sortName="arr2B48" />
+    <glyph name="tildeOperatorAboveLeftArrow" unicode="2B49" production="uni2B49" category="Symbol" subCategory="Arrow" sortName="arr2B49" />
+    <glyph name="leftArrowAboveAlmostEqualTo" unicode="2B4A" production="uni2B4A" category="Symbol" subCategory="Arrow" sortName="arr2B4A" />
+    <glyph name="leftArrowAboveReverseTildeOperator" unicode="2B4B" production="uni2B4B" category="Symbol" subCategory="Arrow" sortName="arr2B4B" />
+    <glyph name="rightArrowAboveReverseTildeOperator" unicode="2B4C" production="uni2B4C" category="Symbol" subCategory="Arrow" sortName="arr2B4C" />
+
+    <glyph name="alefArabic-math" unicode="1EE00" production="u1EE00" script="Arabic Math Isolated" category="Letter" sortName="u1EE00" />
+    <glyph name="behArabic-math" unicode="1EE01" production="u1EE01" script="Arabic Math Isolated" category="Letter" sortName="u1EE01" />
+    <glyph name="jeemArabic-math" unicode="1EE02" production="u1EE02" script="Arabic Math Isolated" category="Letter" sortName="u1EE02" />
+    <glyph name="dalArabic-math" unicode="1EE03" production="u1EE03" script="Arabic Math Isolated" category="Letter" sortName="u1EE03" />
+    <glyph name="wawArabic-math" unicode="1EE05" production="u1EE05" script="Arabic Math Isolated" category="Letter" sortName="u1EE05" />
+    <glyph name="zainArabic-math" unicode="1EE06" production="u1EE06" script="Arabic Math Isolated" category="Letter" sortName="u1EE06" />
+    <glyph name="hahArabic-math" unicode="1EE07" production="u1EE07" script="Arabic Math Isolated" category="Letter" sortName="u1EE07" />
+    <glyph name="tahArabic-math" unicode="1EE08" production="u1EE08" script="Arabic Math Isolated" category="Letter" sortName="u1EE08" />
+    <glyph name="yehArabic-math" unicode="1EE09" production="u1EE09" script="Arabic Math Isolated" category="Letter" sortName="u1EE09" />
+    <glyph name="kafArabic-math" unicode="1EE0A" production="u1EE0A" script="Arabic Math Isolated" category="Letter" sortName="u1EE0A" />
+    <glyph name="lamArabic-math" unicode="1EE0B" production="u1EE0B" script="Arabic Math Isolated" category="Letter" sortName="u1EE0B" />
+    <glyph name="meemArabic-math" unicode="1EE0C" production="u1EE0C" script="Arabic Math Isolated" category="Letter" sortName="u1EE0C" />
+    <glyph name="noonArabic-math" unicode="1EE0D" production="u1EE0D" script="Arabic Math Isolated" category="Letter" sortName="u1EE0D" />
+    <glyph name="seenArabic-math" unicode="1EE0E" production="u1EE0E" script="Arabic Math Isolated" category="Letter" sortName="u1EE0E" />
+    <glyph name="ainArabic-math" unicode="1EE0F" production="u1EE0F" script="Arabic Math Isolated" category="Letter" sortName="u1EE0F" />
+    <glyph name="fehArabic-math" unicode="1EE10" production="u1EE10" script="Arabic Math Isolated" category="Letter" sortName="u1EE10" />
+    <glyph name="sadArabic-math" unicode="1EE11" production="u1EE11" script="Arabic Math Isolated" category="Letter" sortName="u1EE11" />
+    <glyph name="qafArabic-math" unicode="1EE12" production="u1EE12" script="Arabic Math Isolated" category="Letter" sortName="u1EE12" />
+    <glyph name="rehArabic-math" unicode="1EE13" production="u1EE13" script="Arabic Math Isolated" category="Letter" sortName="u1EE13" />
+    <glyph name="sheenArabic-math" unicode="1EE14" production="u1EE14" script="Arabic Math Isolated" category="Letter" sortName="u1EE14" />
+    <glyph name="tehArabic-math" unicode="1EE15" production="u1EE15" script="Arabic Math Isolated" category="Letter" sortName="u1EE15" />
+    <glyph name="thehArabic-math" unicode="1EE16" production="u1EE16" script="Arabic Math Isolated" category="Letter" sortName="u1EE16" />
+    <glyph name="khahArabic-math" unicode="1EE17" production="u1EE17" script="Arabic Math Isolated" category="Letter" sortName="u1EE17" />
+    <glyph name="thalArabic-math" unicode="1EE18" production="u1EE18" script="Arabic Math Isolated" category="Letter" sortName="u1EE18" />
+    <glyph name="dadArabic-math" unicode="1EE19" production="u1EE19" script="Arabic Math Isolated" category="Letter" sortName="u1EE19" />
+    <glyph name="zahArabic-math" unicode="1EE1A" production="u1EE1A" script="Arabic Math Isolated" category="Letter" sortName="u1EE1A" />
+    <glyph name="ghainArabic-math" unicode="1EE1B" production="u1EE1B" script="Arabic Math Isolated" category="Letter" sortName="u1EE1B" />
+    <glyph name="behDotlessArabic-math" unicode="1EE1C" production="u1EE1C" script="Arabic Math Isolated" category="Letter" sortName="u1EE1C" />
+    <glyph name="noonDotlessArabic-math" unicode="1EE1D" production="u1EE1D" script="Arabic Math Isolated" category="Letter" sortName="u1EE1D" />
+    <glyph name="fehDotlessArabic-math" unicode="1EE1E" production="u1EE1E" script="Arabic Math Isolated" category="Letter" sortName="u1EE1E" />
+    <glyph name="qafDotlessArabic-math" unicode="1EE1F" production="u1EE1F" script="Arabic Math Isolated" category="Letter" sortName="u1EE1F" />
+    <glyph name="initialbehArabic-math" unicode="1EE21" production="u1EE21" script="Arabic Math Initial" category="Letter" sortName="u1EE21" />
+    <glyph name="initialjeemArabic-math" unicode="1EE22" production="u1EE22" script="Arabic Math Initial" category="Letter" sortName="u1EE22" />
+    <glyph name="initialhehArabic-math" unicode="1EE24" production="u1EE24" script="Arabic Math Initial" category="Letter" sortName="u1EE24" />
+    <glyph name="initialhahArabic-math" unicode="1EE27" production="u1EE27" script="Arabic Math Initial" category="Letter" sortName="u1EE27" />
+    <glyph name="initialyehArabic-math" unicode="1EE29" production="u1EE29" script="Arabic Math Initial" category="Letter" sortName="u1EE29" />
+    <glyph name="initialkafArabic-math" unicode="1EE2A" production="u1EE2A" script="Arabic Math Initial" category="Letter" sortName="u1EE2A" />
+    <glyph name="initiallamArabic-math" unicode="1EE2B" production="u1EE2B" script="Arabic Math Initial" category="Letter" sortName="u1EE2B" />
+    <glyph name="initialmeemArabic-math" unicode="1EE2C" production="u1EE2C" script="Arabic Math Initial" category="Letter" sortName="u1EE2C" />
+    <glyph name="initialnoonArabic-math" unicode="1EE2D" production="u1EE2D" script="Arabic Math Initial" category="Letter" sortName="u1EE2D" />
+    <glyph name="initialseenArabic-math" unicode="1EE2E" production="u1EE2E" script="Arabic Math Initial" category="Letter" sortName="u1EE2E" />
+    <glyph name="initialainArabic-math" unicode="1EE2F" production="u1EE2F" script="Arabic Math Initial" category="Letter" sortName="u1EE2F" />
+    <glyph name="initialfehArabic-math" unicode="1EE30" production="u1EE30" script="Arabic Math Initial" category="Letter" sortName="u1EE30" />
+    <glyph name="initialsadArabic-math" unicode="1EE31" production="u1EE31" script="Arabic Math Initial" category="Letter" sortName="u1EE31" />
+    <glyph name="initialqafArabic-math" unicode="1EE32" production="u1EE32" script="Arabic Math Initial" category="Letter" sortName="u1EE32" />
+    <glyph name="initialsheenArabic-math" unicode="1EE34" production="u1EE34" script="Arabic Math Initial" category="Letter" sortName="u1EE34" />
+    <glyph name="initialtehArabic-math" unicode="1EE35" production="u1EE35" script="Arabic Math Initial" category="Letter" sortName="u1EE35" />
+    <glyph name="initialthehArabic-math" unicode="1EE36" production="u1EE36" script="Arabic Math Initial" category="Letter" sortName="u1EE36" />
+    <glyph name="initialkhahArabic-math" unicode="1EE37" production="u1EE37" script="Arabic Math Initial" category="Letter" sortName="u1EE37" />
+    <glyph name="initialdadArabic-math" unicode="1EE39" production="u1EE39" script="Arabic Math Initial" category="Letter" sortName="u1EE39" />
+    <glyph name="initialghainArabic-math" unicode="1EE3B" production="u1EE3B" script="Arabic Math Initial" category="Letter" sortName="u1EE3B" />
+    <glyph name="tailedjeemArabic-math" unicode="1EE42" production="u1EE42" script="Arabic Math Tailed" category="Letter" sortName="u1EE42" />
+    <glyph name="tailedhahArabic-math" unicode="1EE47" production="u1EE47" script="Arabic Math Tailed" category="Letter" sortName="u1EE47" />
+    <glyph name="tailedyehArabic-math" unicode="1EE49" production="u1EE49" script="Arabic Math Tailed" category="Letter" sortName="u1EE49" />
+    <glyph name="tailedlamArabic-math" unicode="1EE4B" production="u1EE4B" script="Arabic Math Tailed" category="Letter" sortName="u1EE4B" />
+    <glyph name="tailednoonArabic-math" unicode="1EE4D" production="u1EE4D" script="Arabic Math Tailed" category="Letter" sortName="u1EE4D" />
+    <glyph name="tailedseenArabic-math" unicode="1EE4E" production="u1EE4E" script="Arabic Math Tailed" category="Letter" sortName="u1EE4E" />
+    <glyph name="tailedainArabic-math" unicode="1EE4F" production="u1EE4F" script="Arabic Math Tailed" category="Letter" sortName="u1EE4F" />
+    <glyph name="tailedsadArabic-math" unicode="1EE51" production="u1EE51" script="Arabic Math Tailed" category="Letter" sortName="u1EE51" />
+    <glyph name="tailedqafArabic-math" unicode="1EE52" production="u1EE52" script="Arabic Math Tailed" category="Letter" sortName="u1EE52" />
+    <glyph name="tailedsheenArabic-math" unicode="1EE54" production="u1EE54" script="Arabic Math Tailed" category="Letter" sortName="u1EE54" />
+    <glyph name="tailedkhahArabic-math" unicode="1EE57" production="u1EE57" script="Arabic Math Tailed" category="Letter" sortName="u1EE57" />
+    <glyph name="taileddadArabic-math" unicode="1EE59" production="u1EE59" script="Arabic Math Tailed" category="Letter" sortName="u1EE59" />
+    <glyph name="tailedghainArabic-math" unicode="1EE5B" production="u1EE5B" script="Arabic Math Tailed" category="Letter" sortName="u1EE5B" />
+    <glyph name="taileddotlessnoonArabic-math" unicode="1EE5D" production="u1EE5D" script="Arabic Math Tailed" category="Letter" sortName="u1EE5D" />
+    <glyph name="taileddotlessqafArabic-math" unicode="1EE5F" production="u1EE5F" script="Arabic Math Tailed" category="Letter" sortName="u1EE5F" />
+    <glyph name="stretchedbehArabic-math" unicode="1EE61" production="u1EE61" script="Arabic Math Stretched" category="Letter" sortName="u1EE61" />
+    <glyph name="stretchedjeemArabic-math" unicode="1EE62" production="u1EE62" script="Arabic Math Stretched" category="Letter" sortName="u1EE62" />
+    <glyph name="stretchedhehArabic-math" unicode="1EE64" production="u1EE64" script="Arabic Math Stretched" category="Letter" sortName="u1EE64" />
+    <glyph name="stretchedhahArabic-math" unicode="1EE67" production="u1EE67" script="Arabic Math Stretched" category="Letter" sortName="u1EE67" />
+    <glyph name="stretchedtahArabic-math" unicode="1EE68" production="u1EE68" script="Arabic Math Stretched" category="Letter" sortName="u1EE68" />
+    <glyph name="stretchedyehArabic-math" unicode="1EE69" production="u1EE69" script="Arabic Math Stretched" category="Letter" sortName="u1EE69" />
+    <glyph name="stretchedkafArabic-math" unicode="1EE6A" production="u1EE6A" script="Arabic Math Stretched" category="Letter" sortName="u1EE6A" />
+    <glyph name="stretchedmeemArabic-math" unicode="1EE6C" production="u1EE6C" script="Arabic Math Stretched" category="Letter" sortName="u1EE6C" />
+    <glyph name="stretchednoonArabic-math" unicode="1EE6D" production="u1EE6D" script="Arabic Math Stretched" category="Letter" sortName="u1EE6D" />
+    <glyph name="stretchedseenArabic-math" unicode="1EE6E" production="u1EE6E" script="Arabic Math Stretched" category="Letter" sortName="u1EE6E" />
+    <glyph name="stretchedainArabic-math" unicode="1EE6F" production="u1EE6F" script="Arabic Math Stretched" category="Letter" sortName="u1EE6F" />
+    <glyph name="stretchedfehArabic-math" unicode="1EE70" production="u1EE70" script="Arabic Math Stretched" category="Letter" sortName="u1EE70" />
+    <glyph name="stretchedsadArabic-math" unicode="1EE71" production="u1EE71" script="Arabic Math Stretched" category="Letter" sortName="u1EE71" />
+    <glyph name="stretchedqafArabic-math" unicode="1EE72" production="u1EE72" script="Arabic Math Stretched" category="Letter" sortName="u1EE72" />
+    <glyph name="stretchedsheenArabic-math" unicode="1EE74" production="u1EE74" script="Arabic Math Stretched" category="Letter" sortName="u1EE74" />
+    <glyph name="stretchedtehArabic-math" unicode="1EE75" production="u1EE75" script="Arabic Math Stretched" category="Letter" sortName="u1EE75" />
+    <glyph name="stretchedthehArabic-math" unicode="1EE76" production="u1EE76" script="Arabic Math Stretched" category="Letter" sortName="u1EE76" />
+    <glyph name="stretchedkhahArabic-math" unicode="1EE77" production="u1EE77" script="Arabic Math Stretched" category="Letter" sortName="u1EE77" />
+    <glyph name="stretcheddadArabic-math" unicode="1EE79" production="u1EE79" script="Arabic Math Stretched" category="Letter" sortName="u1EE79" />
+    <glyph name="stretchedzahArabic-math" unicode="1EE7A" production="u1EE7A" script="Arabic Math Stretched" category="Letter" sortName="u1EE7A" />
+    <glyph name="stretchedghainArabic-math" unicode="1EE7B" production="u1EE7B" script="Arabic Math Stretched" category="Letter" sortName="u1EE7B" />
+    <glyph name="stretcheddotlessbehArabic-math" unicode="1EE7C" production="u1EE7C" script="Arabic Math Stretched" category="Letter" sortName="u1EE7C" />
+    <glyph name="stretcheddotlessfehArabic-math" unicode="1EE7E" production="u1EE7E" script="Arabic Math Stretched" category="Letter" sortName="u1EE7E" />
+    <glyph name="loopedalefArabic-math" unicode="1EE80" production="u1EE80" script="Arabic Math Looped" category="Letter" sortName="u1EE80" />
+    <glyph name="loopedbehArabic-math" unicode="1EE81" production="u1EE81" script="Arabic Math Looped" category="Letter" sortName="u1EE81" />
+    <glyph name="loopedjeemArabic-math" unicode="1EE82" production="u1EE82" script="Arabic Math Looped" category="Letter" sortName="u1EE82" />
+    <glyph name="loopeddalArabic-math" unicode="1EE83" production="u1EE83" script="Arabic Math Looped" category="Letter" sortName="u1EE83" />
+    <glyph name="loopedhehArabic-math" unicode="1EE84" production="u1EE84" script="Arabic Math Looped" category="Letter" sortName="u1EE84" />
+    <glyph name="loopedwawArabic-math" unicode="1EE85" production="u1EE85" script="Arabic Math Looped" category="Letter" sortName="u1EE85" />
+    <glyph name="loopedzainArabic-math" unicode="1EE86" production="u1EE86" script="Arabic Math Looped" category="Letter" sortName="u1EE86" />
+    <glyph name="loopedhahArabic-math" unicode="1EE87" production="u1EE87" script="Arabic Math Looped" category="Letter" sortName="u1EE87" />
+    <glyph name="loopedtahArabic-math" unicode="1EE88" production="u1EE88" script="Arabic Math Looped" category="Letter" sortName="u1EE88" />
+    <glyph name="loopedyehArabic-math" unicode="1EE89" production="u1EE89" script="Arabic Math Looped" category="Letter" sortName="u1EE89" />
+    <glyph name="loopedlamArabic-math" unicode="1EE8B" production="u1EE8B" script="Arabic Math Looped" category="Letter" sortName="u1EE8B" />
+    <glyph name="loopedmeemArabic-math" unicode="1EE8C" production="u1EE8C" script="Arabic Math Looped" category="Letter" sortName="u1EE8C" />
+    <glyph name="loopednoonArabic-math" unicode="1EE8D" production="u1EE8D" script="Arabic Math Looped" category="Letter" sortName="u1EE8D" />
+    <glyph name="loopedseenArabic-math" unicode="1EE8E" production="u1EE8E" script="Arabic Math Looped" category="Letter" sortName="u1EE8E" />
+    <glyph name="loopedainArabic-math" unicode="1EE8F" production="u1EE8F" script="Arabic Math Looped" category="Letter" sortName="u1EE8F" />
+    <glyph name="loopedfehArabic-math" unicode="1EE90" production="u1EE90" script="Arabic Math Looped" category="Letter" sortName="u1EE90" />
+    <glyph name="loopedsadArabic-math" unicode="1EE91" production="u1EE91" script="Arabic Math Looped" category="Letter" sortName="u1EE91" />
+    <glyph name="loopedqafArabic-math" unicode="1EE92" production="u1EE92" script="Arabic Math Looped" category="Letter" sortName="u1EE92" />
+    <glyph name="loopedrehArabic-math" unicode="1EE93" production="u1EE93" script="Arabic Math Looped" category="Letter" sortName="u1EE93" />
+    <glyph name="loopedsheenArabic-math" unicode="1EE94" production="u1EE94" script="Arabic Math Looped" category="Letter" sortName="u1EE94" />
+    <glyph name="loopedtehArabic-math" unicode="1EE95" production="u1EE95" script="Arabic Math Looped" category="Letter" sortName="u1EE95" />
+    <glyph name="loopedthehArabic-math" unicode="1EE96" production="u1EE96" script="Arabic Math Looped" category="Letter" sortName="u1EE96" />
+    <glyph name="loopedkhahArabic-math" unicode="1EE97" production="u1EE97" script="Arabic Math Looped" category="Letter" sortName="u1EE97" />
+    <glyph name="loopedthalArabic-math" unicode="1EE98" production="u1EE98" script="Arabic Math Looped" category="Letter" sortName="u1EE98" />
+    <glyph name="loopeddadArabic-math" unicode="1EE99" production="u1EE99" script="Arabic Math Looped" category="Letter" sortName="u1EE99" />
+    <glyph name="loopedzahArabic-math" unicode="1EE9A" production="u1EE9A" script="Arabic Math Looped" category="Letter" sortName="u1EE9A" />
+    <glyph name="loopedghainArabic-math" unicode="1EE9B" production="u1EE9B" script="Arabic Math Looped" category="Letter" sortName="u1EE9B" />
+    <glyph name="doublestruckbehArabic-math" unicode="1EEA1" production="u1EEA1" script="Arabic Math Double-struck" category="Letter" sortName="u1EEA1" />
+    <glyph name="doublestruckjeemArabic-math" unicode="1EEA2" production="u1EEA2" script="Arabic Math Double-struck" category="Letter" sortName="u1EEA2" />
+    <glyph name="doublestruckdalArabic-math" unicode="1EEA3" production="u1EEA3" script="Arabic Math Double-struck" category="Letter" sortName="u1EEA3" />
+    <glyph name="doublestruckwawArabic-math" unicode="1EEA5" production="u1EEA5" script="Arabic Math Double-struck" category="Letter" sortName="u1EEA5" />
+    <glyph name="doublestruckzainArabic-math" unicode="1EEA6" production="u1EEA6" script="Arabic Math Double-struck" category="Letter" sortName="u1EEA6" />
+    <glyph name="doublestruckhahArabic-math" unicode="1EEA7" production="u1EEA7" script="Arabic Math Double-struck" category="Letter" sortName="u1EEA7" />
+    <glyph name="doublestrucktahArabic-math" unicode="1EEA8" production="u1EEA8" script="Arabic Math Double-struck" category="Letter" sortName="u1EEA8" />
+    <glyph name="doublestruckyehArabic-math" unicode="1EEA9" production="u1EEA9" script="Arabic Math Double-struck" category="Letter" sortName="u1EEA9" />
+    <glyph name="doublestrucklamArabic-math" unicode="1EEAB" production="u1EEAB" script="Arabic Math Double-struck" category="Letter" sortName="u1EEAB" />
+    <glyph name="doublestruckmeemArabic-math" unicode="1EEAC" production="u1EEAC" script="Arabic Math Double-struck" category="Letter" sortName="u1EEAC" />
+    <glyph name="doublestrucknoonArabic-math" unicode="1EEAD" production="u1EEAD" script="Arabic Math Double-struck" category="Letter" sortName="u1EEAD" />
+    <glyph name="doublestruckseenArabic-math" unicode="1EEAE" production="u1EEAE" script="Arabic Math Double-struck" category="Letter" sortName="u1EEAE" />
+    <glyph name="doublestruckainArabic-math" unicode="1EEAF" production="u1EEAF" script="Arabic Math Double-struck" category="Letter" sortName="u1EEAF" />
+    <glyph name="doublestruckfehArabic-math" unicode="1EEB0" production="u1EEB0" script="Arabic Math Double-struck" category="Letter" sortName="u1EEB0" />
+    <glyph name="doublestrucksadArabic-math" unicode="1EEB1" production="u1EEB1" script="Arabic Math Double-struck" category="Letter" sortName="u1EEB1" />
+    <glyph name="doublestruckqafArabic-math" unicode="1EEB2" production="u1EEB2" script="Arabic Math Double-struck" category="Letter" sortName="u1EEB2" />
+    <glyph name="doublestruckrehArabic-math" unicode="1EEB3" production="u1EEB3" script="Arabic Math Double-struck" category="Letter" sortName="u1EEB3" />
+    <glyph name="doublestrucksheenArabic-math" unicode="1EEB4" production="u1EEB4" script="Arabic Math Double-struck" category="Letter" sortName="u1EEB4" />
+    <glyph name="doublestrucktehArabic-math" unicode="1EEB5" production="u1EEB5" script="Arabic Math Double-struck" category="Letter" sortName="u1EEB5" />
+    <glyph name="doublestruckthehArabic-math" unicode="1EEB6" production="u1EEB6" script="Arabic Math Double-struck" category="Letter" sortName="u1EEB6" />
+    <glyph name="doublestruckkhahArabic-math" unicode="1EEB7" production="u1EEB7" script="Arabic Math Double-struck" category="Letter" sortName="u1EEB7" />
+    <glyph name="doublestruckthalArabic-math" unicode="1EEB8" production="u1EEB8" script="Arabic Math Double-struck" category="Letter" sortName="u1EEB8" />
+    <glyph name="doublestruckdadArabic-math" unicode="1EEB9" production="u1EEB9" script="Arabic Math Double-struck" category="Letter" sortName="u1EEB9" />
+    <glyph name="doublestruckzahArabic-math" unicode="1EEBA" production="u1EEBA" script="Arabic Math Double-struck" category="Letter" sortName="u1EEBA" />
+    <glyph name="doublestruckghainArabic-math" unicode="1EEBB" production="u1EEBB" script="Arabic Math Double-struck" category="Letter" sortName="u1EEBB" />
 
 </glyphData>

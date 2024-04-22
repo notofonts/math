@@ -4,6 +4,8 @@ googleFonts: true
 includeSubsets:
 - from: Noto Sans
   ranges:
+      - start: 0x0060
+        end: 0x0060
       - start: 0x00A2
         end: 0x00A3
       - start: 0x00A5
@@ -28,22 +30,60 @@ includeSubsets:
         end: 0x00E5
       - start: 0x00E7
         end: 0x00E7
+      - start: 0x00B6
+        end: 0x00B6
       - start: 0x00F0
         end: 0x00F0
       - start: 0x00FE
         end: 0x00FE
+      - start: 0x01B5
+        end: 0x01B5
       - start: 0x02C6
         end: 0x02C6
+      - start: 0x0310
+        end: 0x0310
+      - start: 0x031A
+        end: 0x031A
+      - start: 0x03F6
+        end: 0x03F6
       - start: 0x0410
         end: 0x044F
+      - start: 0x2010
+        end: 0x2010
+      - start: 0x2015
+        end: 0x2015
+      - start: 0x2017
+        end: 0x2017
       - start: 0x2021
-        end: 0x2021
+        end: 0x2022
+      - start: 0x2025
+        end: 0x2025
+      - start: 0x2038
+        end: 0x2038
+      - start: 0x203C
+        end: 0x203C
+      - start: 0x2043
+        end: 0x2043
+      - start: 0x2047
+        end: 0x2047
       - start: 0x20AC
         end: 0x20AC
+      - start: 0x2107
+        end: 0x2107
       - start: 0x2118
         end: 0x2118
       - start: 0x2127
         end: 0x2127
+      - start: 0x2129
+        end: 0x2129
+      - start: 0x212B
+        end: 0x212B
+      - start: 0x2132
+        end: 0x2132
+      - start: 0x2141
+        end: 0x2144
+      - start: 0x214A
+        end: 0x214B
 sources:
   - NotoSansMath.glyphspackage
 glyphData:

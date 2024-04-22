@@ -3,12 +3,6 @@ export = 0;
 glyphname = _part.radical;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (380,528);
-}
-);
 guides = (
 {
 lockAngle = 1;
@@ -42,12 +36,6 @@ nodes = (
 width = 679;
 },
 {
-anchors = (
-{
-name = center;
-pos = (628,1243);
-}
-);
 associatedMasterId = master01;
 guides = (
 {
@@ -90,4 +78,5 @@ name = Size;
 topValue = 4;
 }
 );
+sortName = root1;
 }

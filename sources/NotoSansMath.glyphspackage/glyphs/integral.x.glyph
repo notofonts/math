@@ -32,6 +32,6 @@ width = 472;
 );
 metricLeft = "=integral.t";
 metricRight = "=integral.b";
-metricWidth = "=integral.s1";
+metricWidth = "=integral.ss02.s01";
 unicode = 9134;
 }

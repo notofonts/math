@@ -5,45 +5,63 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (275,325);
+pos = (326,325);
 }
 );
 layerId = master01;
 shapes = (
 {
 alignment = -1;
-pos = (-51,0);
-ref = bar;
+ref = _part.bar;
 },
 {
 alignment = -1;
-pos = (169,0);
-ref = bar;
+pos = (220,0);
+ref = _part.bar;
 }
 );
 userData = {
 com.nagwa.MATHPlugin.variants = {
 vAssembly = (
 (
-dblverticalbar,
-1,
-900,
-900
+dblverticalbar.x,
+0,
+0,
+1069
 ),
 (
-dblverticalbar,
-0,
-900,
-900
+dblverticalbar.x,
+1,
+1069,
+0
 )
 );
 };
 };
-width = 551;
+width = 653;
 }
 );
+metricLeft = "=bar";
+metricRight = "=bar";
 unicode = 8214;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+dblverticalbar,
+dblverticalbar.s01,
+dblverticalbar.s02,
+dblverticalbar.s03,
+dblverticalbar.s04,
+dblverticalbar.s05,
+dblverticalbar.s06,
+dblverticalbar.s07,
+dblverticalbar.s08,
+dblverticalbar.s09,
+dblverticalbar.s10,
+dblverticalbar.s11,
+dblverticalbar.s12
+);
+};
 };
 }

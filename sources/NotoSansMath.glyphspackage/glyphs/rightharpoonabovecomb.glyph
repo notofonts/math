@@ -5,21 +5,21 @@ layers = (
 anchors = (
 {
 name = _top;
-pos = (157,536);
+pos = (224,536);
 },
 {
 name = math.ta;
-pos = (157,0);
+pos = (224,0);
 },
 {
 name = top;
-pos = (157,664);
+pos = (224,664);
 }
 );
 layerId = master01;
 shapes = (
 {
-ref = rightharpoonabovecomb.s0;
+ref = rightharpoonabovecomb.s00;
 }
 );
 userData = {
@@ -32,7 +32,7 @@ leftarrowabovecomb.x,
 600
 ),
 (
-rightharpoonabovecomb.s1,
+rightharpoonabovecomb.s01,
 0,
 500,
 0
@@ -47,12 +47,12 @@ unicode = 8401;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 hVariants = (
-rightharpoonabovecomb.s0,
-rightharpoonabovecomb.s1,
-rightharpoonabovecomb.s2,
-rightharpoonabovecomb.s3,
-rightharpoonabovecomb.s4,
-rightharpoonabovecomb.s5
+rightharpoonabovecomb.s00,
+rightharpoonabovecomb.s01,
+rightharpoonabovecomb.s02,
+rightharpoonabovecomb.s03,
+rightharpoonabovecomb.s04,
+rightharpoonabovecomb.s05
 );
 };
 };

@@ -3,25 +3,13 @@ color = 3;
 glyphname = turnedAngle.rtlm;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (326,237);
-}
-);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(511,31,l),
-(166,424,l),
-(601,424,l),
-(601,495,l),
-(51,495,l),
-(51,445,l),
-(461,-20,l)
-);
+alignment = 1;
+pos = (652,0);
+ref = turnedAngle;
+scale = (-1,1);
 }
 );
 width = 652;

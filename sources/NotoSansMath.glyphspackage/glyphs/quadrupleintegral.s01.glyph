@@ -1,0 +1,40 @@
+{
+glyphname = quadrupleintegral.s01;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (1144,328);
+},
+{
+name = math.ic;
+pos = (2608,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = integral.s01;
+},
+{
+alignment = 1;
+pos = (412,0);
+ref = integral.s01;
+},
+{
+alignment = 1;
+pos = (824,0);
+ref = integral.s01;
+},
+{
+alignment = 1;
+pos = (1236,0);
+ref = integral.s01;
+}
+);
+width = 2288;
+}
+);
+}

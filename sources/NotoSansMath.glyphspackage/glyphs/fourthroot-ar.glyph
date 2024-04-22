@@ -1,0 +1,32 @@
+{
+glyphname = "fourthroot-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = "_part.fourthroot-ar";
+}
+);
+width = 679;
+}
+);
+metricLeft = "cuberoot_fourthroot-ar.pt";
+metricRight = "cuberoot_fourthroot-ar.pt";
+unicode = 1543;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+"fourthroot-ar",
+"fourthroot-ar.s01",
+"fourthroot-ar.s02",
+"fourthroot-ar.s03",
+"fourthroot-ar.s04"
+);
+};
+};
+}

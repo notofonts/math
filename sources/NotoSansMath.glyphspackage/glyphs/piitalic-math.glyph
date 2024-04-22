@@ -1,7 +1,5 @@
 {
 glyphname = "piitalic-math";
-kernLeft = GRK_pi;
-kernRight = GRK_pi;
 layers = (
 {
 anchors = (

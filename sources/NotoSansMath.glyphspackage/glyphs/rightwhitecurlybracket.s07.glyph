@@ -1,0 +1,23 @@
+{
+glyphname = rightwhitecurlybracket.s07;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (307.5,292);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 7;
+};
+ref = _part.rightwhitecurlybracket;
+}
+);
+width = 575;
+}
+);
+}

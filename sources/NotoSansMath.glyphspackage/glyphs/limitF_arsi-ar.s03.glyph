@@ -1,0 +1,20 @@
+{
+glyphname = "limitFarsi-ar.s03";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 3;
+};
+ref = "_part.limitFarsi-ar";
+}
+);
+width = 2991;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

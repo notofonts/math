@@ -21,21 +21,21 @@ userData = {
 com.nagwa.MATHPlugin.variants = {
 vAssembly = (
 (
-rightCeiling.x,
+bracketright.x,
 1,
-600,
-600
+0,
+1069
 ),
 (
-rightCeiling.t,
+bracketright.t,
 0,
-900,
+947,
 0
 )
 );
 };
 };
-width = 383;
+width = 429;
 }
 );
 unicode = 8969;
@@ -44,15 +44,15 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 rightCeiling,
-rightCeiling.s1,
-rightCeiling.s2,
-rightCeiling.s3,
-rightCeiling.s4,
-rightCeiling.s5,
-rightCeiling.s6,
-rightCeiling.s7,
-rightCeiling.s8,
-rightCeiling.s9,
+rightCeiling.s01,
+rightCeiling.s02,
+rightCeiling.s03,
+rightCeiling.s04,
+rightCeiling.s05,
+rightCeiling.s06,
+rightCeiling.s07,
+rightCeiling.s08,
+rightCeiling.s09,
 rightCeiling.s10,
 rightCeiling.s11,
 rightCeiling.s12

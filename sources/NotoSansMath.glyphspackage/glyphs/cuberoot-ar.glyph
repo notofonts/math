@@ -1,0 +1,38 @@
+{
+glyphname = "cuberoot-ar";
+layers = (
+{
+guides = (
+{
+pos = (317,690);
+},
+{
+angle = 270;
+pos = (527,289);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "_part.cuberoot-ar";
+}
+);
+width = 679;
+}
+);
+metricLeft = "cuberoot_fourthroot-ar.pt";
+metricRight = "cuberoot_fourthroot-ar.pt";
+unicode = 1542;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+"cuberoot-ar",
+"cuberoot-ar.s01",
+"cuberoot-ar.s02",
+"cuberoot-ar.s03",
+"cuberoot-ar.s04"
+);
+};
+};
+}

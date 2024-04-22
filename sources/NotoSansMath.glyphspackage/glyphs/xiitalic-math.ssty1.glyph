@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = "xiitalic-math.ssty1";
-kernLeft = GRK_xi;
-kernRight = GRK_xi;
 layers = (
 {
 anchors = (

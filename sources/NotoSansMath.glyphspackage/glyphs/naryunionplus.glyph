@@ -1,0 +1,49 @@
+{
+glyphname = naryunionplus;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (385,237);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(410,62,l),
+(410,212,l),
+(560,212,l),
+(560,263,l),
+(410,263,l),
+(410,413,l),
+(359,413,l),
+(359,263,l),
+(209,263,l),
+(209,212,l),
+(359,212,l),
+(359,62,l)
+);
+},
+{
+ref = naryunion;
+}
+);
+width = 770;
+}
+);
+metricLeft = "=51";
+metricRight = "=|";
+unicode = 10756;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+naryunionplus,
+naryunionplus.s01
+);
+};
+};
+}

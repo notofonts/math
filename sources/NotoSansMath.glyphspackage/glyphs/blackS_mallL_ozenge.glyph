@@ -1,0 +1,22 @@
+{
+glyphname = blackSmallLozenge;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(265,363,l),
+(158,542,l),
+(51,363,l),
+(158,182,l)
+);
+}
+);
+width = 316;
+}
+);
+note = uni2B2A;
+unicode = 11050;
+}

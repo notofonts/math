@@ -5,7 +5,7 @@ layers = (
 anchors = (
 {
 name = math.ic;
-pos = (562,0);
+pos = (1110,0);
 }
 );
 layerId = master01;
@@ -15,10 +15,11 @@ alignment = 1;
 ref = integral;
 },
 {
+pos = (182,6);
 ref = _slash.integral;
 }
 );
-width = 472;
+width = 836;
 }
 );
 metricLeft = "=51@-180";
@@ -29,7 +30,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 slashintegral,
-slashintegral.s1
+slashintegral.s01
 );
 };
 };

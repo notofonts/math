@@ -1,0 +1,24 @@
+{
+glyphname = narytimes.s01;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (616,311);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (-20,-124);
+ref = narytimes;
+scale = (1.4,1.4);
+}
+);
+width = 1438;
+}
+);
+metricLeft = "=51";
+metricRight = "=51";
+}

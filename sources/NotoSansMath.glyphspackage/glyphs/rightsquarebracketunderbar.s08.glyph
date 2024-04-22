@@ -1,0 +1,23 @@
+{
+glyphname = rightsquarebracketunderbar.s08;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (137,313);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 8;
+};
+ref = _part.bracketrightunderbar;
+}
+);
+width = 344;
+}
+);
+}

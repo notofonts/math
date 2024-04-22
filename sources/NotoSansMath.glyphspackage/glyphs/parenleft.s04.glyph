@@ -1,0 +1,23 @@
+{
+glyphname = parenleft.s04;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (234,301);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 4;
+};
+ref = _part.parenleft;
+}
+);
+width = 459;
+}
+);
+}

@@ -1,0 +1,57 @@
+{
+glyphname = integral.ss02;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (236,322);
+},
+{
+name = math.ic;
+pos = (562,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = _part.integral.ss02;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+integral.ss02.b,
+0,
+0,
+1178
+),
+(
+integral.ss02.x,
+1,
+1362,
+1362
+),
+(
+integral.ss02.t,
+0,
+1291,
+0
+)
+);
+};
+};
+width = 472;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+integral.ss02,
+integral.ss02.s01
+);
+};
+};
+}

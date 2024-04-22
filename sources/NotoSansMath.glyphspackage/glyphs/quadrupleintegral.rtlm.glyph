@@ -6,32 +6,19 @@ layers = (
 anchors = (
 {
 name = math.ic;
-pos = (1339,0);
+pos = (2007,0);
 }
 );
 layerId = master01;
 shapes = (
 {
 alignment = 1;
-ref = integral.rtlm;
-},
-{
-alignment = 1;
-pos = (259,0);
-ref = integral.rtlm;
-},
-{
-alignment = 1;
-pos = (518,0);
-ref = integral.rtlm;
-},
-{
-alignment = 1;
-pos = (777,0);
-ref = integral.rtlm;
+pos = (1853,0);
+ref = quadrupleintegral;
+scale = (-1,1);
 }
 );
-width = 1249;
+width = 1853;
 }
 );
 userData = {
@@ -39,7 +26,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 quadrupleintegral.rtlm,
-quadrupleintegral.rtlm.s1
+quadrupleintegral.rtlm.s01
 );
 };
 };

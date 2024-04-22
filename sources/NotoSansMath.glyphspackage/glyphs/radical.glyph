@@ -24,18 +24,18 @@ vAssembly = (
 radical.b,
 0,
 0,
-1275
+1333
 ),
 (
 radical.x,
 1,
-1000,
-1000
+1070,
+1070
 ),
 (
 radical.t,
 0,
-951,
+998,
 0
 )
 );
@@ -50,11 +50,11 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 radical,
-radical.s1,
-radical.s2,
-radical.s3,
-radical.s4,
-radical.s5
+radical.s01,
+radical.s02,
+radical.s03,
+radical.s04,
+radical.s05
 );
 };
 };

@@ -1,0 +1,23 @@
+{
+glyphname = leftwhitecurlybracket.s07;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (285,292);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 7;
+};
+ref = _part.leftwhitecurlybracket;
+}
+);
+width = 575;
+}
+);
+}

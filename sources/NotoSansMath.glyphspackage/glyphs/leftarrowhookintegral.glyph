@@ -9,7 +9,7 @@ pos = (240,322);
 },
 {
 name = math.ic;
-pos = (562,0);
+pos = (1110,0);
 }
 );
 layerId = master01;
@@ -19,11 +19,11 @@ alignment = 1;
 ref = integral;
 },
 {
-pos = (-94,0);
+pos = (68,6);
 ref = _arrowhook.integral;
 }
 );
-width = 472;
+width = 836;
 }
 );
 metricLeft = "=51";
@@ -34,7 +34,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 leftarrowhookintegral,
-leftarrowhookintegral.s1
+leftarrowhookintegral.s01
 );
 };
 };

@@ -1,7 +1,5 @@
 {
 glyphname = "alphaitalic-math";
-kernLeft = GRK_omicron;
-kernRight = GRK_alpha;
 layers = (
 {
 anchors = (

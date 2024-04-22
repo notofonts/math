@@ -30,10 +30,6 @@ pos = (510,0);
 ref = prime;
 }
 );
-userData = {
-com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = second;
-com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = second;
-};
 width = 742;
 }
 );

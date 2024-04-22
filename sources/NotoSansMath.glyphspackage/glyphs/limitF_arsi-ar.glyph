@@ -1,0 +1,28 @@
+{
+glyphname = "limitFarsi-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "_part.limitFarsi-ar";
+}
+);
+width = 1477;
+}
+);
+unicode = 126705;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+hVariants = (
+"limitFarsi-ar",
+"limitFarsi-ar.s01",
+"limitFarsi-ar.s02",
+"limitFarsi-ar.s03",
+"limitFarsi-ar.s04",
+"limitFarsi-ar.s05"
+);
+};
+};
+}

@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (186,357);
+pos = (229,313);
 }
 );
 layerId = master01;
@@ -17,20 +17,20 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(96,714,l),
-(10,714,l),
-(276,0,l),
-(362,0,l)
+(447,-158,l),
+(96,784,l),
+(10,784,l),
+(361,-158,l)
 );
 }
 );
-width = 372;
+width = 457;
 },
 {
 anchors = (
 {
 name = center;
-pos = (602,657);
+pos = (773,278);
 }
 );
 associatedMasterId = master01;
@@ -43,21 +43,24 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(130,2085,l),
-(10,2085,l),
-(1074,-771,l),
-(1194,-771,l)
+(1535,-1606,l),
+(130,2162,l),
+(10,2162,l),
+(1415,-1606,l)
 );
 }
 );
-width = 1204;
+width = 1545;
 }
 );
+metricLeft = "=10";
+metricRight = "=10";
 partsSettings = (
 {
 bottomValue = 0;
 name = Size;
-topValue = 4;
+topValue = 12;
 }
 );
+sortName = slash2;
 }

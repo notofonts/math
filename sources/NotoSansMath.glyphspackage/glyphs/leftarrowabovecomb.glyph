@@ -19,14 +19,14 @@ pos = (233,486);
 layerId = master01;
 shapes = (
 {
-ref = leftarrowabovecomb.s0;
+ref = leftarrowabovecomb.s00;
 }
 );
 userData = {
 com.nagwa.MATHPlugin.variants = {
 hAssembly = (
 (
-leftarrowabovecomb.s1,
+leftarrowabovecomb.s01,
 0,
 0,
 600
@@ -47,12 +47,12 @@ unicode = 8406;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 hVariants = (
-leftarrowabovecomb.s0,
-leftarrowabovecomb.s1,
-leftarrowabovecomb.s2,
-leftarrowabovecomb.s3,
-leftarrowabovecomb.s4,
-leftarrowabovecomb.s5
+leftarrowabovecomb.s00,
+leftarrowabovecomb.s01,
+leftarrowabovecomb.s02,
+leftarrowabovecomb.s03,
+leftarrowabovecomb.s04,
+leftarrowabovecomb.s05
 );
 };
 };

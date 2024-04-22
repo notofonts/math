@@ -1,0 +1,35 @@
+{
+glyphname = volumeintegral.ss02;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (1080,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = tripleintegral.ss02;
+},
+{
+ref = _contour3.integral;
+}
+);
+width = 990;
+}
+);
+metricLeft = "=51@-180";
+metricRight = "=51@850";
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+volumeintegral.ss02,
+volumeintegral.ss02.s01
+);
+};
+};
+}

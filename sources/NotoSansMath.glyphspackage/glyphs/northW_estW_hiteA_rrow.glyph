@@ -1,0 +1,37 @@
+{
+glyphname = northWestWhiteArrow;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(645,186,l),
+(339,492,l),
+(447,600,l),
+(51,600,l),
+(51,204,l),
+(159,312,l),
+(465,6,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(159,355,l),
+(81,277,l),
+(81,570,l),
+(374,570,l),
+(296,492,l),
+(603,186,l),
+(465,48,l)
+);
+}
+);
+width = 696;
+}
+);
+note = uni2B01;
+unicode = 11009;
+}

@@ -1,0 +1,18 @@
+{
+color = 3;
+glyphname = fourthroot.rtlm.s02;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 2;
+};
+ref = _part.fourthroot.rtlm;
+}
+);
+width = 813;
+}
+);
+}

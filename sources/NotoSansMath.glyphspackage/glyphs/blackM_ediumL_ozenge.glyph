@@ -1,0 +1,22 @@
+{
+glyphname = blackMediumLozenge;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(459,363,l),
+(255,705,l),
+(51,363,l),
+(255,19,l)
+);
+}
+);
+width = 510;
+}
+);
+note = uni2B27;
+unicode = 11047;
+}

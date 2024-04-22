@@ -1,0 +1,39 @@
+{
+glyphname = house;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (358,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(665,0,l),
+(665,425,l),
+(358,713,l),
+(51,425,l),
+(51,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(122,402,l),
+(358,623,l),
+(594,402,l),
+(594,71,l),
+(122,71,l)
+);
+}
+);
+width = 716;
+}
+);
+note = house;
+unicode = 8962;
+}

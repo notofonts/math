@@ -1,7 +1,5 @@
 {
 glyphname = "Omegaitalic-math";
-kernLeft = GRK_Omega;
-kernRight = GRK_Omega;
 layers = (
 {
 anchors = (

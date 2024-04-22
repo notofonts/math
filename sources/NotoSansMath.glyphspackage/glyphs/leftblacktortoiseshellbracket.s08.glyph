@@ -1,0 +1,23 @@
+{
+glyphname = leftblacktortoiseshellbracket.s08;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (137,333);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 8;
+};
+ref = _part.leftblacktortoiseshellbracket;
+}
+);
+width = 401;
+}
+);
+}

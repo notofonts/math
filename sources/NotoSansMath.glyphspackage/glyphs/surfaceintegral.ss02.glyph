@@ -1,0 +1,36 @@
+{
+glyphname = surfaceintegral.ss02;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (821,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = dblintegral.ss02;
+},
+{
+pos = (1,0);
+ref = _contour2.integral;
+}
+);
+width = 731;
+}
+);
+metricLeft = "=51@-180";
+metricRight = "=51@850";
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+surfaceintegral.ss02,
+surfaceintegral.ss02.s01
+);
+};
+};
+}

@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = jdotless.ssty1;
-kernLeft = j.ssty;
-kernRight = j.ssty;
 layers = (
 {
 anchors = (

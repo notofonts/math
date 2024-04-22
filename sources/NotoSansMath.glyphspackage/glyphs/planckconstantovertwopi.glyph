@@ -1,7 +1,5 @@
 {
 glyphname = planckconstantovertwopi;
-kernLeft = b;
-kernRight = n;
 layers = (
 {
 layerId = master01;

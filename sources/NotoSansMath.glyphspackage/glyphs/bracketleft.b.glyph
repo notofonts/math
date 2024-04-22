@@ -2,29 +2,25 @@
 glyphname = bracketleft.b;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (204,681);
-}
-);
 layerId = master01;
 shapes = (
 {
 closed = 1;
 nodes = (
-(358,0,l),
-(358,73,l),
-(136,73,l),
-(136,1362,l),
-(51,1362,l),
-(51,0,l)
+(326,0,l),
+(326,92,l),
+(172,92,l),
+(172,1069,l),
+(80,1069,l),
+(80,0,l)
 );
 }
 );
-width = 406;
+width = 351;
 }
 );
-metricLeft = "=bracketleft.x";
+metricLeft = "=bracketleft.s12";
+metricRight = "=bracketleft.s12";
+metricWidth = "=bracketleft.s12";
 unicode = 9123;
 }

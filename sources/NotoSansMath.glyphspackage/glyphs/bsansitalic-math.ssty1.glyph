@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = "bsansitalic-math.ssty1";
-kernLeft = b;
-kernRight = o.left;
 layers = (
 {
 anchors = (
@@ -12,7 +10,7 @@ pos = (301,375);
 },
 {
 name = math.ta;
-pos = (451,0);
+pos = (272,0);
 }
 );
 layerId = master01;

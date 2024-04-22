@@ -1,0 +1,23 @@
+{
+glyphname = tildebelowcomb.s00;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (183,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 0;
+};
+ref = _part.tildebelowcomb;
+}
+);
+width = 367;
+}
+);
+}

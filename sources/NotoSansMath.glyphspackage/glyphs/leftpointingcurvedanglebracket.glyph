@@ -14,7 +14,7 @@ shapes = (
 piece = {
 Size = 0;
 };
-ref = _part.leftpointingcurvedanglebracket;
+ref = _part.leftcurvedanglebracket;
 }
 );
 width = 456;
@@ -26,15 +26,15 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 leftpointingcurvedanglebracket,
-leftpointingcurvedanglebracket.s1,
-leftpointingcurvedanglebracket.s2,
-leftpointingcurvedanglebracket.s3,
-leftpointingcurvedanglebracket.s4,
-leftpointingcurvedanglebracket.s5,
-leftpointingcurvedanglebracket.s6,
-leftpointingcurvedanglebracket.s7,
-leftpointingcurvedanglebracket.s8,
-leftpointingcurvedanglebracket.s9,
+leftpointingcurvedanglebracket.s01,
+leftpointingcurvedanglebracket.s02,
+leftpointingcurvedanglebracket.s03,
+leftpointingcurvedanglebracket.s04,
+leftpointingcurvedanglebracket.s05,
+leftpointingcurvedanglebracket.s06,
+leftpointingcurvedanglebracket.s07,
+leftpointingcurvedanglebracket.s08,
+leftpointingcurvedanglebracket.s09,
 leftpointingcurvedanglebracket.s10,
 leftpointingcurvedanglebracket.s11,
 leftpointingcurvedanglebracket.s12

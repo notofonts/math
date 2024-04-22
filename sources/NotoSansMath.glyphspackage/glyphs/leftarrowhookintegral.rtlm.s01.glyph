@@ -1,0 +1,31 @@
+{
+color = 3;
+glyphname = leftarrowhookintegral.rtlm.s01;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (1552,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = integral.rtlm.s01;
+},
+{
+pos = (71,-91);
+ref = _arrowhook.integral;
+scale = (1.3,1.3);
+}
+);
+width = 1052;
+}
+);
+metricLeft = "=51";
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

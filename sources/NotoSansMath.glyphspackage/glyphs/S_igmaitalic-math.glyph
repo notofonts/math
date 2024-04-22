@@ -1,7 +1,5 @@
 {
 glyphname = "Sigmaitalic-math";
-kernLeft = GRK_Zeta;
-kernRight = GRK_Zeta;
 layers = (
 {
 anchors = (

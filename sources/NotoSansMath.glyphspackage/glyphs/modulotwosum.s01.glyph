@@ -1,0 +1,21 @@
+{
+glyphname = modulotwosum.s01;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+pos = (-20,-95);
+ref = modulotwosum;
+scale = (1.4,1.4);
+}
+);
+width = 1152;
+}
+);
+metricLeft = "=51";
+metricRight = "=|";
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

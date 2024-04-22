@@ -3,25 +3,13 @@ color = 3;
 glyphname = slopingLargeAnd.rtlm;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (356,290);
-}
-);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(101,580,l),
-(51,580,l),
-(51,0,l),
-(122,0,l),
-(122,461,l),
-(566,0,l),
-(662,0,l)
-);
+alignment = 1;
+pos = (713,0);
+ref = slopingLargeAnd;
+scale = (-1,1);
 }
 );
 width = 713;

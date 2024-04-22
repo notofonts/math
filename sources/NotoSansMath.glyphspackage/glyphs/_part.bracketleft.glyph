@@ -3,12 +3,6 @@ export = 0;
 glyphname = _part.bracketleft;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (192,313);
-}
-);
 layerId = master01;
 partSelection = {
 Size = 1;
@@ -31,12 +25,6 @@ nodes = (
 width = 329;
 },
 {
-anchors = (
-{
-name = center;
-pos = (288,278);
-}
-);
 associatedMasterId = master01;
 layerId = "1CA55137-0D87-444D-859A-A6B26FD6CE64";
 name = "Regular-Large";
@@ -47,20 +35,22 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(456,-1606,l),
-(456,-1484,l),
-(240,-1484,l),
-(240,2040,l),
-(456,2040,l),
-(456,2162,l),
-(120,2162,l),
-(120,-1606,l)
+(326,-1606,l),
+(326,-1514,l),
+(172,-1514,l),
+(172,2070,l),
+(326,2070,l),
+(326,2162,l),
+(80,2162,l),
+(80,-1606,l)
 );
 }
 );
-width = 494;
+width = 351;
 }
 );
+metricLeft = "=80";
+metricRight = "=25";
 partsSettings = (
 {
 bottomValue = 0;
@@ -68,4 +58,5 @@ name = Size;
 topValue = 12;
 }
 );
+sortName = fence02;
 }

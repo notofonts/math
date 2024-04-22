@@ -1,0 +1,24 @@
+{
+glyphname = leftblacktortoiseshellbracket.b;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(407,0,l),
+(290,247,l),
+(290,1069,l),
+(80,1069,l),
+(80,471,l),
+(303,0,l)
+);
+}
+);
+width = 432;
+}
+);
+metricLeft = "=leftblacktortoiseshellbracket.s12";
+metricRight = "=leftblacktortoiseshellbracket.s12";
+}

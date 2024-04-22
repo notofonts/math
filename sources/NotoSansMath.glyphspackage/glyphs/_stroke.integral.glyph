@@ -2,6 +2,12 @@
 glyphname = _stroke.integral;
 layers = (
 {
+anchors = (
+{
+name = _center;
+pos = (236,323);
+}
+);
 layerId = master01;
 shapes = (
 {

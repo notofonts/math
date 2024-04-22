@@ -20,10 +20,6 @@ nodes = (
 );
 }
 );
-userData = {
-com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = second;
-com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = second;
-};
 width = 232;
 }
 );

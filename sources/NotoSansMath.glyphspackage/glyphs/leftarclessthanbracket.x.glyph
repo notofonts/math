@@ -1,0 +1,17 @@
+{
+glyphname = leftarclessthanbracket.x;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+pos = (239,0);
+ref = parenleft.x;
+}
+);
+width = 573;
+}
+);
+metricLeft = "=leftarclessthanbracket.b";
+metricWidth = "=leftarclessthanbracket.m";
+}

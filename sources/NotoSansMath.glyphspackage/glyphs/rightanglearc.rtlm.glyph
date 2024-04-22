@@ -3,37 +3,13 @@ color = 3;
 glyphname = rightanglearc.rtlm;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (326,275);
-}
-);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(601,550,l),
-(530,550,l),
-(530,334,l),
-(387,325,o),
-(277,215,o),
-(267,71,c),
-(51,71,l),
-(51,0,l),
-(601,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(328,71,l),
-(337,178,o),
-(420,264,o),
-(530,273,c),
-(530,71,l)
-);
+alignment = 1;
+pos = (652,0);
+ref = rightanglearc;
+scale = (-1,1);
 }
 );
 width = 652;

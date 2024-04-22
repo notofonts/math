@@ -1,7 +1,5 @@
 {
 glyphname = "Kappaitalic-math";
-kernLeft = GRK_Epsilon;
-kernRight = GRK_Kappa;
 layers = (
 {
 layerId = master01;

@@ -1,0 +1,42 @@
+{
+glyphname = tripleverticalbar.s03;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (436,325);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+piece = {
+Size = 3;
+};
+ref = _part.bar;
+},
+{
+alignment = -1;
+piece = {
+Size = 3;
+};
+pos = (220,0);
+ref = _part.bar;
+},
+{
+alignment = -1;
+piece = {
+Size = 3;
+};
+pos = (440,0);
+ref = _part.bar;
+}
+);
+width = 878;
+}
+);
+metricLeft = "=bar";
+metricRight = "=bar";
+}

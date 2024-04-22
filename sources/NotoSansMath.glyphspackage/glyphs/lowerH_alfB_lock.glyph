@@ -1,0 +1,22 @@
+{
+glyphname = lowerHalfBlock;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1000,0,l),
+(1000,500,l),
+(0,500,l),
+(0,0,l)
+);
+}
+);
+width = 1000;
+}
+);
+note = uni2584;
+unicode = 9604;
+}

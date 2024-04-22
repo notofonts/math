@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = "ksansitalic-math.ssty1";
-kernLeft = b;
-kernRight = k.left;
 layers = (
 {
 anchors = (
@@ -16,7 +14,7 @@ pos = (645,0);
 },
 {
 name = math.ta;
-pos = (457,0);
+pos = (272,0);
 }
 );
 layerId = master01;

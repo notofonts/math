@@ -1,0 +1,72 @@
+{
+glyphname = tripleverticalbar;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (436,325);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = _part.bar;
+},
+{
+alignment = -1;
+pos = (220,0);
+ref = _part.bar;
+},
+{
+alignment = -1;
+pos = (440,0);
+ref = _part.bar;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+tripleverticalbar.x,
+0,
+0,
+1069
+),
+(
+tripleverticalbar.x,
+1,
+1069,
+0
+)
+);
+};
+};
+width = 873;
+}
+);
+metricLeft = "=bar";
+metricRight = "=bar";
+unicode = 10624;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+tripleverticalbar,
+tripleverticalbar.s01,
+tripleverticalbar.s02,
+tripleverticalbar.s03,
+tripleverticalbar.s04,
+tripleverticalbar.s05,
+tripleverticalbar.s06,
+tripleverticalbar.s07,
+tripleverticalbar.s08,
+tripleverticalbar.s09,
+tripleverticalbar.s10,
+tripleverticalbar.s11,
+tripleverticalbar.s12
+);
+};
+};
+}

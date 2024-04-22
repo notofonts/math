@@ -1,0 +1,17 @@
+{
+glyphname = rightblacktortoiseshellbracket.t;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+pos = (432,0);
+ref = leftblacktortoiseshellbracket.t;
+scale = (-1,1);
+}
+);
+width = 432;
+}
+);
+}

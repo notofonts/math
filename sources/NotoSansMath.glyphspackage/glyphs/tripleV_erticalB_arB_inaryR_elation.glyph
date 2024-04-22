@@ -5,42 +5,23 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (273,325);
+pos = (273,278);
 }
 );
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(496,-175,l),
-(496,825,l),
-(425,825,l),
-(425,-175,l)
-);
+ref = divides;
 },
 {
-closed = 1;
-nodes = (
-(122,-175,l),
-(122,825,l),
-(51,825,l),
-(51,-175,l)
-);
+pos = (187,0);
+ref = divides;
 },
 {
-closed = 1;
-nodes = (
-(309,-175,l),
-(309,825,l),
-(238,825,l),
-(238,-175,l)
-);
+pos = (374,0);
+ref = divides;
 }
 );
-userData = {
-com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = "=|";
-};
 width = 547;
 }
 );

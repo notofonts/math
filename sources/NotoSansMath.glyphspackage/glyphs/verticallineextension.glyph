@@ -11,13 +11,8 @@ pos = (250,681);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(277,0,l),
-(277,1362,l),
-(223,1362,l),
-(223,0,l)
-);
+pos = (-411,0);
+ref = rightverticalboxline;
 }
 );
 width = 500;

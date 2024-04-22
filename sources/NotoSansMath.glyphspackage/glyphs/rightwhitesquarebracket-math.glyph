@@ -14,7 +14,7 @@ shapes = (
 piece = {
 Size = 0;
 };
-ref = "_part.rightwhitesquarebracket-math";
+ref = _part.rightwhitesquarebracket;
 }
 );
 userData = {
@@ -24,24 +24,24 @@ vAssembly = (
 "rightwhitesquarebracket-math.b",
 0,
 0,
-800
+977
 ),
 (
 "rightwhitesquarebracket-math.x",
 1,
-1000,
-1000
+1069,
+1069
 ),
 (
 "rightwhitesquarebracket-math.t",
 0,
-800,
+977,
 0
 )
 );
 };
 };
-width = 447;
+width = 449;
 }
 );
 unicode = 10215;
@@ -50,15 +50,15 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 "rightwhitesquarebracket-math",
-"rightwhitesquarebracket-math.s1",
-"rightwhitesquarebracket-math.s2",
-"rightwhitesquarebracket-math.s3",
-"rightwhitesquarebracket-math.s4",
-"rightwhitesquarebracket-math.s5",
-"rightwhitesquarebracket-math.s6",
-"rightwhitesquarebracket-math.s7",
-"rightwhitesquarebracket-math.s8",
-"rightwhitesquarebracket-math.s9",
+"rightwhitesquarebracket-math.s01",
+"rightwhitesquarebracket-math.s02",
+"rightwhitesquarebracket-math.s03",
+"rightwhitesquarebracket-math.s04",
+"rightwhitesquarebracket-math.s05",
+"rightwhitesquarebracket-math.s06",
+"rightwhitesquarebracket-math.s07",
+"rightwhitesquarebracket-math.s08",
+"rightwhitesquarebracket-math.s09",
 "rightwhitesquarebracket-math.s10",
 "rightwhitesquarebracket-math.s11",
 "rightwhitesquarebracket-math.s12"

@@ -19,7 +19,7 @@ pos = (122,-61);
 layerId = master01;
 shapes = (
 {
-ref = rightarrowbelowcomb.s0;
+ref = rightarrowbelowcomb.s00;
 }
 );
 userData = {
@@ -32,7 +32,7 @@ leftarrowbelowcomb.x,
 600
 ),
 (
-rightarrowbelowcomb.s1,
+rightarrowbelowcomb.s01,
 0,
 500,
 0
@@ -47,12 +47,12 @@ unicode = 8431;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 hVariants = (
-rightarrowbelowcomb.s0,
-rightarrowbelowcomb.s1,
-rightarrowbelowcomb.s2,
-rightarrowbelowcomb.s3,
-rightarrowbelowcomb.s4,
-rightarrowbelowcomb.s5
+rightarrowbelowcomb.s00,
+rightarrowbelowcomb.s01,
+rightarrowbelowcomb.s02,
+rightarrowbelowcomb.s03,
+rightarrowbelowcomb.s04,
+rightarrowbelowcomb.s05
 );
 };
 };

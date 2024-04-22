@@ -1,0 +1,24 @@
+{
+glyphname = summation.s01;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (576,237);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (-20,-95);
+ref = summation;
+scale = (1.4,1.4);
+}
+);
+width = 1152;
+}
+);
+metricLeft = "=51";
+metricRight = "=|";
+}

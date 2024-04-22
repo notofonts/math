@@ -1,0 +1,23 @@
+{
+glyphname = bar.s07;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (216,325);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 7;
+};
+ref = _part.bar;
+}
+);
+width = 444;
+}
+);
+}

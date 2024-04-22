@@ -1,7 +1,5 @@
 {
 glyphname = "iotaitalic-math";
-kernLeft = GRK_iota;
-kernRight = GRK_iota;
 layers = (
 {
 anchors = (

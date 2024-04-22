@@ -1,0 +1,24 @@
+{
+glyphname = product.s01;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (622,237);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (0,474);
+ref = coproduct.s01;
+scale = (1,-1);
+}
+);
+width = 1243;
+}
+);
+metricLeft = "=51";
+metricRight = "=|";
+}

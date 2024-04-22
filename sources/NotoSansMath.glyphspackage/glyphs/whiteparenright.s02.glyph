@@ -1,0 +1,23 @@
+{
+glyphname = whiteparenright.s02;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (203,313);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 2;
+};
+ref = _part.whiteparenright;
+}
+);
+width = 457;
+}
+);
+}

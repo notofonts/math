@@ -24,18 +24,18 @@ vAssembly = (
 bracketleft.b,
 0,
 0,
-1200
+947
 ),
 (
 bracketleft.x,
 1,
-1300,
-1300
+1069,
+1069
 ),
 (
 bracketleft.t,
 0,
-1200,
+947,
 0
 )
 );
@@ -50,15 +50,15 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 bracketleft,
-bracketleft.s1,
-bracketleft.s2,
-bracketleft.s3,
-bracketleft.s4,
-bracketleft.s5,
-bracketleft.s6,
-bracketleft.s7,
-bracketleft.s8,
-bracketleft.s9,
+bracketleft.s01,
+bracketleft.s02,
+bracketleft.s03,
+bracketleft.s04,
+bracketleft.s05,
+bracketleft.s06,
+bracketleft.s07,
+bracketleft.s08,
+bracketleft.s09,
 bracketleft.s10,
 bracketleft.s11,
 bracketleft.s12

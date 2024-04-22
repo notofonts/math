@@ -1,0 +1,28 @@
+{
+glyphname = "cuberoot-ar.s03";
+layers = (
+{
+guides = (
+{
+pos = (317,690);
+},
+{
+angle = 270;
+pos = (527,289);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 3;
+};
+ref = "_part.cuberoot-ar";
+}
+);
+width = 879;
+}
+);
+metricLeft = "cuberoot_fourthroot-ar.pt";
+metricRight = "cuberoot_fourthroot-ar.pt";
+}

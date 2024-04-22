@@ -1,0 +1,31 @@
+{
+glyphname = whiteVerysmallSquare;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(233,271,l),
+(233,453,l),
+(51,453,l),
+(51,271,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(88,416,l),
+(196,416,l),
+(196,308,l),
+(88,308,l)
+);
+}
+);
+width = 284;
+}
+);
+note = uni2B1E;
+unicode = 11038;
+}

@@ -3,39 +3,13 @@ color = 3;
 glyphname = increasesAs.rtlm;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (286,358);
-}
-);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(521,271,l),
-(51,614,l),
-(51,237,l),
-(521,237,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(521,173,l),
-(51,173,l),
-(51,102,l),
-(521,102,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(119,305,l),
-(119,486,l),
-(365,305,l)
-);
+alignment = 1;
+pos = (572,0);
+ref = increasesAs;
+scale = (-1,1);
 }
 );
 width = 572;

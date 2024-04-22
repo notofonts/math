@@ -5,38 +5,21 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (397,284);
+pos = (506,284);
 }
 );
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(262,197,l),
-(235,255,o),
-(208,299,o),
-(182,325,c),
-(182,372,l),
-(51,372,l),
-(51,334,l),
-(109,305,o),
-(165,259,o),
-(218,197,c)
-);
-},
-{
-closed = 1;
-nodes = (
-(743,318,l),
-(743,372,l),
-(152,372,l),
-(152,318,l)
-);
+pos = (0,559);
+ref = leftBarbUpHarpoon;
+scale = (1,-1);
 }
 );
-width = 794;
+width = 1012;
 }
 );
+metricLeft = "=51";
+metricRight = "=51";
 unicode = 8637;
 }

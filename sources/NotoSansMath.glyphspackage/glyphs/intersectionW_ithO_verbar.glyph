@@ -36,33 +36,13 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(452,724,l),
-(452,781,l),
-(232,781,l),
-(232,724,l)
+(583,724,l),
+(583,781,l),
+(101,781,l),
+(101,724,l)
 );
 }
 );
-userData = {
-com.schriftgestaltung.annotations = (
-{
-position = (
-21,
-21
-);
-type = Text;
-width = 100;
-},
-{
-position = (
--385,
--1767
-);
-type = Text;
-width = 100;
-}
-);
-};
 width = 684;
 }
 );

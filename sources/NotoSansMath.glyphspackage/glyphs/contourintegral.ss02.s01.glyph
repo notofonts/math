@@ -1,0 +1,34 @@
+{
+glyphname = contourintegral.ss02.s01;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (562,0);
+}
+);
+guides = (
+{
+pos = (436,-830);
+},
+{
+pos = (436,1475);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = integral.ss02.s01;
+},
+{
+pos = (4,0);
+ref = _contour1.integral;
+}
+);
+width = 472;
+}
+);
+metricRight = "=51@1400";
+}

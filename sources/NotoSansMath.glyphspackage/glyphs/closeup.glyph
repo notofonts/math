@@ -1,0 +1,21 @@
+{
+glyphname = closeup;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+pos = (0,-100);
+ref = charactertie;
+},
+{
+pos = (0,783);
+ref = charactertie;
+scale = (1,-1);
+}
+);
+width = 855;
+}
+);
+unicode = 8272;
+}

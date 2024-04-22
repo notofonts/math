@@ -1,0 +1,40 @@
+{
+glyphname = doublestrokeintegral.ss02.s01;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (236,322);
+},
+{
+name = math.ic;
+pos = (562,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = integral.ss02.s01;
+},
+{
+alignment = -1;
+pos = (0,86);
+ref = _stroke.integral;
+},
+{
+alignment = -1;
+pos = (0,-86);
+ref = _stroke.integral;
+}
+);
+width = 472;
+}
+);
+metricLeft = "=51";
+metricRight = "=51";
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

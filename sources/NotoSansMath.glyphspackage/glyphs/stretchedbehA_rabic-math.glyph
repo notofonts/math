@@ -2,39 +2,30 @@
 glyphname = "stretchedbehArabic-math";
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (325,373);
-}
-);
 layerId = master01;
 shapes = (
 {
 closed = 1;
 nodes = (
-(467,-44,o),
-(504,-3,o),
-(516,14,c),
-(494,34,o),
-(475,53,o),
-(450,80,c),
-(432,59,o),
-(405,30,o),
-(380,6,c),
-(401,-17,o),
-(427,-40,o),
-(452,-59,c)
+(335,-191,o),
+(357,-169,o),
+(357,-142,cs),
+(357,-115,o),
+(335,-92,o),
+(308,-92,cs),
+(280,-92,o),
+(258,-115,o),
+(258,-142,cs),
+(258,-169,o),
+(280,-191,o),
+(308,-191,cs)
 );
 },
 {
 ref = "stretcheddotlessbehArabic-math";
 }
 );
-userData = {
-com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = "stretcheddotlessbehArabic-math";
-};
-width = 624;
+width = 560;
 }
 );
 unicode = 126561;

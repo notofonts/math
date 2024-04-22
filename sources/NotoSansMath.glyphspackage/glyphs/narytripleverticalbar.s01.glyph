@@ -1,0 +1,24 @@
+{
+glyphname = narytripleverticalbar.s01;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (363,237);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (-20,-95);
+ref = narytripleverticalbar;
+scale = (1.4,1.4);
+}
+);
+width = 725;
+}
+);
+metricLeft = "=51";
+metricRight = "=|";
+}

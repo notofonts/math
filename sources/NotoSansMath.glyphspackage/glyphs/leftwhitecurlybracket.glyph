@@ -24,36 +24,36 @@ vAssembly = (
 leftwhitecurlybracket.b,
 0,
 0,
-600
+975
 ),
 (
 leftwhitecurlybracket.x,
 1,
-1680,
-1680
+1069,
+1069
 ),
 (
 leftwhitecurlybracket.m,
 0,
-600,
-600
+1069,
+1069
 ),
 (
 leftwhitecurlybracket.x,
 1,
-1680,
-1680
+1069,
+1069
 ),
 (
 leftwhitecurlybracket.t,
 0,
-600,
+975,
 0
 )
 );
 };
 };
-width = 541;
+width = 522;
 }
 );
 unicode = 10627;
@@ -62,15 +62,15 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 leftwhitecurlybracket,
-leftwhitecurlybracket.s1,
-leftwhitecurlybracket.s2,
-leftwhitecurlybracket.s3,
-leftwhitecurlybracket.s4,
-leftwhitecurlybracket.s5,
-leftwhitecurlybracket.s6,
-leftwhitecurlybracket.s7,
-leftwhitecurlybracket.s8,
-leftwhitecurlybracket.s9,
+leftwhitecurlybracket.s01,
+leftwhitecurlybracket.s02,
+leftwhitecurlybracket.s03,
+leftwhitecurlybracket.s04,
+leftwhitecurlybracket.s05,
+leftwhitecurlybracket.s06,
+leftwhitecurlybracket.s07,
+leftwhitecurlybracket.s08,
+leftwhitecurlybracket.s09,
 leftwhitecurlybracket.s10,
 leftwhitecurlybracket.s11,
 leftwhitecurlybracket.s12

@@ -2,38 +2,10 @@
 glyphname = rmoustache;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (158,388);
-}
-);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(302,-293,l),
-(284,-269,ls),
-(234,-202,o),
-(201,-94,o),
-(201,49,cs),
-(201,727,ls),
-(201,873,o),
-(159,1002,o),
-(100,1069,c),
-(15,1069,l),
-(42,1032,o),
-(62,1001,o),
-(72,976,cs),
-(92,925,o),
-(116,848,o),
-(116,727,cs),
-(116,49,ls),
-(116,-96,o),
-(159,-227,o),
-(217,-293,c)
-);
+ref = _part.rmoustache;
 }
 );
 userData = {
@@ -43,28 +15,45 @@ vAssembly = (
 braceleft.b,
 0,
 0,
-1000
+903
 ),
 (
 braceleft.x,
 1,
-1362,
-1362
+1069,
+1069
 ),
 (
 braceright.t,
 0,
-1000,
+903,
 0
 )
 );
 };
 };
-width = 317;
+width = 373;
 }
 );
 unicode = 9137;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+rmoustache,
+rmoustache.s01,
+rmoustache.s02,
+rmoustache.s03,
+rmoustache.s04,
+rmoustache.s05,
+rmoustache.s06,
+rmoustache.s07,
+rmoustache.s08,
+rmoustache.s09,
+rmoustache.s10,
+rmoustache.s11,
+rmoustache.s12
+);
+};
 };
 }

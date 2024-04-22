@@ -1,7 +1,5 @@
 {
 glyphname = "kappaitalic-math";
-kernLeft = GRK_mu;
-kernRight = GRK_kappa;
 layers = (
 {
 anchors = (

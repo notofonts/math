@@ -1,0 +1,33 @@
+{
+color = 3;
+glyphname = volumeintegral.rtlm.ss02;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (1080,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+pos = (990,0);
+ref = volumeintegral.ss02;
+scale = (-1,1);
+}
+);
+width = 990;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+volumeintegral.rtlm.ss02,
+volumeintegral.rtlm.ss02.s01
+);
+};
+};
+}

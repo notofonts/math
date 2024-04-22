@@ -5,19 +5,15 @@ layers = (
 {
 anchors = (
 {
-name = center;
-pos = (236,322);
-},
-{
 name = math.ic;
-pos = (562,0);
+pos = (1110,0);
 }
 );
 layerId = master01;
 shapes = (
 {
 alignment = 1;
-pos = (472,0);
+pos = (836,0);
 ref = integral;
 scale = (-1,1);
 }
@@ -46,7 +42,7 @@ integral.t.rtlm,
 );
 };
 };
-width = 472;
+width = 836;
 }
 );
 userData = {
@@ -54,7 +50,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 integral.rtlm,
-integral.rtlm.s1
+integral.rtlm.s01
 );
 };
 };

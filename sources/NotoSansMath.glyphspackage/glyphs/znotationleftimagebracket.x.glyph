@@ -1,0 +1,33 @@
+{
+glyphname = znotationleftimagebracket.x;
+layers = (
+{
+layerId = master01;
+metricLeft = "=znotationleftimagebracket.b";
+metricRight = "=znotationleftimagebracket.b";
+metricWidth = "=znotationleftimagebracket.b";
+shapes = (
+{
+closed = 1;
+nodes = (
+(390,0,l),
+(390,1069,l),
+(298,1069,l),
+(298,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(143,0,l),
+(143,1069,l),
+(51,1069,l),
+(51,0,l)
+);
+}
+);
+width = 441;
+}
+);
+metricRight = "=";
+}

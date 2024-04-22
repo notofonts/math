@@ -11,25 +11,7 @@ pos = (155,333);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(201,-37,o),
-(259,15,o),
-(259,156,cs),
-(259,520,ls),
-(259,651,o),
-(201,703,o),
-(130,770,c),
-(51,770,l),
-(127,703,o),
-(190,650,o),
-(190,519,cs),
-(190,157,ls),
-(190,16,o),
-(127,-37,o),
-(51,-104,c),
-(130,-104,l)
-);
+ref = _part.rightflattenedparenthesis;
 }
 );
 userData = {
@@ -39,28 +21,45 @@ vAssembly = (
 parenright.b,
 0,
 0,
-900
+627
 ),
 (
 parenright.x,
 1,
-900,
-900
+1069,
+1069
 ),
 (
 parenright.t,
 0,
-900,
+627,
 0
 )
 );
 };
 };
-width = 310;
+width = 330;
 }
 );
 unicode = 10223;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+"rightflattenedparenthesis-math",
+"rightflattenedparenthesis-math.s01",
+"rightflattenedparenthesis-math.s02",
+"rightflattenedparenthesis-math.s03",
+"rightflattenedparenthesis-math.s04",
+"rightflattenedparenthesis-math.s05",
+"rightflattenedparenthesis-math.s06",
+"rightflattenedparenthesis-math.s07",
+"rightflattenedparenthesis-math.s08",
+"rightflattenedparenthesis-math.s09",
+"rightflattenedparenthesis-math.s10",
+"rightflattenedparenthesis-math.s11",
+"rightflattenedparenthesis-math.s12"
+);
+};
 };
 }

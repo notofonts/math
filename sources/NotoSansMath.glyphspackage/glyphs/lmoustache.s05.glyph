@@ -1,0 +1,17 @@
+{
+glyphname = lmoustache.s05;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 5;
+};
+ref = _part.lmoustache;
+}
+);
+width = 371;
+}
+);
+}

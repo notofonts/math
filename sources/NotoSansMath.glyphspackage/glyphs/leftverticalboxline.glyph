@@ -1,0 +1,19 @@
+{
+glyphname = leftverticalboxline;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+pos = (-456,0);
+ref = rightverticalboxline;
+}
+);
+width = 866;
+}
+);
+metricLeft = "=|rightverticalboxline";
+metricWidth = "=rightverticalboxline";
+note = uni23B8;
+unicode = 9144;
+}

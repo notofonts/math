@@ -1,0 +1,27 @@
+{
+glyphname = join.s01;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (716,239);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (-20,-95);
+ref = join;
+scale = (1.4,1.4);
+}
+);
+width = 1431;
+}
+);
+metricLeft = "=51";
+metricRight = "=|";
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

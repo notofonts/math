@@ -1,0 +1,30 @@
+{
+glyphname = blackVerticalEllipse;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(416,-3,o),
+(504,148,o),
+(504,362,cs),
+(504,557,o),
+(404,727,o),
+(278,727,cs),
+(138,727,o),
+(51,577,o),
+(51,362,cs),
+(51,148,o),
+(138,-3,o),
+(278,-3,cs)
+);
+}
+);
+width = 555;
+}
+);
+note = uni2B2E;
+unicode = 11054;
+}

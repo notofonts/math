@@ -3,12 +3,6 @@ color = 5;
 glyphname = radical.ssty2;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (365,421);
-}
-);
 layerId = master01;
 shapes = (
 {

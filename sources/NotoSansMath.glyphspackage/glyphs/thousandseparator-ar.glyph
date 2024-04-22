@@ -1,0 +1,21 @@
+{
+glyphname = "thousandseparator-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (245,518);
+ref = "decimalseparator-ar";
+}
+);
+width = 245;
+}
+);
+metricLeft = "=|decimalseparator-ar";
+metricRight = "=|decimalseparator-ar";
+metricWidth = "=decimalseparator-ar";
+unicode = 1644;
+}

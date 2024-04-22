@@ -11,37 +11,55 @@ pos = (162,334);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(274,-102,l),
-(274,770,l),
-(198,770,l),
-(103,657,o),
-(51,503,o),
-(51,330,cs),
-(51,158,o),
-(104,7,o),
-(198,-102,c)
-);
-},
-{
-closed = 1;
-nodes = (
-(150,85,o),
-(120,203,o),
-(120,331,cs),
-(120,460,o),
-(150,579,o),
-(209,688,c),
-(209,-22,l)
-);
+ref = _part.znotationleftimagebracket;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+znotationleftimagebracket.b,
+0,
+0,
+355
+),
+(
+znotationleftimagebracket.x,
+1,
+1069,
+1069
+),
+(
+znotationleftimagebracket.t,
+0,
+355,
+0
+)
+);
+};
+};
 width = 325;
 }
 );
 unicode = 10631;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+znotationleftimagebracket,
+znotationleftimagebracket.s01,
+znotationleftimagebracket.s02,
+znotationleftimagebracket.s03,
+znotationleftimagebracket.s04,
+znotationleftimagebracket.s05,
+znotationleftimagebracket.s06,
+znotationleftimagebracket.s07,
+znotationleftimagebracket.s08,
+znotationleftimagebracket.s09,
+znotationleftimagebracket.s10,
+znotationleftimagebracket.s11,
+znotationleftimagebracket.s12
+);
+};
 };
 }

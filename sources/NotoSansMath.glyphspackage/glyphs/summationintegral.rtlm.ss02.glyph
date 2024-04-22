@@ -1,0 +1,27 @@
+{
+color = 3;
+glyphname = summationintegral.rtlm.ss02;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (339,233);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+pos = (677,0);
+ref = summationintegral.ss02;
+scale = (-1,1);
+}
+);
+width = 677;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

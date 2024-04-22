@@ -1,0 +1,23 @@
+{
+glyphname = rightpointingcurvedanglebracket.s05;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (286.917,296);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 5;
+};
+ref = _part.rightcurvedanglebracket;
+}
+);
+width = 574;
+}
+);
+}

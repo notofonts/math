@@ -1,0 +1,35 @@
+{
+glyphname = tripleintegral.s01;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (938,328);
+},
+{
+name = math.ic;
+pos = (2256,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = integral.s01;
+},
+{
+alignment = 1;
+pos = (412,0);
+ref = integral.s01;
+},
+{
+alignment = 1;
+pos = (824,0);
+ref = integral.s01;
+}
+);
+width = 1876;
+}
+);
+}

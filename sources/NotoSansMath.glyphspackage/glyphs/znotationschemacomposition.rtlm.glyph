@@ -1,0 +1,33 @@
+{
+color = 3;
+glyphname = znotationschemacomposition.rtlm;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (223,238);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+pos = (445,0);
+ref = znotationschemacomposition;
+scale = (-1,1);
+}
+);
+width = 445;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+znotationschemacomposition.rtlm,
+znotationschemacomposition.rtlm.s01
+);
+};
+};
+}

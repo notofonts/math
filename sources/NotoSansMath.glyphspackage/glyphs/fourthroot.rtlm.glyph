@@ -3,46 +3,30 @@ color = 3;
 glyphname = fourthroot.rtlm;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (187,421);
-}
-);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(412,482,l),
-(412,562,l),
-(462,562,l),
-(462,615,l),
-(412,615,l),
-(412,843,l),
-(348,843,l),
-(183,607,l),
-(183,562,l),
-(346,562,l),
-(346,482,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(349,772,l),
-(349,615,l),
-(248,615,l)
-);
-},
-{
-pos = (-74,0);
-ref = radical.rtlm;
+piece = {
+Size = 0;
+};
+ref = _part.fourthroot.rtlm;
 }
 );
-width = 605;
+width = 679;
 }
 );
 metricLeft = "=|fourthroot";
 metricRight = "=|fourthroot";
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+fourthroot.rtlm,
+fourthroot.rtlm.s01,
+fourthroot.rtlm.s02,
+fourthroot.rtlm.s03,
+fourthroot.rtlm.s04
+);
+};
+};
 }

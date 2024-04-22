@@ -5,41 +5,31 @@ layers = (
 anchors = (
 {
 name = _center;
-pos = (214,357);
+pos = (214,277);
+},
+{
+name = center;
+pos = (214,277);
 },
 {
 name = math.ta;
-pos = (214,0);
-},
-{
-name = top;
-pos = (214,326);
+pos = (214,-80);
 }
 );
 layerId = master01;
 shapes = (
 {
-piece = {
-Size = 0;
-};
-ref = _part.slashlongcomb;
+closed = 1;
+nodes = (
+(86,-180,l),
+(428,734,l),
+(342,734,l),
+(0,-180,l)
+);
 }
 );
 width = 428;
 }
 );
 unicode = 824;
-userData = {
-com.nagwa.MATHPlugin.extendedShape = 1;
-com.nagwa.MATHPlugin.variants = {
-vVariants = (
-slashlongcomb,
-slashlongcomb.s1,
-slashlongcomb.s2,
-slashlongcomb.s3,
-slashlongcomb.s4,
-slashlongcomb.s5
-);
-};
-};
 }

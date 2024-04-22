@@ -5,39 +5,61 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (155,277);
+pos = (192,313);
 }
 );
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(260,-102,l),
-(260,-43,l),
-(122,-43,l),
-(122,711,l),
-(260,711,l),
-(260,770,l),
-(51,770,l),
-(51,-102,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(260,-216,l),
-(260,-157,l),
-(51,-157,l),
-(51,-216,l)
-);
+ref = _part.bracketleftunderbar;
 }
 );
-width = 311;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+leftsquarebracketunderbar.b,
+0,
+0,
+826
+),
+(
+bracketleft.x,
+1,
+1069,
+1069
+),
+(
+bracketleft.t,
+0,
+947,
+0
+)
+);
+};
+};
+width = 329;
 }
 );
 unicode = 10635;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+leftsquarebracketunderbar,
+leftsquarebracketunderbar.s01,
+leftsquarebracketunderbar.s02,
+leftsquarebracketunderbar.s03,
+leftsquarebracketunderbar.s04,
+leftsquarebracketunderbar.s05,
+leftsquarebracketunderbar.s06,
+leftsquarebracketunderbar.s07,
+leftsquarebracketunderbar.s08,
+leftsquarebracketunderbar.s09,
+leftsquarebracketunderbar.s10,
+leftsquarebracketunderbar.s11,
+leftsquarebracketunderbar.s12
+);
+};
 };
 }

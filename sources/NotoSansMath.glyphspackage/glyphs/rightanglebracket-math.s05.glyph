@@ -1,0 +1,23 @@
+{
+glyphname = "rightanglebracket-math.s05";
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (299.5,298);
+}
+);
+layerId = master01;
+shapes = (
+{
+piece = {
+Size = 5;
+};
+ref = _part.rightanglebracket;
+}
+);
+width = 535;
+}
+);
+}

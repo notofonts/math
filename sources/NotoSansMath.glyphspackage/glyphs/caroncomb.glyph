@@ -5,24 +5,24 @@ layers = (
 anchors = (
 {
 name = _top;
-pos = (209,536);
+pos = (169,536);
 },
 {
 name = math.ta;
-pos = (207,0);
+pos = (167,0);
 },
 {
 name = top;
-pos = (211,766);
+pos = (169,766);
 }
 );
 layerId = master01;
 shapes = (
 {
-ref = caroncomb.s0;
+ref = caroncomb.s00;
 }
 );
-width = 418;
+width = 338;
 }
 );
 unicode = 780;
@@ -30,11 +30,11 @@ userData = {
 com.nagwa.MATHPlugin.variants = {
 hVariants = (
 caroncomb,
-caroncomb.s1,
-caroncomb.s2,
-caroncomb.s3,
-caroncomb.s4,
-caroncomb.s5
+caroncomb.s01,
+caroncomb.s02,
+caroncomb.s03,
+caroncomb.s04,
+caroncomb.s05
 );
 };
 };
