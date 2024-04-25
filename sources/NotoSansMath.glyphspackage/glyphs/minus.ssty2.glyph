@@ -6,17 +6,22 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (163,268);
+pos = (301,278);
 }
 );
 layerId = master01;
 shapes = (
 {
-alignment = -1;
-ref = hyphen.ssty2;
+closed = 1;
+nodes = (
+(552,226,l),
+(552,329,l),
+(50,329,l),
+(50,226,l)
+);
 }
 );
-width = 326;
+width = 602;
 }
 );
 }
