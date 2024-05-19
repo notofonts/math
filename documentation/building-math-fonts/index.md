@@ -1,0 +1,99 @@
+# Building OpenType math fonts
+Math typesetting is different than regular text typesetting because math formulas are arranged in two dimentions, and there is an interaction between symbols of different styles and sizes. Because of that, math fonts have always been a special kind of fonts. One of, or propably the most, famous math typesetting engines is TeX, and its math fonts required a complex setup of various fonts (for upright, italic, regular, bold, sysmbols, etc) and special metrics, and font parameters. When OpenType started supporting math typesetting, it built on TeX experience, but upgraded to Unicode and OpenType (TeX predates both).
+
+Instead of multiple fonts, all symbols are contained in a single font, and the various “font styles” use the dedicated Unicode math alphanumerics, and the additional glyphs (super/sub scripts, glyph in multiple sizes, and so one) are included in the same font as variants of the base glyphs. OpenType introduced a new `MATH` table that includes various special math parameters (constants) and metrics, as well as a few registered feature tags for math-specific glyphs substitutions (more about both below).
+
+## Character set
+Math fonts require quite a few glyphs (ranges from about 1000 to 6000 glyphs), based on what character set is supported by the font. There is no single, well defined character set for math fonts, Unicode includes thousands of math related characters, so each project defines its own character set based on its own requirements. Here are some of the Unicode blocks related to mathematics:
+
+### Alphanumerics
+* Basic Latin (ASCII), [U+0000–007F](https://unicode.org/charts/PDF/U0000.pdf): This includes the upright regular basic Latin character as well as upright digits. It also includes some basic operators and punctuation used in math (e.g. plus and brackets).
+* Greek, [U+0370–03FF](https://unicode.org/charts/PDF/U0370.pdf): This includes upright regular Greek characters. The accented, archiac, and coptic-derived characters are not usually used in math, so can be skipped. The variant letter forms, like Greek Phi Symbol (U+03D5) are often used in math in should be included.
+* Mathematical Alphanumeric Symbols, [U+1D400–1D7FF](https://unicode.org/charts/PDF/U1D400.pdf): This is a quite large block (around 1000 characters), as it includes the following styles:
+  * Latin
+    * upright bold
+    * italic regular
+    * italic bold
+    * script regular
+    * script bold
+    * fraktur regular
+    * fraktur bold
+    * double-struck regular
+    * double-struck bold
+    * sans-serif upright regular
+    * sans-serif upright bold
+    * sans-serif italic regular
+    * sans-serif italic bold
+    * monospace upright regular
+  * Greek
+    * upright bold
+    * italic regular
+    * italic bold
+    * sans-serif upright bold
+    * sans-serif italic bold
+  * Digits:
+    * bold
+    * double-struck regular
+    * sans-serif regular
+    * sans-serif bold
+    * monospace regular
+    
+  Some of the styles in this block are missing a few characters, because they were already defined in Unicode in a different block.
+* Letterlike Symbols, [U+2100–214F](https://unicode.org/charts/PDF/U2100.pdf): This includes some symbols that can be used in math, and specially some alphanumeric symbols missing from the previous block (e.g. U+210E is used for Latin italic h, which is not included with the other Latin italic letters in the above block).
+* Arabic, [U+0600–06FF](https://unicode.org/charts/PDF/U0600.pdf): For Arabic math support, the Arabic-Indic and Extended Arabic-Indic digits need to be included as well as basic Arabic letters (in isolated form only).
+* Arabic Mathematical Alphabetic Symbols, [U+1EE00–1EEFF](https://unicode.org/charts/PDF/U1EE00.pdf): This includes Arabic math letters, in isolated, initial, extentnted, tailed, looped, and double-struck forms (the design of isolated forms for math symbos sometimes differs from the basic isolated forms, so both should be included in fonts intented to support Arabic math).
+
+### Symbols
+* Latin-1 Supplement, [U+0080–00FF](https://unicode.org/charts/PDF/U0080.pdf): Includes some operators like mulyiplication and division.
+* Mathematical Operators, [U+2200–22FF](https://unicode.org/charts/PDF/U2200.pdf): Includes a large set of most commonly used math opertors.
+* Supplemental Mathematical Operators, [U+2A00–2AFF](https://unicode.org/charts/PDF/U2A00.pdf): More commonly used operators.
+* Miscellaneous Mathematical Symbols-A, [U+27C0–27EF](https://unicode.org/charts/PDF/U27C0.pdf)
+* Miscellaneous Mathematical Symbols-B, [U+2980–29FF](https://unicode.org/charts/PDF/U2980.pdf)
+* Miscellaneous Technical, [U+2300–23FF](https://unicode.org/charts/PDF/U2300.pdf): Includes some common math symbols, plus a few legacy ones (like U+23B2 Summation Top).
+* General Punctuation, [U+2000–206F](https://unicode.org/charts/PDF/U2000.pdf): Invesible operators and some other symbols.
+* Arrows, [U+2190–21FF](https://unicode.org/charts/PDF/U2190.pdf)
+* ...
+
+## OpenType features
+Math fonts use several OpenType features for proper math layout, although none of these features is strictly required, they are crucial for fine mathematical typography.
+
+### Math script style alternates (`ssty`)
+Math aoften includes glyphs at smaller point sizes (like super scripts, sub scripts, fraction numerators and denomerators, and so one). For proper typography these glyphs need to be optically adjusted for the smaller point sizes. In OpenType math this is handled by including two sets of glyphs designed for the first and second level scripts (further levels use the glyphs of the second level) and mapping them using the `ssty` features as multiple alternates substitution. The glyphs should be designed in full size and not moved vertically (unlike `sups` and `subs` features) since the scaling and psitioning will be done by the math layout engine (the scaling percent is controlled by two font constants, discussed below).
+
+The lookup should be an alternate substitution lookup with two alternate glyphs for each base glyph, e.g.:
+```fea
+sub a from [a.ssty1 a.ssty2];
+sub b from [b.ssty1 b.ssty2];
+```
+
+If only one alternate is provided, a single substitution can be used, e.g.:
+```fea
+sub a by a.ssty1;
+sub b by b.ssty1;
+```
+
+Though some math layout engines might revert back to the base glyph for second level scripts when a single substitution is used, and because of that it is preferable to always use multiple alternates with two alternates even if there is actually one alternate glyph (i.e. by repeating the first glyph):
+```fea
+sub a from [a.ssty a.ssty];
+sub b from [b.ssty b.ssty];
+```
+
+#### Primes
+Prime characters are in itesting case for `ssty` feature. In most fonts the prime are designed as raised appostroph-like glyphs, but in TeX prime was designed as a full sized glyph that sets near baseline and the math input treats it as a superscript that then gets scaled and moved vertically like any other superscript. OpenType math inherits this, so if the font designed prime as usual in text fonts, the layout engine will further scale it down and raise it up, making it look smaller and higher than expected. There are two ways to fix this:
+1. Design the prime glyph like TeX fonts do, but then when prime is used outside math engine it will look wrong.
+2. Design the base prime glyph as normal, and provide and alternate glyph that is design like TeX fonts to be activated with the `ssty` feature. This way prime looks good when used in text and math.
+
+This ahould apply to all prime characters in Unicode, namely: U+2032, U+2033, U+2034, U+2035, U+2036, U+2037, and U+2057.
+
+### Flattened ascent forms (`flac`)
+Some times accents overl capitals are reduced in height to reduce the height of accented glyphs. In math the pre-composed accented glyphs are not used and accents are placed by the math layout engine (controlled by several constants discussed below). This feature allows providing an alternate set of accents to be used over capital glyphs (actually over any glyphs higher than a consttant define by the font). It should use a single substitution lookup:
+```fea
+sub actutecomb by actutecomb.flac;
+```
+
+### Dotless forms (`dtls`)
+Sometimes “i” and “j” glyphs loose their dot (title) when an accent is placed over them, e.g. $\hat{\imath}\ \hat{\jmath}$. This feature is used to substitutite them with dotless alternate glyphs. It should use a signle substutution lookup:
+```fea
+sub i by idotless;
+sub iitalic-math by iitalic-math.dotless;
+```
