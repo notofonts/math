@@ -97,3 +97,29 @@ Sometimes “i” and “j” glyphs loose their dot (title) when an accent is p
 sub i by idotless;
 sub iitalic-math by iitalic-math.dotless;
 ```
+
+## The `MATH` table
+OpenType math fonts has a dedicated table that contains math typesetting-related data. This table contains various font wide mayh typesetting parameters,, as well as glyph level math-related metrics and data. OpenType math layout engines consult this table when building-up math equations. Some aspects of this table might seem redundant, e.g. in provides it was of positioning accents over base glyphs, which is usually done using `GPOS` table for text fonts, but math accent positioning can involve more complex cases than what can be handled by GPOS table (like accents over multiple letters; $\widehat{abc}$) so `GPOS` table is not used in math layout and `MATH` table is used instead (some implmentations might apply `GPOS` kerning, but most don’t).
+
+Editing `MATH` table can be cumbersome since few tools support it. Currently the tools avaialble for editing `MATH` table are FontForge, [Glyphs MATH Plugin](https://github.com/Nagwa-Limited-Community/Glyphs-MATH-Plugin), and FontTools Python Library. There was also a tool from Microsoft, but it does not seem to be publicly available anymore.
+
+The general idea is the same, so the examples here will use Glyphs with the MATH plugin, but it should be applicable to any other tool with the neccassary modifications.
+
+Math table can roughly be devided into font-wide parameters (constants) and glyph-level data.
+
+### Constants
+Constants are font-wide data that control various aspects of math typesetting.
+
+### Glyph data
+
+#### Italic correction
+
+#### Accent positioning
+
+#### Math kerning
+
+#### Extended shapes
+
+#### Size variants
+
+##### Extensibles
