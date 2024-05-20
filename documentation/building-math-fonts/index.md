@@ -1,5 +1,5 @@
 # Building OpenType math fonts
-Math typesetting is different than regular text typesetting because math formulas are arranged in two dimentions, and there is an interaction between symbols of different styles and sizes. Because of that, math fonts have always been a special kind of fonts. One of, or propably the most, famous math typesetting engines is TeX, and its math fonts required a complex setup of various fonts (for upright, italic, regular, bold, sysmbols, etc) and special metrics, and font parameters. When OpenType started supporting math typesetting, it built on TeX experience, but upgraded to Unicode and OpenType (TeX predates both).
+Math typesetting is different than regular text typesetting because math formulas are arranged in two dimensions, and there is an interaction between symbols of different styles and sizes. Because of that, math fonts have always been a special kind of fonts. One of, or probably the most, famous math typesetting engines is TeX, and its math fonts required a complex setup of various fonts (for upright, italic, regular, bold, symbols, etc) and special metrics, and font parameters. When OpenType started supporting math typesetting, it built on TeX experience, but upgraded to Unicode and OpenType (TeX predates both).
 
 Instead of multiple fonts, all symbols are contained in a single font, and the various “font styles” use the dedicated Unicode math alphanumerics, and the additional glyphs (super/sub scripts, glyph in multiple sizes, and so one) are included in the same font as variants of the base glyphs. OpenType introduced a new `MATH` table that includes various special math parameters (constants) and metrics, as well as a few registered feature tags for math-specific glyphs substitutions (more about both below).
 
@@ -8,7 +8,7 @@ Math fonts require quite a few glyphs (ranges from about 1000 to 6000 glyphs), b
 
 ### Alphanumerics
 * Basic Latin (ASCII), [U+0000–007F](https://unicode.org/charts/PDF/U0000.pdf): This includes the upright regular basic Latin character as well as upright digits. It also includes some basic operators and punctuation used in math (e.g. plus and brackets).
-* Greek, [U+0370–03FF](https://unicode.org/charts/PDF/U0370.pdf): This includes upright regular Greek characters. The accented, archiac, and coptic-derived characters are not usually used in math, so can be skipped. The variant letter forms, like Greek Phi Symbol (U+03D5) are often used in math in should be included.
+* Greek, [U+0370–03FF](https://unicode.org/charts/PDF/U0370.pdf): This includes upright regular Greek characters. The accented, archaic, and coptic-derived characters are not usually used in math, so can be skipped. The variant letter forms, like Greek Phi Symbol (U+03D5) are often used in math in should be included.
 * Mathematical Alphanumeric Symbols, [U+1D400–1D7FF](https://unicode.org/charts/PDF/U1D400.pdf): This is a quite large block (around 1000 characters), as it includes the following styles:
   * Latin
     * upright bold
@@ -41,16 +41,16 @@ Math fonts require quite a few glyphs (ranges from about 1000 to 6000 glyphs), b
   Some of the styles in this block are missing a few characters, because they were already defined in Unicode in a different block.
 * Letterlike Symbols, [U+2100–214F](https://unicode.org/charts/PDF/U2100.pdf): This includes some symbols that can be used in math, and specially some alphanumeric symbols missing from the previous block (e.g. U+210E is used for Latin italic h, which is not included with the other Latin italic letters in the above block).
 * Arabic, [U+0600–06FF](https://unicode.org/charts/PDF/U0600.pdf): For Arabic math support, the Arabic-Indic and Extended Arabic-Indic digits need to be included as well as basic Arabic letters (in isolated form only).
-* Arabic Mathematical Alphabetic Symbols, [U+1EE00–1EEFF](https://unicode.org/charts/PDF/U1EE00.pdf): This includes Arabic math letters, in isolated, initial, extentnted, tailed, looped, and double-struck forms (the design of isolated forms for math symbos sometimes differs from the basic isolated forms, so both should be included in fonts intented to support Arabic math).
+* Arabic Mathematical Alphabetic Symbols, [U+1EE00–1EEFF](https://unicode.org/charts/PDF/U1EE00.pdf): This includes Arabic math letters, in isolated, initial, extended, tailed, looped, and double-struck forms (the design of isolated forms for math symbols sometimes differs from the basic isolated forms, so both should be included in fonts intended to support Arabic math).
 
 ### Symbols
-* Latin-1 Supplement, [U+0080–00FF](https://unicode.org/charts/PDF/U0080.pdf): Includes some operators like mulyiplication and division.
-* Mathematical Operators, [U+2200–22FF](https://unicode.org/charts/PDF/U2200.pdf): Includes a large set of most commonly used math opertors.
+* Latin-1 Supplement, [U+0080–00FF](https://unicode.org/charts/PDF/U0080.pdf): Includes some operators like multiplication and division.
+* Mathematical Operators, [U+2200–22FF](https://unicode.org/charts/PDF/U2200.pdf): Includes a large set of most commonly used math operators.
 * Supplemental Mathematical Operators, [U+2A00–2AFF](https://unicode.org/charts/PDF/U2A00.pdf): More commonly used operators.
 * Miscellaneous Mathematical Symbols-A, [U+27C0–27EF](https://unicode.org/charts/PDF/U27C0.pdf)
 * Miscellaneous Mathematical Symbols-B, [U+2980–29FF](https://unicode.org/charts/PDF/U2980.pdf)
 * Miscellaneous Technical, [U+2300–23FF](https://unicode.org/charts/PDF/U2300.pdf): Includes some common math symbols, plus a few legacy ones (like U+23B2 Summation Top).
-* General Punctuation, [U+2000–206F](https://unicode.org/charts/PDF/U2000.pdf): Invesible operators and some other symbols.
+* General Punctuation, [U+2000–206F](https://unicode.org/charts/PDF/U2000.pdf): Invisible operators and some other symbols.
 * Arrows, [U+2190–21FF](https://unicode.org/charts/PDF/U2190.pdf)
 * ...
 
@@ -58,7 +58,7 @@ Math fonts require quite a few glyphs (ranges from about 1000 to 6000 glyphs), b
 Math fonts use several OpenType features for proper math layout, although none of these features is strictly required, they are crucial for fine mathematical typography.
 
 ### Math script style alternates (`ssty`)
-Math aoften includes glyphs at smaller point sizes (like super scripts, sub scripts, fraction numerators and denomerators, and so one). For proper typography these glyphs need to be optically adjusted for the smaller point sizes. In OpenType math this is handled by including two sets of glyphs designed for the first and second level scripts (further levels use the glyphs of the second level) and mapping them using the `ssty` features as multiple alternates substitution. The glyphs should be designed in full size and not moved vertically (unlike `sups` and `subs` features) since the scaling and psitioning will be done by the math layout engine (the scaling percent is controlled by two font constants, discussed below).
+Math often includes glyphs at smaller point sizes (like super scripts, sub scripts, fraction numerators and denominators, and so one). For proper typography these glyphs need to be optically adjusted for the smaller point sizes. In OpenType math this is handled by including two sets of glyphs designed for the first and second level scripts (further levels use the glyphs of the second level) and mapping them using the `ssty` features as multiple alternates substitution. The glyphs should be designed in full size and not moved vertically (unlike `sups` and `subs` features) since the scaling and positioning will be done by the math layout engine (the scaling percent is controlled by two font constants, discussed below).
 
 The lookup should be an alternate substitution lookup with two alternate glyphs for each base glyph, e.g.:
 ```fea
@@ -79,45 +79,45 @@ sub b from [b.ssty b.ssty];
 ```
 
 #### Primes
-Prime characters are in itesting case for `ssty` feature. In most fonts the prime are designed as raised appostroph-like glyphs, but in TeX prime was designed as a full sized glyph that sets near baseline and the math input treats it as a superscript that then gets scaled and moved vertically like any other superscript. OpenType math inherits this, so if the font designed prime as usual in text fonts, the layout engine will further scale it down and raise it up, making it look smaller and higher than expected. There are two ways to fix this:
+Prime characters are an interesting case for `ssty` feature. In most fonts the prime are designed as raised apostrophe-like glyphs, but in TeX prime was designed as a full sized glyph that sets near baseline and the math input treats it as a superscript that then gets scaled and moved vertically like any other superscript. OpenType math inherits this, so if the font designed prime as usual in text fonts, the layout engine will further scale it down and raise it up, making it look smaller and higher than expected. There are two ways to fix this:
 1. Design the prime glyph like TeX fonts do, but then when prime is used outside math engine it will look wrong.
 2. Design the base prime glyph as normal, and provide and alternate glyph that is design like TeX fonts to be activated with the `ssty` feature. This way prime looks good when used in text and math.
 
-This ahould apply to all prime characters in Unicode, namely: U+2032, U+2033, U+2034, U+2035, U+2036, U+2037, and U+2057.
+This should apply to all prime characters in Unicode, namely: U+2032, U+2033, U+2034, U+2035, U+2036, U+2037, and U+2057.
 
 ### Flattened ascent forms (`flac`)
-Some times accents overl capitals are reduced in height to reduce the height of accented glyphs. In math the pre-composed accented glyphs are not used and accents are placed by the math layout engine (controlled by several constants discussed below). This feature allows providing an alternate set of accents to be used over capital glyphs (actually over any glyphs higher than a consttant define by the font). It should use a single substitution lookup:
+Some times accents over capitals are reduced in height to reduce the height of accented glyphs. In math the pre-composed accented glyphs are not used and accents are placed by the math layout engine (controlled by several constants discussed below). This feature allows providing an alternate set of accents to be used over capital glyphs (actually over any glyphs higher than a constant define by the font). It should use a single substitution lookup:
 ```fea
 sub actutecomb by actutecomb.flac;
 ```
 
 ### Dotless forms (`dtls`)
-Sometimes “i” and “j” glyphs loose their dot (title) when an accent is placed over them, e.g. $\hat{\imath}\ \hat{\jmath}$. This feature is used to substitutite them with dotless alternate glyphs. It should use a signle substutution lookup:
+Sometimes “i” and “j” glyphs loose their dot (title) when an accent is placed over them, e.g. $\hat{\imath}\ \hat{\jmath}$. This feature is used to substitute them with dotless alternate glyphs. It should use a single substitution lookup:
 ```fea
 sub i by idotless;
 sub iitalic-math by iitalic-math.dotless;
 ```
 
 ## The `MATH` table
-OpenType math fonts has a dedicated table that contains math typesetting-related data. This table contains various font wide mayh typesetting parameters,, as well as glyph level math-related metrics and data. OpenType math layout engines consult this table when building-up math equations. Some aspects of this table might seem redundant, e.g. in provides it was of positioning accents over base glyphs, which is usually done using `GPOS` table for text fonts, but math accent positioning can involve more complex cases than what can be handled by GPOS table (like accents over multiple letters; $\widehat{abc}$) so `GPOS` table is not used in math layout and `MATH` table is used instead (some implmentations might apply `GPOS` kerning, but most don’t).
+OpenType math fonts has a dedicated table that contains math typesetting-related data. This table contains various font wide math typesetting parameters,, as well as glyph level math-related metrics and data. OpenType math layout engines consult this table when building-up math equations. Some aspects of this table might seem redundant, e.g. in provides it was of positioning accents over base glyphs, which is usually done using `GPOS` table for text fonts, but math accent positioning can involve more complex cases than what can be handled by GPOS table (like accents over multiple letters; $\widehat{abc}$) so `GPOS` table is not used in math layout and `MATH` table is used instead (some implementations might apply `GPOS` kerning, but most don’t).
 
-Editing `MATH` table can be cumbersome since few tools support it. Currently the tools avaialble for editing `MATH` table are FontForge, [Glyphs MATH Plugin](https://github.com/Nagwa-Limited-Community/Glyphs-MATH-Plugin), and FontTools Python Library. There was also a tool from Microsoft, but it does not seem to be publicly available anymore.
+Editing `MATH` table can be cumbersome since few tools support it. Currently the tools available for editing `MATH` table are FontForge, [Glyphs MATH Plugin](https://github.com/Nagwa-Limited-Community/Glyphs-MATH-Plugin), and FontTools Python Library. There was also a tool from Microsoft, but it does not seem to be publicly available anymore.
 
-The general idea is the same, so the examples here will use Glyphs with the MATH plugin, but it should be applicable to any other tool with the neccassary modifications.
+The general idea is the same, so the examples here will use Glyphs with the MATH plugin, but it should be applicable to any other tool with the necessary modifications.
 
-Math table can roughly be devided into font-wide parameters (constants) and glyph-level data.
+Math table can roughly be divided into font-wide parameters (constants) and glyph-level data.
 
 ### Constants
 Constants are font-wide data that control various aspects of math typesetting.
 
-* `scriptPercentScaleDown`: This is the percent by which first level super/sub scripts will be scaled. The spec recommonds 80%, but this is too big when optically sized alternates of `ssty` feature are provided, a better value is propably between 60-70%. For comparison, TeX’s default setup uses 10pt font as a base font, and 7pt font for first level scripts, and 5pt for the second level (TeX’s default fonts are optically adjusted to the point size they are used for). This constant should be taken into account when designing the `ssty` variants, i.e. 70% means you are designing for 7pt optical size, and so on.
-* `scriptScriptPercentScaleDown`: This is the percent by which second level super/sub scripts will be scaled. The spec recommonds 60%, but same as the previous constant, be around 50%.
-* `delimitedSubFormulaMinHeight`: Nobody knows what this constant is for, except that Microsoft’s math layout engine [mistakengly uses it instead of the next constant](https://github.com/MicrosoftDocs/typography-issues/issues/1136), so in reality it needs to be set to whatever value `displayOperatorMinHeight` is set to.
-* `displayOperatorMinHeight`: Math layout engine use bigger glyph for _big_ operators (e.g. integral or summation) when math equations are in display mode (standalone between paragraphs, as opposed of being inline with the regular text). This means at least two glyphs are needed for each big operator, one for text math and the other for display math. It is possiple to have more than one glyph, and this constant tells the layout engine what is the minimum size (bounding box height) of the big operator in display style, to skip any glyph that is smaller than it. Even if the font has only two glyphs for each big operator, this constant should be set to a value larger than the size of the first glyph of **all** big operator. There is a catch, however, since Microsoft implmentation has a bug where it reads `delimitedSubFormulaMinHeight` instead of this constants, so the value that should be set for `displayOperatorMinHeight`, should also be used for `delimitedSubFormulaMinHeight` so that the font behaves correctly in various implmentations.
+* `scriptPercentScaleDown`: This is the percent by which first level super/sub scripts will be scaled. The spec recommends 80%, but this is too big when optically sized alternates of `ssty` feature are provided, a better value is probably between 60-70%. For comparison, TeX’s default setup uses 10pt font as a base font, and 7pt font for first level scripts, and 5pt for the second level (TeX’s default fonts are optically adjusted to the point size they are used for). This constant should be taken into account when designing the `ssty` variants, i.e. 70% means you are designing for 7pt optical size, and so on.
+* `scriptScriptPercentScaleDown`: This is the percent by which second level super/sub scripts will be scaled. The spec recommends 60%, but same as the previous constant, be around 50%.
+* `delimitedSubFormulaMinHeight`: Nobody knows what this constant is for, except that Microsoft’s math layout engine [mistakenly uses it instead of the next constant](https://github.com/MicrosoftDocs/typography-issues/issues/1136), so in reality it needs to be set to whatever value `displayOperatorMinHeight` is set to.
+* `displayOperatorMinHeight`: Math layout engine use bigger glyph for _big_ operators (e.g. integral or summation) when math equations are in display mode (standalone between paragraphs, as opposed of being inline with the regular text). This means at least two glyphs are needed for each big operator, one for text math and the other for display math. It is possible to have more than one glyph, and this constant tells the layout engine what is the minimum size (bounding box height) of the big operator in display style, to skip any glyph that is smaller than it. Even if the font has only two glyphs for each big operator, this constant should be set to a value larger than the size of the first glyph of **all** big operator. There is a catch, however, since Microsoft implementation has a bug where it reads `delimitedSubFormulaMinHeight` instead of this constants, so the value that should be set for `displayOperatorMinHeight`, should also be used for `delimitedSubFormulaMinHeight` so that the font behaves correctly in various implementations.
 * `mathLeading`: No one also knows what this constant is used for, or how to test it, so read the spec description and make up your mind.
 * `axisHeight`: This is a very important constant. In math layout, big operators, fractions, and many other constructs with large vertical size are vertically centered. They are centered around the value of this constant, so it should be the vertical center of the small operators (minus, plus, equal, less than, bigger than, etc). The simplest way to calculate its value is to use the vertical center of the minus glyph, and then make sure all small operators are centered around it (well, not all of them, most of them, some glyphs look better when they set on the base line, so use your judgment and check other math fonts).
-* `accentBaseHeight`: As discussed above, the math layout engine does not use `GPOS` table for positioning anchors. It instead uses data from the `MATH` table, and this constant is one of them. By default the accent will not be shifted vertically unless the height of the glyph exceeds this constat. This is meant so that accents over glyphs without ascenders are kept in their default position, so it should be set to x-height + overshot.
-* `flattenedAccentBaseHeight`: The `flac` feature will be applied to accents over glyphs hiegher than this constant, so it should be set to cap-height.
+* `accentBaseHeight`: As discussed above, the math layout engine does not use `GPOS` table for positioning anchors. It instead uses data from the `MATH` table, and this constant is one of them. By default the accent will not be shifted vertically unless the height of the glyph exceeds this constant. This is meant so that accents over glyphs without ascenders are kept in their default position, so it should be set to x-height + overshot.
+* `flattenedAccentBaseHeight`: The `flac` feature will be applied to accents over glyphs higher than this constant, so it should be set to cap-height.
 
 ### Glyph data
 
