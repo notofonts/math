@@ -110,14 +110,29 @@ Math table can roughly be divided into font-wide parameters (constants) and glyp
 ### Constants
 Constants are font-wide data that control various aspects of math typesetting.
 
-* `scriptPercentScaleDown`: This is the percent by which first level super/sub scripts will be scaled. The spec recommends 80%, but this is too big when optically sized alternates of `ssty` feature are provided, a better value is probably between 60-70%. For comparison, TeX’s default setup uses 10pt font as a base font, and 7pt font for first level scripts, and 5pt for the second level (TeX’s default fonts are optically adjusted to the point size they are used for). This constant should be taken into account when designing the `ssty` variants, i.e. 70% means you are designing for 7pt optical size, and so on.
-* `scriptScriptPercentScaleDown`: This is the percent by which second level super/sub scripts will be scaled. The spec recommends 60%, but same as the previous constant, be around 50%.
-* `delimitedSubFormulaMinHeight`: Nobody knows what this constant is for, except that Microsoft’s math layout engine [mistakenly uses it instead of the next constant](https://github.com/MicrosoftDocs/typography-issues/issues/1136), so in reality it needs to be set to whatever value `displayOperatorMinHeight` is set to.
-* `displayOperatorMinHeight`: Math layout engine use bigger glyph for _big_ operators (e.g. integral or summation) when math equations are in display mode (standalone between paragraphs, as opposed of being inline with the regular text). This means at least two glyphs are needed for each big operator, one for text math and the other for display math. It is possible to have more than one glyph, and this constant tells the layout engine what is the minimum size (bounding box height) of the big operator in display style, to skip any glyph that is smaller than it. Even if the font has only two glyphs for each big operator, this constant should be set to a value larger than the size of the first glyph of **all** big operator. There is a catch, however, since Microsoft implementation has a bug where it reads `delimitedSubFormulaMinHeight` instead of this constants, so the value that should be set for `displayOperatorMinHeight`, should also be used for `delimitedSubFormulaMinHeight` so that the font behaves correctly in various implementations.
-* `mathLeading`: No one also knows what this constant is used for, or how to test it, so read the spec description and make up your mind.
-* `axisHeight`: This is a very important constant. In math layout, big operators, fractions, and many other constructs with large vertical size are vertically centered. They are centered around the value of this constant, so it should be the vertical center of the small operators (minus, plus, equal, less than, bigger than, etc). The simplest way to calculate its value is to use the vertical center of the minus glyph, and then make sure all small operators are centered around it (well, not all of them, most of them, some glyphs look better when they set on the base line, so use your judgment and check other math fonts).
-* `accentBaseHeight`: As discussed above, the math layout engine does not use `GPOS` table for positioning anchors. It instead uses data from the `MATH` table, and this constant is one of them. By default the accent will not be shifted vertically unless the height of the glyph exceeds this constant. This is meant so that accents over glyphs without ascenders are kept in their default position, so it should be set to x-height + overshot.
-* `flattenedAccentBaseHeight`: The `flac` feature will be applied to accents over glyphs higher than this constant, so it should be set to cap-height.
+#### `scriptPercentScaleDown`
+This is the percent by which first level super/sub scripts will be scaled. The spec recommends 80%, but this is too big when optically sized alternates of `ssty` feature are provided, a better value is probably between 60-70%. For comparison, TeX’s default setup uses 10pt font as a base font, and 7pt font for first level scripts, and 5pt for the second level (TeX’s default fonts are optically adjusted to the point size they are used for). This constant should be taken into account when designing the `ssty` variants, i.e. 70% means you are designing for 7pt optical size, and so on.
+
+#### `scriptScriptPercentScaleDown`
+This is the percent by which second level super/sub scripts will be scaled. The spec recommends 60%, but same as the previous constant, be around 50%.
+
+#### `delimitedSubFormulaMinHeight`
+Nobody knows what this constant is for, except that Microsoft’s math layout engine [mistakenly uses it instead of the next constant](https://github.com/MicrosoftDocs/typography-issues/issues/1136), so in reality it needs to be set to whatever value `displayOperatorMinHeight` is set to.
+
+#### `displayOperatorMinHeight`
+Math layout engine use bigger glyph for _big_ operators (e.g. integral or summation) when math equations are in display mode (standalone between paragraphs, as opposed of being inline with the regular text). This means at least two glyphs are needed for each big operator, one for text math and the other for display math. It is possible to have more than one glyph, and this constant tells the layout engine what is the minimum size (bounding box height) of the big operator in display style, to skip any glyph that is smaller than it. Even if the font has only two glyphs for each big operator, this constant should be set to a value larger than the size of the first glyph of **all** big operator. There is a catch, however, since Microsoft implementation has a bug where it reads `delimitedSubFormulaMinHeight` instead of this constants, so the value that should be set for `displayOperatorMinHeight`, should also be used for `delimitedSubFormulaMinHeight` so that the font behaves correctly in various implementations.
+
+#### `mathLeading`
+No one also knows what this constant is used for, or how to test it, so read the spec description and make up your mind.
+
+#### `axisHeight`
+This is a very important constant. In math layout, big operators, fractions, and many other constructs with large vertical size are vertically centered. They are centered around the value of this constant, so it should be the vertical center of the small operators (minus, plus, equal, less than, bigger than, etc). The simplest way to calculate its value is to use the vertical center of the minus glyph, and then make sure all small operators are centered around it (well, not all of them, most of them, some glyphs look better when they set on the base line, so use your judgment and check other math fonts).
+
+#### `accentBaseHeight`
+As discussed above, the math layout engine does not use `GPOS` table for positioning anchors. It instead uses data from the `MATH` table, and this constant is one of them. By default the accent will not be shifted vertically unless the height of the glyph exceeds this constant. This is meant so that accents over glyphs without ascenders are kept in their default position, so it should be set to x-height + overshot.
+
+#### `flattenedAccentBaseHeight`
+The `flac` feature will be applied to accents over glyphs higher than this constant, so it should be set to cap-height.
 
 ### Glyph data
 
