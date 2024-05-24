@@ -110,11 +110,10 @@ Math table can roughly be divided into font-wide parameters (constants) and glyp
 ### Constants
 Constants are font-wide data that control various aspects of math typesetting.
 
-#### `scriptPercentScaleDown`
-This is the percent by which first level super/sub scripts will be scaled. The spec recommends 80%, but this is too big when optically sized alternates of `ssty` feature are provided, a better value is probably between 60-70%. For comparison, TeX’s default setup uses 10pt font as a base font, and 7pt font for first level scripts, and 5pt for the second level (TeX’s default fonts are optically adjusted to the point size they are used for). This constant should be taken into account when designing the `ssty` variants, i.e. 70% means you are designing for 7pt optical size, and so on.
+#### `scriptPercentScaleDown`, `scriptScriptPercentScaleDown`
+This is the percent by which first and second level super/sub scripts will be scaled. The spec recommends 80% for `scriptPercentScaleDown` and 60% for `scriptScriptPercentScaleDown`, but this is too big when optically sized alternates are provided (the `ssty` feature), a better value is probably between 60-70% for the `scriptPercentScaleDown` and around 50% for `scriptScriptPercentScaleDown`.
 
-#### `scriptScriptPercentScaleDown`
-This is the percent by which second level super/sub scripts will be scaled. The spec recommends 60%, but same as the previous constant, be around 50%.
+For comparison, TeX’s default setup uses 10pt for base font size, and 7pt for first level scripts, and 5pt for the second level (TeX’s default fonts are optically adjusted to the point size they are used for). This constant should be taken into account when designing the `ssty` variants, i.e. 70% means you are designing for 7pt optical size, and so on.
 
 #### `delimitedSubFormulaMinHeight`
 Nobody knows what this constant is for, except that Microsoft’s math layout engine [mistakenly uses it instead of the next constant](https://github.com/MicrosoftDocs/typography-issues/issues/1136), so in reality it needs to be set to whatever value `displayOperatorMinHeight` is set to.
