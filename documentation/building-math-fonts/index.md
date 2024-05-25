@@ -152,6 +152,15 @@ Similarly, positioning superscripts uses a bunch of constants:
 * If the superscript is not a single character, however, the above two constants are not used and the superscipt baseline is instead shifted above the top of the base by `superscriptBaselineDropMax`. Test equation $a^{abc}$.
 * Then if the distance between the baseline of base and the bottom of the superscripts is less than `superscriptBottomMin`, the superscript gets shifted up so that the distance equals it. This way the superscript cant’t get too low to be confusing. The suggested value for this constant is 1⁄4 x-height. Test equation $a^{a\frac{b}{\sqrt{c}})}$.
 
+#### `subSuperscriptGapMin`
+The minimum gap between the bottom of the superscript bounding box and the top of the subscript bounding box, when they are both present on the same base. This to ensure they don’t touch and there is enough space between them. The suggested value for this constant is times the default rule thickness (as in the fraction or radical rule, we will get to that later). Test equation $a^g_L a^g a_L$ (compare the position of the superscript and the subscript when alone and when together).
+
+#### `superscriptBottomMaxWithSubscript`
+When both superscript and subscript are applied to the same base, this constant defines how much the superscript can be pushed up before the subscript gets to be pushed down, to maintain `subSuperscriptGapMin` distance between them. This is the max point the bottom of the superscript bounding box can reach. The suggested value for this constant is 4⁄5 x-height. Test equation $a^a a^a_a a^g_a a^g$.
+
+#### `spaceAfterScript`
+Extra space that is added after super/subscripts (whichever goes most to the outside) to improve the spacing of math equations. Suggested value is 1⁄24 of em. Test equation $\{a^2\}$.
+
 ### Glyph data
 
 #### Italic correction
