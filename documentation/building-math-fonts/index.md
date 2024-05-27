@@ -1,5 +1,5 @@
 # Building OpenType math fonts
-Math typesetting is different to regular text typesetting, for two main reasons: first, because math formulas are arranged in two dimensions, and second, because there is an interaction between symbols of different styles and sizes. Because of this, math fonts have always been a special kind of fonts. One of the most famous, if not the most famous, math typesetting engines is TeX, and its mathematical typesetting requires a complex setup involving a variety of fonts (for upright, italic, regular, bold, symbols, etc),  special metrics, and font parameters. TeX predates both TrueType and OpenType. When OpenType started supporting math typesetting, it built on the experience gained on Tex, but upgraded to support the newer technologies of Unicode and OpenType.
+Math typesetting is different to regular text typesetting, for two main reasons: first, because math formulas are arranged in two dimensions, and second, because there is an interaction between symbols of different styles and sizes. Because of this, math fonts have always been a special kind of fonts. One of the most famous, if not the most famous, math typesetting engines is TeX, and its mathematical typesetting requires a complex setup involving a variety of fonts (for upright, italic, regular, bold, symbols, etc),  special metrics, and font parameters. TeX predates both TrueType and OpenType. When OpenType started supporting math typesetting, it built on the experience gained on TeX, but upgraded to support the newer technologies of Unicode and OpenType.
 
 In OpenType math typesetting, instead of multiple fonts, all symbols are contained in a single font; the various “font styles” use dedicated Unicode math alphanumerics codepoints; and all the additional glyphs required (for example, superscripts and subscripts and variant sized versions of glyphs) are included in the same font. OpenType also introduced a new `MATH` table that stores various special parameters for typesetting math (*math constants*) and math-specific metrics, as well as a few registered feature tags to enable math-specific glyph substitutions. We will discuss more about both of these aspects below.
 
@@ -82,7 +82,7 @@ sub b from [b.ssty b.ssty];
 ```
 
 #### Primes
-Prime characters are an interesting case for `ssty` feature. In most fonts, the primes are designed as raised apostrophe-like glyphs, but in TeX prime was designed as a full sized glyph that sets near the baseline. The math input treats it as a superscript that then gets scaled and moved vertically like any other superscript. OpenType math inherits this, so if the font includes a prime glyph which is designed in the usual way to suit text fonts (smaller and above the basesline), the layout engine will further scale it down and raise it up, making it look smaller and higher than expected. There are two ways to fix this:
+Prime characters are an interesting case for `ssty` feature. In most fonts, the primes are designed as raised apostrophe-like glyphs, but in TeX prime was designed as a full sized glyph that sets near the baseline. The math input treats it as a superscript that then gets scaled and moved vertically like any other superscript. OpenType math inherits this, so if the font includes a prime glyph which is designed in the usual way to suit text fonts (smaller and above the baseline), the layout engine will further scale it down and raise it up, making it look smaller and higher than expected. There are two ways to fix this:
 1. Design the prime glyph full-size and aligned with the baseline, as TeX fonts do; in this case, when prime is used outside the math engine, it will look wrong.
 2. Design the base prime glyph as normal, and provide an alternate glyph that is designed like TeX fonts to be activated with the `ssty` feature. This way prime looks correct when used in both text and math modes.
 
@@ -105,7 +105,7 @@ sub iitalic-math by iitalic-math.dotless;
 ## The `MATH` table
 OpenType math fonts have a dedicated table that contains data related to math typesetting. This include various font wide math typesetting parameters, as well as glyph-level math-related metrics and data. OpenType math layout engines consult this table when building up math equations.
 
-Some aspects of this table might seem redundant. For example, it provides ways of positioning accents over base glyphs. In text fonts, this is usually done with OpenType Layout rules in the `GPOS` table. However, math accent positioning can involve more complex cases than can be handled by GPOS table, such as accents over multiple letters: $\widehat{abc}$. Because of this *the `GPOS` table is not used in math layout and `MATH` table is used instead*. Some math engine implementations *might* apply `GPOS` kerning, but most engines do not. `GPOS` layout should not be relied upon in a mathematical environment.
+Some aspects of this table might seem redundant. For example, it provides ways of positioning accents over base glyphs. In text fonts, this is usually done with OpenType Layout rules in the `GPOS` table. However, math accent positioning can involve more complex cases than can be handled by `GPOS` table, such as accents over multiple letters: $\widehat{abc}$. Because of this *the `GPOS` table is not used in math layout and `MATH` table is used instead*. Some math engine implementations *might* apply `GPOS` kerning, but most engines do not. `GPOS` layout should not be relied upon in a mathematical environment.
 
 Editing the `MATH` table can be cumbersome since few tools support it. Currently the tools available for editing the `MATH` table are FontForge, the [Glyphs MATH Plugin](https://github.com/Nagwa-Limited-Community/Glyphs-MATH-Plugin), and custom scripts using the FontTools Python Library. (There was also a tool from Microsoft, but it does not seem to be publicly available anymore.)
 
@@ -147,7 +147,7 @@ As discussed above, the math layout engine does not use the `GPOS` table for pos
 The `flac` feature will be applied to accents over glyphs higher than this constant. It should be set to cap-height.
 
 #### `subscriptShiftDown`, `subscriptTopMax`, `subscriptBaselineDropMin`
-Positioning sub/superscripts in math is a bit involved, as there can be complex structures there, not only numbers or letters.
+Positioning superscripts in math is a bit involved, as there can be complex structures there, not only numbers or letters.
 
 * First, for a *single character*, the baseline of the subscript is shifted by `subscriptShiftDown` value (usually a negative value, since we want to shift down). If your font has the `subs` feature, this would be how much the subscript glyphs go down below the baseline; alternatively, if your font has a carefully set `OS/2.ySubscriptYOffset`, it would be the same value. (Note that while most font editors autogenerate `OS/2.ySubscriptYOffset` when not explicitly set, the autogenerated value may or may not be sensible, so test it and use your judgment!) Test equation: $a_a$.
 * However, if the subscript is *not* a single character, the above constant is not used. Instead, the subscript baseline is shifted below the bottom of the base by `subscriptBaselineDropMin`. Test equation: $a_{abc}$.
@@ -168,7 +168,7 @@ This constant specifies the minimum gap between the bottom of the superscript bo
 When both superscript and subscript are applied to the same base, this constant defines how much the superscript can be pushed up before the subscript gets to be pushed down, to maintain `subSuperscriptGapMin` distance between them. This is the max point that the bottom of the superscript bounding box can reach. The suggested value for this constant is 4⁄5 of the x-height. Test equation: $a^a \\ a^a_a \\ a^g_L \\ a^g \\ a_L$.
 
 #### `spaceAfterScript`
-This specifies extra horizontal space that is added after super/subscripts (whichever goes most to the outside) to improve the spacing of math equations. The suggested value is 1⁄24 of em. Test equation: $\\{a^2\\}$.
+This specifies extra horizontal space that is added after super/subscripts (whichever goes most to the outside) to improve the spacing of math equations. Superscripts and subscripts typically have smaller side bearings because they are scaled down, so this extra space makes up for it. The suggested value is 1⁄24 of em. Test equation: $\\{a^2\\}$.
 
 ### Glyph data
 
