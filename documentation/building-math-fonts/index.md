@@ -162,13 +162,27 @@ Similarly, positioning superscripts uses a bunch of constants:
 * Then if the distance between the baseline of base and the bottom of the superscripts is less than `superscriptBottomMin`, the superscript gets shifted up so that the distance equals it. This way, the superscript can’t get so low to be confusing. The suggested value for this constant is 1⁄4 of the x-height. Test equation: $a^{a\frac{b}{\sqrt{c}})}$.
 
 #### `subSuperscriptGapMin`
-This constant specifies the minimum gap between the bottom of the superscript bounding box and the top of the subscript bounding box when superscript and subscript are both present on the same base. This to ensure the subscripts and superscripts don’t touch and that there is enough space between them. The suggested value for this constant is ??? times the default rule thickness (as in the fraction or radical rule, which we will get to later). Test equation: $a^g_L \\ a^g \\ a_L$ (compare the position of the superscript and the subscript when alone and when together).
+This constant specifies the minimum gap between the bottom of the superscript bounding box and the top of the subscript bounding box when superscript and subscript are both present on the same base. This to ensure the subscripts and superscripts don’t touch and that there is enough space between them. The suggested value for this constant is 4 times the default rule thickness (as in the fraction or radical rule, which we will get to later). Test equation: $a^g_L \\ a^g \\ a_L$ (compare the position of the superscript and the subscript when alone and when together).
 
 #### `superscriptBottomMaxWithSubscript`
 When both superscript and subscript are applied to the same base, this constant defines how much the superscript can be pushed up before the subscript gets to be pushed down, to maintain `subSuperscriptGapMin` distance between them. This is the max point that the bottom of the superscript bounding box can reach. The suggested value for this constant is 4⁄5 of the x-height. Test equation: $a^a \\ a^a_a \\ a^g_L \\ a^g \\ a_L$.
 
 #### `spaceAfterScript`
 This specifies extra horizontal space that is added after super/subscripts (whichever goes most to the outside) to improve the spacing of math equations. Superscripts and subscripts typically have smaller side bearings because they are scaled down, so this extra space makes up for it. The suggested value is 1⁄24 of em. Test equation: $\\{a^2\\}$.
+
+#### `upperLimitGapMin`, `upperLimitBaselineRiseMin`
+In math, display operators typically have limits above and below them in display mode (while in inline mode they usually take the superscript and subscript positions to reduce vertical space). These two constants control the gap between upper limits and the base.
+
+`upperLimitGapMin` is the minimum gap between the top of a base and the bottom of the upper limit. While `upperLimitBaselineRiseMin` is the minimum distance between the top of the base and the upper limit’s baseline. The math layout engine will raise the upper limit baseline by `upperLimitBaselineRiseMin` and if the gap between the top of the base and the bottom of the upper limit is less than `upperLimitGapMin`, it will raise it further until the gap is equal to it.
+
+One way to set those two constants, is to first find a gap that look good, say, 2 times the default rule thickness, and set `upperLimitGapMin` to that. Then find the deepest lowercase descender and set `upperLimitBaselineRiseMin` to the descender + `upperLimitGapMin`. This should make the baseline of the upper limit roughly at the same position when the upper limit has glyphs with and without descenders, which looks good when such limits occur close to each other. Test equation:
+
+$$\sum^n_{i+1} i \quad \sum^{n+q}_{j+1} j$$
+
+#### `lowerLimitGapMin`, `lowerLimitBaselineDropMin`
+The same as above but for lower limits. `lowerLimitGapMin` should be the same as `upperLimitGapMin`. Similarly to above, `lowerLimitBaselineDropMin` can be set to `upperLimitGapMin` + cap height or lower case ascender (whichever is bigger). Test equation:
+
+$$\sum^n_{i+1} i \quad \sum^n_{A+j} A$$
 
 ### Glyph data
 
