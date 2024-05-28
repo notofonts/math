@@ -3,6 +3,16 @@ Math typesetting is different to regular text typesetting, for two main reasons:
 
 In OpenType math typesetting, instead of multiple fonts, all symbols are contained in a single font; the various “font styles” use dedicated Unicode math alphanumerics codepoints; and all the additional glyphs required (for example, superscripts and subscripts and variant sized versions of glyphs) are included in the same font. OpenType also introduced a new `MATH` table that stores various special parameters for typesetting math (*math constants*) and math-specific metrics, as well as a few registered feature tags to enable math-specific glyph substitutions. We will discuss more about both of these aspects below.
 
+## Understanding math layout
+Probably the the most detailed resource about math layout is Knuth’s The TeXbook, and particularly its “Appendix G: Generating Boxes from Formulas”. Appendix G is a heavy text that can be hard to follow at times without visual aide, so Bogusław Jackowski wrote [Appendix G Illuminated](https://tug.org/TUGboat/tb27-1/tb86jackowski.pdf) which provides a collection of illustrations to accompany Appendix G.
+
+Appendix G documents algorithms using TeX fonts and metrics, which is very close to OpenType `MATH` table, but does not always map to it one-to-one, so Ulrik Vieth wrote [OpenType Math Illuminated](https://www.tug.org/~vieth/papers/bachotex2009/ot-math-paper.pdf), which illustrates the similarities and differences
+between TeX math fonts and OpenType math fonts.
+
+The OpenType spec documents [`MATH` table](https://learn.microsoft.com/en-us/typography/opentype/spec/math), but the documentation mostly focusses on the data structure, but light on the details of algorithms involved in math layout and assumes prior familiarity with TeX math layout model, but it sometimes goes into details when discussing novel concepts that do not exist in TeX.
+
+There is also [MathML Core](https://www.w3.org/TR/mathml-core/) specification, which discusses math layout using MathML and OpenType math fonts, but it is still a working draft (at the time of writing this) and it documents only a subset of math layout, and uses a language that is probably more penetrable to people familiar with W3C specifications.
+
 ## Character set
 Math fonts require a large number of glyphs; the number can range from about 1000 to 6000 glyphs, depending on what character set is supported by the font. There is no single, well-defined character set for math fonts. Unicode includes thousands of math related characters, so each project defines its own character set based on its own requirements.
 
@@ -183,6 +193,33 @@ $$\sum^n_{i+1} i \quad \sum^{n+q}_{j+1} j$$
 The same as above but for lower limits. `lowerLimitGapMin` should be the same as `upperLimitGapMin`. Similarly to above, `lowerLimitBaselineDropMin` can be set to `upperLimitGapMin` + cap height or lower case ascender (whichever is bigger). Test equation:
 
 $$\sum^n_{i+1} i \quad \sum^n_{A+j} A$$
+
+#### `fractionRuleThickness`
+The thickness of the fraction rule (bar). Should be the same thickness as the `minus` glyph.
+
+#### `fractionNumeratorShiftUp`, `fractionNumeratorDisplayStyleShiftUp`, `fractionNumeratorGapMin`, `fractionNumDisplayStyleGapMin`
+These constants control how much numerators in fractions get shifted up. Each constant has two versions, one for inline math and the other is for display math. Typically inline math uses smaller values to avoid increasing the vertical size of the equations too much, which in turn can force increase in line height for the lines containing the equation and results in uneven line spacing.
+
+* First, the numerator baseline is shifted above the current baseline by `fractionNumeratorShiftUp`.
+* Then, the fraction rule will be drawn around `axisHeight` (with half its thickness above it, and the other half below it).
+* Then, if the gap between the bottom the numerator and the top of the top of the fraction rule is less than `fractionNumeratorGapMin`, the numerator is further shifted up until the gap is equal to it.
+
+The spec suggests setting `fractionNumeratorShiftUp` to the default rule thickness, and `fractionNumDisplayStyleGapMin` to 3 times it. For the shift up, and like we did with limits, we want the baseline of numerators with and without descenders to be the same, so one way to set `fractionNumeratorShiftUp` and `fractionNumeratorDisplayStyleShiftUp` it to set it to the respective gap + `axisHeight` + `fractionRuleThickness`/2 + lowercase descender. Test equation:
+
+$$a\frac{a}{b} \frac{af}{b} \frac{af_{2_2}}{b}$$
+
+#### `fractionDenominatorShiftDown`, `fractionDenominatorDisplayStyleShiftDown`, `fractionDenominatorGapMin`, `fractionDenomDisplayStyleGapMin`
+These constants control how much denominators in fractions get shifted down.
+
+* First, the denominator baseline is shifted below the current baseline by `fractionDenominatorShiftDown`.
+* Then if the gap between the top of the denominator and the bottom of the fraction rule is less than `fractionDenominatorGapMin`, the denominator is further shifted down until the gap is equal to it.
+
+The denominator gap should be set to the same value as the numerator gap. For the shift down, , and like we did with limits, we want the baseline of denominators with and without ascenders to be the same, one way to set `fractionDenominatorShiftDown` and `fractionDenominatorDisplayStyleShiftDown` is to set it to the respective gap + `axisHeight` + `fractionRuleThickness`/2 + cap height or lower case ascender (whichever is bigger).
+
+#### `stackTopShiftUp`, `stackTopDisplayStyleShiftUp`, `stackBottomShiftDown`, `stackBottomDisplayStyleShiftDown`, `stackGapMin`, `stackDisplayStyleGapMin`
+Stacks are like fractions but without the fraction rule. The shift up and down should be set to the respective fraction shift up and down. The gap, however, is slightly different. There are no separate top and bottom gaps, but a single gap between the bottom of the top stack and the top of the bottom stacks. We might want the stacks to have roughly the same baseline as fraction numerators and denominators, so one way to achieve this is to set the stack gap to the numerator gap + denominator gap + `fractionRuleThickness`. Test equation:
+
+$$a\genfrac{}{}{0pt}{0}{a}{b} \genfrac{}{}{0pt}{0}{af}{b} \genfrac{}{}{0pt}{0}{af_{2_2}}{b}$$
 
 ### Glyph data
 
