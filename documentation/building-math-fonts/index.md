@@ -70,7 +70,7 @@ Here are some of the Unicode blocks related to mathematics:
 Math fonts use several OpenType features for proper math layout. Although none of these features are strictly required for a working math font, they are crucial if one is aiming to support fine mathematical typography.
 
 ### Math script style alternates (`ssty`)
-Math often includes glyphs at smaller point sizes, used for situations such as superscripts, subscripts, fraction numerators, and denominators. For proper typography, these glyphs need to be optically adjusted to fit the smaller point sizes. In OpenType math, this is handled by including two additional sets of glyphs, designed for the first- and second-level script forms (e.g. subscript and subsubscript). Third or higher levels of alternates will use the second-level set. The glyphs should be designed in full size and not moved vertically (unlike `sups` and `subs` features) since the scaling and positioning will be done by the math layout engine (the scaling percent is controlled by two font constants, discussed below). 
+Math often includes glyphs at smaller point sizes, used for situations such as superscripts, subscripts, fraction numerators, and denominators. For proper typography, these glyphs need to be optically adjusted to fit the smaller point sizes. In OpenType math, this is handled by including two additional sets of glyphs, designed for the first- and second-level script forms (e.g. subscript and subsubscript). Third or higher levels of alternates will use the second-level set. The glyphs should be designed in full size and not moved vertically (unlike `sups` and `subs` features) since the scaling and positioning will be done by the math layout engine (the scaling percent is controlled by two font constants, discussed below).
 
 These alternate glyphs are applied using the `ssty` feature, using a multiple alternate substitution lookup, e.g.:
 ```fea
@@ -124,7 +124,20 @@ The general idea is the same, so the examples here will use Glyphs with the MATH
 Math table can roughly be divided into font-wide parameters (constants) and glyph-level data.
 
 ### Constants
-Constants are font-wide data that control various aspects of math typesetting:
+Constants are font-wide data that control various aspects of math typesetting.
+
+For many of these constants, a value relative to something called _default rule thickness_ is suggested. This is a vestige from TeX where these constants didn’t have dedicated font parameters and TeX used hard-coded values relative to a font parameter called _default rule thickness_ that was used for fraction bar, overline, radical bar, and so on. `MATH` table does not, however, have a single rule thickness as each of these uses has its own dedicated constant, though these constants are often set to the same value. So when you see _default rule thickness_ mentioned, it should be the value of one of the rule thickness constants like `fractionRuleThickness`, `overbarRuleThickness`, or `radicalRuleThickness`.
+
+When using Glyphs with MATH Plugin, constants can be edited from _Edit → Edit MATH Constants_:
+
+![Glyphs MATH constants window](./glyphs-constants.png)
+
+Next to each constant there is a _guess_ button, which tries to apply some of the suggestions below. Since many suggest constant values depend on rule thickness, these constants should be guessed/set first.
+
+In FontForge they can be edited from _Element → Other Info → MATH Info_:
+
+![FontForge MATH table window](./fontforge-constants.png)
+
 
 #### `scriptPercentScaleDown`, `scriptScriptPercentScaleDown`
 This is the percent by which first- and second-level superscripts and subscripts will be scaled. The spec recommends 80% for `scriptPercentScaleDown` and 60% for `scriptScriptPercentScaleDown`. However, this is too big when optically sized alternates are provided (the `ssty` feature); a better value is probably between 60-70% for `scriptPercentScaleDown` and around 50% for `scriptScriptPercentScaleDown`.
@@ -220,6 +233,55 @@ The denominator gap should be set to the same value as the numerator gap. For th
 Stacks are like fractions but without the fraction rule. The shift up and down should be set to the respective fraction shift up and down. The gap, however, is slightly different. There are no separate top and bottom gaps, but a single gap between the bottom of the top stack and the top of the bottom stacks. We might want the stacks to have roughly the same baseline as fraction numerators and denominators, so one way to achieve this is to set the stack gap to the numerator gap + denominator gap + `fractionRuleThickness`. Test equation:
 
 $$a\genfrac{}{}{0pt}{0}{a}{b} \genfrac{}{}{0pt}{0}{af}{b} \genfrac{}{}{0pt}{0}{af_{2_2}}{b}$$
+
+#### `stretchStackTopShiftUp`, `stretchStackGapAboveMin`, `stretchStackBottomShiftDown`, `stretchStackGapBelowMin`
+Stretch stacks are when things are put above or below horizontally stretchable symbols, for example above arrows:
+
+$$a\xrightarrow{a+b=c} b\xrightarrow[a+b=c]{} c\xrightarrow[a+b=c]{a+b=c}$$
+
+Same strategy used for setting shifts and gaps above can be used here.
+
+#### `skewedFractionHorizontalGap`, `skewedFractionVerticalGap`
+Skewed fractions are fractions that use slash instead of horizontal bar.
+
+* First, denominator is placed right after the numerator and shifted down by the numerators bounding box height (so that the bottom right of the numerator as at the top left of the denominator).
+* Then the denominator is shifted horizontally by `skewedFractionHorizontalGap` and vertically by `skewedFractionVerticalGap`
+* The width of the slash glyph is ignored (as if it set to zero and centered horizontally).
+
+If your font has pre-built fraction glyphs like `onehalf`, then these values can be taken by measuring the distance between the numerators and denominators in these glyphs.
+
+#### `overbarVerticalGap`, `overbarRuleThickness`, `overbarExtraAscender`
+The gap above averline, which in math is drawn instead of using a pre-built glyph (since it needs to be able to extend to cover any sub equation). The suggested value is 3 times the default rule thickness, but it might be a good idea to make the the overline and macron/overline accents in math have roughly the same position. The `overbarRuleThickness` should be the same as `overlinecomb` (U+0305) or `macroncomb` (U+0304) glyphs. `overbarExtraAscender` is extra space reserved over the overline (so that it does not touch the lines above it), and the suggested value for it is the default rule thickness.
+
+ Test equation:
+
+$$\overline{a+b=c} \quad \bar{b} \quad \overbar{b}$$
+
+#### `underbarVerticalGap`, `underbarRuleThickness`, `underbarExtraDescender`
+Similar to above, but for underlines. Test equation:
+
+$$\underline{a+q=c} \quad \underbar{q}$$
+
+#### `radicalVerticalGap`, `radicalDisplayStyleVerticalGap`
+The space between the top of the content of a radical and the bar above it. The suggested value for `radicalVerticalGap` is 1 1⁄4 times the default rule thickness, and the suggested value for `radicalDisplayStyleVerticalGap` is default rule thickness + 1⁄4 x-height. Test equation:
+
+$$\sqrt{A^{2^{2^{2}}}}$$
+
+#### `radicalRuleThickness`
+The thickness of the radical rule and should harmonize with its stroke thickness.
+
+#### `radicalExtraAscender`
+Extra space above the radical, should be the same as `overbarExtraAscender`.
+
+#### `radicalDegreeBottomRaisePercent`, `radicalKernBeforeDegree`, `radicalKernAfterDegree`
+These 3 constants control the position of the radical degree symbol (the 2 in $\sqrt[2]{x}$).
+
+* First, the degree is shifted vertically by `radicalDegreeBottomRaisePercent`, which is a percent of the bounding box height of the radical glyph. Since there can be multiple radical glyphs of different sizes, the value should be selected so that it give a good position of all of them. It should be slightly higher than the percent of the short arm of the radical glyph to the long arm.
+* Then, the degree shifted horizontally by `radicalKernAfterDegree`, which should be a negative value to bring the degree above the short arm of the radical glyph and closer to the long arm. Again, the various sizes of the radical glyph should be taken into account when choosing this value.
+* Finally, `radicalKernBeforeDegree` is inserted before the degree glyph. This ensures that there is enough space before the degree even when it is more than one letter/symbol.
+
+Test equation:
+$$\\{\sqrt[2]{x}\\} \quad \\{\sqrt[abc]{x}\\} \quad \sqrt[2]{\frac{A^{2^{2^{2}}}}{A}}$$
 
 ### Glyph data
 
