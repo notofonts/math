@@ -433,5 +433,29 @@ $$X = \left\\{x\in\mathbb{R} \middle| \int_0^xf(z)dx<0\right\\}$$
 So it is preferable to have the same number of variants and the same sizes for all delimiters.
 
 ## Building
+When using Glyphs with the MATH plugin, you can export the font directly from Glyphs and the plugin will take care of exporting `MATH` table. The Glyphs sources can also be built with `fontmake`, which supports reading the `MATH` table data stored by the plugin and will use it to build the `MATH` table (the actual support is provided by both `glyphsLib` and `ufo2ft` libraries.
+
+If you prefer working with UFO source files, `ufo2ft` can read data from private font lib keys, as well as special anchor names to build the `MATH` table. Refer to its [documentation](https://github.com/googlefonts/ufo2ft/blob/df592b17ea314e39e4434729352e4b5c8064c8da/Lib/ufo2ft/outlineCompiler.py#L1082) for details.
+
+When using FontForge, you will have to generate the font with FontForge itself, either from the GUI or using its Python module.
+
+It is possible also to build `MATH` table using FontTools Python library, and it has a higher level `fontTools.otlLib.builder.buildMathTable` function for creating `MATH` table. Check its [documentation](https://fonttools.readthedocs.io/en/latest/otlLib/index.html#math-table-builder) for details.
 
 ## Testing
+There are several implementations for OpenType math layout that might be worth testing to ensure wider usability of the font:
+
+* Unicode- and OpenType-aware TeX engines. Two engines in particular XeTeX and LuaTeX. Both require some familiarity with TeX input languages, but the same input can be used to test both. Using OpenType math fonts with either of the two engines requires [`unicode-math`](https://github.com/latex3/unicode-math/) package and it does a great job papering over the input differences between the two, but the output can show differences so testing both might be necessary. Since TeX input is plain text, it is possible to write scripts to generate large number of test equations (for example testing the superscript and subscript positions for all alphabetic symbols), which can be a great aide in testing.
+* Microsoft implementation. The easiest way to test it is by using Microsoft Word’s equation editor. This requires using the desktop version on either Windows or macOS. The equation editor supports both visual input  of equations as well as a plain text input language. The visual editing does not require much prior familiarly.
+* Web browsers. Firefox, Chrome and WebKit/Safari all support MathML and using OpenType math fonts, though the level of support varies greatly between the three and all of them lag behind TeX and Microsoft implementations (with Firefox implementation being the most mature as it is much older than the other two, but it also predates OpenType math, so sometimes it does not fully utilize it). MathML is a bit verbose to edit by had, though there exists many tools to convert TeX syntax to MathML, so it should be possible to script it as well and generate large numbers of test equations.
+
+In the earlier sections test equations were often provided for illustration. These can be used as bases for creating test equations. For TeX, there exists many publicly available documents that can be used for testing. It is also possible to create large number of test equations using scripts. Some examples:
+
+* Test all possible superscript and subscript positions, e.g. loop over all alphabetic symbols and create equations with superscript only: $a^1$, subscript only: $a_1$, both: $a^1_1$, superscript with descender: $a^q$, subscript with ascender: $a_f$, both at the same time: $a^q_f$, and so on.
+* Test italic correction and whether it is needed or not by outputting all glyphs surrounded by, say, vertical pars: $|a|\,|b|\,|c|\,\cdots$, this also tests side bearings.
+* Repeat the above with other delimiters like parentheses, brackets, and so on.
+* Test op accent positioning by outputting all alphabetic glyphs with an accent over each: $\hat{a}\,\hat{b}\,\hat{c}\,\cdots$.
+* Delimiters in different sizes: $$\bigl(\Bigl(\biggl(\Biggl(\Biggr)\biggr)\Bigr)\bigr)$$
+* Radicals in different sizes with different degrees: $$\sqrt[2]{x}\quad\sqrt[abcd]{x}\quad\sqrt[\beta]{x} \quad\sqrt[2]{\frac{a^2}{a_3}}$$
+* Integrals: $$\int^a_b\quad\iint^a_b\quad\iiint^a_b\quad\oint^a_b$$
+* and so on...
+ 
