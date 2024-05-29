@@ -380,9 +380,9 @@ In Glyphs, variants can be set from _Glyph → Edit MATH Variants_. There are di
 
 When _View → Show MATH Variants_ is checked, the variants defined for the current glyph will be drawn on the canvas (with vertical variants in green and horizontal ones in blue):
 
-![Vertical variants drawn](./glyphs-variants-2.png)
+![Vertical variants drawn](./glyphs-variants-hori.png)
 
-![Horizontal variants drawn](./glyphs-variants-3.png)
+![Horizontal variants drawn](./glyphs-variants-vert.png)
 
 In FontForge, variants can be set from _Element → Glyph Info → TeX & Math_:
 
@@ -399,9 +399,9 @@ In Glyphs, assemblies can be set from _Glyph → Edit MATH Variants_. There is a
 
 When _View → Show MATH Assembly_ is checked, the assemblies defined for the current glyph will be drawn on the canvas (with vertical variants in green and horizontal ones in blue):
 
-![Vertical assemblies drawn](./glyphs-assemblies-1.png)
+![Vertical assemblies drawn](./glyphs-assemblies-vert.png)
 
-![Horizontal assemblies drawn](./glyphs-assemblies-2.png)
+![Horizontal assemblies drawn](./glyphs-assemblies-hori.png)
 
 In FontForge, assemblies can be set from _Element → Glyph Info → TeX & Math_.
 
