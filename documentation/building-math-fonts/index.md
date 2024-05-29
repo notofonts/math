@@ -347,7 +347,7 @@ So such symbols need to be classified as extended shape symbols, so that the sup
 
 $$\Bigl(\frac{A}{B}\Bigr)^2_2 \quad A^2_2$$
 
-As a role of thumb, any glyph with vertical [size variants](#size-variants) should be classified as an extended shape. This includes things like fences of various kinds, slashes, and big operators.
+As a role of thumb, any glyph with vertical [size variants](#size-variants) should be classified as an extended shape. This includes things like delimiters of various kinds (parentheses, brackets, etc.), slashes, and big operators.
 
 Some implementations do not use the extended shape information and use other information to decide which algorithm to use for superscript and subscript position (TeX engines, for example, do not use extended shape information), so this needs to be tested with an implementation that is known to use it (like Microsoft’s).
 
@@ -358,7 +358,7 @@ In Glyphs, extended shape can be set from _Glyph → Edit MATH Variants_, checki
 In FontForge, it can be set from _Element → Glyph Info → TeX & Math_, but it has to be done for the glyph and all its vertical variants individually.
 
 #### Size variants
-In math many glyphs need to vary in size, one example of this is big operators that was [discussed earlier](#scriptpercentscaledown-scriptscriptpercentscaledown). Another example is fences like brackets and parentheses that need to grow up to cover its content:
+In math many glyphs need to vary in size, one example of this is big operators that was [discussed earlier](#scriptpercentscaledown-scriptscriptpercentscaledown). Another example is delimiters like brackets and parentheses that need to grow up to cover its content:
 
 $$\nabla f(x_1,\dots,x_n) = \left(\frac{\partial f}{\partial x_1}, \dots, \frac{\partial f}{\partial x_n}\right)^T$$
 
@@ -373,6 +373,8 @@ $$\underbrace{\sqrt[n]{x} \times \sqrt[n]{x} \times \dots} = x$$
 For such symbols, a set of growing in size variants are designed, and mapping between base glyph and its list of alternates is provided in the `MATH` table. There are separate lists of vertical and horizontal variants. Usually a glyph either has vertical or horizontals alternates, but not both, though the spec allows both to exist. Implementations might not allow a given glyph to grow on both direction at the same time.
 
 Big operators usually need to glyphs, a base glyph for inline math, and a larger variant for display math, but more variants can be included in the font and [`displayOperatorMinHeight`](#displayoperatorminheight) controls which variant to use. Adding multiple variants can allow for interesting effects, like an integral that grows in size based on the expression is it applied to, but existing implementations do not do this out of box.
+
+The variants list should always start with the base glyph, otherwise some implementations will skip it and always start with the first variant.
 
 In Glyphs, variants can be set from _Glyph → Edit MATH Variants_. There are different tabs for vertical and horizontal variants. There is a guess button that will look for glyphs with extensions like `.s01`, `.size01`, `.disp`, or `.display`, and use them to populate the variants list, or otherwise variants can be added manually:
 
@@ -391,13 +393,15 @@ In FontForge, variants can be set from _Element → Glyph Info → TeX & Math_:
 ##### Assemblies
 Some glyphs like parentheses or brackets can get really big, so even more and more variants are needed. To allow for unlimited growth, `MATH` table has a mechanism where glyphs are built from parts, with some parts are allowed to be repeated as needed to reach the desired size.
 
-Each part has a start and end connector lengths, which is how much this part can overlap with the previous or next parts. This gives flexibility to the glyph assembly to grow and shrink as needed until the desired size is reached. The first part should have its start connector set to zero as there is not previous part to overlap with, and similarly the last part should have it is end connector set to zero.
+Each part has a start and end connector lengths, which is how much this part can overlap with the previous or next parts. This gives flexibility to the glyph assembly to grow and shrink as needed until the desired size is reached. The first part should have its start connector set to zero as there is not previous part to overlap with, and similarly the last part should have it is end connector set to zero. Each part has a full advance which is basically the glyph advance in the direction of the assembly.
 
-Parts that can be repeated as needed (including being omitted altogether to get the smallest possible size) should be marked as extenders. There must be at least one extender, or the glyph will not be able to grow (some implementations will go into an infinite loop when encountering an assembly without an extender glyph).
+Parts that can be repeated as needed (including being omitted altogether to get the smallest possible size) should be marked as extenders. There must be at least one extender, or the glyph will not be able to grow.
 
-In Glyphs, assemblies can be set from _Glyph → Edit MATH Variants_. There is a guess button that will look for glyphs with extensions like `.lft`, `.rgt`, `.top`, `.bot`, `.mid`, `.ext`, or `.left`, `.right`, `.top`, `.bottom`, `.middle`, `.extension`, or `.l`, `.r`, `.t`, `.b`, `.m`, `.x` and populate the assembly from them. It applies a heuristic to find the straight segment at both ends of part glyph to calculate the connector lengths, but the results should be double checked.
+It is possible to have an assembly without having size variants. Some implementations do not like that, though, so at least one variant should be provided (which can be the base glyph itself).
 
-When _View → Show MATH Assembly_ is checked, the assemblies defined for the current glyph will be drawn on the canvas (with vertical variants in green and horizontal ones in blue):
+In Glyphs, assemblies can be set from _Glyph → Edit MATH Variants_. There is a guess button that will look for glyphs with extensions like `.lft`, `.rgt`, `.top`, `.bot`, `.mid`, `.ext`, or `.left`, `.right`, `.top`, `.bottom`, `.middle`, `.extension`, or `.l`, `.r`, `.t`, `.b`, `.m`, `.x` and populate the assembly from them. It applies a heuristic to find the straight segment at both ends of part glyph to calculate the connector lengths, but the results should be double checked. The start connector, end connector, and whether the glyphs is an extender or not can be set manually. The full advance will be automatically calculated.
+
+When _View → Show MATH Assembly_ is checked, the assemblies defined for the current glyph will be drawn on the canvas, once with minimum overlap and once with maximum overlap (with vertical variants in green and horizontal ones in blue):
 
 ![Vertical assemblies drawn](./glyphs-assemblies-vert.png)
 
@@ -410,12 +414,19 @@ In FontForge, assemblies can be set from _Element → Glyph Info → TeX & Math_
 ## Glyph design considerations
 
 ### Accents
-TODO: Advance width
+Math accents with size variants should have an advance width. While in OpenType mark glyphs usually get zero advance width (with some font editors like Glyph enforcing this at font export time), some math layout implementations expect math accents to have an advance width as they use it to determine the size of the glyph and whether it is enough or the next size should be checked (though the `MATH` table glyph variants specify the advance of the variant glyph, these implementations do not use that information and instead use the advance from `hmtx` table).
+
+To satisfy both expectations, one solution is to duplicate the base glyph and give it an advance with and add it as the first glyph in the variants list. In Glyphs you will need to change the glyph sub category to Spacing so that it does not set the advance width to zero on export.
 
 ### Radicals
 TODO: degree position
 
 ### Variants
+When building size variants, some glyph like vertical bar seem simple enough that they can built from an assembly without needing any pre-built size variants. While this is true, delimiters are often used in pairs and users expect them to have the same size. But if one delimiter has pre-built size variants and the other have an assembly only, the closest glyph to the desired size will be picked for pre-built delimiter while the one with assembly will be (more or less) of the exact required size, and this discrepancy in size is not desirable.
+
+$$X = \left\\{x\in\mathbb{R} \middle| \int_0^xf(z)dx<0\right\\}$$
+
+So it is preferable to have the same number of variants and the same sizes for all delimiters.
 
 ## Building
 
