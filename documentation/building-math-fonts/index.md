@@ -419,7 +419,11 @@ Math accents with size variants should have an advance width. While in OpenType 
 To satisfy both expectations, one solution is to duplicate the base glyph and give it an advance with and add it as the first glyph in the variants list. In Glyphs you will need to change the glyph sub category to Spacing so that it does not set the advance width to zero on export.
 
 ### Radicals
-TODO: degree position
+The position of the radical degree is controlled by [`radicalDegreeBottomRaisePercent` and `radicalKernAfterDegree`](#radicaldegreebottomraisepercent-radicalkernbeforedegree-radicalkernafterdegree) constants. The first is a percent of the radical glyph height, and the other is an absolute value. Since these are font-wide constants, they pose restrictions on the design of radical glyph sizes.
+
+Though `radicalDegreeBottomRaisePercent` is a percent, which should give it some flexibility, it still a fixed percent for all glyphs, which means the ratio of the short arm of the radical glyph to its long arm should be roughly the same for all the size variants, or otherwise the degree will either be too high above the short arm (if the percent is much smaller) or colloid with it (if the percent is much larger).
+
+`radicalKernAfterDegree` is even more restrictive, as it requires that the space to the outside of the long arm of the radical to remain roughly the same across all size variants, otherwise if it git too smaller the degree might colloid with the long arm.
 
 ### Variants
 When building size variants, some glyph like vertical bar seem simple enough that they can built from an assembly without needing any pre-built size variants. While this is true, delimiters are often used in pairs and users expect them to have the same size. But if one delimiter has pre-built size variants and the other have an assembly only, the closest glyph to the desired size will be picked for pre-built delimiter while the one with assembly will be (more or less) of the exact required size, and this discrepancy in size is not desirable.
