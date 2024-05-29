@@ -300,7 +300,7 @@ When using Glyphs with MATH Plugin, the top accent position can be set by adding
 
 ![Glyphs top accent anchor](./glyphs-ta.png)
 
-In FontForge top accent position can be set from _Element → Glyph Info → TeX & Math_:
+In FontForge, top accent position can be set from _Element → Glyph Info → TeX & Math_:
 
 ![FontForge TeX & Math window](./fontforge-ta-ic.png)
 
@@ -315,15 +315,26 @@ Italic correction has another role. When placing subscripts, they are placed hor
 
 $$f^x_x$$
 
-There is a trick, though. For big operators, like integrals, the superscript will be placed directly after the base, when the subscript will be moved _inwards_ by the amount of italic correction 🤷🏾
+There is a catch, though. For big operators, like integrals, the superscript will be placed directly after the base, when the subscript will be moved _inwards_ by the amount of italic correction 🤷🏾
 
 When using Glyphs with MATH Plugin, the italic correction can be set by adding an anchor named `math.ic` (`ic` is short of _italic correction_). The vertical position of the anchor is ignored.
 
 ![Glyphs italic correction anchor](./glyphs-ic.png)
 
-In FontForge italic correction can be set from _Element → Glyph Info → TeX & Math_.
+In FontForge, italic correction can be set from _Element → Glyph Info → TeX & Math_.
 
 #### Math kerning
+Positioning superscripts and subscripts using only glyph advances and italic correction is not very flexible and can often lead to loose spacing, and sometimes it is not even possible to position the scripts as desired this way. For example, the superscript $L^2$ too far away from the stem of the L, but to make it closer one needs negative italic correction for the L, which of course will break its spacing. It also does not provide away to handle pre-scripts, like ${}^2A$.
+
+OpenType `MATH` provides a more flexible way called math kerning (sometimes called cut-ins or staircase kerning), where adjustments at different heights at the four corners of the glyph are provided. When a superscript or a subscript is applied to a base, the vertical height is first determined as [described above](subscriptshiftdown-subscripttopmax-subscriptbaselinedropmin), then the adjustments at the relevant side of each glyphs is used to calculate the desired horizontal shift. This can be thought of as a form of [bubble kerning](https://tosche.net/non-fonts/bubblekern). The exact algorithm is detailed in the [spec](https://learn.microsoft.com/en-us/typography/opentype/spec/math#mathkerninfo-table) (but there is currently a [bug](https://github.com/MicrosoftDocs/typography-issues/issues/1147) in this description).
+
+When using Glyphs with MATH Plugin, kerning info of each corner can be set using a sequence of anchors that start with `math.tl` (top left), `math.bl` (bottom left), `math.tr` (top right), or `math.br` (bottom right), followed by a dot and a number (for example, `math.tr.0`, `math.tr.1`, `math.tr.2`, and so on).
+
+![Glyphs math kerning anchors](./glyphs-mathkern.png)
+
+In FontForge, math kerning can be set from _Element → Glyph Info → TeX & Math → Math Kerning_:
+
+![FontForge math kerning window](./fontforge-mathkern.png)
 
 #### Extended shapes
 
