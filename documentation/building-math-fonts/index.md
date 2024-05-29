@@ -328,6 +328,8 @@ Positioning superscripts and subscripts using only glyph advances and italic cor
 
 OpenType `MATH` provides a more flexible way called math kerning (sometimes called cut-ins or staircase kerning), where adjustments at different heights at the four corners of the glyph are provided. When a superscript or a subscript is applied to a base, the vertical height is first determined as [described above](subscriptshiftdown-subscripttopmax-subscriptbaselinedropmin), then the adjustments at the relevant side of each glyphs is used to calculate the desired horizontal shift. This can be thought of as a form of [bubble kerning](https://tosche.net/non-fonts/bubblekern). The exact algorithm is detailed in the [spec](https://learn.microsoft.com/en-us/typography/opentype/spec/math#mathkerninfo-table) (but there is currently a [bug](https://github.com/MicrosoftDocs/typography-issues/issues/1147) in this description).
 
+Some implementations (most notably Microsoft’s) do not apply math kerning to big operators (like integrals or summation), so positioning superscripts and subscripts for big operators needs to be based on glyph advance width and italic correction.
+
 When using Glyphs with MATH Plugin, kerning info of each corner can be set using a sequence of anchors that start with `math.tl` (top left), `math.bl` (bottom left), `math.tr` (top right), or `math.br` (bottom right), followed by a dot and a number (for example, `math.tr.0`, `math.tr.1`, `math.tr.2`, and so on).
 
 ![Glyphs math kerning anchors](./glyphs-mathkern.png)
@@ -336,7 +338,24 @@ In FontForge, math kerning can be set from _Element → Glyph Info → TeX & Mat
 
 ![FontForge math kerning window](./fontforge-mathkern.png)
 
-#### Extended shapes
+#### Extended shape
+The rules for the vertical positioning of superscripts and subscripts are designed so that they remain aligned regardless of the height of the base. Note how the superscript is on the same position for the two different bases here $A^2 a^2$. But some symbols are very tall, and applying the same rules to them will result in too low superscript, or too high subscript:
+
+$$\Bigl(\frac{A}{B}\Bigr){}^2_2 \quad A^2_2$$
+
+So such symbols need to be classified as extended shape symbols, so that the superscript and subscript are positioned relative to the whole expression:
+
+$$\Bigl(\frac{A}{B}\Bigr)^2_2 \quad A^2_2$$
+
+As a role of thumb, any glyph with vertical [size variants](#size-variants) should be classified as an extended shape. This includes things like fences of various kinds, slashes, and big operators.
+
+Some implementations do not use the extended shape information and use other information to decide which algorithm to use for superscript and subscript position (TeX engines, for example, do not use extended shape information), so this needs to be tested with an implementation that is known to use it (like Microsoft’s).
+
+When using Glyphs with MATH Plugin, extended shape can be set from _Glyph → Edit MATH Variants_, checking _Extended shape_ checkbox will classify the current glyph and all its vertical variants as extended shapes:
+
+![Glyphs MATH variants window](./glyphs-variants.png)
+
+In FontForge, it can be set from _Element → Glyph Info → TeX & Math_, but it has to be done for the glyph and all its vertical variants individually.
 
 #### Size variants
 
