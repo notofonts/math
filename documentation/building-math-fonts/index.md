@@ -410,8 +410,31 @@ When _View → Show MATH Assembly_ is checked, the assemblies defined for the cu
 In FontForge, assemblies can be set from _Element → Glyph Info → TeX & Math_.
 
 ## Right-To-Left math support
+Math is sometimes typeset from right-to-left using Arabic mathematical notation. This have been [discussed](https://www.w3.org/TR/arabic-math/arabic.xhtml) [elsewhere](https://en.wikipedia.org/wiki/Modern_Arabic_mathematical_notation). We discussed [above](#character-set) some of the characters to include for supporting Arabic mathematical notation. Here are some more of the technical details for supporting right-to-left math.
+
+### Glyph mirroring
+When text is written from right to left, many symbols are mirrored. The most common example is parentheses, where the opening and closing parentheses is the reverse of opening and closing parentheses in left-to-right text. 
+
+Unicode maintains [a list](https://www.unicode.org/Public/UCD/latest/ucd/BidiMirroring.txt) of what characters should have their glyphs mirrored in right-to-left text. Some of these characters, like the parenthesis, has the mirrored form encoded, and so the mirroring happens by the text layout engine without needing any input from the font. Other characters, however, don’t have mirrored form encoding, and so the font needs to provide mirrored glyphs if supporting right-to-left math is required. The mirrored forms are substituted with [`rtlm` ( Right-to-left mirrored forms)](https://learn.microsoft.com/en-us/typography/opentype/spec/features_pt#rtlm) feature, using a single substitution lookup:
+```fea
+sub integral by integral.rtlm;
+sub summation by summation.rtlm;
+```
+
+### Mirrored metrics and constants
+When math is typeset from right-to-left, some of the `MATH` table metrics are applied in reverse.
+
+Italic correction, for example, is applied the left side of the glyph instead of the right side. Though Arabic math alphabetic symbols are not slanted and don’t need italic correction, some symbols like integrals are mirrored and they need italic correction to adjust the position of the subscript, so the value of the italic correction should be chosen knowing that it will be applied to the left side of the glyphs.
+
+Other constants like [`radicalKernBeforeDegree` and `radicalKernAfterDegree`](#radicaldegreebottomraisepercent-radicalkernbeforedegree-radicalkernafterdegree) will be applied to the right and left sides of the degree, respectively.
+
+Same goes for [`spaceAfterScript`](#spaceafterscript), and so on.
+
+### Alphabetic symbols
+Many Arabic letters have a wide part of the glyph going below the base line. Thought this looks fine for regular text, in math when the letters are used in isolation, this causes the line to have a zigzag look and uneven height. So math letters with descenders are usually shifted up so that they set on the base line or have a shallow descender to give the equations a more even look.
 
 ## Glyph design considerations
+There are many considerations that should be taken into account when designing glyphs for math, but this has been written about elsewhere. Here we discuss glyph design aspects that are influenced by technical details of the `MATH` table.
 
 ### Accents
 Math accents with size variants should have an advance width. While in OpenType mark glyphs usually get zero advance width (with some font editors like Glyph enforcing this at font export time), some math layout implementations expect math accents to have an advance width as they use it to determine the size of the glyph and whether it is enough or the next size should be checked (though the `MATH` table glyph variants specify the advance of the variant glyph, these implementations do not use that information and instead use the advance from `hmtx` table).
