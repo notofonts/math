@@ -119,7 +119,7 @@ Some aspects of this table might seem redundant. For example, it provides ways o
 
 Editing the `MATH` table can be cumbersome since few tools support it. Currently the tools available for editing the `MATH` table are FontForge, the [Glyphs MATH Plugin](https://github.com/Nagwa-Limited-Community/Glyphs-MATH-Plugin), and custom scripts using the FontTools Python Library. (There was also a tool from Microsoft, but it does not seem to be publicly available anymore.)
 
-The general idea is the same, so the examples here will use Glyphs with the MATH plugin, but it should be applicable to any other tool with the necessary modifications.
+The general idea is the same, so the examples here will use Glyphs with the MATH plugin and FontForge, but it should be applicable to any other tool with the necessary modifications.
 
 Math table can roughly be divided into font-wide parameters (constants) and glyph-level data.
 
@@ -164,7 +164,13 @@ No one knows what this constant is used for either, or how to test it, so read t
 This is a very important constant. In math layout, big operators, fractions, and many other constructs with large vertical size are vertically centered. They are centered around the value of this constant, so it should be set to the vertical center of the small operators (minus, plus, equal, less than, bigger than, etc). The simplest way to calculate its value is to use the vertical center of the minus glyph, and then make sure all small operators are centered around it. (Well, not *all* of them, but most of them - some glyphs look better when they set on the base line, so use your judgment and check other math fonts...)
 
 #### `accentBaseHeight`
-As discussed above, the math layout engine does not use the `GPOS` table for positioning anchors. It instead uses data from the `MATH` table, and this constant is one of them. By default, the accent will not be shifted vertically unless the height of the glyph exceeds this constant. This is meant so that accents over glyphs without ascenders are kept in their default position. It should be set to x-height + overshoot.
+As discussed above, the math layout engine does not use the `GPOS` table for positioning anchors. It instead uses data from the `MATH` table, and this constant is one of them and it controls the vertical position of the accent.
+
+* First, the accent with placed right above the base, in its natural position (in other words, the way it is drawn in the font).
+* If the height (the part above baseline) of the base is greater than `accentBaseHeight`, then the accent will be moved up by difference between the `accentBaseHeight` and the height of the base glyph,
+* Otherwise the accent will not be further shifted up.
+
+This is meant so that accents over glyphs without ascenders are kept in their default position. It should be set to x-height + overshoot.
 
 #### `flattenedAccentBaseHeight`
 The `flac` feature will be applied to accents over glyphs higher than this constant. It should be set to cap-height.
@@ -283,11 +289,39 @@ These 3 constants control the position of the radical degree symbol (the 2 in $\
 Test equation:
 $$\\{\sqrt[2]{x}\\} \quad \\{\sqrt[abc]{x}\\} \quad \sqrt[2]{\frac{A^{2^{2^{2}}}}{A}}$$
 
-### Glyph data
-
-#### Italic correction
+### Glyph-level data
 
 #### Accent positioning
+As discussed earlier, accent positioning in math layout uses data from `MATH` table and not `GPOS` table. The font-wide constants are discussed above. The vertical position of the accent is controlled by the [`accentBaseHeight`](#accentbaseheight) constant. The horizontal position is controlled by a glyph-level _top accent position_ data. This can thought of as a special kind of anchor, that only adjusts the mark position horizontally.
+
+The top accent position should be set on all alphabetic glyphs, as well as accents that go above the base (there is currently no `MATH` table data for horizontal position of bottom accents). If the top accent position is not set for a glyph, some implementations will fallback to half its advance width, but not all implementations do this.
+
+When using Glyphs with MATH Plugin, the top accent position can be set by adding an anchor named `math.ta` (`ta` is short of _top accent_). The vertical position of the anchor is ignored. It will show a vertical line as well as an anchor cloud to help visualize the position:
+
+![Glyphs top accent anchor](./glyphs-ta.png)
+
+In FontForge top accent position can be set from _Element → Glyph Info → TeX & Math_:
+
+![FontForge TeX & Math window](./fontforge-ta-ic.png)
+
+#### Italic correction
+Math layout often involves a mix of italic and non-italic symbols next to each other. Since italics are usually designed with a negative right side bearing to improve spacing between italic glyphs, it also means when an italic is followed by a non-italic one, the glyphs might touch each other or generally have tighter spacing than desired:
+
+$$f(x) = |l|$$
+
+Italic correction is an additional space that is inserted after italic glyphs when followed by non-italic glyphs or at the end of inline math equations to fix this spacing issue.
+
+Italic correction has another role. When placing subscripts, they are placed horizontally right after the base glyph (using its advance width, not bounding box), but superscripts are shifted by italic correction of the base glyph (since italic glyphs lean to the right, the part that protrudes out is the top part):
+
+$$f^x_x$$
+
+There is a trick, though. For big operators, like integrals, the superscript will be placed directly after the base, when the subscript will be moved _inwards_ by the amount of italic correction 🤷🏾
+
+When using Glyphs with MATH Plugin, the italic correction can be set by adding an anchor named `math.ic` (`ic` is short of _italic correction_). The vertical position of the anchor is ignored.
+
+![Glyphs italic correction anchor](./glyphs-ic.png)
+
+In FontForge italic correction can be set from _Element → Glyph Info → TeX & Math_.
 
 #### Math kerning
 
@@ -298,6 +332,8 @@ $$\\{\sqrt[2]{x}\\} \quad \\{\sqrt[abc]{x}\\} \quad \sqrt[2]{\frac{A^{2^{2^{2}}}
 ##### Extensibles
 
 ## Right-To-Left math support
+
+## Glyph design considerations
 
 ## Building
 
