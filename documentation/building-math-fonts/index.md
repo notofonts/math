@@ -117,6 +117,8 @@ OpenType math fonts have a dedicated table that contains data related to math ty
 
 Some aspects of this table might seem redundant. For example, it provides ways of positioning accents over base glyphs. In text fonts, this is usually done with OpenType Layout rules in the `GPOS` table. However, math accent positioning can involve more complex cases than can be handled by `GPOS` table, such as accents over multiple letters: $\widehat{abc}$. Because of this *the `GPOS` table is not used in math layout and `MATH` table is used instead*. Some math engine implementations *might* apply `GPOS` kerning, but most engines do not. `GPOS` layout should not be relied upon in a mathematical environment.
 
+[“Mathematical Typesetting”](https://learn.microsoft.com/en-us/typography/cleartype/pdfs/cambriamath.pdf) booklet by Ross Mills and John Hudson is a nice overview of the `MATH` table and its capabilities, and math typesetting in general.
+
 Editing the `MATH` table can be cumbersome since few tools support it. Currently the tools available for editing the `MATH` table are FontForge, the [Glyphs MATH Plugin](https://github.com/Nagwa-Limited-Community/Glyphs-MATH-Plugin), and custom scripts using the FontTools Python Library. (There was also a tool from Microsoft, but it does not seem to be publicly available anymore.)
 
 The general idea is the same, so the examples here will use Glyphs with the MATH plugin and FontForge, but it should be applicable to any other tool with the necessary modifications.
@@ -434,7 +436,7 @@ Same goes for [`spaceAfterScript`](#spaceafterscript), and so on.
 Many Arabic letters have a wide part of the glyph going below the base line. Thought this looks fine for regular text, in math when the letters are used in isolation, this causes the line to have a zigzag look and uneven height. So math letters with descenders are usually shifted up so that they set on the base line or have a shallow descender to give the equations a more even look.
 
 ## Glyph design considerations
-There are many considerations that should be taken into account when designing glyphs for math, but this has been written about elsewhere. Here we discuss glyph design aspects that are influenced by technical details of the `MATH` table.
+There are many considerations that should be taken into account when designing glyphs for math, but this has been written about [elsewhere](http://www.typoma.com/publ/20040430-bachotex.pdf). Here we discuss glyph design aspects that are influenced by technical details of the `MATH` table.
 
 ### Accents
 Math accents with size variants should have an advance width. While in OpenType mark glyphs usually get zero advance width (with some font editors like Glyph enforcing this at font export time), some math layout implementations expect math accents to have an advance width as they use it to determine the size of the glyph and whether it is enough or the next size should be checked (though the `MATH` table glyph variants specify the advance of the variant glyph, these implementations do not use that information and instead use the advance from `hmtx` table).
