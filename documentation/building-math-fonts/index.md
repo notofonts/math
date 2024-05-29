@@ -128,7 +128,7 @@ Constants are font-wide data that control various aspects of math typesetting.
 
 For many of these constants, a value relative to something called _default rule thickness_ is suggested. This is a vestige from TeX where these constants didn’t have dedicated font parameters and TeX used hard-coded values relative to a font parameter called _default rule thickness_ that was used for fraction bar, overline, radical bar, and so on. `MATH` table does not, however, have a single rule thickness as each of these uses has its own dedicated constant, though these constants are often set to the same value. So when you see _default rule thickness_ mentioned, it should be the value of one of the rule thickness constants like [`fractionRuleThickness`](#fractionrulethickness), [`overbarRuleThickness`](#overbarverticalgap-overbarrulethickness-overbarextraascender), or [`radicalRuleThickness`](#radicalrulethickness).
 
-When using Glyphs with MATH Plugin, constants can be edited from _Edit → Edit MATH Constants_:
+In Glyphs, constants can be edited from _Edit → Edit MATH Constants_:
 
 ![Glyphs MATH constants window](./glyphs-constants.png)
 
@@ -296,7 +296,7 @@ As discussed earlier, accent positioning in math layout uses data from `MATH` ta
 
 The top accent position should be set on all alphabetic glyphs, as well as accents that go above the base (there is currently no `MATH` table data for horizontal position of bottom accents). If the top accent position is not set for a glyph, some implementations will fallback to half its advance width, but not all implementations do this.
 
-When using Glyphs with MATH Plugin, the top accent position can be set by adding an anchor named `math.ta` (`ta` is short of _top accent_). The vertical position of the anchor is ignored. It will show a vertical line as well as an anchor cloud to help visualize the position:
+In Glyphs, the top accent position can be set by adding an anchor named `math.ta` (`ta` is short of _top accent_). The vertical position of the anchor is ignored. It will show a vertical line as well as an anchor cloud to help visualize the position:
 
 ![Glyphs top accent anchor](./glyphs-ta.png)
 
@@ -317,7 +317,7 @@ $$f^x_x$$
 
 There is a catch, though. For big operators, like integrals, the superscript will be placed directly after the base, when the subscript will be moved _inwards_ by the amount of italic correction 🤷🏾
 
-When using Glyphs with MATH Plugin, the italic correction can be set by adding an anchor named `math.ic` (`ic` is short of _italic correction_). The vertical position of the anchor is ignored.
+In Glyphs, the italic correction can be set by adding an anchor named `math.ic` (`ic` is short of _italic correction_). The vertical position of the anchor is ignored.
 
 ![Glyphs italic correction anchor](./glyphs-ic.png)
 
@@ -330,7 +330,7 @@ OpenType `MATH` provides a more flexible way called math kerning (sometimes call
 
 Some implementations (most notably Microsoft’s) do not apply math kerning to big operators (like integrals or summation), so positioning superscripts and subscripts for big operators needs to be based on glyph advance width and italic correction.
 
-When using Glyphs with MATH Plugin, kerning info of each corner can be set using a sequence of anchors that start with `math.tl` (top left), `math.bl` (bottom left), `math.tr` (top right), or `math.br` (bottom right), followed by a dot and a number (for example, `math.tr.0`, `math.tr.1`, `math.tr.2`, and so on).
+In Glyphs, kerning info of each corner can be set using a sequence of anchors that start with `math.tl` (top left), `math.bl` (bottom left), `math.tr` (top right), or `math.br` (bottom right), followed by a dot and a number (for example, `math.tr.0`, `math.tr.1`, `math.tr.2`, and so on).
 
 ![Glyphs math kerning anchors](./glyphs-mathkern.png)
 
@@ -351,15 +351,59 @@ As a role of thumb, any glyph with vertical [size variants](#size-variants) shou
 
 Some implementations do not use the extended shape information and use other information to decide which algorithm to use for superscript and subscript position (TeX engines, for example, do not use extended shape information), so this needs to be tested with an implementation that is known to use it (like Microsoft’s).
 
-When using Glyphs with MATH Plugin, extended shape can be set from _Glyph → Edit MATH Variants_, checking _Extended shape_ checkbox will classify the current glyph and all its vertical variants as extended shapes:
+In Glyphs, extended shape can be set from _Glyph → Edit MATH Variants_, checking _Extended shape_ checkbox will classify the current glyph and all its vertical variants as extended shapes:
 
 ![Glyphs MATH variants window](./glyphs-variants.png)
 
 In FontForge, it can be set from _Element → Glyph Info → TeX & Math_, but it has to be done for the glyph and all its vertical variants individually.
 
 #### Size variants
+In math many glyphs need to vary in size, one example of this is big operators that was [discussed earlier](#scriptpercentscaledown-scriptscriptpercentscaledown). Another example is fences like brackets and parentheses that need to grow up to cover its content:
 
-##### Extensibles
+$$\nabla f(x_1,\dots,x_n) = \left(\frac{\partial f}{\partial x_1}, \dots, \frac{\partial f}{\partial x_n}\right)^T$$
+
+Or radicals:
+
+$$\sqrt{3 + 2\sqrt{2}} = \sqrt{1 + 2\sqrt{2} + 2} = \sqrt{1^2 + 2\sqrt{2} + \sqrt{2}^2} = \sqrt{\left(1 + \sqrt{2}\right)^2} = 1 + \sqrt{2}$$
+
+Some symbols grow horizontally:
+
+$$\underbrace{\sqrt[n]{x} \times \sqrt[n]{x} \times \dots} = x$$
+
+For such symbols, a set of growing in size variants are designed, and mapping between base glyph and its list of alternates is provided in the `MATH` table. There are separate lists of vertical and horizontal variants. Usually a glyph either has vertical or horizontals alternates, but not both, though the spec allows both to exist. Implementations might not allow a given glyph to grow on both direction at the same time.
+
+Big operators usually need to glyphs, a base glyph for inline math, and a larger variant for display math, but more variants can be included in the font and [`displayOperatorMinHeight`](#displayoperatorminheight) controls which variant to use. Adding multiple variants can allow for interesting effects, like an integral that grows in size based on the expression is it applied to, but existing implementations do not do this out of box.
+
+In Glyphs, variants can be set from _Glyph → Edit MATH Variants_. There are different tabs for vertical and horizontal variants. There is a guess button that will look for glyphs with extensions like `.s01`, `.size01`, `.disp`, or `.display`, and use them to populate the variants list, or otherwise variants can be added manually:
+
+![Glyphs MATH variants window](./glyphs-variants.png)
+
+When _View → Show MATH Variants_ is checked, the variants defined for the current glyph will be drawn on the canvas (with vertical variants in green and horizontal ones in blue):
+
+![Vertical variants drawn](./glyphs-variants-2.png)
+
+![Horizontal variants drawn](./glyphs-variants-3.png)
+
+In FontForge, variants can be set from _Element → Glyph Info → TeX & Math_:
+
+![FontForge MATH variants window](./fontforge-variants.png)
+
+##### Assemblies
+Some glyphs like parentheses or brackets can get really big, so even more and more variants are needed. To allow for unlimited growth, `MATH` table has a mechanism where glyphs are built from parts, with some parts are allowed to be repeated as needed to reach the desired size.
+
+Each part has a start and end connector lengths, which is how much this part can overlap with the previous or next parts. This gives flexibility to the glyph assembly to grow and shrink as needed until the desired size is reached. The first part should have its start connector set to zero as there is not previous part to overlap with, and similarly the last part should have it is end connector set to zero.
+
+Parts that can be repeated as needed (including being omitted altogether to get the smallest possible size) should be marked as extenders. There must be at least one extender, or the glyph will not be able to grow (some implementations will go into an infinite loop when encountering an assembly without an extender glyph).
+
+In Glyphs, assemblies can be set from _Glyph → Edit MATH Variants_. There is a guess button that will look for glyphs with extensions like `.lft`, `.rgt`, `.top`, `.bot`, `.mid`, `.ext`, or `.left`, `.right`, `.top`, `.bottom`, `.middle`, `.extension`, or `.l`, `.r`, `.t`, `.b`, `.m`, `.x` and populate the assembly from them. It applies a heuristic to find the straight segment at both ends of part glyph to calculate the connector lengths, but the results should be double checked.
+
+When _View → Show MATH Assembly_ is checked, the assemblies defined for the current glyph will be drawn on the canvas (with vertical variants in green and horizontal ones in blue):
+
+![Vertical assemblies drawn](./glyphs-assemblies-1.png)
+
+![Horizontal assemblies drawn](./glyphs-assemblies-2.png)
+
+In FontForge, assemblies can be set from _Element → Glyph Info → TeX & Math_.
 
 ## Right-To-Left math support
 
@@ -370,6 +414,8 @@ TODO: Advance width
 
 ### Radicals
 TODO: degree position
+
+### Variants
 
 ## Building
 
