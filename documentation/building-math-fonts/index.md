@@ -335,6 +335,12 @@ In FontForge italic correction can be set from _Element → Glyph Info → TeX &
 
 ## Glyph design considerations
 
+### Accents
+TODO: Advance width
+
+### Radicals
+TODO: degree position
+
 ## Building
 
 ## Testing
