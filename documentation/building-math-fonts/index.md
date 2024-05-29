@@ -70,7 +70,7 @@ Here are some of the Unicode blocks related to mathematics:
 Math fonts use several OpenType features for proper math layout. Although none of these features are strictly required for a working math font, they are crucial if one is aiming to support fine mathematical typography.
 
 ### Math script style alternates (`ssty`)
-Math often includes glyphs at smaller point sizes, used for situations such as superscripts, subscripts, fraction numerators, and denominators. For proper typography, these glyphs need to be optically adjusted to fit the smaller point sizes. In OpenType math, this is handled by including two additional sets of glyphs, designed for the first- and second-level script forms (e.g. subscript and subsubscript). Third or higher levels of alternates will use the second-level set. The glyphs should be designed in full size and not moved vertically (unlike `sups` and `subs` features) since the scaling and positioning will be done by the math layout engine (the scaling percent is controlled by two font constants, discussed below).
+Math often includes glyphs at smaller point sizes, used for situations such as superscripts, subscripts, fraction numerators, and denominators. For proper typography, these glyphs need to be optically adjusted to fit the smaller point sizes. In OpenType math, this is handled by including two additional sets of glyphs, designed for the first- and second-level script forms (e.g. subscript and subsubscript). Third or higher levels of alternates will use the second-level set. The glyphs should be designed in full size and not moved vertically (unlike `sups` and `subs` features) since the scaling and positioning will be done by the math layout engine (the scaling percent is controlled by two font constants, [discussed below](#scriptpercentscaledown-scriptscriptpercentscaledown)).
 
 These alternate glyphs are applied using the `ssty` feature, using a multiple alternate substitution lookup, e.g.:
 ```fea
@@ -99,7 +99,7 @@ Prime characters are an interesting case for `ssty` feature. In most fonts, the 
 This should apply to all the prime characters in Unicode: U+2032, U+2033, U+2034, U+2035, U+2036, U+2037, and U+2057.
 
 ### Flattened ascent forms (`flac`)
-Sometimes, accents over capitals are reduced in height to reduce the overall height of the accented glyphs. In OpenType math, precomposed accented glyphs (e.g. `aacute`) are not used. Accents are placed by the math layout engine, controlled by several constants which we will discuss later. The `flac` feature allows for providing an alternate set of accents to be used over capital glyphs (in fact, over *any* glyphs taller than a constant defined by the font). It should use a single substitution lookup:
+Sometimes, accents over capitals are reduced in height to reduce the overall height of the accented glyphs. In OpenType math, precomposed accented glyphs (e.g. `aacute`) are not used. Accents are placed by the math layout engine, controlled by several constants which we will discuss later. The `flac` feature allows for providing an alternate set of accents to be used over capital glyphs (in fact, over *any* glyphs taller than [a constant](#flattenedaccentbaseheight) defined by the font). It should use a single substitution lookup:
 
 ```fea
 sub acutecomb by acutecomb.flac;
@@ -126,7 +126,7 @@ Math table can roughly be divided into font-wide parameters (constants) and glyp
 ### Constants
 Constants are font-wide data that control various aspects of math typesetting.
 
-For many of these constants, a value relative to something called _default rule thickness_ is suggested. This is a vestige from TeX where these constants didn’t have dedicated font parameters and TeX used hard-coded values relative to a font parameter called _default rule thickness_ that was used for fraction bar, overline, radical bar, and so on. `MATH` table does not, however, have a single rule thickness as each of these uses has its own dedicated constant, though these constants are often set to the same value. So when you see _default rule thickness_ mentioned, it should be the value of one of the rule thickness constants like `fractionRuleThickness`, `overbarRuleThickness`, or `radicalRuleThickness`.
+For many of these constants, a value relative to something called _default rule thickness_ is suggested. This is a vestige from TeX where these constants didn’t have dedicated font parameters and TeX used hard-coded values relative to a font parameter called _default rule thickness_ that was used for fraction bar, overline, radical bar, and so on. `MATH` table does not, however, have a single rule thickness as each of these uses has its own dedicated constant, though these constants are often set to the same value. So when you see _default rule thickness_ mentioned, it should be the value of one of the rule thickness constants like [`fractionRuleThickness`](#fractionrulethickness), [`overbarRuleThickness`](#overbarverticalgap-overbarrulethickness-overbarextraascender), or [`radicalRuleThickness`](#radicalrulethickness).
 
 When using Glyphs with MATH Plugin, constants can be edited from _Edit → Edit MATH Constants_:
 
@@ -142,13 +142,13 @@ In FontForge they can be edited from _Element → Other Info → MATH Info_:
 #### `scriptPercentScaleDown`, `scriptScriptPercentScaleDown`
 This is the percent by which first- and second-level superscripts and subscripts will be scaled. The spec recommends 80% for `scriptPercentScaleDown` and 60% for `scriptScriptPercentScaleDown`. However, this is too big when optically sized alternates are provided (the `ssty` feature); a better value is probably between 60-70% for `scriptPercentScaleDown` and around 50% for `scriptScriptPercentScaleDown`.
 
-For comparison, TeX’s default setup uses 10pt for base font size, and 7pt for first level scripts, and 5pt for the second level (TeX’s default fonts are optically adjusted to the point size they are used for). This constant should be taken into account when designing the `ssty` variants, i.e. 70% means you are designing for 7pt optical size, and so on.
+For comparison, TeX’s default setup uses 10pt for base font size, and 7pt for first level scripts, and 5pt for the second level (TeX’s default fonts are optically adjusted to the point size they are used for). This constant should be taken into account when designing the [`ssty`](#math-script-style-alternates-ssty) variants, i.e. 70% means you are designing for 7pt optical size, and so on.
 
 #### `delimitedSubFormulaMinHeight`
 Nobody knows what this constant is for, except that Microsoft’s math layout engine [mistakenly uses it instead of the next constant](https://github.com/MicrosoftDocs/typography-issues/issues/1136), so in reality it needs to be set to whatever value `displayOperatorMinHeight` is set to.
 
 #### `displayOperatorMinHeight`
-Math layout engines use a bigger glyph for _big_ operators (e.g. integral or summation) when math equations are in *display mode*.
+Math layout engines use a [bigger glyph](#size-variants) for _big_ operators (e.g. integral or summation) when math equations are in *display mode*.
 
 > *Display mode* refers to math which is placed standalone between paragraphs, as opposed of being inline with the regular text.
 > Compare *inline* $\sum a \prod b \int c$ with *display*:
