@@ -193,6 +193,8 @@ As discussed above, the math layout engine does not use the `GPOS` table for pos
 
 This is meant so that accents over glyphs without ascenders are kept in their default position. It should be set to x-height + overshoot.
 
+![Accents in their default position and sifted up](./accentbaseheight.svg)
+
 #### `flattenedAccentBaseHeight`
 The `flac` feature will be applied to accents over glyphs higher than this constant. It should be set to cap-height.
 
@@ -461,6 +463,10 @@ There are many considerations that should be taken into account when designing g
 Math accents with size variants should have an advance width. While in OpenType mark glyphs usually get zero advance width (with some font editors like Glyph enforcing this at font export time), some math layout implementations expect math accents to have an advance width as they use it to determine the size of the glyph and whether it is enough or the next size should be checked (though the `MATH` table glyph variants specify the advance of the variant glyph, these implementations do not use that information and instead use the advance from `hmtx` table).
 
 To satisfy both expectations, one solution is to duplicate the base glyph and give it an advance with and add it as the first glyph in the variants list. In Glyphs you will need to change the glyph sub category to Spacing so that it does not set the advance width to zero on export.
+
+When drawing accents, accents that go above the base need to be drawn above [`accentBaseHeight`](#accentbaseheight) by a small offset, say rule thickness, since they will not be shifted vertically for glyphs whose height is below `accentBaseHeight`. If they are drawn exactly at `accentBaseHeight` or below it, they will touch or overlap the base glyphs, and if they are drawn too far from `accentBaseHeight`, they will be also placed too high above base glyphs.
+
+Bottom accents should also be drawn below the baseline by a similar offset.
 
 ### Radicals
 The position of the radical degree is controlled by [`radicalDegreeBottomRaisePercent` and `radicalKernAfterDegree`](#radicaldegreebottomraisepercent-radicalkernbeforedegree-radicalkernafterdegree) constants. The first is a percent of the radical glyph height, and the other is an absolute value. Since these are font-wide constants, they pose restrictions on the design of radical glyph sizes.
