@@ -46,5 +46,5 @@
  <path d="m0.042014 69.883h425.16" fill="none" stroke="#0096ff" stroke-miterlimit="10" stroke-opacity=".67876"/>
  <path d="m0.042014 81.616h425.16" fill="none" stroke="#fc96ff" stroke-miterlimit="10" stroke-opacity=".67876"/>
  <text x="427.0127" y="85.082069" fill="#fc96ff" font-family="'Noto Sans'" font-size="12px" stroke-width=".75" style="line-height:1.25" xml:space="preserve"><tspan x="427.0127" y="85.082069" fill="#fc96ff" font-family="'Noto Sans'" font-size="12px" stroke-width=".75">baseline</tspan></text>
- <text x="427.0127" y="71.582069" fill="#0098ff" font-family="'Noto Sans'" font-size="12px" stroke-width=".75" style="line-height:1.25" xml:space="preserve"><tspan x="427.0127" y="71.582069" fill="#0098ff" font-family="'Noto Sans'" font-size="12px" stroke-width=".75">math axis</tspan></text>
+ <text x="427.0127" y="71.582069" fill="#0098ff" font-family="'Noto Sans'" font-size="12px" stroke-width=".75" style="line-height:1.25" xml:space="preserve"><tspan x="427.0127" y="71.582069" fill="#0098ff" font-family="'Noto Sans'" font-size="12px" stroke-width=".75">axisHeight</tspan></text>
 </svg>
