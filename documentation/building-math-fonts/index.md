@@ -127,7 +127,11 @@ sub iitalic-math by iitalic-math.dotless;
 ## The `MATH` table
 OpenType math fonts have a dedicated table that contains data related to math typesetting. This include various font wide math typesetting parameters, as well as glyph-level math-related metrics and data. OpenType math layout engines consult this table when building up math equations.
 
-Some aspects of this table might seem redundant. For example, it provides ways of positioning accents over base glyphs. In text fonts, this is usually done with OpenType Layout rules in the `GPOS` table. However, math accent positioning can involve more complex cases than can be handled by `GPOS` table, such as accents over multiple letters: $\widehat{abc}$. Because of this *the `GPOS` table is not used in math layout and `MATH` table is used instead*. Some math engine implementations *might* apply `GPOS` kerning, but most engines do not. `GPOS` layout should not be relied upon in a mathematical environment.
+Some aspects of this table might seem redundant. For example, it provides ways of positioning accents over base glyphs. In text fonts, this is usually done with OpenType Layout rules in the `GPOS` table. However, math accent positioning can involve more complex cases than can be handled by `GPOS` table, such as accents over multiple letters:
+
+![Wide tilde over three letters](./wide-accent.svg)
+
+Because of this *the `GPOS` table is not used in math layout and `MATH` table is used instead*. Some math engine implementations *might* apply `GPOS` kerning, but most engines do not. `GPOS` layout should not be relied upon in a mathematical environment.
 
 [“Mathematical Typesetting”](https://learn.microsoft.com/en-us/typography/cleartype/pdfs/cambriamath.pdf) booklet by Ross Mills and John Hudson is a nice overview of the `MATH` table and its capabilities, and math typesetting in general.
 
@@ -152,7 +156,6 @@ In FontForge they can be edited from _Element → Other Info → MATH Info_:
 
 ![FontForge MATH table window](./fontforge-constants.png)
 
-
 #### `scriptPercentScaleDown`, `scriptScriptPercentScaleDown`
 This is the percent by which first- and second-level superscripts and subscripts will be scaled. The spec recommends 80% for `scriptPercentScaleDown` and 60% for `scriptScriptPercentScaleDown`. However, this is too big when optically sized alternates are provided (the `ssty` feature); a better value is probably between 60-70% for `scriptPercentScaleDown` and around 50% for `scriptScriptPercentScaleDown`.
 
@@ -175,7 +178,11 @@ This means that at least two glyphs are needed for each big operator: one for te
 No one knows what this constant is used for either, or how to test it, so read the spec description and make up your mind.
 
 #### `axisHeight`
-This is a very important constant. In math layout, big operators, fractions, and many other constructs with large vertical size are vertically centered. They are centered around the value of this constant, so it should be set to the vertical center of the small operators (minus, plus, equal, less than, bigger than, etc). The simplest way to calculate its value is to use the vertical center of the minus glyph, and then make sure all small operators are centered around it. (Well, not *all* of them, but most of them - some glyphs look better when they set on the base line, so use your judgment and check other math fonts...)
+This is a very important constant. In math layout, big operators, fractions, and many other constructs with large vertical size are vertically centered around something called _math axis_, while binary and relational operators are not vertical centered by the layout engine and are kept in their default positions (the way they are drawn in the font):
+
+![Equation showing math axis centering](./math-axis.svg)
+
+The value of math axis is defined by this constant, so it should be set to the vertical center of the regular operators (minus, plus, equal, less than, bigger than, etc). The simplest way to calculate its value is to use the vertical center of the minus glyph, and then make sure all regular operators are centered around it in the font. (Well, not *all* of them, but most of them - some glyphs look better when they set on the base line, so use your judgment and check other math fonts...)
 
 #### `accentBaseHeight`
 As discussed above, the math layout engine does not use the `GPOS` table for positioning anchors. It instead uses data from the `MATH` table, and this constant is one of them and it controls the vertical position of the accent.
