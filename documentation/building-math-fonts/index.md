@@ -69,8 +69,12 @@ Here are some of the Unicode blocks related to mathematics:
 ## OpenType features
 Math fonts use several OpenType features for proper math layout. Although none of these features are strictly required for a working math font, they are crucial if one is aiming to support fine mathematical typography.
 
-### Math script style alternates (`ssty`)
-Math often includes glyphs at smaller point sizes, used for situations such as superscripts, subscripts, fraction numerators, and denominators. For proper typography, these glyphs need to be optically adjusted to fit the smaller point sizes. In OpenType math, this is handled by including two additional sets of glyphs, designed for the first- and second-level script forms (e.g. subscript and subsubscript). Third or higher levels of alternates will use the second-level set. The glyphs should be designed in full size and not moved vertically (unlike `sups` and `subs` features) since the scaling and positioning will be done by the math layout engine (the scaling percent is controlled by two font constants, [discussed below](#scriptpercentscaledown-scriptscriptpercentscaledown)).
+### Math script style alternates ([`ssty`](https://learn.microsoft.com/en-us/typography/opentype/spec/features_pt#ssty))
+Math often includes glyphs at smaller point sizes, used for situations such as superscripts, subscripts, fraction numerators, and denominators. For proper typography, these glyphs need to be optically adjusted to fit the smaller point sizes. Compare the rendering of superscripts with optical adjusted glyphs (left) and without optical adjustments (right):
+
+![Superscript rendering with and without `ssty` feature](./ssty.svg)
+
+In OpenType math, this is handled by including two additional sets of glyphs, designed for the first- and second-level script forms (e.g. subscript and subsubscript). Third or higher levels of alternates will use the second-level set. The glyphs should be designed in full size and not moved vertically (unlike `sups` and `subs` features) since the scaling and positioning will be done by the math layout engine (the scaling percent is controlled by two font constants, [discussed below](#scriptpercentscaledown-scriptscriptpercentscaledown)).
 
 These alternate glyphs are applied using the `ssty` feature, using a multiple alternate substitution lookup, e.g.:
 ```fea
@@ -92,21 +96,29 @@ sub b from [b.ssty b.ssty];
 ```
 
 #### Primes
-Prime characters are an interesting case for `ssty` feature. In most fonts, the primes are designed as raised apostrophe-like glyphs, but in TeX prime was designed as a full sized glyph that sets near the baseline. The math input treats it as a superscript that then gets scaled and moved vertically like any other superscript. OpenType math inherits this, so if the font includes a prime glyph which is designed in the usual way to suit text fonts (smaller and above the baseline), the layout engine will further scale it down and raise it up, making it look smaller and higher than expected. There are two ways to fix this:
+Prime characters are an interesting case for `ssty` feature. In most fonts, the primes are designed as raised apostrophe-like glyphs, but in TeX prime was designed as a full sized glyph that sets near the baseline. The math input treats it as a superscript that then gets scaled and moved vertically like any other superscript. OpenType math inherits this, so if the font includes a prime glyph which is designed in the usual way to suit text fonts (smaller and above the baseline), the layout engine will further scale it down and raise it up, making it look smaller and higher than expected. Compare the expected size and position of the primes (left) with when text primes are used in math layout without any changes (right):
+
+![Proper rendering of primes in math vs. badly sized and positioned ones](./primes.svg)
+
+There are two ways to fix this:
 1. Design the prime glyph full-size and aligned with the baseline, as TeX fonts do; in this case, when prime is used outside the math engine, it will look wrong.
 2. Design the base prime glyph as normal, and provide an alternate glyph that is designed like TeX fonts to be activated with the `ssty` feature. This way prime looks correct when used in both text and math modes.
 
 This should apply to all the prime characters in Unicode: U+2032, U+2033, U+2034, U+2035, U+2036, U+2037, and U+2057.
 
-### Flattened ascent forms (`flac`)
+### Flattened ascent forms ([`flac`](https://learn.microsoft.com/en-us/typography/opentype/spec/features_fj#flac))
 Sometimes, accents over capitals are reduced in height to reduce the overall height of the accented glyphs. In OpenType math, precomposed accented glyphs (e.g. `aacute`) are not used. Accents are placed by the math layout engine, controlled by several constants which we will discuss later. The `flac` feature allows for providing an alternate set of accents to be used over capital glyphs (in fact, over *any* glyphs taller than [a constant](#flattenedaccentbaseheight) defined by the font). It should use a single substitution lookup:
 
 ```fea
 sub acutecomb by acutecomb.flac;
 ```
 
-### Dotless forms (`dtls`)
-Sometimes “i” and “j” glyphs loose their dot (title) when an accent is placed over them, e.g. $\hat{\imath}\ \hat{\jmath}$. This feature is used to substitute them with dotless alternate glyphs. It should use a single substitution lookup:
+### Dotless forms ([`dtls`](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ae#dtls))
+Sometimes “i” and “j” glyphs loose their dot (title) when an accent is placed over them:
+
+![Dotless versions of various “i” and “j” glyphs](./dtls.svg)
+
+This feature is used to substitute them with dotless alternate glyphs, and it should apply to all “i” and “j” glyphs (upright, italic, bold, script, fraktur, and so on). It should use a single substitution lookup:
 ```fea
 sub i by idotless;
 sub iitalic-math by iitalic-math.dotless;
