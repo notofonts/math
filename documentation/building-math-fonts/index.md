@@ -350,7 +350,7 @@ Italic correction has another role. When placing subscripts, they are placed hor
 
 There is a catch, though. For big operators, like integrals, the superscript will be placed directly after the base, when the subscript will be moved _inwards_ by the amount of italic correction 🤷🏾
 
-![Superscript positioning for big operators with italic correction](./italiccorrection-2.svg)
+![Superscript positioning for big operators with italic correction](./italiccorrection-3.svg)
 
 In Glyphs, the italic correction can be set by adding an anchor named `math.ic` (`ic` is short for _italic correction_). The vertical position of the anchor is ignored.
 
