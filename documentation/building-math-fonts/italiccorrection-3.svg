@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="105pt" height="113pt" version="1.1" viewBox="0 0 105 113" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <style>
+  @media (prefers-color-scheme: dark) {
+   use:not([fill]) {
+       fill: white;
+   }
+   path[stroke="#000"] {
+    stroke: white;
+   }
+   path[color="#000000"] {
+    fill: white;
+   }
+  }
+ </style>
+ <defs>
+  <path id="b" d="m0.050995-0.79201 0.034012 0.07901c0.019328-0.006673 0.037989-0.012171 0.055984-0.016495 0.018005-0.004333 0.035009-0.0065 0.05101-0.0065 0.026662 0 0.051158 0.007502 0.073486 0.022507 0.022339 0.014994 0.042842 0.040827 0.061508 0.077499 0.018667 0.036662 0.03567 0.087657 0.05101 0.15298 0.01533 0.066671 0.028493 0.14317 0.03949 0.22951 0.011007 0.086334 0.021006 0.1785 0.029999 0.27649 0.009003 0.098002 0.018173 0.19734 0.027512 0.298 0.01 0.106 0.019496 0.20916 0.028488 0.30949 0.009003 0.10034 0.019338 0.19484 0.031006 0.28351 0.011668 0.088664 0.025502 0.16799 0.041504 0.23799 0.018667 0.080668 0.042333 0.1455 0.070999 0.1945 0.028666 0.049001 0.060832 0.084498 0.096497 0.10649 0.035665 0.022003 0.073166 0.033005 0.1125 0.033005 0.023336 0 0.04717-0.00333 0.071503-0.00999s0.048833-0.016327 0.073502-0.028992l-0.034012-0.07901c-0.019328 0.00733-0.037994 0.013-0.056 0.016998-0.017995 0.00401-0.034994 0.00601-0.050995 0.00601-0.026662 0-0.051163-0.0075-0.073502-0.022507-0.022329-0.015007-0.042826-0.040845-0.061493-0.077517-0.018667-0.036662-0.03567-0.087657-0.05101-0.15298-0.011993-0.050669-0.022659-0.10801-0.031998-0.17201-0.0093282-0.063995-0.017827-0.13199-0.025497-0.20399-0.0076701-0.071991-0.014837-0.14582-0.0215-0.2215-0.006663-0.075663-0.013662-0.15116-0.020996-0.2265-0.0093383-0.10067-0.018509-0.2-0.027512-0.298-0.0089925-0.097992-0.018992-0.19065-0.029999-0.27798-0.010996-0.087341-0.024496-0.16567-0.040497-0.235-0.018667-0.080668-0.042333-0.1455-0.070999-0.1945-0.028666-0.049001-0.060669-0.084498-0.096008-0.10649-0.035329-0.022003-0.072993-0.033005-0.11299-0.033005-0.023336 0-0.04717 0.003331-0.071503 0.009995-0.024333 0.006663-0.048833 0.016327-0.073502 0.028991z"/>
+  <path id="a" d="m0 0 0.23399 0.27901-0.112 0.26399h0.136l0.064011-0.174 0.131 0.174h0.15199l-0.22699-0.271 0.12099-0.272h-0.13899l-0.069 0.17999-0.14-0.17999z"/>
+  <marker id="e" overflow="visible" markerHeight="1" markerWidth="1" orient="auto" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <g transform="scale(.6)">
+    <path d="m0-40"/>
+    <path d="m0 0 8 5v-10z" fill="context-stroke" fill-rule="evenodd"/>
+    <path d="m0-8v48" fill="none" stroke="context-stroke" stroke-linecap="square"/>
+   </g>
+  </marker>
+  <marker id="c" overflow="visible" markerHeight="1" markerWidth="1" orient="auto" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <g transform="scale(.6)">
+    <path d="m0-40"/>
+    <path d="m0 0-8 5v-10z" fill="context-stroke" fill-rule="evenodd"/>
+    <path d="m0-8v48" fill="none" stroke="context-stroke" stroke-linecap="square"/>
+   </g>
+  </marker>
+ </defs>
+ <use transform="matrix(41.511 0 0 -41.511 3.3751 69.05)" data-text="∫" xlink:href="#b"/>
+ <use transform="matrix(24.907 0 0 -24.907 47.042 17.325)" data-text="𝘹" xlink:href="#a"/>
+ <use transform="matrix(24.907 0 0 -24.907 26.288 109.35)" data-text="𝘹" xlink:href="#a"/>
+ <rect x="4.4817" y="7.8779" width="42.658" height="95.392" ry="0" fill="none" stroke="#fc96ff" stroke-dasharray="1" stroke-linejoin="round" stroke-miterlimit="4.2" stroke-width=".5" style="paint-order:fill markers stroke"/>
+ <path d="m26.313 91.208h20.673" fill="none" marker-end="url(#c)" marker-start="url(#e)" stroke="#0096ff" stroke-width=".5"/>
+ <text x="29.46777" y="82.177406" fill="#0098ff" font-family="'Noto Sans'" font-size="10px" stroke-width=".75" style="line-height:1.25" xml:space="preserve"><tspan x="29.46777" y="82.177406" fill="#0098ff" font-family="'Noto Sans'" font-size="10px" stroke-width=".75">italic correction</tspan></text>
+</svg>

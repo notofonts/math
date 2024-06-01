@@ -338,17 +338,19 @@ In FontForge, top accent position can be set from _Element → Glyph Info → Te
 ![FontForge TeX & Math window](./fontforge-ta-ic.png)
 
 #### Italic correction
-Math layout often involves a mix of italic and non-italic symbols next to each other. Since italics are usually designed with a negative right side bearing to improve spacing between italic glyphs, it also means when an italic is followed by a non-italic one, the glyphs might touch each other or generally have tighter spacing than desired:
+Math layout often involves a mix of italic and non-italic symbols next to each other. Since italics are usually designed with a negative right side bearing to improve spacing between italic glyphs, it also means when an italic is followed by a non-italic one, the glyphs might touch each other or generally have tighter spacing than desired. Compare spacing with italic correction applied (top) and without it (bottom):
 
-$$f(x) = |l|$$
+![Spacing with and without italic correction](./italiccorrection-1.svg)
 
 Italic correction is an additional space that is inserted after italic glyphs when followed by non-italic glyphs or at the end of inline math equations to fix this spacing issue.
 
 Italic correction has another role. When placing subscripts, they are placed horizontally right after the base glyph (using its advance width, not bounding box), but superscripts are shifted by italic correction of the base glyph (since italic glyphs lean to the right, the part that protrudes out is the top part):
 
-$$f^x_x$$
+![Superscript positioning with italic correction](./italiccorrection-2.svg)
 
 There is a catch, though. For big operators, like integrals, the superscript will be placed directly after the base, when the subscript will be moved _inwards_ by the amount of italic correction 🤷🏾
+
+![Superscript positioning for big operators with italic correction](./italiccorrection-2.svg)
 
 In Glyphs, the italic correction can be set by adding an anchor named `math.ic` (`ic` is short for _italic correction_). The vertical position of the anchor is ignored.
 
