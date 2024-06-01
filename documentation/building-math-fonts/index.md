@@ -374,15 +374,11 @@ In FontForge, math kerning can be set from _Element → Glyph Info → TeX & Mat
 ![FontForge math kerning window](./fontforge-mathkern.png)
 
 #### Extended shape
-The rules for the vertical positioning of superscripts and subscripts are designed so that they remain aligned regardless of the height of the base. Note how the superscript is on the same position for the two different bases here $A^2 a^2$. But some symbols are very tall, and applying the same rules to them will result in too low superscript, or too high subscript:
+The rules for the vertical positioning of superscripts and subscripts are designed so that they remain aligned regardless of the height of the base. Note how the superscript is on the same position for the two different bases here $A^2 a^2$. But some symbols are very tall, and applying the same rules to them will result in too low superscript, or too high subscript. So such symbols need to be classified as extended shape symbols, so that the superscript and subscript are positioned relative to the whole expression:
 
-$$\Bigl(\frac{A}{B}\Bigr){}^2_2 \quad A^2_2$$
+![Superscript and subscript position with extended shape](./extendedshape.svg)
 
-So such symbols need to be classified as extended shape symbols, so that the superscript and subscript are positioned relative to the whole expression:
-
-$$\Bigl(\frac{A}{B}\Bigr)^2_2 \quad A^2_2$$
-
-As a role of thumb, any glyph with vertical [size variants](#size-variants) should be classified as an extended shape. This includes things like delimiters of various kinds (parentheses, brackets, etc.), slashes, and big operators.
+As a rule of thumb, any glyph with vertical [size variants](#size-variants) should be classified as an extended shape. This includes things like delimiters of various kinds (parentheses, brackets, etc.), slashes, and big operators.
 
 Some implementations do not use the extended shape information and use other information to decide which algorithm to use for superscript and subscript position (TeX engines, for example, do not use extended shape information), so this needs to be tested with an implementation that is known to use it (like Microsoft’s).
 
