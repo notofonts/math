@@ -16,6 +16,8 @@ There is also [MathML Core](https://www.w3.org/TR/mathml-core/) specification, w
 ## Character set
 Math fonts require a large number of glyphs; the number can range from about 1000 to 6000 glyphs, depending on what character set is supported by the font. There is no single, well-defined character set for math fonts. Unicode includes thousands of math related characters, so each project defines its own character set based on its own requirements.
 
+The [symbols defined](https://texdoc.org/serve/unimath-symbols.pdf/0) by `unicode-math` LaTeX package is a good resource, and the subset of these symbols that are defined by Plain TeX, LaTeX, and `amssymb` (indicated in the document) should be a good start for new math fonts.
+
 Here are some of the Unicode blocks related to mathematics:
 
 ### Alphanumerics
