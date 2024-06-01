@@ -274,14 +274,12 @@ The denominator gap should be set to the same value as the numerator gap. For th
 #### `stackTopShiftUp`, `stackTopDisplayStyleShiftUp`, `stackBottomShiftDown`, `stackBottomDisplayStyleShiftDown`, `stackGapMin`, `stackDisplayStyleGapMin`
 Stacks are like fractions but without the fraction rule. The shift up and down should be set to the respective fraction shift up and down. The gap, however, is slightly different. There are no separate top and bottom gaps, but a single gap between the bottom of the top stack and the top of the bottom stacks. We might want the stacks to have roughly the same baseline as fraction numerators and denominators, so one way to achieve this is to set the stack gap to the numerator gap + denominator gap + `fractionRuleThickness`. Test equation:
 
-$$a\genfrac{}{}{0pt}{0}{a}{b} \genfrac{}{}{0pt}{0}{af}{b} \genfrac{}{}{0pt}{0}{af_{2_2}}{b}$$
+![Various stack constants in action](./stack.svg)
 
 #### `stretchStackTopShiftUp`, `stretchStackGapAboveMin`, `stretchStackBottomShiftDown`, `stretchStackGapBelowMin`
-Stretch stacks are when things are put above or below horizontally stretchable symbols, for example above arrows:
+Stretch stacks are when things are put above or below horizontally stretchable symbols, for example above arrows. Same strategy used for setting [upper limit](#upperlimitgapmin-upperlimitbaselineriseminn) and [lower limit](#lowerlimitgapmin-lowerlimitbaselinedropmin) rise and gap above can be used here.
 
-$$a\xrightarrow{a+b=c} b\xrightarrow[a+b=c]{} c\xrightarrow[a+b=c]{a+b=c}$$
-
-Same strategy used for setting shifts and gaps above can be used here.
+![Various stretch stack constants in action](./stretchstack.svg)
 
 #### `skewedFractionHorizontalGap`, `skewedFractionVerticalGap`
 Skewed fractions are fractions that use slash instead of horizontal bar.
