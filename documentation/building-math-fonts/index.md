@@ -329,7 +329,7 @@ As discussed earlier, accent positioning in math layout uses data from `MATH` ta
 
 The top accent position should be set on all alphabetic glyphs, as well as accents that go above the base (there is currently no `MATH` table data for horizontal position of bottom accents). If the top accent position is not set for a glyph, some implementations will fallback to half its advance width, but not all implementations do this.
 
-In Glyphs, the top accent position can be set by adding an anchor named `math.ta` (`ta` is short of _top accent_). The vertical position of the anchor is ignored. It will show a vertical line as well as an anchor cloud to help visualize the position:
+In Glyphs, the top accent position can be set by adding an anchor named `math.ta` (`ta` is short for _top accent_). The vertical position of the anchor is ignored. It will show a vertical line as well as an anchor cloud to help visualize the position:
 
 ![Glyphs top accent anchor](./glyphs-ta.png)
 
@@ -350,7 +350,7 @@ $$f^x_x$$
 
 There is a catch, though. For big operators, like integrals, the superscript will be placed directly after the base, when the subscript will be moved _inwards_ by the amount of italic correction 🤷🏾
 
-In Glyphs, the italic correction can be set by adding an anchor named `math.ic` (`ic` is short of _italic correction_). The vertical position of the anchor is ignored.
+In Glyphs, the italic correction can be set by adding an anchor named `math.ic` (`ic` is short for _italic correction_). The vertical position of the anchor is ignored.
 
 ![Glyphs italic correction anchor](./glyphs-ic.png)
 
