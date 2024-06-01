@@ -10,6 +10,9 @@ CSS = """\
    path[stroke="#000"] {
     stroke: white;
    }
+   path[color="#000000"] {
+    fill: white;
+   }
   }
  </style>"""
 
