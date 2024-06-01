@@ -320,7 +320,7 @@ These 3 constants control the position of the radical degree symbol (the 2 in $\
 * Then, the degree shifted horizontally by `radicalKernAfterDegree`, which should be a negative value to bring the degree above the short arm of the radical glyph and closer to the long arm. Again, the various sizes of the radical glyph should be taken into account when choosing this value.
 * Finally, `radicalKernBeforeDegree` is inserted before the degree glyph. This ensures that there is enough space before the degree even when it is more than one letter/symbol. It should be the same as the left side bearing of the radical glyph.
 
-![Radical constants in action](./radical-1.svg)
+![Radical constants in action](./radical-2.svg)
 
 ### Glyph-level data
 
