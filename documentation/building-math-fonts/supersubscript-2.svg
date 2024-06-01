@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="315pt" height="90pt" version="1.1" viewBox="0 0 315 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <path id="a" d="m0.215-0.0099945c-0.048665 0-0.088999 0.012833-0.121 0.038498-0.031993 0.025665-0.047989 0.065832-0.047989 0.1205 0 0.053334 0.020996 0.094498 0.062988 0.12349 0.042002 0.029002 0.10667 0.04484 0.194 0.047516l0.091003 0.002991v0.031998c0 0.044668-0.009669 0.075668-0.029007 0.093002-0.019328 0.017334-0.046656 0.026001-0.081986 0.026001-0.028005 0-0.054677-0.004166-0.080017-0.012497-0.02533-0.008331-0.048991-0.017832-0.070984-0.028503l-0.027008 0.065994c0.023336 0.012675 0.051 0.023509 0.082993 0.032501 0.032003 0.009003 0.065338 0.013504 0.10001 0.013504 0.065338 0 0.11367-0.014333 0.145-0.042999 0.031331-0.028666 0.046997-0.074331 0.046997-0.13699v-0.36501h-0.063995l-0.016998 0.076004h-0.003998c-0.023335-0.029338-0.047836-0.051005-0.073501-0.065002-0.025665-0.013997-0.061167-0.020996-0.10651-0.020996m0.020004 0.070999c0.045329 0 0.082993 0.012497 0.11299 0.037491 0.030009 0.025004 0.045013 0.063507 0.045013 0.11551v0.047989l-0.07901-0.002991c-0.066661-0.0026649-0.11283-0.013331-0.1385-0.031997-0.025665-0.018667-0.038498-0.045003-0.038498-0.07901 0-0.029999 0.009165-0.051997 0.027496-0.065994 0.018341-0.013997 0.041845-0.020996 0.070511-0.020996z"/>
+  <path id="d" d="m0.097 0v0.714h0.132v-0.606h0.30899v-0.108z"/>
+  <path id="b" d="m0.55901 0h-0.517v0.101l0.19299 0.186c0.036662 0.036001 0.066325 0.066167 0.088989 0.0905 0.022675 0.024333 0.039342 0.046829 0.050003 0.06749 0.010671 0.020671 0.016006 0.042674 0.016006 0.06601 0 0.03067-0.009165 0.053334-0.027496 0.067993-0.018331 0.014669-0.04183 0.022003-0.070496 0.022003-0.028676 0-0.056514-0.0065-0.083511-0.019501-0.026998-0.013-0.055496-0.031499-0.085495-0.055496l-0.082001 0.095001c0.021332 0.017334 0.043996 0.033834 0.067993 0.0495 0.024007 0.015666 0.051844 0.028498 0.083511 0.038498 0.031667 0.01 0.068832 0.014999 0.1115 0.014999 0.048004 0 0.089335-0.008336 0.12399-0.025009 0.034668-0.016663 0.061503-0.039495 0.080505-0.068497 0.019002-0.028992 0.028503-0.062154 0.028503-0.099487 0-0.041341-0.008169-0.078512-0.024506-0.11151-0.016327-0.033-0.039826-0.065501-0.070496-0.097504-0.03067-0.031993-0.068003-0.067322-0.112-0.10599l-0.098999-0.087997v-0.005005h0.328z"/>
+  <path id="c" d="m0.313-0.24001c-0.038666 0-0.074336 0.002502-0.10701 0.007507-0.032664 0.004995-0.06366 0.013494-0.092987 0.025497v0.10699c0.061991-0.027995 0.13132-0.041992 0.20799-0.041992 0.041331 0 0.072662 0.011332 0.093994 0.033997 0.021342 0.022664 0.032013 0.055333 0.032013 0.098007v0.013993c0 0.0093384 3.3059e-4 0.020838 9.9182e-4 0.0345 6.7138e-4 0.013672 0.001338 0.024506 0.001999 0.032501h-0.003998c-0.018666-0.027995-0.041336-0.048492-0.068008-0.061493-0.026662-0.013-0.056661-0.019501-0.089996-0.019501-0.065999 0-0.11767 0.024663-0.155 0.07399-0.037333 0.049337-0.056 0.11801-0.056 0.20601 0 0.088664 0.018834 0.15799 0.056503 0.20799 0.037669 0.049998 0.089834 0.074997 0.15649 0.074997 0.069336 0 0.12301-0.026662 0.16101-0.079987h0.00499l0.012009 0.069992h0.108v-0.54601c0-0.158-0.087667-0.237-0.263-0.237m0.014999 0.33301c0.043335 0 0.075165 0.011998 0.09549 0.035995 0.020335 0.023997 0.030502 0.064667 0.030502 0.12201v0.018997c0 0.063334-0.010168 0.10867-0.030502 0.136-0.020325 0.027334-0.052821 0.041-0.097488 0.041-0.077332 0-0.116-0.059336-0.116-0.17801 0-0.11733 0.039332-0.17599 0.118-0.17599z"/>
+  <clipPath id="o">
+   <g transform="matrix(.024006 0 0 -.024006 -4.7496 .89903)">
+    <path d="m47.826 617.73h531.12v-687.33h-531.12z" stroke-width=".86784"/>
+   </g>
+  </clipPath>
+  <clipPath id="g">
+   <g transform="matrix(.040346 0 0 -.040346 -8.9254 1.8639)">
+    <path d="m47.826 617.73h531.12v-687.33h-531.12z" stroke-width=".86784"/>
+   </g>
+  </clipPath>
+  <clipPath id="h">
+   <g transform="matrix(.048012 0 0 -.048012 -11.29 1.7581)">
+    <path d="m47.826 617.73h531.12v-687.33h-531.12z" stroke-width=".86784"/>
+   </g>
+  </clipPath>
+  <clipPath id="j">
+   <g transform="matrix(.024006 0 0 -.024006 -6.2696 .89903)">
+    <path d="m47.826 617.73h531.12v-687.33h-531.12z" stroke-width=".86784"/>
+   </g>
+  </clipPath>
+  <clipPath id="i">
+   <g transform="matrix(.040346 0 0 -.040346 -11.48 .85551)">
+    <path d="m47.826 617.73h531.12v-687.33h-531.12z" stroke-width=".86784"/>
+   </g>
+  </clipPath>
+  <clipPath id="n">
+   <g transform="matrix(.024006 0 0 -.024006 -7.5231 .89903)">
+    <path d="m47.826 617.73h531.12v-687.33h-531.12z" stroke-width=".86784"/>
+   </g>
+  </clipPath>
+  <clipPath id="m">
+   <g transform="matrix(.040346 0 0 -.040346 -13.587 2.116)">
+    <path d="m47.826 617.73h531.12v-687.33h-531.12z" stroke-width=".86784"/>
+   </g>
+  </clipPath>
+  <clipPath id="k">
+   <g transform="matrix(.048012 0 0 -.048012 -16.837 2.0481)">
+    <path d="m47.826 617.73h531.12v-687.33h-531.12z" stroke-width=".86784"/>
+   </g>
+  </clipPath>
+  <clipPath id="l">
+   <g transform="matrix(.040346 0 0 -.040346 -13.587 .55299)">
+    <path d="m47.826 617.73h531.12v-687.33h-531.12z" stroke-width=".86784"/>
+   </g>
+  </clipPath>
+  <marker id="f" overflow="visible" markerHeight="1" markerWidth="1" orient="auto" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <g transform="scale(.6)">
+    <path d="m0-40"/>
+    <path d="m0 0 8 5v-10z" fill="context-stroke" fill-rule="evenodd"/>
+    <path d="m0-8v48" fill="none" stroke="context-stroke" stroke-linecap="square"/>
+   </g>
+  </marker>
+  <marker id="e" overflow="visible" markerHeight="1" markerWidth="1" orient="auto" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <g transform="scale(.6)">
+    <path d="m0-40"/>
+    <path d="m0 0-8 5v-10z" fill="context-stroke" fill-rule="evenodd"/>
+    <path d="m0-8v48" fill="none" stroke="context-stroke" stroke-linecap="square"/>
+   </g>
+  </marker>
+ </defs>
+ <g fill="#000000">
+  <use transform="matrix(41.657 0 0 -41.657 106.92 44.951)" clip-path="url(#o)" data-text="a" xlink:href="#a"/>
+  <use transform="matrix(24.786 0 0 -24.786 130.29 53.698)" clip-path="url(#g)" data-text="L" xlink:href="#d"/>
+  <use transform="matrix(20.828 0 0 -20.828 144.22 44.117)" clip-path="url(#h)" data-text="2" xlink:href="#b"/>
+  <use transform="matrix(41.657 0 0 -41.657 185.24 44.951)" clip-path="url(#j)" data-text="a" xlink:href="#a"/>
+  <use transform="matrix(24.786 0 0 -24.786 208.61 28.704)" clip-path="url(#i)" data-text="g" xlink:href="#c"/>
+  <use transform="matrix(41.657 0 0 -41.657 252.46 44.951)" clip-path="url(#n)" data-text="a" xlink:href="#a"/>
+  <use transform="matrix(24.786 0 0 -24.786 275.83 59.947)" clip-path="url(#m)" data-text="L" xlink:href="#d"/>
+  <use transform="matrix(20.828 0 0 -20.828 289.75 50.158)" clip-path="url(#k)" data-text="2" xlink:href="#b"/>
+  <use transform="matrix(24.786 0 0 -24.786 275.83 21.206)" clip-path="url(#l)" data-text="g" xlink:href="#c"/>
+ </g>
+ <path d="m108.75 44.54h166.63" fill="none" stroke="#fc96ff" stroke-miterlimit="10" stroke-opacity=".67843" stroke-width=".82917"/>
+ <path d="m108.75 28.348h166.63" fill="none" stroke="#0096ff" stroke-miterlimit="10" stroke-opacity=".68" stroke-width=".82917"/>
+ <text x="11.49" y="59.952053" fill="#0098ff" font-family="'Noto Sans'" font-size="10px" stroke-width=".75" style="line-height:1.25" xml:space="preserve"><tspan x="11.49" y="59.952053" fill="#0098ff" font-family="'Noto Sans'" font-size="10px" stroke-width=".75">subscriptShiftDown</tspan></text>
+ <text x="15.189974" y="28.09803" fill="#0098ff" font-family="'Noto Sans'" font-size="10px" stroke-width=".75" style="line-height:1.25" xml:space="preserve"><tspan x="15.189974" y="28.09803" fill="#0098ff" font-family="'Noto Sans'" font-size="10px" stroke-width=".75">superscriptShiftUp</tspan></text>
+ <path d="m108.75 53.256h166.63" fill="none" stroke="#0096ff" stroke-miterlimit="10" stroke-opacity=".68" stroke-width=".82917"/>
+ <text x="55.957985" y="44.834129" fill="#fc96ff" font-family="'Noto Sans'" font-size="12px" stroke-width=".75" style="line-height:1.25" xml:space="preserve"><tspan x="55.957985" y="44.834129" fill="#fc96ff" font-family="'Noto Sans'" font-size="12px" stroke-width=".75">baseline</tspan></text>
+ <path d="m286.65 27.317v17.489" fill="none" marker-end="url(#e)" marker-start="url(#f)" stroke="#0096ff" stroke-width=".5"/>
+ <text x="129.19894" y="77.4104" fill="#0098ff" font-family="'Noto Sans'" font-size="10px" stroke-width=".75" style="line-height:1.25" xml:space="preserve"><tspan x="129.19894" y="77.4104" fill="#0098ff" font-family="'Noto Sans'" font-size="10px" stroke-width=".75">superscriptBottomMaxWithSubscript</tspan></text>
+</svg>
