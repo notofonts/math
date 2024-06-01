@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="75pt" height="57pt" version="1.1" viewBox="0 0 75 57" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <style>
+  @media (prefers-color-scheme: dark) {
+   use:not([fill]) {
+       fill: white;
+   }
+   path[stroke="#000"] {
+    stroke: white;
+   }
+   path[color="#000000"] {
+    fill: white;
+   }
+  }
+ </style>
+ <defs>
+  <path id="b" d="m0.084-0.24001c-0.012665 0-0.024333 0.001002-0.035004 0.003006-0.010661 0.002004-0.020325 0.004339-0.028992 0.007004v0.07399c0.0093282-0.002665 0.018326-0.005163 0.026993-0.007492 0.008667-0.00234 0.018336-0.00351 0.029007-0.00351 0.023997 0 0.042658 0.009837 0.055984 0.02951 0.013336 0.019664 0.024007 0.047831 0.032013 0.084503l0.11 0.52199h-0.093002l0.007004 0.037002 0.099991 0.033005 0.011002 0.048004c0.010671 0.046 0.023839 0.081833 0.039505 0.1075s0.035166 0.043828 0.058502 0.054489c0.023336 0.010671 0.051336 0.016006 0.084 0.016006 0.016663 0 0.033829-0.001836 0.051498-0.005508 0.01767-0.003662 0.031835-0.008158 0.042496-0.013489l-0.022995-0.067001c-0.009338 0.003337-0.019506 0.0065-0.030502 0.009491-0.010997 0.003001-0.023163 0.004501-0.036499 0.004501-0.026001 0-0.046504-0.007334-0.061508-0.022003-0.014994-0.014659-0.027161-0.042653-0.036499-0.083984l-0.011993-0.05101h0.11501l-0.013-0.067001h-0.11501l-0.112-0.532c-0.011332-0.055328-0.029831-0.098658-0.055496-0.12999-0.025665-0.031342-0.0625-0.047012-0.1105-0.047012z"/>
+  <path id="a" d="m0 0 0.23399 0.27901-0.112 0.26399h0.136l0.064011-0.174 0.131 0.174h0.15199l-0.22699-0.271 0.12099-0.272h-0.13899l-0.069 0.17999-0.14-0.17999z"/>
+  <marker id="e" overflow="visible" markerHeight="1" markerWidth="1" orient="auto" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <g transform="scale(.6)">
+    <path d="m0-40"/>
+    <path d="m0 0 8 5v-10z" fill="context-stroke" fill-rule="evenodd"/>
+    <path d="m0-8v48" fill="none" stroke="context-stroke" stroke-linecap="square"/>
+   </g>
+  </marker>
+  <marker id="c" overflow="visible" markerHeight="1" markerWidth="1" orient="auto" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <g transform="scale(.6)">
+    <path d="m0-40"/>
+    <path d="m0 0-8 5v-10z" fill="context-stroke" fill-rule="evenodd"/>
+    <path d="m0-8v48" fill="none" stroke="context-stroke" stroke-linecap="square"/>
+   </g>
+  </marker>
+ </defs>
+ <use transform="matrix(41.511 0 0 -41.511 14.304 44.554)" data-text="𝑓" xlink:href="#b"/>
+ <use transform="matrix(24.907 0 0 -24.907 39 28.367)" data-text="𝘹" xlink:href="#a"/>
+ <use transform="matrix(24.907 0 0 -24.907 32.983 53.275)" data-text="𝘹" xlink:href="#a"/>
+ <rect x="14.295" y="13.244" width="18.347" height="40.951" ry="0" fill="none" stroke="#fc96ff" stroke-dasharray="1" stroke-linejoin="round" stroke-miterlimit="4.2" stroke-width=".5" style="paint-order:fill markers stroke"/>
+ <path d="m33.042 18.733h5.6729" fill="none" marker-end="url(#c)" marker-start="url(#e)" stroke="#0096ff" stroke-width=".5"/>
+ <text x="1.5256038" y="9.7268753" fill="#0098ff" font-family="'Noto Sans'" font-size="10px" stroke-width=".75" style="line-height:1.25" xml:space="preserve"><tspan x="1.5256038" y="9.7268753" fill="#0098ff" font-family="'Noto Sans'" font-size="10px" stroke-width=".75">italic correction</tspan></text>
+</svg>

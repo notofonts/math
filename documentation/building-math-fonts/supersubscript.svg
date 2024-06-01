@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="339pt" height="90pt" version="1.1" viewBox="0 0 339 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <style>
+  @media (prefers-color-scheme: dark) {
+   use:not([fill]) {
+       fill: white;
+   }
+   path[stroke="#000"] {
+    stroke: white;
+   }
+   path[color="#000000"] {
+    fill: white;
+   }
+  }
+ </style>
+ <defs>
+  <path id="a" d="m0 0 0.27901 0.717h0.080994l0.278-0.717h-0.093002l-0.085999 0.22099h-0.283l-0.084991-0.22099h-0.091003m0.20599 0.30099h0.22601l-0.080002 0.216c-0.002004 0.00533-0.005341 0.014994-0.01001 0.028992-0.004659 0.014008-0.009155 0.028508-0.013489 0.043503-0.004333 0.015004-0.007838 0.026504-0.010513 0.0345-0.004659-0.02066-0.009989-0.040827-0.015991-0.060501-0.006002-0.019664-0.011002-0.035161-0.014999-0.046494z"/>
+  <path id="c" d="m0.313-0.24001c-0.038666 0-0.074336 0.002502-0.10701 0.007507-0.032664 0.004995-0.06366 0.013494-0.092987 0.025497v0.10699c0.061991-0.027995 0.13132-0.041992 0.20799-0.041992 0.041331 0 0.072662 0.011332 0.093994 0.033997 0.021342 0.022664 0.032013 0.055333 0.032013 0.098007v0.013993c0 0.0093384 3.3059e-4 0.020838 9.9182e-4 0.0345 6.7138e-4 0.013672 0.001338 0.024506 0.001999 0.032501h-0.003998c-0.018666-0.027995-0.041336-0.048492-0.068008-0.061493-0.026662-0.013-0.056661-0.019501-0.089996-0.019501-0.065999 0-0.11767 0.024663-0.155 0.07399-0.037333 0.049337-0.056 0.11801-0.056 0.20601 0 0.088664 0.018834 0.15799 0.056503 0.20799 0.037669 0.049998 0.089834 0.074997 0.15649 0.074997 0.069336 0 0.12301-0.026662 0.16101-0.079987h0.00499l0.012009 0.069992h0.108v-0.54601c0-0.158-0.087667-0.237-0.263-0.237m0.014999 0.33301c0.043335 0 0.075165 0.011998 0.09549 0.035995 0.020335 0.023997 0.030502 0.064667 0.030502 0.12201v0.018997c0 0.063334-0.010168 0.10867-0.030502 0.136-0.020325 0.027334-0.052821 0.041-0.097488 0.041-0.077332 0-0.116-0.059336-0.116-0.17801 0-0.11733 0.039332-0.17599 0.118-0.17599z"/>
+  <path id="b" d="m0.097 0v0.714h0.132v-0.606h0.30899v-0.108z"/>
+  <marker id="e" overflow="visible" markerHeight="1" markerWidth="1" orient="auto" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <g transform="scale(.6)">
+    <path d="m0-40"/>
+    <path d="m0 0 8 5v-10z" fill="context-stroke" fill-rule="evenodd"/>
+    <path d="m0-8v48" fill="none" stroke="context-stroke" stroke-linecap="square"/>
+   </g>
+  </marker>
+  <marker id="d" overflow="visible" markerHeight="1" markerWidth="1" orient="auto" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <g transform="scale(.6)">
+    <path d="m0-40"/>
+    <path d="m0 0-8 5v-10z" fill="context-stroke" fill-rule="evenodd"/>
+    <path d="m0-8v48" fill="none" stroke="context-stroke" stroke-linecap="square"/>
+   </g>
+  </marker>
+ </defs>
+ <path d="m110.3 49.988h196.63" fill="none" stroke="#fc96ff" stroke-miterlimit="10" stroke-opacity=".67843" stroke-width=".82917"/>
+ <path d="m110.3 33.796h196.63" fill="none" stroke="#0096ff" stroke-miterlimit="10" stroke-opacity=".68" stroke-width=".82917"/>
+ <text x="13.04002" y="65.400002" fill="#0098ff" font-family="'Noto Sans'" font-size="10px" stroke-width=".75" style="line-height:1.25" xml:space="preserve"><tspan x="13.04002" y="65.400002" fill="#0098ff" font-family="'Noto Sans'" font-size="10px" stroke-width=".75">subscriptShiftDown</tspan></text>
+ <path d="m320.72 32.709v6.3317" fill="none" marker-end="url(#d)" marker-start="url(#e)" stroke="#0096ff" stroke-width=".5"/>
+ <text x="16.739998" y="33.545979" fill="#0098ff" font-family="'Noto Sans'" font-size="10px" stroke-width=".75" style="line-height:1.25" xml:space="preserve"><tspan x="16.739998" y="33.545979" fill="#0098ff" font-family="'Noto Sans'" font-size="10px" stroke-width=".75">superscriptShiftUp</tspan></text>
+ <path d="m110.3 58.704h196.63" fill="none" stroke="#0096ff" stroke-miterlimit="10" stroke-opacity=".68" stroke-width=".82917"/>
+ <use transform="matrix(41.511 0 0 -41.511 110.3 50.4)" data-text="A" xlink:href="#a"/>
+ <use transform="matrix(24.907 0 0 -24.907 136.83 34.212)" data-text="𝗀" xlink:href="#c"/>
+ <use transform="matrix(41.511 0 0 -41.511 196.46 50.4)" data-text="A" xlink:href="#a"/>
+ <use transform="matrix(24.907 0 0 -24.907 222.99 59.117)" data-text="𝖫" xlink:href="#b"/>
+ <use transform="matrix(41.511 0 0 -41.511 280.18 50.4)" data-text="A" xlink:href="#a"/>
+ <use transform="matrix(24.907 0 0 -24.907 306.71 26.575)" data-text="𝗀" xlink:href="#c"/>
+ <use transform="matrix(24.907 0 0 -24.907 306.71 56.975)" data-text="𝖫" xlink:href="#b"/>
+ <text x="57.507996" y="50.282082" fill="#fc96ff" font-family="'Noto Sans'" font-size="12px" stroke-width=".75" style="line-height:1.25" xml:space="preserve"><tspan x="57.507996" y="50.282082" fill="#fc96ff" font-family="'Noto Sans'" font-size="12px" stroke-width=".75">baseline</tspan></text>
+ <text x="215.6077" y="77.74752" fill="#0098ff" font-family="'Noto Sans'" font-size="10px" stroke-width=".75" style="line-height:1.25" xml:space="preserve"><tspan x="215.6077" y="77.74752" fill="#0098ff" font-family="'Noto Sans'" font-size="10px" stroke-width=".75">subSuperscriptGapMin</tspan></text>
+</svg>
