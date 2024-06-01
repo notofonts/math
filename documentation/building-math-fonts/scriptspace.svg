@@ -14,6 +14,6 @@
  <use transform="matrix(41.511 0 0 -41.511 141.24 42.275)" data-text="a" xlink:href="#b"/>
  <use transform="matrix(24.907 0 0 -24.907 164.52 26.088)" data-text="𝖴" xlink:href="#a"/>
  <use transform="matrix(41.511 0 0 -41.511 183.68 42.275)" data-text="}" xlink:href="#c"/>
- <rect x="64.258" y="8.3251" width="5.0932" height="28.446" ry="0" fill="#0096ff" fill-opacity=".26943" style="paint-order:fill markers stroke"/>
- <rect x="179.76" y="8.3251" width="5.0932" height="28.446" ry="0" fill="#0096ff" fill-opacity=".26943" style="paint-order:fill markers stroke"/>
+ <path d="m64.258 8.3251h5.0932v40.611h-5.0932z" fill="#0096ff" fill-opacity=".26943" stroke-linejoin="round" stroke-miterlimit="4.2" stroke-opacity=".68" stroke-width=".5" style="paint-order:fill markers stroke"/>
+ <path d="m181.43 8.3251h3.4207v40.504h-3.4207z" fill="#0096ff" fill-opacity=".26943" stroke-linejoin="round" stroke-miterlimit="4.2" stroke-opacity=".68" stroke-width=".5" style="paint-order:fill markers stroke"/>
 </svg>
