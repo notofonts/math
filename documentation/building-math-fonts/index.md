@@ -257,7 +257,7 @@ These constants control how much numerators in fractions get shifted up. Each co
 * Then, the fraction rule will be drawn around `axisHeight` (with half its thickness above it, and the other half below it).
 * Then, if the gap between the bottom the numerator and the top of the top of the fraction rule is less than `fractionNumeratorGapMin`, the numerator is further shifted up until the gap is equal to it.
 
-The spec suggests setting `fractionNumeratorShiftUp` to the default rule thickness, and `fractionNumDisplayStyleGapMin` to 3 times it. For the shift up, and like we did with limits, we want the baseline of numerators with and without descenders to be the same, so one way to set `fractionNumeratorShiftUp` and `fractionNumeratorDisplayStyleShiftUp` it to set it to the respective gap + `axisHeight` + `fractionRuleThickness`/2 + lowercase descender. Test equation:
+The spec suggests setting `fractionNumeratorGapMin` to the default rule thickness, and `fractionNumDisplayStyleGapMin` to 3 times it. For the shift up, and like we did with limits, we want the baseline of numerators with and without descenders to be the same, so one way to set `fractionNumeratorShiftUp` and `fractionNumeratorDisplayStyleShiftUp` it to set it to the respective gap + `axisHeight` + `fractionRuleThickness`/2 + lowercase descender. Test equation:
 
 ![Various numerator constants in action](./fraction.svg)
 
@@ -267,7 +267,7 @@ These constants control how much denominators in fractions get shifted down.
 * First, the denominator baseline is shifted below the current baseline by `fractionDenominatorShiftDown`.
 * Then if the gap between the top of the denominator and the bottom of the fraction rule is less than `fractionDenominatorGapMin`, the denominator is further shifted down until the gap is equal to it.
 
-The denominator gap should be set to the same value as the numerator gap. For the shift down, , and like we did with limits, we want the baseline of denominators with and without ascenders to be the same, one way to set `fractionDenominatorShiftDown` and `fractionDenominatorDisplayStyleShiftDown` is to set it to the respective gap + `axisHeight` + `fractionRuleThickness`/2 + cap height or lower case ascender (whichever is bigger).
+The denominator gap should be set to the same value as the numerator gap. For the shift down, and like we did with limits, we want the baseline of denominators with and without ascenders to be the same, one way to set `fractionDenominatorShiftDown` and `fractionDenominatorDisplayStyleShiftDown` is to set it to the respective gap - `axisHeight` + `fractionRuleThickness`/2 + cap height or lower case ascender (whichever is bigger).
 
 ![Various denominator constants in action](./fraction-2.svg)
 

@@ -34,26 +34,28 @@
    </g>
   </marker>
  </defs>
- <use transform="matrix(41.511 0 0 -41.511 188.3 60.4)" data-text="𝑎" xlink:href="#a"/>
- <use transform="matrix(41.511 0 0 -41.511 216.86 30.925)" data-text="𝑎" xlink:href="#a"/>
- <path d="m216.86 48.858h23.579" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.9458"/>
- <use transform="matrix(41.511 0 0 -41.511 216.86 93.608)" data-text="𝑎" xlink:href="#a"/>
- <use transform="matrix(41.511 0 0 -41.511 259.74 30.925)" data-text="𝑎" xlink:href="#a"/>
- <path d="m250.4 48.858h42.258" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.9458"/>
- <use transform="matrix(41.511 0 0 -41.511 250.4 94.542)" data-text="𝑎" xlink:href="#a"/>
- <use transform="matrix(41.511 0 0 -41.511 273.98 94.542)" data-text="𝑓" xlink:href="#b"/>
- <use transform="matrix(41.511 0 0 -41.511 329.77 30.925)" data-text="𝑎" xlink:href="#a"/>
- <path d="m302.62 48.858h77.875" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.9458"/>
- <use transform="matrix(41.511 0 0 -41.511 302.62 96.408)" data-text="𝑎" xlink:href="#a"/>
- <use transform="matrix(41.511 0 0 -41.511 326.2 96.408)" data-text="𝑓" xlink:href="#b"/>
- <use transform="matrix(24.907 0 0 -24.907 350.9 84.788)" data-text="𝟤" xlink:href="#h"/>
- <use transform="matrix(20.755 0 0 -20.755 365.35 77.812)" data-text="𝟤" xlink:href="#g"/>
+ <g transform="translate(180 .2505)">
+  <use transform="matrix(41.511 0 0 -41.511 8.3042 60.15)" data-text="𝑎" xlink:href="#a"/>
+  <use transform="matrix(41.511 0 0 -41.511 36.862 30.929)" data-text="𝑎" xlink:href="#a"/>
+  <path transform="matrix(4.1667 0 0 -4.1667 36.862 48.613)" d="m0 0h5.659" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width=".707"/>
+  <use transform="matrix(41.511 0 0 -41.511 36.862 88.087)" data-text="𝑎" xlink:href="#a"/>
+  <use transform="matrix(41.511 0 0 -41.511 79.742 30.929)" data-text="𝑎" xlink:href="#a"/>
+  <path transform="matrix(4.1667 0 0 -4.1667 70.404 48.613)" d="m0 0h10.142" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width=".707"/>
+  <use transform="matrix(41.511 0 0 -41.511 70.404 88.087)" data-text="𝑎" xlink:href="#a"/>
+  <use transform="matrix(41.511 0 0 -41.511 93.982 88.087)" data-text="𝑓" xlink:href="#b"/>
+  <use transform="matrix(41.511 0 0 -41.511 149.77 30.929)" data-text="𝑎" xlink:href="#a"/>
+  <path transform="matrix(4.1667 0 0 -4.1667 122.62 48.613)" d="m0 0h18.69" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width=".707"/>
+  <use transform="matrix(41.511 0 0 -41.511 122.62 89.933)" data-text="𝑎" xlink:href="#a"/>
+  <use transform="matrix(41.511 0 0 -41.511 146.2 89.933)" data-text="𝑓" xlink:href="#b"/>
+  <use transform="matrix(24.907 0 0 -24.907 170.9 78.312)" data-text="𝟤" xlink:href="#h"/>
+  <use transform="matrix(20.755 0 0 -20.755 185.35 71.337)" data-text="𝟤" xlink:href="#g"/>
+ </g>
  <g fill="none">
   <path d="m185.2 59.986h216.13" stroke="#fc96ff" stroke-miterlimit="10" stroke-opacity=".67843" stroke-width=".82917"/>
   <g stroke="#0096ff">
    <path d="m185.2 48.927h216.13" stroke-miterlimit="10" stroke-opacity=".68" stroke-width=".82917"/>
-   <path d="m227.77 60.564v32.888" marker-end="url(#d)" marker-start="url(#f)" stroke-width=".5"/>
-   <path d="m367.58 62.6v-12.13" marker-end="url(#c)" marker-start="url(#e)" stroke-width=".5"/>
+   <path d="m227.77 60.564v27.658" marker-end="url(#d)" marker-start="url(#f)" stroke-width=".5"/>
+   <path d="m375.08 56.406v-5.9361" marker-end="url(#c)" marker-start="url(#e)" stroke-width=".5"/>
   </g>
  </g>
  <g fill="#0098ff" font-family="'Noto Sans'" font-size="10px" stroke-width=".75">
@@ -62,4 +64,5 @@
   <text x="383.28387" y="70.494278" style="line-height:1.25" xml:space="preserve"><tspan x="383.28387" y="70.494278">fractionDenominatorGapMin</tspan><tspan x="383.28387" y="82.994278">fractionDenomDisplayStyleGapMin</tspan></text>
  </g>
  <text x="135.40796" y="60.280388" fill="#fc96ff" font-family="'Noto Sans'" font-size="12px" stroke-width=".75" style="line-height:1.25" xml:space="preserve"><tspan x="135.40796" y="60.280388" fill="#fc96ff" font-family="'Noto Sans'" font-size="12px" stroke-width=".75">baseline</tspan></text>
+ <path d="m218.2 87.931h126.13" fill="none" stroke="#fc96ff" stroke-miterlimit="10" stroke-opacity=".67843" stroke-width=".82917"/>
 </svg>
