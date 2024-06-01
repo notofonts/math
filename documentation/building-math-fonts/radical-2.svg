@@ -8,6 +8,9 @@
    path[stroke="#000"] {
     stroke: white;
    }
+   path[stroke="#000000"] {
+    stroke: white;
+   }
    path[color="#000000"] {
     fill: white;
    }
