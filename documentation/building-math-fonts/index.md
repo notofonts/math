@@ -391,15 +391,15 @@ In FontForge, it can be set from _Element → Glyph Info → TeX & Math_, but it
 #### Size variants
 In math many glyphs need to vary in size, one example of this is big operators that was [discussed earlier](#scriptpercentscaledown-scriptscriptpercentscaledown). Another example is delimiters like brackets and parentheses that need to grow up to cover its content:
 
-$$\nabla f(x_1,\dots,x_n) = \left(\frac{\partial f}{\partial x_1}, \dots, \frac{\partial f}{\partial x_n}\right)^T$$
+![Example of parentheses growing in size](./size-variants-1.svg)
 
 Or radicals:
 
-$$\sqrt{3 + 2\sqrt{2}} = \sqrt{1 + 2\sqrt{2} + 2} = \sqrt{1^2 + 2\sqrt{2} + \sqrt{2}^2} = \sqrt{\left(1 + \sqrt{2}\right)^2} = 1 + \sqrt{2}$$
+![Example of radicals growing in size](./size-variants-2.svg)
 
 Some symbols grow horizontally:
 
-$$\underbrace{\sqrt[n]{x} \times \sqrt[n]{x} \times \dots} = x$$
+![Example of under bracket growing in size](./size-variants-3.svg)
 
 For such symbols, a set of growing in size variants are designed, and mapping between base glyph and its list of alternates is provided in the `MATH` table. There are separate lists of vertical and horizontal variants. Usually a glyph either has vertical or horizontals alternates, but not both, though the spec allows both to exist. Implementations might not allow a given glyph to grow on both direction at the same time.
 
@@ -486,7 +486,7 @@ Though `radicalDegreeBottomRaisePercent` is a percent, which should give it some
 ### Variants
 When building size variants, some glyph like vertical bar seem simple enough that they can built from an assembly without needing any pre-built size variants. While this is true, delimiters are often used in pairs and users expect them to have the same size. But if one delimiter has pre-built size variants and the other have an assembly only, the closest glyph to the desired size will be picked for pre-built delimiter while the one with assembly will be (more or less) of the exact required size, and this discrepancy in size is not desirable.
 
-$$X = \left\\{x\in\mathbb{R} \middle| \int_0^xf(z)dx<0\right\\}$$
+![Example of mixed dimiliters](./size-variants-4.svg)
 
 So it is preferable to have the same number of variants and the same sizes for all delimiters.
 
