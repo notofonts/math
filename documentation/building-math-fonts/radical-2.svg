@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="510pt" height="166pt" version="1.1" viewBox="0 0 510 166" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <style>
+  path {
+   fill: black;
+  }
+  @media (prefers-color-scheme: dark) {
+   path {
+       fill: white;
+   }
+   path[stroke="#000"] {
+    stroke: white;
+   }
+  }
+ </style>
  <defs>
   <marker id="n" overflow="visible" markerHeight="1" markerWidth="1" orient="auto" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
    <path d="m0 4v-8" fill="none" stroke="context-stroke"/>
