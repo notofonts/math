@@ -245,7 +245,7 @@ One way to set those two constants, is to first find a gap that look good, say, 
 #### `lowerLimitGapMin`, `lowerLimitBaselineDropMin`
 The same as above but for lower limits. `lowerLimitGapMin` should be the same as `upperLimitGapMin`. Similarly to above, `lowerLimitBaselineDropMin` can be set to `upperLimitGapMin` + cap height or lower case ascender (whichever is bigger). The lower limits needs a bit more space for upper and lower limits to look evenly spaced, so may be add also default rule thickness to `lowerLimitBaselineDropMin`.
 
-![Effects of various constants on upper and lower limits](./limits)
+![Effects of various constants on upper and lower limits](./limits.svg)
 
 #### `fractionRuleThickness`
 The thickness of the fraction rule (bar). Should be the same thickness as the `minus` glyph.
