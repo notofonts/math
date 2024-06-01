@@ -240,14 +240,12 @@ In math, display operators typically have limits above and below them in display
 
 `upperLimitGapMin` is the minimum gap between the top of a base and the bottom of the upper limit. While `upperLimitBaselineRiseMin` is the minimum distance between the top of the base and the upper limit’s baseline. The math layout engine will raise the upper limit baseline by `upperLimitBaselineRiseMin` and if the gap between the top of the base and the bottom of the upper limit is less than `upperLimitGapMin`, it will raise it further until the gap is equal to it.
 
-One way to set those two constants, is to first find a gap that look good, say, 2 times the default rule thickness, and set `upperLimitGapMin` to that. Then find the deepest lowercase descender and set `upperLimitBaselineRiseMin` to the descender + `upperLimitGapMin`. This should make the baseline of the upper limit roughly at the same position when the upper limit has glyphs with and without descenders, which looks good when such limits occur close to each other. Test equation:
-
-$$\sum^n_{i+1} i \quad \sum^{n+q}_{j+1} j$$
+One way to set those two constants, is to first find a gap that look good, say, 2 times the default rule thickness, and set `upperLimitGapMin` to that. Then find the deepest lowercase descender and set `upperLimitBaselineRiseMin` to the descender + `upperLimitGapMin` (when calculating the descender, keep in mid that the limits will be set in first level script style, so the descender of `ssty` alternate glyphs should be used and it should be scaled down by [`scriptPercentScaleDown`](#scriptpercentscaledown-scriptscriptpercentscaledown)). This should make the baseline of the upper limit roughly at the same position when the upper limit has glyphs with and without descenders, which looks good when such limits occur close to each other.
 
 #### `lowerLimitGapMin`, `lowerLimitBaselineDropMin`
-The same as above but for lower limits. `lowerLimitGapMin` should be the same as `upperLimitGapMin`. Similarly to above, `lowerLimitBaselineDropMin` can be set to `upperLimitGapMin` + cap height or lower case ascender (whichever is bigger). Test equation:
+The same as above but for lower limits. `lowerLimitGapMin` should be the same as `upperLimitGapMin`. Similarly to above, `lowerLimitBaselineDropMin` can be set to `upperLimitGapMin` + cap height or lower case ascender (whichever is bigger). The lower limits needs a bit more space for upper and lower limits to look evenly spaced, so may be add also default rule thickness to `lowerLimitBaselineDropMin`.
 
-$$\sum^n_{i+1} i \quad \sum^n_{A+j} A$$
+![Effects of various constants on upper and lower limits](./limits)
 
 #### `fractionRuleThickness`
 The thickness of the fraction rule (bar). Should be the same thickness as the `minus` glyph.
