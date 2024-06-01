@@ -259,7 +259,7 @@ These constants control how much numerators in fractions get shifted up. Each co
 
 The spec suggests setting `fractionNumeratorShiftUp` to the default rule thickness, and `fractionNumDisplayStyleGapMin` to 3 times it. For the shift up, and like we did with limits, we want the baseline of numerators with and without descenders to be the same, so one way to set `fractionNumeratorShiftUp` and `fractionNumeratorDisplayStyleShiftUp` it to set it to the respective gap + `axisHeight` + `fractionRuleThickness`/2 + lowercase descender. Test equation:
 
-$$a\frac{a}{b} \frac{af}{b} \frac{af_{2_2}}{b}$$
+![Various numerator constants in action](./fraction.svg)
 
 #### `fractionDenominatorShiftDown`, `fractionDenominatorDisplayStyleShiftDown`, `fractionDenominatorGapMin`, `fractionDenomDisplayStyleGapMin`
 These constants control how much denominators in fractions get shifted down.
@@ -268,6 +268,8 @@ These constants control how much denominators in fractions get shifted down.
 * Then if the gap between the top of the denominator and the bottom of the fraction rule is less than `fractionDenominatorGapMin`, the denominator is further shifted down until the gap is equal to it.
 
 The denominator gap should be set to the same value as the numerator gap. For the shift down, , and like we did with limits, we want the baseline of denominators with and without ascenders to be the same, one way to set `fractionDenominatorShiftDown` and `fractionDenominatorDisplayStyleShiftDown` is to set it to the respective gap + `axisHeight` + `fractionRuleThickness`/2 + cap height or lower case ascender (whichever is bigger).
+
+![Various denominator constants in action](./fraction-2.svg)
 
 #### `stackTopShiftUp`, `stackTopDisplayStyleShiftUp`, `stackBottomShiftDown`, `stackBottomDisplayStyleShiftDown`, `stackGapMin`, `stackDisplayStyleGapMin`
 Stacks are like fractions but without the fraction rule. The shift up and down should be set to the respective fraction shift up and down. The gap, however, is slightly different. There are no separate top and bottom gaps, but a single gap between the bottom of the top stack and the top of the bottom stacks. We might want the stacks to have roughly the same baseline as fraction numerators and denominators, so one way to achieve this is to set the stack gap to the numerator gap + denominator gap + `fractionRuleThickness`. Test equation:
