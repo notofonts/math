@@ -1,10 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="84.166667pt" height="56.249998pt" viewBox="0 0 84.166667 56.249998">
  <style>
-  path {
-   fill: black;
-  }
   @media (prefers-color-scheme: dark) {
-   path {
+   use:not([fill]) {
        fill: white;
    }
    path[stroke="#000"] {

@@ -3,11 +3,8 @@ from pathlib import Path
 
 CSS = """\
  <style>
-  path {
-   fill: black;
-  }
   @media (prefers-color-scheme: dark) {
-   path {
+   use:not([fill]) {
        fill: white;
    }
    path[stroke="#000"] {

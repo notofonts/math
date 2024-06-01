@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="490pt" height="138.37pt" version="1.1" viewBox="0 0 490 138.37" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <style>
-  path {
-   fill: black;
-  }
   @media (prefers-color-scheme: dark) {
-   path {
+   use:not([fill]) {
        fill: white;
    }
    path[stroke="#000"] {
