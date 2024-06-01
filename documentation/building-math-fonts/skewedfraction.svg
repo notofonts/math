@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="236pt" height="156pt" version="1.1" viewBox="0 0 236 156" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <path id="h" d="m0.215-0.0099945c-0.048665 0-0.088999 0.012833-0.121 0.038498-0.031993 0.025665-0.047989 0.065832-0.047989 0.1205 0 0.053334 0.020996 0.094498 0.062988 0.12349 0.042002 0.029002 0.10667 0.04484 0.194 0.047516l0.091003 0.002991v0.031998c0 0.044668-0.009669 0.075668-0.029007 0.093002-0.019328 0.017334-0.046656 0.026001-0.081986 0.026001-0.028005 0-0.054677-0.004166-0.080017-0.012497-0.02533-0.008331-0.048991-0.017832-0.070984-0.028503l-0.027008 0.065994c0.023336 0.012675 0.051 0.023509 0.082993 0.032501 0.032003 0.009003 0.065338 0.013504 0.10001 0.013504 0.065338 0 0.11367-0.014333 0.145-0.042999 0.031331-0.028666 0.046997-0.074331 0.046997-0.13699v-0.36501h-0.063995l-0.016998 0.076004h-0.003998c-0.023335-0.029338-0.047836-0.051005-0.073501-0.065002-0.025665-0.013997-0.061167-0.020996-0.10651-0.020996m0.020004 0.070999c0.045329 0 0.082993 0.012497 0.11299 0.037491 0.030009 0.025004 0.045013 0.063507 0.045013 0.11551v0.047989l-0.07901-0.002991c-0.066661-0.0026649-0.11283-0.013331-0.1385-0.031997-0.025665-0.018667-0.038498-0.045003-0.038498-0.07901 0-0.029999 0.009165-0.051997 0.027496-0.065994 0.018341-0.013997 0.041845-0.020996 0.070511-0.020996z"/>
+  <path id="g" d="m0.339-0.0099945c-0.042002 0-0.07634 0.007665-0.10301 0.022995-0.026662 0.01533-0.047658 0.033661-0.062988 0.054993h-0.007004l-0.018005-0.067993h-0.062988v0.75999h0.087997v-0.185c0-0.022664-5.0354e-4 -0.043834-0.001511-0.063507-9.969e-4 -0.019664-0.002162-0.035161-0.003494-0.046494h0.005005c0.01533 0.022664 0.036326 0.041662 0.062988 0.056992 0.026672 0.01534 0.06101 0.02301 0.10301 0.02301 0.06666 0 0.12016-0.023168 0.16049-0.069504 0.040334-0.046326 0.060501-0.11549 0.060501-0.20749 0-0.092-0.020335-0.16134-0.061005-0.20801-0.04066-0.046661-0.093989-0.069992-0.15999-0.069992m-0.013 0.072998c0.047994 0 0.083822 0.017665 0.10748 0.052994 0.023672 0.035339 0.035507 0.086339 0.035507 0.153 0 0.13534-0.04833 0.203-0.14499 0.203-0.056671 0-0.096008-0.016337-0.11801-0.049011-0.021993-0.032664-0.03299-0.083328-0.03299-0.15199v-0.003998c0-0.065999 0.010834-0.1165 0.032501-0.1515 0.021668-0.034994 0.061834-0.05249 0.1205-0.05249z"/>
+  <path id="f" d="m0.0099945-0.27901 0.43901 1.178h0.088989l-0.439-1.178z"/>
+  <path id="i" d="m0 0"/>
+  <marker id="e" overflow="visible" markerHeight="1" markerWidth="1" orient="auto" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <g transform="scale(.6)">
+    <path d="m0-40"/>
+    <path d="m0 0 8 5v-10z" fill="context-stroke" fill-rule="evenodd"/>
+    <path d="m0-8v48" fill="none" stroke="context-stroke" stroke-linecap="square"/>
+   </g>
+  </marker>
+  <marker id="c" overflow="visible" markerHeight="1" markerWidth="1" orient="auto" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <g transform="scale(.6)">
+    <path d="m0-40"/>
+    <path d="m0 0-8 5v-10z" fill="context-stroke" fill-rule="evenodd"/>
+    <path d="m0-8v48" fill="none" stroke="context-stroke" stroke-linecap="square"/>
+   </g>
+  </marker>
+  <marker id="d" overflow="visible" markerHeight="1" markerWidth="1" orient="auto" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <g transform="scale(.6)">
+    <path d="m0-40"/>
+    <path d="m0 0 8 5v-10z" fill="context-stroke" fill-rule="evenodd"/>
+    <path d="m0-8v48" fill="none" stroke="context-stroke" stroke-linecap="square"/>
+   </g>
+  </marker>
+  <marker id="b" overflow="visible" markerHeight="1" markerWidth="1" orient="auto" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <g transform="scale(.6)">
+    <path d="m0-40"/>
+    <path d="m0 0-8 5v-10z" fill="context-stroke" fill-rule="evenodd"/>
+    <path d="m0-8v48" fill="none" stroke="context-stroke" stroke-linecap="square"/>
+   </g>
+  </marker>
+ </defs>
+ <use transform="matrix(50 0 0 -50 116.94 79.768)" fill="#000000" data-text=" " xlink:href="#i"/>
+ <g transform="matrix(2.1603 0 0 2.1603 -1.4654 -16.171)" fill="#000000">
+  <use transform="matrix(41.581 0 0 -41.581 2.044 33.452)" data-text="a" xlink:href="#h"/>
+  <use transform="matrix(41.581 0 0 -41.581 39.924 68.38)" data-text="b" xlink:href="#g"/>
+  <use transform="matrix(41.581 0 0 -41.581 21.275 51.748)" data-text="/" xlink:href="#f"/>
+ </g>
+ <text x="102.74949" y="62.327145" fill="#0098ff" font-family="'Noto Sans'" font-size="10px" stroke-width=".75" style="line-height:1.25" xml:space="preserve"><tspan x="102.74949" y="62.327145" fill="#0098ff">skewedFractionVerticalGap</tspan></text>
+ <g fill="none">
+  <path d="m46.228 106.62v-56.342" stroke="#0098ff" stroke-width=".3"/>
+  <path d="m46.22 85.164h46.035" marker-end="url(#c)" marker-start="url(#e)" stroke="#0096ff" stroke-width=".5"/>
+  <path d="m56.088 63.431v-7.188" marker-end="url(#b)" marker-start="url(#d)" stroke="#0096ff" stroke-width=".5"/>
+ </g>
+ <text x="26.354433" y="146.51268" fill="#0098ff" font-family="'Noto Sans'" font-size="10px" stroke-width=".75" style="line-height:1.25" xml:space="preserve"><tspan x="26.354433" y="146.51268">skewedFractionHorizontalGap</tspan></text>
+ <path d="m92.273 123.12v-56.342" fill="none" stroke="#0098ff" stroke-width=".3"/>
+ <path id="a" d="m50.08 56.252h56.342" fill="none" stroke="#0098ff" stroke-width=".3"/>
+ <use transform="translate(0 7.1985)" xlink:href="#a"/>
+</svg>

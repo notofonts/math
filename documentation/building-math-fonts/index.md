@@ -290,22 +290,20 @@ Skewed fractions are fractions that use slash instead of horizontal bar.
 
 If your font has pre-built fraction glyphs like `onehalf`, then these values can be taken by measuring the distance between the numerators and denominators in these glyphs.
 
+![Skewed fraction constants](./skewedfraction.svg)
+
 #### `overbarVerticalGap`, `overbarRuleThickness`, `overbarExtraAscender`
 The gap above averline, which in math is drawn instead of using a pre-built glyph (since it needs to be able to extend to cover any sub equation). The suggested value is 3 times the default rule thickness, but it might be a good idea to make the the overline and macron/overline accents in math have roughly the same position. The `overbarRuleThickness` should be the same as `overlinecomb` (U+0305) or `macroncomb` (U+0304) glyphs. `overbarExtraAscender` is extra space reserved over the overline (so that it does not touch the lines above it), and the suggested value for it is the default rule thickness.
 
- Test equation:
-
-$$\overline{a+b=c} \quad \bar{b} \quad \overbar{b}$$
+![Overbar constants](./overline.svg)
 
 #### `underbarVerticalGap`, `underbarRuleThickness`, `underbarExtraDescender`
 Similar to above, but for underlines. Test equation:
 
-$$\underline{a+q=c} \quad \underbar{q}$$
+![Underbar constants](./underline.svg)
 
 #### `radicalVerticalGap`, `radicalDisplayStyleVerticalGap`
-The space between the top of the content of a radical and the bar above it. The suggested value for `radicalVerticalGap` is 1 1⁄4 times the default rule thickness, and the suggested value for `radicalDisplayStyleVerticalGap` is default rule thickness + 1⁄4 x-height. Test equation:
-
-$$\sqrt{A^{2^{2^{2}}}}$$
+The space between the top of the content of a radical and the bar above it. The suggested value for `radicalVerticalGap` is 1 1⁄4 times the default rule thickness, and the suggested value for `radicalDisplayStyleVerticalGap` is default rule thickness + 1⁄4 x-height.
 
 #### `radicalRuleThickness`
 The thickness of the radical rule and should harmonize with its stroke thickness.
@@ -313,15 +311,16 @@ The thickness of the radical rule and should harmonize with its stroke thickness
 #### `radicalExtraAscender`
 Extra space above the radical, should be the same as `overbarExtraAscender`.
 
+![Radical vertical gap](./radical-1.svg)
+
 #### `radicalDegreeBottomRaisePercent`, `radicalKernBeforeDegree`, `radicalKernAfterDegree`
 These 3 constants control the position of the radical degree symbol (the 2 in $\sqrt[2]{x}$).
 
 * First, the degree is shifted vertically by `radicalDegreeBottomRaisePercent`, which is a percent of the bounding box height of the radical glyph. Since there can be multiple radical glyphs of different sizes, the value should be selected so that it give a good position of all of them. It should be slightly higher than the percent of the short arm of the radical glyph to the long arm.
 * Then, the degree shifted horizontally by `radicalKernAfterDegree`, which should be a negative value to bring the degree above the short arm of the radical glyph and closer to the long arm. Again, the various sizes of the radical glyph should be taken into account when choosing this value.
-* Finally, `radicalKernBeforeDegree` is inserted before the degree glyph. This ensures that there is enough space before the degree even when it is more than one letter/symbol.
+* Finally, `radicalKernBeforeDegree` is inserted before the degree glyph. This ensures that there is enough space before the degree even when it is more than one letter/symbol. It should be the same as the left side bearing of the radical glyph.
 
-Test equation:
-$$\\{\sqrt[2]{x}\\} \quad \\{\sqrt[abc]{x}\\} \quad \sqrt[2]{\frac{A^{2^{2^{2}}}}{A}}$$
+![Radical constants in action](./radical-1.svg)
 
 ### Glyph-level data
 
