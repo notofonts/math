@@ -20,24 +20,4 @@ ref = _part.rightanglebracket;
 width = 908;
 }
 );
-userData = {
-com.nagwa.MATHPlugin.extendedShape = 1;
-com.nagwa.MATHPlugin.variants = {
-vVariants = (
-"rightanglebracket-math",
-"rightanglebracket-math.s01",
-"rightanglebracket-math.s02",
-"rightanglebracket-math.s03",
-"rightanglebracket-math.s04",
-"rightanglebracket-math.s05",
-"rightanglebracket-math.s06",
-"rightanglebracket-math.s07",
-"rightanglebracket-math.s08",
-"rightanglebracket-math.s09",
-"rightanglebracket-math.s10",
-"rightanglebracket-math.s11",
-"rightanglebracket-math.s12"
-);
-};
-};
 }

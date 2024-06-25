@@ -64,7 +64,4 @@ ref = integral.ss02;
 width = 566;
 }
 );
-userData = {
-com.nagwa.MATHPlugin.extendedShape = 1;
-};
 }

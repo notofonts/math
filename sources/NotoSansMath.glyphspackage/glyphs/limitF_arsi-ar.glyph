@@ -13,7 +13,6 @@ width = 1477;
 );
 unicode = 126705;
 userData = {
-com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 hVariants = (
 "limitFarsi-ar",
