@@ -7,7 +7,7 @@ shapes = (
 {
 alignment = 1;
 pos = (1012,0);
-ref = rightArrowAboveTildeOperator;
+ref = rightArrowAboveAlmostEqualTo;
 scale = (-1,1);
 }
 );
