@@ -8,3 +8,10 @@
 #
 # Names should be added to this file as:
 # Name <email address>
+
+# MATH table and major update in v2.539
+Delve Witherington <delve.witherington@delvefonts.com>
+Jeff Kellem <typedesign@slantedhall.com>
+
+# Sans redesign and other updates in v3.000
+Khaled Hosny <khaled@aliftype.com>
