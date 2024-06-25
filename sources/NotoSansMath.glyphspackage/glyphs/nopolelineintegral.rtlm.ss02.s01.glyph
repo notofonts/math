@@ -217,7 +217,4 @@ width = 586;
 }
 );
 metricRight = "=51@-800";
-userData = {
-com.nagwa.MATHPlugin.extendedShape = 1;
-};
 }

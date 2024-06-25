@@ -68,7 +68,4 @@ ref = integral;
 width = 566;
 }
 );
-userData = {
-com.nagwa.MATHPlugin.extendedShape = 1;
-};
 }

@@ -14,7 +14,4 @@ ref = "_part.limitFarsi-ar";
 width = 2486;
 }
 );
-userData = {
-com.nagwa.MATHPlugin.extendedShape = 1;
-};
 }

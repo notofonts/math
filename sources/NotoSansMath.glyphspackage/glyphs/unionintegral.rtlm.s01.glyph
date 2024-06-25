@@ -21,7 +21,4 @@ scale = (-1,1);
 width = 1052;
 }
 );
-userData = {
-com.nagwa.MATHPlugin.extendedShape = 1;
-};
 }

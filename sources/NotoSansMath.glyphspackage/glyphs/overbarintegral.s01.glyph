@@ -26,7 +26,4 @@ width = 1052;
 );
 metricLeft = "=integral";
 metricRight = "=integral";
-userData = {
-com.nagwa.MATHPlugin.extendedShape = 1;
-};
 }

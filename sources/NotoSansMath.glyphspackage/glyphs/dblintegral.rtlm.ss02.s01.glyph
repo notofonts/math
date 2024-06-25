@@ -24,7 +24,4 @@ ref = integral.rtlm.ss02.s01;
 width = 731;
 }
 );
-userData = {
-com.nagwa.MATHPlugin.extendedShape = 1;
-};
 }
