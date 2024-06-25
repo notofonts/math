@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>GFR - Glyphs</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <style type="text/css">
+    
+
+        html{
+	  font-family: sans-serif;
+	}
+    @font-face {
+        font-family: "Adobe NotDef";
+        src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+    }
+	.box-title{
+	  width: 100%;
+	  font-size: 8pt;
+	  font-weight: 700;
+	  border-top: 1px solid black;
+	  padding-top: 5px;
+	  margin-bottom: 10pt;
+	  display: block;
+	}
+	.box{
+	  margin-bottom: 20pt;
+	  width: 100%;
+	  float: left;
+	}
+	.box-text{
+	}
+	
+	#nav{
+	  position: fixed;
+	  right: 20px;
+	  z-index: 100;
+	}
+	#font-toggle{
+	}
+	.nav-item{
+		display: block;
+		cursor: pointer;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+		text-align: center;
+		color: white;
+		background-color: black;
+		display: block;
+		font-size: 9pt;
+		padding: 5px;
+		margin: 2px;
+	}
+	.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	}
+
+	.tooltip .tooltiptext {
+	font-family: sans-serif;
+	visibility: hidden;
+	width: 500px;
+	background-color: black;
+	color: #fff;
+	text-align: left;
+	font-size: 12pt;
+	line-height: 15pt;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext {
+	padding: 10px;
+	visibility: visible;
+	}
+	.tooltipleft {
+		float:left;
+		width: 249px;
+	}
+	.tooltipright {
+		float:right;
+		width:250px;
+	}
+
+			/* Stuff needed for the table differ */
+            body {
+                font-family: Helvetica;
+            }
+            .node {
+                font-family: courier;
+                cursor: pointer;
+                position: relative;
+                left: 30px;
+                padding: 5px;
+                display: block;
+                border: 1px dashed grey;
+            }
+            .header {
+            font-weight: bold;
+            }
+            .attr-before{
+                color: red;
+                cursor: text;
+            }
+            .attr-after{
+                color: green;
+                cursor: text;
+            }
+            .leaf {
+            font-weight: bold;
+            }
+            .old .cell .new {
+            	display:  none;
+            }
+            .new .cell .old {
+            	display:  none;
+            }
+            .both .cell .old {
+            	opacity: 0.75;
+            	color:  red;
+            }
+            .both .cell .new {
+            	opacity: 0.75;
+            	position: absolute;
+            	top: 0;
+            	color:  green;
+            }
+			.spacer {
+				display:block;
+				float:left;
+				width:100%;
+			}
+
+	  
+	    @font-face{
+    src: url("old-NotoSansMath-Regular.ttf");
+    font-family: "old font";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+
+	  
+	    @font-face{
+    src: url("new-NotoSansMath-Regular.ttf");
+    font-family: "new font";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+
+	  
+
+	  
+	    .old-wght-400{
+    font-family: "old font", "Adobe NotDef";
+    font-weight: 400;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+}
+	  
+
+	  
+	    .new-wght-400{
+    font-family: "new font", "Adobe NotDef";
+    font-weight: 400;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+}
+	  
+
+	  
+	
+.cell{
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  width: 50pt;
+  line-height: 48.0px;
+}
+.cell-word{
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  line-height: 48.0px;
+}
+.cat-strings .cell {
+  clear: both;
+  position: static;
+  float: none;
+  text-align: left;
+}
+.box-title {
+  clear: both;
+}
+
+
+	   #ot-panel {
+		max-height: 400px;
+		overflow-y: scroll;
+		background: white;
+		padding: 10px;
+		display: none;
+	   }
+    </style>
+</head>
+<body>
+    <div id="nav">
+		
+			<div class="nav-item" id="font-toggle">old</div>
+		
+			<div class="nav-item" id="ot-button">OT features</div>
+			<div id="ot-panel">
+			</div>
+		
+	</div>
+    <div id="content">
+	<h2>
+<b>Diffenator</b>
+</h2>
+	
+  
+    <div class="box">
+    <div class="box-title">Tables</div>
+      <div data-path="root" data-open="0" id="difftable"></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+      <div class="box">
+        <div class="box-title">Modified encoded Glyphs</div>
+        <div class="box-text old-wght-400" style="font-size: 32pt">
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ⥵<br>
+        <span class="tooltiptext">
+            name: RIGHTWARDS ARROW ABOVE ALMOST EQUAL TO<br>
+            unicode: U+2975<br>
+            changed pixels: 1.24%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ⥴<br>
+        <span class="tooltiptext">
+            name: RIGHTWARDS ARROW ABOVE TILDE OPERATOR<br>
+            unicode: U+2974<br>
+            changed pixels: 1.14%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ⭉<br>
+        <span class="tooltiptext">
+            name: TILDE OPERATOR ABOVE LEFTWARDS ARROW<br>
+            unicode: U+2B49<br>
+            changed pixels: 1.12%
+        </span>
+    </div>
+</div>
+            </div>
+          
+          </div>
+      </div>
+    
+
+    
+      <div class="box">
+        <div class="box-title">Misshapen Common words</div>
+        <div class="box-text old-wght-400" style="font-size: 32pt">
+          
+        </div>
+      </div>
+    
+      <div class="box">
+        <div class="box-title">Misshapen Latin words</div>
+        <div class="box-text old-wght-400" style="font-size: 32pt">
+          
+        </div>
+      </div>
+    
+      <div class="box">
+        <div class="box-title">Misshapen Greek words</div>
+        <div class="box-text old-wght-400" style="font-size: 32pt">
+          
+        </div>
+      </div>
+    
+      <div class="box">
+        <div class="box-title">Misshapen Arabic words</div>
+        <div class="box-text old-wght-400" style="font-size: 32pt">
+          
+        </div>
+      </div>
+    
+    
+    <div class="box">
+      <div class="box-title">Misshapen user strings</div>
+      <div class="box-text old-wght-400" style="font-size: 32pt">
+        
+      </div>
+    </div>
+    
+
+    
+
+    </div>
+  
+<script>var fontdiff = {"glyf": {"glyphs": {"uni2B49": {"Contour: 0": {"Node: 5": {"x": [674, 627], "y": [458, 500]}, "Node: 19": {"x": [692, 516], "on": [1, 0], "y": [528, 458]}, "Node: 14": {"x": [517, 692], "on": [0, 1], "y": [471, 401]}, "Node: 16": {"x": [561, 611], "y": [471, 430]}, "Node: 9": {"x": [497, 744], "y": [401, 500]}, "Node: 6": {"x": [625, 675], "y": [430, 471]}, "Node: 10": {"x": [441, 751], "on": [0, 1], "y": [471, 529]}, "Node: 12": {"x": [485, 795], "on": [1, 0], "y": [529, 471]}, "Node: 2": {"x": [744, 497], "y": [429, 528]}, "Node: 21": {"x": [796, 485], "on": [0, 1], "y": [459, 400]}, "Node: 20": {"x": [739, 492], "y": [528, 429]}, "Node: 13": {"x": [493, 739], "y": [500, 401]}, "Node: 3": {"x": [720, 544], "on": [0, 1], "y": [458, 528]}, "Node: 8": {"x": [544, 719], "on": [1, 0], "y": [401, 471]}, "Node: 4": {"x": [696, 574], "on": [1, 0], "y": [458, 528]}, "Node: 0": {"x": [802, 434]}, "Node: 7": {"x": [572, 696], "on": [0, 1], "y": [401, 471]}, "Node: 17": {"x": [609, 562], "y": [500, 458]}, "Node: 1": {"x": [751, 440], "on": [1, 0], "y": [400, 459]}, "Node: 15": {"x": [540, 664], "on": [1, 0], "y": [471, 401]}, "Node: 11": {"x": [435, 801]}, "Node: 18": {"x": [663, 540], "on": [0, 1], "y": [528, 458]}}}, "uni2975": {"Contour: 2": {"Node: 38": {"x": [null, 240], "y": [null, -110], "on": [null, 1]}, "Node: 39": {"x": [null, 246], "y": [null, -51], "on": [null, 0]}, "Node: 40": {"x": [null, 303], "y": [null, 18], "on": [null, 0]}, "Node: 41": {"x": [null, 350], "y": [null, 18], "on": [null, 1]}, "Node: 42": {"x": [null, 380], "y": [null, 18], "on": [null, 0]}, "Node: 43": {"x": [null, 433], "y": [null, -10], "on": [null, 0]}, "Node: 44": {"x": [null, 481], "y": [null, -39], "on": [null, 0]}, "Node: 45": {"x": [null, 502], "y": [null, -39], "on": [null, 1]}, "Node: 46": {"x": [null, 525], "y": [null, -39], "on": [null, 0]}, "Node: 47": {"x": [null, 550], "y": [null, -10], "on": [null, 0]}, "Node: 48": {"x": [null, 557], "y": [null, 19], "on": [null, 1]}, "Node: 49": {"x": [null, 607], "y": [null, 19], "on": [null, 1]}, "Node: 50": {"x": [null, 601], "y": [null, -39], "on": [null, 0]}, "Node: 51": {"x": [null, 545], "y": [null, -109], "on": [null, 0]}, "Node: 52": {"x": [null, 498], "y": [null, -109], "on": [null, 1]}, "Node: 53": {"x": [null, 470], "y": [null, -109], "on": [null, 0]}, "Node: 54": {"x": [null, 417], "y": [null, -80], "on": [null, 0]}, "Node: 55": {"x": [null, 368], "y": [null, -52], "on": [null, 0]}, "Node: 56": {"x": [null, 346], "y": [null, -52], "on": [null, 1]}, "Node: 57": {"x": [null, 322], "y": [null, -52], "on": [null, 0]}, "Node: 58": {"x": [null, 298], "y": [null, -81], "on": [null, 0]}, "Node: 59": {"x": [null, 291], "y": [null, -110], "on": [null, 1]}}}, "uni2974": {"Contour: 2": {"Node: 38": {"x": [240, null], "y": [-110, null], "on": [1, null]}, "Node: 39": {"x": [246, null], "y": [-51, null], "on": [0, null]}, "Node: 40": {"x": [303, null], "y": [18, null], "on": [0, null]}, "Node: 41": {"x": [350, null], "y": [18, null], "on": [1, null]}, "Node: 42": {"x": [380, null], "y": [18, null], "on": [0, null]}, "Node: 43": {"x": [433, null], "y": [-10, null], "on": [0, null]}, "Node: 44": {"x": [481, null], "y": [-39, null], "on": [0, null]}, "Node: 45": {"x": [502, null], "y": [-39, null], "on": [1, null]}, "Node: 46": {"x": [525, null], "y": [-39, null], "on": [0, null]}, "Node: 47": {"x": [550, null], "y": [-10, null], "on": [0, null]}, "Node: 48": {"x": [557, null], "y": [19, null], "on": [1, null]}, "Node: 49": {"x": [607, null], "y": [19, null], "on": [1, null]}, "Node: 50": {"x": [601, null], "y": [-39, null], "on": [0, null]}, "Node: 51": {"x": [545, null], "y": [-109, null], "on": [0, null]}, "Node: 52": {"x": [498, null], "y": [-109, null], "on": [1, null]}, "Node: 53": {"x": [470, null], "y": [-109, null], "on": [0, null]}, "Node: 54": {"x": [417, null], "y": [-80, null], "on": [0, null]}, "Node: 55": {"x": [368, null], "y": [-52, null], "on": [0, null]}, "Node: 56": {"x": [346, null], "y": [-52, null], "on": [1, null]}, "Node: 57": {"x": [322, null], "y": [-52, null], "on": [0, null]}, "Node: 58": {"x": [298, null], "y": [-81, null], "on": [0, null]}, "Node: 59": {"x": [291, null], "y": [-110, null], "on": [1, null]}}}}}, "MATH": {"table": {"MathGlyphInfo": {"ExtendedShapeCoverage": {"glyphs": {"error": ["There are 281 changes, check manually!", ""]}}}, "MathVariants": {"VertGlyphConstruction": {"59": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni27E8", "slash"]}, "1": {"VariantGlyph": ["uni27E8.s01", "slash.s01"], "AdvanceMeasurement": [1177, 1178]}, "2": {"VariantGlyph": ["uni27E8.s02", "slash.s02"]}, "3": {"VariantGlyph": ["uni27E8.s03", "slash.s03"], "AdvanceMeasurement": [1648, 1649]}, "4": {"VariantGlyph": ["uni27E8.s04", "slash.s04"]}, "5": {"VariantGlyph": ["uni27E8.s05", "slash.s05"]}, "6": {"VariantGlyph": ["uni27E8.s06", "slash.s06"]}, "7": {"VariantGlyph": ["uni27E8.s07", "slash.s07"], "AdvanceMeasurement": [2590, 2591]}, "8": {"VariantGlyph": ["uni27E8.s08", "slash.s08"]}, "9": {"VariantGlyph": ["uni27E8.s09", "slash.s09"]}, "10": {"VariantGlyph": ["uni27E8.s10", "slash.s10"]}, "11": {"VariantGlyph": ["uni27E8.s11", "slash.s11"]}, "12": {"VariantGlyph": ["uni27E8.s12", "slash.s12"]}}}, "60": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni27E9", "backslash"]}, "1": {"VariantGlyph": ["uni27E9.s01", "backslash.s01"], "AdvanceMeasurement": [1177, 1178]}, "2": {"VariantGlyph": ["uni27E9.s02", "backslash.s02"]}, "3": {"VariantGlyph": ["uni27E9.s03", "backslash.s03"], "AdvanceMeasurement": [1648, 1649]}, "4": {"VariantGlyph": ["uni27E9.s04", "backslash.s04"]}, "5": {"VariantGlyph": ["uni27E9.s05", "backslash.s05"]}, "6": {"VariantGlyph": ["uni27E9.s06", "backslash.s06"]}, "7": {"VariantGlyph": ["uni27E9.s07", "backslash.s07"], "AdvanceMeasurement": [2590, 2591]}, "8": {"VariantGlyph": ["uni27E9.s08", "backslash.s08"]}, "9": {"VariantGlyph": ["uni27E9.s09", "backslash.s09"]}, "10": {"VariantGlyph": ["uni27E9.s10", "backslash.s10"]}, "11": {"VariantGlyph": ["uni27E9.s11", "backslash.s11"]}, "12": {"VariantGlyph": ["uni27E9.s12", "backslash.s12"]}}}, "61": {"VariantCount": [13, 2], "GlyphAssembly": {"ItalicsCorrection": {"Value": [null, 90]}, "PartCount": [null, 3], "PartRecords": {"0": {"glyph": [null, "uni2321"], "StartConnectorLength": [null, 0], "EndConnectorLength": [null, 1178], "FullAdvance": [null, 1362], "PartFlags": [null, 0]}, "1": {"glyph": [null, "uni23AE"], "StartConnectorLength": [null, 1362], "EndConnectorLength": [null, 1362], "FullAdvance": [null, 1362], "PartFlags": [null, 1]}, "2": {"glyph": [null, "uni2320"], "StartConnectorLength": [null, 1291], "EndConnectorLength": [null, 0], "FullAdvance": [null, 1475], "PartFlags": [null, 0]}}}, "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2991", "uni222B"], "AdvanceMeasurement": [942, 1131]}, "1": {"VariantGlyph": ["uni2991.s01", "uni222B.s01"], "AdvanceMeasurement": [1177, 2317]}, "2": {"VariantGlyph": ["uni2991.s02", null], "AdvanceMeasurement": [1413, null]}, "3": {"VariantGlyph": ["uni2991.s03", null], "AdvanceMeasurement": [1648, null]}, "4": {"VariantGlyph": ["uni2991.s04", null], "AdvanceMeasurement": [1884, null]}, "5": {"VariantGlyph": ["uni2991.s05", null], "AdvanceMeasurement": [2119, null]}, "6": {"VariantGlyph": ["uni2991.s06", null], "AdvanceMeasurement": [2355, null]}, "7": {"VariantGlyph": ["uni2991.s07", null], "AdvanceMeasurement": [2590, null]}, "8": {"VariantGlyph": ["uni2991.s08", null], "AdvanceMeasurement": [2826, null]}, "9": {"VariantGlyph": ["uni2991.s09", null], "AdvanceMeasurement": [3062, null]}, "10": {"VariantGlyph": ["uni2991.s10", null], "AdvanceMeasurement": [3297, null]}, "11": {"VariantGlyph": ["uni2991.s11", null], "AdvanceMeasurement": [3532, null]}, "12": {"VariantGlyph": ["uni2991.s12", null], "AdvanceMeasurement": [3768, null]}}}, "62": {"VariantCount": [13, 2], "GlyphAssembly": {"ItalicsCorrection": {"Value": [null, 90]}, "PartCount": [null, 3], "PartRecords": {"0": {"glyph": [null, "uni222C.b"], "StartConnectorLength": [null, 0], "EndConnectorLength": [null, 1178], "FullAdvance": [null, 1362], "PartFlags": [null, 0]}, "1": {"glyph": [null, "uni222C.x"], "StartConnectorLength": [null, 1362], "EndConnectorLength": [null, 1362], "FullAdvance": [null, 1362], "PartFlags": [null, 1]}, "2": {"glyph": [null, "uni222C.t"], "StartConnectorLength": [null, 1291], "EndConnectorLength": [null, 0], "FullAdvance": [null, 1475], "PartFlags": [null, 0]}}}, "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2992", "uni222C"], "AdvanceMeasurement": [942, 1131]}, "1": {"VariantGlyph": ["uni2992.s01", "uni222C.s01"], "AdvanceMeasurement": [1177, 2317]}, "2": {"VariantGlyph": ["uni2992.s02", null], "AdvanceMeasurement": [1413, null]}, "3": {"VariantGlyph": ["uni2992.s03", null], "AdvanceMeasurement": [1648, null]}, "4": {"VariantGlyph": ["uni2992.s04", null], "AdvanceMeasurement": [1884, null]}, "5": {"VariantGlyph": ["uni2992.s05", null], "AdvanceMeasurement": [2119, null]}, "6": {"VariantGlyph": ["uni2992.s06", null], "AdvanceMeasurement": [2355, null]}, "7": {"VariantGlyph": ["uni2992.s07", null], "AdvanceMeasurement": [2590, null]}, "8": {"VariantGlyph": ["uni2992.s08", null], "AdvanceMeasurement": [2826, null]}, "9": {"VariantGlyph": ["uni2992.s09", null], "AdvanceMeasurement": [3062, null]}, "10": {"VariantGlyph": ["uni2992.s10", null], "AdvanceMeasurement": [3297, null]}, "11": {"VariantGlyph": ["uni2992.s11", null], "AdvanceMeasurement": [3532, null]}, "12": {"VariantGlyph": ["uni2992.s12", null], "AdvanceMeasurement": [3768, null]}}}, "63": {"VariantCount": [13, 2], "GlyphAssembly": {"ItalicsCorrection": {"Value": [null, 90]}, "PartCount": [null, 3], "PartRecords": {"0": {"glyph": [null, "uni222D.b"], "StartConnectorLength": [null, 0], "EndConnectorLength": [null, 1178], "FullAdvance": [null, 1362], "PartFlags": [null, 0]}, "1": {"glyph": [null, "uni222D.x"], "StartConnectorLength": [null, 1362], "EndConnectorLength": [null, 1362], "FullAdvance": [null, 1362], "PartFlags": [null, 1]}, "2": {"glyph": [null, "uni222D.t"], "StartConnectorLength": [null, 1291], "EndConnectorLength": [null, 0], "FullAdvance": [null, 1475], "PartFlags": [null, 0]}}}, "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["slash", "uni222D"], "AdvanceMeasurement": [942, 1131]}, "1": {"VariantGlyph": ["slash.s01", "uni222D.s01"], "AdvanceMeasurement": [1178, 2317]}, "2": {"VariantGlyph": ["slash.s02", null], "AdvanceMeasurement": [1413, null]}, "3": {"VariantGlyph": ["slash.s03", null], "AdvanceMeasurement": [1649, null]}, "4": {"VariantGlyph": ["slash.s04", null], "AdvanceMeasurement": [1884, null]}, "5": {"VariantGlyph": ["slash.s05", null], "AdvanceMeasurement": [2119, null]}, "6": {"VariantGlyph": ["slash.s06", null], "AdvanceMeasurement": [2355, null]}, "7": {"VariantGlyph": ["slash.s07", null], "AdvanceMeasurement": [2591, null]}, "8": {"VariantGlyph": ["slash.s08", null], "AdvanceMeasurement": [2826, null]}, "9": {"VariantGlyph": ["slash.s09", null], "AdvanceMeasurement": [3062, null]}, "10": {"VariantGlyph": ["slash.s10", null], "AdvanceMeasurement": [3297, null]}, "11": {"VariantGlyph": ["slash.s11", null], "AdvanceMeasurement": [3532, null]}, "12": {"VariantGlyph": ["slash.s12", null], "AdvanceMeasurement": [3768, null]}}}, "64": {"VariantCount": [13, 2], "GlyphAssembly": {"ItalicsCorrection": {"Value": [null, 90]}, "PartCount": [null, 3], "PartRecords": {"0": {"glyph": [null, "uni2A0C.b"], "StartConnectorLength": [null, 0], "EndConnectorLength": [null, 1178], "FullAdvance": [null, 1362], "PartFlags": [null, 0]}, "1": {"glyph": [null, "uni2A0C.x"], "StartConnectorLength": [null, 1362], "EndConnectorLength": [null, 1362], "FullAdvance": [null, 1362], "PartFlags": [null, 1]}, "2": {"glyph": [null, "uni2A0C.t"], "StartConnectorLength": [null, 1291], "EndConnectorLength": [null, 0], "FullAdvance": [null, 1475], "PartFlags": [null, 0]}}}, "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["backslash", "uni2A0C"], "AdvanceMeasurement": [942, 1131]}, "1": {"VariantGlyph": ["backslash.s01", "uni2A0C.s01"], "AdvanceMeasurement": [1178, 2317]}, "2": {"VariantGlyph": ["backslash.s02", null], "AdvanceMeasurement": [1413, null]}, "3": {"VariantGlyph": ["backslash.s03", null], "AdvanceMeasurement": [1649, null]}, "4": {"VariantGlyph": ["backslash.s04", null], "AdvanceMeasurement": [1884, null]}, "5": {"VariantGlyph": ["backslash.s05", null], "AdvanceMeasurement": [2119, null]}, "6": {"VariantGlyph": ["backslash.s06", null], "AdvanceMeasurement": [2355, null]}, "7": {"VariantGlyph": ["backslash.s07", null], "AdvanceMeasurement": [2591, null]}, "8": {"VariantGlyph": ["backslash.s08", null], "AdvanceMeasurement": [2826, null]}, "9": {"VariantGlyph": ["backslash.s09", null], "AdvanceMeasurement": [3062, null]}, "10": {"VariantGlyph": ["backslash.s10", null], "AdvanceMeasurement": [3297, null]}, "11": {"VariantGlyph": ["backslash.s11", null], "AdvanceMeasurement": [3532, null]}, "12": {"VariantGlyph": ["backslash.s12", null], "AdvanceMeasurement": [3768, null]}}}, "65": {"GlyphAssembly": {"ItalicsCorrection": {"Value": [90, null]}, "PartCount": [3, null], "PartRecords": {"0": {"glyph": ["uni2321", null], "StartConnectorLength": [0, null], "EndConnectorLength": [1178, null], "FullAdvance": [1362, null], "PartFlags": [0, null]}, "1": {"glyph": ["uni23AE", null], "StartConnectorLength": [1362, null], "EndConnectorLength": [1362, null], "FullAdvance": [1362, null], "PartFlags": [1, null]}, "2": {"glyph": ["uni2320", null], "StartConnectorLength": [1291, null], "EndConnectorLength": [0, null], "FullAdvance": [1475, null], "PartFlags": [0, null]}}}, "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni222B", "uni222E"]}, "1": {"VariantGlyph": ["uni222B.s01", "uni222E.s01"]}}}, "66": {"GlyphAssembly": {"ItalicsCorrection": {"Value": [90, null]}, "PartCount": [3, null], "PartRecords": {"0": {"glyph": ["uni222C.b", null], "StartConnectorLength": [0, null], "EndConnectorLength": [1178, null], "FullAdvance": [1362, null], "PartFlags": [0, null]}, "1": {"glyph": ["uni222C.x", null], "StartConnectorLength": [1362, null], "EndConnectorLength": [1362, null], "FullAdvance": [1362, null], "PartFlags": [1, null]}, "2": {"glyph": ["uni222C.t", null], "StartConnectorLength": [1291, null], "EndConnectorLength": [0, null], "FullAdvance": [1475, null], "PartFlags": [0, null]}}}, "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni222C", "uni222F"]}, "1": {"VariantGlyph": ["uni222C.s01", "uni222F.s01"]}}}, "67": {"GlyphAssembly": {"ItalicsCorrection": {"Value": [90, null]}, "PartCount": [3, null], "PartRecords": {"0": {"glyph": ["uni222D.b", null], "StartConnectorLength": [0, null], "EndConnectorLength": [1178, null], "FullAdvance": [1362, null], "PartFlags": [0, null]}, "1": {"glyph": ["uni222D.x", null], "StartConnectorLength": [1362, null], "EndConnectorLength": [1362, null], "FullAdvance": [1362, null], "PartFlags": [1, null]}, "2": {"glyph": ["uni222D.t", null], "StartConnectorLength": [1291, null], "EndConnectorLength": [0, null], "FullAdvance": [1475, null], "PartFlags": [0, null]}}}, "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni222D", "uni2230"]}, "1": {"VariantGlyph": ["uni222D.s01", "uni2230.s01"]}}}, "68": {"GlyphAssembly": {"ItalicsCorrection": {"Value": [90, null]}, "PartCount": [3, null], "PartRecords": {"0": {"glyph": ["uni2A0C.b", null], "StartConnectorLength": [0, null], "EndConnectorLength": [1178, null], "FullAdvance": [1362, null], "PartFlags": [0, null]}, "1": {"glyph": ["uni2A0C.x", null], "StartConnectorLength": [1362, null], "EndConnectorLength": [1362, null], "FullAdvance": [1362, null], "PartFlags": [1, null]}, "2": {"glyph": ["uni2A0C.t", null], "StartConnectorLength": [1291, null], "EndConnectorLength": [0, null], "FullAdvance": [1475, null], "PartFlags": [0, null]}}}, "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A0C", "uni2231"]}, "1": {"VariantGlyph": ["uni2A0C.s01", "uni2231.s01"]}}}, "69": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni222E", "uni2232"]}, "1": {"VariantGlyph": ["uni222E.s01", "uni2232.s01"]}}}, "70": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni222F", "uni2233"]}, "1": {"VariantGlyph": ["uni222F.s01", "uni2233.s01"]}}}, "71": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2230", "uni2A0D"]}, "1": {"VariantGlyph": ["uni2230.s01", "uni2A0D.s01"]}}}, "72": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2231", "uni2A0E"]}, "1": {"VariantGlyph": ["uni2231.s01", "uni2A0E.s01"]}}}, "73": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2232", "uni2A0F"]}, "1": {"VariantGlyph": ["uni2232.s01", "uni2A0F.s01"]}}}, "74": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2233", "uni2A10"]}, "1": {"VariantGlyph": ["uni2233.s01", "uni2A10.s01"]}}}, "75": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A0D", "uni2A11"]}, "1": {"VariantGlyph": ["uni2A0D.s01", "uni2A11.s01"]}}}, "76": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A0E", "uni2A12"]}, "1": {"VariantGlyph": ["uni2A0E.s01", "uni2A12.s01"]}}}, "77": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A0F", "uni2A13"]}, "1": {"VariantGlyph": ["uni2A0F.s01", "uni2A13.s01"]}}}, "78": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A10", "uni2A14"]}, "1": {"VariantGlyph": ["uni2A10.s01", "uni2A14.s01"]}}}, "79": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A11", "uni2A15"], "AdvanceMeasurement": [1131, 1136]}, "1": {"VariantGlyph": ["uni2A11.s01", "uni2A15.s01"]}}}, "80": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A12", "uni2A16"]}, "1": {"VariantGlyph": ["uni2A12.s01", "uni2A16.s01"]}}}, "81": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A13", "uni2A17"]}, "1": {"VariantGlyph": ["uni2A13.s01", "uni2A17.s01"]}}}, "82": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A14", "uni2A18"]}, "1": {"VariantGlyph": ["uni2A14.s01", "uni2A18.s01"]}}}, "83": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A15", "uni2A19"], "AdvanceMeasurement": [1136, 1131]}, "1": {"VariantGlyph": ["uni2A15.s01", "uni2A19.s01"]}}}, "84": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A16", "uni2A1A"]}, "1": {"VariantGlyph": ["uni2A16.s01", "uni2A1A.s01"]}}}, "85": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A17", "uni2A1B"], "AdvanceMeasurement": [1131, 1267]}, "1": {"VariantGlyph": ["uni2A17.s01", "uni2A1B.s01"], "AdvanceMeasurement": [2317, 2458]}}}, "86": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A18", "uni2A1C"], "AdvanceMeasurement": [1131, 1276]}, "1": {"VariantGlyph": ["uni2A18.s01", "uni2A1C.s01"], "AdvanceMeasurement": [2317, 2466]}}}, "87": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A19", "uni2210"], "AdvanceMeasurement": [1131, 954]}, "1": {"VariantGlyph": ["uni2A19.s01", "uni2210.s01"], "AdvanceMeasurement": [2317, 1336]}}}, "88": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A1A", "uni220F"], "AdvanceMeasurement": [1131, 954]}, "1": {"VariantGlyph": ["uni2A1A.s01", "uni220F.s01"], "AdvanceMeasurement": [2317, 1336]}}}, "89": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A1B", "uni2211"], "AdvanceMeasurement": [1267, 954]}, "1": {"VariantGlyph": ["uni2A1B.s01", "uni2211.s01"], "AdvanceMeasurement": [2458, 1336]}}}, "90": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A1C", "uni2A0A"], "AdvanceMeasurement": [1276, 954]}, "1": {"VariantGlyph": ["uni2A1C.s01", "uni2A0A.s01"], "AdvanceMeasurement": [2466, 1336]}}}, "91": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2210", "uni2A0B"], "AdvanceMeasurement": [954, 1305]}, "1": {"VariantGlyph": ["uni2210.s01", "uni2A0B.s01"], "AdvanceMeasurement": [1336, 2317]}}}, "92": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni220F", "uni2140"]}, "1": {"VariantGlyph": ["uni220F.s01", "uni2140.s01"]}}}, "93": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2211", "uni22C3"]}, "1": {"VariantGlyph": ["uni2211.s01", "uni22C3.s01"]}}}, "94": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A0A", "uni2A03"]}, "1": {"VariantGlyph": ["uni2A0A.s01", "uni2A03.s01"]}}}, "95": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A0B", "uni2A04"], "AdvanceMeasurement": [1305, 954]}, "1": {"VariantGlyph": ["uni2A0B.s01", "uni2A04.s01"], "AdvanceMeasurement": [2317, 1336]}}}, "96": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2140", "uni22C2"]}, "1": {"VariantGlyph": ["uni2140.s01", "uni22C2.s01"]}}}, "97": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni22C3", "uni22C1"]}, "1": {"VariantGlyph": ["uni22C3.s01", "uni22C1.s01"]}}}, "98": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A03", "uni22C0"]}, "1": {"VariantGlyph": ["uni2A03.s01", "uni22C0.s01"]}}}, "99": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A04", "uni2A08"]}, "1": {"VariantGlyph": ["uni2A04.s01", "uni2A08.s01"]}}}, "100": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni22C2", "uni2A07"]}, "1": {"VariantGlyph": ["uni22C2.s01", "uni2A07.s01"]}}}, "101": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni22C1", "uni2A06"]}, "1": {"VariantGlyph": ["uni22C1.s01", "uni2A06.s01"]}}}, "102": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni22C0", "uni2A05"]}, "1": {"VariantGlyph": ["uni22C0.s01", "uni2A05.s01"]}}}, "103": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A08", "uni2A00"]}, "1": {"VariantGlyph": ["uni2A08.s01", "uni2A00.s01"]}}}, "104": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A07", "uni2A01"]}, "1": {"VariantGlyph": ["uni2A07.s01", "uni2A01.s01"]}}}, "105": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A06", "uni2A02"]}, "1": {"VariantGlyph": ["uni2A06.s01", "uni2A02.s01"], "AdvanceMeasurement": [1336, 1351]}}}, "106": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A05", "uni2A09"]}, "1": {"VariantGlyph": ["uni2A05.s01", "uni2A09.s01"]}}}, "107": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A00", "uni29F9"]}, "1": {"VariantGlyph": ["uni2A00.s01", "uni29F9.s01"]}}}, "108": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A01", "uni29F8"]}, "1": {"VariantGlyph": ["uni2A01.s01", "uni29F8.s01"]}}}, "109": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A02", "uni2A1E"]}, "1": {"VariantGlyph": ["uni2A02.s01", "uni2A1E.s01"], "AdvanceMeasurement": [1351, 1336]}}}, "110": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A09", "uni2A1D"], "AdvanceMeasurement": [954, 955]}, "1": {"VariantGlyph": ["uni2A09.s01", "uni2A1D.s01"], "AdvanceMeasurement": [1336, 1337]}}}, "111": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni29F9", "uni2A1F"], "AdvanceMeasurement": [954, 953]}, "1": {"VariantGlyph": ["uni29F9.s01", "uni2A1F.s01"], "AdvanceMeasurement": [1336, 1335]}}}, "112": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni29F8", "uni2A20"]}, "1": {"VariantGlyph": ["uni29F8.s01", "uni2A20.s01"]}}}, "113": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A1E", "uni2AFC"]}, "1": {"VariantGlyph": ["uni2A1E.s01", "uni2AFC.s01"]}}}, "114": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A1D", "uni2AFF"], "AdvanceMeasurement": [955, 954]}, "1": {"VariantGlyph": ["uni2A1D.s01", "uni2AFF.s01"], "AdvanceMeasurement": [1337, 1336]}}}, "115": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A1F", "u1EEF0"], "AdvanceMeasurement": [953, 644]}, "1": {"VariantGlyph": ["uni2A1F.s01", "u1EEF0.s01"], "AdvanceMeasurement": [1335, 901]}}}, "116": {"GlyphAssembly": {"ItalicsCorrection": {"Value": [null, -562]}, "PartCount": [null, 3], "PartRecords": {"0": {"glyph": [null, "uni2321.rtlm"], "StartConnectorLength": [null, 0], "EndConnectorLength": [null, 1178], "FullAdvance": [null, 1362], "PartFlags": [null, 0]}, "1": {"glyph": [null, "uni23AE.rtlm"], "StartConnectorLength": [null, 1362], "EndConnectorLength": [null, 0], "FullAdvance": [null, 1362], "PartFlags": [null, 1]}, "2": {"glyph": [null, "uni2320.rtlm"], "StartConnectorLength": [null, 1291], "EndConnectorLength": [null, 0], "FullAdvance": [null, 1475], "PartFlags": [null, 0]}}}, "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A20", "uni222B.rtlm"], "AdvanceMeasurement": [954, 1131]}, "1": {"VariantGlyph": ["uni2A20.s01", "uni222B.rtlm.s01"], "AdvanceMeasurement": [1336, 2317]}}}, "117": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2AFC", "uni222C.rtlm"], "AdvanceMeasurement": [954, 1131]}, "1": {"VariantGlyph": ["uni2AFC.s01", "uni222C.rtlm.s01"], "AdvanceMeasurement": [1336, 2317]}}}, "118": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2AFF", "uni222D.rtlm"], "AdvanceMeasurement": [954, 1131]}, "1": {"VariantGlyph": ["uni2AFF.s01", "uni222D.rtlm.s01"], "AdvanceMeasurement": [1336, 2317]}}}, "119": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["u1EEF0", "uni2A0C.rtlm"], "AdvanceMeasurement": [644, 1131]}, "1": {"VariantGlyph": ["u1EEF0.s01", "uni2A0C.rtlm.s01"], "AdvanceMeasurement": [901, 2317]}}}, "120": {"GlyphAssembly": {"ItalicsCorrection": {"Value": [-562, null]}, "PartCount": [3, null], "PartRecords": {"0": {"glyph": ["uni2321.rtlm", null], "StartConnectorLength": [0, null], "EndConnectorLength": [1178, null], "FullAdvance": [1362, null], "PartFlags": [0, null]}, "1": {"glyph": ["uni23AE.rtlm", null], "StartConnectorLength": [1362, null], "EndConnectorLength": [0, null], "FullAdvance": [1362, null], "PartFlags": [1, null]}, "2": {"glyph": ["uni2320.rtlm", null], "StartConnectorLength": [1291, null], "EndConnectorLength": [0, null], "FullAdvance": [1475, null], "PartFlags": [0, null]}}}, "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni222B.rtlm", "uni222E.rtlm"]}, "1": {"VariantGlyph": ["uni222B.rtlm.s01", "uni222E.rtlm.s01"]}}}, "121": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni222C.rtlm", "uni222F.rtlm"]}, "1": {"VariantGlyph": ["uni222C.rtlm.s01", "uni222F.rtlm.s01"]}}}, "122": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni222D.rtlm", "uni2230.rtlm"]}, "1": {"VariantGlyph": ["uni222D.rtlm.s01", "uni2230.rtlm.s01"]}}}, "123": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A0C.rtlm", "uni2231.rtlm"]}, "1": {"VariantGlyph": ["uni2A0C.rtlm.s01", "uni2231.rtlm.s01"]}}}, "124": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni222E.rtlm", "uni2232.rtlm"]}, "1": {"VariantGlyph": ["uni222E.rtlm.s01", "uni2232.rtlm.s01"]}}}, "125": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni222F.rtlm", "uni2233.rtlm"]}, "1": {"VariantGlyph": ["uni222F.rtlm.s01", "uni2233.rtlm.s01"]}}}, "126": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2230.rtlm", "uni2A0D.rtlm"]}, "1": {"VariantGlyph": ["uni2230.rtlm.s01", "uni2A0D.rtlm.s01"]}}}, "127": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2231.rtlm", "uni2A0E.rtlm"]}, "1": {"VariantGlyph": ["uni2231.rtlm.s01", "uni2A0E.rtlm.s01"]}}}, "128": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2232.rtlm", "uni2A0F.rtlm"]}, "1": {"VariantGlyph": ["uni2232.rtlm.s01", "uni2A0F.rtlm.s01"]}}}, "129": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2233.rtlm", "uni2A10.rtlm"]}, "1": {"VariantGlyph": ["uni2233.rtlm.s01", "uni2A10.rtlm.s01"]}}}, "130": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A0D.rtlm", "uni2A11.rtlm"]}, "1": {"VariantGlyph": ["uni2A0D.rtlm.s01", "uni2A11.rtlm.s01"]}}}, "131": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A0E.rtlm", "uni2A12.rtlm"]}, "1": {"VariantGlyph": ["uni2A0E.rtlm.s01", "uni2A12.rtlm.s01"]}}}, "132": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A0F.rtlm", "uni2A13.rtlm"]}, "1": {"VariantGlyph": ["uni2A0F.rtlm.s01", "uni2A13.rtlm.s01"]}}}, "133": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A10.rtlm", "uni2A14.rtlm"]}, "1": {"VariantGlyph": ["uni2A10.rtlm.s01", "uni2A14.rtlm.s01"]}}}, "134": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A11.rtlm", "uni2A15.rtlm"], "AdvanceMeasurement": [1131, 1136]}, "1": {"VariantGlyph": ["uni2A11.rtlm.s01", "uni2A15.rtlm.s01"]}}}, "135": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A12.rtlm", "uni2A16.rtlm"]}, "1": {"VariantGlyph": ["uni2A12.rtlm.s01", "uni2A16.rtlm.s01"]}}}, "136": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A13.rtlm", "uni2A17.rtlm"]}, "1": {"VariantGlyph": ["uni2A13.rtlm.s01", "uni2A17.rtlm.s01"]}}}, "137": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A14.rtlm", "uni2A18.rtlm"]}, "1": {"VariantGlyph": ["uni2A14.rtlm.s01", "uni2A18.rtlm.s01"]}}}, "138": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A15.rtlm", "uni2A19.rtlm"], "AdvanceMeasurement": [1136, 1131]}, "1": {"VariantGlyph": ["uni2A15.rtlm.s01", "uni2A19.rtlm.s01"]}}}, "139": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A16.rtlm", "uni2A1A.rtlm"]}, "1": {"VariantGlyph": ["uni2A16.rtlm.s01", "uni2A1A.rtlm.s01"]}}}, "140": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A17.rtlm", "uni2A1B.rtlm"], "AdvanceMeasurement": [1131, 1267]}, "1": {"VariantGlyph": ["uni2A17.rtlm.s01", "uni2A1B.rtlm.s01"], "AdvanceMeasurement": [2317, 2458]}}}, "141": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A18.rtlm", "uni2A1C.rtlm"], "AdvanceMeasurement": [1131, 1276]}, "1": {"VariantGlyph": ["uni2A18.rtlm.s01", "uni2A1C.rtlm.s01"], "AdvanceMeasurement": [2317, 2466]}}}, "142": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A19.rtlm", "uni2211.rtlm"], "AdvanceMeasurement": [1131, 954]}, "1": {"VariantGlyph": ["uni2A19.rtlm.s01", "uni2211.rtlm.s01"], "AdvanceMeasurement": [2317, 1336]}}}, "143": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A1A.rtlm", "uni2A0A.rtlm"], "AdvanceMeasurement": [1131, 954]}, "1": {"VariantGlyph": ["uni2A1A.rtlm.s01", "uni2A0A.rtlm.s01"], "AdvanceMeasurement": [2317, 1336]}}}, "144": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A1B.rtlm", "uni2A0B.rtlm"], "AdvanceMeasurement": [1267, 1305]}, "1": {"VariantGlyph": ["uni2A1B.rtlm.s01", "uni2A0B.rtlm.s01"], "AdvanceMeasurement": [2458, 2317]}}}, "145": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A1C.rtlm", "uni2140.rtlm"], "AdvanceMeasurement": [1276, 954]}, "1": {"VariantGlyph": ["uni2A1C.rtlm.s01", "uni2140.rtlm.s01"], "AdvanceMeasurement": [2466, 1336]}}}, "146": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2211.rtlm", "uni2A1E.rtlm"]}, "1": {"VariantGlyph": ["uni2211.rtlm.s01", "uni2A1E.rtlm.s01"]}}}, "147": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A0A.rtlm", "uni2A1F.rtlm"], "AdvanceMeasurement": [954, 953]}, "1": {"VariantGlyph": ["uni2A0A.rtlm.s01", "uni2A1F.rtlm.s01"], "AdvanceMeasurement": [1336, 1335]}}}, "148": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A0B.rtlm", "uni2A20.rtlm"], "AdvanceMeasurement": [1305, 954]}, "1": {"VariantGlyph": ["uni2A0B.rtlm.s01", "uni2A20.rtlm.s01"], "AdvanceMeasurement": [2317, 1336]}}}, "149": {"GlyphAssembly": {"ItalicsCorrection": {"Value": [null, 90]}, "PartCount": [null, 3], "PartRecords": {"0": {"glyph": [null, "uni222B.ss02.b"], "StartConnectorLength": [null, 0], "EndConnectorLength": [null, 1178], "FullAdvance": [null, 1362], "PartFlags": [null, 0]}, "1": {"glyph": [null, "uni222B.ss02.x"], "StartConnectorLength": [null, 1362], "EndConnectorLength": [null, 1362], "FullAdvance": [null, 1362], "PartFlags": [null, 1]}, "2": {"glyph": [null, "uni222B.ss02.t"], "StartConnectorLength": [null, 1291], "EndConnectorLength": [null, 0], "FullAdvance": [null, 1475], "PartFlags": [null, 0]}}}, "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2140.rtlm", "uni222B.ss02"], "AdvanceMeasurement": [954, 1125]}, "1": {"VariantGlyph": ["uni2140.rtlm.s01", "uni222B.ss02.s01"], "AdvanceMeasurement": [1336, 2305]}}}, "150": {"GlyphAssembly": {"ItalicsCorrection": {"Value": [null, 90]}, "PartCount": [null, 3], "PartRecords": {"0": {"glyph": [null, "uni222C.ss02.b"], "StartConnectorLength": [null, 0], "EndConnectorLength": [null, 1178], "FullAdvance": [null, 1362], "PartFlags": [null, 0]}, "1": {"glyph": [null, "uni222C.ss02.x"], "StartConnectorLength": [null, 1362], "EndConnectorLength": [null, 1362], "FullAdvance": [null, 1362], "PartFlags": [null, 1]}, "2": {"glyph": [null, "uni222C.ss02.t"], "StartConnectorLength": [null, 1291], "EndConnectorLength": [null, 0], "FullAdvance": [null, 1475], "PartFlags": [null, 0]}}}, "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A1E.rtlm", "uni222C.ss02"], "AdvanceMeasurement": [954, 1125]}, "1": {"VariantGlyph": ["uni2A1E.rtlm.s01", "uni222C.ss02.s01"], "AdvanceMeasurement": [1336, 2305]}}}, "151": {"GlyphAssembly": {"ItalicsCorrection": {"Value": [null, 90]}, "PartCount": [null, 3], "PartRecords": {"0": {"glyph": [null, "uni222D.ss02.b"], "StartConnectorLength": [null, 0], "EndConnectorLength": [null, 1178], "FullAdvance": [null, 1362], "PartFlags": [null, 0]}, "1": {"glyph": [null, "uni222D.ss02.x"], "StartConnectorLength": [null, 1362], "EndConnectorLength": [null, 1362], "FullAdvance": [null, 1362], "PartFlags": [null, 1]}, "2": {"glyph": [null, "uni222D.ss02.t"], "StartConnectorLength": [null, 1291], "EndConnectorLength": [null, 0], "FullAdvance": [null, 1475], "PartFlags": [null, 0]}}}, "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A1F.rtlm", "uni222D.ss02"], "AdvanceMeasurement": [953, 1125]}, "1": {"VariantGlyph": ["uni2A1F.rtlm.s01", "uni222D.ss02.s01"], "AdvanceMeasurement": [1335, 2305]}}}, "152": {"GlyphAssembly": {"ItalicsCorrection": {"Value": [null, 90]}, "PartCount": [null, 3], "PartRecords": {"0": {"glyph": [null, "uni2A0C.ss02.b"], "StartConnectorLength": [null, 0], "EndConnectorLength": [null, 1178], "FullAdvance": [null, 1362], "PartFlags": [null, 0]}, "1": {"glyph": [null, "uni2A0C.ss02.x"], "StartConnectorLength": [null, 1362], "EndConnectorLength": [null, 1362], "FullAdvance": [null, 1362], "PartFlags": [null, 1]}, "2": {"glyph": [null, "uni2A0C.ss02.t"], "StartConnectorLength": [null, 1291], "EndConnectorLength": [null, 0], "FullAdvance": [null, 1475], "PartFlags": [null, 0]}}}, "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A20.rtlm", "uni2A0C.ss02"], "AdvanceMeasurement": [954, 1125]}, "1": {"VariantGlyph": ["uni2A20.rtlm.s01", "uni2A0C.ss02.s01"], "AdvanceMeasurement": [1336, 2305]}}}, "153": {"GlyphAssembly": {"ItalicsCorrection": {"Value": [90, null]}, "PartCount": [3, null], "PartRecords": {"0": {"glyph": ["uni222B.ss02.b", null], "StartConnectorLength": [0, null], "EndConnectorLength": [1178, null], "FullAdvance": [1362, null], "PartFlags": [0, null]}, "1": {"glyph": ["uni222B.ss02.x", null], "StartConnectorLength": [1362, null], "EndConnectorLength": [1362, null], "FullAdvance": [1362, null], "PartFlags": [1, null]}, "2": {"glyph": ["uni222B.ss02.t", null], "StartConnectorLength": [1291, null], "EndConnectorLength": [0, null], "FullAdvance": [1475, null], "PartFlags": [0, null]}}}, "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni222B.ss02", "uni222E.ss02"]}, "1": {"VariantGlyph": ["uni222B.ss02.s01", "uni222E.ss02.s01"]}}}, "154": {"GlyphAssembly": {"ItalicsCorrection": {"Value": [90, null]}, "PartCount": [3, null], "PartRecords": {"0": {"glyph": ["uni222C.ss02.b", null], "StartConnectorLength": [0, null], "EndConnectorLength": [1178, null], "FullAdvance": [1362, null], "PartFlags": [0, null]}, "1": {"glyph": ["uni222C.ss02.x", null], "StartConnectorLength": [1362, null], "EndConnectorLength": [1362, null], "FullAdvance": [1362, null], "PartFlags": [1, null]}, "2": {"glyph": ["uni222C.ss02.t", null], "StartConnectorLength": [1291, null], "EndConnectorLength": [0, null], "FullAdvance": [1475, null], "PartFlags": [0, null]}}}, "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni222C.ss02", "uni222F.ss02"]}, "1": {"VariantGlyph": ["uni222C.ss02.s01", "uni222F.ss02.s01"]}}}, "155": {"GlyphAssembly": {"ItalicsCorrection": {"Value": [90, null]}, "PartCount": [3, null], "PartRecords": {"0": {"glyph": ["uni222D.ss02.b", null], "StartConnectorLength": [0, null], "EndConnectorLength": [1178, null], "FullAdvance": [1362, null], "PartFlags": [0, null]}, "1": {"glyph": ["uni222D.ss02.x", null], "StartConnectorLength": [1362, null], "EndConnectorLength": [1362, null], "FullAdvance": [1362, null], "PartFlags": [1, null]}, "2": {"glyph": ["uni222D.ss02.t", null], "StartConnectorLength": [1291, null], "EndConnectorLength": [0, null], "FullAdvance": [1475, null], "PartFlags": [0, null]}}}, "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni222D.ss02", "uni2230.ss02"]}, "1": {"VariantGlyph": ["uni222D.ss02.s01", "uni2230.ss02.s01"]}}}, "156": {"GlyphAssembly": {"ItalicsCorrection": {"Value": [90, null]}, "PartCount": [3, null], "PartRecords": {"0": {"glyph": ["uni2A0C.ss02.b", null], "StartConnectorLength": [0, null], "EndConnectorLength": [1178, null], "FullAdvance": [1362, null], "PartFlags": [0, null]}, "1": {"glyph": ["uni2A0C.ss02.x", null], "StartConnectorLength": [1362, null], "EndConnectorLength": [1362, null], "FullAdvance": [1362, null], "PartFlags": [1, null]}, "2": {"glyph": ["uni2A0C.ss02.t", null], "StartConnectorLength": [1291, null], "EndConnectorLength": [0, null], "FullAdvance": [1475, null], "PartFlags": [0, null]}}}, "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A0C.ss02", "uni2231.ss02"]}, "1": {"VariantGlyph": ["uni2A0C.ss02.s01", "uni2231.ss02.s01"]}}}, "157": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni222E.ss02", "uni2232.ss02"]}, "1": {"VariantGlyph": ["uni222E.ss02.s01", "uni2232.ss02.s01"]}}}, "158": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni222F.ss02", "uni2233.ss02"]}, "1": {"VariantGlyph": ["uni222F.ss02.s01", "uni2233.ss02.s01"]}}}, "159": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2230.ss02", "uni2A0D.ss02"]}, "1": {"VariantGlyph": ["uni2230.ss02.s01", "uni2A0D.ss02.s01"]}}}, "160": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2231.ss02", "uni2A0E.ss02"]}, "1": {"VariantGlyph": ["uni2231.ss02.s01", "uni2A0E.ss02.s01"]}}}, "161": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2232.ss02", "uni2A0F.ss02"]}, "1": {"VariantGlyph": ["uni2232.ss02.s01", "uni2A0F.ss02.s01"]}}}, "162": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2233.ss02", "uni2A10.ss02"]}, "1": {"VariantGlyph": ["uni2233.ss02.s01", "uni2A10.ss02.s01"]}}}, "163": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A0D.ss02", "uni2A11.ss02"]}, "1": {"VariantGlyph": ["uni2A0D.ss02.s01", "uni2A11.ss02.s01"]}}}, "164": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A0E.ss02", "uni2A12.ss02"]}, "1": {"VariantGlyph": ["uni2A0E.ss02.s01", "uni2A12.ss02.s01"]}}}, "165": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A0F.ss02", "uni2A13.ss02"]}, "1": {"VariantGlyph": ["uni2A0F.ss02.s01", "uni2A13.ss02.s01"]}}}, "166": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A10.ss02", "uni2A14.ss02"]}, "1": {"VariantGlyph": ["uni2A10.ss02.s01", "uni2A14.ss02.s01"]}}}, "167": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A11.ss02", "uni2A15.ss02"]}, "1": {"VariantGlyph": ["uni2A11.ss02.s01", "uni2A15.ss02.s01"]}}}, "168": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A12.ss02", "uni2A16.ss02"]}, "1": {"VariantGlyph": ["uni2A12.ss02.s01", "uni2A16.ss02.s01"]}}}, "169": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A13.ss02", "uni2A17.ss02"]}, "1": {"VariantGlyph": ["uni2A13.ss02.s01", "uni2A17.ss02.s01"]}}}, "170": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A14.ss02", "uni2A18.ss02"]}, "1": {"VariantGlyph": ["uni2A14.ss02.s01", "uni2A18.ss02.s01"]}}}, "171": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A15.ss02", "uni2A19.ss02"]}, "1": {"VariantGlyph": ["uni2A15.ss02.s01", "uni2A19.ss02.s01"]}}}, "172": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A16.ss02", "uni2A1A.ss02"]}, "1": {"VariantGlyph": ["uni2A16.ss02.s01", "uni2A1A.ss02.s01"]}}}, "173": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A17.ss02", "uni2A1B.ss02"], "AdvanceMeasurement": [1125, 1269]}, "1": {"VariantGlyph": ["uni2A17.ss02.s01", "uni2A1B.ss02.s01"], "AdvanceMeasurement": [2305, 2449]}}}, "174": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A18.ss02", "uni2A1C.ss02"], "AdvanceMeasurement": [1125, 1268]}, "1": {"VariantGlyph": ["uni2A18.ss02.s01", "uni2A1C.ss02.s01"], "AdvanceMeasurement": [2305, 2448]}}}, "175": {"GlyphAssembly": {"ItalicsCorrection": {"Value": [null, 0]}, "PartCount": [null, 3], "PartRecords": {"0": {"glyph": [null, "uni2321.rtlm"], "StartConnectorLength": [null, 0], "EndConnectorLength": [null, 1178], "FullAdvance": [null, 1362], "PartFlags": [null, 0]}, "1": {"glyph": [null, "uni23AE.rtlm"], "StartConnectorLength": [null, 1362], "EndConnectorLength": [null, 1362], "FullAdvance": [null, 1362], "PartFlags": [null, 1]}, "2": {"glyph": [null, "uni2320.rtlm"], "StartConnectorLength": [null, 1291], "EndConnectorLength": [null, 0], "FullAdvance": [null, 1475], "PartFlags": [null, 0]}}}, "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A19.ss02", "uni222B.rtlm.ss02"]}, "1": {"VariantGlyph": ["uni2A19.ss02.s01", "uni222B.rtlm.ss02.s01"]}}}, "176": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A1A.ss02", "uni222C.rtlm.ss02"]}, "1": {"VariantGlyph": ["uni2A1A.ss02.s01", "uni222C.rtlm.ss02.s01"]}}}, "177": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A1B.ss02", "uni222D.rtlm.ss02"], "AdvanceMeasurement": [1269, 1125]}, "1": {"VariantGlyph": ["uni2A1B.ss02.s01", "uni222D.rtlm.ss02.s01"], "AdvanceMeasurement": [2449, 2305]}}}, "178": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A1C.ss02", "uni2A0C.rtlm.ss02"], "AdvanceMeasurement": [1268, 1125]}, "1": {"VariantGlyph": ["uni2A1C.ss02.s01", "uni2A0C.rtlm.ss02.s01"], "AdvanceMeasurement": [2448, 2305]}}}, "179": {"GlyphAssembly": {"ItalicsCorrection": {"Value": [0, null]}, "PartCount": [3, null], "PartRecords": {"0": {"glyph": ["uni2321.rtlm", null], "StartConnectorLength": [0, null], "EndConnectorLength": [1178, null], "FullAdvance": [1362, null], "PartFlags": [0, null]}, "1": {"glyph": ["uni23AE.rtlm", null], "StartConnectorLength": [1362, null], "EndConnectorLength": [1362, null], "FullAdvance": [1362, null], "PartFlags": [1, null]}, "2": {"glyph": ["uni2320.rtlm", null], "StartConnectorLength": [1291, null], "EndConnectorLength": [0, null], "FullAdvance": [1475, null], "PartFlags": [0, null]}}}, "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni222B.rtlm.ss02", "uni222E.rtlm.ss02"]}, "1": {"VariantGlyph": ["uni222B.rtlm.ss02.s01", "uni222E.rtlm.ss02.s01"]}}}, "180": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni222C.rtlm.ss02", "uni222F.rtlm.ss02"]}, "1": {"VariantGlyph": ["uni222C.rtlm.ss02.s01", "uni222F.rtlm.ss02.s01"]}}}, "181": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni222D.rtlm.ss02", "uni2230.rtlm.ss02"]}, "1": {"VariantGlyph": ["uni222D.rtlm.ss02.s01", "uni2230.rtlm.ss02.s01"]}}}, "182": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A0C.rtlm.ss02", "uni2231.rtlm.ss02"]}, "1": {"VariantGlyph": ["uni2A0C.rtlm.ss02.s01", "uni2231.rtlm.ss02.s01"]}}}, "183": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni222E.rtlm.ss02", "uni2232.rtlm.ss02"]}, "1": {"VariantGlyph": ["uni222E.rtlm.ss02.s01", "uni2232.rtlm.ss02.s01"]}}}, "184": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni222F.rtlm.ss02", "uni2233.rtlm.ss02"]}, "1": {"VariantGlyph": ["uni222F.rtlm.ss02.s01", "uni2233.rtlm.ss02.s01"]}}}, "185": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2230.rtlm.ss02", "uni2A0D.rtlm.ss02"]}, "1": {"VariantGlyph": ["uni2230.rtlm.ss02.s01", "uni2A0D.rtlm.ss02.s01"]}}}, "186": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2231.rtlm.ss02", "uni2A0E.rtlm.ss02"]}, "1": {"VariantGlyph": ["uni2231.rtlm.ss02.s01", "uni2A0E.rtlm.ss02.s01"]}}}, "187": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2232.rtlm.ss02", "uni2A0F.rtlm.ss02"]}, "1": {"VariantGlyph": ["uni2232.rtlm.ss02.s01", "uni2A0F.rtlm.ss02.s01"]}}}, "188": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2233.rtlm.ss02", "uni2A10.rtlm.ss02"]}, "1": {"VariantGlyph": ["uni2233.rtlm.ss02.s01", "uni2A10.rtlm.ss02.s01"]}}}, "189": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A0D.rtlm.ss02", "uni2A11.rtlm.ss02"]}, "1": {"VariantGlyph": ["uni2A0D.rtlm.ss02.s01", "uni2A11.rtlm.ss02.s01"]}}}, "190": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A0E.rtlm.ss02", "uni2A12.rtlm.ss02"]}, "1": {"VariantGlyph": ["uni2A0E.rtlm.ss02.s01", "uni2A12.rtlm.ss02.s01"]}}}, "191": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A0F.rtlm.ss02", "uni2A13.rtlm.ss02"]}, "1": {"VariantGlyph": ["uni2A0F.rtlm.ss02.s01", "uni2A13.rtlm.ss02.s01"]}}}, "192": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A10.rtlm.ss02", "uni2A14.rtlm.ss02"]}, "1": {"VariantGlyph": ["uni2A10.rtlm.ss02.s01", "uni2A14.rtlm.ss02.s01"]}}}, "193": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A11.rtlm.ss02", "uni2A15.rtlm.ss02"]}, "1": {"VariantGlyph": ["uni2A11.rtlm.ss02.s01", "uni2A15.rtlm.ss02.s01"]}}}, "194": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A12.rtlm.ss02", "uni2A16.rtlm.ss02"]}, "1": {"VariantGlyph": ["uni2A12.rtlm.ss02.s01", "uni2A16.rtlm.ss02.s01"]}}}, "195": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A13.rtlm.ss02", "uni2A17.rtlm.ss02"]}, "1": {"VariantGlyph": ["uni2A13.rtlm.ss02.s01", "uni2A17.rtlm.ss02.s01"]}}}, "196": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A14.rtlm.ss02", "uni2A18.rtlm.ss02"]}, "1": {"VariantGlyph": ["uni2A14.rtlm.ss02.s01", "uni2A18.rtlm.ss02.s01"]}}}, "197": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A15.rtlm.ss02", "uni2A19.rtlm.ss02"]}, "1": {"VariantGlyph": ["uni2A15.rtlm.ss02.s01", "uni2A19.rtlm.ss02.s01"]}}}, "198": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A16.rtlm.ss02", "uni2A1A.rtlm.ss02"]}, "1": {"VariantGlyph": ["uni2A16.rtlm.ss02.s01", "uni2A1A.rtlm.ss02.s01"]}}}, "199": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A17.rtlm.ss02", "uni2A1B.rtlm.ss02"], "AdvanceMeasurement": [1125, 1269]}, "1": {"VariantGlyph": ["uni2A17.rtlm.ss02.s01", "uni2A1B.rtlm.ss02.s01"], "AdvanceMeasurement": [2305, 2449]}}}, "200": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A18.rtlm.ss02", "uni2A1C.rtlm.ss02"], "AdvanceMeasurement": [1125, 1268]}, "1": {"VariantGlyph": ["uni2A18.rtlm.ss02.s01", "uni2A1C.rtlm.ss02.s01"], "AdvanceMeasurement": [2305, 2448]}}}, "201": {"VariantCount": [2, 6], "GlyphAssembly": {"ItalicsCorrection": {"Value": [null, 0]}, "PartCount": [null, 3], "PartRecords": {"0": {"glyph": [null, "uni23B7"], "StartConnectorLength": [null, 0], "EndConnectorLength": [null, 1333], "FullAdvance": [null, 1538], "PartFlags": [null, 0]}, "1": {"glyph": [null, "uni221A.x"], "StartConnectorLength": [null, 1070], "EndConnectorLength": [null, 1070], "FullAdvance": [null, 1070], "PartFlags": [null, 1]}, "2": {"glyph": [null, "uni221A.t"], "StartConnectorLength": [null, 998], "EndConnectorLength": [null, 0], "FullAdvance": [null, 1069], "PartFlags": [null, 0]}}}, "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A19.rtlm.ss02", "uni221A"], "AdvanceMeasurement": [1125, 1057]}, "1": {"VariantGlyph": ["uni2A19.rtlm.ss02.s01", "uni221A.s01"], "AdvanceMeasurement": [2305, 1419]}, "2": {"VariantGlyph": [null, "uni221A.s02"], "AdvanceMeasurement": [null, 1781]}, "3": {"VariantGlyph": [null, "uni221A.s03"], "AdvanceMeasurement": [null, 2143]}, "4": {"VariantGlyph": [null, "uni221A.s04"], "AdvanceMeasurement": [null, 2505]}, "5": {"VariantGlyph": [null, "uni221A.s05"], "AdvanceMeasurement": [null, 2867]}}}, "202": {"VariantCount": [2, 5], "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A1A.rtlm.ss02", "uni221B"], "AdvanceMeasurement": [1125, 1057]}, "1": {"VariantGlyph": ["uni2A1A.rtlm.ss02.s01", "uni221B.s01"], "AdvanceMeasurement": [2305, 1419]}, "2": {"VariantGlyph": [null, "uni221B.s02"], "AdvanceMeasurement": [null, 1781]}, "3": {"VariantGlyph": [null, "uni221B.s03"], "AdvanceMeasurement": [null, 2143]}, "4": {"VariantGlyph": [null, "uni221B.s04"], "AdvanceMeasurement": [null, 2505]}}}, "203": {"VariantCount": [2, 5], "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A1B.rtlm.ss02", "uni221C"], "AdvanceMeasurement": [1269, 1057]}, "1": {"VariantGlyph": ["uni2A1B.rtlm.ss02.s01", "uni221C.s01"], "AdvanceMeasurement": [2449, 1419]}, "2": {"VariantGlyph": [null, "uni221C.s02"], "AdvanceMeasurement": [null, 1781]}, "3": {"VariantGlyph": [null, "uni221C.s03"], "AdvanceMeasurement": [null, 2143]}, "4": {"VariantGlyph": [null, "uni221C.s04"], "AdvanceMeasurement": [null, 2505]}}}, "204": {"VariantCount": [2, 6], "GlyphAssembly": {"ItalicsCorrection": {"Value": [null, 0]}, "PartCount": [null, 3], "PartRecords": {"0": {"glyph": [null, "uni221A.rtlm.b"], "StartConnectorLength": [null, 0], "EndConnectorLength": [null, 1272], "FullAdvance": [null, 1538], "PartFlags": [null, 0]}, "1": {"glyph": [null, "uni221A.rtlm.x"], "StartConnectorLength": [null, 1070], "EndConnectorLength": [null, 1070], "FullAdvance": [null, 1070], "PartFlags": [null, 1]}, "2": {"glyph": [null, "uni221A.rtlm.t"], "StartConnectorLength": [null, 998], "EndConnectorLength": [null, 0], "FullAdvance": [null, 1069], "PartFlags": [null, 0]}}}, "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni2A1C.rtlm.ss02", "uni221A.rtlm"], "AdvanceMeasurement": [1268, 1057]}, "1": {"VariantGlyph": ["uni2A1C.rtlm.ss02.s01", "uni221A.rtlm.s01"], "AdvanceMeasurement": [2448, 1419]}, "2": {"VariantGlyph": [null, "uni221A.rtlm.s02"], "AdvanceMeasurement": [null, 1781]}, "3": {"VariantGlyph": [null, "uni221A.rtlm.s03"], "AdvanceMeasurement": [null, 2143]}, "4": {"VariantGlyph": [null, "uni221A.rtlm.s04"], "AdvanceMeasurement": [null, 2505]}, "5": {"VariantGlyph": [null, "uni221A.rtlm.s05"], "AdvanceMeasurement": [null, 2867]}}}, "205": {"VariantCount": [6, 5], "GlyphAssembly": {"ItalicsCorrection": {"Value": [0, null]}, "PartCount": [3, null], "PartRecords": {"0": {"glyph": ["uni23B7", null], "StartConnectorLength": [0, null], "EndConnectorLength": [1333, null], "FullAdvance": [1538, null], "PartFlags": [0, null]}, "1": {"glyph": ["uni221A.x", null], "StartConnectorLength": [1070, null], "EndConnectorLength": [1070, null], "FullAdvance": [1070, null], "PartFlags": [1, null]}, "2": {"glyph": ["uni221A.t", null], "StartConnectorLength": [998, null], "EndConnectorLength": [0, null], "FullAdvance": [1069, null], "PartFlags": [0, null]}}}, "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni221A", "uni221B.rtlm"]}, "1": {"VariantGlyph": ["uni221A.s01", "uni221B.rtlm.s01"]}, "2": {"VariantGlyph": ["uni221A.s02", "uni221B.rtlm.s02"]}, "3": {"VariantGlyph": ["uni221A.s03", "uni221B.rtlm.s03"]}, "4": {"VariantGlyph": ["uni221A.s04", "uni221B.rtlm.s04"]}, "5": {"VariantGlyph": ["uni221A.s05", null], "AdvanceMeasurement": [2867, null]}}}, "206": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni221B", "uni221C.rtlm"]}, "1": {"VariantGlyph": ["uni221B.s01", "uni221C.rtlm.s01"]}, "2": {"VariantGlyph": ["uni221B.s02", "uni221C.rtlm.s02"]}, "3": {"VariantGlyph": ["uni221B.s03", "uni221C.rtlm.s03"]}, "4": {"VariantGlyph": ["uni221B.s04", "uni221C.rtlm.s04"]}}}, "207": {"MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni221C", "uni0607"]}, "1": {"VariantGlyph": ["uni221C.s01", "uni0607.s01"]}, "2": {"VariantGlyph": ["uni221C.s02", "uni0607.s02"]}, "3": {"VariantGlyph": ["uni221C.s03", "uni0607.s03"]}, "4": {"VariantGlyph": ["uni221C.s04", "uni0607.s04"]}}}, "208": {"VariantCount": [6, 5], "GlyphAssembly": {"ItalicsCorrection": {"Value": [0, null]}, "PartCount": [3, null], "PartRecords": {"0": {"glyph": ["uni221A.rtlm.b", null], "StartConnectorLength": [0, null], "EndConnectorLength": [1272, null], "FullAdvance": [1538, null], "PartFlags": [0, null]}, "1": {"glyph": ["uni221A.rtlm.x", null], "StartConnectorLength": [1070, null], "EndConnectorLength": [1070, null], "FullAdvance": [1070, null], "PartFlags": [1, null]}, "2": {"glyph": ["uni221A.rtlm.t", null], "StartConnectorLength": [998, null], "EndConnectorLength": [0, null], "FullAdvance": [1069, null], "PartFlags": [0, null]}}}, "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni221A.rtlm", "uni0606"]}, "1": {"VariantGlyph": ["uni221A.rtlm.s01", "uni0606.s01"]}, "2": {"VariantGlyph": ["uni221A.rtlm.s02", "uni0606.s02"]}, "3": {"VariantGlyph": ["uni221A.rtlm.s03", "uni0606.s03"]}, "4": {"VariantGlyph": ["uni221A.rtlm.s04", "uni0606.s04"]}, "5": {"VariantGlyph": ["uni221A.rtlm.s05", null], "AdvanceMeasurement": [2867, null]}}}, "209": {"VariantCount": [5, 0], "GlyphAssembly": {"ItalicsCorrection": {"Value": [null, 0]}, "PartCount": [null, 2], "PartRecords": {"0": {"glyph": [null, "arrowup.x"], "StartConnectorLength": [null, 600], "EndConnectorLength": [null, 600], "FullAdvance": [null, 600], "PartFlags": [null, 1]}, "1": {"glyph": [null, "arrowup"], "StartConnectorLength": [null, 500], "EndConnectorLength": [null, 0], "FullAdvance": [null, 910], "PartFlags": [null, 0]}}}, "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni221B.rtlm", null], "AdvanceMeasurement": [1057, null]}, "1": {"VariantGlyph": ["uni221B.rtlm.s01", null], "AdvanceMeasurement": [1419, null]}, "2": {"VariantGlyph": ["uni221B.rtlm.s02", null], "AdvanceMeasurement": [1781, null]}, "3": {"VariantGlyph": ["uni221B.rtlm.s03", null], "AdvanceMeasurement": [2143, null]}, "4": {"VariantGlyph": ["uni221B.rtlm.s04", null], "AdvanceMeasurement": [2505, null]}}}, "210": {"VariantCount": [5, 1], "GlyphAssembly": {"ItalicsCorrection": {"Value": [null, 0]}, "PartCount": [null, 2], "PartRecords": {"0": {"glyph": [null, "arrowdown"], "StartConnectorLength": [null, 0], "EndConnectorLength": [null, 500], "FullAdvance": [null, 910], "PartFlags": [null, 0]}, "1": {"glyph": [null, "arrowup.x"], "StartConnectorLength": [null, 600], "EndConnectorLength": [null, 600], "FullAdvance": [null, 600], "PartFlags": [null, 1]}}}, "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni221C.rtlm", "arrowdown"], "AdvanceMeasurement": [1057, 910]}, "1": {"VariantGlyph": ["uni221C.rtlm.s01", null], "AdvanceMeasurement": [1419, null]}, "2": {"VariantGlyph": ["uni221C.rtlm.s02", null], "AdvanceMeasurement": [1781, null]}, "3": {"VariantGlyph": ["uni221C.rtlm.s03", null], "AdvanceMeasurement": [2143, null]}, "4": {"VariantGlyph": ["uni221C.rtlm.s04", null], "AdvanceMeasurement": [2505, null]}}}, "211": {"VariantCount": [5, 0], "GlyphAssembly": {"ItalicsCorrection": {"Value": [null, 0]}, "PartCount": [null, 3], "PartRecords": {"0": {"glyph": [null, "arrowdown"], "StartConnectorLength": [null, 0], "EndConnectorLength": [null, 500], "FullAdvance": [null, 910], "PartFlags": [null, 0]}, "1": {"glyph": [null, "arrowup.x"], "StartConnectorLength": [null, 600], "EndConnectorLength": [null, 600], "FullAdvance": [null, 600], "PartFlags": [null, 1]}, "2": {"glyph": [null, "arrowup"], "StartConnectorLength": [null, 500], "EndConnectorLength": [null, 0], "FullAdvance": [null, 910], "PartFlags": [null, 0]}}}, "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni0607", null], "AdvanceMeasurement": [1057, null]}, "1": {"VariantGlyph": ["uni0607.s01", null], "AdvanceMeasurement": [1419, null]}, "2": {"VariantGlyph": ["uni0607.s02", null], "AdvanceMeasurement": [1781, null]}, "3": {"VariantGlyph": ["uni0607.s03", null], "AdvanceMeasurement": [2143, null]}, "4": {"VariantGlyph": ["uni0607.s04", null], "AdvanceMeasurement": [2505, null]}}}, "212": {"VariantCount": [5, 0], "GlyphAssembly": {"ItalicsCorrection": {"Value": [null, 0]}, "PartCount": [null, 2], "PartRecords": {"0": {"glyph": [null, "arrowdblup.x"], "StartConnectorLength": [null, 600], "EndConnectorLength": [null, 600], "FullAdvance": [null, 788], "PartFlags": [null, 1]}, "1": {"glyph": [null, "arrowdblup"], "StartConnectorLength": [null, 400], "EndConnectorLength": [null, 0], "FullAdvance": [null, 910], "PartFlags": [null, 0]}}}, "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["uni0606", null], "AdvanceMeasurement": [1057, null]}, "1": {"VariantGlyph": ["uni0606.s01", null], "AdvanceMeasurement": [1419, null]}, "2": {"VariantGlyph": ["uni0606.s02", null], "AdvanceMeasurement": [1781, null]}, "3": {"VariantGlyph": ["uni0606.s03", null], "AdvanceMeasurement": [2143, null]}, "4": {"VariantGlyph": ["uni0606.s04", null], "AdvanceMeasurement": [2505, null]}}}, "213": {"GlyphAssembly": {"PartRecords": {"0": {"glyph": ["arrowup.x", "arrowdbldown"], "EndConnectorLength": [600, 400], "PartFlags": [1, 0], "StartConnectorLength": [600, 0], "FullAdvance": [600, 910]}, "1": {"glyph": ["arrowup", "arrowdblup.x"], "EndConnectorLength": [0, 600], "PartFlags": [0, 1], "StartConnectorLength": [500, 600], "FullAdvance": [910, 788]}}}}, "214": {"VariantCount": [1, 0], "GlyphAssembly": {"PartRecords": {"0": {"glyph": ["arrowdown", "arrowdbldown"], "EndConnectorLength": [500, 660]}, "1": {"glyph": ["arrowup.x", "arrowdblup.x"], "EndConnectorLength": [600, 788], "StartConnectorLength": [600, 788], "FullAdvance": [600, 788]}, "2": {"glyph": [null, "arrowdblup"], "StartConnectorLength": [null, 660], "EndConnectorLength": [null, 0], "FullAdvance": [null, 910], "PartFlags": [null, 0]}}, "PartCount": [2, 3]}, "MathGlyphVariantRecord": {"0": {"VariantGlyph": ["arrowdown", null], "AdvanceMeasurement": [910, null]}}}, "215": {"GlyphAssembly": {"ItalicsCorrection": {"Value": [0, null]}, "PartCount": [3, null], "PartRecords": {"0": {"glyph": ["arrowdown", null], "StartConnectorLength": [0, null], "EndConnectorLength": [500, null], "FullAdvance": [910, null], "PartFlags": [0, null]}, "1": {"glyph": ["arrowup.x", null], "StartConnectorLength": [600, null], "EndConnectorLength": [600, null], "FullAdvance": [600, null], "PartFlags": [1, null]}, "2": {"glyph": ["arrowup", null], "StartConnectorLength": [500, null], "EndConnectorLength": [0, null], "FullAdvance": [910, null], "PartFlags": [0, null]}}}, "VariantCount": [0, null]}, "216": {"GlyphAssembly": {"ItalicsCorrection": {"Value": [0, null]}, "PartCount": [2, null], "PartRecords": {"0": {"glyph": ["arrowdblup.x", null], "StartConnectorLength": [600, null], "EndConnectorLength": [600, null], "FullAdvance": [788, null], "PartFlags": [1, null]}, "1": {"glyph": ["arrowdblup", null], "StartConnectorLength": [400, null], "EndConnectorLength": [0, null], "FullAdvance": [910, null], "PartFlags": [0, null]}}}, "VariantCount": [0, null]}, "217": {"GlyphAssembly": {"ItalicsCorrection": {"Value": [0, null]}, "PartCount": [2, null], "PartRecords": {"0": {"glyph": ["arrowdbldown", null], "StartConnectorLength": [0, null], "EndConnectorLength": [400, null], "FullAdvance": [910, null], "PartFlags": [0, null]}, "1": {"glyph": ["arrowdblup.x", null], "StartConnectorLength": [600, null], "EndConnectorLength": [600, null], "FullAdvance": [788, null], "PartFlags": [1, null]}}}, "VariantCount": [0, null]}, "218": {"GlyphAssembly": {"ItalicsCorrection": {"Value": [0, null]}, "PartCount": [3, null], "PartRecords": {"0": {"glyph": ["arrowdbldown", null], "StartConnectorLength": [0, null], "EndConnectorLength": [660, null], "FullAdvance": [910, null], "PartFlags": [0, null]}, "1": {"glyph": ["arrowdblup.x", null], "StartConnectorLength": [788, null], "EndConnectorLength": [788, null], "FullAdvance": [788, null], "PartFlags": [1, null]}, "2": {"glyph": ["arrowdblup", null], "StartConnectorLength": [660, null], "EndConnectorLength": [0, null], "FullAdvance": [910, null], "PartFlags": [0, null]}}}, "VariantCount": [0, null]}}, "VertGlyphCount": [219, 215], "VertGlyphCoverage": {"glyphs": {"59": ["uni27E8.s20", "slash"], "60": ["uni27E9.s20", "backslash"], "61": ["uni2991.s20", "uni222B"], "62": ["uni2992.s20", "uni222C"], "63": ["slash", "uni222D"], "64": ["backslash", "uni2A0C"], "65": ["uni222B", "uni222E"], "66": ["uni222C", "uni222F"], "67": ["uni222D", "uni2230"], "68": ["uni2A0C", "uni2231"], "69": ["uni222E", "uni2232"], "70": ["uni222F", "uni2233"], "71": ["uni2230", "uni2A0D"], "72": ["uni2231", "uni2A0E"], "73": ["uni2232", "uni2A0F"], "74": ["uni2233", "uni2A10"], "75": ["uni2A0D", "uni2A11"], "76": ["uni2A0E", "uni2A12"], "77": ["uni2A0F", "uni2A13"], "78": ["uni2A10", "uni2A14"], "79": ["uni2A11", "uni2A15"], "80": ["uni2A12", "uni2A16"], "81": ["uni2A13", "uni2A17"], "82": ["uni2A14", "uni2A18"], "83": ["uni2A15", "uni2A19"], "84": ["uni2A16", "uni2A1A"], "85": ["uni2A17", "uni2A1B"], "86": ["uni2A18", "uni2A1C"], "87": ["uni2A19", "uni2210"], "88": ["uni2A1A", "uni220F"], "89": ["uni2A1B", "uni2211"], "90": ["uni2A1C", "uni2A0A"], "91": ["uni2210", "uni2A0B"], "92": ["uni220F", "uni2140"], "93": ["uni2211", "uni22C3"], "94": ["uni2A0A", "uni2A03"], "95": ["uni2A0B", "uni2A04"], "96": ["uni2140", "uni22C2"], "97": ["uni22C3", "uni22C1"], "98": ["uni2A03", "uni22C0"], "99": ["uni2A04", "uni2A08"], "100": ["uni22C2", "uni2A07"], "101": ["uni22C1", "uni2A06"], "102": ["uni22C0", "uni2A05"], "103": ["uni2A08", "uni2A00"], "104": ["uni2A07", "uni2A01"], "105": ["uni2A06", "uni2A02"], "106": ["uni2A05", "uni2A09"], "107": ["uni2A00", "uni29F9"], "108": ["uni2A01", "uni29F8"], "109": ["uni2A02", "uni2A1E"], "110": ["uni2A09", "uni2A1D"], "111": ["uni29F9", "uni2A1F"], "112": ["uni29F8", "uni2A20"], "113": ["uni2A1E", "uni2AFC"], "114": ["uni2A1D", "uni2AFF"], "115": ["uni2A1F", "u1EEF0"], "116": ["uni2A20", "uni222B.rtlm"], "117": ["uni2AFC", "uni222C.rtlm"], "118": ["uni2AFF", "uni222D.rtlm"], "119": ["u1EEF0", "uni2A0C.rtlm"], "120": ["uni222B.rtlm", "uni222E.rtlm"], "121": ["uni222C.rtlm", "uni222F.rtlm"], "122": ["uni222D.rtlm", "uni2230.rtlm"], "123": ["uni2A0C.rtlm", "uni2231.rtlm"], "124": ["uni222E.rtlm", "uni2232.rtlm"], "125": ["uni222F.rtlm", "uni2233.rtlm"], "126": ["uni2230.rtlm", "uni2A0D.rtlm"], "127": ["uni2231.rtlm", "uni2A0E.rtlm"], "128": ["uni2232.rtlm", "uni2A0F.rtlm"], "129": ["uni2233.rtlm", "uni2A10.rtlm"], "130": ["uni2A0D.rtlm", "uni2A11.rtlm"], "131": ["uni2A0E.rtlm", "uni2A12.rtlm"], "132": ["uni2A0F.rtlm", "uni2A13.rtlm"], "133": ["uni2A10.rtlm", "uni2A14.rtlm"], "134": ["uni2A11.rtlm", "uni2A15.rtlm"], "135": ["uni2A12.rtlm", "uni2A16.rtlm"], "136": ["uni2A13.rtlm", "uni2A17.rtlm"], "137": ["uni2A14.rtlm", "uni2A18.rtlm"], "138": ["uni2A15.rtlm", "uni2A19.rtlm"], "139": ["uni2A16.rtlm", "uni2A1A.rtlm"], "140": ["uni2A17.rtlm", "uni2A1B.rtlm"], "141": ["uni2A18.rtlm", "uni2A1C.rtlm"], "142": ["uni2A19.rtlm", "uni2211.rtlm"], "143": ["uni2A1A.rtlm", "uni2A0A.rtlm"], "144": ["uni2A1B.rtlm", "uni2A0B.rtlm"], "145": ["uni2A1C.rtlm", "uni2140.rtlm"], "146": ["uni2211.rtlm", "uni2A1E.rtlm"], "147": ["uni2A0A.rtlm", "uni2A1F.rtlm"], "148": ["uni2A0B.rtlm", "uni2A20.rtlm"], "149": ["uni2140.rtlm", "uni222B.ss02"], "150": ["uni2A1E.rtlm", "uni222C.ss02"], "151": ["uni2A1F.rtlm", "uni222D.ss02"], "152": ["uni2A20.rtlm", "uni2A0C.ss02"], "153": ["uni222B.ss02", "uni222E.ss02"], "154": ["uni222C.ss02", "uni222F.ss02"], "155": ["uni222D.ss02", "uni2230.ss02"], "156": ["uni2A0C.ss02", "uni2231.ss02"], "157": ["uni222E.ss02", "uni2232.ss02"], "158": ["uni222F.ss02", "uni2233.ss02"], "159": ["uni2230.ss02", "uni2A0D.ss02"], "160": ["uni2231.ss02", "uni2A0E.ss02"], "161": ["uni2232.ss02", "uni2A0F.ss02"], "162": ["uni2233.ss02", "uni2A10.ss02"], "163": ["uni2A0D.ss02", "uni2A11.ss02"], "164": ["uni2A0E.ss02", "uni2A12.ss02"], "165": ["uni2A0F.ss02", "uni2A13.ss02"], "166": ["uni2A10.ss02", "uni2A14.ss02"], "167": ["uni2A11.ss02", "uni2A15.ss02"], "168": ["uni2A12.ss02", "uni2A16.ss02"], "169": ["uni2A13.ss02", "uni2A17.ss02"], "170": ["uni2A14.ss02", "uni2A18.ss02"], "171": ["uni2A15.ss02", "uni2A19.ss02"], "172": ["uni2A16.ss02", "uni2A1A.ss02"], "173": ["uni2A17.ss02", "uni2A1B.ss02"], "174": ["uni2A18.ss02", "uni2A1C.ss02"], "175": ["uni2A19.ss02", "uni222B.rtlm.ss02"], "176": ["uni2A1A.ss02", "uni222C.rtlm.ss02"], "177": ["uni2A1B.ss02", "uni222D.rtlm.ss02"], "178": ["uni2A1C.ss02", "uni2A0C.rtlm.ss02"], "179": ["uni222B.rtlm.ss02", "uni222E.rtlm.ss02"], "180": ["uni222C.rtlm.ss02", "uni222F.rtlm.ss02"], "181": ["uni222D.rtlm.ss02", "uni2230.rtlm.ss02"], "182": ["uni2A0C.rtlm.ss02", "uni2231.rtlm.ss02"], "183": ["uni222E.rtlm.ss02", "uni2232.rtlm.ss02"], "184": ["uni222F.rtlm.ss02", "uni2233.rtlm.ss02"], "185": ["uni2230.rtlm.ss02", "uni2A0D.rtlm.ss02"], "186": ["uni2231.rtlm.ss02", "uni2A0E.rtlm.ss02"], "187": ["uni2232.rtlm.ss02", "uni2A0F.rtlm.ss02"], "188": ["uni2233.rtlm.ss02", "uni2A10.rtlm.ss02"], "189": ["uni2A0D.rtlm.ss02", "uni2A11.rtlm.ss02"], "190": ["uni2A0E.rtlm.ss02", "uni2A12.rtlm.ss02"], "191": ["uni2A0F.rtlm.ss02", "uni2A13.rtlm.ss02"], "192": ["uni2A10.rtlm.ss02", "uni2A14.rtlm.ss02"], "193": ["uni2A11.rtlm.ss02", "uni2A15.rtlm.ss02"], "194": ["uni2A12.rtlm.ss02", "uni2A16.rtlm.ss02"], "195": ["uni2A13.rtlm.ss02", "uni2A17.rtlm.ss02"], "196": ["uni2A14.rtlm.ss02", "uni2A18.rtlm.ss02"], "197": ["uni2A15.rtlm.ss02", "uni2A19.rtlm.ss02"], "198": ["uni2A16.rtlm.ss02", "uni2A1A.rtlm.ss02"], "199": ["uni2A17.rtlm.ss02", "uni2A1B.rtlm.ss02"], "200": ["uni2A18.rtlm.ss02", "uni2A1C.rtlm.ss02"], "201": ["uni2A19.rtlm.ss02", "uni221A"], "202": ["uni2A1A.rtlm.ss02", "uni221B"], "203": ["uni2A1B.rtlm.ss02", "uni221C"], "204": ["uni2A1C.rtlm.ss02", "uni221A.rtlm"], "205": ["uni221A", "uni221B.rtlm"], "206": ["uni221B", "uni221C.rtlm"], "207": ["uni221C", "uni0607"], "208": ["uni221A.rtlm", "uni0606"], "209": ["uni221B.rtlm", "arrowup"], "210": ["uni221C.rtlm", "arrowdown"], "211": ["uni0607", "arrowupdn"], "212": ["uni0606", "arrowdblup"], "213": ["arrowup", "arrowdbldown"], "214": ["arrowdown", "uni21D5"], "215": ["arrowupdn", null], "216": ["arrowdblup", null], "217": ["arrowdbldown", null], "218": ["uni21D5", null]}}}}}, "head": {"checkSumAdjustment": [1696298043, 3864770787], "modified": [3800438823, 3802140574]}};</script>
+
+    </div>
+</body>
+	<script>
+
+	POSITION = "old"
+	fontToggle = document.getElementById("font-toggle")
+	function switchFonts() {
+	boxTitles = document.getElementsByClassName("box-title")
+	items = document.getElementsByClassName("box-text");
+	  
+	if (POSITION === "old") {
+	  POSITION = "new"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("old", "new")
+	    fontToggle.textContent = "new"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("old", "new")
+	  }
+
+	  } else {
+	  POSITION = "old"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("new", "old")
+	    fontToggle.textContent = "old"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("new", "old")
+	  }
+	}
+	}
+	if (fontToggle !== null) {
+		fontToggle.addEventListener("click", switchFonts);
+	}
+
+// apply optional ot feats
+
+function buildFeatureList() {
+	var features = [
+		'aalt', 'c2sc', 'calt', 'case', 'cpsp', 'dlig', 'dnom',
+		'fina', 'frac', 'init', 'kern', 'liga', 'lnum', 'numr', 'onum',
+		'ordn', 'pnum', 'salt', 'sinf', 'smcp', 'sups',
+		'swsh', 'titl', 'tnum', 'zero', 'ss01', 'ss02',
+		'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08',
+		'ss09', 'ss10', 'ss11', 'ss12', 'ss13', 'ss14',
+		'ss15', 'ss16', 'ss17', 'ss18', 'ss19', 'ss20'
+	]
+	
+	var otPanel = document.getElementById("ot-panel")
+	for (i=0; i<features.length; i++) {
+		var feat = features[i]
+		
+		var row = document.createElement("div");
+
+		var item = document.createElement("input");
+		item.type = "checkbox"
+		item.value = feat
+		item.classList.add("ot-checkbox")
+		var label = document.createElement("label")
+		label.textContent = feat
+
+		row.appendChild(item)
+		row.appendChild(label)
+
+		otPanel.appendChild(row)
+	}
+}
+
+buildFeatureList()
+
+
+function enableFeatures() {
+	var checkboxes = document.getElementsByClassName("ot-checkbox")
+	var res = []
+	var disableKerning = false
+	for (i=0; i<checkboxes.length; i++) {
+		if (checkboxes[i].checked === true) {
+			var checkbox = checkboxes[i]
+			res.push('"' + checkbox.value + '"')
+
+			if (checkbox.value === "kern") {
+				disableKerning = true
+			}
+		}
+	}	
+
+	var boxText = document.getElementsByClassName("box-text")
+	var otString = res.join(", ")
+	for (j=0; j<boxText.length; j++) {
+		boxText[j].style.fontFeatureSettings = otString
+		if (disableKerning === true) {
+			boxText[j].style.fontKerning = "none"
+		}
+	}
+}
+
+var otButton = document.getElementById("ot-button")
+otButton.addEventListener("click", function() {
+    otPanel = document.getElementById("ot-panel")
+    if (otPanel.style.display !== "block") {
+        otPanel.style.display = "block"
+    } else {
+        otPanel.style.display = "none"
+    }
+})
+var checkboxes = document.getElementsByClassName("ot-checkbox")
+for (i=0; i<checkboxes.length; i++) {
+	cb = checkboxes[i]
+	cb.addEventListener("click", enableFeatures)
+}	
+    
+  class Table {
+      constructor(data) {
+          this.data = {"root": data}
+          this.open("root")
+      }
+
+      createNode(key, label) {
+          let childElem = document.createElement("div")
+          let childKey = key
+          childElem.dataset.path = childKey
+          childElem.dataset.open = "0"
+          childElem.innerHTML = label
+          childElem.classList.add("node")
+          return childElem
+      }
+
+      close(key) {
+          let htmlParent = document.querySelector(`[data-path="${key}"]`)
+          let label = htmlParent.childNodes[0].nodeValue
+          htmlParent.replaceChildren()
+          htmlParent.textContent = label
+          htmlParent.dataset.open = "0"
+      }
+
+      open(key) {
+          let htmlParent = document.querySelector(`[data-path="${key}"]`)
+          htmlParent.dataset.open = "1"
+
+          // traverse to correct data level based on data-path
+          let path = key.split(".")
+          let data = this.data
+          for (var i=0; i<path.length; i++) {
+              data = data[path[i]];
+
+          }
+
+          // arrays containing two values are used as leaf nodes.
+          // The first item is the before value and the second
+          // is for after value.
+          if (Array.isArray(data)) {
+              let childElem = this.createNode("", "")
+              let before = document.createElement("span")
+              before.classList.add("attr-before")
+              before.textContent = String(data[0]) + " "
+              let after = document.createElement("span")
+              after.classList.add("attr-after")
+              after.textContent = String(data[1])
+              childElem.appendChild(before)
+              childElem.appendChild(after)
+              htmlParent.appendChild(childElem)
+              return
+          }
+          // Create next child nodes
+          for (var i in data) {
+              let childKey = key + "." + i
+              let childElem = this.createNode(childKey, i)
+              htmlParent.appendChild(childElem);
+              var that = this
+
+              // Toggle whether to open or close a node
+              childElem.addEventListener("click", function() {
+                  if (this.dataset.open === "0") {
+                      that.open(childKey)
+                      event.stopPropagation()
+                  } else {
+                      that.close(childKey)
+                      event.stopPropagation()
+                  }
+              })
+          }
+      }
+  }
+
+  let t = new Table(fontdiff, document.getElementById("difftable"))
+
+
+function wordBreaks() {
+  words = document.getElementsByClassName("cell-word")
+  res = []
+  prevTop = 0
+  for (i=0; i<words.length; i++) {
+      var word = words[i]
+      currentTop = word.getBoundingClientRect().top
+      if (currentTop > prevTop) {
+          res.push(i)
+      }
+      prevTop = currentTop
+  }
+  return res
+}
+
+async function insertBreaks() {
+  switchFonts()
+  await sleep(1)
+  breaksBefore = wordBreaks()
+  switchFonts()
+  await sleep(1)
+  breaksAfter = wordBreaks()
+
+
+  console.log(breaksBefore.length, breaksAfter.length)
+
+  if (breaksBefore.length >= breaksAfter.length) {
+    breaks = breaksBefore
+  } else {
+    breaks = breaksAfter
+  }
+
+  words = document.getElementsByClassName("cell-word")
+  breaks.forEach(function(i) {
+    if (i != 0) {
+      i = i
+    }
+    word = words[i]
+    spacer = document.createElement("div")
+    spacer.className = "spacer"
+    word.parentNode.insertBefore(spacer, word)
+  })
+}
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+  
+insertBreaks()
+
+
+    </script>
+</html>
