@@ -7,8 +7,12 @@ shapes = (
 {
 alignment = 1;
 pos = (1012,0);
-ref = tildeOperatorAboveRightArrow;
+ref = rightArrow;
 scale = (-1,1);
+},
+{
+pos = (434,-206);
+ref = tildecomb;
 }
 );
 width = 1012;
