@@ -26,8 +26,6 @@ includeSubsets:
         end: 0x00D0
       - start: 0x00DE
         end: 0x00DE
-      - start: 0x00E5
-        end: 0x00E5
       - start: 0x00E7
         end: 0x00E7
       - start: 0x00B6
