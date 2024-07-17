@@ -1,6 +1,6 @@
 ## FontBakery report
 
-fontbakery version: 0.12.7
+fontbakery version: 0.12.8
 
 
 
@@ -9,8 +9,26 @@ fontbakery version: 0.12.7
 These won't break the CI job for now, but will become effective after some time if nobody raises any concern.
 
 
-<details><summary>[1] NotoSansMath-Regular.ttf</summary>
+<details><summary>[2] NotoSansMath-Regular.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Ensure 'smcp' (small caps) lookups are defined before ligature lookups in the 'GSUB' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>'smcp' or 'liga' lookups not found in GSUB table.</p>
+ [code: missing-lookups]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
     <div>
@@ -815,29 +833,29 @@ uni031A (U+031A), uni20DD (U+20DD), uni20DE (U+20DE), uni20DF (U+20DF) and uni20
 * ⚠️ **WARN** <p>The most common width is 572 among a set of 169 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 699:
-uni2285, uni2ABE, propersubset, notsubset, uni22F9, uni2AC7, uni27C4, uni297E, reflexsubset, uni22F5, uni2288, uni2AC8, reflexsuperset, uni297F, uni22D0, propersuperset, element, uni22D1, notelement, uni22FB, uni22F3, uni228B, uni2289, uni22F6, suchthat, uni27C3, uni2ABD, uni22F8, uni22FD, uni228A, uni220C</p>
+uni22F3, suchthat, uni2289, uni22F6, uni228B, uni2ABD, uni22F8, uni22FD, uni22D0, uni22F9, propersubset, uni297E, uni22F5, uni2ABE, uni22D1, uni27C4, uni2288, uni2285, reflexsuperset, uni220C, uni2AC7, element, uni228A, uni27C3, uni22FB, reflexsubset, uni2AC8, notelement, uni297F, notsubset, propersuperset</p>
 <p>Width = 540:
 proportional</p>
 <p>Width = 652:
-angle, uni299B, uni29AA, uni299C, uni27C0, uni299F, uni299E, uni299D, uni29A3, uni2221, uni29A5, uni27D3, uni27D4, uni29A9, uni29A2, uni29AB, uni29A8, uni29A4, orthogonal, uni22BE</p>
+orthogonal, uni2221, uni299D, uni29A3, uni29AB, uni29A8, uni27D4, uni29AA, uni22BE, uni299F, uni299B, angle, uni299C, uni299E, uni27C0, uni29A2, uni29A5, uni29A4, uni29A9, uni27D3</p>
 <p>Width = 617:
-uni2A27, uni2239</p>
+uni2239, uni2A27</p>
 <p>Width = 696:
 uni223E</p>
 <p>Width = 667:
 uni2A33, uni223F</p>
 <p>Width = 573:
-uni2A88, greaterequal, uni2270, approxequal, uni2AF3, lessequal, uni2A7C, uni2271, uni2A7B</p>
+uni2A88, uni2A7B, uni2AF3, lessequal, greaterequal, uni2A7C, approxequal, uni2270, uni2271</p>
 <p>Width = 542:
-uni2280, uni227D, uni2281, uni22DF, uni22E1, uni227B, uni22DE, uni227A, uni227C, uni22E0</p>
+uni2280, uni227B, uni227C, uni227D, uni2281, uni22E1, uni22DF, uni22DE, uni22E0, uni227A</p>
 <p>Width = 756:
-uni22A8, uni2AE0, uni22A5, uni2AE8, uni2ADF, uni2AE4, uni2AE7, uni2AE9, uni2AEA, uni2AEB, uni22A3, uni22A4, uni3012, uni2AE2, uni22A2</p>
+uni2AE9, uni2ADF, uni2AEB, uni22A2, uni2AE0, uni2AE4, uni22A5, uni2AEA, uni22A4, uni3012, uni2AE8, uni2AE7, uni22A3, uni22A8, uni2AE2</p>
 <p>Width = 567:
 uni22B0, uni22B1</p>
 <p>Width = 532:
-uni22D6, uni22D7</p>
+uni22D7, uni22D6</p>
 <p>Width = 775:
-uni2979, uni297B</p>
+uni297B, uni2979</p>
 <p>Width = 579:
 uni2994, uni2993</p>
 <p>Width = 631:
@@ -845,23 +863,23 @@ uni2995, uni2996</p>
 <p>Width = 624:
 uni29A1</p>
 <p>Width = 689:
-uni29E4, uni29E3</p>
+uni29E3, uni29E4</p>
 <p>Width = 744:
 uni29FA</p>
 <p>Width = 916:
 uni29FB</p>
 <p>Width = 745:
-uni2A68, uni2A69</p>
+uni2A69, uni2A68</p>
 <p>Width = 669:
 uni2A7A, uni2A79</p>
 <p>Width = 798:
 uni2AA2, uni2AA1</p>
 <p>Width = 760:
-uni2AA8, uni2AA7, uni2AA9, uni2AA6</p>
+uni2AA9, uni2AA7, uni2AA8, uni2AA6</p>
 <p>Width = 681:
-uni2AAB, uni2AAD, smallerthan, uni2AAC</p>
+uni2AAB, smallerthan, uni2AAD, uni2AAC</p>
 <p>Width = 679:
-uni2AC0, uni2AD2, uni2AD3, uni2ACA, uni2ABF, uni2AC2, uni2AC4, uni2ACC, uni2AC3, uni2AD6, uni2AD1, uni2AD4, uni2AC5, uni2AD5, uni2AC9, uni2AC1, uni2AD0, uni2AC6, uni2ACF, uni2ACB</p>
+uni2AD2, uni2AD6, uni2ACA, uni2AD1, uni2AD5, uni2ACB, uni2AC0, uni2AC9, uni2AD4, uni2AC4, uni2AC1, uni2AD3, uni2AC2, uni2AC5, uni2ACF, uni2AC3, uni2AD0, uni2AC6, uni2ACC, uni2ABF</p>
 <p>Width = 754:
 uni2AE1</p>
 <p>Width = 836:
@@ -1334,8 +1352,8 @@ uni2AF6</p>
 
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i⃐ i⃑ i⃔ i⃕ i⃖ i⃗ i⃛ i⃜ i⃡ i⃧ i⃩ ị⃐ ị⃑ ị⃔ ị⃕ ị⃖ ị⃗ ị⃛ ị⃜ ị⃡</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Ijo, Southeast (Latn, 2,471,000 speakers), Dutch (Latn, 31,709,104 speakers), Ekpeye (Latn, 226,000 speakers), Ebira (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Lugbara (Latn, 2,200,000 speakers), Fur (Latn, 1,230,163 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Kom (Latn, 360,685 speakers), Gulay (Latn, 250,478 speakers), South Central Banda (Latn, 244,000 speakers), Mango (Latn, 77,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Mundani (Latn, 34,000 speakers), Makaa (Latn, 221,000 speakers), Avokaya (Latn, 100,000 speakers), Mfumte (Latn, 79,000 speakers), Navajo (Latn, 166,319 speakers), Cicipu (Latn, 44,000 speakers), Ma’di (Latn, 584,000 speakers), Dii (Latn, 71,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Aghem (Latn, 38,843 speakers), Bete-Bendi (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Yala (Latn, 200,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Nateni (Latn, 100,000 speakers), Nzakara (Latn, 50,000 speakers), Bafut (Latn, 158,146 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Southern Kisi (Latn, 360,000 speakers), Basaa (Latn, 332,940 speakers), Sar (Latn, 500,000 speakers), Ejagham (Latn, 120,000 speakers), Dan (Latn, 1,099,244 speakers), Zapotec (Latn, 490,000 speakers), Vute (Latn, 21,000 speakers).</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Ijo, Southeast (Latn, 2,471,000 speakers), Dutch (Latn, 31,709,104 speakers), Ebira (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Ekpeye (Latn, 226,000 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ma’di (Latn, 584,000 speakers), Bafut (Latn, 158,146 speakers), Yala (Latn, 200,000 speakers), Vute (Latn, 21,000 speakers), Avokaya (Latn, 100,000 speakers), Lugbara (Latn, 2,200,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), South Central Banda (Latn, 244,000 speakers), Koonzime (Latn, 40,000 speakers), Gulay (Latn, 250,478 speakers), Mango (Latn, 77,000 speakers), Navajo (Latn, 166,319 speakers), Zapotec (Latn, 490,000 speakers), Nateni (Latn, 100,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Fur (Latn, 1,230,163 speakers), Mundani (Latn, 34,000 speakers), Aghem (Latn, 38,843 speakers), Ejagham (Latn, 120,000 speakers), Cicipu (Latn, 44,000 speakers), Basaa (Latn, 332,940 speakers), Bete-Bendi (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Dan (Latn, 1,099,244 speakers), Mfumte (Latn, 79,000 speakers), Nzakara (Latn, 50,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Kom (Latn, 360,685 speakers), Dii (Latn, 71,000 speakers), Makaa (Latn, 221,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Southern Kisi (Latn, 360,000 speakers).</p>
  [code: soft-dotted]
 
 
@@ -1361,10 +1379,10 @@ definitions.</p>
 <ul>
 <li>U+02D4 MODIFIER LETTER UP TACK: not included in any glyphset definition</li>
 <li>U+02D5 MODIFIER LETTER DOWN TACK: not included in any glyphset definition</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0310 COMBINING CANDRABINDU: not included in any glyphset definition</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
@@ -1376,7 +1394,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, caucasian-albanian, gothic, tifinagh, syriac</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, caucasian-albanian, gothic, cherokee, syriac</li>
 <li>U+0332 COMBINING LOW LINE: not included in any glyphset definition</li>
 <li>U+0333 COMBINING DOUBLE LOW LINE: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -1384,7 +1402,7 @@ definitions.</p>
 <li>U+033F COMBINING DOUBLE OVERLINE: try adding coptic</li>
 <li>U+0346 COMBINING BRIDGE ABOVE: not included in any glyphset definition</li>
 <li>U+034D COMBINING LEFT RIGHT ARROW BELOW: not included in any glyphset definition</li>
-<li>U+03DC GREEK LETTER DIGAMMA: try adding one of: elbasan, greek</li>
+<li>U+03DC GREEK LETTER DIGAMMA: try adding one of: greek, elbasan</li>
 <li>U+03DD GREEK SMALL LETTER DIGAMMA: try adding greek</li>
 <li>U+03F6 GREEK REVERSED LUNATE EPSILON SYMBOL: try adding greek</li>
 <li>U+0606 ARABIC-INDIC CUBE ROOT: try adding arabic</li>
@@ -1392,8 +1410,8 @@ definitions.</p>
 <li>U+0608 ARABIC RAY: try adding arabic</li>
 <li>U+0609 ARABIC-INDIC PER MILLE SIGN: try adding arabic</li>
 <li>U+060A ARABIC-INDIC PER TEN THOUSAND SIGN: try adding arabic</li>
-<li>U+060C ARABIC COMMA: try adding one of: arabic, hanifi-rohingya, yezidi, thaana, nko, syriac</li>
-<li>U+0627 ARABIC LETTER ALEF: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+060C ARABIC COMMA: try adding one of: hanifi-rohingya, thaana, yezidi, syriac, nko, arabic</li>
+<li>U+0627 ARABIC LETTER ALEF: try adding one of: indic-siyaq-numbers, arabic</li>
 <li>U+0628 ARABIC LETTER BEH: try adding arabic</li>
 <li>U+062A ARABIC LETTER TEH: try adding arabic</li>
 <li>U+062B ARABIC LETTER THEH: try adding arabic</li>
@@ -1422,33 +1440,33 @@ definitions.</p>
 <li>U+0648 ARABIC LETTER WAW: try adding arabic</li>
 <li>U+0649 ARABIC LETTER ALEF MAKSURA: try adding arabic</li>
 <li>U+064A ARABIC LETTER YEH: try adding arabic</li>
-<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: arabic, indic-siyaq-numbers, hanifi-rohingya, yezidi, thaana, syriac</li>
-<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: arabic, indic-siyaq-numbers, yezidi, thaana, syriac</li>
-<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: arabic, indic-siyaq-numbers, yezidi, thaana, syriac</li>
-<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: arabic, indic-siyaq-numbers, yezidi, thaana, syriac</li>
-<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: arabic, indic-siyaq-numbers, yezidi, thaana, syriac</li>
-<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: arabic, indic-siyaq-numbers, yezidi, thaana, syriac</li>
-<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: arabic, indic-siyaq-numbers, yezidi, thaana, syriac</li>
-<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: arabic, indic-siyaq-numbers, yezidi, thaana, syriac</li>
-<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: arabic, indic-siyaq-numbers, yezidi, thaana, syriac</li>
-<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: arabic, indic-siyaq-numbers, yezidi, thaana, syriac</li>
-<li>U+066A ARABIC PERCENT SIGN: try adding one of: nko, thaana, arabic, syriac</li>
-<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: thaana, arabic, syriac</li>
-<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: thaana, arabic, syriac</li>
+<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: hanifi-rohingya, thaana, yezidi, syriac, indic-siyaq-numbers, arabic</li>
+<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: thaana, yezidi, syriac, indic-siyaq-numbers, arabic</li>
+<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: thaana, yezidi, syriac, indic-siyaq-numbers, arabic</li>
+<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: thaana, yezidi, syriac, indic-siyaq-numbers, arabic</li>
+<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: thaana, yezidi, syriac, indic-siyaq-numbers, arabic</li>
+<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: thaana, yezidi, syriac, indic-siyaq-numbers, arabic</li>
+<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: thaana, yezidi, syriac, indic-siyaq-numbers, arabic</li>
+<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: thaana, yezidi, syriac, indic-siyaq-numbers, arabic</li>
+<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: thaana, yezidi, syriac, indic-siyaq-numbers, arabic</li>
+<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: thaana, yezidi, syriac, indic-siyaq-numbers, arabic</li>
+<li>U+066A ARABIC PERCENT SIGN: try adding one of: nko, thaana, syriac, arabic</li>
+<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: thaana, syriac, arabic</li>
+<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: thaana, syriac, arabic</li>
 <li>U+066E ARABIC LETTER DOTLESS BEH: try adding arabic</li>
 <li>U+066F ARABIC LETTER DOTLESS QAF: try adding arabic</li>
 <li>U+06A1 ARABIC LETTER DOTLESS FEH: try adding arabic</li>
 <li>U+06BA ARABIC LETTER NOON GHUNNA: try adding arabic</li>
-<li>U+06F0 EXTENDED ARABIC-INDIC DIGIT ZERO: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F1 EXTENDED ARABIC-INDIC DIGIT ONE: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F2 EXTENDED ARABIC-INDIC DIGIT TWO: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F3 EXTENDED ARABIC-INDIC DIGIT THREE: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F4 EXTENDED ARABIC-INDIC DIGIT FOUR: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F5 EXTENDED ARABIC-INDIC DIGIT FIVE: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F6 EXTENDED ARABIC-INDIC DIGIT SIX: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F7 EXTENDED ARABIC-INDIC DIGIT SEVEN: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F0 EXTENDED ARABIC-INDIC DIGIT ZERO: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F1 EXTENDED ARABIC-INDIC DIGIT ONE: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F2 EXTENDED ARABIC-INDIC DIGIT TWO: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F3 EXTENDED ARABIC-INDIC DIGIT THREE: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F4 EXTENDED ARABIC-INDIC DIGIT FOUR: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F5 EXTENDED ARABIC-INDIC DIGIT FIVE: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F6 EXTENDED ARABIC-INDIC DIGIT SIX: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F7 EXTENDED ARABIC-INDIC DIGIT SEVEN: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE: try adding one of: indic-siyaq-numbers, arabic</li>
 <li>U+1D46 MODIFIER LETTER SMALL TURNED AE: not included in any glyphset definition</li>
 <li>U+2000 EN QUAD: not included in any glyphset definition</li>
 <li>U+2001 EM QUAD: not included in any glyphset definition</li>
@@ -1459,7 +1477,7 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+2010 HYPHEN: try adding one of: kaithi, arabic, syloti-nagri, sundanese, sora-sompeng, kharoshthi, yi, armenian, hebrew, coptic, kayah-li, cham, lisu</li>
+<li>U+2010 HYPHEN: try adding one of: cham, armenian, coptic, kayah-li, sora-sompeng, yi, hebrew, lisu, sundanese, kaithi, syloti-nagri, kharoshthi, arabic</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2016 DOUBLE VERTICAL LINE: not included in any glyphset definition</li>
 <li>U+2017 DOUBLE LOW LINE: not included in any glyphset definition</li>
@@ -1477,7 +1495,7 @@ definitions.</p>
 <li>U+20DE COMBINING ENCLOSING SQUARE: try adding symbols</li>
 <li>U+20DF COMBINING ENCLOSING DIAMOND: try adding symbols</li>
 <li>U+20E4 COMBINING ENCLOSING UPWARD POINTING TRIANGLE: try adding symbols</li>
-<li>U+20F0 COMBINING ASTERISK ABOVE: try adding one of: grantha, devanagari</li>
+<li>U+20F0 COMBINING ASTERISK ABOVE: try adding one of: devanagari, grantha</li>
 <li>U+2107 EULER CONSTANT: not included in any glyphset definition</li>
 <li>U+210F PLANCK CONSTANT OVER TWO PI: not included in any glyphset definition</li>
 <li>U+2118 SCRIPT CAPITAL P: not included in any glyphset definition</li>
@@ -1723,8 +1741,9 @@ definitions.</p>
 <li>U+2B52 WHITE SMALL STAR: try adding symbols</li>
 <li>U+2B53 BLACK RIGHT-POINTING PENTAGON: try adding symbols</li>
 <li>U+2B54 WHITE RIGHT-POINTING PENTAGON: try adding symbols</li>
-<li>U+3012 POSTAL MARK: try adding one of: yi, japanese, chinese-hongkong, chinese-traditional, phags-pa, chinese-simplified</li>
+<li>U+3012 POSTAL MARK: try adding one of: yi, phags-pa, japanese, chinese-traditional, chinese-simplified, chinese-hongkong</li>
 <li>U+3030 WAVY DASH: not included in any glyphset definition</li>
+<li>U+FE00 VARIATION SELECTOR-1: try adding one of: phags-pa, yi, manichaean</li>
 <li>U+1F780 BLACK LEFT-POINTING ISOSCELES RIGHT TRIANGLE: try adding symbols</li>
 <li>U+1F781 BLACK UP-POINTING ISOSCELES RIGHT TRIANGLE: try adding symbols</li>
 <li>U+1F782 BLACK RIGHT-POINTING ISOSCELES RIGHT TRIANGLE: try adding symbols</li>
@@ -1850,8 +1869,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 4 | 10 | 115 | 6 | 113 | 0 | 
-| 0% | 0% | 2% | 4% | 46% | 2% | 46% | 0% | 
+| 0 | 0 | 5 | 10 | 117 | 6 | 113 | 0 | 
+| 0% | 0% | 2% | 4% | 47% | 2% | 45% | 0% | 
 
 
 
