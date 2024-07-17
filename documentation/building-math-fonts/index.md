@@ -4,19 +4,19 @@ Math typesetting is different to regular text typesetting, for two main reasons:
 In OpenType math typesetting, instead of multiple fonts, all symbols are contained in a single font; the various “font styles” use dedicated Unicode math alphanumerics codepoints; and all the additional glyphs required (for example, superscripts and subscripts and variant sized versions of glyphs) are included in the same font. OpenType also introduced a new `MATH` table that stores various special parameters for typesetting math (*math constants*) and math-specific metrics, as well as a few registered feature tags to enable math-specific glyph substitutions. We will discuss more about both of these aspects below.
 
 ## Understanding math layout
-Probably the the most detailed resource about math layout is Knuth’s The TeXbook, and particularly its “Appendix G: Generating Boxes from Formulas”. Appendix G is a heavy text that can be hard to follow at times without visual aide, so Bogusław Jackowski wrote [Appendix G Illuminated](https://tug.org/TUGboat/tb27-1/tb86jackowski.pdf) which provides a collection of illustrations to accompany Appendix G.
+Probably the the most detailed resource about math layout is Knuth’s *The TeXbook*, and particularly its “Appendix G: Generating Boxes from Formulas”. Appendix G is a heavy text that can be hard to follow at times without visual aide, so Bogusław Jackowski wrote [Appendix G Illuminated](https://tug.org/TUGboat/tb27-1/tb86jackowski.pdf) which provides a collection of illustrations to accompany Appendix G.
 
 Appendix G documents algorithms using TeX fonts and metrics, which is very close to OpenType `MATH` table, but does not always map to it one-to-one, so Ulrik Vieth wrote [OpenType Math Illuminated](https://www.tug.org/~vieth/papers/bachotex2009/ot-math-paper.pdf), which illustrates the similarities and differences
 between TeX math fonts and OpenType math fonts.
 
-The OpenType spec documents [`MATH` table](https://learn.microsoft.com/en-us/typography/opentype/spec/math), but the documentation mostly focusses on the data structure, but light on the details of algorithms involved in math layout and assumes prior familiarity with TeX math layout model, but it sometimes goes into details when discussing novel concepts that do not exist in TeX.
+The OpenType spec documents the [`MATH` table](https://learn.microsoft.com/en-us/typography/opentype/spec/math), but the documentation mostly focusses on the data structure; it is light on the details of the algorithms involved in math layout and assumes prior familiarity with TeX math layout model, but it sometimes goes into details when discussing novel concepts which do not exist in TeX.
 
-There is also [MathML Core](https://www.w3.org/TR/mathml-core/) specification, which discusses math layout using MathML and OpenType math fonts, but it is still a working draft (at the time of writing this) and it documents only a subset of math layout, and uses a language that is probably more penetrable to people familiar with W3C specifications.
+There is also the [MathML Core](https://www.w3.org/TR/mathml-core/) specification, which discusses math layout using MathML and OpenType math fonts. This is still a working draft (at the time of writing) and documents only a subset of math layout; it also uses a language that is probably only more penetrable to people familiar with W3C specifications.
 
 ## Character set
 Math fonts require a large number of glyphs; the number can range from about 1000 to 6000 glyphs, depending on what character set is supported by the font. There is no single, well-defined character set for math fonts. Unicode includes thousands of math related characters, so each project defines its own character set based on its own requirements.
 
-The [symbols defined](https://texdoc.org/serve/unimath-symbols.pdf/0) by `unicode-math` LaTeX package is a good resource, and the subset of these symbols that are defined by Plain TeX, LaTeX, and `amssymb` (indicated in the document) should be a good start for new math fonts.
+The [symbols defined](https://texdoc.org/serve/unimath-symbols.pdf/0) by the `unicode-math` LaTeX package is a good resource, and the subset of these symbols that are defined by Plain TeX, LaTeX, and `amssymb` (indicated in the document) should be a good start for new math fonts.
 
 Here are some of the Unicode blocks related to mathematics:
 
@@ -53,7 +53,7 @@ Here are some of the Unicode blocks related to mathematics:
     * monospace regular
     
   Some of the styles in this block are missing a few characters, because they were already defined in Unicode in a different block.
-* Letterlike Symbols, [U+2100–214F](https://unicode.org/charts/PDF/U2100.pdf): This includes some symbols that can be used in math, and specially some alphanumeric symbols missing from the previous block. For example, U+210E is used for Latin italic h, which is not included with the other Latin italic letters in the above block.
+* Letterlike Symbols, [U+2100–214F](https://unicode.org/charts/PDF/U2100.pdf): This includes some symbols which can be used in math, and specially some alphanumeric symbols missing from the previous block. For example, U+210E is used for Latin italic h, which is not included with the other Latin italic letters in the above block.
 * Arabic, [U+0600–06FF](https://unicode.org/charts/PDF/U0600.pdf): For Arabic math support, the Arabic-Indic and Extended Arabic-Indic digits need to be included, as well as the  basic Arabic letters. These letters only need to be included in isolated form only.
 * Arabic Mathematical Alphabetic Symbols, [U+1EE00–1EEFF](https://unicode.org/charts/PDF/U1EE00.pdf): This includes Arabic math letters, in isolated, initial, extended, tailed, looped, and double-struck forms. The design of isolated forms for math symbols sometimes differs from the basic isolated forms, so both should be included in fonts intended to support Arabic math.
 
@@ -76,7 +76,7 @@ Math often includes glyphs at smaller point sizes, used for situations such as s
 
 ![Superscript rendering with and without `ssty` feature](./ssty.svg)
 
-In OpenType math, this is handled by including two additional sets of glyphs, designed for the first- and second-level script forms (e.g. subscript and subsubscript). Third or higher levels of alternates will use the second-level set. The glyphs should be designed in full size and not moved vertically (unlike `sups` and `subs` features) since the scaling and positioning will be done by the math layout engine (the scaling percent is controlled by two font constants, [discussed below](#scriptpercentscaledown-scriptscriptpercentscaledown)).
+In OpenType math, this is handled by including two additional sets of glyphs, designed for the first- and second-level script forms (e.g. subscript and subsubscript). Third or higher levels of alternates will use the second-level set. The glyphs should be designed at full size and not moved vertically (unlike glyphs used in the `sups` and `subs` features), since the scaling and positioning will be done by the math layout engine (the scaling percent is controlled by two font constants, [discussed below](#scriptpercentscaledown-scriptscriptpercentscaledown)).
 
 These alternate glyphs are applied using the `ssty` feature, using a multiple alternate substitution lookup, e.g.:
 ```fea
@@ -98,7 +98,7 @@ sub b from [b.ssty b.ssty];
 ```
 
 #### Primes
-Prime characters are an interesting case for `ssty` feature. In most fonts, the primes are designed as raised apostrophe-like glyphs, but in TeX prime was designed as a full sized glyph that sets near the baseline. The math input treats it as a superscript that then gets scaled and moved vertically like any other superscript. OpenType math inherits this, so if the font includes a prime glyph which is designed in the usual way to suit text fonts (smaller and above the baseline), the layout engine will further scale it down and raise it up, making it look smaller and higher than expected. Compare the expected size and position of the primes (left) with when text primes are used in math layout without any changes (right):
+Prime characters are an interesting case for `ssty` feature. In most fonts, the primes are designed as raised apostrophe-like glyphs, but in TeX, prime was designed as a full sized glyph that sets near the baseline. The math input treats it as a superscript that then gets scaled and moved vertically like any other superscript. OpenType math inherits this, so if the font includes a prime glyph which is designed in the usual way to suit text fonts (smaller and above the baseline), the layout engine will further scale it down and raise it up, making it look smaller and higher than expected. Compare the expected size and position of the primes (left) with when text primes are used in math layout without any changes (right):
 
 ![Proper rendering of primes in math vs. badly sized and positioned ones](./primes.svg)
 
@@ -116,7 +116,7 @@ sub acutecomb by acutecomb.flac;
 ```
 
 ### Dotless forms ([`dtls`](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ae#dtls))
-Sometimes “i” and “j” glyphs loose their dot (title) when an accent is placed over them:
+Sometimes “i” and “j” glyphs lose their dot (tittle) when an accent is placed over them:
 
 ![Dotless versions of various “i” and “j” glyphs](./dtls.svg)
 
@@ -133,26 +133,26 @@ Some aspects of this table might seem redundant. For example, it provides ways o
 
 ![Wide tilde over three letters](./wide-accent.svg)
 
-Because of this *the `GPOS` table is not used in math layout and `MATH` table is used instead*. Some math engine implementations *might* apply `GPOS` kerning, but most engines do not. `GPOS` layout should not be relied upon in a mathematical environment.
+Because of this *the `GPOS` table is not used in math layout and the `MATH` table is used instead*. Some math engine implementations *might* apply `GPOS` kerning, but most engines do not. `GPOS` layout should not be relied upon in a mathematical environment.
 
-[“Mathematical Typesetting”](https://learn.microsoft.com/en-us/typography/cleartype/pdfs/cambriamath.pdf) booklet by Ross Mills and John Hudson is a nice overview of the `MATH` table and its capabilities, and math typesetting in general.
+[“Mathematical Typesetting”](https://learn.microsoft.com/en-us/typography/cleartype/pdfs/cambriamath.pdf), a booklet by Ross Mills and John Hudson, is a nice overview of the `MATH` table and its capabilities, and math typesetting in general.
 
 Editing the `MATH` table can be cumbersome since few tools support it. Currently the tools available for editing the `MATH` table are FontForge, the [Glyphs MATH Plugin](https://github.com/Nagwa-Limited-Community/Glyphs-MATH-Plugin), and custom scripts using the FontTools Python Library. (There was also a tool from Microsoft, but it does not seem to be publicly available anymore.)
 
 The general idea is the same, so the examples here will use Glyphs with the MATH plugin and FontForge, but it should be applicable to any other tool with the necessary modifications.
 
-Math table can roughly be divided into font-wide parameters (constants) and glyph-level data.
+The `MATH` table can roughly be divided into font-wide parameters (constants) and glyph-level data.
 
 ### Constants
 Constants are font-wide data that control various aspects of math typesetting.
 
-For many of these constants, a value relative to something called _default rule thickness_ is suggested. This is a vestige from TeX where these constants didn’t have dedicated font parameters and TeX used hard-coded values relative to a font parameter called _default rule thickness_ that was used for fraction bar, overline, radical bar, and so on. `MATH` table does not, however, have a single rule thickness as each of these uses has its own dedicated constant, though these constants are often set to the same value. So when you see _default rule thickness_ mentioned, it should be the value of one of the rule thickness constants like [`fractionRuleThickness`](#fractionrulethickness), [`overbarRuleThickness`](#overbarverticalgap-overbarrulethickness-overbarextraascender), or [`radicalRuleThickness`](#radicalrulethickness).
+For many of these constants, a value relative to something called the _default rule thickness_ is suggested. This is a vestige from TeX where these constants didn’t have dedicated font parameters and TeX used hard-coded values relative to a font parameter called _default rule thickness_ that was used for fraction bar, overline, radical bar, and so on. The `MATH` table does not, however, have a single rule thickness because each of these uses has its own dedicated constant - though in practice, these constants are often set to the same value. So when you see _default rule thickness_ mentioned, it should be the value of one of the rule thickness constants like [`fractionRuleThickness`](#fractionrulethickness), [`overbarRuleThickness`](#overbarverticalgap-overbarrulethickness-overbarextraascender), or [`radicalRuleThickness`](#radicalrulethickness).
 
-In Glyphs, constants can be edited from _Edit → Edit MATH Constants_:
+In Glyphs, these constants can be edited from _Edit → Edit MATH Constants_:
 
 ![Glyphs MATH constants window](./glyphs-constants.png)
 
-Next to each constant there is a _guess_ button, which tries to apply some of the suggestions below. Since many suggest constant values depend on rule thickness, these constants should be guessed/set first.
+Next to each constant there is a _guess_ button, which tries to apply some of the suggestions below. Since many of the guessed constants depend on the rule thickness, the rule thickness constants should be guessed/set first.
 
 In FontForge they can be edited from _Element → Other Info → MATH Info_:
 
@@ -177,17 +177,17 @@ Math layout engines use a [bigger glyph](#size-variants) for _big_ operators (e.
 This means that at least two glyphs are needed for each big operator: one for text math and the other for display math. It is possible to have more than one glyph, and this constant tells the layout engine what is the minimum size (bounding box height) of the big operator in display style, to skip any glyph that is smaller than it. Even if the font has only two glyphs for each big operator, this constant should be set to a value larger than the size of the first glyph of **all** big operators. There is a catch, however, since Microsoft implementation has a bug where it reads `delimitedSubFormulaMinHeight` instead of this constants, so the value that should be set for `displayOperatorMinHeight`, should also be used for `delimitedSubFormulaMinHeight` so that the font behaves correctly in various implementations.
 
 #### `mathLeading`
-No one knows what this constant is used for either, or how to test it, so read the spec description and make up your mind.
+No one knows what this constant is used for either, or how to test it, so read the spec description and make up your own mind...
 
 #### `axisHeight`
 This is a very important constant. In math layout, big operators, fractions, and many other constructs with large vertical size are vertically centered around something called _math axis_, while binary and relational operators are not vertical centered by the layout engine and are kept in their default positions (the way they are drawn in the font):
 
 ![Equation showing math axis centering](./math-axis.svg)
 
-The value of math axis is defined by this constant, so it should be set to the vertical center of the regular operators (minus, plus, equal, less than, bigger than, etc). The simplest way to calculate its value is to use the vertical center of the minus glyph, and then make sure all regular operators are centered around it in the font. (Well, not *all* of them, but most of them - some glyphs look better when they set on the base line, so use your judgment and check other math fonts...)
+The value of the *math axis* is defined by this constant, so it should be set to the vertical center of the regular operators (minus, plus, equal, less than, bigger than, etc). The simplest way to calculate its value is to use the vertical center of the minus glyph, and then make sure all regular operators are centered around it in the font. (Well, not *all* of them, but most of them - some glyphs look better when they set on the base line, so use your judgment and check other math fonts...)
 
 #### `accentBaseHeight`
-As discussed above, the math layout engine does not use the `GPOS` table for positioning anchors. It instead uses data from the `MATH` table, and this constant is one of them and it controls the vertical position of the accent.
+As discussed above, the math layout engine does not use the `GPOS` table for positioning anchors. It instead uses data from the `MATH` table, and this constant is one of them; it controls the vertical position of the accent.
 
 * First, the accent with placed right above the base, in its natural position (in other words, the way it is drawn in the font).
 * If the height (the part above baseline) of the base is greater than `accentBaseHeight`, then the accent will be moved up by difference between the `accentBaseHeight` and the height of the base glyph,
@@ -242,7 +242,7 @@ In math, display operators typically have limits above and below them in display
 
 `upperLimitGapMin` is the minimum gap between the top of a base and the bottom of the upper limit. While `upperLimitBaselineRiseMin` is the minimum distance between the top of the base and the upper limit’s baseline. The math layout engine will raise the upper limit baseline by `upperLimitBaselineRiseMin` and if the gap between the top of the base and the bottom of the upper limit is less than `upperLimitGapMin`, it will raise it further until the gap is equal to it.
 
-One way to set those two constants, is to first find a gap that look good, say, 2 times the default rule thickness, and set `upperLimitGapMin` to that. Then find the deepest lowercase descender and set `upperLimitBaselineRiseMin` to the descender + `upperLimitGapMin` (when calculating the descender, keep in mid that the limits will be set in first level script style, so the descender of `ssty` alternate glyphs should be used and it should be scaled down by [`scriptPercentScaleDown`](#scriptpercentscaledown-scriptscriptpercentscaledown)). This should make the baseline of the upper limit roughly at the same position when the upper limit has glyphs with and without descenders, which looks good when such limits occur close to each other.
+One way to set those two constants, is to first find a gap that look good, say, 2 times the default rule thickness, and set `upperLimitGapMin` to that. Then find the deepest lowercase descender and set `upperLimitBaselineRiseMin` to the descender + `upperLimitGapMin` (when calculating the descender, keep in mind that the limits will be set in first level script style, so the descender of `ssty` alternate glyphs should be used and it should be scaled down by [`scriptPercentScaleDown`](#scriptpercentscaledown-scriptscriptpercentscaledown)). This should make the baseline of the upper limit roughly at the same position when the upper limit has glyphs with and without descenders, which looks good when such limits occur close to each other.
 
 #### `lowerLimitGapMin`, `lowerLimitBaselineDropMin`
 The same as above but for lower limits. `lowerLimitGapMin` should be the same as `upperLimitGapMin`. Similarly to above, `lowerLimitBaselineDropMin` can be set to `upperLimitGapMin` + cap height or lower case ascender (whichever is bigger). The lower limits needs a bit more space for upper and lower limits to look evenly spaced, so may be add also default rule thickness to `lowerLimitBaselineDropMin`.
@@ -279,14 +279,14 @@ Stacks are like fractions but without the fraction rule. The shift up and down s
 ![Various stack constants in action](./stack.svg)
 
 #### `stretchStackTopShiftUp`, `stretchStackGapAboveMin`, `stretchStackBottomShiftDown`, `stretchStackGapBelowMin`
-Stretch stacks are when things are put above or below horizontally stretchable symbols, for example above arrows. Same strategy used for setting [upper limit](#upperlimitgapmin-upperlimitbaselineriseminn) and [lower limit](#lowerlimitgapmin-lowerlimitbaselinedropmin) rise and gap above can be used here.
+Stretch stacks are when things are put above or below horizontally stretchable symbols, for example above arrows. The same strategy used for setting [upper limit](#upperlimitgapmin-upperlimitbaselineriseminn) and [lower limit](#lowerlimitgapmin-lowerlimitbaselinedropmin) rise and gap above can be used here.
 
 ![Various stretch stack constants in action](./stretchstack.svg)
 
 #### `skewedFractionHorizontalGap`, `skewedFractionVerticalGap`
-Skewed fractions are fractions that use slash instead of horizontal bar.
+Skewed fractions are fractions that use a slash instead of the horizontal bar.
 
-* First, denominator is placed right after the numerator and shifted down by the numerators bounding box height (so that the bottom right of the numerator as at the top left of the denominator).
+* First, the denominator is placed right after the numerator and shifted down by the numerators bounding box height (so that the bottom right of the numerator as at the top left of the denominator).
 * Then the denominator is shifted horizontally by `skewedFractionHorizontalGap` and vertically by `skewedFractionVerticalGap`
 * The width of the slash glyph is ignored (as if it set to zero and centered horizontally).
 
@@ -295,7 +295,7 @@ If your font has pre-built fraction glyphs like `onehalf`, then these values can
 ![Skewed fraction constants](./skewedfraction.svg)
 
 #### `overbarVerticalGap`, `overbarRuleThickness`, `overbarExtraAscender`
-The gap above averline, which in math is drawn instead of using a pre-built glyph (since it needs to be able to extend to cover any sub equation). The suggested value is 3 times the default rule thickness, but it might be a good idea to make the the overline and macron/overline accents in math have roughly the same position. The `overbarRuleThickness` should be the same as `overlinecomb` (U+0305) or `macroncomb` (U+0304) glyphs. `overbarExtraAscender` is extra space reserved over the overline (so that it does not touch the lines above it), and the suggested value for it is the default rule thickness.
+The gap above overline, which in math is drawn instead of using a pre-built glyph (since it needs to be able to extend to cover any sub equation). The suggested value is 3 times the default rule thickness, but it might be a good idea to make the the overline and macron/overline accents in math have roughly the same position. The `overbarRuleThickness` should be the same as `overlinecomb` (U+0305) or `macroncomb` (U+0304) glyphs. `overbarExtraAscender` is extra space reserved over the overline (so that it does not touch the lines above it), and the suggested value for it is the default rule thickness.
 
 ![Overbar constants](./overline.svg)
 
@@ -308,7 +308,7 @@ Similar to above, but for underlines. Test equation:
 The space between the top of the content of a radical and the bar above it. The suggested value for `radicalVerticalGap` is 1 1⁄4 times the default rule thickness, and the suggested value for `radicalDisplayStyleVerticalGap` is default rule thickness + 1⁄4 x-height.
 
 #### `radicalRuleThickness`
-The thickness of the radical rule and should harmonize with its stroke thickness.
+The thickness of the radical rule; this should harmonize with its stroke thickness.
 
 #### `radicalExtraAscender`
 Extra space above the radical, should be the same as `overbarExtraAscender`.
@@ -391,7 +391,7 @@ In Glyphs, extended shape can be set from _Glyph → Edit MATH Variants_, checki
 In FontForge, it can be set from _Element → Glyph Info → TeX & Math_, but it has to be done for the glyph and all its vertical variants individually.
 
 #### Size variants
-In math many glyphs need to vary in size, one example of this is big operators that was [discussed earlier](#scriptpercentscaledown-scriptscriptpercentscaledown). Another example is delimiters like brackets and parentheses that need to grow up to cover its content:
+In math, many glyphs need to vary in size. One example of this is big operators as [discussed earlier](#scriptpercentscaledown-scriptscriptpercentscaledown). Another example is delimiters like brackets and parentheses, which need to grow up to cover their content:
 
 ![Example of parentheses growing in size](./size-variants-1.svg)
 
@@ -403,9 +403,9 @@ Some symbols grow horizontally:
 
 ![Example of under bracket growing in size](./size-variants-3.svg)
 
-For such symbols, a set of growing in size variants are designed, and mapping between base glyph and its list of alternates is provided in the `MATH` table. There are separate lists of vertical and horizontal variants. Usually a glyph either has vertical or horizontals alternates, but not both, though the spec allows both to exist. Implementations might not allow a given glyph to grow on both direction at the same time.
+For such symbols, a set of variants are designed which grow in size, and a mapping between base the glyph and its list of alternates is provided in the `MATH` table. There are separate lists of vertical and horizontal variants. Usually a glyph either has vertical or horizontals alternates, but not both, though the spec allows both to exist. Implementations might not allow a given glyph to grow on both direction at the same time.
 
-Big operators usually need to glyphs, a base glyph for inline math, and a larger variant for display math, but more variants can be included in the font and [`displayOperatorMinHeight`](#displayoperatorminheight) controls which variant to use. Adding multiple variants can allow for interesting effects, like an integral that grows in size based on the expression is it applied to, but existing implementations do not do this out of box.
+Big operators usually need two glyphs - a base glyph for inline math, and a larger variant for display math - but more variants can be included in the font, and [`displayOperatorMinHeight`](#displayoperatorminheight) controls which variant to use. Adding multiple variants can allow for interesting effects, like an integral that grows in size based on the expression is it applied to, but existing implementations do not do this out of box.
 
 The variants list should always start with the base glyph, otherwise some implementations will skip it and always start with the first variant.
 
@@ -424,13 +424,13 @@ In FontForge, variants can be set from _Element → Glyph Info → TeX & Math_:
 ![FontForge MATH variants window](./fontforge-variants.png)
 
 ##### Assemblies
-Some glyphs like parentheses or brackets can get really big, so even more and more variants are needed. To allow for unlimited growth, `MATH` table has a mechanism where glyphs are built from parts, with some parts are allowed to be repeated as needed to reach the desired size.
+Some glyphs like parentheses or brackets can get really big, so even more variants are needed. To allow for unlimited growth, the `MATH` table has a mechanism where glyphs are built from parts, with some parts are allowed to be repeated as needed to reach the desired size.
 
-Each part has a start and end connector lengths, which is how much this part can overlap with the previous or next parts. This gives flexibility to the glyph assembly to grow and shrink as needed until the desired size is reached. The first part should have its start connector set to zero as there is not previous part to overlap with, and similarly the last part should have it is end connector set to zero. Each part has a full advance which is basically the glyph advance in the direction of the assembly.
+Each part has a start and end connector length. This length determines how much this part can overlap with the previous or next parts. This gives flexibility to the glyph assembly to grow and shrink as needed until the desired size is reached. The first part should have its start connector set to zero as there is no previous part to overlap with, and similarly the last part should have its end connector set to zero. Each part has a full advance, which is basically the glyph advance in the direction of the assembly.
 
-Parts that can be repeated as needed (including being omitted altogether to get the smallest possible size) should be marked as extenders. There must be at least one extender, or the glyph will not be able to grow.
+Parts that can be repeated as needed (including being omitted altogether to get the smallest possible size) should be marked as *extenders*. There must be at least one extender, or the glyph will not be able to grow.
 
-It is possible to have an assembly without having size variants. Some implementations do not like that, though, so at least one variant should be provided (which can be the base glyph itself).
+It is possible to have an assembly without having size variants. Some implementations do not like that, however, so at least one variant should be provided (which can be the base glyph itself).
 
 In Glyphs, assemblies can be set from _Glyph → Edit MATH Variants_. There is a guess button that will look for glyphs with extensions like `.lft`, `.rgt`, `.top`, `.bot`, `.mid`, `.ext`, or `.left`, `.right`, `.top`, `.bottom`, `.middle`, `.extension`, or `.l`, `.r`, `.t`, `.b`, `.m`, `.x` and populate the assembly from them. It applies a heuristic to find the straight segment at both ends of part glyph to calculate the connector lengths, but the results should be double checked. The start connector, end connector, and whether the glyphs is an extender or not can be set manually. The full advance will be automatically calculated.
 
@@ -470,11 +470,11 @@ Many Arabic letters have a wide part of the glyph going below the base line. Tho
 There are many considerations that should be taken into account when designing glyphs for math, but this has been written about [elsewhere](http://www.typoma.com/publ/20040430-bachotex.pdf). Here we discuss glyph design aspects that are influenced by technical details of the `MATH` table.
 
 ### Accents
-Math accents with size variants should have an advance width. While in OpenType mark glyphs usually get zero advance width (with some font editors like Glyph enforcing this at font export time), some math layout implementations expect math accents to have an advance width as they use it to determine the size of the glyph and whether it is enough or the next size should be checked (though the `MATH` table glyph variants specify the advance of the variant glyph, these implementations do not use that information and instead use the advance from `hmtx` table).
+Math accents with size variants should have an advance width. While, in OpenType, mark glyphs usually get zero advance width (with some font editors like Glyphs enforcing this at font export time), some math layout implementations expect math accents to have an advance width as they use it to determine the size of the glyph and whether it is enough or the next size should be checked (though the `MATH` table glyph variants specify the advance of the variant glyph, these implementations do not use that information and instead use the advance from `hmtx` table).
 
-To satisfy both expectations, one solution is to duplicate the base glyph and give it an advance with and add it as the first glyph in the variants list. In Glyphs you will need to change the glyph sub category to Spacing so that it does not set the advance width to zero on export.
+To satisfy both expectations, one solution is to duplicate the "base" accent glyph, give it a positive advance width, and add it as the first glyph in the variants list. In Glyphs you will need to change the glyph's sub category to Spacing so that it does not set the advance width to zero on export.
 
-When drawing accents, accents that go above the base need to be drawn above [`accentBaseHeight`](#accentbaseheight) by a small offset, say rule thickness, since they will not be shifted vertically for glyphs whose height is below `accentBaseHeight`. If they are drawn exactly at `accentBaseHeight` or below it, they will touch or overlap the base glyphs, and if they are drawn too far from `accentBaseHeight`, they will be also placed too high above base glyphs.
+When drawing accents, accents that go above the base need to be drawn above [`accentBaseHeight`](#accentbaseheight) by a small offset - generally the rule thickness - since they will not be shifted vertically for glyphs whose height is below `accentBaseHeight`. If they are drawn exactly at `accentBaseHeight` or below it, they will touch or overlap the base glyphs, and if they are drawn too far from `accentBaseHeight`, they will be also placed too high above base glyphs.
 
 Bottom accents should also be drawn below the baseline by a similar offset.
 
@@ -486,11 +486,11 @@ Though `radicalDegreeBottomRaisePercent` is a percent, which should give it some
 `radicalKernAfterDegree` is even more restrictive, as it requires that the space to the outside of the long arm of the radical to remain roughly the same across all size variants, otherwise if it git too smaller the degree might colloid with the long arm.
 
 ### Variants
-When building size variants, some glyph like vertical bar seem simple enough that they can built from an assembly without needing any pre-built size variants. While this is true, delimiters are often used in pairs and users expect them to have the same size. But if one delimiter has pre-built size variants and the other have an assembly only, the closest glyph to the desired size will be picked for pre-built delimiter while the one with assembly will be (more or less) of the exact required size, and this discrepancy in size is not desirable.
+When building size variants, some glyphs - such as the vertical bar - seem simple enough that they can built from an assembly without needing any pre-built size variants. While this is true, delimiters are often used in pairs, and users expect these pairs to have the same size. However, if one delimiter has pre-built size variants and the other only has an assembly, the closest glyph to the desired size will be picked for pre-built delimiter while the one with assembly will be (more or less) of the exact required size, and this discrepancy in size is not desirable.
 
-![Example of mixed dimiliters](./size-variants-4.svg)
+![Example of mixed demiliters](./size-variants-4.svg)
 
-So it is preferable to have the same number of variants and the same sizes for all delimiters.
+Therefore it is preferable to have the same number of variants and the same sizes for all sets of delimiters.
 
 ## Building
 When using Glyphs with the MATH plugin, you can export the font directly from Glyphs and the plugin will take care of exporting `MATH` table. The Glyphs sources can also be built with `fontmake`, which supports reading the `MATH` table data stored by the plugin and will use it to build the `MATH` table (the actual support is provided by both `glyphsLib` and `ufo2ft` libraries.
@@ -499,16 +499,16 @@ If you prefer working with UFO source files, `ufo2ft` can read data from private
 
 When using FontForge, you will have to generate the font with FontForge itself, either from the GUI or using its Python module.
 
-It is possible also to build `MATH` table using FontTools Python library, and it has a higher level `fontTools.otlLib.builder.buildMathTable` function for creating `MATH` table. Check its [documentation](https://fonttools.readthedocs.io/en/latest/otlLib/index.html#math-table-builder) for details.
+It is possible also to build the `MATH` table using the FontTools Python library, and it has a higher level `fontTools.otlLib.builder.buildMathTable` function for creating the `MATH` table. Check its [documentation](https://fonttools.readthedocs.io/en/latest/otlLib/index.html#math-table-builder) for details.
 
 ## Testing
-There are several implementations for OpenType math layout that might be worth testing to ensure wider usability of the font:
+There are several implementations of OpenType math layout that might be worth testing to ensure wider usability of the font:
 
-* Unicode- and OpenType-aware TeX engines. Two engines in particular XeTeX and LuaTeX. Both require some familiarity with TeX input languages, but the same input can be used to test both. Using OpenType math fonts with either of the two engines requires [`unicode-math`](https://github.com/latex3/unicode-math/) package and it does a great job papering over the input differences between the two, but the output can show differences so testing both might be necessary. Since TeX input is plain text, it is possible to write scripts to generate large number of test equations (for example testing the superscript and subscript positions for all alphabetic symbols), which can be a great aide in testing.
-* Microsoft implementation. The easiest way to test it is by using Microsoft Word’s equation editor. This requires using the desktop version on either Windows or macOS. The equation editor supports both visual input  of equations as well as a plain text input language. The visual editing does not require much prior familiarly.
-* Web browsers. Firefox, Chrome and WebKit/Safari all support MathML and using OpenType math fonts, though the level of support varies greatly between the three and all of them lag behind TeX and Microsoft implementations (with Firefox implementation being the most mature as it is much older than the other two, but it also predates OpenType math, so sometimes it does not fully utilize it). MathML is a bit verbose to edit by had, though there exists many tools to convert TeX syntax to MathML, so it should be possible to script it as well and generate large numbers of test equations.
+* Unicode-aware and OpenType-aware TeX engines. Two engines in particular are XeTeX and LuaTeX. Both require some familiarity with TeX input languages, but the same input can be used to test both. Using OpenType math fonts with either of the two engines requires [`unicode-math`](https://github.com/latex3/unicode-math/) package and it does a great job papering over the input differences between the two, but the output can show differences and so testing both might be necessary. Since TeX input is plain text, it is possible to write scripts to generate large number of test equations (for example testing the superscript and subscript positions for all alphabetic symbols), which can be a great aide in testing.
+* Microsoft's implementation. The easiest way to test this is by using Microsoft Word’s equation editor. This requires using the desktop version on either Windows or macOS. The equation editor supports both visual input  of equations as well as a plain text input language. The visual editing does not require much prior familiarly.
+* Web browsers. Firefox, Chrome and WebKit/Safari all support MathML and using OpenType math fonts, though the level of support varies greatly between the three and all of them lag behind TeX and Microsoft implementations (with Firefox's implementation being the most mature as it is much older than the other two, but it also predates OpenType math, so sometimes it does not fully utilize it). MathML is a bit verbose to edit by had, though there exist many tools to convert TeX syntax to MathML, so it should be possible to script it as well and generate large numbers of test equations.
 
-In the earlier sections test equations were often provided for illustration. These can be used as bases for creating test equations. For TeX, there exists many publicly available documents that can be used for testing. It is also possible to create large number of test equations using scripts. Some examples:
+In the earlier sections, test equations were often provided for illustration. These can be used as bases for creating test equations. For TeX, there exists many publicly available documents that can be used for testing. It is also possible to create large number of test equations using scripts. Some examples:
 
 * Test all possible superscript and subscript positions, e.g. loop over all alphabetic symbols and create equations with superscript only: $a^1$, subscript only: $a_1$, both: $a^1_1$, superscript with descender: $a^q$, subscript with ascender: $a_f$, both at the same time: $a^q_f$, and so on.
 * Test italic correction and whether it is needed or not by outputting all glyphs surrounded by, say, vertical pars: $|a|\,|b|\,|c|\,\cdots$, this also tests side bearings.
