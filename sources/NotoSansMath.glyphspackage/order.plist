@@ -5102,5 +5102,6 @@ _contour6.integral,
 _intersection.integral,
 _quaternion.integral,
 _slash.integral,
-_stroke.integral
+_stroke.integral,
+VS1
 )
