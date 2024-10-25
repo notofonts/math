@@ -1,62 +1,16 @@
 ## FontBakery report
 
-fontbakery version: 0.12.8
-
-
-
-## Experimental checks
-
-These won't break the CI job for now, but will become effective after some time if nobody raises any concern.
-
-
-<details><summary>[2] NotoSansMath-Regular.ttf</summary>
-<div>
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure 'smcp' (small caps) lookups are defined before ligature lookups in the 'GSUB' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
+fontbakery version: 0.12.10
 
 
 
 
 
-
-
-* 🔥 **FAIL** <p>'smcp' or 'liga' lookups not found in GSUB table.</p>
- [code: missing-lookups]
+## Check results
 
 
 
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>Family metadata at fonts/NotoSansMath/googlefonts/ttf does not have an article.</p>
- [code: lacks-article]
-
-
-
-</div>
-</details>
-</div>
-</details>
-
-
-
-
-## All other checks
-
-
-
-<details><summary>[13] NotoSansMath-Regular.ttf</summary>
+<details><summary>[14] NotoSansMath-Regular.ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
@@ -833,53 +787,53 @@ uni031A (U+031A), uni20DD (U+20DD), uni20DE (U+20DE), uni20DF (U+20DF) and uni20
 * ⚠️ **WARN** <p>The most common width is 572 among a set of 169 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 699:
-uni22F3, suchthat, uni2289, uni22F6, uni228B, uni2ABD, uni22F8, uni22FD, uni22D0, uni22F9, propersubset, uni297E, uni22F5, uni2ABE, uni22D1, uni27C4, uni2288, uni2285, reflexsuperset, uni220C, uni2AC7, element, uni228A, uni27C3, uni22FB, reflexsubset, uni2AC8, notelement, uni297F, notsubset, propersuperset</p>
+uni22FB, uni22FD, uni2AC7, notsubset, propersubset, uni2289, uni22F6, suchthat, uni220C, uni2285, uni22F5, propersuperset, uni2AC8, reflexsuperset, reflexsubset, uni297F, uni2ABD, uni297E, uni22F9, uni228B, uni22D0, uni2ABE, uni2288, element, uni22D1, uni27C4, uni22F8, notelement, uni27C3, uni22F3, uni228A</p>
 <p>Width = 540:
 proportional</p>
 <p>Width = 652:
-orthogonal, uni2221, uni299D, uni29A3, uni29AB, uni29A8, uni27D4, uni29AA, uni22BE, uni299F, uni299B, angle, uni299C, uni299E, uni27C0, uni29A2, uni29A5, uni29A4, uni29A9, uni27D3</p>
+uni299E, angle, uni299F, uni29A4, uni29A3, uni27D4, uni29A9, uni29AB, orthogonal, uni29A8, uni29A5, uni22BE, uni299B, uni29AA, uni27D3, uni299C, uni27C0, uni29A2, uni299D, uni2221</p>
 <p>Width = 617:
-uni2239, uni2A27</p>
+uni2A27, uni2239</p>
 <p>Width = 696:
 uni223E</p>
 <p>Width = 667:
 uni2A33, uni223F</p>
 <p>Width = 573:
-uni2A88, uni2A7B, uni2AF3, lessequal, greaterequal, uni2A7C, approxequal, uni2270, uni2271</p>
+uni2271, uni2A88, uni2A7C, greaterequal, uni2AF3, lessequal, uni2270, approxequal, uni2A7B</p>
 <p>Width = 542:
-uni2280, uni227B, uni227C, uni227D, uni2281, uni22E1, uni22DF, uni22DE, uni22E0, uni227A</p>
+uni227A, uni227B, uni2281, uni227D, uni2280, uni227C, uni22DE, uni22E0, uni22E1, uni22DF</p>
 <p>Width = 756:
-uni2AE9, uni2ADF, uni2AEB, uni22A2, uni2AE0, uni2AE4, uni22A5, uni2AEA, uni22A4, uni3012, uni2AE8, uni2AE7, uni22A3, uni22A8, uni2AE2</p>
+uni2AE8, uni22A3, uni2AEB, uni3012, uni2AE4, uni22A2, uni2AE7, uni2ADF, uni2AE0, uni2AE9, uni22A4, uni22A5, uni2AEA, uni2AE2, uni22A8</p>
 <p>Width = 567:
 uni22B0, uni22B1</p>
 <p>Width = 532:
 uni22D7, uni22D6</p>
 <p>Width = 775:
-uni297B, uni2979</p>
+uni2979, uni297B</p>
 <p>Width = 579:
-uni2994, uni2993</p>
+uni2993, uni2994</p>
 <p>Width = 631:
 uni2995, uni2996</p>
 <p>Width = 624:
 uni29A1</p>
 <p>Width = 689:
-uni29E3, uni29E4</p>
+uni29E4, uni29E3</p>
 <p>Width = 744:
 uni29FA</p>
 <p>Width = 916:
 uni29FB</p>
 <p>Width = 745:
-uni2A69, uni2A68</p>
+uni2A68, uni2A69</p>
 <p>Width = 669:
-uni2A7A, uni2A79</p>
+uni2A79, uni2A7A</p>
 <p>Width = 798:
 uni2AA2, uni2AA1</p>
 <p>Width = 760:
-uni2AA9, uni2AA7, uni2AA8, uni2AA6</p>
+uni2AA9, uni2AA6, uni2AA8, uni2AA7</p>
 <p>Width = 681:
-uni2AAB, smallerthan, uni2AAD, uni2AAC</p>
+uni2AAC, uni2AAB, uni2AAD, smallerthan</p>
 <p>Width = 679:
-uni2AD2, uni2AD6, uni2ACA, uni2AD1, uni2AD5, uni2ACB, uni2AC0, uni2AC9, uni2AD4, uni2AC4, uni2AC1, uni2AD3, uni2AC2, uni2AC5, uni2ACF, uni2AC3, uni2AD0, uni2AC6, uni2ACC, uni2ABF</p>
+uni2ACB, uni2AD6, uni2AC6, uni2ACC, uni2AD4, uni2ACA, uni2AC9, uni2AC4, uni2AD3, uni2AC0, uni2AD5, uni2AC3, uni2ABF, uni2AC1, uni2AC5, uni2AC2, uni2AD0, uni2ACF, uni2AD1, uni2AD2</p>
 <p>Width = 754:
 uni2AE1</p>
 <p>Width = 836:
@@ -891,6 +845,483 @@ uni2AF5</p>
 <p>Width = 222:
 uni2AF6</p>
  [code: width-outliers]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Family metadata at fonts/NotoSansMath/googlefonts/ttf does not have an article.</p>
+ [code: lacks-article]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
+any subsets defined in the font's metadata file, and will never
+be served. You can solve this by either manually adding additional
+subset declarations to METADATA.pb, or by editing the glyphset
+definitions.</p>
+<ul>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
+<li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, gothic, tifinagh, thai, caucasian-albanian, syriac, sunuwar</li>
+<li>U+033F COMBINING DOUBLE OVERLINE: try adding coptic</li>
+<li>U+03DC GREEK LETTER DIGAMMA: try adding one of: elbasan, greek</li>
+<li>U+03DD GREEK SMALL LETTER DIGAMMA: try adding greek</li>
+<li>U+03F6 GREEK REVERSED LUNATE EPSILON SYMBOL: try adding greek</li>
+<li>U+0606 ARABIC-INDIC CUBE ROOT: try adding arabic</li>
+<li>U+0607 ARABIC-INDIC FOURTH ROOT: try adding arabic</li>
+<li>U+0608 ARABIC RAY: try adding arabic</li>
+<li>U+0609 ARABIC-INDIC PER MILLE SIGN: try adding arabic</li>
+<li>U+060A ARABIC-INDIC PER TEN THOUSAND SIGN: try adding arabic</li>
+<li>U+060C ARABIC COMMA: try adding one of: garay, thaana, yezidi, syriac, arabic, nko, hanifi-rohingya</li>
+<li>U+0627 ARABIC LETTER ALEF: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+0628 ARABIC LETTER BEH: try adding arabic</li>
+<li>U+062A ARABIC LETTER TEH: try adding arabic</li>
+<li>U+062B ARABIC LETTER THEH: try adding arabic</li>
+<li>U+062C ARABIC LETTER JEEM: try adding arabic</li>
+<li>U+062D ARABIC LETTER HAH: try adding arabic</li>
+<li>U+062E ARABIC LETTER KHAH: try adding arabic</li>
+<li>U+062F ARABIC LETTER DAL: try adding arabic</li>
+<li>U+0630 ARABIC LETTER THAL: try adding arabic</li>
+<li>U+0631 ARABIC LETTER REH: try adding arabic</li>
+<li>U+0632 ARABIC LETTER ZAIN: try adding arabic</li>
+<li>U+0633 ARABIC LETTER SEEN: try adding arabic</li>
+<li>U+0634 ARABIC LETTER SHEEN: try adding arabic</li>
+<li>U+0635 ARABIC LETTER SAD: try adding arabic</li>
+<li>U+0636 ARABIC LETTER DAD: try adding arabic</li>
+<li>U+0637 ARABIC LETTER TAH: try adding arabic</li>
+<li>U+0638 ARABIC LETTER ZAH: try adding arabic</li>
+<li>U+0639 ARABIC LETTER AIN: try adding arabic</li>
+<li>U+063A ARABIC LETTER GHAIN: try adding arabic</li>
+<li>U+0641 ARABIC LETTER FEH: try adding arabic</li>
+<li>U+0642 ARABIC LETTER QAF: try adding arabic</li>
+<li>U+0643 ARABIC LETTER KAF: try adding arabic</li>
+<li>U+0644 ARABIC LETTER LAM: try adding arabic</li>
+<li>U+0645 ARABIC LETTER MEEM: try adding arabic</li>
+<li>U+0646 ARABIC LETTER NOON: try adding arabic</li>
+<li>U+0647 ARABIC LETTER HEH: try adding arabic</li>
+<li>U+0648 ARABIC LETTER WAW: try adding arabic</li>
+<li>U+0649 ARABIC LETTER ALEF MAKSURA: try adding arabic</li>
+<li>U+064A ARABIC LETTER YEH: try adding arabic</li>
+<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: indic-siyaq-numbers, thaana, yezidi, syriac, arabic, hanifi-rohingya</li>
+<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: indic-siyaq-numbers, thaana, yezidi, syriac, arabic</li>
+<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: indic-siyaq-numbers, thaana, yezidi, syriac, arabic</li>
+<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: indic-siyaq-numbers, thaana, yezidi, syriac, arabic</li>
+<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: indic-siyaq-numbers, thaana, yezidi, syriac, arabic</li>
+<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: indic-siyaq-numbers, thaana, yezidi, syriac, arabic</li>
+<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: indic-siyaq-numbers, thaana, yezidi, syriac, arabic</li>
+<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: indic-siyaq-numbers, thaana, yezidi, syriac, arabic</li>
+<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: indic-siyaq-numbers, thaana, yezidi, syriac, arabic</li>
+<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: indic-siyaq-numbers, thaana, yezidi, syriac, arabic</li>
+<li>U+066A ARABIC PERCENT SIGN: try adding one of: arabic, syriac, thaana, nko</li>
+<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: arabic, thaana, syriac</li>
+<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: arabic, thaana, syriac</li>
+<li>U+066E ARABIC LETTER DOTLESS BEH: try adding arabic</li>
+<li>U+066F ARABIC LETTER DOTLESS QAF: try adding arabic</li>
+<li>U+06A1 ARABIC LETTER DOTLESS FEH: try adding arabic</li>
+<li>U+06BA ARABIC LETTER NOON GHUNNA: try adding arabic</li>
+<li>U+06F0 EXTENDED ARABIC-INDIC DIGIT ZERO: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F1 EXTENDED ARABIC-INDIC DIGIT ONE: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F2 EXTENDED ARABIC-INDIC DIGIT TWO: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F3 EXTENDED ARABIC-INDIC DIGIT THREE: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F4 EXTENDED ARABIC-INDIC DIGIT FOUR: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F5 EXTENDED ARABIC-INDIC DIGIT FIVE: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F6 EXTENDED ARABIC-INDIC DIGIT SIX: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F7 EXTENDED ARABIC-INDIC DIGIT SEVEN: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+2000 EN QUAD: try adding symbols2</li>
+<li>U+2001 EM QUAD: try adding symbols2</li>
+<li>U+2003 EM SPACE: try adding nushu</li>
+<li>U+2004 THREE-PER-EM SPACE: try adding symbols2</li>
+<li>U+2005 FOUR-PER-EM SPACE: try adding symbols2</li>
+<li>U+2006 SIX-PER-EM SPACE: try adding symbols2</li>
+<li>U+2007 FIGURE SPACE: try adding symbols2</li>
+<li>U+2008 PUNCTUATION SPACE: try adding symbols2</li>
+<li>U+200A HAIR SPACE: try adding symbols2</li>
+<li>U+2010 HYPHEN: try adding one of: kayah-li, kharoshthi, syloti-nagri, yi, armenian, lisu, cham, hebrew, sora-sompeng, kaithi, sundanese, arabic, coptic</li>
+<li>U+2015 HORIZONTAL BAR: try adding adlam</li>
+<li>U+2021 DOUBLE DAGGER: try adding adlam</li>
+<li>U+2025 TWO DOT LEADER: try adding phags-pa</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: phags-pa, mongolian, yi</li>
+<li>U+20DD COMBINING ENCLOSING CIRCLE: try adding symbols</li>
+<li>U+20DE COMBINING ENCLOSING SQUARE: try adding symbols</li>
+<li>U+20DF COMBINING ENCLOSING DIAMOND: try adding symbols</li>
+<li>U+20E4 COMBINING ENCLOSING UPWARD POINTING TRIANGLE: try adding symbols</li>
+<li>U+20F0 COMBINING ASTERISK ABOVE: try adding one of: devanagari, grantha</li>
+<li>U+21AF DOWNWARDS ZIGZAG ARROW: try adding symbols</li>
+<li>U+21E6 LEFTWARDS WHITE ARROW: try adding symbols</li>
+<li>U+21E7 UPWARDS WHITE ARROW: try adding symbols</li>
+<li>U+21E8 RIGHTWARDS WHITE ARROW: try adding symbols</li>
+<li>U+21E9 DOWNWARDS WHITE ARROW: try adding symbols</li>
+<li>U+21EA UPWARDS WHITE ARROW FROM BAR: try adding symbols</li>
+<li>U+21EB UPWARDS WHITE ARROW ON PEDESTAL: try adding symbols</li>
+<li>U+21EC UPWARDS WHITE ARROW ON PEDESTAL WITH HORIZONTAL BAR: try adding symbols</li>
+<li>U+21ED UPWARDS WHITE ARROW ON PEDESTAL WITH VERTICAL BAR: try adding symbols</li>
+<li>U+21EE UPWARDS WHITE DOUBLE ARROW: try adding symbols</li>
+<li>U+21EF UPWARDS WHITE DOUBLE ARROW ON PEDESTAL: try adding symbols</li>
+<li>U+21F0 RIGHTWARDS WHITE ARROW FROM WALL: try adding symbols</li>
+<li>U+21F3 UP DOWN WHITE ARROW: try adding symbols</li>
+<li>U+2300 DIAMETER SIGN: try adding symbols</li>
+<li>U+2302 HOUSE: try adding symbols</li>
+<li>U+2305 PROJECTIVE: try adding symbols</li>
+<li>U+2306 PERSPECTIVE: try adding symbols</li>
+<li>U+2311 SQUARE LOZENGE: try adding symbols</li>
+<li>U+2312 ARC: try adding symbols</li>
+<li>U+2313 SEGMENT: try adding symbols</li>
+<li>U+2317 VIEWDATA SQUARE: try adding symbols</li>
+<li>U+2322 FROWN: try adding symbols</li>
+<li>U+2323 SMILE: try adding symbols</li>
+<li>U+232C BENZENE RING: try adding symbols</li>
+<li>U+2332 CONICAL TAPER: try adding symbols</li>
+<li>U+2394 SOFTWARE-FUNCTION SYMBOL: try adding symbols</li>
+<li>U+23B8 LEFT VERTICAL BOX LINE: try adding symbols2</li>
+<li>U+23B9 RIGHT VERTICAL BOX LINE: try adding symbols2</li>
+<li>U+23CE RETURN SYMBOL: try adding symbols</li>
+<li>U+23E2 WHITE TRAPEZIUM: try adding symbols</li>
+<li>U+23E3 BENZENE RING WITH CIRCLE: try adding symbols</li>
+<li>U+23E4 STRAIGHTNESS: try adding symbols</li>
+<li>U+23E5 FLATNESS: try adding symbols</li>
+<li>U+23E6 AC CURRENT: try adding symbols</li>
+<li>U+23E7 ELECTRICAL INTERSECTION: try adding symbols</li>
+<li>U+2422 BLANK SYMBOL: try adding symbols</li>
+<li>U+2423 OPEN BOX: try adding symbols</li>
+<li>U+2500 BOX DRAWINGS LIGHT HORIZONTAL: try adding symbols2</li>
+<li>U+2506 BOX DRAWINGS LIGHT TRIPLE DASH VERTICAL: try adding symbols2</li>
+<li>U+250C BOX DRAWINGS LIGHT DOWN AND RIGHT: try adding symbols2</li>
+<li>U+2510 BOX DRAWINGS LIGHT DOWN AND LEFT: try adding symbols2</li>
+<li>U+2514 BOX DRAWINGS LIGHT UP AND RIGHT: try adding symbols2</li>
+<li>U+2518 BOX DRAWINGS LIGHT UP AND LEFT: try adding symbols2</li>
+<li>U+2550 BOX DRAWINGS DOUBLE HORIZONTAL: try adding symbols2</li>
+<li>U+2571 BOX DRAWINGS LIGHT DIAGONAL UPPER RIGHT TO LOWER LEFT: try adding symbols2</li>
+<li>U+2572 BOX DRAWINGS LIGHT DIAGONAL UPPER LEFT TO LOWER RIGHT: try adding symbols2</li>
+<li>U+2577 BOX DRAWINGS LIGHT DOWN: try adding symbols2</li>
+<li>U+2580 UPPER HALF BLOCK: try adding symbols2</li>
+<li>U+2584 LOWER HALF BLOCK: try adding symbols2</li>
+<li>U+2588 FULL BLOCK: try adding symbols2</li>
+<li>U+258C LEFT HALF BLOCK: try adding symbols2</li>
+<li>U+2590 RIGHT HALF BLOCK: try adding symbols2</li>
+<li>U+2591 LIGHT SHADE: try adding symbols2</li>
+<li>U+2592 MEDIUM SHADE: try adding symbols2</li>
+<li>U+2593 DARK SHADE: try adding symbols2</li>
+<li>U+25A0 BLACK SQUARE: try adding symbols</li>
+<li>U+25A1 WHITE SQUARE: try adding symbols</li>
+<li>U+25A2 WHITE SQUARE WITH ROUNDED CORNERS: try adding symbols</li>
+<li>U+25A3 WHITE SQUARE CONTAINING BLACK SMALL SQUARE: try adding symbols</li>
+<li>U+25A4 SQUARE WITH HORIZONTAL FILL: try adding symbols</li>
+<li>U+25A5 SQUARE WITH VERTICAL FILL: try adding symbols</li>
+<li>U+25A6 SQUARE WITH ORTHOGONAL CROSSHATCH FILL: try adding symbols</li>
+<li>U+25A7 SQUARE WITH UPPER LEFT TO LOWER RIGHT FILL: try adding symbols</li>
+<li>U+25A8 SQUARE WITH UPPER RIGHT TO LOWER LEFT FILL: try adding symbols</li>
+<li>U+25A9 SQUARE WITH DIAGONAL CROSSHATCH FILL: try adding symbols</li>
+<li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
+<li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
+<li>U+25AC BLACK RECTANGLE: try adding symbols</li>
+<li>U+25AD WHITE RECTANGLE: try adding symbols</li>
+<li>U+25AE BLACK VERTICAL RECTANGLE: try adding symbols</li>
+<li>U+25B0 BLACK PARALLELOGRAM: try adding symbols</li>
+<li>U+25B1 WHITE PARALLELOGRAM: try adding symbols</li>
+<li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
+<li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
+<li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
+<li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
+<li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
+<li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
+<li>U+25BA BLACK RIGHT-POINTING POINTER: try adding symbols</li>
+<li>U+25BB WHITE RIGHT-POINTING POINTER: try adding symbols</li>
+<li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
+<li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
+<li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
+<li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
+<li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
+<li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
+<li>U+25C4 BLACK LEFT-POINTING POINTER: try adding symbols</li>
+<li>U+25C5 WHITE LEFT-POINTING POINTER: try adding symbols</li>
+<li>U+25C6 BLACK DIAMOND: try adding symbols</li>
+<li>U+25C7 WHITE DIAMOND: try adding symbols</li>
+<li>U+25C8 WHITE DIAMOND CONTAINING BLACK SMALL DIAMOND: try adding symbols</li>
+<li>U+25C9 FISHEYE: try adding symbols</li>
+<li>U+25CB WHITE CIRCLE: try adding symbols</li>
+<li>U+25CD CIRCLE WITH VERTICAL FILL: try adding symbols</li>
+<li>U+25CE BULLSEYE: try adding symbols</li>
+<li>U+25CF BLACK CIRCLE: try adding symbols</li>
+<li>U+25D0 CIRCLE WITH LEFT HALF BLACK: try adding symbols</li>
+<li>U+25D1 CIRCLE WITH RIGHT HALF BLACK: try adding symbols</li>
+<li>U+25D2 CIRCLE WITH LOWER HALF BLACK: try adding symbols</li>
+<li>U+25D3 CIRCLE WITH UPPER HALF BLACK: try adding symbols</li>
+<li>U+25D4 CIRCLE WITH UPPER RIGHT QUADRANT BLACK: try adding symbols</li>
+<li>U+25D5 CIRCLE WITH ALL BUT UPPER LEFT QUADRANT BLACK: try adding symbols</li>
+<li>U+25D6 LEFT HALF BLACK CIRCLE: try adding symbols</li>
+<li>U+25D7 RIGHT HALF BLACK CIRCLE: try adding symbols</li>
+<li>U+25D8 INVERSE BULLET: try adding symbols</li>
+<li>U+25D9 INVERSE WHITE CIRCLE: try adding symbols</li>
+<li>U+25DA UPPER HALF INVERSE WHITE CIRCLE: try adding symbols</li>
+<li>U+25DB LOWER HALF INVERSE WHITE CIRCLE: try adding symbols</li>
+<li>U+25DC UPPER LEFT QUADRANT CIRCULAR ARC: try adding symbols</li>
+<li>U+25DD UPPER RIGHT QUADRANT CIRCULAR ARC: try adding symbols</li>
+<li>U+25DE LOWER RIGHT QUADRANT CIRCULAR ARC: try adding symbols</li>
+<li>U+25DF LOWER LEFT QUADRANT CIRCULAR ARC: try adding symbols</li>
+<li>U+25E0 UPPER HALF CIRCLE: try adding symbols</li>
+<li>U+25E1 LOWER HALF CIRCLE: try adding symbols</li>
+<li>U+25E2 BLACK LOWER RIGHT TRIANGLE: try adding symbols</li>
+<li>U+25E3 BLACK LOWER LEFT TRIANGLE: try adding symbols</li>
+<li>U+25E4 BLACK UPPER LEFT TRIANGLE: try adding symbols</li>
+<li>U+25E5 BLACK UPPER RIGHT TRIANGLE: try adding symbols</li>
+<li>U+25E6 WHITE BULLET: try adding symbols</li>
+<li>U+25E7 SQUARE WITH LEFT HALF BLACK: try adding symbols</li>
+<li>U+25E8 SQUARE WITH RIGHT HALF BLACK: try adding symbols</li>
+<li>U+25E9 SQUARE WITH UPPER LEFT DIAGONAL HALF BLACK: try adding symbols</li>
+<li>U+25EA SQUARE WITH LOWER RIGHT DIAGONAL HALF BLACK: try adding symbols</li>
+<li>U+25EB WHITE SQUARE WITH VERTICAL BISECTING LINE: try adding symbols</li>
+<li>U+25EC WHITE UP-POINTING TRIANGLE WITH DOT: try adding symbols</li>
+<li>U+25ED UP-POINTING TRIANGLE WITH LEFT HALF BLACK: try adding symbols</li>
+<li>U+25EE UP-POINTING TRIANGLE WITH RIGHT HALF BLACK: try adding symbols</li>
+<li>U+25EF LARGE CIRCLE: try adding symbols</li>
+<li>U+25F0 WHITE SQUARE WITH UPPER LEFT QUADRANT: try adding symbols</li>
+<li>U+25F1 WHITE SQUARE WITH LOWER LEFT QUADRANT: try adding symbols</li>
+<li>U+25F2 WHITE SQUARE WITH LOWER RIGHT QUADRANT: try adding symbols</li>
+<li>U+25F3 WHITE SQUARE WITH UPPER RIGHT QUADRANT: try adding symbols</li>
+<li>U+25F4 WHITE CIRCLE WITH UPPER LEFT QUADRANT: try adding symbols</li>
+<li>U+25F5 WHITE CIRCLE WITH LOWER LEFT QUADRANT: try adding symbols</li>
+<li>U+25F6 WHITE CIRCLE WITH LOWER RIGHT QUADRANT: try adding symbols</li>
+<li>U+25F7 WHITE CIRCLE WITH UPPER RIGHT QUADRANT: try adding symbols</li>
+<li>U+25F8 UPPER LEFT TRIANGLE: try adding symbols</li>
+<li>U+25F9 UPPER RIGHT TRIANGLE: try adding symbols</li>
+<li>U+25FA LOWER LEFT TRIANGLE: try adding symbols</li>
+<li>U+25FC BLACK MEDIUM SQUARE: try adding symbols</li>
+<li>U+25FD WHITE MEDIUM SMALL SQUARE: try adding symbols</li>
+<li>U+25FE BLACK MEDIUM SMALL SQUARE: try adding symbols</li>
+<li>U+25FF LOWER RIGHT TRIANGLE: try adding symbols</li>
+<li>U+2605 BLACK STAR: try adding symbols</li>
+<li>U+2606 WHITE STAR: try adding symbols</li>
+<li>U+2609 SUN: try adding symbols</li>
+<li>U+2621 CAUTION SIGN: try adding symbols</li>
+<li>U+263B BLACK SMILING FACE: try adding symbols</li>
+<li>U+263C WHITE SUN WITH RAYS: try adding symbols</li>
+<li>U+263D FIRST QUARTER MOON: try adding symbols</li>
+<li>U+263E LAST QUARTER MOON: try adding symbols</li>
+<li>U+2640 FEMALE SIGN: try adding symbols</li>
+<li>U+2642 MALE SIGN: try adding symbols</li>
+<li>U+2660 BLACK SPADE SUIT: try adding symbols</li>
+<li>U+2661 WHITE HEART SUIT: try adding symbols</li>
+<li>U+2662 WHITE DIAMOND SUIT: try adding symbols</li>
+<li>U+2663 BLACK CLUB SUIT: try adding symbols</li>
+<li>U+2664 WHITE SPADE SUIT: try adding symbols</li>
+<li>U+2665 BLACK HEART SUIT: try adding symbols</li>
+<li>U+2666 BLACK DIAMOND SUIT: try adding symbols</li>
+<li>U+2667 WHITE CLUB SUIT: try adding symbols</li>
+<li>U+2669 QUARTER NOTE: try adding one of: music, symbols</li>
+<li>U+266A EIGHTH NOTE: try adding one of: music, symbols</li>
+<li>U+266B BEAMED EIGHTH NOTES: try adding one of: music, symbols</li>
+<li>U+266C BEAMED SIXTEENTH NOTES: try adding one of: music, symbols</li>
+<li>U+267E PERMANENT PAPER SIGN: try adding symbols</li>
+<li>U+2680 DIE FACE-1: try adding symbols</li>
+<li>U+2681 DIE FACE-2: try adding symbols</li>
+<li>U+2682 DIE FACE-3: try adding symbols</li>
+<li>U+2683 DIE FACE-4: try adding symbols</li>
+<li>U+2684 DIE FACE-5: try adding symbols</li>
+<li>U+2685 DIE FACE-6: try adding symbols</li>
+<li>U+2686 WHITE CIRCLE WITH DOT RIGHT: try adding symbols</li>
+<li>U+2687 WHITE CIRCLE WITH TWO DOTS: try adding symbols</li>
+<li>U+2688 BLACK CIRCLE WITH WHITE DOT RIGHT: try adding symbols</li>
+<li>U+2689 BLACK CIRCLE WITH TWO WHITE DOTS: try adding symbols</li>
+<li>U+26A5 MALE AND FEMALE SIGN: try adding symbols</li>
+<li>U+26AA MEDIUM WHITE CIRCLE: try adding symbols</li>
+<li>U+26AB MEDIUM BLACK CIRCLE: try adding symbols</li>
+<li>U+26AC MEDIUM SMALL WHITE CIRCLE: try adding symbols</li>
+<li>U+26B2 NEUTER: try adding symbols</li>
+<li>U+2713 CHECK MARK: try adding symbols</li>
+<li>U+2720 MALTESE CROSS: try adding symbols</li>
+<li>U+272A CIRCLED WHITE STAR: try adding symbols</li>
+<li>U+2736 SIX POINTED BLACK STAR: try adding symbols</li>
+<li>U+2739 TWELVE POINTED BLACK STAR: try adding symbols</li>
+<li>U+273D HEAVY TEARDROP-SPOKED ASTERISK: try adding symbols</li>
+<li>U+2772 LIGHT LEFT TORTOISE SHELL BRACKET ORNAMENT: try adding symbols</li>
+<li>U+2773 LIGHT RIGHT TORTOISE SHELL BRACKET ORNAMENT: try adding symbols</li>
+<li>U+279B DRAFTING POINT RIGHTWARDS ARROW: try adding symbols</li>
+<li>U+2B00 NORTH EAST WHITE ARROW: try adding symbols</li>
+<li>U+2B01 NORTH WEST WHITE ARROW: try adding symbols</li>
+<li>U+2B02 SOUTH EAST WHITE ARROW: try adding symbols</li>
+<li>U+2B03 SOUTH WEST WHITE ARROW: try adding symbols</li>
+<li>U+2B04 LEFT RIGHT WHITE ARROW: try adding symbols</li>
+<li>U+2B12 SQUARE WITH TOP HALF BLACK: try adding symbols</li>
+<li>U+2B13 SQUARE WITH BOTTOM HALF BLACK: try adding symbols</li>
+<li>U+2B14 SQUARE WITH UPPER RIGHT DIAGONAL HALF BLACK: try adding symbols</li>
+<li>U+2B15 SQUARE WITH LOWER LEFT DIAGONAL HALF BLACK: try adding symbols</li>
+<li>U+2B16 DIAMOND WITH LEFT HALF BLACK: try adding symbols</li>
+<li>U+2B17 DIAMOND WITH RIGHT HALF BLACK: try adding symbols</li>
+<li>U+2B18 DIAMOND WITH TOP HALF BLACK: try adding symbols</li>
+<li>U+2B19 DIAMOND WITH BOTTOM HALF BLACK: try adding symbols</li>
+<li>U+2B1A DOTTED SQUARE: try adding symbols</li>
+<li>U+2B1B BLACK LARGE SQUARE: try adding symbols</li>
+<li>U+2B1C WHITE LARGE SQUARE: try adding symbols</li>
+<li>U+2B1D BLACK VERY SMALL SQUARE: try adding symbols</li>
+<li>U+2B1E WHITE VERY SMALL SQUARE: try adding symbols</li>
+<li>U+2B1F BLACK PENTAGON: try adding symbols</li>
+<li>U+2B20 WHITE PENTAGON: try adding symbols</li>
+<li>U+2B21 WHITE HEXAGON: try adding symbols</li>
+<li>U+2B22 BLACK HEXAGON: try adding symbols</li>
+<li>U+2B23 HORIZONTAL BLACK HEXAGON: try adding symbols</li>
+<li>U+2B24 BLACK LARGE CIRCLE: try adding symbols</li>
+<li>U+2B25 BLACK MEDIUM DIAMOND: try adding symbols</li>
+<li>U+2B26 WHITE MEDIUM DIAMOND: try adding symbols</li>
+<li>U+2B27 BLACK MEDIUM LOZENGE: try adding symbols</li>
+<li>U+2B28 WHITE MEDIUM LOZENGE: try adding symbols</li>
+<li>U+2B29 BLACK SMALL DIAMOND: try adding symbols</li>
+<li>U+2B2A BLACK SMALL LOZENGE: try adding symbols</li>
+<li>U+2B2B WHITE SMALL LOZENGE: try adding symbols</li>
+<li>U+2B2C BLACK HORIZONTAL ELLIPSE: try adding symbols</li>
+<li>U+2B2D WHITE HORIZONTAL ELLIPSE: try adding symbols</li>
+<li>U+2B2E BLACK VERTICAL ELLIPSE: try adding symbols</li>
+<li>U+2B2F WHITE VERTICAL ELLIPSE: try adding symbols</li>
+<li>U+2B50 WHITE MEDIUM STAR: try adding symbols</li>
+<li>U+2B51 BLACK SMALL STAR: try adding symbols</li>
+<li>U+2B52 WHITE SMALL STAR: try adding symbols</li>
+<li>U+2B53 BLACK RIGHT-POINTING PENTAGON: try adding symbols</li>
+<li>U+2B54 WHITE RIGHT-POINTING PENTAGON: try adding symbols</li>
+<li>U+3012 POSTAL MARK: try adding one of: chinese-hongkong, japanese, chinese-simplified, yi, phags-pa, chinese-traditional</li>
+<li>U+FE00 VARIATION SELECTOR-1: try adding one of: phags-pa, manichaean, yi</li>
+<li>U+1F780 BLACK LEFT-POINTING ISOSCELES RIGHT TRIANGLE: try adding symbols</li>
+<li>U+1F781 BLACK UP-POINTING ISOSCELES RIGHT TRIANGLE: try adding symbols</li>
+<li>U+1F782 BLACK RIGHT-POINTING ISOSCELES RIGHT TRIANGLE: try adding symbols</li>
+<li>U+1F783 BLACK DOWN-POINTING ISOSCELES RIGHT TRIANGLE: try adding symbols</li>
+<li>U+1F784 BLACK SLIGHTLY SMALL CIRCLE: try adding symbols</li>
+<li>U+1F785 MEDIUM BOLD WHITE CIRCLE: try adding symbols</li>
+<li>U+1F786 BOLD WHITE CIRCLE: try adding symbols</li>
+<li>U+1F787 HEAVY WHITE CIRCLE: try adding symbols</li>
+<li>U+1F788 VERY HEAVY WHITE CIRCLE: try adding symbols</li>
+<li>U+1F789 EXTREMELY HEAVY WHITE CIRCLE: try adding symbols</li>
+<li>U+1F78A WHITE CIRCLE CONTAINING BLACK SMALL CIRCLE: try adding symbols</li>
+<li>U+1F78B ROUND TARGET: try adding symbols</li>
+<li>U+1F78C BLACK TINY SQUARE: try adding symbols</li>
+<li>U+1F78D BLACK SLIGHTLY SMALL SQUARE: try adding symbols</li>
+<li>U+1F78E LIGHT WHITE SQUARE: try adding symbols</li>
+<li>U+1F78F MEDIUM WHITE SQUARE: try adding symbols</li>
+<li>U+1F790 BOLD WHITE SQUARE: try adding symbols</li>
+<li>U+1F791 HEAVY WHITE SQUARE: try adding symbols</li>
+<li>U+1F792 VERY HEAVY WHITE SQUARE: try adding symbols</li>
+<li>U+1F793 EXTREMELY HEAVY WHITE SQUARE: try adding symbols</li>
+<li>U+1F794 WHITE SQUARE CONTAINING BLACK VERY SMALL SQUARE: try adding symbols</li>
+<li>U+1F795 WHITE SQUARE CONTAINING BLACK MEDIUM SQUARE: try adding symbols</li>
+<li>U+1F796 SQUARE TARGET: try adding symbols</li>
+<li>U+1F797 BLACK TINY DIAMOND: try adding symbols</li>
+<li>U+1F798 BLACK VERY SMALL DIAMOND: try adding symbols</li>
+<li>U+1F799 BLACK MEDIUM SMALL DIAMOND: try adding symbols</li>
+<li>U+1F79A WHITE DIAMOND CONTAINING BLACK VERY SMALL DIAMOND: try adding symbols</li>
+<li>U+1F79B WHITE DIAMOND CONTAINING BLACK MEDIUM DIAMOND: try adding symbols</li>
+<li>U+1F79C DIAMOND TARGET: try adding symbols</li>
+<li>U+1F79D BLACK TINY LOZENGE: try adding symbols</li>
+<li>U+1F79E BLACK VERY SMALL LOZENGE: try adding symbols</li>
+<li>U+1F79F BLACK MEDIUM SMALL LOZENGE: try adding symbols</li>
+<li>U+1F7A0 WHITE LOZENGE CONTAINING BLACK SMALL LOZENGE: try adding symbols</li>
+<li>U+1F7A1 THIN GREEK CROSS: try adding symbols</li>
+<li>U+1F7A2 LIGHT GREEK CROSS: try adding symbols</li>
+<li>U+1F7A3 MEDIUM GREEK CROSS: try adding symbols</li>
+<li>U+1F7A4 BOLD GREEK CROSS: try adding symbols</li>
+<li>U+1F7A5 VERY BOLD GREEK CROSS: try adding symbols</li>
+<li>U+1F7A6 VERY HEAVY GREEK CROSS: try adding symbols</li>
+<li>U+1F7A7 EXTREMELY HEAVY GREEK CROSS: try adding symbols</li>
+<li>U+1F7A8 THIN SALTIRE: try adding symbols</li>
+<li>U+1F7A9 LIGHT SALTIRE: try adding symbols</li>
+<li>U+1F7AA MEDIUM SALTIRE: try adding symbols</li>
+<li>U+1F7AB BOLD SALTIRE: try adding symbols</li>
+<li>U+1F7AC HEAVY SALTIRE: try adding symbols</li>
+<li>U+1F7AD VERY HEAVY SALTIRE: try adding symbols</li>
+<li>U+1F7AE EXTREMELY HEAVY SALTIRE: try adding symbols</li>
+<li>U+1F7AF LIGHT FIVE SPOKED ASTERISK: try adding symbols</li>
+<li>U+1F7B0 MEDIUM FIVE SPOKED ASTERISK: try adding symbols</li>
+<li>U+1F7B1 BOLD FIVE SPOKED ASTERISK: try adding symbols</li>
+<li>U+1F7B2 HEAVY FIVE SPOKED ASTERISK: try adding symbols</li>
+<li>U+1F7B3 VERY HEAVY FIVE SPOKED ASTERISK: try adding symbols</li>
+<li>U+1F7B4 EXTREMELY HEAVY FIVE SPOKED ASTERISK: try adding symbols</li>
+<li>U+1F7B5 LIGHT SIX SPOKED ASTERISK: try adding symbols</li>
+<li>U+1F7B6 MEDIUM SIX SPOKED ASTERISK: try adding symbols</li>
+<li>U+1F7B7 BOLD SIX SPOKED ASTERISK: try adding symbols</li>
+<li>U+1F7B8 HEAVY SIX SPOKED ASTERISK: try adding symbols</li>
+<li>U+1F7B9 VERY HEAVY SIX SPOKED ASTERISK: try adding symbols</li>
+<li>U+1F7BA EXTREMELY HEAVY SIX SPOKED ASTERISK: try adding symbols</li>
+<li>U+1F7BB LIGHT EIGHT SPOKED ASTERISK: try adding symbols</li>
+<li>U+1F7BC MEDIUM EIGHT SPOKED ASTERISK: try adding symbols</li>
+<li>U+1F7BD BOLD EIGHT SPOKED ASTERISK: try adding symbols</li>
+<li>U+1F7BE HEAVY EIGHT SPOKED ASTERISK: try adding symbols</li>
+<li>U+1F7BF VERY HEAVY EIGHT SPOKED ASTERISK: try adding symbols</li>
+<li>U+1F7C0 LIGHT THREE POINTED BLACK STAR: try adding symbols</li>
+<li>U+1F7C1 MEDIUM THREE POINTED BLACK STAR: try adding symbols</li>
+<li>U+1F7C2 THREE POINTED BLACK STAR: try adding symbols</li>
+<li>U+1F7C3 MEDIUM THREE POINTED PINWHEEL STAR: try adding symbols</li>
+<li>U+1F7C4 LIGHT FOUR POINTED BLACK STAR: try adding symbols</li>
+<li>U+1F7C5 MEDIUM FOUR POINTED BLACK STAR: try adding symbols</li>
+<li>U+1F7C6 FOUR POINTED BLACK STAR: try adding symbols</li>
+<li>U+1F7C7 MEDIUM FOUR POINTED PINWHEEL STAR: try adding symbols</li>
+<li>U+1F7C8 REVERSE LIGHT FOUR POINTED PINWHEEL STAR: try adding symbols</li>
+<li>U+1F7C9 LIGHT FIVE POINTED BLACK STAR: try adding symbols</li>
+<li>U+1F7CA HEAVY FIVE POINTED BLACK STAR: try adding symbols</li>
+<li>U+1F7CB MEDIUM SIX POINTED BLACK STAR: try adding symbols</li>
+<li>U+1F7CC HEAVY SIX POINTED BLACK STAR: try adding symbols</li>
+<li>U+1F7CD SIX POINTED PINWHEEL STAR: try adding symbols</li>
+<li>U+1F7CE MEDIUM EIGHT POINTED BLACK STAR: try adding symbols</li>
+<li>U+1F7CF HEAVY EIGHT POINTED BLACK STAR: try adding symbols</li>
+<li>U+1F7D0 VERY HEAVY EIGHT POINTED BLACK STAR: try adding symbols</li>
+<li>U+1F7D1 HEAVY EIGHT POINTED PINWHEEL STAR: try adding symbols</li>
+<li>U+1F7D2 LIGHT TWELVE POINTED BLACK STAR: try adding symbols</li>
+<li>U+1F7D3 HEAVY TWELVE POINTED BLACK STAR: try adding symbols</li>
+<li>U+1F7D4 HEAVY TWELVE POINTED PINWHEEL STAR: try adding symbols</li>
+<li>U+1F7D5 CIRCLED TRIANGLE: try adding symbols</li>
+<li>U+1F7D6 NEGATIVE CIRCLED TRIANGLE: try adding symbols</li>
+<li>U+1F7D7 CIRCLED SQUARE: try adding symbols</li>
+<li>U+1F7D8 NEGATIVE CIRCLED SQUARE: try adding symbols</li>
+</ul>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic</code>, <code>latin</code>, <code>latin-ext</code>, <code>math</code></p>
+ [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i⃐ i⃑ i⃔ i⃕ i⃖ i⃗ i⃛ i⃜ i⃡ i⃧ i⃩ ị⃐ ị⃑ ị⃔ ị⃕ ị⃖ ị⃗ ị⃛ ị⃜ ị⃡</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Igbo (Latn, 27,823,640 speakers), Ebira (Latn, 2,200,000 speakers), Ekpeye (Latn, 226,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Dutch (Latn, 31,709,104 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Avokaya (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Han (Latn, 6 speakers), Aghem (Latn, 38,843 speakers), Zapotec (Latn, 490,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Koonzime (Latn, 40,000 speakers), Makaa (Latn, 221,000 speakers), South Central Banda (Latn, 244,000 speakers), Yala (Latn, 200,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Basaa (Latn, 332,940 speakers), Lithuanian (Latn, 2,357,094 speakers), Dii (Latn, 71,000 speakers), Kaska (Latn, 125 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Teke-Ebo (Latn, 260,000 speakers), Mango (Latn, 77,000 speakers), Nzakara (Latn, 50,000 speakers), Heiltsuk (Latn, 300 speakers), Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Mfumte (Latn, 79,000 speakers), Fur (Latn, 1,230,163 speakers), Gulay (Latn, 250,478 speakers), Ejagham (Latn, 120,000 speakers), Mundani (Latn, 34,000 speakers), Southern Kisi (Latn, 360,000 speakers), Bafut (Latn, 158,146 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Vute (Latn, 21,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Navajo (Latn, 166,319 speakers), Nateni (Latn, 100,000 speakers), Cicipu (Latn, 44,000 speakers).</p>
+ [code: soft-dotted]
 
 
 
@@ -1342,507 +1773,6 @@ uni2AF6</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i⃐ i⃑ i⃔ i⃕ i⃖ i⃗ i⃛ i⃜ i⃡ i⃧ i⃩ ị⃐ ị⃑ ị⃔ ị⃕ ị⃖ ị⃗ ị⃛ ị⃜ ị⃡</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Ijo, Southeast (Latn, 2,471,000 speakers), Dutch (Latn, 31,709,104 speakers), Ebira (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Ekpeye (Latn, 226,000 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ma’di (Latn, 584,000 speakers), Bafut (Latn, 158,146 speakers), Yala (Latn, 200,000 speakers), Vute (Latn, 21,000 speakers), Avokaya (Latn, 100,000 speakers), Lugbara (Latn, 2,200,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), South Central Banda (Latn, 244,000 speakers), Koonzime (Latn, 40,000 speakers), Gulay (Latn, 250,478 speakers), Mango (Latn, 77,000 speakers), Navajo (Latn, 166,319 speakers), Zapotec (Latn, 490,000 speakers), Nateni (Latn, 100,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Fur (Latn, 1,230,163 speakers), Mundani (Latn, 34,000 speakers), Aghem (Latn, 38,843 speakers), Ejagham (Latn, 120,000 speakers), Cicipu (Latn, 44,000 speakers), Basaa (Latn, 332,940 speakers), Bete-Bendi (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Dan (Latn, 1,099,244 speakers), Mfumte (Latn, 79,000 speakers), Nzakara (Latn, 50,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Kom (Latn, 360,685 speakers), Dii (Latn, 71,000 speakers), Makaa (Latn, 221,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Southern Kisi (Latn, 360,000 speakers).</p>
- [code: soft-dotted]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
-any subsets defined in the font's metadata file, and will never
-be served. You can solve this by either manually adding additional
-subset declarations to METADATA.pb, or by editing the glyphset
-definitions.</p>
-<ul>
-<li>U+02D4 MODIFIER LETTER UP TACK: not included in any glyphset definition</li>
-<li>U+02D5 MODIFIER LETTER DOWN TACK: not included in any glyphset definition</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
-<li>U+0310 COMBINING CANDRABINDU: not included in any glyphset definition</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding coptic</li>
-<li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
-<li>U+0315 COMBINING COMMA ABOVE RIGHT: not included in any glyphset definition</li>
-<li>U+031A COMBINING LEFT ANGLE ABOVE: not included in any glyphset definition</li>
-<li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
-<li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
-<li>U+032C COMBINING CARON BELOW: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac</li>
-<li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, caucasian-albanian, gothic, cherokee, syriac</li>
-<li>U+0332 COMBINING LOW LINE: not included in any glyphset definition</li>
-<li>U+0333 COMBINING DOUBLE LOW LINE: not included in any glyphset definition</li>
-<li>U+0338 COMBINING LONG SOLIDUS OVERLAY: not included in any glyphset definition</li>
-<li>U+033A COMBINING INVERTED BRIDGE BELOW: not included in any glyphset definition</li>
-<li>U+033F COMBINING DOUBLE OVERLINE: try adding coptic</li>
-<li>U+0346 COMBINING BRIDGE ABOVE: not included in any glyphset definition</li>
-<li>U+034D COMBINING LEFT RIGHT ARROW BELOW: not included in any glyphset definition</li>
-<li>U+03DC GREEK LETTER DIGAMMA: try adding one of: greek, elbasan</li>
-<li>U+03DD GREEK SMALL LETTER DIGAMMA: try adding greek</li>
-<li>U+03F6 GREEK REVERSED LUNATE EPSILON SYMBOL: try adding greek</li>
-<li>U+0606 ARABIC-INDIC CUBE ROOT: try adding arabic</li>
-<li>U+0607 ARABIC-INDIC FOURTH ROOT: try adding arabic</li>
-<li>U+0608 ARABIC RAY: try adding arabic</li>
-<li>U+0609 ARABIC-INDIC PER MILLE SIGN: try adding arabic</li>
-<li>U+060A ARABIC-INDIC PER TEN THOUSAND SIGN: try adding arabic</li>
-<li>U+060C ARABIC COMMA: try adding one of: hanifi-rohingya, thaana, yezidi, syriac, nko, arabic</li>
-<li>U+0627 ARABIC LETTER ALEF: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+0628 ARABIC LETTER BEH: try adding arabic</li>
-<li>U+062A ARABIC LETTER TEH: try adding arabic</li>
-<li>U+062B ARABIC LETTER THEH: try adding arabic</li>
-<li>U+062C ARABIC LETTER JEEM: try adding arabic</li>
-<li>U+062D ARABIC LETTER HAH: try adding arabic</li>
-<li>U+062E ARABIC LETTER KHAH: try adding arabic</li>
-<li>U+062F ARABIC LETTER DAL: try adding arabic</li>
-<li>U+0630 ARABIC LETTER THAL: try adding arabic</li>
-<li>U+0631 ARABIC LETTER REH: try adding arabic</li>
-<li>U+0632 ARABIC LETTER ZAIN: try adding arabic</li>
-<li>U+0633 ARABIC LETTER SEEN: try adding arabic</li>
-<li>U+0634 ARABIC LETTER SHEEN: try adding arabic</li>
-<li>U+0635 ARABIC LETTER SAD: try adding arabic</li>
-<li>U+0636 ARABIC LETTER DAD: try adding arabic</li>
-<li>U+0637 ARABIC LETTER TAH: try adding arabic</li>
-<li>U+0638 ARABIC LETTER ZAH: try adding arabic</li>
-<li>U+0639 ARABIC LETTER AIN: try adding arabic</li>
-<li>U+063A ARABIC LETTER GHAIN: try adding arabic</li>
-<li>U+0641 ARABIC LETTER FEH: try adding arabic</li>
-<li>U+0642 ARABIC LETTER QAF: try adding arabic</li>
-<li>U+0643 ARABIC LETTER KAF: try adding arabic</li>
-<li>U+0644 ARABIC LETTER LAM: try adding arabic</li>
-<li>U+0645 ARABIC LETTER MEEM: try adding arabic</li>
-<li>U+0646 ARABIC LETTER NOON: try adding arabic</li>
-<li>U+0647 ARABIC LETTER HEH: try adding arabic</li>
-<li>U+0648 ARABIC LETTER WAW: try adding arabic</li>
-<li>U+0649 ARABIC LETTER ALEF MAKSURA: try adding arabic</li>
-<li>U+064A ARABIC LETTER YEH: try adding arabic</li>
-<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: hanifi-rohingya, thaana, yezidi, syriac, indic-siyaq-numbers, arabic</li>
-<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: thaana, yezidi, syriac, indic-siyaq-numbers, arabic</li>
-<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: thaana, yezidi, syriac, indic-siyaq-numbers, arabic</li>
-<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: thaana, yezidi, syriac, indic-siyaq-numbers, arabic</li>
-<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: thaana, yezidi, syriac, indic-siyaq-numbers, arabic</li>
-<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: thaana, yezidi, syriac, indic-siyaq-numbers, arabic</li>
-<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: thaana, yezidi, syriac, indic-siyaq-numbers, arabic</li>
-<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: thaana, yezidi, syriac, indic-siyaq-numbers, arabic</li>
-<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: thaana, yezidi, syriac, indic-siyaq-numbers, arabic</li>
-<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: thaana, yezidi, syriac, indic-siyaq-numbers, arabic</li>
-<li>U+066A ARABIC PERCENT SIGN: try adding one of: nko, thaana, syriac, arabic</li>
-<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: thaana, syriac, arabic</li>
-<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: thaana, syriac, arabic</li>
-<li>U+066E ARABIC LETTER DOTLESS BEH: try adding arabic</li>
-<li>U+066F ARABIC LETTER DOTLESS QAF: try adding arabic</li>
-<li>U+06A1 ARABIC LETTER DOTLESS FEH: try adding arabic</li>
-<li>U+06BA ARABIC LETTER NOON GHUNNA: try adding arabic</li>
-<li>U+06F0 EXTENDED ARABIC-INDIC DIGIT ZERO: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F1 EXTENDED ARABIC-INDIC DIGIT ONE: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F2 EXTENDED ARABIC-INDIC DIGIT TWO: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F3 EXTENDED ARABIC-INDIC DIGIT THREE: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F4 EXTENDED ARABIC-INDIC DIGIT FOUR: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F5 EXTENDED ARABIC-INDIC DIGIT FIVE: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F6 EXTENDED ARABIC-INDIC DIGIT SIX: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F7 EXTENDED ARABIC-INDIC DIGIT SEVEN: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+1D46 MODIFIER LETTER SMALL TURNED AE: not included in any glyphset definition</li>
-<li>U+2000 EN QUAD: not included in any glyphset definition</li>
-<li>U+2001 EM QUAD: not included in any glyphset definition</li>
-<li>U+2003 EM SPACE: try adding nushu</li>
-<li>U+2004 THREE-PER-EM SPACE: not included in any glyphset definition</li>
-<li>U+2005 FOUR-PER-EM SPACE: not included in any glyphset definition</li>
-<li>U+2006 SIX-PER-EM SPACE: not included in any glyphset definition</li>
-<li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
-<li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
-<li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+2010 HYPHEN: try adding one of: cham, armenian, coptic, kayah-li, sora-sompeng, yi, hebrew, lisu, sundanese, kaithi, syloti-nagri, kharoshthi, arabic</li>
-<li>U+2015 HORIZONTAL BAR: try adding adlam</li>
-<li>U+2016 DOUBLE VERTICAL LINE: not included in any glyphset definition</li>
-<li>U+2017 DOUBLE LOW LINE: not included in any glyphset definition</li>
-<li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+2025 TWO DOT LEADER: try adding phags-pa</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: yi, mongolian</li>
-<li>U+2038 CARET: not included in any glyphset definition</li>
-<li>U+203C DOUBLE EXCLAMATION MARK: not included in any glyphset definition</li>
-<li>U+2040 CHARACTER TIE: not included in any glyphset definition</li>
-<li>U+2043 HYPHEN BULLET: not included in any glyphset definition</li>
-<li>U+2047 DOUBLE QUESTION MARK: not included in any glyphset definition</li>
-<li>U+2050 CLOSE UP: not included in any glyphset definition</li>
-<li>U+205F MEDIUM MATHEMATICAL SPACE: not included in any glyphset definition</li>
-<li>U+20DD COMBINING ENCLOSING CIRCLE: try adding symbols</li>
-<li>U+20DE COMBINING ENCLOSING SQUARE: try adding symbols</li>
-<li>U+20DF COMBINING ENCLOSING DIAMOND: try adding symbols</li>
-<li>U+20E4 COMBINING ENCLOSING UPWARD POINTING TRIANGLE: try adding symbols</li>
-<li>U+20F0 COMBINING ASTERISK ABOVE: try adding one of: devanagari, grantha</li>
-<li>U+2107 EULER CONSTANT: not included in any glyphset definition</li>
-<li>U+210F PLANCK CONSTANT OVER TWO PI: not included in any glyphset definition</li>
-<li>U+2118 SCRIPT CAPITAL P: not included in any glyphset definition</li>
-<li>U+2126 OHM SIGN: not included in any glyphset definition</li>
-<li>U+2127 INVERTED OHM SIGN: not included in any glyphset definition</li>
-<li>U+2129 TURNED GREEK SMALL LETTER IOTA: not included in any glyphset definition</li>
-<li>U+212B ANGSTROM SIGN: not included in any glyphset definition</li>
-<li>U+2132 TURNED CAPITAL F: not included in any glyphset definition</li>
-<li>U+2141 TURNED SANS-SERIF CAPITAL G: not included in any glyphset definition</li>
-<li>U+2142 TURNED SANS-SERIF CAPITAL L: not included in any glyphset definition</li>
-<li>U+2143 REVERSED SANS-SERIF CAPITAL L: not included in any glyphset definition</li>
-<li>U+2144 TURNED SANS-SERIF CAPITAL Y: not included in any glyphset definition</li>
-<li>U+214A PROPERTY LINE: not included in any glyphset definition</li>
-<li>U+214B TURNED AMPERSAND: not included in any glyphset definition</li>
-<li>U+21AF DOWNWARDS ZIGZAG ARROW: try adding symbols</li>
-<li>U+21E6 LEFTWARDS WHITE ARROW: try adding symbols</li>
-<li>U+21E7 UPWARDS WHITE ARROW: try adding symbols</li>
-<li>U+21E8 RIGHTWARDS WHITE ARROW: try adding symbols</li>
-<li>U+21E9 DOWNWARDS WHITE ARROW: try adding symbols</li>
-<li>U+21EA UPWARDS WHITE ARROW FROM BAR: try adding symbols</li>
-<li>U+21EB UPWARDS WHITE ARROW ON PEDESTAL: try adding symbols</li>
-<li>U+21EC UPWARDS WHITE ARROW ON PEDESTAL WITH HORIZONTAL BAR: try adding symbols</li>
-<li>U+21ED UPWARDS WHITE ARROW ON PEDESTAL WITH VERTICAL BAR: try adding symbols</li>
-<li>U+21EE UPWARDS WHITE DOUBLE ARROW: try adding symbols</li>
-<li>U+21EF UPWARDS WHITE DOUBLE ARROW ON PEDESTAL: try adding symbols</li>
-<li>U+21F0 RIGHTWARDS WHITE ARROW FROM WALL: try adding symbols</li>
-<li>U+21F3 UP DOWN WHITE ARROW: try adding symbols</li>
-<li>U+2300 DIAMETER SIGN: try adding symbols</li>
-<li>U+2302 HOUSE: try adding symbols</li>
-<li>U+2305 PROJECTIVE: try adding symbols</li>
-<li>U+2306 PERSPECTIVE: try adding symbols</li>
-<li>U+2311 SQUARE LOZENGE: try adding symbols</li>
-<li>U+2312 ARC: try adding symbols</li>
-<li>U+2313 SEGMENT: try adding symbols</li>
-<li>U+2317 VIEWDATA SQUARE: try adding symbols</li>
-<li>U+2322 FROWN: try adding symbols</li>
-<li>U+2323 SMILE: try adding symbols</li>
-<li>U+232C BENZENE RING: try adding symbols</li>
-<li>U+2332 CONICAL TAPER: try adding symbols</li>
-<li>U+2394 SOFTWARE-FUNCTION SYMBOL: try adding symbols</li>
-<li>U+23B7 RADICAL SYMBOL BOTTOM: not included in any glyphset definition</li>
-<li>U+23B8 LEFT VERTICAL BOX LINE: not included in any glyphset definition</li>
-<li>U+23B9 RIGHT VERTICAL BOX LINE: not included in any glyphset definition</li>
-<li>U+23CE RETURN SYMBOL: try adding symbols</li>
-<li>U+23E2 WHITE TRAPEZIUM: try adding symbols</li>
-<li>U+23E3 BENZENE RING WITH CIRCLE: try adding symbols</li>
-<li>U+23E4 STRAIGHTNESS: try adding symbols</li>
-<li>U+23E5 FLATNESS: try adding symbols</li>
-<li>U+23E6 AC CURRENT: try adding symbols</li>
-<li>U+23E7 ELECTRICAL INTERSECTION: try adding symbols</li>
-<li>U+2422 BLANK SYMBOL: try adding symbols</li>
-<li>U+2423 OPEN BOX: try adding symbols</li>
-<li>U+2500 BOX DRAWINGS LIGHT HORIZONTAL: not included in any glyphset definition</li>
-<li>U+2506 BOX DRAWINGS LIGHT TRIPLE DASH VERTICAL: not included in any glyphset definition</li>
-<li>U+250C BOX DRAWINGS LIGHT DOWN AND RIGHT: not included in any glyphset definition</li>
-<li>U+2510 BOX DRAWINGS LIGHT DOWN AND LEFT: not included in any glyphset definition</li>
-<li>U+2514 BOX DRAWINGS LIGHT UP AND RIGHT: not included in any glyphset definition</li>
-<li>U+2518 BOX DRAWINGS LIGHT UP AND LEFT: not included in any glyphset definition</li>
-<li>U+2550 BOX DRAWINGS DOUBLE HORIZONTAL: not included in any glyphset definition</li>
-<li>U+2571 BOX DRAWINGS LIGHT DIAGONAL UPPER RIGHT TO LOWER LEFT: not included in any glyphset definition</li>
-<li>U+2572 BOX DRAWINGS LIGHT DIAGONAL UPPER LEFT TO LOWER RIGHT: not included in any glyphset definition</li>
-<li>U+2577 BOX DRAWINGS LIGHT DOWN: not included in any glyphset definition</li>
-<li>U+2580 UPPER HALF BLOCK: not included in any glyphset definition</li>
-<li>U+2584 LOWER HALF BLOCK: not included in any glyphset definition</li>
-<li>U+2588 FULL BLOCK: not included in any glyphset definition</li>
-<li>U+258C LEFT HALF BLOCK: not included in any glyphset definition</li>
-<li>U+2590 RIGHT HALF BLOCK: not included in any glyphset definition</li>
-<li>U+2591 LIGHT SHADE: not included in any glyphset definition</li>
-<li>U+2592 MEDIUM SHADE: not included in any glyphset definition</li>
-<li>U+2593 DARK SHADE: not included in any glyphset definition</li>
-<li>U+25A0 BLACK SQUARE: try adding symbols</li>
-<li>U+25A1 WHITE SQUARE: try adding symbols</li>
-<li>U+25A2 WHITE SQUARE WITH ROUNDED CORNERS: try adding symbols</li>
-<li>U+25A3 WHITE SQUARE CONTAINING BLACK SMALL SQUARE: try adding symbols</li>
-<li>U+25A4 SQUARE WITH HORIZONTAL FILL: try adding symbols</li>
-<li>U+25A5 SQUARE WITH VERTICAL FILL: try adding symbols</li>
-<li>U+25A6 SQUARE WITH ORTHOGONAL CROSSHATCH FILL: try adding symbols</li>
-<li>U+25A7 SQUARE WITH UPPER LEFT TO LOWER RIGHT FILL: try adding symbols</li>
-<li>U+25A8 SQUARE WITH UPPER RIGHT TO LOWER LEFT FILL: try adding symbols</li>
-<li>U+25A9 SQUARE WITH DIAGONAL CROSSHATCH FILL: try adding symbols</li>
-<li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
-<li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
-<li>U+25AC BLACK RECTANGLE: try adding symbols</li>
-<li>U+25AD WHITE RECTANGLE: try adding symbols</li>
-<li>U+25AE BLACK VERTICAL RECTANGLE: try adding symbols</li>
-<li>U+25B0 BLACK PARALLELOGRAM: try adding symbols</li>
-<li>U+25B1 WHITE PARALLELOGRAM: try adding symbols</li>
-<li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
-<li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
-<li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
-<li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
-<li>U+25BA BLACK RIGHT-POINTING POINTER: try adding symbols</li>
-<li>U+25BB WHITE RIGHT-POINTING POINTER: try adding symbols</li>
-<li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
-<li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
-<li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
-<li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
-<li>U+25C4 BLACK LEFT-POINTING POINTER: try adding symbols</li>
-<li>U+25C5 WHITE LEFT-POINTING POINTER: try adding symbols</li>
-<li>U+25C6 BLACK DIAMOND: try adding symbols</li>
-<li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25C8 WHITE DIAMOND CONTAINING BLACK SMALL DIAMOND: try adding symbols</li>
-<li>U+25C9 FISHEYE: try adding symbols</li>
-<li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CD CIRCLE WITH VERTICAL FILL: try adding symbols</li>
-<li>U+25CE BULLSEYE: try adding symbols</li>
-<li>U+25CF BLACK CIRCLE: try adding symbols</li>
-<li>U+25D0 CIRCLE WITH LEFT HALF BLACK: try adding symbols</li>
-<li>U+25D1 CIRCLE WITH RIGHT HALF BLACK: try adding symbols</li>
-<li>U+25D2 CIRCLE WITH LOWER HALF BLACK: try adding symbols</li>
-<li>U+25D3 CIRCLE WITH UPPER HALF BLACK: try adding symbols</li>
-<li>U+25D4 CIRCLE WITH UPPER RIGHT QUADRANT BLACK: try adding symbols</li>
-<li>U+25D5 CIRCLE WITH ALL BUT UPPER LEFT QUADRANT BLACK: try adding symbols</li>
-<li>U+25D6 LEFT HALF BLACK CIRCLE: try adding symbols</li>
-<li>U+25D7 RIGHT HALF BLACK CIRCLE: try adding symbols</li>
-<li>U+25D8 INVERSE BULLET: try adding symbols</li>
-<li>U+25D9 INVERSE WHITE CIRCLE: try adding symbols</li>
-<li>U+25DA UPPER HALF INVERSE WHITE CIRCLE: try adding symbols</li>
-<li>U+25DB LOWER HALF INVERSE WHITE CIRCLE: try adding symbols</li>
-<li>U+25DC UPPER LEFT QUADRANT CIRCULAR ARC: try adding symbols</li>
-<li>U+25DD UPPER RIGHT QUADRANT CIRCULAR ARC: try adding symbols</li>
-<li>U+25DE LOWER RIGHT QUADRANT CIRCULAR ARC: try adding symbols</li>
-<li>U+25DF LOWER LEFT QUADRANT CIRCULAR ARC: try adding symbols</li>
-<li>U+25E0 UPPER HALF CIRCLE: try adding symbols</li>
-<li>U+25E1 LOWER HALF CIRCLE: try adding symbols</li>
-<li>U+25E2 BLACK LOWER RIGHT TRIANGLE: try adding symbols</li>
-<li>U+25E3 BLACK LOWER LEFT TRIANGLE: try adding symbols</li>
-<li>U+25E4 BLACK UPPER LEFT TRIANGLE: try adding symbols</li>
-<li>U+25E5 BLACK UPPER RIGHT TRIANGLE: try adding symbols</li>
-<li>U+25E6 WHITE BULLET: try adding symbols</li>
-<li>U+25E7 SQUARE WITH LEFT HALF BLACK: try adding symbols</li>
-<li>U+25E8 SQUARE WITH RIGHT HALF BLACK: try adding symbols</li>
-<li>U+25E9 SQUARE WITH UPPER LEFT DIAGONAL HALF BLACK: try adding symbols</li>
-<li>U+25EA SQUARE WITH LOWER RIGHT DIAGONAL HALF BLACK: try adding symbols</li>
-<li>U+25EB WHITE SQUARE WITH VERTICAL BISECTING LINE: try adding symbols</li>
-<li>U+25EC WHITE UP-POINTING TRIANGLE WITH DOT: try adding symbols</li>
-<li>U+25ED UP-POINTING TRIANGLE WITH LEFT HALF BLACK: try adding symbols</li>
-<li>U+25EE UP-POINTING TRIANGLE WITH RIGHT HALF BLACK: try adding symbols</li>
-<li>U+25EF LARGE CIRCLE: try adding symbols</li>
-<li>U+25F0 WHITE SQUARE WITH UPPER LEFT QUADRANT: try adding symbols</li>
-<li>U+25F1 WHITE SQUARE WITH LOWER LEFT QUADRANT: try adding symbols</li>
-<li>U+25F2 WHITE SQUARE WITH LOWER RIGHT QUADRANT: try adding symbols</li>
-<li>U+25F3 WHITE SQUARE WITH UPPER RIGHT QUADRANT: try adding symbols</li>
-<li>U+25F4 WHITE CIRCLE WITH UPPER LEFT QUADRANT: try adding symbols</li>
-<li>U+25F5 WHITE CIRCLE WITH LOWER LEFT QUADRANT: try adding symbols</li>
-<li>U+25F6 WHITE CIRCLE WITH LOWER RIGHT QUADRANT: try adding symbols</li>
-<li>U+25F7 WHITE CIRCLE WITH UPPER RIGHT QUADRANT: try adding symbols</li>
-<li>U+25F8 UPPER LEFT TRIANGLE: try adding symbols</li>
-<li>U+25F9 UPPER RIGHT TRIANGLE: try adding symbols</li>
-<li>U+25FA LOWER LEFT TRIANGLE: try adding symbols</li>
-<li>U+25FC BLACK MEDIUM SQUARE: try adding symbols</li>
-<li>U+25FD WHITE MEDIUM SMALL SQUARE: try adding symbols</li>
-<li>U+25FE BLACK MEDIUM SMALL SQUARE: try adding symbols</li>
-<li>U+25FF LOWER RIGHT TRIANGLE: try adding symbols</li>
-<li>U+2605 BLACK STAR: try adding symbols</li>
-<li>U+2606 WHITE STAR: try adding symbols</li>
-<li>U+2609 SUN: try adding symbols</li>
-<li>U+2621 CAUTION SIGN: try adding symbols</li>
-<li>U+263B BLACK SMILING FACE: try adding symbols</li>
-<li>U+263C WHITE SUN WITH RAYS: try adding symbols</li>
-<li>U+263D FIRST QUARTER MOON: try adding symbols</li>
-<li>U+263E LAST QUARTER MOON: try adding symbols</li>
-<li>U+2640 FEMALE SIGN: try adding symbols</li>
-<li>U+2642 MALE SIGN: try adding symbols</li>
-<li>U+2660 BLACK SPADE SUIT: try adding symbols</li>
-<li>U+2661 WHITE HEART SUIT: try adding symbols</li>
-<li>U+2662 WHITE DIAMOND SUIT: try adding symbols</li>
-<li>U+2663 BLACK CLUB SUIT: try adding symbols</li>
-<li>U+2664 WHITE SPADE SUIT: try adding symbols</li>
-<li>U+2665 BLACK HEART SUIT: try adding symbols</li>
-<li>U+2666 BLACK DIAMOND SUIT: try adding symbols</li>
-<li>U+2667 WHITE CLUB SUIT: try adding symbols</li>
-<li>U+2669 QUARTER NOTE: try adding one of: music, symbols</li>
-<li>U+266A EIGHTH NOTE: try adding one of: music, symbols</li>
-<li>U+266B BEAMED EIGHTH NOTES: try adding one of: music, symbols</li>
-<li>U+266C BEAMED SIXTEENTH NOTES: try adding one of: music, symbols</li>
-<li>U+267E PERMANENT PAPER SIGN: try adding symbols</li>
-<li>U+2680 DIE FACE-1: try adding symbols</li>
-<li>U+2681 DIE FACE-2: try adding symbols</li>
-<li>U+2682 DIE FACE-3: try adding symbols</li>
-<li>U+2683 DIE FACE-4: try adding symbols</li>
-<li>U+2684 DIE FACE-5: try adding symbols</li>
-<li>U+2685 DIE FACE-6: try adding symbols</li>
-<li>U+2686 WHITE CIRCLE WITH DOT RIGHT: try adding symbols</li>
-<li>U+2687 WHITE CIRCLE WITH TWO DOTS: try adding symbols</li>
-<li>U+2688 BLACK CIRCLE WITH WHITE DOT RIGHT: try adding symbols</li>
-<li>U+2689 BLACK CIRCLE WITH TWO WHITE DOTS: try adding symbols</li>
-<li>U+26A5 MALE AND FEMALE SIGN: try adding symbols</li>
-<li>U+26AA MEDIUM WHITE CIRCLE: try adding symbols</li>
-<li>U+26AB MEDIUM BLACK CIRCLE: try adding symbols</li>
-<li>U+26AC MEDIUM SMALL WHITE CIRCLE: try adding symbols</li>
-<li>U+26B2 NEUTER: try adding symbols</li>
-<li>U+2713 CHECK MARK: try adding symbols</li>
-<li>U+2720 MALTESE CROSS: try adding symbols</li>
-<li>U+272A CIRCLED WHITE STAR: try adding symbols</li>
-<li>U+2736 SIX POINTED BLACK STAR: try adding symbols</li>
-<li>U+2739 TWELVE POINTED BLACK STAR: try adding symbols</li>
-<li>U+273D HEAVY TEARDROP-SPOKED ASTERISK: try adding symbols</li>
-<li>U+2772 LIGHT LEFT TORTOISE SHELL BRACKET ORNAMENT: try adding symbols</li>
-<li>U+2773 LIGHT RIGHT TORTOISE SHELL BRACKET ORNAMENT: try adding symbols</li>
-<li>U+279B DRAFTING POINT RIGHTWARDS ARROW: try adding symbols</li>
-<li>U+2B00 NORTH EAST WHITE ARROW: try adding symbols</li>
-<li>U+2B01 NORTH WEST WHITE ARROW: try adding symbols</li>
-<li>U+2B02 SOUTH EAST WHITE ARROW: try adding symbols</li>
-<li>U+2B03 SOUTH WEST WHITE ARROW: try adding symbols</li>
-<li>U+2B04 LEFT RIGHT WHITE ARROW: try adding symbols</li>
-<li>U+2B12 SQUARE WITH TOP HALF BLACK: try adding symbols</li>
-<li>U+2B13 SQUARE WITH BOTTOM HALF BLACK: try adding symbols</li>
-<li>U+2B14 SQUARE WITH UPPER RIGHT DIAGONAL HALF BLACK: try adding symbols</li>
-<li>U+2B15 SQUARE WITH LOWER LEFT DIAGONAL HALF BLACK: try adding symbols</li>
-<li>U+2B16 DIAMOND WITH LEFT HALF BLACK: try adding symbols</li>
-<li>U+2B17 DIAMOND WITH RIGHT HALF BLACK: try adding symbols</li>
-<li>U+2B18 DIAMOND WITH TOP HALF BLACK: try adding symbols</li>
-<li>U+2B19 DIAMOND WITH BOTTOM HALF BLACK: try adding symbols</li>
-<li>U+2B1A DOTTED SQUARE: try adding symbols</li>
-<li>U+2B1B BLACK LARGE SQUARE: try adding symbols</li>
-<li>U+2B1C WHITE LARGE SQUARE: try adding symbols</li>
-<li>U+2B1D BLACK VERY SMALL SQUARE: try adding symbols</li>
-<li>U+2B1E WHITE VERY SMALL SQUARE: try adding symbols</li>
-<li>U+2B1F BLACK PENTAGON: try adding symbols</li>
-<li>U+2B20 WHITE PENTAGON: try adding symbols</li>
-<li>U+2B21 WHITE HEXAGON: try adding symbols</li>
-<li>U+2B22 BLACK HEXAGON: try adding symbols</li>
-<li>U+2B23 HORIZONTAL BLACK HEXAGON: try adding symbols</li>
-<li>U+2B24 BLACK LARGE CIRCLE: try adding symbols</li>
-<li>U+2B25 BLACK MEDIUM DIAMOND: try adding symbols</li>
-<li>U+2B26 WHITE MEDIUM DIAMOND: try adding symbols</li>
-<li>U+2B27 BLACK MEDIUM LOZENGE: try adding symbols</li>
-<li>U+2B28 WHITE MEDIUM LOZENGE: try adding symbols</li>
-<li>U+2B29 BLACK SMALL DIAMOND: try adding symbols</li>
-<li>U+2B2A BLACK SMALL LOZENGE: try adding symbols</li>
-<li>U+2B2B WHITE SMALL LOZENGE: try adding symbols</li>
-<li>U+2B2C BLACK HORIZONTAL ELLIPSE: try adding symbols</li>
-<li>U+2B2D WHITE HORIZONTAL ELLIPSE: try adding symbols</li>
-<li>U+2B2E BLACK VERTICAL ELLIPSE: try adding symbols</li>
-<li>U+2B2F WHITE VERTICAL ELLIPSE: try adding symbols</li>
-<li>U+2B50 WHITE MEDIUM STAR: try adding symbols</li>
-<li>U+2B51 BLACK SMALL STAR: try adding symbols</li>
-<li>U+2B52 WHITE SMALL STAR: try adding symbols</li>
-<li>U+2B53 BLACK RIGHT-POINTING PENTAGON: try adding symbols</li>
-<li>U+2B54 WHITE RIGHT-POINTING PENTAGON: try adding symbols</li>
-<li>U+3012 POSTAL MARK: try adding one of: yi, phags-pa, japanese, chinese-traditional, chinese-simplified, chinese-hongkong</li>
-<li>U+3030 WAVY DASH: not included in any glyphset definition</li>
-<li>U+FE00 VARIATION SELECTOR-1: try adding one of: phags-pa, yi, manichaean</li>
-<li>U+1F780 BLACK LEFT-POINTING ISOSCELES RIGHT TRIANGLE: try adding symbols</li>
-<li>U+1F781 BLACK UP-POINTING ISOSCELES RIGHT TRIANGLE: try adding symbols</li>
-<li>U+1F782 BLACK RIGHT-POINTING ISOSCELES RIGHT TRIANGLE: try adding symbols</li>
-<li>U+1F783 BLACK DOWN-POINTING ISOSCELES RIGHT TRIANGLE: try adding symbols</li>
-<li>U+1F784 BLACK SLIGHTLY SMALL CIRCLE: try adding symbols</li>
-<li>U+1F785 MEDIUM BOLD WHITE CIRCLE: try adding symbols</li>
-<li>U+1F786 BOLD WHITE CIRCLE: try adding symbols</li>
-<li>U+1F787 HEAVY WHITE CIRCLE: try adding symbols</li>
-<li>U+1F788 VERY HEAVY WHITE CIRCLE: try adding symbols</li>
-<li>U+1F789 EXTREMELY HEAVY WHITE CIRCLE: try adding symbols</li>
-<li>U+1F78A WHITE CIRCLE CONTAINING BLACK SMALL CIRCLE: try adding symbols</li>
-<li>U+1F78B ROUND TARGET: try adding symbols</li>
-<li>U+1F78C BLACK TINY SQUARE: try adding symbols</li>
-<li>U+1F78D BLACK SLIGHTLY SMALL SQUARE: try adding symbols</li>
-<li>U+1F78E LIGHT WHITE SQUARE: try adding symbols</li>
-<li>U+1F78F MEDIUM WHITE SQUARE: try adding symbols</li>
-<li>U+1F790 BOLD WHITE SQUARE: try adding symbols</li>
-<li>U+1F791 HEAVY WHITE SQUARE: try adding symbols</li>
-<li>U+1F792 VERY HEAVY WHITE SQUARE: try adding symbols</li>
-<li>U+1F793 EXTREMELY HEAVY WHITE SQUARE: try adding symbols</li>
-<li>U+1F794 WHITE SQUARE CONTAINING BLACK VERY SMALL SQUARE: try adding symbols</li>
-<li>U+1F795 WHITE SQUARE CONTAINING BLACK MEDIUM SQUARE: try adding symbols</li>
-<li>U+1F796 SQUARE TARGET: try adding symbols</li>
-<li>U+1F797 BLACK TINY DIAMOND: try adding symbols</li>
-<li>U+1F798 BLACK VERY SMALL DIAMOND: try adding symbols</li>
-<li>U+1F799 BLACK MEDIUM SMALL DIAMOND: try adding symbols</li>
-<li>U+1F79A WHITE DIAMOND CONTAINING BLACK VERY SMALL DIAMOND: try adding symbols</li>
-<li>U+1F79B WHITE DIAMOND CONTAINING BLACK MEDIUM DIAMOND: try adding symbols</li>
-<li>U+1F79C DIAMOND TARGET: try adding symbols</li>
-<li>U+1F79D BLACK TINY LOZENGE: try adding symbols</li>
-<li>U+1F79E BLACK VERY SMALL LOZENGE: try adding symbols</li>
-<li>U+1F79F BLACK MEDIUM SMALL LOZENGE: try adding symbols</li>
-<li>U+1F7A0 WHITE LOZENGE CONTAINING BLACK SMALL LOZENGE: try adding symbols</li>
-<li>U+1F7A1 THIN GREEK CROSS: try adding symbols</li>
-<li>U+1F7A2 LIGHT GREEK CROSS: try adding symbols</li>
-<li>U+1F7A3 MEDIUM GREEK CROSS: try adding symbols</li>
-<li>U+1F7A4 BOLD GREEK CROSS: try adding symbols</li>
-<li>U+1F7A5 VERY BOLD GREEK CROSS: try adding symbols</li>
-<li>U+1F7A6 VERY HEAVY GREEK CROSS: try adding symbols</li>
-<li>U+1F7A7 EXTREMELY HEAVY GREEK CROSS: try adding symbols</li>
-<li>U+1F7A8 THIN SALTIRE: try adding symbols</li>
-<li>U+1F7A9 LIGHT SALTIRE: try adding symbols</li>
-<li>U+1F7AA MEDIUM SALTIRE: try adding symbols</li>
-<li>U+1F7AB BOLD SALTIRE: try adding symbols</li>
-<li>U+1F7AC HEAVY SALTIRE: try adding symbols</li>
-<li>U+1F7AD VERY HEAVY SALTIRE: try adding symbols</li>
-<li>U+1F7AE EXTREMELY HEAVY SALTIRE: try adding symbols</li>
-<li>U+1F7AF LIGHT FIVE SPOKED ASTERISK: try adding symbols</li>
-<li>U+1F7B0 MEDIUM FIVE SPOKED ASTERISK: try adding symbols</li>
-<li>U+1F7B1 BOLD FIVE SPOKED ASTERISK: try adding symbols</li>
-<li>U+1F7B2 HEAVY FIVE SPOKED ASTERISK: try adding symbols</li>
-<li>U+1F7B3 VERY HEAVY FIVE SPOKED ASTERISK: try adding symbols</li>
-<li>U+1F7B4 EXTREMELY HEAVY FIVE SPOKED ASTERISK: try adding symbols</li>
-<li>U+1F7B5 LIGHT SIX SPOKED ASTERISK: try adding symbols</li>
-<li>U+1F7B6 MEDIUM SIX SPOKED ASTERISK: try adding symbols</li>
-<li>U+1F7B7 BOLD SIX SPOKED ASTERISK: try adding symbols</li>
-<li>U+1F7B8 HEAVY SIX SPOKED ASTERISK: try adding symbols</li>
-<li>U+1F7B9 VERY HEAVY SIX SPOKED ASTERISK: try adding symbols</li>
-<li>U+1F7BA EXTREMELY HEAVY SIX SPOKED ASTERISK: try adding symbols</li>
-<li>U+1F7BB LIGHT EIGHT SPOKED ASTERISK: try adding symbols</li>
-<li>U+1F7BC MEDIUM EIGHT SPOKED ASTERISK: try adding symbols</li>
-<li>U+1F7BD BOLD EIGHT SPOKED ASTERISK: try adding symbols</li>
-<li>U+1F7BE HEAVY EIGHT SPOKED ASTERISK: try adding symbols</li>
-<li>U+1F7BF VERY HEAVY EIGHT SPOKED ASTERISK: try adding symbols</li>
-<li>U+1F7C0 LIGHT THREE POINTED BLACK STAR: try adding symbols</li>
-<li>U+1F7C1 MEDIUM THREE POINTED BLACK STAR: try adding symbols</li>
-<li>U+1F7C2 THREE POINTED BLACK STAR: try adding symbols</li>
-<li>U+1F7C3 MEDIUM THREE POINTED PINWHEEL STAR: try adding symbols</li>
-<li>U+1F7C4 LIGHT FOUR POINTED BLACK STAR: try adding symbols</li>
-<li>U+1F7C5 MEDIUM FOUR POINTED BLACK STAR: try adding symbols</li>
-<li>U+1F7C6 FOUR POINTED BLACK STAR: try adding symbols</li>
-<li>U+1F7C7 MEDIUM FOUR POINTED PINWHEEL STAR: try adding symbols</li>
-<li>U+1F7C8 REVERSE LIGHT FOUR POINTED PINWHEEL STAR: try adding symbols</li>
-<li>U+1F7C9 LIGHT FIVE POINTED BLACK STAR: try adding symbols</li>
-<li>U+1F7CA HEAVY FIVE POINTED BLACK STAR: try adding symbols</li>
-<li>U+1F7CB MEDIUM SIX POINTED BLACK STAR: try adding symbols</li>
-<li>U+1F7CC HEAVY SIX POINTED BLACK STAR: try adding symbols</li>
-<li>U+1F7CD SIX POINTED PINWHEEL STAR: try adding symbols</li>
-<li>U+1F7CE MEDIUM EIGHT POINTED BLACK STAR: try adding symbols</li>
-<li>U+1F7CF HEAVY EIGHT POINTED BLACK STAR: try adding symbols</li>
-<li>U+1F7D0 VERY HEAVY EIGHT POINTED BLACK STAR: try adding symbols</li>
-<li>U+1F7D1 HEAVY EIGHT POINTED PINWHEEL STAR: try adding symbols</li>
-<li>U+1F7D2 LIGHT TWELVE POINTED BLACK STAR: try adding symbols</li>
-<li>U+1F7D3 HEAVY TWELVE POINTED BLACK STAR: try adding symbols</li>
-<li>U+1F7D4 HEAVY TWELVE POINTED PINWHEEL STAR: try adding symbols</li>
-<li>U+1F7D5 CIRCLED TRIANGLE: try adding symbols</li>
-<li>U+1F7D6 NEGATIVE CIRCLED TRIANGLE: try adding symbols</li>
-<li>U+1F7D7 CIRCLED SQUARE: try adding symbols</li>
-<li>U+1F7D8 NEGATIVE CIRCLED SQUARE: try adding symbols</li>
-</ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic</code>, <code>latin</code>, <code>latin-ext</code>, <code>math</code></p>
- [code: unreachable-subsetting]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.meta.html#"></a></summary>
     <div>
 
@@ -1869,7 +1799,7 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 5 | 10 | 117 | 6 | 113 | 0 | 
+| 0 | 0 | 4 | 10 | 118 | 6 | 113 | 0 | 
 | 0% | 0% | 2% | 4% | 47% | 2% | 45% | 0% | 
 
 
