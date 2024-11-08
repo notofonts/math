@@ -787,53 +787,53 @@ uni031A (U+031A), uni20DD (U+20DD), uni20DE (U+20DE), uni20DF (U+20DF) and uni20
 * ⚠️ **WARN** <p>The most common width is 572 among a set of 169 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 699:
-uni22FB, uni22FD, uni2AC7, notsubset, propersubset, uni2289, uni22F6, suchthat, uni220C, uni2285, uni22F5, propersuperset, uni2AC8, reflexsuperset, reflexsubset, uni297F, uni2ABD, uni297E, uni22F9, uni228B, uni22D0, uni2ABE, uni2288, element, uni22D1, uni27C4, uni22F8, notelement, uni27C3, uni22F3, uni228A</p>
+uni22F3, notsubset, uni2285, uni2289, uni22FD, element, uni2ABE, uni220C, uni27C3, uni22D0, uni22F8, uni228A, reflexsuperset, reflexsubset, notelement, uni22F5, suchthat, uni22FB, uni2AC8, uni297F, uni27C4, uni297E, uni2ABD, uni2288, propersubset, uni22D1, uni22F6, propersuperset, uni228B, uni2AC7, uni22F9</p>
 <p>Width = 540:
 proportional</p>
 <p>Width = 652:
-uni299E, angle, uni299F, uni29A4, uni29A3, uni27D4, uni29A9, uni29AB, orthogonal, uni29A8, uni29A5, uni22BE, uni299B, uni29AA, uni27D3, uni299C, uni27C0, uni29A2, uni299D, uni2221</p>
+uni29AB, orthogonal, uni2221, uni27D3, uni299D, uni29A4, uni29A2, uni27D4, uni29A8, uni299E, uni29A3, uni29A5, angle, uni27C0, uni299B, uni22BE, uni29A9, uni299F, uni299C, uni29AA</p>
 <p>Width = 617:
-uni2A27, uni2239</p>
+uni2239, uni2A27</p>
 <p>Width = 696:
 uni223E</p>
 <p>Width = 667:
-uni2A33, uni223F</p>
+uni223F, uni2A33</p>
 <p>Width = 573:
-uni2271, uni2A88, uni2A7C, greaterequal, uni2AF3, lessequal, uni2270, approxequal, uni2A7B</p>
+uni2270, uni2AF3, lessequal, approxequal, greaterequal, uni2A7B, uni2A7C, uni2A88, uni2271</p>
 <p>Width = 542:
-uni227A, uni227B, uni2281, uni227D, uni2280, uni227C, uni22DE, uni22E0, uni22E1, uni22DF</p>
+uni227B, uni22E0, uni2281, uni2280, uni227D, uni22E1, uni227A, uni22DF, uni227C, uni22DE</p>
 <p>Width = 756:
-uni2AE8, uni22A3, uni2AEB, uni3012, uni2AE4, uni22A2, uni2AE7, uni2ADF, uni2AE0, uni2AE9, uni22A4, uni22A5, uni2AEA, uni2AE2, uni22A8</p>
+uni22A4, uni2AE9, uni22A5, uni2AE7, uni22A2, uni2AE8, uni2AEA, uni22A3, uni3012, uni2AE2, uni2AE0, uni2AE4, uni22A8, uni2AEB, uni2ADF</p>
 <p>Width = 567:
 uni22B0, uni22B1</p>
 <p>Width = 532:
-uni22D7, uni22D6</p>
+uni22D6, uni22D7</p>
 <p>Width = 775:
 uni2979, uni297B</p>
 <p>Width = 579:
-uni2993, uni2994</p>
+uni2994, uni2993</p>
 <p>Width = 631:
-uni2995, uni2996</p>
+uni2996, uni2995</p>
 <p>Width = 624:
 uni29A1</p>
 <p>Width = 689:
-uni29E4, uni29E3</p>
+uni29E3, uni29E4</p>
 <p>Width = 744:
 uni29FA</p>
 <p>Width = 916:
 uni29FB</p>
 <p>Width = 745:
-uni2A68, uni2A69</p>
+uni2A69, uni2A68</p>
 <p>Width = 669:
 uni2A79, uni2A7A</p>
 <p>Width = 798:
 uni2AA2, uni2AA1</p>
 <p>Width = 760:
-uni2AA9, uni2AA6, uni2AA8, uni2AA7</p>
+uni2AA8, uni2AA7, uni2AA6, uni2AA9</p>
 <p>Width = 681:
-uni2AAC, uni2AAB, uni2AAD, smallerthan</p>
+uni2AAD, uni2AAB, smallerthan, uni2AAC</p>
 <p>Width = 679:
-uni2ACB, uni2AD6, uni2AC6, uni2ACC, uni2AD4, uni2ACA, uni2AC9, uni2AC4, uni2AD3, uni2AC0, uni2AD5, uni2AC3, uni2ABF, uni2AC1, uni2AC5, uni2AC2, uni2AD0, uni2ACF, uni2AD1, uni2AD2</p>
+uni2ACF, uni2ACA, uni2AD5, uni2ACC, uni2AC6, uni2AD0, uni2AC2, uni2AD1, uni2AC3, uni2AC9, uni2AC1, uni2ACB, uni2AD2, uni2AD6, uni2AD4, uni2ABF, uni2AC0, uni2AC4, uni2AD3, uni2AC5</p>
 <p>Width = 754:
 uni2AE1</p>
 <p>Width = 836:
@@ -887,12 +887,12 @@ definitions.</p>
 <ul>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, gothic, tifinagh, thai, caucasian-albanian, syriac, sunuwar</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, sunuwar, caucasian-albanian, tifinagh, cherokee, gothic, syriac</li>
 <li>U+033F COMBINING DOUBLE OVERLINE: try adding coptic</li>
 <li>U+03DC GREEK LETTER DIGAMMA: try adding one of: elbasan, greek</li>
 <li>U+03DD GREEK SMALL LETTER DIGAMMA: try adding greek</li>
@@ -902,7 +902,7 @@ definitions.</p>
 <li>U+0608 ARABIC RAY: try adding arabic</li>
 <li>U+0609 ARABIC-INDIC PER MILLE SIGN: try adding arabic</li>
 <li>U+060A ARABIC-INDIC PER TEN THOUSAND SIGN: try adding arabic</li>
-<li>U+060C ARABIC COMMA: try adding one of: garay, thaana, yezidi, syriac, arabic, nko, hanifi-rohingya</li>
+<li>U+060C ARABIC COMMA: try adding one of: yezidi, arabic, garay, thaana, hanifi-rohingya, nko, syriac</li>
 <li>U+0627 ARABIC LETTER ALEF: try adding one of: arabic, indic-siyaq-numbers</li>
 <li>U+0628 ARABIC LETTER BEH: try adding arabic</li>
 <li>U+062A ARABIC LETTER TEH: try adding arabic</li>
@@ -932,17 +932,17 @@ definitions.</p>
 <li>U+0648 ARABIC LETTER WAW: try adding arabic</li>
 <li>U+0649 ARABIC LETTER ALEF MAKSURA: try adding arabic</li>
 <li>U+064A ARABIC LETTER YEH: try adding arabic</li>
-<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: indic-siyaq-numbers, thaana, yezidi, syriac, arabic, hanifi-rohingya</li>
-<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: indic-siyaq-numbers, thaana, yezidi, syriac, arabic</li>
-<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: indic-siyaq-numbers, thaana, yezidi, syriac, arabic</li>
-<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: indic-siyaq-numbers, thaana, yezidi, syriac, arabic</li>
-<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: indic-siyaq-numbers, thaana, yezidi, syriac, arabic</li>
-<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: indic-siyaq-numbers, thaana, yezidi, syriac, arabic</li>
-<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: indic-siyaq-numbers, thaana, yezidi, syriac, arabic</li>
-<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: indic-siyaq-numbers, thaana, yezidi, syriac, arabic</li>
-<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: indic-siyaq-numbers, thaana, yezidi, syriac, arabic</li>
-<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: indic-siyaq-numbers, thaana, yezidi, syriac, arabic</li>
-<li>U+066A ARABIC PERCENT SIGN: try adding one of: arabic, syriac, thaana, nko</li>
+<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: yezidi, arabic, thaana, hanifi-rohingya, indic-siyaq-numbers, syriac</li>
+<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: yezidi, arabic, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: yezidi, arabic, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: yezidi, arabic, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: yezidi, arabic, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: yezidi, arabic, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: yezidi, arabic, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: yezidi, arabic, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: yezidi, arabic, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: yezidi, arabic, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+066A ARABIC PERCENT SIGN: try adding one of: arabic, thaana, nko, syriac</li>
 <li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: arabic, thaana, syriac</li>
 <li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: arabic, thaana, syriac</li>
 <li>U+066E ARABIC LETTER DOTLESS BEH: try adding arabic</li>
@@ -968,16 +968,16 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
 <li>U+2008 PUNCTUATION SPACE: try adding symbols2</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: kayah-li, kharoshthi, syloti-nagri, yi, armenian, lisu, cham, hebrew, sora-sompeng, kaithi, sundanese, arabic, coptic</li>
+<li>U+2010 HYPHEN: try adding one of: lisu, kayah-li, hebrew, coptic, sora-sompeng, sundanese, yi, cham, arabic, syloti-nagri, kaithi, kharoshthi, armenian</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+2025 TWO DOT LEADER: try adding phags-pa</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: phags-pa, mongolian, yi</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi, phags-pa</li>
 <li>U+20DD COMBINING ENCLOSING CIRCLE: try adding symbols</li>
 <li>U+20DE COMBINING ENCLOSING SQUARE: try adding symbols</li>
 <li>U+20DF COMBINING ENCLOSING DIAMOND: try adding symbols</li>
 <li>U+20E4 COMBINING ENCLOSING UPWARD POINTING TRIANGLE: try adding symbols</li>
-<li>U+20F0 COMBINING ASTERISK ABOVE: try adding one of: devanagari, grantha</li>
+<li>U+20F0 COMBINING ASTERISK ABOVE: try adding one of: grantha, devanagari</li>
 <li>U+21AF DOWNWARDS ZIGZAG ARROW: try adding symbols</li>
 <li>U+21E6 LEFTWARDS WHITE ARROW: try adding symbols</li>
 <li>U+21E7 UPWARDS WHITE ARROW: try adding symbols</li>
@@ -1139,10 +1139,10 @@ definitions.</p>
 <li>U+2665 BLACK HEART SUIT: try adding symbols</li>
 <li>U+2666 BLACK DIAMOND SUIT: try adding symbols</li>
 <li>U+2667 WHITE CLUB SUIT: try adding symbols</li>
-<li>U+2669 QUARTER NOTE: try adding one of: music, symbols</li>
-<li>U+266A EIGHTH NOTE: try adding one of: music, symbols</li>
-<li>U+266B BEAMED EIGHTH NOTES: try adding one of: music, symbols</li>
-<li>U+266C BEAMED SIXTEENTH NOTES: try adding one of: music, symbols</li>
+<li>U+2669 QUARTER NOTE: try adding one of: symbols, music</li>
+<li>U+266A EIGHTH NOTE: try adding one of: symbols, music</li>
+<li>U+266B BEAMED EIGHTH NOTES: try adding one of: symbols, music</li>
+<li>U+266C BEAMED SIXTEENTH NOTES: try adding one of: symbols, music</li>
 <li>U+267E PERMANENT PAPER SIGN: try adding symbols</li>
 <li>U+2680 DIE FACE-1: try adding symbols</li>
 <li>U+2681 DIE FACE-2: try adding symbols</li>
@@ -1208,8 +1208,8 @@ definitions.</p>
 <li>U+2B52 WHITE SMALL STAR: try adding symbols</li>
 <li>U+2B53 BLACK RIGHT-POINTING PENTAGON: try adding symbols</li>
 <li>U+2B54 WHITE RIGHT-POINTING PENTAGON: try adding symbols</li>
-<li>U+3012 POSTAL MARK: try adding one of: chinese-hongkong, japanese, chinese-simplified, yi, phags-pa, chinese-traditional</li>
-<li>U+FE00 VARIATION SELECTOR-1: try adding one of: phags-pa, manichaean, yi</li>
+<li>U+3012 POSTAL MARK: try adding one of: chinese-traditional, yi, japanese, phags-pa, chinese-simplified, chinese-hongkong</li>
+<li>U+FE00 VARIATION SELECTOR-1: try adding one of: yi, manichaean, phags-pa</li>
 <li>U+1F780 BLACK LEFT-POINTING ISOSCELES RIGHT TRIANGLE: try adding symbols</li>
 <li>U+1F781 BLACK UP-POINTING ISOSCELES RIGHT TRIANGLE: try adding symbols</li>
 <li>U+1F782 BLACK RIGHT-POINTING ISOSCELES RIGHT TRIANGLE: try adding symbols</li>
@@ -1319,8 +1319,8 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i⃐ i⃑ i⃔ i⃕ i⃖ i⃗ i⃛ i⃜ i⃡ i⃧ i⃩ ị⃐ ị⃑ ị⃔ ị⃕ ị⃖ ị⃗ ị⃛ ị⃜ ị⃡</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Igbo (Latn, 27,823,640 speakers), Ebira (Latn, 2,200,000 speakers), Ekpeye (Latn, 226,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Dutch (Latn, 31,709,104 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Avokaya (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Han (Latn, 6 speakers), Aghem (Latn, 38,843 speakers), Zapotec (Latn, 490,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Koonzime (Latn, 40,000 speakers), Makaa (Latn, 221,000 speakers), South Central Banda (Latn, 244,000 speakers), Yala (Latn, 200,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Basaa (Latn, 332,940 speakers), Lithuanian (Latn, 2,357,094 speakers), Dii (Latn, 71,000 speakers), Kaska (Latn, 125 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Teke-Ebo (Latn, 260,000 speakers), Mango (Latn, 77,000 speakers), Nzakara (Latn, 50,000 speakers), Heiltsuk (Latn, 300 speakers), Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Mfumte (Latn, 79,000 speakers), Fur (Latn, 1,230,163 speakers), Gulay (Latn, 250,478 speakers), Ejagham (Latn, 120,000 speakers), Mundani (Latn, 34,000 speakers), Southern Kisi (Latn, 360,000 speakers), Bafut (Latn, 158,146 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Vute (Latn, 21,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Navajo (Latn, 166,319 speakers), Nateni (Latn, 100,000 speakers), Cicipu (Latn, 44,000 speakers).</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Igbo (Latn, 27,823,640 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Ebira (Latn, 2,200,000 speakers), Ekpeye (Latn, 226,000 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Mundani (Latn, 34,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Makaa (Latn, 221,000 speakers), Lugbara (Latn, 2,200,000 speakers), Kaska (Latn, 125 speakers), Bafut (Latn, 158,146 speakers), Bete-Bendi (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Heiltsuk (Latn, 300 speakers), Avokaya (Latn, 100,000 speakers), Mfumte (Latn, 79,000 speakers), Ma’di (Latn, 584,000 speakers), Mango (Latn, 77,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Aghem (Latn, 38,843 speakers), Nateni (Latn, 100,000 speakers), Navajo (Latn, 166,319 speakers), Cicipu (Latn, 44,000 speakers), Basaa (Latn, 332,940 speakers), Han (Latn, 6 speakers), Nzakara (Latn, 50,000 speakers), Koonzime (Latn, 40,000 speakers), Yala (Latn, 200,000 speakers), Southern Kisi (Latn, 360,000 speakers), Dii (Latn, 71,000 speakers), Fur (Latn, 1,230,163 speakers), Ejagham (Latn, 120,000 speakers), South Central Banda (Latn, 244,000 speakers), Zapotec (Latn, 490,000 speakers), Dan (Latn, 1,099,244 speakers), Vute (Latn, 21,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Kom (Latn, 360,685 speakers), Gulay (Latn, 250,478 speakers).</p>
  [code: soft-dotted]
 
 
