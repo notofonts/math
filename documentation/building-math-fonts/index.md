@@ -365,7 +365,7 @@ Positioning superscripts and subscripts using only glyph advances and italic cor
 
 OpenType `MATH` provides a more flexible way called math kerning (sometimes called cut-ins or staircase kerning), where adjustments at different heights at the four corners of the glyph are provided. When a superscript or a subscript is applied to a base, the vertical height is first determined as [described above](subscriptshiftdown-subscripttopmax-subscriptbaselinedropmin), then the adjustments at the relevant side of each glyphs is used to calculate the desired horizontal shift. This can be thought of as a form of [bubble kerning](https://tosche.net/non-fonts/bubblekern). The exact algorithm is detailed in the [spec](https://learn.microsoft.com/en-us/typography/opentype/spec/math#mathkerninfo-table) (but there is currently a [bug](https://github.com/MicrosoftDocs/typography-issues/issues/1147) in this description).
 
-Some implementations (most notably Microsoft’s) do not apply math kerning to big operators (like integrals or summation), so positioning superscripts and subscripts for big operators needs to be based on glyph advance width and italic correction.
+Almost all implementations do not apply math kerning to big operators (like integrals or summation), so positioning superscripts and subscripts for big operators needs to be based on glyph advance width and italic correction.
 
 In Glyphs, kerning info of each corner can be set using a sequence of anchors that start with `math.tl` (top left), `math.bl` (bottom left), `math.tr` (top right), or `math.br` (bottom right), followed by a dot and a number (for example, `math.tr.0`, `math.tr.1`, `math.tr.2`, and so on).
 
