@@ -187,7 +187,7 @@ This is a very important constant. In math layout, big operators, fractions, and
 The value of the *math axis* is defined by this constant, so it should be set to the vertical center of the regular operators (minus, plus, equal, less than, bigger than, etc). The simplest way to calculate its value is to use the vertical center of the minus glyph, and then make sure all regular operators are centered around it in the font. (Well, not *all* of them, but most of them - some glyphs look better when they set on the base line, so use your judgment and check other math fonts...)
 
 #### `accentBaseHeight`
-As discussed above, the math layout engine does not use the `GPOS` table for positioning anchors. It instead uses data from the `MATH` table, and this constant is one of them; it controls the vertical position of the accent.
+As discussed above, the math layout engine does not use the `GPOS` table for positioning marks. It instead uses data from the `MATH` table, and this constant is one of them; it controls the vertical position of the accent.
 
 * First, the accent with placed right above the base, in its natural position (in other words, the way it is drawn in the font).
 * If the height (the part above baseline) of the base is greater than `accentBaseHeight`, then the accent will be moved up by difference between the `accentBaseHeight` and the height of the base glyph,
