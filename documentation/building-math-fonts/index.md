@@ -279,7 +279,7 @@ Stacks are like fractions but without the fraction rule. The shift up and down s
 ![Various stack constants in action](./stack.svg)
 
 #### `stretchStackTopShiftUp`, `stretchStackGapAboveMin`, `stretchStackBottomShiftDown`, `stretchStackGapBelowMin`
-Stretch stacks are when things are put above or below horizontally stretchable symbols, for example above arrows. The same strategy used for setting [upper limit](#upperlimitgapmin-upperlimitbaselineriseminn) and [lower limit](#lowerlimitgapmin-lowerlimitbaselinedropmin) rise and gap above can be used here.
+Stretch stacks are when things are put above or below horizontally stretchable symbols, for example above arrows. The same strategy used for setting [upper limit](#upperlimitgapmin-upperlimitbaselinerisemin) and [lower limit](#lowerlimitgapmin-lowerlimitbaselinedropmin) rise and gap above can be used here.
 
 ![Various stretch stack constants in action](./stretchstack.svg)
 
