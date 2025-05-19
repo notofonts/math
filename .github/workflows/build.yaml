@@ -2,6 +2,10 @@ name: Build, QA, Release
 
 on: push
 
+permissions:
+  pages: write
+  id-token: write
+
 jobs:
   build_font:
     uses: notofonts/notobuilder/.github/workflows/build.yaml@main
