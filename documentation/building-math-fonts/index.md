@@ -286,7 +286,7 @@ Stretch stacks are when things are put above or below horizontally stretchable s
 #### `skewedFractionHorizontalGap`, `skewedFractionVerticalGap`
 Skewed fractions are fractions that use a slash instead of the horizontal bar.
 
-* First, the denominator is placed right after the numerator and shifted down by the numerators bounding box height (so that the bottom right of the numerator as at the top left of the denominator).
+* First, the denominator is placed right after the numerator and shifted down by the numerators bounding box height (so that the bottom right of the numerator is at the top left of the denominator).
 * Then the denominator is shifted horizontally by `skewedFractionHorizontalGap` and vertically by `skewedFractionVerticalGap`
 * The width of the slash glyph is ignored (as if it set to zero and centered horizontally).
 
