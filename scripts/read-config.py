@@ -20,7 +20,7 @@ for config_file in glob.glob("sources/config*yaml"):
 		data = config.read()
 
 	if args.family:
-		m = re.search(r"(?m)^familyName: (.*)", data)
+		m = re.search(r"(?m)^familyName: ([\w ]+)", data)
 		if m:
 			print(m[1])
 			sys.exit(0)
@@ -34,7 +34,7 @@ for config_file in glob.glob("sources/config*yaml"):
 			toggle = True
 			continue
 		if toggle:
-			m = re.match(r"^\s*-\s*(.*)", line)
+			m = re.match(r"^\s*-\s*([\w\.]+)", line)
 			if m:
 				sources.append("sources/"+m[1])
 			else:
